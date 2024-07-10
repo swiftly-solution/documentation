@@ -1,0 +1,75 @@
+---
+title: CPointEntityFinder
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CPointEntityFinder
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CPointEntityFinder(ptr --[[ string ]])
+```
+# Properties
+## Entity (Read-Only)
+```lua
+@type CBaseEntity
+Read: cpointentityfinder.Entity
+```
+## FilterName 
+```lua
+@type string
+Read: cpointentityfinder.FilterName
+Write: cpointentityfinder.FilterName = value
+```
+## Filter (Read-Only)
+```lua
+@type CBaseFilter
+Read: cpointentityfinder.Filter
+```
+## RefName 
+```lua
+@type string
+Read: cpointentityfinder.RefName
+Write: cpointentityfinder.RefName = value
+```
+## Reference (Read-Only)
+```lua
+@type CBaseEntity
+Read: cpointentityfinder.Reference
+```
+## FindMethod 
+```lua
+@type number
+Read: cpointentityfinder.FindMethod
+Write: cpointentityfinder.FindMethod = value
+```
+## OnFoundEntity 
+```lua
+@type CEntityIOOutput
+Read: cpointentityfinder.OnFoundEntity
+Write: cpointentityfinder.OnFoundEntity = value
+```
+## Parent 
+```lua
+@type CBaseEntity
+Read: cpointentityfinder.Parent
+Write: cpointentityfinder.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cpointentityfinder:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cpointentityfinder:IsValid()
+```
+
+:::

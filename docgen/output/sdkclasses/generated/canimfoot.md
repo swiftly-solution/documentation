@@ -1,0 +1,60 @@
+---
+title: CAnimFoot
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CAnimFoot
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CAnimFoot(ptr --[[ string ]])
+```
+# Properties
+## Name 
+```lua
+@type string
+Read: canimfoot.Name
+Write: canimfoot.Name = value
+```
+## BallOffset 
+```lua
+@type Vector
+Read: canimfoot.BallOffset
+Write: canimfoot.BallOffset = value
+```
+## HeelOffset 
+```lua
+@type Vector
+Read: canimfoot.HeelOffset
+Write: canimfoot.HeelOffset = value
+```
+## AnkleBoneIndex 
+```lua
+@type number
+Read: canimfoot.AnkleBoneIndex
+Write: canimfoot.AnkleBoneIndex = value
+```
+## ToeBoneIndex 
+```lua
+@type number
+Read: canimfoot.ToeBoneIndex
+Write: canimfoot.ToeBoneIndex = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+canimfoot:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+canimfoot:IsValid()
+```
+
+:::

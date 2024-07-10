@@ -1,0 +1,36 @@
+---
+title: CPlayerPawnComponent
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CPlayerPawnComponent
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CPlayerPawnComponent(ptr --[[ string ]])
+```
+# Properties
+## __pChainEntity 
+```lua
+@type CNetworkVarChainer
+Read: cplayerpawncomponent.__pChainEntity
+Write: cplayerpawncomponent.__pChainEntity = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cplayerpawncomponent:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cplayerpawncomponent:IsValid()
+```
+
+:::

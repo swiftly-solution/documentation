@@ -1,0 +1,19 @@
+---
+title: SosActionStopType_t
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# SosActionStopType_t
+::: tabs
+@tab Lua
+```lua
+SosActionStopType_t = {
+    SOS_STOPTYPE_NONE = 0x0,
+    SOS_STOPTYPE_TIME = 0x1,
+    SOS_STOPTYPE_OPVAR = 0x2
+}
+```
+:::

@@ -1,0 +1,54 @@
+---
+title: CCSGOViewModel
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CCSGOViewModel
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CCSGOViewModel(ptr --[[ string ]])
+```
+# Properties
+## ShouldIgnoreOffsetAndAccuracy 
+```lua
+@type boolean
+Read: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy
+Write: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy = value
+```
+## WeaponParity 
+```lua
+@type number
+Read: ccsgoviewmodel.WeaponParity
+Write: ccsgoviewmodel.WeaponParity = value
+```
+## OldWeaponParity 
+```lua
+@type number
+Read: ccsgoviewmodel.OldWeaponParity
+Write: ccsgoviewmodel.OldWeaponParity = value
+```
+## Parent 
+```lua
+@type CPredictedViewModel
+Read: ccsgoviewmodel.Parent
+Write: ccsgoviewmodel.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+ccsgoviewmodel:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+ccsgoviewmodel:IsValid()
+```
+
+:::

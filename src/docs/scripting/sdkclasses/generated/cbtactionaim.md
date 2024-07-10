@@ -1,0 +1,108 @@
+---
+title: CBtActionAim
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CBtActionAim
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CBtActionAim(ptr --[[ string ]])
+```
+# Properties
+## SensorInputKey 
+```lua
+@type string
+Read: cbtactionaim.SensorInputKey
+Write: cbtactionaim.SensorInputKey = value
+```
+## AimReadyKey 
+```lua
+@type string
+Read: cbtactionaim.AimReadyKey
+Write: cbtactionaim.AimReadyKey = value
+```
+## ZoomCooldownTimestamp 
+```lua
+@type number
+Read: cbtactionaim.ZoomCooldownTimestamp
+Write: cbtactionaim.ZoomCooldownTimestamp = value
+```
+## DoneAiming 
+```lua
+@type boolean
+Read: cbtactionaim.DoneAiming
+Write: cbtactionaim.DoneAiming = value
+```
+## LerpStartTime 
+```lua
+@type number
+Read: cbtactionaim.LerpStartTime
+Write: cbtactionaim.LerpStartTime = value
+```
+## NextLookTargetLerpTime 
+```lua
+@type number
+Read: cbtactionaim.NextLookTargetLerpTime
+Write: cbtactionaim.NextLookTargetLerpTime = value
+```
+## PenaltyReductionRatio 
+```lua
+@type number
+Read: cbtactionaim.PenaltyReductionRatio
+Write: cbtactionaim.PenaltyReductionRatio = value
+```
+## NextLookTarget 
+```lua
+@type QAngle
+Read: cbtactionaim.NextLookTarget
+Write: cbtactionaim.NextLookTarget = value
+```
+## AimTimer 
+```lua
+@type CountdownTimer
+Read: cbtactionaim.AimTimer
+Write: cbtactionaim.AimTimer = value
+```
+## SniperHoldTimer 
+```lua
+@type CountdownTimer
+Read: cbtactionaim.SniperHoldTimer
+Write: cbtactionaim.SniperHoldTimer = value
+```
+## FocusIntervalTimer 
+```lua
+@type CountdownTimer
+Read: cbtactionaim.FocusIntervalTimer
+Write: cbtactionaim.FocusIntervalTimer = value
+```
+## Acquired 
+```lua
+@type boolean
+Read: cbtactionaim.Acquired
+Write: cbtactionaim.Acquired = value
+```
+## Parent 
+```lua
+@type CBtNode
+Read: cbtactionaim.Parent
+Write: cbtactionaim.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cbtactionaim:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cbtactionaim:IsValid()
+```
+
+:::

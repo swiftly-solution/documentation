@@ -1,0 +1,66 @@
+---
+title: CLogicGameEventListener
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CLogicGameEventListener
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CLogicGameEventListener(ptr --[[ string ]])
+```
+# Properties
+## OnEventFired 
+```lua
+@type CEntityIOOutput
+Read: clogicgameeventlistener.OnEventFired
+Write: clogicgameeventlistener.OnEventFired = value
+```
+## GameEventName 
+```lua
+@type string
+Read: clogicgameeventlistener.GameEventName
+Write: clogicgameeventlistener.GameEventName = value
+```
+## GameEventItem 
+```lua
+@type string
+Read: clogicgameeventlistener.GameEventItem
+Write: clogicgameeventlistener.GameEventItem = value
+```
+## Enabled 
+```lua
+@type boolean
+Read: clogicgameeventlistener.Enabled
+Write: clogicgameeventlistener.Enabled = value
+```
+## StartDisabled 
+```lua
+@type boolean
+Read: clogicgameeventlistener.StartDisabled
+Write: clogicgameeventlistener.StartDisabled = value
+```
+## Parent 
+```lua
+@type CLogicalEntity
+Read: clogicgameeventlistener.Parent
+Write: clogicgameeventlistener.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+clogicgameeventlistener:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+clogicgameeventlistener:IsValid()
+```
+
+:::

@@ -1,0 +1,48 @@
+---
+title: CPathHelperUpdateNode
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CPathHelperUpdateNode
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CPathHelperUpdateNode(ptr --[[ string ]])
+```
+# Properties
+## StoppingRadius 
+```lua
+@type number
+Read: cpathhelperupdatenode.StoppingRadius
+Write: cpathhelperupdatenode.StoppingRadius = value
+```
+## StoppingSpeedScale 
+```lua
+@type number
+Read: cpathhelperupdatenode.StoppingSpeedScale
+Write: cpathhelperupdatenode.StoppingSpeedScale = value
+```
+## Parent 
+```lua
+@type CUnaryUpdateNode
+Read: cpathhelperupdatenode.Parent
+Write: cpathhelperupdatenode.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cpathhelperupdatenode:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cpathhelperupdatenode:IsValid()
+```
+
+:::

@@ -1,0 +1,118 @@
+---
+title: CBreakable
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CBreakable
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CBreakable(ptr --[[ string ]])
+```
+# Properties
+## CPropDataComponent 
+```lua
+@type CPropDataComponent
+Read: cbreakable.CPropDataComponent
+Write: cbreakable.CPropDataComponent = value
+```
+## Material 
+```lua
+@type number
+Read: cbreakable.Material
+Write: cbreakable.Material = value
+```
+## Breaker (Read-Only)
+```lua
+@type CBaseEntity
+Read: cbreakable.Breaker
+```
+## Explosion 
+```lua
+@type number
+Read: cbreakable.Explosion
+Write: cbreakable.Explosion = value
+```
+## SpawnObject 
+```lua
+@type string
+Read: cbreakable.SpawnObject
+Write: cbreakable.SpawnObject = value
+```
+## PressureDelay 
+```lua
+@type number
+Read: cbreakable.PressureDelay
+Write: cbreakable.PressureDelay = value
+```
+## MinHealthDmg 
+```lua
+@type number
+Read: cbreakable.MinHealthDmg
+Write: cbreakable.MinHealthDmg = value
+```
+## PropData 
+```lua
+@type string
+Read: cbreakable.PropData
+Write: cbreakable.PropData = value
+```
+## ImpactEnergyScale 
+```lua
+@type number
+Read: cbreakable.ImpactEnergyScale
+Write: cbreakable.ImpactEnergyScale = value
+```
+## OverrideBlockLOS 
+```lua
+@type number
+Read: cbreakable.OverrideBlockLOS
+Write: cbreakable.OverrideBlockLOS = value
+```
+## OnBreak 
+```lua
+@type CEntityIOOutput
+Read: cbreakable.OnBreak
+Write: cbreakable.OnBreak = value
+```
+## PerformanceMode 
+```lua
+@type number
+Read: cbreakable.PerformanceMode
+Write: cbreakable.PerformanceMode = value
+```
+## PhysicsAttacker (Read-Only)
+```lua
+@type CBasePlayerPawn
+Read: cbreakable.PhysicsAttacker
+```
+## LastPhysicsInfluenceTime 
+```lua
+@type number
+Read: cbreakable.LastPhysicsInfluenceTime
+Write: cbreakable.LastPhysicsInfluenceTime = value
+```
+## Parent 
+```lua
+@type CBaseModelEntity
+Read: cbreakable.Parent
+Write: cbreakable.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cbreakable:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cbreakable:IsValid()
+```
+
+:::

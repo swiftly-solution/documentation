@@ -1,0 +1,36 @@
+---
+title: CCSObserver_CameraServices
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CCSObserver_CameraServices
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CCSObserver_CameraServices(ptr --[[ string ]])
+```
+# Properties
+## Parent 
+```lua
+@type CCSPlayerBase_CameraServices
+Read: ccsobserver_cameraservices.Parent
+Write: ccsobserver_cameraservices.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+ccsobserver_cameraservices:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+ccsobserver_cameraservices:IsValid()
+```
+
+:::

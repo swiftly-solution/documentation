@@ -1,0 +1,66 @@
+---
+title: CVoiceContainerRandomSampler
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CVoiceContainerRandomSampler
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CVoiceContainerRandomSampler(ptr --[[ string ]])
+```
+# Properties
+## Amplitude 
+```lua
+@type number
+Read: cvoicecontainerrandomsampler.Amplitude
+Write: cvoicecontainerrandomsampler.Amplitude = value
+```
+## AmplitudeJitter 
+```lua
+@type number
+Read: cvoicecontainerrandomsampler.AmplitudeJitter
+Write: cvoicecontainerrandomsampler.AmplitudeJitter = value
+```
+## TimeJitter 
+```lua
+@type number
+Read: cvoicecontainerrandomsampler.TimeJitter
+Write: cvoicecontainerrandomsampler.TimeJitter = value
+```
+## MaxLength 
+```lua
+@type number
+Read: cvoicecontainerrandomsampler.MaxLength
+Write: cvoicecontainerrandomsampler.MaxLength = value
+```
+## NumDelayVariations 
+```lua
+@type number
+Read: cvoicecontainerrandomsampler.NumDelayVariations
+Write: cvoicecontainerrandomsampler.NumDelayVariations = value
+```
+## Parent 
+```lua
+@type CVoiceContainerBase
+Read: cvoicecontainerrandomsampler.Parent
+Write: cvoicecontainerrandomsampler.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cvoicecontainerrandomsampler:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cvoicecontainerrandomsampler:IsValid()
+```
+
+:::

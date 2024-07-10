@@ -1,0 +1,42 @@
+---
+title: AnimationDecodeDebugDump_t
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# AnimationDecodeDebugDump_t
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+AnimationDecodeDebugDump_t(ptr --[[ string ]])
+```
+# Properties
+## ProcessingType 
+```lua
+@type number
+Read: animationdecodedebugdump_t.ProcessingType
+Write: animationdecodedebugdump_t.ProcessingType = value
+```
+## Elems 
+```lua
+@type table
+Read: animationdecodedebugdump_t.Elems
+Write: animationdecodedebugdump_t.Elems = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+animationdecodedebugdump_t:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+animationdecodedebugdump_t:IsValid()
+```
+
+:::

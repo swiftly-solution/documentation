@@ -1,0 +1,60 @@
+---
+title: CEnvFade
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CEnvFade
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CEnvFade(ptr --[[ string ]])
+```
+# Properties
+## FadeColor 
+```lua
+@type Color
+Read: cenvfade.FadeColor
+Write: cenvfade.FadeColor = value
+```
+## Duration 
+```lua
+@type number
+Read: cenvfade.Duration
+Write: cenvfade.Duration = value
+```
+## HoldDuration 
+```lua
+@type number
+Read: cenvfade.HoldDuration
+Write: cenvfade.HoldDuration = value
+```
+## OnBeginFade 
+```lua
+@type CEntityIOOutput
+Read: cenvfade.OnBeginFade
+Write: cenvfade.OnBeginFade = value
+```
+## Parent 
+```lua
+@type CLogicalEntity
+Read: cenvfade.Parent
+Write: cenvfade.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cenvfade:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cenvfade:IsValid()
+```
+
+:::

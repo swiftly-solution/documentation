@@ -1,0 +1,36 @@
+---
+title: CAK47
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CAK47
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CAK47(ptr --[[ string ]])
+```
+# Properties
+## Parent 
+```lua
+@type CCSWeaponBaseGun
+Read: cak47.Parent
+Write: cak47.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cak47:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cak47:IsValid()
+```
+
+:::

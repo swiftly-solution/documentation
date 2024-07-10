@@ -1,0 +1,48 @@
+---
+title: CEnvViewPunch
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CEnvViewPunch
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CEnvViewPunch(ptr --[[ string ]])
+```
+# Properties
+## Radius 
+```lua
+@type number
+Read: cenvviewpunch.Radius
+Write: cenvviewpunch.Radius = value
+```
+## ViewPunch 
+```lua
+@type QAngle
+Read: cenvviewpunch.ViewPunch
+Write: cenvviewpunch.ViewPunch = value
+```
+## Parent 
+```lua
+@type CPointEntity
+Read: cenvviewpunch.Parent
+Write: cenvviewpunch.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cenvviewpunch:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cenvviewpunch:IsValid()
+```
+
+:::

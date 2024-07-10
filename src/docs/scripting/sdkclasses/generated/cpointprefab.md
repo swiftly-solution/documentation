@@ -1,0 +1,71 @@
+---
+title: CPointPrefab
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CPointPrefab
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CPointPrefab(ptr --[[ string ]])
+```
+# Properties
+## TargetMapName 
+```lua
+@type string
+Read: cpointprefab.TargetMapName
+Write: cpointprefab.TargetMapName = value
+```
+## ForceWorldGroupID 
+```lua
+@type string
+Read: cpointprefab.ForceWorldGroupID
+Write: cpointprefab.ForceWorldGroupID = value
+```
+## AssociatedRelayTargetName 
+```lua
+@type string
+Read: cpointprefab.AssociatedRelayTargetName
+Write: cpointprefab.AssociatedRelayTargetName = value
+```
+## FixupNames 
+```lua
+@type boolean
+Read: cpointprefab.FixupNames
+Write: cpointprefab.FixupNames = value
+```
+## LoadDynamic 
+```lua
+@type boolean
+Read: cpointprefab.LoadDynamic
+Write: cpointprefab.LoadDynamic = value
+```
+## AssociatedRelayEntity (Read-Only)
+```lua
+@type CPointPrefab
+Read: cpointprefab.AssociatedRelayEntity
+```
+## Parent 
+```lua
+@type CServerOnlyPointEntity
+Read: cpointprefab.Parent
+Write: cpointprefab.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cpointprefab:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cpointprefab:IsValid()
+```
+
+:::

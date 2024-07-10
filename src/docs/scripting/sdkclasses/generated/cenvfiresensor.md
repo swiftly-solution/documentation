@@ -1,0 +1,84 @@
+---
+title: CEnvFireSensor
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CEnvFireSensor
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CEnvFireSensor(ptr --[[ string ]])
+```
+# Properties
+## Enabled 
+```lua
+@type boolean
+Read: cenvfiresensor.Enabled
+Write: cenvfiresensor.Enabled = value
+```
+## HeatAtLevel 
+```lua
+@type boolean
+Read: cenvfiresensor.HeatAtLevel
+Write: cenvfiresensor.HeatAtLevel = value
+```
+## Radius 
+```lua
+@type number
+Read: cenvfiresensor.Radius
+Write: cenvfiresensor.Radius = value
+```
+## TargetLevel 
+```lua
+@type number
+Read: cenvfiresensor.TargetLevel
+Write: cenvfiresensor.TargetLevel = value
+```
+## TargetTime 
+```lua
+@type number
+Read: cenvfiresensor.TargetTime
+Write: cenvfiresensor.TargetTime = value
+```
+## LevelTime 
+```lua
+@type number
+Read: cenvfiresensor.LevelTime
+Write: cenvfiresensor.LevelTime = value
+```
+## OnHeatLevelStart 
+```lua
+@type CEntityIOOutput
+Read: cenvfiresensor.OnHeatLevelStart
+Write: cenvfiresensor.OnHeatLevelStart = value
+```
+## OnHeatLevelEnd 
+```lua
+@type CEntityIOOutput
+Read: cenvfiresensor.OnHeatLevelEnd
+Write: cenvfiresensor.OnHeatLevelEnd = value
+```
+## Parent 
+```lua
+@type CBaseEntity
+Read: cenvfiresensor.Parent
+Write: cenvfiresensor.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cenvfiresensor:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cenvfiresensor:IsValid()
+```
+
+:::

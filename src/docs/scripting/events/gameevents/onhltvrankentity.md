@@ -1,0 +1,26 @@
+---
+title: OnHltvRankEntity
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# OnHltvRankEntity
+This event is triggered when an entity ranking
+::: tabs
+@tab Lua
+```lua
+@event returns void
+AddEventHandler("OnHltvRankEntity", function(event --[[ Event ]])
+    --[[ ... ]]
+    return EventResult.Continue
+end)
+```
+
+:::
+|    Key   | Data Type |
+| :------: | :-------: |
+| `userid` |   `int`   |
+|  `rank`  |  `float`  |
+| `target` |   `int`   |

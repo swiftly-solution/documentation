@@ -1,0 +1,84 @@
+---
+title: CSosGroupActionMemberCountEnvelopeSchema
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CSosGroupActionMemberCountEnvelopeSchema
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CSosGroupActionMemberCountEnvelopeSchema(ptr --[[ string ]])
+```
+# Properties
+## BaseCount 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.BaseCount
+Write: csosgroupactionmembercountenvelopeschema.BaseCount = value
+```
+## TargetCount 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.TargetCount
+Write: csosgroupactionmembercountenvelopeschema.TargetCount = value
+```
+## BaseValue 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.BaseValue
+Write: csosgroupactionmembercountenvelopeschema.BaseValue = value
+```
+## TargetValue 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.TargetValue
+Write: csosgroupactionmembercountenvelopeschema.TargetValue = value
+```
+## Attack 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.Attack
+Write: csosgroupactionmembercountenvelopeschema.Attack = value
+```
+## Decay 
+```lua
+@type number
+Read: csosgroupactionmembercountenvelopeschema.Decay
+Write: csosgroupactionmembercountenvelopeschema.Decay = value
+```
+## ResultVarName 
+```lua
+@type string
+Read: csosgroupactionmembercountenvelopeschema.ResultVarName
+Write: csosgroupactionmembercountenvelopeschema.ResultVarName = value
+```
+## SaveToGroup 
+```lua
+@type boolean
+Read: csosgroupactionmembercountenvelopeschema.SaveToGroup
+Write: csosgroupactionmembercountenvelopeschema.SaveToGroup = value
+```
+## Parent 
+```lua
+@type CSosGroupActionSchema
+Read: csosgroupactionmembercountenvelopeschema.Parent
+Write: csosgroupactionmembercountenvelopeschema.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+csosgroupactionmembercountenvelopeschema:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+csosgroupactionmembercountenvelopeschema:IsValid()
+```
+
+:::

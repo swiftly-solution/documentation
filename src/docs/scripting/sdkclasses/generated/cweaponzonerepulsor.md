@@ -1,0 +1,36 @@
+---
+title: CWeaponZoneRepulsor
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CWeaponZoneRepulsor
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CWeaponZoneRepulsor(ptr --[[ string ]])
+```
+# Properties
+## Parent 
+```lua
+@type CCSWeaponBaseGun
+Read: cweaponzonerepulsor.Parent
+Write: cweaponzonerepulsor.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cweaponzonerepulsor:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cweaponzonerepulsor:IsValid()
+```
+
+:::

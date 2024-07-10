@@ -1,0 +1,48 @@
+---
+title: CAnimFrameBlockAnim
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CAnimFrameBlockAnim
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CAnimFrameBlockAnim(ptr --[[ string ]])
+```
+# Properties
+## StartFrame 
+```lua
+@type number
+Read: canimframeblockanim.StartFrame
+Write: canimframeblockanim.StartFrame = value
+```
+## EndFrame 
+```lua
+@type number
+Read: canimframeblockanim.EndFrame
+Write: canimframeblockanim.EndFrame = value
+```
+## SegmentIndexArray 
+```lua
+@type table
+Read: canimframeblockanim.SegmentIndexArray
+Write: canimframeblockanim.SegmentIndexArray = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+canimframeblockanim:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+canimframeblockanim:IsValid()
+```
+
+:::

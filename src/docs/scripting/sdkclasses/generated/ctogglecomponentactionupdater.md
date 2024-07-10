@@ -1,0 +1,48 @@
+---
+title: CToggleComponentActionUpdater
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CToggleComponentActionUpdater
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CToggleComponentActionUpdater(ptr --[[ string ]])
+```
+# Properties
+## ComponentID 
+```lua
+@type AnimComponentID
+Read: ctogglecomponentactionupdater.ComponentID
+Write: ctogglecomponentactionupdater.ComponentID = value
+```
+## SetEnabled 
+```lua
+@type boolean
+Read: ctogglecomponentactionupdater.SetEnabled
+Write: ctogglecomponentactionupdater.SetEnabled = value
+```
+## Parent 
+```lua
+@type CAnimActionUpdater
+Read: ctogglecomponentactionupdater.Parent
+Write: ctogglecomponentactionupdater.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+ctogglecomponentactionupdater:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+ctogglecomponentactionupdater:IsValid()
+```
+
+:::

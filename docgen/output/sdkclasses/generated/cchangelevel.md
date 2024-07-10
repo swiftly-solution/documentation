@@ -1,0 +1,78 @@
+---
+title: CChangeLevel
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CChangeLevel
+
+::: tabs
+@tab Lua
+# Constructor
+```lua
+CChangeLevel(ptr --[[ string ]])
+```
+# Properties
+## MapName 
+```lua
+@type string
+Read: cchangelevel.MapName
+Write: cchangelevel.MapName = value
+```
+## LandmarkName 
+```lua
+@type string
+Read: cchangelevel.LandmarkName
+Write: cchangelevel.LandmarkName = value
+```
+## OnChangeLevel 
+```lua
+@type CEntityIOOutput
+Read: cchangelevel.OnChangeLevel
+Write: cchangelevel.OnChangeLevel = value
+```
+## Touched 
+```lua
+@type boolean
+Read: cchangelevel.Touched
+Write: cchangelevel.Touched = value
+```
+## NoTouch 
+```lua
+@type boolean
+Read: cchangelevel.NoTouch
+Write: cchangelevel.NoTouch = value
+```
+## NewChapter 
+```lua
+@type boolean
+Read: cchangelevel.NewChapter
+Write: cchangelevel.NewChapter = value
+```
+## OnChangeLevelFired 
+```lua
+@type boolean
+Read: cchangelevel.OnChangeLevelFired
+Write: cchangelevel.OnChangeLevelFired = value
+```
+## Parent 
+```lua
+@type CBaseTrigger
+Read: cchangelevel.Parent
+Write: cchangelevel.Parent = value
+```
+# Functions
+## ToPtr
+```lua
+@returns string
+cchangelevel:ToPtr()
+```
+## IsValid
+```lua
+@returns bool
+cchangelevel:IsValid()
+```
+
+:::

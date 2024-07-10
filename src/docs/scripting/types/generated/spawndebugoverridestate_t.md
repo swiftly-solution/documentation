@@ -1,0 +1,19 @@
+---
+title: SpawnDebugOverrideState_t
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# SpawnDebugOverrideState_t
+::: tabs
+@tab Lua
+```lua
+SpawnDebugOverrideState_t = {
+    SPAWN_DEBUG_OVERRIDE_NONE = 0x0,
+    SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED = 0x1,
+    SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED = 0x2
+}
+```
+:::

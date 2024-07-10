@@ -1,0 +1,18 @@
+---
+title: CRR_Response__ResponseEnum_t
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# CRR_Response__ResponseEnum_t
+::: tabs
+@tab Lua
+```lua
+CRR_Response__ResponseEnum_t = {
+    MAX_RESPONSE_NAME = 0xc0,
+    MAX_RULE_NAME = 0x80
+}
+```
+:::
