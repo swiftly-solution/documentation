@@ -15,17 +15,15 @@ category:
 NmSyncTrackTimeRange_t(ptr --[[ string ]])
 ```
 # Properties
-## StartTime 
+## StartTime (Read-Only)
 ```lua
 @type NmSyncTrackTime_t
 Read: nmsynctracktimerange_t.StartTime
-Write: nmsynctracktimerange_t.StartTime = value
 ```
-## EndTime 
+## EndTime (Read-Only)
 ```lua
 @type NmSyncTrackTime_t
 Read: nmsynctracktimerange_t.EndTime
-Write: nmsynctracktimerange_t.EndTime = value
 ```
 # Functions
 ## ToPtr

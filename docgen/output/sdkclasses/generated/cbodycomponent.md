@@ -15,16 +15,16 @@ category:
 CBodyComponent(ptr --[[ string ]])
 ```
 # Properties
-## SceneNode (Read-Only)
+## SceneNode 
 ```lua
 @type CGameSceneNode
 Read: cbodycomponent.SceneNode
+Write: cbodycomponent.SceneNode = value
 ```
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: cbodycomponent.__pChainEntity
-Write: cbodycomponent.__pChainEntity = value
 ```
 ## Parent 
 ```lua

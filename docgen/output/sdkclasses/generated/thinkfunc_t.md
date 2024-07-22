@@ -17,7 +17,7 @@ thinkfunc_t(ptr --[[ string ]])
 # Properties
 ## Context 
 ```lua
-@type string
+@type number
 Read: thinkfunc_t.Context
 Write: thinkfunc_t.Context = value
 ```

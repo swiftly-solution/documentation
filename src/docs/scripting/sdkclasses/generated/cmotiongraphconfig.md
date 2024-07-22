@@ -27,11 +27,10 @@ Write: cmotiongraphconfig.ParamValues = value
 Read: cmotiongraphconfig.Duration
 Write: cmotiongraphconfig.Duration = value
 ```
-## MotionIndex 
+## MotionIndex (Read-Only)
 ```lua
 @type MotionIndex
 Read: cmotiongraphconfig.MotionIndex
-Write: cmotiongraphconfig.MotionIndex = value
 ```
 ## SampleStart 
 ```lua

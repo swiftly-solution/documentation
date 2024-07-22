@@ -45,11 +45,10 @@ Write: cpointtemplate.TimeoutInterval = value
 Read: cpointtemplate.AsynchronouslySpawnEntities
 Write: cpointtemplate.AsynchronouslySpawnEntities = value
 ```
-## OutputOnSpawned 
+## OutputOnSpawned (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointtemplate.OutputOnSpawned
-Write: cpointtemplate.OutputOnSpawned = value
 ```
 ## ClientOnlyEntityBehavior 
 ```lua

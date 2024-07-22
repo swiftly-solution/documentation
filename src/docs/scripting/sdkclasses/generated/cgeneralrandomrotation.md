@@ -15,11 +15,10 @@ category:
 CGeneralRandomRotation(ptr --[[ string ]])
 ```
 # Properties
-## FieldOutput 
+## FieldOutput (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cgeneralrandomrotation.FieldOutput
-Write: cgeneralrandomrotation.FieldOutput = value
 ```
 ## Degrees 
 ```lua

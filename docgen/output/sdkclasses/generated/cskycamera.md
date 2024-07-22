@@ -15,15 +15,14 @@ category:
 CSkyCamera(ptr --[[ string ]])
 ```
 # Properties
-## SkyboxData 
+## SkyboxData (Read-Only)
 ```lua
 @type sky3dparams_t
 Read: cskycamera.SkyboxData
-Write: cskycamera.SkyboxData = value
 ```
 ## SkyboxSlotToken 
 ```lua
-@type string
+@type number
 Read: cskycamera.SkyboxSlotToken
 Write: cskycamera.SkyboxSlotToken = value
 ```
@@ -33,10 +32,11 @@ Write: cskycamera.SkyboxSlotToken = value
 Read: cskycamera.UseAngles
 Write: cskycamera.UseAngles = value
 ```
-## Next (Read-Only)
+## Next 
 ```lua
 @type CSkyCamera
 Read: cskycamera.Next
+Write: cskycamera.Next = value
 ```
 ## Parent 
 ```lua

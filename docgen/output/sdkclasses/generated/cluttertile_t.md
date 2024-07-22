@@ -27,11 +27,10 @@ Write: cluttertile_t.FirstInstance = value
 Read: cluttertile_t.LastInstance
 Write: cluttertile_t.LastInstance = value
 ```
-## BoundsWs 
+## BoundsWs (Read-Only)
 ```lua
 @type AABB_t
 Read: cluttertile_t.BoundsWs
-Write: cluttertile_t.BoundsWs = value
 ```
 # Functions
 ## ToPtr

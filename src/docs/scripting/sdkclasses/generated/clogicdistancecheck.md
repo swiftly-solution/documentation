@@ -39,23 +39,20 @@ Write: clogicdistancecheck.Zone1Distance = value
 Read: clogicdistancecheck.Zone2Distance
 Write: clogicdistancecheck.Zone2Distance = value
 ```
-## InZone1 
+## InZone1 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicdistancecheck.InZone1
-Write: clogicdistancecheck.InZone1 = value
 ```
-## InZone2 
+## InZone2 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicdistancecheck.InZone2
-Write: clogicdistancecheck.InZone2 = value
 ```
-## InZone3 
+## InZone3 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicdistancecheck.InZone3
-Write: clogicdistancecheck.InZone3 = value
 ```
 ## Parent 
 ```lua

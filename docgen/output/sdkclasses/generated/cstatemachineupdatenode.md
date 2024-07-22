@@ -15,11 +15,10 @@ category:
 CStateMachineUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## StateMachine 
+## StateMachine (Read-Only)
 ```lua
 @type CAnimStateMachineUpdater
 Read: cstatemachineupdatenode.StateMachine
-Write: cstatemachineupdatenode.StateMachine = value
 ```
 ## StateData 
 ```lua

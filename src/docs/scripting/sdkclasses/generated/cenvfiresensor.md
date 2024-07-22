@@ -51,17 +51,15 @@ Write: cenvfiresensor.TargetTime = value
 Read: cenvfiresensor.LevelTime
 Write: cenvfiresensor.LevelTime = value
 ```
-## OnHeatLevelStart 
+## OnHeatLevelStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvfiresensor.OnHeatLevelStart
-Write: cenvfiresensor.OnHeatLevelStart = value
 ```
-## OnHeatLevelEnd 
+## OnHeatLevelEnd (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvfiresensor.OnHeatLevelEnd
-Write: cenvfiresensor.OnHeatLevelEnd = value
 ```
 ## Parent 
 ```lua

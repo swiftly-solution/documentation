@@ -27,11 +27,10 @@ Write: cfeindexedjigglebone.Node = value
 Read: cfeindexedjigglebone.JiggleParent
 Write: cfeindexedjigglebone.JiggleParent = value
 ```
-## JiggleBone 
+## JiggleBone (Read-Only)
 ```lua
 @type CFeJiggleBone
 Read: cfeindexedjigglebone.JiggleBone
-Write: cfeindexedjigglebone.JiggleBone = value
 ```
 # Functions
 ## ToPtr

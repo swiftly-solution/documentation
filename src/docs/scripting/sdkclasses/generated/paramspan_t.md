@@ -21,11 +21,10 @@ ParamSpan_t(ptr --[[ string ]])
 Read: paramspan_t.Samples
 Write: paramspan_t.Samples = value
 ```
-## Param 
+## Param (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: paramspan_t.Param
-Write: paramspan_t.Param = value
 ```
 ## ParamType 
 ```lua

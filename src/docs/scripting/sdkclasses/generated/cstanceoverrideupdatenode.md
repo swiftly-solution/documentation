@@ -21,17 +21,15 @@ CStanceOverrideUpdateNode(ptr --[[ string ]])
 Read: cstanceoverrideupdatenode.FootStanceInfo
 Write: cstanceoverrideupdatenode.FootStanceInfo = value
 ```
-## StanceSourceNode 
+## StanceSourceNode (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: cstanceoverrideupdatenode.StanceSourceNode
-Write: cstanceoverrideupdatenode.StanceSourceNode = value
 ```
-## Parameter 
+## Parameter (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cstanceoverrideupdatenode.Parameter
-Write: cstanceoverrideupdatenode.Parameter = value
 ```
 ## Mode 
 ```lua

@@ -25,17 +25,15 @@ Read: cgamechoreoservices.Owner
 @type CScriptedSequence
 Read: cgamechoreoservices.ScriptedSequence
 ```
-## ScriptState 
+## ScriptState (Read-Only)
 ```lua
 @type IChoreoServices
 Read: cgamechoreoservices.ScriptState
-Write: cgamechoreoservices.ScriptState = value
 ```
-## ChoreoState 
+## ChoreoState (Read-Only)
 ```lua
 @type IChoreoServices
 Read: cgamechoreoservices.ChoreoState
-Write: cgamechoreoservices.ChoreoState = value
 ```
 ## TimeStartedState 
 ```lua

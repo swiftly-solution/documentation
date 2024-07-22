@@ -15,47 +15,40 @@ category:
 CLookComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## LookHeading 
+## LookHeading (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookHeading
-Write: clookcomponentupdater.LookHeading = value
 ```
-## LookHeadingVelocity 
+## LookHeadingVelocity (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookHeadingVelocity
-Write: clookcomponentupdater.LookHeadingVelocity = value
 ```
-## LookPitch 
+## LookPitch (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookPitch
-Write: clookcomponentupdater.LookPitch = value
 ```
-## LookDistance 
+## LookDistance (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookDistance
-Write: clookcomponentupdater.LookDistance = value
 ```
-## LookDirection 
+## LookDirection (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookDirection
-Write: clookcomponentupdater.LookDirection = value
 ```
-## LookTarget 
+## LookTarget (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookTarget
-Write: clookcomponentupdater.LookTarget = value
 ```
-## LookTargetWorldSpace 
+## LookTargetWorldSpace (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookcomponentupdater.LookTargetWorldSpace
-Write: clookcomponentupdater.LookTargetWorldSpace = value
 ```
 ## NetworkLookTarget 
 ```lua

@@ -15,23 +15,20 @@ category:
 CFollowTargetUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedData 
+## OpFixedData (Read-Only)
 ```lua
 @type FollowTargetOpFixedSettings_t
 Read: cfollowtargetupdatenode.OpFixedData
-Write: cfollowtargetupdatenode.OpFixedData = value
 ```
-## ParameterPosition 
+## ParameterPosition (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cfollowtargetupdatenode.ParameterPosition
-Write: cfollowtargetupdatenode.ParameterPosition = value
 ```
-## ParameterOrientation 
+## ParameterOrientation (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cfollowtargetupdatenode.ParameterOrientation
-Write: cfollowtargetupdatenode.ParameterOrientation = value
 ```
 ## Parent 
 ```lua

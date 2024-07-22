@@ -15,17 +15,15 @@ category:
 CSeqSynthAnimDesc(ptr --[[ string ]])
 ```
 # Properties
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CSeqSeqDescFlag
 Read: cseqsynthanimdesc.Flags
-Write: cseqsynthanimdesc.Flags = value
 ```
-## Transition 
+## Transition (Read-Only)
 ```lua
 @type CSeqTransition
 Read: cseqsynthanimdesc.Transition
-Write: cseqsynthanimdesc.Transition = value
 ```
 ## LocalBaseReference 
 ```lua

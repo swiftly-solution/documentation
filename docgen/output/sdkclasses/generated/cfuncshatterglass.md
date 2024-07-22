@@ -153,11 +153,10 @@ Write: cfuncshatterglass.InitialDamagePositions = value
 Read: cfuncshatterglass.ExtraDamagePositions
 Write: cfuncshatterglass.ExtraDamagePositions = value
 ```
-## OnBroken 
+## OnBroken (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncshatterglass.OnBroken
-Write: cfuncshatterglass.OnBroken = value
 ```
 ## SurfaceType 
 ```lua

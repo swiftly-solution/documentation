@@ -15,53 +15,45 @@ category:
 CLogicNPCCounter(ptr --[[ string ]])
 ```
 # Properties
-## OnMinCountAll 
+## OnMinCountAll (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMinCountAll
-Write: clogicnpccounter.OnMinCountAll = value
 ```
-## OnMaxCountAll 
+## OnMaxCountAll (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMaxCountAll
-Write: clogicnpccounter.OnMaxCountAll = value
 ```
-## OnMinCount_1 
+## OnMinCount_1 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMinCount_1
-Write: clogicnpccounter.OnMinCount_1 = value
 ```
-## OnMaxCount_1 
+## OnMaxCount_1 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMaxCount_1
-Write: clogicnpccounter.OnMaxCount_1 = value
 ```
-## OnMinCount_2 
+## OnMinCount_2 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMinCount_2
-Write: clogicnpccounter.OnMinCount_2 = value
 ```
-## OnMaxCount_2 
+## OnMaxCount_2 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMaxCount_2
-Write: clogicnpccounter.OnMaxCount_2 = value
 ```
-## OnMinCount_3 
+## OnMinCount_3 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMinCount_3
-Write: clogicnpccounter.OnMinCount_3 = value
 ```
-## OnMaxCount_3 
+## OnMaxCount_3 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicnpccounter.OnMaxCount_3
-Write: clogicnpccounter.OnMaxCount_3 = value
 ```
 ## Source (Read-Only)
 ```lua

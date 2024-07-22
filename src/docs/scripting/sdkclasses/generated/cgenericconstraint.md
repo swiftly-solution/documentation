@@ -285,23 +285,20 @@ Write: cgenericconstraint.MaxAngularImpulseY = value
 Read: cgenericconstraint.MaxAngularImpulseZ
 Write: cgenericconstraint.MaxAngularImpulseZ = value
 ```
-## NotifyForceReachedX 
+## NotifyForceReachedX (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgenericconstraint.NotifyForceReachedX
-Write: cgenericconstraint.NotifyForceReachedX = value
 ```
-## NotifyForceReachedY 
+## NotifyForceReachedY (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgenericconstraint.NotifyForceReachedY
-Write: cgenericconstraint.NotifyForceReachedY = value
 ```
-## NotifyForceReachedZ 
+## NotifyForceReachedZ (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgenericconstraint.NotifyForceReachedZ
-Write: cgenericconstraint.NotifyForceReachedZ = value
 ```
 ## Parent 
 ```lua

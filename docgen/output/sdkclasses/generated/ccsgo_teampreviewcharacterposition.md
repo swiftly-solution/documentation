@@ -45,23 +45,20 @@ Write: ccsgo_teampreviewcharacterposition.WeaponName = value
 Read: ccsgo_teampreviewcharacterposition.Xuid
 Write: ccsgo_teampreviewcharacterposition.Xuid = value
 ```
-## AgentItem 
+## AgentItem (Read-Only)
 ```lua
 @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.AgentItem
-Write: ccsgo_teampreviewcharacterposition.AgentItem = value
 ```
-## GlovesItem 
+## GlovesItem (Read-Only)
 ```lua
 @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.GlovesItem
-Write: ccsgo_teampreviewcharacterposition.GlovesItem = value
 ```
-## WeaponItem 
+## WeaponItem (Read-Only)
 ```lua
 @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.WeaponItem
-Write: ccsgo_teampreviewcharacterposition.WeaponItem = value
 ```
 ## Parent 
 ```lua

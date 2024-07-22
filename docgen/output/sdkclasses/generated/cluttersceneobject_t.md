@@ -15,11 +15,10 @@ category:
 ClutterSceneObject_t(ptr --[[ string ]])
 ```
 # Properties
-## Bounds 
+## Bounds (Read-Only)
 ```lua
 @type AABB_t
 Read: cluttersceneobject_t.Bounds
-Write: cluttersceneobject_t.Bounds = value
 ```
 ## Flags 
 ```lua

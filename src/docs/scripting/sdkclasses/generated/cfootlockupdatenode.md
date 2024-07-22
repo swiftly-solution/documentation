@@ -15,11 +15,10 @@ category:
 CFootLockUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedSettings 
+## OpFixedSettings (Read-Only)
 ```lua
 @type FootLockPoseOpFixedSettings
 Read: cfootlockupdatenode.OpFixedSettings
-Write: cfootlockupdatenode.OpFixedSettings = value
 ```
 ## FootSettings 
 ```lua
@@ -27,17 +26,15 @@ Write: cfootlockupdatenode.OpFixedSettings = value
 Read: cfootlockupdatenode.FootSettings
 Write: cfootlockupdatenode.FootSettings = value
 ```
-## HipShiftDamping 
+## HipShiftDamping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cfootlockupdatenode.HipShiftDamping
-Write: cfootlockupdatenode.HipShiftDamping = value
 ```
-## RootHeightDamping 
+## RootHeightDamping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cfootlockupdatenode.RootHeightDamping
-Write: cfootlockupdatenode.RootHeightDamping = value
 ```
 ## StrideCurveScale 
 ```lua

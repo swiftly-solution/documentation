@@ -45,10 +45,11 @@ Write: castspheresatparams_t.MaxFraction = value
 Read: castspheresatparams_t.Scale
 Write: castspheresatparams_t.Scale = value
 ```
-## Hull (Read-Only)
+## Hull 
 ```lua
 @type RnHull_t
 Read: castspheresatparams_t.Hull
+Write: castspheresatparams_t.Hull = value
 ```
 # Functions
 ## ToPtr

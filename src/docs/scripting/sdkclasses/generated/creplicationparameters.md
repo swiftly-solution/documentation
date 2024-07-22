@@ -27,23 +27,20 @@ Write: creplicationparameters.ReplicationMode = value
 Read: creplicationparameters.ScaleChildParticleRadii
 Write: creplicationparameters.ScaleChildParticleRadii = value
 ```
-## MinRandomRadiusScale 
+## MinRandomRadiusScale (Read-Only)
 ```lua
 @type CParticleCollectionFloatInput
 Read: creplicationparameters.MinRandomRadiusScale
-Write: creplicationparameters.MinRandomRadiusScale = value
 ```
-## MaxRandomRadiusScale 
+## MaxRandomRadiusScale (Read-Only)
 ```lua
 @type CParticleCollectionFloatInput
 Read: creplicationparameters.MaxRandomRadiusScale
-Write: creplicationparameters.MaxRandomRadiusScale = value
 ```
-## ModellingScale 
+## ModellingScale (Read-Only)
 ```lua
 @type CParticleCollectionFloatInput
 Read: creplicationparameters.ModellingScale
-Write: creplicationparameters.ModellingScale = value
 ```
 # Functions
 ## ToPtr

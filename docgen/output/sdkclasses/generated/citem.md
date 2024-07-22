@@ -15,17 +15,15 @@ category:
 CItem(ptr --[[ string ]])
 ```
 # Properties
-## OnPlayerTouch 
+## OnPlayerTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: citem.OnPlayerTouch
-Write: citem.OnPlayerTouch = value
 ```
-## OnPlayerPickup 
+## OnPlayerPickup (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: citem.OnPlayerPickup
-Write: citem.OnPlayerPickup = value
 ```
 ## ActivateWhenAtRest 
 ```lua
@@ -33,17 +31,15 @@ Write: citem.OnPlayerPickup = value
 Read: citem.ActivateWhenAtRest
 Write: citem.ActivateWhenAtRest = value
 ```
-## OnCacheInteraction 
+## OnCacheInteraction (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: citem.OnCacheInteraction
-Write: citem.OnCacheInteraction = value
 ```
-## OnGlovePulled 
+## OnGlovePulled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: citem.OnGlovePulled
-Write: citem.OnGlovePulled = value
 ```
 ## OriginalSpawnOrigin 
 ```lua

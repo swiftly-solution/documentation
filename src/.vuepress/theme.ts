@@ -45,7 +45,13 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    searchPro: true,
+    searchPro: {
+      indexContent: true,
+      autoSuggestions: true,
+      queryHistoryCount: 0,
+      resultHistoryCount: 0,
+      searchDelay: 1000
+    },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {

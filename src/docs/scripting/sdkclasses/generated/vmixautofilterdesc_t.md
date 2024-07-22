@@ -33,11 +33,10 @@ Write: vmixautofilterdesc_t.AttackTimeMS = value
 Read: vmixautofilterdesc_t.ReleaseTimeMS
 Write: vmixautofilterdesc_t.ReleaseTimeMS = value
 ```
-## Filter 
+## Filter (Read-Only)
 ```lua
 @type VMixFilterDesc_t
 Read: vmixautofilterdesc_t.Filter
-Write: vmixautofilterdesc_t.Filter = value
 ```
 ## LFOAmount 
 ```lua

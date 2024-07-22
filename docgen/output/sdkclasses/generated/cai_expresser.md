@@ -69,10 +69,11 @@ Write: cai_expresser.SceneEntityDisabled = value
 Read: cai_expresser.LastSpokenPriority
 Write: cai_expresser.LastSpokenPriority = value
 ```
-## Outer (Read-Only)
+## Outer 
 ```lua
 @type CBaseFlex
 Read: cai_expresser.Outer
+Write: cai_expresser.Outer = value
 ```
 # Functions
 ## ToPtr

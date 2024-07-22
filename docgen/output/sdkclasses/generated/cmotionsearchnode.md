@@ -21,11 +21,10 @@ CMotionSearchNode(ptr --[[ string ]])
 Read: cmotionsearchnode.Children
 Write: cmotionsearchnode.Children = value
 ```
-## Quantizer 
+## Quantizer (Read-Only)
 ```lua
 @type CVectorQuantizer
 Read: cmotionsearchnode.Quantizer
-Write: cmotionsearchnode.Quantizer = value
 ```
 ## SelectableSamples 
 ```lua

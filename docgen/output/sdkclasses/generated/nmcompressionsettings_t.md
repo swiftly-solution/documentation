@@ -15,29 +15,25 @@ category:
 NmCompressionSettings_t(ptr --[[ string ]])
 ```
 # Properties
-## TranslationRangeX 
+## TranslationRangeX (Read-Only)
 ```lua
 @type NmCompressionSettings_t
 Read: nmcompressionsettings_t.TranslationRangeX
-Write: nmcompressionsettings_t.TranslationRangeX = value
 ```
-## TranslationRangeY 
+## TranslationRangeY (Read-Only)
 ```lua
 @type NmCompressionSettings_t
 Read: nmcompressionsettings_t.TranslationRangeY
-Write: nmcompressionsettings_t.TranslationRangeY = value
 ```
-## TranslationRangeZ 
+## TranslationRangeZ (Read-Only)
 ```lua
 @type NmCompressionSettings_t
 Read: nmcompressionsettings_t.TranslationRangeZ
-Write: nmcompressionsettings_t.TranslationRangeZ = value
 ```
-## ScaleRange 
+## ScaleRange (Read-Only)
 ```lua
 @type NmCompressionSettings_t
 Read: nmcompressionsettings_t.ScaleRange
-Write: nmcompressionsettings_t.ScaleRange = value
 ```
 ## IsRotationStatic 
 ```lua

@@ -15,11 +15,10 @@ category:
 CLogicGameEventListener(ptr --[[ string ]])
 ```
 # Properties
-## OnEventFired 
+## OnEventFired (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicgameeventlistener.OnEventFired
-Write: clogicgameeventlistener.OnEventFired = value
 ```
 ## GameEventName 
 ```lua

@@ -23,15 +23,14 @@ Write: variableinfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type string
+@type number
 Read: variableinfo_t.NameToken
 Write: variableinfo_t.NameToken = value
 ```
-## Index 
+## Index (Read-Only)
 ```lua
 @type FuseVariableIndex_t
 Read: variableinfo_t.Index
-Write: variableinfo_t.Index = value
 ```
 ## NumComponents 
 ```lua

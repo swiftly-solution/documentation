@@ -15,65 +15,55 @@ category:
 CLogicAuto(ptr --[[ string ]])
 ```
 # Properties
-## OnMapSpawn 
+## OnMapSpawn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnMapSpawn
-Write: clogicauto.OnMapSpawn = value
 ```
-## OnDemoMapSpawn 
+## OnDemoMapSpawn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnDemoMapSpawn
-Write: clogicauto.OnDemoMapSpawn = value
 ```
-## OnNewGame 
+## OnNewGame (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnNewGame
-Write: clogicauto.OnNewGame = value
 ```
-## OnLoadGame 
+## OnLoadGame (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnLoadGame
-Write: clogicauto.OnLoadGame = value
 ```
-## OnMapTransition 
+## OnMapTransition (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnMapTransition
-Write: clogicauto.OnMapTransition = value
 ```
-## OnBackgroundMap 
+## OnBackgroundMap (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnBackgroundMap
-Write: clogicauto.OnBackgroundMap = value
 ```
-## OnMultiNewMap 
+## OnMultiNewMap (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnMultiNewMap
-Write: clogicauto.OnMultiNewMap = value
 ```
-## OnMultiNewRound 
+## OnMultiNewRound (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnMultiNewRound
-Write: clogicauto.OnMultiNewRound = value
 ```
-## OnVREnabled 
+## OnVREnabled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnVREnabled
-Write: clogicauto.OnVREnabled = value
 ```
-## OnVRNotEnabled 
+## OnVRNotEnabled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicauto.OnVRNotEnabled
-Write: clogicauto.OnVRNotEnabled = value
 ```
 ## Globalstate 
 ```lua

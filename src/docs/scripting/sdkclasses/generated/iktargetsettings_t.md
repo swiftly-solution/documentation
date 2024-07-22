@@ -21,23 +21,20 @@ IKTargetSettings_t(ptr --[[ string ]])
 Read: iktargetsettings_t.TargetSource
 Write: iktargetsettings_t.TargetSource = value
 ```
-## Bone 
+## Bone (Read-Only)
 ```lua
 @type IKBoneNameAndIndex_t
 Read: iktargetsettings_t.Bone
-Write: iktargetsettings_t.Bone = value
 ```
-## AnimgraphParameterNamePosition 
+## AnimgraphParameterNamePosition (Read-Only)
 ```lua
 @type AnimParamID
 Read: iktargetsettings_t.AnimgraphParameterNamePosition
-Write: iktargetsettings_t.AnimgraphParameterNamePosition = value
 ```
-## AnimgraphParameterNameOrientation 
+## AnimgraphParameterNameOrientation (Read-Only)
 ```lua
 @type AnimParamID
 Read: iktargetsettings_t.AnimgraphParameterNameOrientation
-Write: iktargetsettings_t.AnimgraphParameterNameOrientation = value
 ```
 ## TargetCoordSystem 
 ```lua

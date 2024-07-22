@@ -33,17 +33,15 @@ Write: cplayerinputanimmotorupdater.SpringConstant = value
 Read: cplayerinputanimmotorupdater.AnticipationDistance
 Write: cplayerinputanimmotorupdater.AnticipationDistance = value
 ```
-## AnticipationPosParam 
+## AnticipationPosParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cplayerinputanimmotorupdater.AnticipationPosParam
-Write: cplayerinputanimmotorupdater.AnticipationPosParam = value
 ```
-## AnticipationHeadingParam 
+## AnticipationHeadingParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cplayerinputanimmotorupdater.AnticipationHeadingParam
-Write: cplayerinputanimmotorupdater.AnticipationHeadingParam = value
 ```
 ## UseAcceleration 
 ```lua

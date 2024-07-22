@@ -135,17 +135,15 @@ Write: cenvwindshared.InitialWindDir = value
 Read: cenvwindshared.InitialWindSpeed
 Write: cenvwindshared.InitialWindSpeed = value
 ```
-## OnGustStart 
+## OnGustStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvwindshared.OnGustStart
-Write: cenvwindshared.OnGustStart = value
 ```
-## OnGustEnd 
+## OnGustEnd (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvwindshared.OnGustEnd
-Write: cenvwindshared.OnGustEnd = value
 ```
 ## VariationTime 
 ```lua

@@ -21,11 +21,10 @@ CAnimTagBase(ptr --[[ string ]])
 Read: canimtagbase.Comment
 Write: canimtagbase.Comment = value
 ```
-## TagID 
+## TagID (Read-Only)
 ```lua
 @type AnimTagID
 Read: canimtagbase.TagID
-Write: canimtagbase.TagID = value
 ```
 ## IsReferenced 
 ```lua

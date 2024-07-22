@@ -21,10 +21,11 @@ CBaseAnimGraph(ptr --[[ string ]])
 Read: cbaseanimgraph.InitiallyPopulateInterpHistory
 Write: cbaseanimgraph.InitiallyPopulateInterpHistory = value
 ```
-## ChoreoServices (Read-Only)
+## ChoreoServices 
 ```lua
 @type IChoreoServices
 Read: cbaseanimgraph.ChoreoServices
+Write: cbaseanimgraph.ChoreoServices = value
 ```
 ## AnimGraphUpdateEnabled 
 ```lua
@@ -62,10 +63,11 @@ Write: cbaseanimgraph.Force = value
 Read: cbaseanimgraph.ForceBone
 Write: cbaseanimgraph.ForceBone = value
 ```
-## RagdollPose (Read-Only)
+## RagdollPose 
 ```lua
 @type PhysicsRagdollPose_t
 Read: cbaseanimgraph.RagdollPose
+Write: cbaseanimgraph.RagdollPose = value
 ```
 ## RagdollClientSide 
 ```lua

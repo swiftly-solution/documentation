@@ -15,23 +15,20 @@ category:
 CDampedValueUpdateItem(ptr --[[ string ]])
 ```
 # Properties
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cdampedvalueupdateitem.Damping
-Write: cdampedvalueupdateitem.Damping = value
 ```
-## ParamIn 
+## ParamIn (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cdampedvalueupdateitem.ParamIn
-Write: cdampedvalueupdateitem.ParamIn = value
 ```
-## ParamOut 
+## ParamOut (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cdampedvalueupdateitem.ParamOut
-Write: cdampedvalueupdateitem.ParamOut = value
 ```
 # Functions
 ## ToPtr

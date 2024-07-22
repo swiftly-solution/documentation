@@ -81,17 +81,15 @@ Write: ctriggerhurt.ThinkAlways = value
 Read: ctriggerhurt.HurtThinkPeriod
 Write: ctriggerhurt.HurtThinkPeriod = value
 ```
-## OnHurt 
+## OnHurt (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerhurt.OnHurt
-Write: ctriggerhurt.OnHurt = value
 ```
-## OnHurtPlayer 
+## OnHurtPlayer (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerhurt.OnHurtPlayer
-Write: ctriggerhurt.OnHurtPlayer = value
 ```
 ## Parent 
 ```lua

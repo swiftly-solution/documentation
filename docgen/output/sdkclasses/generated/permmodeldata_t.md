@@ -21,11 +21,10 @@ PermModelData_t(ptr --[[ string ]])
 Read: permmodeldata_t.Name
 Write: permmodeldata_t.Name = value
 ```
-## ModelInfo 
+## ModelInfo (Read-Only)
 ```lua
 @type PermModelInfo_t
 Read: permmodeldata_t.ModelInfo
-Write: permmodeldata_t.ModelInfo = value
 ```
 ## ExtParts 
 ```lua
@@ -75,11 +74,10 @@ Write: permmodeldata_t.MaterialGroups = value
 Read: permmodeldata_t.DefaultMeshGroupMask
 Write: permmodeldata_t.DefaultMeshGroupMask = value
 ```
-## ModelSkeleton 
+## ModelSkeleton (Read-Only)
 ```lua
 @type ModelSkeletonData_t
 Read: permmodeldata_t.ModelSkeleton
-Write: permmodeldata_t.ModelSkeleton = value
 ```
 ## RemappingTable 
 ```lua
@@ -99,10 +97,11 @@ Write: permmodeldata_t.RemappingTableStarts = value
 Read: permmodeldata_t.BoneFlexDrivers
 Write: permmodeldata_t.BoneFlexDrivers = value
 ```
-## ModelConfigList (Read-Only)
+## ModelConfigList 
 ```lua
 @type CModelConfigList
 Read: permmodeldata_t.ModelConfigList
+Write: permmodeldata_t.ModelConfigList = value
 ```
 ## BodyGroupsHiddenInTools 
 ```lua

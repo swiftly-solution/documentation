@@ -39,11 +39,10 @@ Write: cenvspark.TrailLength = value
 Read: cenvspark.Type
 Write: cenvspark.Type = value
 ```
-## OnSpark 
+## OnSpark (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvspark.OnSpark
-Write: cenvspark.OnSpark = value
 ```
 ## Parent 
 ```lua

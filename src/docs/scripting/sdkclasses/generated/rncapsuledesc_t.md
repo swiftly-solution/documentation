@@ -15,11 +15,10 @@ category:
 RnCapsuleDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## Capsule 
+## Capsule (Read-Only)
 ```lua
 @type RnCapsule_t
 Read: rncapsuledesc_t.Capsule
-Write: rncapsuledesc_t.Capsule = value
 ```
 ## Parent 
 ```lua

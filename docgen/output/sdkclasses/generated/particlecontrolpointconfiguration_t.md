@@ -27,11 +27,10 @@ Write: particlecontrolpointconfiguration_t.Name = value
 Read: particlecontrolpointconfiguration_t.Drivers
 Write: particlecontrolpointconfiguration_t.Drivers = value
 ```
-## PreviewState 
+## PreviewState (Read-Only)
 ```lua
 @type ParticlePreviewState_t
 Read: particlecontrolpointconfiguration_t.PreviewState
-Write: particlecontrolpointconfiguration_t.PreviewState = value
 ```
 # Functions
 ## ToPtr

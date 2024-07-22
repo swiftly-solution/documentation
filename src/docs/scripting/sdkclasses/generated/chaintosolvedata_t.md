@@ -21,17 +21,15 @@ ChainToSolveData_t(ptr --[[ string ]])
 Read: chaintosolvedata_t.ChainIndex
 Write: chaintosolvedata_t.ChainIndex = value
 ```
-## SolverSettings 
+## SolverSettings (Read-Only)
 ```lua
 @type IKSolverSettings_t
 Read: chaintosolvedata_t.SolverSettings
-Write: chaintosolvedata_t.SolverSettings = value
 ```
-## TargetSettings 
+## TargetSettings (Read-Only)
 ```lua
 @type IKTargetSettings_t
 Read: chaintosolvedata_t.TargetSettings
-Write: chaintosolvedata_t.TargetSettings = value
 ```
 ## DebugSetting 
 ```lua

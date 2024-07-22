@@ -27,11 +27,10 @@ Write: cbtactioncombatpositioning.SensorInputKey = value
 Read: cbtactioncombatpositioning.IsAttackingKey
 Write: cbtactioncombatpositioning.IsAttackingKey = value
 ```
-## ActionTimer 
+## ActionTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactioncombatpositioning.ActionTimer
-Write: cbtactioncombatpositioning.ActionTimer = value
 ```
 ## Crouching 
 ```lua

@@ -116,11 +116,10 @@ Read: cenvbeam.Filter
 Read: cenvbeam.Decal
 Write: cenvbeam.Decal = value
 ```
-## OnTouchedByEntity 
+## OnTouchedByEntity (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvbeam.OnTouchedByEntity
-Write: cenvbeam.OnTouchedByEntity = value
 ```
 ## Parent 
 ```lua

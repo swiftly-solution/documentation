@@ -21,11 +21,10 @@ CCSPlayerController_ActionTrackingServices(ptr --[[ string ]])
 Read: ccsplayercontroller_actiontrackingservices.PerRoundStats
 Write: ccsplayercontroller_actiontrackingservices.PerRoundStats = value
 ```
-## MatchStats 
+## MatchStats (Read-Only)
 ```lua
 @type CSMatchStats_t
 Read: ccsplayercontroller_actiontrackingservices.MatchStats
-Write: ccsplayercontroller_actiontrackingservices.MatchStats = value
 ```
 ## NumRoundKills 
 ```lua

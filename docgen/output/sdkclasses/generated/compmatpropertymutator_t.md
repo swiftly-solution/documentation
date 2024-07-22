@@ -87,11 +87,10 @@ Write: compmatpropertymutator_t.StrCopyKeysWithSuffix_FindSuffix = value
 Read: compmatpropertymutator_t.StrCopyKeysWithSuffix_ReplaceSuffix
 Write: compmatpropertymutator_t.StrCopyKeysWithSuffix_ReplaceSuffix = value
 ```
-## SetValue_Value 
+## SetValue_Value (Read-Only)
 ```lua
 @type CompositeMaterialInputLooseVariable_t
 Read: compmatpropertymutator_t.SetValue_Value
-Write: compmatpropertymutator_t.SetValue_Value = value
 ```
 ## StrGenerateTexture_TargetParam 
 ```lua

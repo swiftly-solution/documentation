@@ -27,17 +27,15 @@ Write: constraint_hingeparams_t.WorldPosition = value
 Read: constraint_hingeparams_t.WorldAxisDirection
 Write: constraint_hingeparams_t.WorldAxisDirection = value
 ```
-## HingeAxis 
+## HingeAxis (Read-Only)
 ```lua
 @type constraint_axislimit_t
 Read: constraint_hingeparams_t.HingeAxis
-Write: constraint_hingeparams_t.HingeAxis = value
 ```
-## Constraint 
+## Constraint (Read-Only)
 ```lua
 @type constraint_breakableparams_t
 Read: constraint_hingeparams_t.Constraint
-Write: constraint_hingeparams_t.Constraint = value
 ```
 # Functions
 ## ToPtr

@@ -73,17 +73,15 @@ Write: cenventitymaker.PostSpawnUseAngles = value
 Read: cenventitymaker.Template
 Write: cenventitymaker.Template = value
 ```
-## OutputOnSpawned 
+## OutputOnSpawned (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenventitymaker.OutputOnSpawned
-Write: cenventitymaker.OutputOnSpawned = value
 ```
-## OutputOnFailedSpawn 
+## OutputOnFailedSpawn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenventitymaker.OutputOnFailedSpawn
-Write: cenventitymaker.OutputOnFailedSpawn = value
 ```
 ## Parent 
 ```lua

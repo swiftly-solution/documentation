@@ -15,11 +15,10 @@ category:
 CTriggerMultiple(ptr --[[ string ]])
 ```
 # Properties
-## OnTrigger 
+## OnTrigger (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggermultiple.OnTrigger
-Write: ctriggermultiple.OnTrigger = value
 ```
 ## Parent 
 ```lua

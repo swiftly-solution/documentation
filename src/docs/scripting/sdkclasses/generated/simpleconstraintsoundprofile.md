@@ -15,11 +15,10 @@ category:
 SimpleConstraintSoundProfile(ptr --[[ string ]])
 ```
 # Properties
-## Keypoints 
+## Keypoints (Read-Only)
 ```lua
 @type SimpleConstraintSoundProfile
 Read: simpleconstraintsoundprofile.Keypoints
-Write: simpleconstraintsoundprofile.Keypoints = value
 ```
 ## KeyPoints 
 ```lua

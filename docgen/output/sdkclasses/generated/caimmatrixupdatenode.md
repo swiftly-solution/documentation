@@ -15,11 +15,10 @@ category:
 CAimMatrixUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedSettings 
+## OpFixedSettings (Read-Only)
 ```lua
 @type AimMatrixOpFixedSettings_t
 Read: caimmatrixupdatenode.OpFixedSettings
-Write: caimmatrixupdatenode.OpFixedSettings = value
 ```
 ## Target 
 ```lua
@@ -27,11 +26,10 @@ Write: caimmatrixupdatenode.OpFixedSettings = value
 Read: caimmatrixupdatenode.Target
 Write: caimmatrixupdatenode.Target = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimmatrixupdatenode.ParamIndex
-Write: caimmatrixupdatenode.ParamIndex = value
 ```
 ## ResetChild 
 ```lua

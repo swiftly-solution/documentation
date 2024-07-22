@@ -15,11 +15,10 @@ category:
 CFollowAttachmentUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedData 
+## OpFixedData (Read-Only)
 ```lua
 @type FollowAttachmentSettings_t
 Read: cfollowattachmentupdatenode.OpFixedData
-Write: cfollowattachmentupdatenode.OpFixedData = value
 ```
 ## Parent 
 ```lua

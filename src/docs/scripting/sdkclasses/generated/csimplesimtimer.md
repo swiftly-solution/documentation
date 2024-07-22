@@ -23,7 +23,7 @@ Write: csimplesimtimer.Next = value
 ```
 ## WorldGroupId 
 ```lua
-@type string
+@type number
 Read: csimplesimtimer.WorldGroupId
 Write: csimplesimtimer.WorldGroupId = value
 ```

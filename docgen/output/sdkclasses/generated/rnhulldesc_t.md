@@ -15,11 +15,10 @@ category:
 RnHullDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## Hull 
+## Hull (Read-Only)
 ```lua
 @type RnHull_t
 Read: rnhulldesc_t.Hull
-Write: rnhulldesc_t.Hull = value
 ```
 ## Parent 
 ```lua

@@ -15,17 +15,15 @@ category:
 CGamePlayerZone(ptr --[[ string ]])
 ```
 # Properties
-## OnPlayerInZone 
+## OnPlayerInZone (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgameplayerzone.OnPlayerInZone
-Write: cgameplayerzone.OnPlayerInZone = value
 ```
-## OnPlayerOutZone 
+## OnPlayerOutZone (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgameplayerzone.OnPlayerOutZone
-Write: cgameplayerzone.OnPlayerOutZone = value
 ```
 ## Parent 
 ```lua

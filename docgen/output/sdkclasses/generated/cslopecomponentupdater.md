@@ -21,41 +21,35 @@ CSlopeComponentUpdater(ptr --[[ string ]])
 Read: cslopecomponentupdater.TraceDistance
 Write: cslopecomponentupdater.TraceDistance = value
 ```
-## SlopeAngle 
+## SlopeAngle (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeAngle
-Write: cslopecomponentupdater.SlopeAngle = value
 ```
-## SlopeAngleFront 
+## SlopeAngleFront (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeAngleFront
-Write: cslopecomponentupdater.SlopeAngleFront = value
 ```
-## SlopeAngleSide 
+## SlopeAngleSide (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeAngleSide
-Write: cslopecomponentupdater.SlopeAngleSide = value
 ```
-## SlopeHeading 
+## SlopeHeading (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeHeading
-Write: cslopecomponentupdater.SlopeHeading = value
 ```
-## SlopeNormal 
+## SlopeNormal (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeNormal
-Write: cslopecomponentupdater.SlopeNormal = value
 ```
-## SlopeNormal_WorldSpace 
+## SlopeNormal_WorldSpace (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeNormal_WorldSpace
-Write: cslopecomponentupdater.SlopeNormal_WorldSpace = value
 ```
 ## Parent 
 ```lua

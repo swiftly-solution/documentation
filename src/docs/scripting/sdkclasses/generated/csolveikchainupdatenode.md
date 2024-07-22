@@ -21,11 +21,10 @@ CSolveIKChainUpdateNode(ptr --[[ string ]])
 Read: csolveikchainupdatenode.TargetHandles
 Write: csolveikchainupdatenode.TargetHandles = value
 ```
-## OpFixedData 
+## OpFixedData (Read-Only)
 ```lua
 @type SolveIKChainPoseOpFixedSettings_t
 Read: csolveikchainupdatenode.OpFixedData
-Write: csolveikchainupdatenode.OpFixedData = value
 ```
 ## Parent 
 ```lua

@@ -15,31 +15,34 @@ category:
 CGameSceneNode(ptr --[[ string ]])
 ```
 # Properties
-## Owner (Read-Only)
+## Owner 
 ```lua
 @type CEntityInstance
 Read: cgamescenenode.Owner
+Write: cgamescenenode.Owner = value
 ```
-## Parent (Read-Only)
+## Parent 
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.Parent
+Write: cgamescenenode.Parent = value
 ```
-## Child (Read-Only)
+## Child 
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.Child
+Write: cgamescenenode.Child = value
 ```
-## NextSibling (Read-Only)
+## NextSibling 
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.NextSibling
+Write: cgamescenenode.NextSibling = value
 ```
-## Origin 
+## Origin (Read-Only)
 ```lua
 @type CNetworkOriginCellCoordQuantizedVector
 Read: cgamescenenode.Origin
-Write: cgamescenenode.Origin = value
 ```
 ## Rotation 
 ```lua
@@ -115,13 +118,13 @@ Write: cgamescenenode.DoNotSetAnimTimeInInvalidatePhysicsCount = value
 ```
 ## Name 
 ```lua
-@type string
+@type number
 Read: cgamescenenode.Name
 Write: cgamescenenode.Name = value
 ```
 ## HierarchyAttachName 
 ```lua
-@type string
+@type number
 Read: cgamescenenode.HierarchyAttachName
 Write: cgamescenenode.HierarchyAttachName = value
 ```

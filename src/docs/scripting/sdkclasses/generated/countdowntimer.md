@@ -35,7 +35,7 @@ Write: countdowntimer.Timescale = value
 ```
 ## WorldGroupId 
 ```lua
-@type string
+@type number
 Read: countdowntimer.WorldGroupId
 Write: countdowntimer.WorldGroupId = value
 ```

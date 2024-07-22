@@ -23,7 +23,7 @@ Write: intervaltimer.Timestamp = value
 ```
 ## WorldGroupId 
 ```lua
-@type string
+@type number
 Read: intervaltimer.WorldGroupId
 Write: intervaltimer.WorldGroupId = value
 ```

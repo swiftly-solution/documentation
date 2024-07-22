@@ -15,11 +15,10 @@ category:
 CTriggerBuoyancy(ptr --[[ string ]])
 ```
 # Properties
-## BuoyancyHelper 
+## BuoyancyHelper (Read-Only)
 ```lua
 @type CBuoyancyHelper
 Read: ctriggerbuoyancy.BuoyancyHelper
-Write: ctriggerbuoyancy.BuoyancyHelper = value
 ```
 ## FluidDensity 
 ```lua

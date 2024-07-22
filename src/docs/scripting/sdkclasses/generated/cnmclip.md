@@ -39,17 +39,15 @@ Write: cnmclip.TrackCompressionSettings = value
 Read: cnmclip.CompressedPoseOffsets
 Write: cnmclip.CompressedPoseOffsets = value
 ```
-## SyncTrack 
+## SyncTrack (Read-Only)
 ```lua
 @type CNmSyncTrack
 Read: cnmclip.SyncTrack
-Write: cnmclip.SyncTrack = value
 ```
-## RootMotion 
+## RootMotion (Read-Only)
 ```lua
 @type CNmRootMotionData
 Read: cnmclip.RootMotion
-Write: cnmclip.RootMotion = value
 ```
 ## IsAdditive 
 ```lua

@@ -15,11 +15,10 @@ category:
 CMotionGraph(ptr --[[ string ]])
 ```
 # Properties
-## ParamSpans 
+## ParamSpans (Read-Only)
 ```lua
 @type CParamSpanUpdater
 Read: cmotiongraph.ParamSpans
-Write: cmotiongraph.ParamSpans = value
 ```
 ## Tags 
 ```lua

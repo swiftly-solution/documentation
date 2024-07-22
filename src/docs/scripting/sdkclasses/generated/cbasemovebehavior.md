@@ -45,25 +45,29 @@ Write: cbasemovebehavior.AnimEndTime = value
 Read: cbasemovebehavior.AverageSpeedAcrossFrame
 Write: cbasemovebehavior.AverageSpeedAcrossFrame = value
 ```
-## CurrentKeyFrame (Read-Only)
+## CurrentKeyFrame 
 ```lua
 @type CPathKeyFrame
 Read: cbasemovebehavior.CurrentKeyFrame
+Write: cbasemovebehavior.CurrentKeyFrame = value
 ```
-## TargetKeyFrame (Read-Only)
+## TargetKeyFrame 
 ```lua
 @type CPathKeyFrame
 Read: cbasemovebehavior.TargetKeyFrame
+Write: cbasemovebehavior.TargetKeyFrame = value
 ```
-## PreKeyFrame (Read-Only)
+## PreKeyFrame 
 ```lua
 @type CPathKeyFrame
 Read: cbasemovebehavior.PreKeyFrame
+Write: cbasemovebehavior.PreKeyFrame = value
 ```
-## PostKeyFrame (Read-Only)
+## PostKeyFrame 
 ```lua
 @type CPathKeyFrame
 Read: cbasemovebehavior.PostKeyFrame
+Write: cbasemovebehavior.PostKeyFrame = value
 ```
 ## TimeIntoFrame 
 ```lua

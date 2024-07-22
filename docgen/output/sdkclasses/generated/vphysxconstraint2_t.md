@@ -33,11 +33,10 @@ Write: vphysxconstraint2_t.Parent = value
 Read: vphysxconstraint2_t.Child
 Write: vphysxconstraint2_t.Child = value
 ```
-## Params 
+## Params (Read-Only)
 ```lua
 @type VPhysXConstraintParams_t
 Read: vphysxconstraint2_t.Params
-Write: vphysxconstraint2_t.Params = value
 ```
 # Functions
 ## ToPtr

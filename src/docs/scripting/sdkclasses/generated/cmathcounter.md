@@ -45,29 +45,25 @@ Write: cmathcounter.HitMax = value
 Read: cmathcounter.Disabled
 Write: cmathcounter.Disabled = value
 ```
-## OnHitMin 
+## OnHitMin (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathcounter.OnHitMin
-Write: cmathcounter.OnHitMin = value
 ```
-## OnHitMax 
+## OnHitMax (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathcounter.OnHitMax
-Write: cmathcounter.OnHitMax = value
 ```
-## OnChangedFromMin 
+## OnChangedFromMin (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathcounter.OnChangedFromMin
-Write: cmathcounter.OnChangedFromMin = value
 ```
-## OnChangedFromMax 
+## OnChangedFromMax (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathcounter.OnChangedFromMax
-Write: cmathcounter.OnChangedFromMax = value
 ```
 ## Parent 
 ```lua

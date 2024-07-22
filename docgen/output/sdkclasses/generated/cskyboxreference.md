@@ -17,7 +17,7 @@ CSkyboxReference(ptr --[[ string ]])
 # Properties
 ## WorldGroupId 
 ```lua
-@type string
+@type number
 Read: cskyboxreference.WorldGroupId
 Write: cskyboxreference.WorldGroupId = value
 ```

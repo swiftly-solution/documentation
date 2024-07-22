@@ -21,15 +21,17 @@ CEntityInstance(ptr --[[ string ]])
 Read: centityinstance.PrivateVScripts
 Write: centityinstance.PrivateVScripts = value
 ```
-## Entity (Read-Only)
+## Entity 
 ```lua
 @type CEntityIdentity
 Read: centityinstance.Entity
+Write: centityinstance.Entity = value
 ```
-## CScriptComponent (Read-Only)
+## CScriptComponent 
 ```lua
 @type CScriptComponent
 Read: centityinstance.CScriptComponent
+Write: centityinstance.CScriptComponent = value
 ```
 ## VisibleinPVS 
 ```lua

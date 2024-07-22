@@ -15,10 +15,11 @@ category:
 CSkeletonAnimationController(ptr --[[ string ]])
 ```
 # Properties
-## SkeletonInstance (Read-Only)
+## SkeletonInstance 
 ```lua
 @type CSkeletonInstance
 Read: cskeletonanimationcontroller.SkeletonInstance
+Write: cskeletonanimationcontroller.SkeletonInstance = value
 ```
 ## Parent 
 ```lua

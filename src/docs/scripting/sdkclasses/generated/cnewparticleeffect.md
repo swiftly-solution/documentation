@@ -15,20 +15,23 @@ category:
 CNewParticleEffect(ptr --[[ string ]])
 ```
 # Properties
-## Next (Read-Only)
+## Next 
 ```lua
 @type CNewParticleEffect
 Read: cnewparticleeffect.Next
+Write: cnewparticleeffect.Next = value
 ```
-## Prev (Read-Only)
+## Prev 
 ```lua
 @type CNewParticleEffect
 Read: cnewparticleeffect.Prev
+Write: cnewparticleeffect.Prev = value
 ```
-## Particles (Read-Only)
+## Particles 
 ```lua
 @type IParticleCollection
 Read: cnewparticleeffect.Particles
+Write: cnewparticleeffect.Particles = value
 ```
 ## DebugName 
 ```lua
@@ -48,15 +51,17 @@ Write: cnewparticleeffect.SortOrigin = value
 Read: cnewparticleeffect.Scale
 Write: cnewparticleeffect.Scale = value
 ```
-## Owner (Read-Only)
+## Owner 
 ```lua
 @type PARTICLE_EHANDLE__
 Read: cnewparticleeffect.Owner
+Write: cnewparticleeffect.Owner = value
 ```
-## OwningParticleProperty (Read-Only)
+## OwningParticleProperty 
 ```lua
 @type CParticleProperty
 Read: cnewparticleeffect.OwningParticleProperty
+Write: cnewparticleeffect.OwningParticleProperty = value
 ```
 ## FreezeTransitionStart 
 ```lua

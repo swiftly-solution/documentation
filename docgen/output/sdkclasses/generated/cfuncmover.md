@@ -32,11 +32,10 @@ Read: cfuncmover.PathMover
 Read: cfuncmover.PathNodeStart
 Write: cfuncmover.PathNodeStart = value
 ```
-## MoveType 
+## MoveType (Read-Only)
 ```lua
 @type CFuncMover
 Read: cfuncmover.MoveType
-Write: cfuncmover.MoveType = value
 ```
 ## IsReversing 
 ```lua

@@ -81,23 +81,20 @@ Write: cinferno.FiresExtinguishCount = value
 Read: cinferno.WasCreatedInSmoke
 Write: cinferno.WasCreatedInSmoke = value
 ```
-## Extent 
+## Extent (Read-Only)
 ```lua
 @type Extent
 Read: cinferno.Extent
-Write: cinferno.Extent = value
 ```
-## DamageTimer 
+## DamageTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cinferno.DamageTimer
-Write: cinferno.DamageTimer = value
 ```
-## DamageRampTimer 
+## DamageRampTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cinferno.DamageRampTimer
-Write: cinferno.DamageRampTimer = value
 ```
 ## SplashVelocity 
 ```lua
@@ -123,11 +120,10 @@ Write: cinferno.StartPos = value
 Read: cinferno.OriginalSpawnLocation
 Write: cinferno.OriginalSpawnLocation = value
 ```
-## ActiveTimer 
+## ActiveTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: cinferno.ActiveTimer
-Write: cinferno.ActiveTimer = value
 ```
 ## FireSpawnOffset 
 ```lua
@@ -147,17 +143,15 @@ Write: cinferno.MaxFlames = value
 Read: cinferno.SpreadCount
 Write: cinferno.SpreadCount = value
 ```
-## BookkeepingTimer 
+## BookkeepingTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cinferno.BookkeepingTimer
-Write: cinferno.BookkeepingTimer = value
 ```
-## NextSpreadTimer 
+## NextSpreadTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cinferno.NextSpreadTimer
-Write: cinferno.NextSpreadTimer = value
 ```
 ## SourceItemDefIndex 
 ```lua

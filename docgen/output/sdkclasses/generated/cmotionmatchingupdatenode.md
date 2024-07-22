@@ -15,11 +15,10 @@ category:
 CMotionMatchingUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## DataSet 
+## DataSet (Read-Only)
 ```lua
 @type CMotionDataSet
 Read: cmotionmatchingupdatenode.DataSet
-Write: cmotionmatchingupdatenode.DataSet = value
 ```
 ## Weights 
 ```lua
@@ -51,11 +50,10 @@ Write: cmotionmatchingupdatenode.SearchWhenClipEnds = value
 Read: cmotionmatchingupdatenode.SearchWhenGoalChanges
 Write: cmotionmatchingupdatenode.SearchWhenGoalChanges = value
 ```
-## BlendCurve 
+## BlendCurve (Read-Only)
 ```lua
 @type CBlendCurve
 Read: cmotionmatchingupdatenode.BlendCurve
-Write: cmotionmatchingupdatenode.BlendCurve = value
 ```
 ## SampleRate 
 ```lua
@@ -111,11 +109,10 @@ Write: cmotionmatchingupdatenode.GoalAssistDistance = value
 Read: cmotionmatchingupdatenode.GoalAssistTolerance
 Write: cmotionmatchingupdatenode.GoalAssistTolerance = value
 ```
-## DistanceScale_Damping 
+## DistanceScale_Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cmotionmatchingupdatenode.DistanceScale_Damping
-Write: cmotionmatchingupdatenode.DistanceScale_Damping = value
 ```
 ## DistanceScale_OuterRadius 
 ```lua

@@ -69,17 +69,15 @@ Write: cfuncladder.HasSlack = value
 Read: cfuncladder.SurfacePropName
 Write: cfuncladder.SurfacePropName = value
 ```
-## OnPlayerGotOnLadder 
+## OnPlayerGotOnLadder (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncladder.OnPlayerGotOnLadder
-Write: cfuncladder.OnPlayerGotOnLadder = value
 ```
-## OnPlayerGotOffLadder 
+## OnPlayerGotOffLadder (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncladder.OnPlayerGotOffLadder
-Write: cfuncladder.OnPlayerGotOffLadder = value
 ```
 ## Parent 
 ```lua

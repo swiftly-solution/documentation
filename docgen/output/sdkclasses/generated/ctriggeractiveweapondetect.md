@@ -15,11 +15,10 @@ category:
 CTriggerActiveWeaponDetect(ptr --[[ string ]])
 ```
 # Properties
-## OnTouchedActiveWeapon 
+## OnTouchedActiveWeapon (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggeractiveweapondetect.OnTouchedActiveWeapon
-Write: ctriggeractiveweapondetect.OnTouchedActiveWeapon = value
 ```
 ## WeaponClassName 
 ```lua

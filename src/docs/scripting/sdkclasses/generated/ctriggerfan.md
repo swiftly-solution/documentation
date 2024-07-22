@@ -81,11 +81,10 @@ Write: ctriggerfan.RampDown = value
 Read: ctriggerfan.AddNoise
 Write: ctriggerfan.AddNoise = value
 ```
-## RampTimer 
+## RampTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ctriggerfan.RampTimer
-Write: ctriggerfan.RampTimer = value
 ```
 ## Parent 
 ```lua

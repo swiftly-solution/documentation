@@ -57,41 +57,35 @@ Write: cvoxelvisibility.SkyVisibilityCluster = value
 Read: cvoxelvisibility.SunVisibilityCluster
 Write: cvoxelvisibility.SunVisibilityCluster = value
 ```
-## NodeBlock 
+## NodeBlock (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.NodeBlock
-Write: cvoxelvisibility.NodeBlock = value
 ```
-## RegionBlock 
+## RegionBlock (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.RegionBlock
-Write: cvoxelvisibility.RegionBlock = value
 ```
-## EnclosedClusterListBlock 
+## EnclosedClusterListBlock (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.EnclosedClusterListBlock
-Write: cvoxelvisibility.EnclosedClusterListBlock = value
 ```
-## EnclosedClustersBlock 
+## EnclosedClustersBlock (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.EnclosedClustersBlock
-Write: cvoxelvisibility.EnclosedClustersBlock = value
 ```
-## MasksBlock 
+## MasksBlock (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.MasksBlock
-Write: cvoxelvisibility.MasksBlock = value
 ```
-## VisBlocks 
+## VisBlocks (Read-Only)
 ```lua
 @type VoxelVisBlockOffset_t
 Read: cvoxelvisibility.VisBlocks
-Write: cvoxelvisibility.VisBlocks = value
 ```
 # Functions
 ## ToPtr

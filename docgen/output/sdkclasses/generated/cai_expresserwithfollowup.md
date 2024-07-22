@@ -15,10 +15,11 @@ category:
 CAI_ExpresserWithFollowup(ptr --[[ string ]])
 ```
 # Properties
-## PostponedFollowup (Read-Only)
+## PostponedFollowup 
 ```lua
 @type ResponseFollowup
 Read: cai_expresserwithfollowup.PostponedFollowup
+Write: cai_expresserwithfollowup.PostponedFollowup = value
 ```
 ## Parent 
 ```lua

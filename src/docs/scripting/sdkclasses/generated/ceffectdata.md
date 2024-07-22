@@ -69,7 +69,7 @@ Write: ceffectdata.Radius = value
 ```
 ## SurfaceProp 
 ```lua
-@type string
+@type number
 Read: ceffectdata.SurfaceProp
 Write: ceffectdata.SurfaceProp = value
 ```
@@ -111,7 +111,7 @@ Write: ceffectdata.Flags = value
 ```
 ## AttachmentName 
 ```lua
-@type string
+@type number
 Read: ceffectdata.AttachmentName
 Write: ceffectdata.AttachmentName = value
 ```

@@ -159,10 +159,11 @@ Write: cpointcamera.DegreesPerSecond = value
 Read: cpointcamera.IsOn
 Write: cpointcamera.IsOn = value
 ```
-## Next (Read-Only)
+## Next 
 ```lua
 @type CPointCamera
 Read: cpointcamera.Next
+Write: cpointcamera.Next = value
 ```
 ## Parent 
 ```lua

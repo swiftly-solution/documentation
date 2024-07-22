@@ -15,11 +15,10 @@ category:
 VMixModDelayDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## FeedbackFilter 
+## FeedbackFilter (Read-Only)
 ```lua
 @type VMixFilterDesc_t
 Read: vmixmoddelaydesc_t.FeedbackFilter
-Write: vmixmoddelaydesc_t.FeedbackFilter = value
 ```
 ## PhaseInvert 
 ```lua

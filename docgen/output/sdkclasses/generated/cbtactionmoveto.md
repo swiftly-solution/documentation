@@ -57,23 +57,20 @@ Write: cbtactionmoveto.ComputePath = value
 Read: cbtactionmoveto.DamagingAreasPenaltyCost
 Write: cbtactionmoveto.DamagingAreasPenaltyCost = value
 ```
-## CheckApproximateCornersTimer 
+## CheckApproximateCornersTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionmoveto.CheckApproximateCornersTimer
-Write: cbtactionmoveto.CheckApproximateCornersTimer = value
 ```
-## CheckHighPriorityItem 
+## CheckHighPriorityItem (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionmoveto.CheckHighPriorityItem
-Write: cbtactionmoveto.CheckHighPriorityItem = value
 ```
-## RepathTimer 
+## RepathTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionmoveto.RepathTimer
-Write: cbtactionmoveto.RepathTimer = value
 ```
 ## ArrivalEpsilon 
 ```lua

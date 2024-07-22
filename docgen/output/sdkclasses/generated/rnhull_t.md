@@ -27,11 +27,10 @@ Write: rnhull_t.Centroid = value
 Read: rnhull_t.MaxAngularRadius
 Write: rnhull_t.MaxAngularRadius = value
 ```
-## Bounds 
+## Bounds (Read-Only)
 ```lua
 @type AABB_t
 Read: rnhull_t.Bounds
-Write: rnhull_t.Bounds = value
 ```
 ## OrthographicAreas 
 ```lua
@@ -87,10 +86,11 @@ Write: rnhull_t.FacePlanes = value
 Read: rnhull_t.Flags
 Write: rnhull_t.Flags = value
 ```
-## RegionSVM (Read-Only)
+## RegionSVM 
 ```lua
 @type CRegionSVM
 Read: rnhull_t.RegionSVM
+Write: rnhull_t.RegionSVM = value
 ```
 # Functions
 ## ToPtr

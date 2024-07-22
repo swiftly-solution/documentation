@@ -15,11 +15,10 @@ category:
 CWeaponBaseItem(ptr --[[ string ]])
 ```
 # Properties
-## SequenceCompleteTimer 
+## SequenceCompleteTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cweaponbaseitem.SequenceCompleteTimer
-Write: cweaponbaseitem.SequenceCompleteTimer = value
 ```
 ## Redraw 
 ```lua

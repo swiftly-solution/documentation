@@ -33,11 +33,10 @@ Write: canimencodedframes.FramesPerBlock = value
 Read: canimencodedframes.FrameblockArray
 Write: canimencodedframes.FrameblockArray = value
 ```
-## UsageDifferences 
+## UsageDifferences (Read-Only)
 ```lua
 @type CAnimEncodeDifference
 Read: canimencodedframes.UsageDifferences
-Write: canimencodedframes.UsageDifferences = value
 ```
 # Functions
 ## ToPtr

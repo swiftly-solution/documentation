@@ -15,23 +15,20 @@ category:
 CBombTarget(ptr --[[ string ]])
 ```
 # Properties
-## OnBombExplode 
+## OnBombExplode (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbombtarget.OnBombExplode
-Write: cbombtarget.OnBombExplode = value
 ```
-## OnBombPlanted 
+## OnBombPlanted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbombtarget.OnBombPlanted
-Write: cbombtarget.OnBombPlanted = value
 ```
-## OnBombDefused 
+## OnBombDefused (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbombtarget.OnBombDefused
-Write: cbombtarget.OnBombDefused = value
 ```
 ## IsBombSiteB 
 ```lua

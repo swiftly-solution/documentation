@@ -15,11 +15,10 @@ category:
 CFuncWater(ptr --[[ string ]])
 ```
 # Properties
-## BuoyancyHelper 
+## BuoyancyHelper (Read-Only)
 ```lua
 @type CBuoyancyHelper
 Read: cfuncwater.BuoyancyHelper
-Write: cfuncwater.BuoyancyHelper = value
 ```
 ## Parent 
 ```lua

@@ -15,29 +15,25 @@ category:
 CMomentaryRotButton(ptr --[[ string ]])
 ```
 # Properties
-## OnUnpressed 
+## OnUnpressed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnUnpressed
-Write: cmomentaryrotbutton.OnUnpressed = value
 ```
-## OnFullyOpen 
+## OnFullyOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnFullyOpen
-Write: cmomentaryrotbutton.OnFullyOpen = value
 ```
-## OnFullyClosed 
+## OnFullyClosed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnFullyClosed
-Write: cmomentaryrotbutton.OnFullyClosed = value
 ```
-## OnReachedPosition 
+## OnReachedPosition (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnReachedPosition
-Write: cmomentaryrotbutton.OnReachedPosition = value
 ```
 ## LastUsed 
 ```lua

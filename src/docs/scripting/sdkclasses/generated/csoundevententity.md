@@ -63,11 +63,10 @@ Write: csoundevententity.SourceEntityName = value
 Read: csoundevententity.AttachmentName
 Write: csoundevententity.AttachmentName = value
 ```
-## OnSoundFinished 
+## OnSoundFinished (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csoundevententity.OnSoundFinished
-Write: csoundevententity.OnSoundFinished = value
 ```
 ## SoundName 
 ```lua

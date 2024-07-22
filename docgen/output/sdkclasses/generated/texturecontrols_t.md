@@ -15,47 +15,40 @@ category:
 TextureControls_t(ptr --[[ string ]])
 ```
 # Properties
-## FinalTextureScaleU 
+## FinalTextureScaleU (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.FinalTextureScaleU
-Write: texturecontrols_t.FinalTextureScaleU = value
 ```
-## FinalTextureScaleV 
+## FinalTextureScaleV (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.FinalTextureScaleV
-Write: texturecontrols_t.FinalTextureScaleV = value
 ```
-## FinalTextureOffsetU 
+## FinalTextureOffsetU (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.FinalTextureOffsetU
-Write: texturecontrols_t.FinalTextureOffsetU = value
 ```
-## FinalTextureOffsetV 
+## FinalTextureOffsetV (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.FinalTextureOffsetV
-Write: texturecontrols_t.FinalTextureOffsetV = value
 ```
-## FinalTextureUVRotation 
+## FinalTextureUVRotation (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.FinalTextureUVRotation
-Write: texturecontrols_t.FinalTextureUVRotation = value
 ```
-## ZoomScale 
+## ZoomScale (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.ZoomScale
-Write: texturecontrols_t.ZoomScale = value
 ```
-## Distortion 
+## Distortion (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturecontrols_t.Distortion
-Write: texturecontrols_t.Distortion = value
 ```
 ## RandomizeOffsets 
 ```lua

@@ -15,17 +15,15 @@ category:
 CAnimUpdateSharedData(ptr --[[ string ]])
 ```
 # Properties
-## Settings 
+## Settings (Read-Only)
 ```lua
 @type CAnimGraphSettingsManager
 Read: canimupdateshareddata.Settings
-Write: canimupdateshareddata.Settings = value
 ```
-## RootNodePath 
+## RootNodePath (Read-Only)
 ```lua
 @type CAnimNodePath
 Read: canimupdateshareddata.RootNodePath
-Write: canimupdateshareddata.RootNodePath = value
 ```
 # Functions
 ## ToPtr

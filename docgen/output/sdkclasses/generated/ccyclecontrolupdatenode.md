@@ -21,11 +21,10 @@ CCycleControlUpdateNode(ptr --[[ string ]])
 Read: ccyclecontrolupdatenode.ValueSource
 Write: ccyclecontrolupdatenode.ValueSource = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: ccyclecontrolupdatenode.ParamIndex
-Write: ccyclecontrolupdatenode.ParamIndex = value
 ```
 ## Parent 
 ```lua

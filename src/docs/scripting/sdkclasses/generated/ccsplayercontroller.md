@@ -15,25 +15,29 @@ category:
 CCSPlayerController(ptr --[[ string ]])
 ```
 # Properties
-## InGameMoneyServices (Read-Only)
+## InGameMoneyServices 
 ```lua
 @type CCSPlayerController_InGameMoneyServices
 Read: ccsplayercontroller.InGameMoneyServices
+Write: ccsplayercontroller.InGameMoneyServices = value
 ```
-## InventoryServices (Read-Only)
+## InventoryServices 
 ```lua
 @type CCSPlayerController_InventoryServices
 Read: ccsplayercontroller.InventoryServices
+Write: ccsplayercontroller.InventoryServices = value
 ```
-## ActionTrackingServices (Read-Only)
+## ActionTrackingServices 
 ```lua
 @type CCSPlayerController_ActionTrackingServices
 Read: ccsplayercontroller.ActionTrackingServices
+Write: ccsplayercontroller.ActionTrackingServices = value
 ```
-## DamageServices (Read-Only)
+## DamageServices 
 ```lua
 @type CCSPlayerController_DamageServices
 Read: ccsplayercontroller.DamageServices
+Write: ccsplayercontroller.DamageServices = value
 ```
 ## Ping 
 ```lua
@@ -203,11 +207,10 @@ Write: ccsplayercontroller.EndMatchNextMapVote = value
 Read: ccsplayercontroller.ActiveQuestId
 Write: ccsplayercontroller.ActiveQuestId = value
 ```
-## QuestProgressReason 
+## QuestProgressReason (Read-Only)
 ```lua
 @type QuestProgress
 Read: ccsplayercontroller.QuestProgressReason
-Write: ccsplayercontroller.QuestProgressReason = value
 ```
 ## PlayerTvControlFlags 
 ```lua
@@ -451,11 +454,10 @@ Write: ccsplayercontroller.UpdateCounter = value
 Read: ccsplayercontroller.SmoothedPing
 Write: ccsplayercontroller.SmoothedPing = value
 ```
-## LastHeldVoteTimer 
+## LastHeldVoteTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsplayercontroller.LastHeldVoteTimer
-Write: ccsplayercontroller.LastHeldVoteTimer = value
 ```
 ## ShowHints 
 ```lua

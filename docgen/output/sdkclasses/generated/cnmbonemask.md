@@ -15,11 +15,10 @@ category:
 CNmBoneMask(ptr --[[ string ]])
 ```
 # Properties
-## WeightInfo 
+## WeightInfo (Read-Only)
 ```lua
 @type CNmBoneMask
 Read: cnmbonemask.WeightInfo
-Write: cnmbonemask.WeightInfo = value
 ```
 ## Weights 
 ```lua

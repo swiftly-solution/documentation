@@ -39,65 +39,55 @@ Write: cbaseclientuientity.PanelClassName = value
 Read: cbaseclientuientity.PanelID
 Write: cbaseclientuientity.PanelID = value
 ```
-## CustomOutput0 
+## CustomOutput0 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput0
-Write: cbaseclientuientity.CustomOutput0 = value
 ```
-## CustomOutput1 
+## CustomOutput1 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput1
-Write: cbaseclientuientity.CustomOutput1 = value
 ```
-## CustomOutput2 
+## CustomOutput2 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput2
-Write: cbaseclientuientity.CustomOutput2 = value
 ```
-## CustomOutput3 
+## CustomOutput3 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput3
-Write: cbaseclientuientity.CustomOutput3 = value
 ```
-## CustomOutput4 
+## CustomOutput4 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput4
-Write: cbaseclientuientity.CustomOutput4 = value
 ```
-## CustomOutput5 
+## CustomOutput5 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput5
-Write: cbaseclientuientity.CustomOutput5 = value
 ```
-## CustomOutput6 
+## CustomOutput6 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput6
-Write: cbaseclientuientity.CustomOutput6 = value
 ```
-## CustomOutput7 
+## CustomOutput7 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput7
-Write: cbaseclientuientity.CustomOutput7 = value
 ```
-## CustomOutput8 
+## CustomOutput8 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput8
-Write: cbaseclientuientity.CustomOutput8 = value
 ```
-## CustomOutput9 
+## CustomOutput9 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput9
-Write: cbaseclientuientity.CustomOutput9 = value
 ```
 ## Parent 
 ```lua

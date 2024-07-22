@@ -57,11 +57,10 @@ Write: vmixboxverbdesc_t.ModRate = value
 Read: vmixboxverbdesc_t.Parallel
 Write: vmixboxverbdesc_t.Parallel = value
 ```
-## FilterType 
+## FilterType (Read-Only)
 ```lua
 @type VMixFilterDesc_t
 Read: vmixboxverbdesc_t.FilterType
-Write: vmixboxverbdesc_t.FilterType = value
 ```
 ## Width 
 ```lua

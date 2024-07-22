@@ -15,20 +15,23 @@ category:
 CPathTrack(ptr --[[ string ]])
 ```
 # Properties
-## Pnext (Read-Only)
+## Pnext 
 ```lua
 @type CPathTrack
 Read: cpathtrack.Pnext
+Write: cpathtrack.Pnext = value
 ```
-## Pprevious (Read-Only)
+## Pprevious 
 ```lua
 @type CPathTrack
 Read: cpathtrack.Pprevious
+Write: cpathtrack.Pprevious = value
 ```
-## Paltpath (Read-Only)
+## Paltpath 
 ```lua
 @type CPathTrack
 Read: cpathtrack.Paltpath
+Write: cpathtrack.Paltpath = value
 ```
 ## Radius 
 ```lua
@@ -60,11 +63,10 @@ Write: cpathtrack.IterVal = value
 Read: cpathtrack.OrientationType
 Write: cpathtrack.OrientationType = value
 ```
-## OnPass 
+## OnPass (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpathtrack.OnPass
-Write: cpathtrack.OnPass = value
 ```
 ## Parent 
 ```lua

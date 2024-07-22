@@ -50,11 +50,10 @@ Write: cphysmotor.AngularAcceleration = value
 Read: cphysmotor.LastTime
 Write: cphysmotor.LastTime = value
 ```
-## Motor 
+## Motor (Read-Only)
 ```lua
 @type CMotorController
 Read: cphysmotor.Motor
-Write: cphysmotor.Motor = value
 ```
 ## Parent 
 ```lua

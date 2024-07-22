@@ -15,20 +15,23 @@ category:
 CFuncTrackChange(ptr --[[ string ]])
 ```
 # Properties
-## TrackTop (Read-Only)
+## TrackTop 
 ```lua
 @type CPathTrack
 Read: cfunctrackchange.TrackTop
+Write: cfunctrackchange.TrackTop = value
 ```
-## TrackBottom (Read-Only)
+## TrackBottom 
 ```lua
 @type CPathTrack
 Read: cfunctrackchange.TrackBottom
+Write: cfunctrackchange.TrackBottom = value
 ```
-## Train (Read-Only)
+## Train 
 ```lua
 @type CFuncTrackTrain
 Read: cfunctrackchange.Train
+Write: cfunctrackchange.Train = value
 ```
 ## TrackTopName 
 ```lua

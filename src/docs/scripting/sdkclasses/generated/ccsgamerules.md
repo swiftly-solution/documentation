@@ -975,21 +975,21 @@ Write: ccsgamerules.HasTriggeredRoundStartMusic = value
 Read: ccsgamerules.SwitchingTeamsAtRoundReset
 Write: ccsgamerules.SwitchingTeamsAtRoundReset = value
 ```
-## GameModeRules (Read-Only)
+## GameModeRules 
 ```lua
 @type CCSGameModeRules
 Read: ccsgamerules.GameModeRules
+Write: ccsgamerules.GameModeRules = value
 ```
 ## PlayerResource (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccsgamerules.PlayerResource
 ```
-## RetakeRules 
+## RetakeRules (Read-Only)
 ```lua
 @type CRetakeGameRules
 Read: ccsgamerules.RetakeRules
-Write: ccsgamerules.RetakeRules = value
 ```
 ## TeamLastKillUsedUniqueWeaponMatch 
 ```lua

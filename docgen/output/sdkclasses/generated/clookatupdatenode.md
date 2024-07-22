@@ -15,11 +15,10 @@ category:
 CLookAtUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedSettings 
+## OpFixedSettings (Read-Only)
 ```lua
 @type LookAtOpFixedSettings_t
 Read: clookatupdatenode.OpFixedSettings
-Write: clookatupdatenode.OpFixedSettings = value
 ```
 ## Target 
 ```lua
@@ -27,17 +26,15 @@ Write: clookatupdatenode.OpFixedSettings = value
 Read: clookatupdatenode.Target
 Write: clookatupdatenode.Target = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookatupdatenode.ParamIndex
-Write: clookatupdatenode.ParamIndex = value
 ```
-## WeightParamIndex 
+## WeightParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: clookatupdatenode.WeightParamIndex
-Write: clookatupdatenode.WeightParamIndex = value
 ```
 ## ResetChild 
 ```lua

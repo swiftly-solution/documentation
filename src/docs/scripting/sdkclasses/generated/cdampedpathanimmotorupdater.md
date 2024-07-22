@@ -27,17 +27,15 @@ Write: cdampedpathanimmotorupdater.AnticipationTime = value
 Read: cdampedpathanimmotorupdater.MinSpeedScale
 Write: cdampedpathanimmotorupdater.MinSpeedScale = value
 ```
-## AnticipationPosParam 
+## AnticipationPosParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cdampedpathanimmotorupdater.AnticipationPosParam
-Write: cdampedpathanimmotorupdater.AnticipationPosParam = value
 ```
-## AnticipationHeadingParam 
+## AnticipationHeadingParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cdampedpathanimmotorupdater.AnticipationHeadingParam
-Write: cdampedpathanimmotorupdater.AnticipationHeadingParam = value
 ```
 ## SpringConstant 
 ```lua

@@ -15,11 +15,10 @@ category:
 CSSDSMsg_ViewTargetList(ptr --[[ string ]])
 ```
 # Properties
-## ViewId 
+## ViewId (Read-Only)
 ```lua
 @type SceneViewId_t
 Read: cssdsmsg_viewtargetlist.ViewId
-Write: cssdsmsg_viewtargetlist.ViewId = value
 ```
 ## ViewName 
 ```lua

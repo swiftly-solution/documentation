@@ -57,11 +57,10 @@ Write: cc4.BombPlacedAnimation = value
 Read: cc4.IsPlantingViaUse
 Write: cc4.IsPlantingViaUse = value
 ```
-## EntitySpottedState 
+## EntitySpottedState (Read-Only)
 ```lua
 @type EntitySpottedState_t
 Read: cc4.EntitySpottedState
-Write: cc4.EntitySpottedState = value
 ```
 ## SpotRules 
 ```lua

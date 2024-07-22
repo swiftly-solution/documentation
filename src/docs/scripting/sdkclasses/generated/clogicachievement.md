@@ -27,11 +27,10 @@ Write: clogicachievement.Disabled = value
 Read: clogicachievement.AchievementEventID
 Write: clogicachievement.AchievementEventID = value
 ```
-## OnFired 
+## OnFired (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicachievement.OnFired
-Write: clogicachievement.OnFired = value
 ```
 ## Parent 
 ```lua

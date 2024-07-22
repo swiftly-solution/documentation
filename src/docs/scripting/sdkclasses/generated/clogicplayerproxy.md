@@ -20,23 +20,20 @@ CLogicPlayerProxy(ptr --[[ string ]])
 @type CBaseEntity
 Read: clogicplayerproxy.Player
 ```
-## PlayerHasAmmo 
+## PlayerHasAmmo (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerHasAmmo
-Write: clogicplayerproxy.PlayerHasAmmo = value
 ```
-## PlayerHasNoAmmo 
+## PlayerHasNoAmmo (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerHasNoAmmo
-Write: clogicplayerproxy.PlayerHasNoAmmo = value
 ```
-## PlayerDied 
+## PlayerDied (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerDied
-Write: clogicplayerproxy.PlayerDied = value
 ```
 ## Parent 
 ```lua

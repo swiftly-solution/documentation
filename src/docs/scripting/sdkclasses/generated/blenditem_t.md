@@ -21,11 +21,10 @@ BlendItem_t(ptr --[[ string ]])
 Read: blenditem_t.Tags
 Write: blenditem_t.Tags = value
 ```
-## Child 
+## Child (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: blenditem_t.Child
-Write: blenditem_t.Child = value
 ```
 ## Pos 
 ```lua

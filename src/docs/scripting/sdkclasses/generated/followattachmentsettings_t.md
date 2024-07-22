@@ -15,11 +15,10 @@ category:
 FollowAttachmentSettings_t(ptr --[[ string ]])
 ```
 # Properties
-## Attachment 
+## Attachment (Read-Only)
 ```lua
 @type CAnimAttachment
 Read: followattachmentsettings_t.Attachment
-Write: followattachmentsettings_t.Attachment = value
 ```
 ## BoneIndex 
 ```lua

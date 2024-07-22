@@ -39,17 +39,15 @@ Write: cbasetrailrenderer.MinSize = value
 Read: cbasetrailrenderer.MaxSize
 Write: cbasetrailrenderer.MaxSize = value
 ```
-## StartFadeSize 
+## StartFadeSize (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbasetrailrenderer.StartFadeSize
-Write: cbasetrailrenderer.StartFadeSize = value
 ```
-## EndFadeSize 
+## EndFadeSize (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbasetrailrenderer.EndFadeSize
-Write: cbasetrailrenderer.EndFadeSize = value
 ```
 ## ClampV 
 ```lua

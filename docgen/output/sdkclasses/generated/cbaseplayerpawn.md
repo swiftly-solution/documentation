@@ -15,50 +15,59 @@ category:
 CBasePlayerPawn(ptr --[[ string ]])
 ```
 # Properties
-## WeaponServices (Read-Only)
+## WeaponServices 
 ```lua
 @type CPlayer_WeaponServices
 Read: cbaseplayerpawn.WeaponServices
+Write: cbaseplayerpawn.WeaponServices = value
 ```
-## ItemServices (Read-Only)
+## ItemServices 
 ```lua
 @type CPlayer_ItemServices
 Read: cbaseplayerpawn.ItemServices
+Write: cbaseplayerpawn.ItemServices = value
 ```
-## AutoaimServices (Read-Only)
+## AutoaimServices 
 ```lua
 @type CPlayer_AutoaimServices
 Read: cbaseplayerpawn.AutoaimServices
+Write: cbaseplayerpawn.AutoaimServices = value
 ```
-## ObserverServices (Read-Only)
+## ObserverServices 
 ```lua
 @type CPlayer_ObserverServices
 Read: cbaseplayerpawn.ObserverServices
+Write: cbaseplayerpawn.ObserverServices = value
 ```
-## WaterServices (Read-Only)
+## WaterServices 
 ```lua
 @type CPlayer_WaterServices
 Read: cbaseplayerpawn.WaterServices
+Write: cbaseplayerpawn.WaterServices = value
 ```
-## UseServices (Read-Only)
+## UseServices 
 ```lua
 @type CPlayer_UseServices
 Read: cbaseplayerpawn.UseServices
+Write: cbaseplayerpawn.UseServices = value
 ```
-## FlashlightServices (Read-Only)
+## FlashlightServices 
 ```lua
 @type CPlayer_FlashlightServices
 Read: cbaseplayerpawn.FlashlightServices
+Write: cbaseplayerpawn.FlashlightServices = value
 ```
-## CameraServices (Read-Only)
+## CameraServices 
 ```lua
 @type CPlayer_CameraServices
 Read: cbaseplayerpawn.CameraServices
+Write: cbaseplayerpawn.CameraServices = value
 ```
-## MovementServices (Read-Only)
+## MovementServices 
 ```lua
 @type CPlayer_MovementServices
 Read: cbaseplayerpawn.MovementServices
+Write: cbaseplayerpawn.MovementServices = value
 ```
 ## ServerViewAngleChanges 
 ```lua
@@ -90,11 +99,10 @@ Write: cbaseplayerpawn._anglePrevious = value
 Read: cbaseplayerpawn.HideHUD
 Write: cbaseplayerpawn.HideHUD = value
 ```
-## Skybox3d 
+## Skybox3d (Read-Only)
 ```lua
 @type sky3dparams_t
 Read: cbaseplayerpawn.Skybox3d
-Write: cbaseplayerpawn.Skybox3d = value
 ```
 ## TimeLastHurt 
 ```lua
@@ -120,10 +128,11 @@ Write: cbaseplayerpawn.NextSuicideTime = value
 Read: cbaseplayerpawn.InitHUD
 Write: cbaseplayerpawn.InitHUD = value
 ```
-## Expresser (Read-Only)
+## Expresser 
 ```lua
 @type CAI_Expresser
 Read: cbaseplayerpawn.Expresser
+Write: cbaseplayerpawn.Expresser = value
 ```
 ## Controller (Read-Only)
 ```lua

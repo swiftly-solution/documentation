@@ -15,11 +15,10 @@ category:
 CLightComponent(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: clightcomponent.__pChainEntity
-Write: clightcomponent.__pChainEntity = value
 ```
 ## Color 
 ```lua

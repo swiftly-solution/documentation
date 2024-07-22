@@ -27,11 +27,10 @@ Write: cmultisource.RgEntities = value
 Read: cmultisource.RgTriggered
 Write: cmultisource.RgTriggered = value
 ```
-## OnTrigger 
+## OnTrigger (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmultisource.OnTrigger
-Write: cmultisource.OnTrigger = value
 ```
 ## Total 
 ```lua

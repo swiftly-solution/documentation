@@ -41,7 +41,7 @@ Write: centityidentity.Flags = value
 ```
 ## WorldGroupId 
 ```lua
-@type string
+@type number
 Read: centityidentity.WorldGroupId
 Write: centityidentity.WorldGroupId = value
 ```
@@ -51,31 +51,34 @@ Write: centityidentity.WorldGroupId = value
 Read: centityidentity.DataObjectTypes
 Write: centityidentity.DataObjectTypes = value
 ```
-## PathIndex 
+## PathIndex (Read-Only)
 ```lua
 @type ChangeAccessorFieldPathIndex_t
 Read: centityidentity.PathIndex
-Write: centityidentity.PathIndex = value
 ```
-## Prev (Read-Only)
+## Prev 
 ```lua
 @type CEntityIdentity
 Read: centityidentity.Prev
+Write: centityidentity.Prev = value
 ```
-## Next (Read-Only)
+## Next 
 ```lua
 @type CEntityIdentity
 Read: centityidentity.Next
+Write: centityidentity.Next = value
 ```
-## PrevByClass (Read-Only)
+## PrevByClass 
 ```lua
 @type CEntityIdentity
 Read: centityidentity.PrevByClass
+Write: centityidentity.PrevByClass = value
 ```
-## NextByClass (Read-Only)
+## NextByClass 
 ```lua
 @type CEntityIdentity
 Read: centityidentity.NextByClass
+Write: centityidentity.NextByClass = value
 ```
 # Functions
 ## ToPtr

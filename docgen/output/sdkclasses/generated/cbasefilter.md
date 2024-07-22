@@ -21,17 +21,15 @@ CBaseFilter(ptr --[[ string ]])
 Read: cbasefilter.Negated
 Write: cbasefilter.Negated = value
 ```
-## OnPass 
+## OnPass (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasefilter.OnPass
-Write: cbasefilter.OnPass = value
 ```
-## OnFail 
+## OnFail (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasefilter.OnFail
-Write: cbasefilter.OnFail = value
 ```
 ## Parent 
 ```lua

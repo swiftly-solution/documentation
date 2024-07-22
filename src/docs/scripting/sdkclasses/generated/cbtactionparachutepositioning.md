@@ -15,11 +15,10 @@ category:
 CBtActionParachutePositioning(ptr --[[ string ]])
 ```
 # Properties
-## ActionTimer 
+## ActionTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionparachutepositioning.ActionTimer
-Write: cbtactionparachutepositioning.ActionTimer = value
 ```
 ## Parent 
 ```lua

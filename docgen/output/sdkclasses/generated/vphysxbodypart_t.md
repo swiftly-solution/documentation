@@ -27,11 +27,10 @@ Write: vphysxbodypart_t.Flags = value
 Read: vphysxbodypart_t.Mass
 Write: vphysxbodypart_t.Mass = value
 ```
-## RnShape 
+## RnShape (Read-Only)
 ```lua
 @type VPhysics2ShapeDef_t
 Read: vphysxbodypart_t.RnShape
-Write: vphysxbodypart_t.RnShape = value
 ```
 ## CollisionAttributeIndex 
 ```lua

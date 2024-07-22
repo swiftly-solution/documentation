@@ -15,11 +15,10 @@ category:
 CTriggerRemove(ptr --[[ string ]])
 ```
 # Properties
-## OnRemove 
+## OnRemove (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerremove.OnRemove
-Write: ctriggerremove.OnRemove = value
 ```
 ## Parent 
 ```lua

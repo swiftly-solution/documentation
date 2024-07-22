@@ -63,11 +63,10 @@ Write: cfollowpathupdatenode.MaxAngle = value
 Read: cfollowpathupdatenode.SpeedScaleBlending
 Write: cfollowpathupdatenode.SpeedScaleBlending = value
 ```
-## TurnDamping 
+## TurnDamping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cfollowpathupdatenode.TurnDamping
-Write: cfollowpathupdatenode.TurnDamping = value
 ```
 ## FacingTarget 
 ```lua
@@ -75,11 +74,10 @@ Write: cfollowpathupdatenode.TurnDamping = value
 Read: cfollowpathupdatenode.FacingTarget
 Write: cfollowpathupdatenode.FacingTarget = value
 ```
-## Param 
+## Param (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cfollowpathupdatenode.Param
-Write: cfollowpathupdatenode.Param = value
 ```
 ## TurnToFaceOffset 
 ```lua

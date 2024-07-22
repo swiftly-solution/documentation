@@ -21,11 +21,10 @@ FootLockPoseOpFixedSettings(ptr --[[ string ]])
 Read: footlockposeopfixedsettings.FootInfo
 Write: footlockposeopfixedsettings.FootInfo = value
 ```
-## HipDampingSettings 
+## HipDampingSettings (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: footlockposeopfixedsettings.HipDampingSettings
-Write: footlockposeopfixedsettings.HipDampingSettings = value
 ```
 ## HipBoneIndex 
 ```lua

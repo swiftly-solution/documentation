@@ -15,35 +15,30 @@ category:
 CBasePlayerVData(ptr --[[ string ]])
 ```
 # Properties
-## HeadDamageMultiplier 
+## HeadDamageMultiplier (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cbaseplayervdata.HeadDamageMultiplier
-Write: cbaseplayervdata.HeadDamageMultiplier = value
 ```
-## ChestDamageMultiplier 
+## ChestDamageMultiplier (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cbaseplayervdata.ChestDamageMultiplier
-Write: cbaseplayervdata.ChestDamageMultiplier = value
 ```
-## StomachDamageMultiplier 
+## StomachDamageMultiplier (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cbaseplayervdata.StomachDamageMultiplier
-Write: cbaseplayervdata.StomachDamageMultiplier = value
 ```
-## ArmDamageMultiplier 
+## ArmDamageMultiplier (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cbaseplayervdata.ArmDamageMultiplier
-Write: cbaseplayervdata.ArmDamageMultiplier = value
 ```
-## LegDamageMultiplier 
+## LegDamageMultiplier (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cbaseplayervdata.LegDamageMultiplier
-Write: cbaseplayervdata.LegDamageMultiplier = value
 ```
 ## HoldBreathTime 
 ```lua

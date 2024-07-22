@@ -27,11 +27,10 @@ Write: worldbuilderparams_t.MinDrawVolumeSize = value
 Read: worldbuilderparams_t.BuildBakedLighting
 Write: worldbuilderparams_t.BuildBakedLighting = value
 ```
-## BakedLightingInfo 
+## BakedLightingInfo (Read-Only)
 ```lua
 @type BakedLightingInfo_t
 Read: worldbuilderparams_t.BakedLightingInfo
-Write: worldbuilderparams_t.BakedLightingInfo = value
 ```
 ## CompileTimestamp 
 ```lua

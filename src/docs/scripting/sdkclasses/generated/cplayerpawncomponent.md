@@ -15,11 +15,10 @@ category:
 CPlayerPawnComponent(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: cplayerpawncomponent.__pChainEntity
-Write: cplayerpawncomponent.__pChainEntity = value
 ```
 # Functions
 ## ToPtr

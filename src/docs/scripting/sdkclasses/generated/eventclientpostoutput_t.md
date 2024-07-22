@@ -15,11 +15,10 @@ category:
 EventClientPostOutput_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventclientpostoutput_t.LoopState
-Write: eventclientpostoutput_t.LoopState = value
 ```
 ## RenderTime 
 ```lua

@@ -33,11 +33,10 @@ Write: caudiosentence.RunTimePhonemes = value
 Read: caudiosentence.EmphasisSamples
 Write: caudiosentence.EmphasisSamples = value
 ```
-## MorphData 
+## MorphData (Read-Only)
 ```lua
 @type CAudioMorphData
 Read: caudiosentence.MorphData
-Write: caudiosentence.MorphData = value
 ```
 # Functions
 ## ToPtr

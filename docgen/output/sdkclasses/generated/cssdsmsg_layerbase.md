@@ -15,11 +15,10 @@ category:
 CSSDSMsg_LayerBase(ptr --[[ string ]])
 ```
 # Properties
-## ViewId 
+## ViewId (Read-Only)
 ```lua
 @type SceneViewId_t
 Read: cssdsmsg_layerbase.ViewId
-Write: cssdsmsg_layerbase.ViewId = value
 ```
 ## ViewName 
 ```lua

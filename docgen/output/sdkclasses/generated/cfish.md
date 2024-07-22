@@ -110,11 +110,10 @@ Write: cfish.PanicSpeed = value
 Read: cfish.AvoidRange
 Write: cfish.AvoidRange = value
 ```
-## TurnTimer 
+## TurnTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.TurnTimer
-Write: cfish.TurnTimer = value
 ```
 ## TurnClockwise 
 ```lua
@@ -122,35 +121,30 @@ Write: cfish.TurnTimer = value
 Read: cfish.TurnClockwise
 Write: cfish.TurnClockwise = value
 ```
-## GoTimer 
+## GoTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.GoTimer
-Write: cfish.GoTimer = value
 ```
-## MoveTimer 
+## MoveTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.MoveTimer
-Write: cfish.MoveTimer = value
 ```
-## PanicTimer 
+## PanicTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.PanicTimer
-Write: cfish.PanicTimer = value
 ```
-## DisperseTimer 
+## DisperseTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.DisperseTimer
-Write: cfish.DisperseTimer = value
 ```
-## ProximityTimer 
+## ProximityTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfish.ProximityTimer
-Write: cfish.ProximityTimer = value
 ```
 ## Visible 
 ```lua

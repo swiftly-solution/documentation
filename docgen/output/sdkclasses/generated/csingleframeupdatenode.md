@@ -15,11 +15,10 @@ category:
 CSingleFrameUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## PoseCacheHandle 
+## PoseCacheHandle (Read-Only)
 ```lua
 @type CPoseHandle
 Read: csingleframeupdatenode.PoseCacheHandle
-Write: csingleframeupdatenode.PoseCacheHandle = value
 ```
 ## Cycle 
 ```lua

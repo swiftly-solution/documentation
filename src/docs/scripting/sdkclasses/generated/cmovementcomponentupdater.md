@@ -15,11 +15,10 @@ category:
 CMovementComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## FacingDamping 
+## FacingDamping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cmovementcomponentupdater.FacingDamping
-Write: cmovementcomponentupdater.FacingDamping = value
 ```
 ## DefaultMotorIndex 
 ```lua

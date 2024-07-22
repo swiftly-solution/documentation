@@ -33,11 +33,10 @@ Write: cbasebutton.StayPushed = value
 Read: cbasebutton.Rotating
 Write: cbasebutton.Rotating = value
 ```
-## Ls 
+## Ls (Read-Only)
 ```lua
 @type locksound_t
 Read: cbasebutton.Ls
-Write: cbasebutton.Ls = value
 ```
 ## UseSound 
 ```lua
@@ -87,35 +86,30 @@ Write: cbasebutton.UseLockedTime = value
 Read: cbasebutton.SolidBsp
 Write: cbasebutton.SolidBsp = value
 ```
-## OnDamaged 
+## OnDamaged (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasebutton.OnDamaged
-Write: cbasebutton.OnDamaged = value
 ```
-## OnPressed 
+## OnPressed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasebutton.OnPressed
-Write: cbasebutton.OnPressed = value
 ```
-## OnUseLocked 
+## OnUseLocked (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasebutton.OnUseLocked
-Write: cbasebutton.OnUseLocked = value
 ```
-## OnIn 
+## OnIn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasebutton.OnIn
-Write: cbasebutton.OnIn = value
 ```
-## OnOut 
+## OnOut (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasebutton.OnOut
-Write: cbasebutton.OnOut = value
 ```
 ## State 
 ```lua

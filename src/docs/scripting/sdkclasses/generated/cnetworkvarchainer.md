@@ -15,11 +15,10 @@ category:
 CNetworkVarChainer(ptr --[[ string ]])
 ```
 # Properties
-## PathIndex 
+## PathIndex (Read-Only)
 ```lua
 @type ChangeAccessorFieldPathIndex_t
 Read: cnetworkvarchainer.PathIndex
-Write: cnetworkvarchainer.PathIndex = value
 ```
 # Functions
 ## ToPtr

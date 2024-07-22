@@ -234,35 +234,30 @@ Write: cpointvalueremapper.SoundReachedValueOne = value
 Read: cpointvalueremapper.SoundMovingLoop
 Write: cpointvalueremapper.SoundMovingLoop = value
 ```
-## OnReachedValueZero 
+## OnReachedValueZero (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnReachedValueZero
-Write: cpointvalueremapper.OnReachedValueZero = value
 ```
-## OnReachedValueOne 
+## OnReachedValueOne (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnReachedValueOne
-Write: cpointvalueremapper.OnReachedValueOne = value
 ```
-## OnReachedValueCustom 
+## OnReachedValueCustom (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnReachedValueCustom
-Write: cpointvalueremapper.OnReachedValueCustom = value
 ```
-## OnEngage 
+## OnEngage (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnEngage
-Write: cpointvalueremapper.OnEngage = value
 ```
-## OnDisengage 
+## OnDisengage (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnDisengage
-Write: cpointvalueremapper.OnDisengage = value
 ```
 ## Parent 
 ```lua

@@ -69,17 +69,15 @@ Write: ceconitemview.InventoryPosition = value
 Read: ceconitemview.Initialized
 Write: ceconitemview.Initialized = value
 ```
-## AttributeList 
+## AttributeList (Read-Only)
 ```lua
 @type CAttributeList
 Read: ceconitemview.AttributeList
-Write: ceconitemview.AttributeList = value
 ```
-## NetworkedDynamicAttributes 
+## NetworkedDynamicAttributes (Read-Only)
 ```lua
 @type CAttributeList
 Read: ceconitemview.NetworkedDynamicAttributes
-Write: ceconitemview.NetworkedDynamicAttributes = value
 ```
 ## CustomName 
 ```lua

@@ -15,17 +15,15 @@ category:
 CMotionSearchDB(ptr --[[ string ]])
 ```
 # Properties
-## RootNode 
+## RootNode (Read-Only)
 ```lua
 @type CMotionSearchNode
 Read: cmotionsearchdb.RootNode
-Write: cmotionsearchdb.RootNode = value
 ```
-## ResidualQuantizer 
+## ResidualQuantizer (Read-Only)
 ```lua
 @type CProductQuantizer
 Read: cmotionsearchdb.ResidualQuantizer
-Write: cmotionsearchdb.ResidualQuantizer = value
 ```
 ## CodeIndices 
 ```lua

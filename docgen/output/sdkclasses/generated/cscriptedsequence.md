@@ -372,41 +372,35 @@ Write: cscriptedsequence.OnDeathBehavior = value
 Read: cscriptedsequence.ConflictResponse
 Write: cscriptedsequence.ConflictResponse = value
 ```
-## OnBeginSequence 
+## OnBeginSequence (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnBeginSequence
-Write: cscriptedsequence.OnBeginSequence = value
 ```
-## OnActionStartOrLoop 
+## OnActionStartOrLoop (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnActionStartOrLoop
-Write: cscriptedsequence.OnActionStartOrLoop = value
 ```
-## OnEndSequence 
+## OnEndSequence (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnEndSequence
-Write: cscriptedsequence.OnEndSequence = value
 ```
-## OnPostIdleEndSequence 
+## OnPostIdleEndSequence (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnPostIdleEndSequence
-Write: cscriptedsequence.OnPostIdleEndSequence = value
 ```
-## OnCancelSequence 
+## OnCancelSequence (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnCancelSequence
-Write: cscriptedsequence.OnCancelSequence = value
 ```
-## OnCancelFailedSequence 
+## OnCancelFailedSequence (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cscriptedsequence.OnCancelFailedSequence
-Write: cscriptedsequence.OnCancelFailedSequence = value
 ```
 ## OnScriptEvent 
 ```lua

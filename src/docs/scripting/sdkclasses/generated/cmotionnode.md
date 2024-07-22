@@ -21,11 +21,10 @@ CMotionNode(ptr --[[ string ]])
 Read: cmotionnode.Name
 Write: cmotionnode.Name = value
 ```
-## Id 
+## Id (Read-Only)
 ```lua
 @type AnimNodeID
 Read: cmotionnode.Id
-Write: cmotionnode.Id = value
 ```
 # Functions
 ## ToPtr

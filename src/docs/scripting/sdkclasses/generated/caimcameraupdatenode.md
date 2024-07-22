@@ -15,53 +15,45 @@ category:
 CAimCameraUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## ParameterPosition 
+## ParameterPosition (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterPosition
-Write: caimcameraupdatenode.ParameterPosition = value
 ```
-## ParameterOrientation 
+## ParameterOrientation (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterOrientation
-Write: caimcameraupdatenode.ParameterOrientation = value
 ```
-## ParameterSpineRotationWeight 
+## ParameterSpineRotationWeight (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterSpineRotationWeight
-Write: caimcameraupdatenode.ParameterSpineRotationWeight = value
 ```
-## ParameterPelvisOffset 
+## ParameterPelvisOffset (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterPelvisOffset
-Write: caimcameraupdatenode.ParameterPelvisOffset = value
 ```
-## ParameterUseIK 
+## ParameterUseIK (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterUseIK
-Write: caimcameraupdatenode.ParameterUseIK = value
 ```
-## ParameterWeaponDepenetrationDistance 
+## ParameterWeaponDepenetrationDistance (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterWeaponDepenetrationDistance
-Write: caimcameraupdatenode.ParameterWeaponDepenetrationDistance = value
 ```
-## ParameterCameraClearanceDistance 
+## ParameterCameraClearanceDistance (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterCameraClearanceDistance
-Write: caimcameraupdatenode.ParameterCameraClearanceDistance = value
 ```
-## OpFixedSettings 
+## OpFixedSettings (Read-Only)
 ```lua
 @type AimCameraOpFixedSettings_t
 Read: caimcameraupdatenode.OpFixedSettings
-Write: caimcameraupdatenode.OpFixedSettings = value
 ```
 ## Parent 
 ```lua

@@ -15,11 +15,10 @@ category:
 CSpeedScaleUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cspeedscaleupdatenode.ParamIndex
-Write: cspeedscaleupdatenode.ParamIndex = value
 ```
 ## Parent 
 ```lua

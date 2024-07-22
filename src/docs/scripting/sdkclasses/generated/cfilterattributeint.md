@@ -17,7 +17,7 @@ CFilterAttributeInt(ptr --[[ string ]])
 # Properties
 ## AttributeName 
 ```lua
-@type string
+@type number
 Read: cfilterattributeint.AttributeName
 Write: cfilterattributeint.AttributeName = value
 ```

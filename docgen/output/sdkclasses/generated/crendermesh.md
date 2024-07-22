@@ -21,22 +21,21 @@ CRenderMesh(ptr --[[ string ]])
 Read: crendermesh.Constraints
 Write: crendermesh.Constraints = value
 ```
-## Skeleton 
+## Skeleton (Read-Only)
 ```lua
 @type CRenderSkeleton
 Read: crendermesh.Skeleton
-Write: crendermesh.Skeleton = value
 ```
-## MeshDeformParams 
+## MeshDeformParams (Read-Only)
 ```lua
 @type DynamicMeshDeformParams_t
 Read: crendermesh.MeshDeformParams
-Write: crendermesh.MeshDeformParams = value
 ```
-## GroomData (Read-Only)
+## GroomData 
 ```lua
 @type CRenderGroom
 Read: crendermesh.GroomData
+Write: crendermesh.GroomData = value
 ```
 # Functions
 ## ToPtr

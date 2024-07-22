@@ -15,23 +15,20 @@ category:
 CPhysHinge(ptr --[[ string ]])
 ```
 # Properties
-## SoundInfo 
+## SoundInfo (Read-Only)
 ```lua
 @type ConstraintSoundInfo
 Read: cphyshinge.SoundInfo
-Write: cphyshinge.SoundInfo = value
 ```
-## NotifyMinLimitReached 
+## NotifyMinLimitReached (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphyshinge.NotifyMinLimitReached
-Write: cphyshinge.NotifyMinLimitReached = value
 ```
-## NotifyMaxLimitReached 
+## NotifyMaxLimitReached (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphyshinge.NotifyMaxLimitReached
-Write: cphyshinge.NotifyMaxLimitReached = value
 ```
 ## AtMinLimit 
 ```lua
@@ -45,11 +42,10 @@ Write: cphyshinge.AtMinLimit = value
 Read: cphyshinge.AtMaxLimit
 Write: cphyshinge.AtMaxLimit = value
 ```
-## Hinge 
+## Hinge (Read-Only)
 ```lua
 @type constraint_hingeparams_t
 Read: cphyshinge.Hinge
-Write: cphyshinge.Hinge = value
 ```
 ## HingeFriction 
 ```lua
@@ -111,17 +107,15 @@ Write: cphyshinge.AngleSpeed = value
 Read: cphyshinge.AngleSpeedThreshold
 Write: cphyshinge.AngleSpeedThreshold = value
 ```
-## OnStartMoving 
+## OnStartMoving (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphyshinge.OnStartMoving
-Write: cphyshinge.OnStartMoving = value
 ```
-## OnStopMoving 
+## OnStopMoving (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphyshinge.OnStopMoving
-Write: cphyshinge.OnStopMoving = value
 ```
 ## Parent 
 ```lua

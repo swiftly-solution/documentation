@@ -15,11 +15,10 @@ category:
 CEconEntity(ptr --[[ string ]])
 ```
 # Properties
-## AttributeManager 
+## AttributeManager (Read-Only)
 ```lua
 @type CAttributeContainer
 Read: ceconentity.AttributeManager
-Write: ceconentity.AttributeManager = value
 ```
 ## OriginalOwnerXuidLow 
 ```lua

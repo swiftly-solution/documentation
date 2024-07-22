@@ -27,11 +27,10 @@ Write: cmolotovprojectile.IsIncGrenade = value
 Read: cmolotovprojectile.Detonated
 Write: cmolotovprojectile.Detonated = value
 ```
-## StillTimer 
+## StillTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: cmolotovprojectile.StillTimer
-Write: cmolotovprojectile.StillTimer = value
 ```
 ## HasBouncedOffPlayer 
 ```lua

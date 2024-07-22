@@ -15,11 +15,10 @@ category:
 CTriggerDetectExplosion(ptr --[[ string ]])
 ```
 # Properties
-## OnDetectedExplosion 
+## OnDetectedExplosion (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerdetectexplosion.OnDetectedExplosion
-Write: ctriggerdetectexplosion.OnDetectedExplosion = value
 ```
 ## Parent 
 ```lua

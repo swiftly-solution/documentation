@@ -15,17 +15,15 @@ category:
 LookAtOpFixedSettings_t(ptr --[[ string ]])
 ```
 # Properties
-## Attachment 
+## Attachment (Read-Only)
 ```lua
 @type CAnimAttachment
 Read: lookatopfixedsettings_t.Attachment
-Write: lookatopfixedsettings_t.Attachment = value
 ```
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: lookatopfixedsettings_t.Damping
-Write: lookatopfixedsettings_t.Damping = value
 ```
 ## Bones 
 ```lua

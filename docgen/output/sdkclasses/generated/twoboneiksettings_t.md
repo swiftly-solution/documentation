@@ -21,11 +21,10 @@ TwoBoneIKSettings_t(ptr --[[ string ]])
 Read: twoboneiksettings_t.EndEffectorType
 Write: twoboneiksettings_t.EndEffectorType = value
 ```
-## EndEffectorAttachment 
+## EndEffectorAttachment (Read-Only)
 ```lua
 @type CAnimAttachment
 Read: twoboneiksettings_t.EndEffectorAttachment
-Write: twoboneiksettings_t.EndEffectorAttachment = value
 ```
 ## TargetType 
 ```lua
@@ -33,11 +32,10 @@ Write: twoboneiksettings_t.EndEffectorAttachment = value
 Read: twoboneiksettings_t.TargetType
 Write: twoboneiksettings_t.TargetType = value
 ```
-## TargetAttachment 
+## TargetAttachment (Read-Only)
 ```lua
 @type CAnimAttachment
 Read: twoboneiksettings_t.TargetAttachment
-Write: twoboneiksettings_t.TargetAttachment = value
 ```
 ## TargetBoneIndex 
 ```lua
@@ -45,17 +43,15 @@ Write: twoboneiksettings_t.TargetAttachment = value
 Read: twoboneiksettings_t.TargetBoneIndex
 Write: twoboneiksettings_t.TargetBoneIndex = value
 ```
-## PositionParam 
+## PositionParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: twoboneiksettings_t.PositionParam
-Write: twoboneiksettings_t.PositionParam = value
 ```
-## RotationParam 
+## RotationParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: twoboneiksettings_t.RotationParam
-Write: twoboneiksettings_t.RotationParam = value
 ```
 ## AlwaysUseFallbackHinge 
 ```lua

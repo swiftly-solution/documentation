@@ -74,17 +74,15 @@ Write: cnavlinkareaentity.StrFilterName = value
 @type CBaseFilter
 Read: cnavlinkareaentity.Filter
 ```
-## OnNavLinkStart 
+## OnNavLinkStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cnavlinkareaentity.OnNavLinkStart
-Write: cnavlinkareaentity.OnNavLinkStart = value
 ```
-## OnNavLinkFinish 
+## OnNavLinkFinish (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cnavlinkareaentity.OnNavLinkFinish
-Write: cnavlinkareaentity.OnNavLinkFinish = value
 ```
 ## IsTerminus 
 ```lua

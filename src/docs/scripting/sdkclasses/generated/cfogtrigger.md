@@ -15,11 +15,10 @@ category:
 CFogTrigger(ptr --[[ string ]])
 ```
 # Properties
-## Fog 
+## Fog (Read-Only)
 ```lua
 @type fogparams_t
 Read: cfogtrigger.Fog
-Write: cfogtrigger.Fog = value
 ```
 ## Parent 
 ```lua

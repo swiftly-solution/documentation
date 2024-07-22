@@ -15,11 +15,10 @@ category:
 CDemoSettingsComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Settings 
+## Settings (Read-Only)
 ```lua
 @type CAnimDemoCaptureSettings
 Read: cdemosettingscomponentupdater.Settings
-Write: cdemosettingscomponentupdater.Settings = value
 ```
 ## Parent 
 ```lua

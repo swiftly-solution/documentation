@@ -27,11 +27,10 @@ Write: renderskeletonbone_t.BoneName = value
 Read: renderskeletonbone_t.ParentName
 Write: renderskeletonbone_t.ParentName = value
 ```
-## Bbox 
+## Bbox (Read-Only)
 ```lua
 @type SkeletonBoneBounds_t
 Read: renderskeletonbone_t.Bbox
-Write: renderskeletonbone_t.Bbox = value
 ```
 ## SphereRadius 
 ```lua

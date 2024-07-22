@@ -15,11 +15,10 @@ category:
 CBodyComponentSkeletonInstance(ptr --[[ string ]])
 ```
 # Properties
-## SkeletonInstance 
+## SkeletonInstance (Read-Only)
 ```lua
 @type CSkeletonInstance
 Read: cbodycomponentskeletoninstance.SkeletonInstance
-Write: cbodycomponentskeletoninstance.SkeletonInstance = value
 ```
 ## Parent 
 ```lua

@@ -74,35 +74,30 @@ Write: cpointangularvelocitysensor.Axis = value
 Read: cpointangularvelocitysensor.UseHelper
 Write: cpointangularvelocitysensor.UseHelper = value
 ```
-## OnLessThan 
+## OnLessThan (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnLessThan
-Write: cpointangularvelocitysensor.OnLessThan = value
 ```
-## OnLessThanOrEqualTo 
+## OnLessThanOrEqualTo (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnLessThanOrEqualTo
-Write: cpointangularvelocitysensor.OnLessThanOrEqualTo = value
 ```
-## OnGreaterThan 
+## OnGreaterThan (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnGreaterThan
-Write: cpointangularvelocitysensor.OnGreaterThan = value
 ```
-## OnGreaterThanOrEqualTo 
+## OnGreaterThanOrEqualTo (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnGreaterThanOrEqualTo
-Write: cpointangularvelocitysensor.OnGreaterThanOrEqualTo = value
 ```
-## OnEqualTo 
+## OnEqualTo (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnEqualTo
-Write: cpointangularvelocitysensor.OnEqualTo = value
 ```
 ## Parent 
 ```lua

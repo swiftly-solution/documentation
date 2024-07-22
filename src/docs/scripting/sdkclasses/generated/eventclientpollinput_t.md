@@ -15,11 +15,10 @@ category:
 EventClientPollInput_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventclientpollinput_t.LoopState
-Write: eventclientpollinput_t.LoopState = value
 ```
 ## RealTime 
 ```lua

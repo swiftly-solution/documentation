@@ -270,35 +270,30 @@ Write: csceneentity.SceneFlushCounter = value
 Read: csceneentity.SceneStringIndex
 Write: csceneentity.SceneStringIndex = value
 ```
-## OnStart 
+## OnStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csceneentity.OnStart
-Write: csceneentity.OnStart = value
 ```
-## OnCompletion 
+## OnCompletion (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csceneentity.OnCompletion
-Write: csceneentity.OnCompletion = value
 ```
-## OnCanceled 
+## OnCanceled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csceneentity.OnCanceled
-Write: csceneentity.OnCanceled = value
 ```
-## OnPaused 
+## OnPaused (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csceneentity.OnPaused
-Write: csceneentity.OnPaused = value
 ```
-## OnResumed 
+## OnResumed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csceneentity.OnResumed
-Write: csceneentity.OnResumed = value
 ```
 ## OnTrigger 
 ```lua

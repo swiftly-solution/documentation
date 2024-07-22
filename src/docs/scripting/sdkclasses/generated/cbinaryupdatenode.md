@@ -15,17 +15,15 @@ category:
 CBinaryUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Child1 
+## Child1 (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: cbinaryupdatenode.Child1
-Write: cbinaryupdatenode.Child1 = value
 ```
-## Child2 
+## Child2 (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: cbinaryupdatenode.Child2
-Write: cbinaryupdatenode.Child2 = value
 ```
 ## TimingBehavior 
 ```lua

@@ -21,10 +21,11 @@ CHintMessageQueue(ptr --[[ string ]])
 Read: chintmessagequeue.TmMessageEnd
 Write: chintmessagequeue.TmMessageEnd = value
 ```
-## PlayerController (Read-Only)
+## PlayerController 
 ```lua
 @type CBasePlayerController
 Read: chintmessagequeue.PlayerController
+Write: chintmessagequeue.PlayerController = value
 ```
 # Functions
 ## ToPtr

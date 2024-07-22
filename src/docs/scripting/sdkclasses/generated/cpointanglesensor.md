@@ -61,17 +61,15 @@ Write: cpointanglesensor.FacingTime = value
 Read: cpointanglesensor.Fired
 Write: cpointanglesensor.Fired = value
 ```
-## OnFacingLookat 
+## OnFacingLookat (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointanglesensor.OnFacingLookat
-Write: cpointanglesensor.OnFacingLookat = value
 ```
-## OnNotFacingLookat 
+## OnNotFacingLookat (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpointanglesensor.OnNotFacingLookat
-Write: cpointanglesensor.OnNotFacingLookat = value
 ```
 ## Parent 
 ```lua

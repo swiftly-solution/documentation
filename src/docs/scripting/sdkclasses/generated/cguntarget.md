@@ -26,11 +26,10 @@ Write: cguntarget.On = value
 @type CBaseEntity
 Read: cguntarget.TargetEnt
 ```
-## OnDeath 
+## OnDeath (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cguntarget.OnDeath
-Write: cguntarget.OnDeath = value
 ```
 ## Parent 
 ```lua

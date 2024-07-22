@@ -15,11 +15,10 @@ category:
 CSkillDamage(ptr --[[ string ]])
 ```
 # Properties
-## Damage 
+## Damage (Read-Only)
 ```lua
 @type CSkillFloat
 Read: cskilldamage.Damage
-Write: cskilldamage.Damage = value
 ```
 ## NPCDamageScalarVsNPC 
 ```lua

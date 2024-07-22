@@ -15,17 +15,15 @@ category:
 CFootAdjustmentUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## BasePoseCacheHandle 
+## BasePoseCacheHandle (Read-Only)
 ```lua
 @type CPoseHandle
 Read: cfootadjustmentupdatenode.BasePoseCacheHandle
-Write: cfootadjustmentupdatenode.BasePoseCacheHandle = value
 ```
-## FacingTarget 
+## FacingTarget (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cfootadjustmentupdatenode.FacingTarget
-Write: cfootadjustmentupdatenode.FacingTarget = value
 ```
 ## TurnTimeMin 
 ```lua

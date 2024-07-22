@@ -15,23 +15,21 @@ category:
 CChicken(ptr --[[ string ]])
 ```
 # Properties
-## AttributeManager 
+## AttributeManager (Read-Only)
 ```lua
 @type CAttributeContainer
 Read: cchicken.AttributeManager
-Write: cchicken.AttributeManager = value
 ```
 ## ActivityFinishedTag 
 ```lua
-@type string
+@type number
 Read: cchicken.ActivityFinishedTag
 Write: cchicken.ActivityFinishedTag = value
 ```
-## UpdateTimer 
+## UpdateTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.UpdateTimer
-Write: cchicken.UpdateTimer = value
 ```
 ## StuckAnchor 
 ```lua
@@ -39,17 +37,15 @@ Write: cchicken.UpdateTimer = value
 Read: cchicken.StuckAnchor
 Write: cchicken.StuckAnchor = value
 ```
-## StuckTimer 
+## StuckTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.StuckTimer
-Write: cchicken.StuckTimer = value
 ```
-## CollisionStuckTimer 
+## CollisionStuckTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.CollisionStuckTimer
-Write: cchicken.CollisionStuckTimer = value
 ```
 ## IsOnGround 
 ```lua
@@ -75,11 +71,10 @@ Write: cchicken.DesiredActivity = value
 Read: cchicken.CurrentActivity
 Write: cchicken.CurrentActivity = value
 ```
-## ActivityTimer 
+## ActivityTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.ActivityTimer
-Write: cchicken.ActivityTimer = value
 ```
 ## TurnRate 
 ```lua
@@ -92,23 +87,20 @@ Write: cchicken.TurnRate = value
 @type CBaseEntity
 Read: cchicken.FleeFrom
 ```
-## MoveRateThrottleTimer 
+## MoveRateThrottleTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.MoveRateThrottleTimer
-Write: cchicken.MoveRateThrottleTimer = value
 ```
-## StartleTimer 
+## StartleTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.StartleTimer
-Write: cchicken.StartleTimer = value
 ```
-## VocalizeTimer 
+## VocalizeTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.VocalizeTimer
-Write: cchicken.VocalizeTimer = value
 ```
 ## WhenZombified 
 ```lua
@@ -127,11 +119,10 @@ Write: cchicken.JumpedThisFrame = value
 @type CCSPlayerPawn
 Read: cchicken.Leader
 ```
-## ReuseTimer 
+## ReuseTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.ReuseTimer
-Write: cchicken.ReuseTimer = value
 ```
 ## HasBeenUsed 
 ```lua
@@ -139,11 +130,10 @@ Write: cchicken.ReuseTimer = value
 Read: cchicken.HasBeenUsed
 Write: cchicken.HasBeenUsed = value
 ```
-## JumpTimer 
+## JumpTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.JumpTimer
-Write: cchicken.JumpTimer = value
 ```
 ## LastJumpTime 
 ```lua
@@ -163,23 +153,20 @@ Write: cchicken.InJump = value
 Read: cchicken.IsWaitingForLeader
 Write: cchicken.IsWaitingForLeader = value
 ```
-## RepathTimer 
+## RepathTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.RepathTimer
-Write: cchicken.RepathTimer = value
 ```
-## InhibitDoorTimer 
+## InhibitDoorTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.InhibitDoorTimer
-Write: cchicken.InhibitDoorTimer = value
 ```
-## InhibitObstacleAvoidanceTimer 
+## InhibitObstacleAvoidanceTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.InhibitObstacleAvoidanceTimer
-Write: cchicken.InhibitObstacleAvoidanceTimer = value
 ```
 ## PathGoal 
 ```lua
@@ -193,11 +180,10 @@ Write: cchicken.PathGoal = value
 Read: cchicken.ActiveFollowStartTime
 Write: cchicken.ActiveFollowStartTime = value
 ```
-## FollowMinuteTimer 
+## FollowMinuteTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.FollowMinuteTimer
-Write: cchicken.FollowMinuteTimer = value
 ```
 ## LastEggPoopPosition 
 ```lua
@@ -205,11 +191,10 @@ Write: cchicken.FollowMinuteTimer = value
 Read: cchicken.LastEggPoopPosition
 Write: cchicken.LastEggPoopPosition = value
 ```
-## BlockDirectionTimer 
+## BlockDirectionTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.BlockDirectionTimer
-Write: cchicken.BlockDirectionTimer = value
 ```
 ## Parent 
 ```lua

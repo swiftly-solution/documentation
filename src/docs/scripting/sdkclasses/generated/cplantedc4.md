@@ -39,23 +39,20 @@ Write: cplantedc4.BombSite = value
 Read: cplantedc4.SourceSoundscapeHash
 Write: cplantedc4.SourceSoundscapeHash = value
 ```
-## OnBombDefused 
+## OnBombDefused (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cplantedc4.OnBombDefused
-Write: cplantedc4.OnBombDefused = value
 ```
-## OnBombBeginDefuse 
+## OnBombBeginDefuse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cplantedc4.OnBombBeginDefuse
-Write: cplantedc4.OnBombBeginDefuse = value
 ```
-## OnBombDefuseAborted 
+## OnBombDefuseAborted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cplantedc4.OnBombDefuseAborted
-Write: cplantedc4.OnBombDefuseAborted = value
 ```
 ## CannotBeDefused 
 ```lua
@@ -63,11 +60,10 @@ Write: cplantedc4.OnBombDefuseAborted = value
 Read: cplantedc4.CannotBeDefused
 Write: cplantedc4.CannotBeDefused = value
 ```
-## EntitySpottedState 
+## EntitySpottedState (Read-Only)
 ```lua
 @type EntitySpottedState_t
 Read: cplantedc4.EntitySpottedState
-Write: cplantedc4.EntitySpottedState = value
 ```
 ## SpotRules 
 ```lua

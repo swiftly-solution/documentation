@@ -15,11 +15,10 @@ category:
 CBodyComponentBaseAnimGraph(ptr --[[ string ]])
 ```
 # Properties
-## AnimationController 
+## AnimationController (Read-Only)
 ```lua
 @type CBaseAnimGraphController
 Read: cbodycomponentbaseanimgraph.AnimationController
-Write: cbodycomponentbaseanimgraph.AnimationController = value
 ```
 ## Parent 
 ```lua

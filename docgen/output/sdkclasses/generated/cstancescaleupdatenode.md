@@ -15,11 +15,10 @@ category:
 CStanceScaleUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Param 
+## Param (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cstancescaleupdatenode.Param
-Write: cstancescaleupdatenode.Param = value
 ```
 ## Parent 
 ```lua

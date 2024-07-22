@@ -15,11 +15,10 @@ category:
 VMixDelayDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## FeedbackFilter 
+## FeedbackFilter (Read-Only)
 ```lua
 @type VMixFilterDesc_t
 Read: vmixdelaydesc_t.FeedbackFilter
-Write: vmixdelaydesc_t.FeedbackFilter = value
 ```
 ## EnableFilter 
 ```lua

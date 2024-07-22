@@ -44,11 +44,10 @@ Read: cphysforce.AttachedObject
 Read: cphysforce.WasRestored
 Write: cphysforce.WasRestored = value
 ```
-## Integrator 
+## Integrator (Read-Only)
 ```lua
 @type CConstantForceController
 Read: cphysforce.Integrator
-Write: cphysforce.Integrator = value
 ```
 ## Parent 
 ```lua

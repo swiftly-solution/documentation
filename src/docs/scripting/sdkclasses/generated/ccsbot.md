@@ -39,11 +39,10 @@ Write: ccsbot.CombatRange = value
 Read: ccsbot.IsRogue
 Write: ccsbot.IsRogue = value
 ```
-## RogueTimer 
+## RogueTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.RogueTimer
-Write: ccsbot.RogueTimer = value
 ```
 ## DiedLastRound 
 ```lua
@@ -69,11 +68,10 @@ Write: ccsbot.WasSafe = value
 Read: ccsbot.BlindFire
 Write: ccsbot.BlindFire = value
 ```
-## SurpriseTimer 
+## SurpriseTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.SurpriseTimer
-Write: ccsbot.SurpriseTimer = value
 ```
 ## AllowActive 
 ```lua
@@ -104,29 +102,25 @@ Write: ccsbot.FollowTimestamp = value
 Read: ccsbot.AllowAutoFollowTime
 Write: ccsbot.AllowAutoFollowTime = value
 ```
-## HurryTimer 
+## HurryTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.HurryTimer
-Write: ccsbot.HurryTimer = value
 ```
-## AlertTimer 
+## AlertTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.AlertTimer
-Write: ccsbot.AlertTimer = value
 ```
-## SneakTimer 
+## SneakTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.SneakTimer
-Write: ccsbot.SneakTimer = value
 ```
-## PanicTimer 
+## PanicTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.PanicTimer
-Write: ccsbot.PanicTimer = value
 ```
 ## StateTimestamp 
 ```lua
@@ -185,11 +179,10 @@ Write: ccsbot.IsStopping = value
 Read: ccsbot.HasVisitedEnemySpawn
 Write: ccsbot.HasVisitedEnemySpawn = value
 ```
-## StillTimer 
+## StillTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsbot.StillTimer
-Write: ccsbot.StillTimer = value
 ```
 ## EyeAnglesUnderPathFinderControl 
 ```lua
@@ -209,17 +202,15 @@ Write: ccsbot.PathIndex = value
 Read: ccsbot.AreaEnteredTimestamp
 Write: ccsbot.AreaEnteredTimestamp = value
 ```
-## RepathTimer 
+## RepathTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.RepathTimer
-Write: ccsbot.RepathTimer = value
 ```
-## AvoidFriendTimer 
+## AvoidFriendTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.AvoidFriendTimer
-Write: ccsbot.AvoidFriendTimer = value
 ```
 ## IsFriendInTheWay 
 ```lua
@@ -227,11 +218,10 @@ Write: ccsbot.AvoidFriendTimer = value
 Read: ccsbot.IsFriendInTheWay
 Write: ccsbot.IsFriendInTheWay = value
 ```
-## PoliteTimer 
+## PoliteTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.PoliteTimer
-Write: ccsbot.PoliteTimer = value
 ```
 ## IsWaitingBehindFriend 
 ```lua
@@ -245,23 +235,20 @@ Write: ccsbot.IsWaitingBehindFriend = value
 Read: ccsbot.PathLadderEnd
 Write: ccsbot.PathLadderEnd = value
 ```
-## MustRunTimer 
+## MustRunTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.MustRunTimer
-Write: ccsbot.MustRunTimer = value
 ```
-## WaitTimer 
+## WaitTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.WaitTimer
-Write: ccsbot.WaitTimer = value
 ```
-## UpdateTravelDistanceTimer 
+## UpdateTravelDistanceTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.UpdateTravelDistanceTimer
-Write: ccsbot.UpdateTravelDistanceTimer = value
 ```
 ## PlayerTravelDistance 
 ```lua
@@ -305,17 +292,15 @@ Write: ccsbot.HasJoined = value
 Read: ccsbot.IsWaitingForHostage
 Write: ccsbot.IsWaitingForHostage = value
 ```
-## InhibitWaitingForHostageTimer 
+## InhibitWaitingForHostageTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.InhibitWaitingForHostageTimer
-Write: ccsbot.InhibitWaitingForHostageTimer = value
 ```
-## WaitForHostageTimer 
+## WaitForHostageTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.WaitForHostageTimer
-Write: ccsbot.WaitForHostageTimer = value
 ```
 ## NoisePosition 
 ```lua
@@ -335,16 +320,16 @@ Write: ccsbot.NoiseTravelDistance = value
 Read: ccsbot.NoiseTimestamp
 Write: ccsbot.NoiseTimestamp = value
 ```
-## NoiseSource (Read-Only)
+## NoiseSource 
 ```lua
 @type CCSPlayerPawn
 Read: ccsbot.NoiseSource
+Write: ccsbot.NoiseSource = value
 ```
-## NoiseBendTimer 
+## NoiseBendTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.NoiseBendTimer
-Write: ccsbot.NoiseBendTimer = value
 ```
 ## BentNoisePosition 
 ```lua
@@ -442,23 +427,20 @@ Write: ccsbot.ApproachPointCount = value
 Read: ccsbot.ApproachPointViewPosition
 Write: ccsbot.ApproachPointViewPosition = value
 ```
-## ViewSteadyTimer 
+## ViewSteadyTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsbot.ViewSteadyTimer
-Write: ccsbot.ViewSteadyTimer = value
 ```
-## TossGrenadeTimer 
+## TossGrenadeTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.TossGrenadeTimer
-Write: ccsbot.TossGrenadeTimer = value
 ```
-## IsAvoidingGrenade 
+## IsAvoidingGrenade (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.IsAvoidingGrenade
-Write: ccsbot.IsAvoidingGrenade = value
 ```
 ## SpotCheckTimestamp 
 ```lua
@@ -550,11 +532,10 @@ Write: ccsbot.AimFocusInterval = value
 Read: ccsbot.AimFocusNextUpdate
 Write: ccsbot.AimFocusNextUpdate = value
 ```
-## IgnoreEnemiesTimer 
+## IgnoreEnemiesTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.IgnoreEnemiesTimer
-Write: ccsbot.IgnoreEnemiesTimer = value
 ```
 ## Enemy (Read-Only)
 ```lua
@@ -642,11 +623,10 @@ Read: ccsbot.ClosestVisibleFriend
 @type CCSPlayerPawn
 Read: ccsbot.ClosestVisibleHumanFriend
 ```
-## AttentionInterval 
+## AttentionInterval (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsbot.AttentionInterval
-Write: ccsbot.AttentionInterval = value
 ```
 ## Attacker (Read-Only)
 ```lua
@@ -659,11 +639,10 @@ Read: ccsbot.Attacker
 Read: ccsbot.AttackedTimestamp
 Write: ccsbot.AttackedTimestamp = value
 ```
-## BurnedByFlamesTimer 
+## BurnedByFlamesTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsbot.BurnedByFlamesTimer
-Write: ccsbot.BurnedByFlamesTimer = value
 ```
 ## LastVictimID 
 ```lua
@@ -683,17 +662,15 @@ Write: ccsbot.IsAimingAtEnemy = value
 Read: ccsbot.IsRapidFiring
 Write: ccsbot.IsRapidFiring = value
 ```
-## EquipTimer 
+## EquipTimer (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ccsbot.EquipTimer
-Write: ccsbot.EquipTimer = value
 ```
-## ZoomTimer 
+## ZoomTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.ZoomTimer
-Write: ccsbot.ZoomTimer = value
 ```
 ## FireWeaponTimestamp 
 ```lua
@@ -701,11 +678,10 @@ Write: ccsbot.ZoomTimer = value
 Read: ccsbot.FireWeaponTimestamp
 Write: ccsbot.FireWeaponTimestamp = value
 ```
-## LookForWeaponsOnGroundTimer 
+## LookForWeaponsOnGroundTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.LookForWeaponsOnGroundTimer
-Write: ccsbot.LookForWeaponsOnGroundTimer = value
 ```
 ## IsSleeping 
 ```lua
@@ -719,11 +695,10 @@ Write: ccsbot.IsSleeping = value
 Read: ccsbot.IsEnemySniperVisible
 Write: ccsbot.IsEnemySniperVisible = value
 ```
-## SawEnemySniperTimer 
+## SawEnemySniperTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.SawEnemySniperTimer
-Write: ccsbot.SawEnemySniperTimer = value
 ```
 ## EnemyQueueIndex 
 ```lua
@@ -761,17 +736,15 @@ Write: ccsbot.StuckTimestamp = value
 Read: ccsbot.StuckSpot
 Write: ccsbot.StuckSpot = value
 ```
-## WiggleTimer 
+## WiggleTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.WiggleTimer
-Write: ccsbot.WiggleTimer = value
 ```
-## StuckJumpTimer 
+## StuckJumpTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: ccsbot.StuckJumpTimer
-Write: ccsbot.StuckJumpTimer = value
 ```
 ## NextCleanupCheckTimestamp 
 ```lua

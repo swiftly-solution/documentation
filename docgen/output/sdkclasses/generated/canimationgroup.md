@@ -21,11 +21,10 @@ CAnimationGroup(ptr --[[ string ]])
 Read: canimationgroup.Flags
 Write: canimationgroup.Flags = value
 ```
-## DecodeKey 
+## DecodeKey (Read-Only)
 ```lua
 @type CAnimKeyData
 Read: canimationgroup.DecodeKey
-Write: canimationgroup.DecodeKey = value
 ```
 # Functions
 ## ToPtr

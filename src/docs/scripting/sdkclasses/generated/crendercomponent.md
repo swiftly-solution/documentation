@@ -15,11 +15,10 @@ category:
 CRenderComponent(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: crendercomponent.__pChainEntity
-Write: crendercomponent.__pChainEntity = value
 ```
 ## IsRenderingWithViewModels 
 ```lua

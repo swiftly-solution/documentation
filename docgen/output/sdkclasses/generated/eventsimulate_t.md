@@ -15,11 +15,10 @@ category:
 EventSimulate_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventsimulate_t.LoopState
-Write: eventsimulate_t.LoopState = value
 ```
 ## FirstTick 
 ```lua

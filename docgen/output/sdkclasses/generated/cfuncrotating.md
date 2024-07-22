@@ -15,23 +15,20 @@ category:
 CFuncRotating(ptr --[[ string ]])
 ```
 # Properties
-## OnStopped 
+## OnStopped (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncrotating.OnStopped
-Write: cfuncrotating.OnStopped = value
 ```
-## OnStarted 
+## OnStarted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncrotating.OnStarted
-Write: cfuncrotating.OnStarted = value
 ```
-## OnReachedStart 
+## OnReachedStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncrotating.OnReachedStart
-Write: cfuncrotating.OnReachedStart = value
 ```
 ## LocalRotationVector 
 ```lua

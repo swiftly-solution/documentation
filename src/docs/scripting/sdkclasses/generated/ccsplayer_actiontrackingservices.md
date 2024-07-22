@@ -26,17 +26,15 @@ Read: ccsplayer_actiontrackingservices.LastWeaponBeforeC4AutoSwitch
 Read: ccsplayer_actiontrackingservices.IsRescuing
 Write: ccsplayer_actiontrackingservices.IsRescuing = value
 ```
-## WeaponPurchasesThisMatch 
+## WeaponPurchasesThisMatch (Read-Only)
 ```lua
 @type WeaponPurchaseTracker_t
 Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisMatch
-Write: ccsplayer_actiontrackingservices.WeaponPurchasesThisMatch = value
 ```
-## WeaponPurchasesThisRound 
+## WeaponPurchasesThisRound (Read-Only)
 ```lua
 @type WeaponPurchaseTracker_t
 Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisRound
-Write: ccsplayer_actiontrackingservices.WeaponPurchasesThisRound = value
 ```
 ## Parent 
 ```lua

@@ -21,11 +21,10 @@ CPlayer_MovementServices(ptr --[[ string ]])
 Read: cplayer_movementservices.Impulse
 Write: cplayer_movementservices.Impulse = value
 ```
-## Buttons 
+## Buttons (Read-Only)
 ```lua
 @type CInButtonState
 Read: cplayer_movementservices.Buttons
-Write: cplayer_movementservices.Buttons = value
 ```
 ## QueuedButtonDownMask 
 ```lua

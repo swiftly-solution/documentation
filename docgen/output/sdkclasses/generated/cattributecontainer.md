@@ -15,11 +15,10 @@ category:
 CAttributeContainer(ptr --[[ string ]])
 ```
 # Properties
-## Item 
+## Item (Read-Only)
 ```lua
 @type CEconItemView
 Read: cattributecontainer.Item
-Write: cattributecontainer.Item = value
 ```
 ## Parent 
 ```lua

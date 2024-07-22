@@ -21,11 +21,10 @@ MaterialVariable_t(ptr --[[ string ]])
 Read: materialvariable_t.StrVariable
 Write: materialvariable_t.StrVariable = value
 ```
-## VariableField 
+## VariableField (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: materialvariable_t.VariableField
-Write: materialvariable_t.VariableField = value
 ```
 ## Scale 
 ```lua

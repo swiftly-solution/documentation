@@ -21,10 +21,11 @@ CEntityComponentHelper(ptr --[[ string ]])
 Read: centitycomponenthelper.Flags
 Write: centitycomponenthelper.Flags = value
 ```
-## Info (Read-Only)
+## Info 
 ```lua
 @type EntComponentInfo_t
 Read: centitycomponenthelper.Info
+Write: centitycomponenthelper.Info = value
 ```
 ## Priority 
 ```lua
@@ -32,10 +33,11 @@ Read: centitycomponenthelper.Info
 Read: centitycomponenthelper.Priority
 Write: centitycomponenthelper.Priority = value
 ```
-## Next (Read-Only)
+## Next 
 ```lua
 @type CEntityComponentHelper
 Read: centitycomponenthelper.Next
+Write: centitycomponenthelper.Next = value
 ```
 # Functions
 ## ToPtr

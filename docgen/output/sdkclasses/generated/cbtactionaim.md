@@ -63,23 +63,20 @@ Write: cbtactionaim.PenaltyReductionRatio = value
 Read: cbtactionaim.NextLookTarget
 Write: cbtactionaim.NextLookTarget = value
 ```
-## AimTimer 
+## AimTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionaim.AimTimer
-Write: cbtactionaim.AimTimer = value
 ```
-## SniperHoldTimer 
+## SniperHoldTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionaim.SniperHoldTimer
-Write: cbtactionaim.SniperHoldTimer = value
 ```
-## FocusIntervalTimer 
+## FocusIntervalTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtactionaim.FocusIntervalTimer
-Write: cbtactionaim.FocusIntervalTimer = value
 ```
 ## Acquired 
 ```lua

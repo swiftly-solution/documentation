@@ -15,11 +15,10 @@ category:
 CJiggleBoneUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedData 
+## OpFixedData (Read-Only)
 ```lua
 @type JiggleBoneSettingsList_t
 Read: cjiggleboneupdatenode.OpFixedData
-Write: cjiggleboneupdatenode.OpFixedData = value
 ```
 ## Parent 
 ```lua

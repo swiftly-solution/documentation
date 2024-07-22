@@ -15,11 +15,10 @@ category:
 CCollisionProperty(ptr --[[ string ]])
 ```
 # Properties
-## CollisionAttribute 
+## CollisionAttribute (Read-Only)
 ```lua
 @type VPhysicsCollisionAttribute_t
 Read: ccollisionproperty.CollisionAttribute
-Write: ccollisionproperty.CollisionAttribute = value
 ```
 ## Mins 
 ```lua

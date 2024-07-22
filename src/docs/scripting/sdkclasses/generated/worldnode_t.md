@@ -87,11 +87,10 @@ Write: worldnode_t.OverlayLayerIndices = value
 Read: worldnode_t.GrassFileName
 Write: worldnode_t.GrassFileName = value
 ```
-## NodeLightingInfo 
+## NodeLightingInfo (Read-Only)
 ```lua
 @type BakedLightingInfo_t
 Read: worldnode_t.NodeLightingInfo
-Write: worldnode_t.NodeLightingInfo = value
 ```
 # Functions
 ## ToPtr

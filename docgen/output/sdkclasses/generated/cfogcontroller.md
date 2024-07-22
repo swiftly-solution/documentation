@@ -15,11 +15,10 @@ category:
 CFogController(ptr --[[ string ]])
 ```
 # Properties
-## Fog 
+## Fog (Read-Only)
 ```lua
 @type fogparams_t
 Read: cfogcontroller.Fog
-Write: cfogcontroller.Fog = value
 ```
 ## UseAngles 
 ```lua

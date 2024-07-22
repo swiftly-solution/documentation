@@ -15,11 +15,10 @@ category:
 CAnimDesc(ptr --[[ string ]])
 ```
 # Properties
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CAnimDesc_Flag
 Read: canimdesc.Flags
-Write: canimdesc.Flags = value
 ```
 ## Fps 
 ```lua
@@ -27,11 +26,10 @@ Write: canimdesc.Flags = value
 Read: canimdesc.Fps
 Write: canimdesc.Fps = value
 ```
-## Data 
+## Data (Read-Only)
 ```lua
 @type CAnimEncodedFrames
 Read: canimdesc.Data
-Write: canimdesc.Data = value
 ```
 ## MovementArray 
 ```lua
@@ -87,11 +85,10 @@ Write: canimdesc.BoneWorldMin = value
 Read: canimdesc.BoneWorldMax
 Write: canimdesc.BoneWorldMax = value
 ```
-## SequenceParams 
+## SequenceParams (Read-Only)
 ```lua
 @type CAnimSequenceParams
 Read: canimdesc.SequenceParams
-Write: canimdesc.SequenceParams = value
 ```
 # Functions
 ## ToPtr

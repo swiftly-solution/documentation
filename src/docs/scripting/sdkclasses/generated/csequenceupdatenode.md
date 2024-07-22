@@ -15,11 +15,10 @@ category:
 CSequenceUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## ParamSpans 
+## ParamSpans (Read-Only)
 ```lua
 @type CParamSpanUpdater
 Read: csequenceupdatenode.ParamSpans
-Write: csequenceupdatenode.ParamSpans = value
 ```
 ## Tags 
 ```lua

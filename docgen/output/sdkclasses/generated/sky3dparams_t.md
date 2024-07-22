@@ -39,15 +39,14 @@ Write: sky3dparams_t.Clip3DSkyBoxNearToWorldFar = value
 Read: sky3dparams_t.Clip3DSkyBoxNearToWorldFarOffset
 Write: sky3dparams_t.Clip3DSkyBoxNearToWorldFarOffset = value
 ```
-## Fog 
+## Fog (Read-Only)
 ```lua
 @type fogparams_t
 Read: sky3dparams_t.Fog
-Write: sky3dparams_t.Fog = value
 ```
 ## WorldGroupID 
 ```lua
-@type string
+@type number
 Read: sky3dparams_t.WorldGroupID
 Write: sky3dparams_t.WorldGroupID = value
 ```

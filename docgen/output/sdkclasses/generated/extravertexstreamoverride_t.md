@@ -33,11 +33,10 @@ Write: extravertexstreamoverride_t.DrawCallIndex = value
 Read: extravertexstreamoverride_t.AdditionalMeshDrawPrimitiveFlags
 Write: extravertexstreamoverride_t.AdditionalMeshDrawPrimitiveFlags = value
 ```
-## ExtraBufferBinding 
+## ExtraBufferBinding (Read-Only)
 ```lua
 @type CRenderBufferBinding
 Read: extravertexstreamoverride_t.ExtraBufferBinding
-Write: extravertexstreamoverride_t.ExtraBufferBinding = value
 ```
 ## Parent 
 ```lua

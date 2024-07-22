@@ -51,29 +51,25 @@ Write: cmathremap.OldInValue = value
 Read: cmathremap.Enabled
 Write: cmathremap.Enabled = value
 ```
-## OnRoseAboveMin 
+## OnRoseAboveMin (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathremap.OnRoseAboveMin
-Write: cmathremap.OnRoseAboveMin = value
 ```
-## OnRoseAboveMax 
+## OnRoseAboveMax (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathremap.OnRoseAboveMax
-Write: cmathremap.OnRoseAboveMax = value
 ```
-## OnFellBelowMin 
+## OnFellBelowMin (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathremap.OnFellBelowMin
-Write: cmathremap.OnFellBelowMin = value
 ```
-## OnFellBelowMax 
+## OnFellBelowMax (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmathremap.OnFellBelowMax
-Write: cmathremap.OnFellBelowMax = value
 ```
 ## Parent 
 ```lua

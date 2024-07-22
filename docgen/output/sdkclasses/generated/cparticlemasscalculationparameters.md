@@ -21,23 +21,20 @@ CParticleMassCalculationParameters(ptr --[[ string ]])
 Read: cparticlemasscalculationparameters.MassMode
 Write: cparticlemasscalculationparameters.MassMode = value
 ```
-## Radius 
+## Radius (Read-Only)
 ```lua
 @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.Radius
-Write: cparticlemasscalculationparameters.Radius = value
 ```
-## NominalRadius 
+## NominalRadius (Read-Only)
 ```lua
 @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.NominalRadius
-Write: cparticlemasscalculationparameters.NominalRadius = value
 ```
-## Scale 
+## Scale (Read-Only)
 ```lua
 @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.Scale
-Write: cparticlemasscalculationparameters.Scale = value
 ```
 # Functions
 ## ToPtr

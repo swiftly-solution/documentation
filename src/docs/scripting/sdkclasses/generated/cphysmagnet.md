@@ -15,17 +15,15 @@ category:
 CPhysMagnet(ptr --[[ string ]])
 ```
 # Properties
-## OnMagnetAttach 
+## OnMagnetAttach (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysmagnet.OnMagnetAttach
-Write: cphysmagnet.OnMagnetAttach = value
 ```
-## OnMagnetDetach 
+## OnMagnetDetach (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysmagnet.OnMagnetDetach
-Write: cphysmagnet.OnMagnetDetach = value
 ```
 ## MassScale 
 ```lua

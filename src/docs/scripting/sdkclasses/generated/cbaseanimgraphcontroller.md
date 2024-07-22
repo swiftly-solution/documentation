@@ -15,11 +15,10 @@ category:
 CBaseAnimGraphController(ptr --[[ string ]])
 ```
 # Properties
-## AnimGraphNetworkedVars 
+## AnimGraphNetworkedVars (Read-Only)
 ```lua
 @type CAnimGraphNetworkedVariables
 Read: cbaseanimgraphcontroller.AnimGraphNetworkedVars
-Write: cbaseanimgraphcontroller.AnimGraphNetworkedVars = value
 ```
 ## SequenceFinished 
 ```lua

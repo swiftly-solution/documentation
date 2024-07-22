@@ -15,17 +15,15 @@ category:
 CSeqCmdSeqDesc(ptr --[[ string ]])
 ```
 # Properties
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CSeqSeqDescFlag
 Read: cseqcmdseqdesc.Flags
-Write: cseqcmdseqdesc.Flags = value
 ```
-## Transition 
+## Transition (Read-Only)
 ```lua
 @type CSeqTransition
 Read: cseqcmdseqdesc.Transition
-Write: cseqcmdseqdesc.Transition = value
 ```
 ## FrameRangeSequence 
 ```lua

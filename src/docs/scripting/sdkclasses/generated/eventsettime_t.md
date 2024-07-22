@@ -15,11 +15,10 @@ category:
 EventSetTime_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventsettime_t.LoopState
-Write: eventsettime_t.LoopState = value
 ```
 ## ClientOutputFrames 
 ```lua

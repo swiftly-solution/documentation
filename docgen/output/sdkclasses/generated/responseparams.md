@@ -27,10 +27,11 @@ Write: responseparams.Odds = value
 Read: responseparams.Flags
 Write: responseparams.Flags = value
 ```
-## Followup (Read-Only)
+## Followup 
 ```lua
 @type ResponseFollowup
 Read: responseparams.Followup
+Write: responseparams.Followup = value
 ```
 # Functions
 ## ToPtr

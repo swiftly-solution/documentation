@@ -15,17 +15,15 @@ category:
 CSoundPatch(ptr --[[ string ]])
 ```
 # Properties
-## Pitch 
+## Pitch (Read-Only)
 ```lua
 @type CSoundEnvelope
 Read: csoundpatch.Pitch
-Write: csoundpatch.Pitch = value
 ```
-## Volume 
+## Volume (Read-Only)
 ```lua
 @type CSoundEnvelope
 Read: csoundpatch.Volume
-Write: csoundpatch.Volume = value
 ```
 ## ShutdownTime 
 ```lua
@@ -68,11 +66,10 @@ Write: csoundpatch.SoundOrigin = value
 Read: csoundpatch.IsPlaying
 Write: csoundpatch.IsPlaying = value
 ```
-## Filter 
+## Filter (Read-Only)
 ```lua
 @type CCopyRecipientFilter
 Read: csoundpatch.Filter
-Write: csoundpatch.Filter = value
 ```
 ## CloseCaptionDuration 
 ```lua

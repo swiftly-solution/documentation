@@ -15,11 +15,10 @@ category:
 CParticleFunctionRenderer(ptr --[[ string ]])
 ```
 # Properties
-## VisibilityInputs 
+## VisibilityInputs (Read-Only)
 ```lua
 @type CParticleVisibilityInputs
 Read: cparticlefunctionrenderer.VisibilityInputs
-Write: cparticlefunctionrenderer.VisibilityInputs = value
 ```
 ## CannotBeRefracted 
 ```lua

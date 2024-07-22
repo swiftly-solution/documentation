@@ -27,11 +27,10 @@ Write: cblend2dupdatenode.Items = value
 Read: cblend2dupdatenode.Tags
 Write: cblend2dupdatenode.Tags = value
 ```
-## ParamSpans 
+## ParamSpans (Read-Only)
 ```lua
 @type CParamSpanUpdater
 Read: cblend2dupdatenode.ParamSpans
-Write: cblend2dupdatenode.ParamSpans = value
 ```
 ## NodeItemIndices 
 ```lua
@@ -39,11 +38,10 @@ Write: cblend2dupdatenode.ParamSpans = value
 Read: cblend2dupdatenode.NodeItemIndices
 Write: cblend2dupdatenode.NodeItemIndices = value
 ```
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cblend2dupdatenode.Damping
-Write: cblend2dupdatenode.Damping = value
 ```
 ## BlendSourceX 
 ```lua
@@ -51,11 +49,10 @@ Write: cblend2dupdatenode.Damping = value
 Read: cblend2dupdatenode.BlendSourceX
 Write: cblend2dupdatenode.BlendSourceX = value
 ```
-## ParamX 
+## ParamX (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cblend2dupdatenode.ParamX
-Write: cblend2dupdatenode.ParamX = value
 ```
 ## BlendSourceY 
 ```lua
@@ -63,11 +60,10 @@ Write: cblend2dupdatenode.ParamX = value
 Read: cblend2dupdatenode.BlendSourceY
 Write: cblend2dupdatenode.BlendSourceY = value
 ```
-## ParamY 
+## ParamY (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cblend2dupdatenode.ParamY
-Write: cblend2dupdatenode.ParamY = value
 ```
 ## BlendMode 
 ```lua

@@ -176,23 +176,20 @@ Write: cfunctracktrain.OrientationType = value
 Read: cfunctracktrain.VelocityType
 Write: cfunctracktrain.VelocityType = value
 ```
-## OnStart 
+## OnStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfunctracktrain.OnStart
-Write: cfunctracktrain.OnStart = value
 ```
-## OnNext 
+## OnNext (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfunctracktrain.OnNext
-Write: cfunctracktrain.OnNext = value
 ```
-## OnArrivedAtDestinationNode 
+## OnArrivedAtDestinationNode (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfunctracktrain.OnArrivedAtDestinationNode
-Write: cfunctracktrain.OnArrivedAtDestinationNode = value
 ```
 ## ManualSpeedChanges 
 ```lua

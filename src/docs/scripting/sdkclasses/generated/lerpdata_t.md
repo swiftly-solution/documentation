@@ -38,11 +38,10 @@ Write: lerpdata_t.StartTime = value
 Read: lerpdata_t.StartOrigin
 Write: lerpdata_t.StartOrigin = value
 ```
-## FXIndex 
+## FXIndex (Read-Only)
 ```lua
 @type ParticleIndex_t
 Read: lerpdata_t.FXIndex
-Write: lerpdata_t.FXIndex = value
 ```
 # Functions
 ## ToPtr

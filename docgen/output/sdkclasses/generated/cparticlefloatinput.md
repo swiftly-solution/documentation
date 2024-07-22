@@ -39,17 +39,15 @@ Write: cparticlefloatinput.LiteralValue = value
 Read: cparticlefloatinput.ControlPoint
 Write: cparticlefloatinput.ControlPoint = value
 ```
-## ScalarAttribute 
+## ScalarAttribute (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cparticlefloatinput.ScalarAttribute
-Write: cparticlefloatinput.ScalarAttribute = value
 ```
-## VectorAttribute 
+## VectorAttribute (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cparticlefloatinput.VectorAttribute
-Write: cparticlefloatinput.VectorAttribute = value
 ```
 ## VectorComponent 
 ```lua
@@ -111,11 +109,10 @@ Write: cparticlefloatinput.LOD2 = value
 Read: cparticlefloatinput.LOD3
 Write: cparticlefloatinput.LOD3 = value
 ```
-## NoiseInputVectorAttribute 
+## NoiseInputVectorAttribute (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cparticlefloatinput.NoiseInputVectorAttribute
-Write: cparticlefloatinput.NoiseInputVectorAttribute = value
 ```
 ## NoiseOutputMin 
 ```lua

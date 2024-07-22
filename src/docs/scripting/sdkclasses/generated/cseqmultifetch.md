@@ -15,11 +15,10 @@ category:
 CSeqMultiFetch(ptr --[[ string ]])
 ```
 # Properties
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CSeqMultiFetchFlag
 Read: cseqmultifetch.Flags
-Write: cseqmultifetch.Flags = value
 ```
 ## LocalReferenceArray 
 ```lua

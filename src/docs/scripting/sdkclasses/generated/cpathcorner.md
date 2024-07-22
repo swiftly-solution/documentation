@@ -27,11 +27,10 @@ Write: cpathcorner.Wait = value
 Read: cpathcorner.Radius
 Write: cpathcorner.Radius = value
 ```
-## OnPass 
+## OnPass (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cpathcorner.OnPass
-Write: cpathcorner.OnPass = value
 ```
 ## Parent 
 ```lua

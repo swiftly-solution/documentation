@@ -15,11 +15,10 @@ category:
 CCredits(ptr --[[ string ]])
 ```
 # Properties
-## OnCreditsDone 
+## OnCreditsDone (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ccredits.OnCreditsDone
-Write: ccredits.OnCreditsDone = value
 ```
 ## RolledOutroCredits 
 ```lua

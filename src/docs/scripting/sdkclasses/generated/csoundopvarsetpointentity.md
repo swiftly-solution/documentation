@@ -15,17 +15,15 @@ category:
 CSoundOpvarSetPointEntity(ptr --[[ string ]])
 ```
 # Properties
-## OnEnter 
+## OnEnter (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csoundopvarsetpointentity.OnEnter
-Write: csoundopvarsetpointentity.OnEnter = value
 ```
-## OnExit 
+## OnExit (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: csoundopvarsetpointentity.OnExit
-Write: csoundopvarsetpointentity.OnExit = value
 ```
 ## AutoDisable 
 ```lua

@@ -15,11 +15,10 @@ category:
 EventSimpleLoopFrameUpdate_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventsimpleloopframeupdate_t.LoopState
-Write: eventsimpleloopframeupdate_t.LoopState = value
 ```
 ## RealTime 
 ```lua

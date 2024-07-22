@@ -21,11 +21,10 @@ CLeanMatrixUpdateNode(ptr --[[ string ]])
 Read: cleanmatrixupdatenode.Poses
 Write: cleanmatrixupdatenode.Poses = value
 ```
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cleanmatrixupdatenode.Damping
-Write: cleanmatrixupdatenode.Damping = value
 ```
 ## BlendSource 
 ```lua
@@ -33,11 +32,10 @@ Write: cleanmatrixupdatenode.Damping = value
 Read: cleanmatrixupdatenode.BlendSource
 Write: cleanmatrixupdatenode.BlendSource = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cleanmatrixupdatenode.ParamIndex
-Write: cleanmatrixupdatenode.ParamIndex = value
 ```
 ## VerticalAxis 
 ```lua

@@ -15,35 +15,41 @@ category:
 CCSPlayerPawn(ptr --[[ string ]])
 ```
 # Properties
-## BulletServices (Read-Only)
+## BulletServices 
 ```lua
 @type CCSPlayer_BulletServices
 Read: ccsplayerpawn.BulletServices
+Write: ccsplayerpawn.BulletServices = value
 ```
-## HostageServices (Read-Only)
+## HostageServices 
 ```lua
 @type CCSPlayer_HostageServices
 Read: ccsplayerpawn.HostageServices
+Write: ccsplayerpawn.HostageServices = value
 ```
-## BuyServices (Read-Only)
+## BuyServices 
 ```lua
 @type CCSPlayer_BuyServices
 Read: ccsplayerpawn.BuyServices
+Write: ccsplayerpawn.BuyServices = value
 ```
-## ActionTrackingServices (Read-Only)
+## ActionTrackingServices 
 ```lua
 @type CCSPlayer_ActionTrackingServices
 Read: ccsplayerpawn.ActionTrackingServices
+Write: ccsplayerpawn.ActionTrackingServices = value
 ```
-## RadioServices (Read-Only)
+## RadioServices 
 ```lua
 @type CCSPlayer_RadioServices
 Read: ccsplayerpawn.RadioServices
+Write: ccsplayerpawn.RadioServices = value
 ```
-## DamageReactServices (Read-Only)
+## DamageReactServices 
 ```lua
 @type CCSPlayer_DamageReactServices
 Read: ccsplayerpawn.DamageReactServices
+Write: ccsplayerpawn.DamageReactServices = value
 ```
 ## CharacterDefIndex 
 ```lua
@@ -267,11 +273,10 @@ Write: ccsplayerpawn.RagdollDamageHeadshot = value
 Read: ccsplayerpawn.RagdollServerOrigin
 Write: ccsplayerpawn.RagdollServerOrigin = value
 ```
-## EconGloves 
+## EconGloves (Read-Only)
 ```lua
 @type CEconItemView
 Read: ccsplayerpawn.EconGloves
-Write: ccsplayerpawn.EconGloves = value
 ```
 ## EconGlovesChanged 
 ```lua
@@ -381,11 +386,10 @@ Write: ccsplayerpawn.ResetArmorNextSpawn = value
 Read: ccsplayerpawn.LastKillerIndex
 Write: ccsplayerpawn.LastKillerIndex = value
 ```
-## EntitySpottedState 
+## EntitySpottedState (Read-Only)
 ```lua
 @type EntitySpottedState_t
 Read: ccsplayerpawn.EntitySpottedState
-Write: ccsplayerpawn.EntitySpottedState = value
 ```
 ## SpotRules 
 ```lua
@@ -525,10 +529,11 @@ Write: ccsplayerpawn.LastHitBox = value
 Read: ccsplayerpawn.LastHealth
 Write: ccsplayerpawn.LastHealth = value
 ```
-## Bot (Read-Only)
+## Bot 
 ```lua
 @type CCSBot
 Read: ccsplayerpawn.Bot
+Write: ccsplayerpawn.Bot = value
 ```
 ## BotAllowActive 
 ```lua

@@ -15,11 +15,10 @@ category:
 CStateMachineComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## StateMachine 
+## StateMachine (Read-Only)
 ```lua
 @type CAnimStateMachineUpdater
 Read: cstatemachinecomponentupdater.StateMachine
-Write: cstatemachinecomponentupdater.StateMachine = value
 ```
 ## Parent 
 ```lua

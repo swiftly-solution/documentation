@@ -27,17 +27,15 @@ Write: cselectorupdatenode.Children = value
 Read: cselectorupdatenode.Tags
 Write: cselectorupdatenode.Tags = value
 ```
-## BlendCurve 
+## BlendCurve (Read-Only)
 ```lua
 @type CBlendCurve
 Read: cselectorupdatenode.BlendCurve
-Write: cselectorupdatenode.BlendCurve = value
 ```
-## Parameter 
+## Parameter (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cselectorupdatenode.Parameter
-Write: cselectorupdatenode.Parameter = value
 ```
 ## TagIndex 
 ```lua

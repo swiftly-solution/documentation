@@ -63,17 +63,15 @@ Write: cfuncmovelinear.BlockDamage = value
 Read: cfuncmovelinear.StartPosition
 Write: cfuncmovelinear.StartPosition = value
 ```
-## OnFullyOpen 
+## OnFullyOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncmovelinear.OnFullyOpen
-Write: cfuncmovelinear.OnFullyOpen = value
 ```
-## OnFullyClosed 
+## OnFullyClosed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfuncmovelinear.OnFullyClosed
-Write: cfuncmovelinear.OnFullyClosed = value
 ```
 ## CreateMovableNavMesh 
 ```lua

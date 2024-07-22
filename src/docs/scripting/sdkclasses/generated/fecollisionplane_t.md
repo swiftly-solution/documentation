@@ -27,11 +27,10 @@ Write: fecollisionplane_t.CtrlParent = value
 Read: fecollisionplane_t.ChildNode
 Write: fecollisionplane_t.ChildNode = value
 ```
-## Plane 
+## Plane (Read-Only)
 ```lua
 @type RnPlane_t
 Read: fecollisionplane_t.Plane
-Write: fecollisionplane_t.Plane = value
 ```
 ## Strength 
 ```lua

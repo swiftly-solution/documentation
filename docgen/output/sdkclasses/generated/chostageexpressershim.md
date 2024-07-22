@@ -15,10 +15,11 @@ category:
 CHostageExpresserShim(ptr --[[ string ]])
 ```
 # Properties
-## Expresser (Read-Only)
+## Expresser 
 ```lua
 @type CAI_Expresser
 Read: chostageexpressershim.Expresser
+Write: chostageexpressershim.Expresser = value
 ```
 ## Parent 
 ```lua

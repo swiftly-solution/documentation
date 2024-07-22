@@ -15,11 +15,10 @@ category:
 RnMeshDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## Mesh 
+## Mesh (Read-Only)
 ```lua
 @type RnMesh_t
 Read: rnmeshdesc_t.Mesh
-Write: rnmeshdesc_t.Mesh = value
 ```
 ## Parent 
 ```lua

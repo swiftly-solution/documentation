@@ -15,11 +15,10 @@ category:
 CGameRules(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: cgamerules.__pChainEntity
-Write: cgamerules.__pChainEntity = value
 ```
 ## QuestName 
 ```lua

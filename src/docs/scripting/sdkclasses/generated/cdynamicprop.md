@@ -33,35 +33,30 @@ Write: cdynamicprop.UseHitboxesForRenderBox = value
 Read: cdynamicprop.UseAnimGraph
 Write: cdynamicprop.UseAnimGraph = value
 ```
-## OutputAnimBegun 
+## OutputAnimBegun (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cdynamicprop.OutputAnimBegun
-Write: cdynamicprop.OutputAnimBegun = value
 ```
-## OutputAnimOver 
+## OutputAnimOver (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cdynamicprop.OutputAnimOver
-Write: cdynamicprop.OutputAnimOver = value
 ```
-## OutputAnimLoopCycleOver 
+## OutputAnimLoopCycleOver (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cdynamicprop.OutputAnimLoopCycleOver
-Write: cdynamicprop.OutputAnimLoopCycleOver = value
 ```
-## OnAnimReachedStart 
+## OnAnimReachedStart (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cdynamicprop.OnAnimReachedStart
-Write: cdynamicprop.OnAnimReachedStart = value
 ```
-## OnAnimReachedEnd 
+## OnAnimReachedEnd (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cdynamicprop.OnAnimReachedEnd
-Write: cdynamicprop.OnAnimReachedEnd = value
 ```
 ## IdleAnim 
 ```lua

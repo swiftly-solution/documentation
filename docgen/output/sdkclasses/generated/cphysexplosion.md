@@ -63,11 +63,10 @@ Write: cphysexplosion.PushScale = value
 Read: cphysexplosion.ConvertToDebrisWhenPossible
 Write: cphysexplosion.ConvertToDebrisWhenPossible = value
 ```
-## OnPushedPlayer 
+## OnPushedPlayer (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysexplosion.OnPushedPlayer
-Write: cphysexplosion.OnPushedPlayer = value
 ```
 ## Parent 
 ```lua

@@ -68,11 +68,10 @@ Write: csceneeventinfo.ShouldRemove = value
 @type CBaseEntity
 Read: csceneeventinfo.Target
 ```
-## SceneEventId 
+## SceneEventId (Read-Only)
 ```lua
 @type SceneEventId_t
 Read: csceneeventinfo.SceneEventId
-Write: csceneeventinfo.SceneEventId = value
 ```
 ## ClientSide 
 ```lua

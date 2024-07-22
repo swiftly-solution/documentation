@@ -15,35 +15,30 @@ category:
 CBaseRendererSource2(ptr --[[ string ]])
 ```
 # Properties
-## RadiusScale 
+## RadiusScale (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.RadiusScale
-Write: cbaserenderersource2.RadiusScale = value
 ```
-## AlphaScale 
+## AlphaScale (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.AlphaScale
-Write: cbaserenderersource2.AlphaScale = value
 ```
-## RollScale 
+## RollScale (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.RollScale
-Write: cbaserenderersource2.RollScale = value
 ```
-## Alpha2Field 
+## Alpha2Field (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cbaserenderersource2.Alpha2Field
-Write: cbaserenderersource2.Alpha2Field = value
 ```
-## ColorScale 
+## ColorScale (Read-Only)
 ```lua
 @type CParticleCollectionRendererVecInput
 Read: cbaserenderersource2.ColorScale
-Write: cbaserenderersource2.ColorScale = value
 ```
 ## ColorBlendType 
 ```lua
@@ -63,17 +58,15 @@ Write: cbaserenderersource2.ShaderType = value
 Read: cbaserenderersource2.StrShaderOverride
 Write: cbaserenderersource2.StrShaderOverride = value
 ```
-## CenterXOffset 
+## CenterXOffset (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.CenterXOffset
-Write: cbaserenderersource2.CenterXOffset = value
 ```
-## CenterYOffset 
+## CenterYOffset (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.CenterYOffset
-Write: cbaserenderersource2.CenterYOffset = value
 ```
 ## BumpStrength 
 ```lua
@@ -111,23 +104,20 @@ Write: cbaserenderersource2.AnimationType = value
 Read: cbaserenderersource2.AnimateInFPS
 Write: cbaserenderersource2.AnimateInFPS = value
 ```
-## SelfIllumAmount 
+## SelfIllumAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.SelfIllumAmount
-Write: cbaserenderersource2.SelfIllumAmount = value
 ```
-## DiffuseAmount 
+## DiffuseAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.DiffuseAmount
-Write: cbaserenderersource2.DiffuseAmount = value
 ```
-## DiffuseClamp 
+## DiffuseClamp (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.DiffuseClamp
-Write: cbaserenderersource2.DiffuseClamp = value
 ```
 ## LightingControlPoint 
 ```lua
@@ -135,11 +125,10 @@ Write: cbaserenderersource2.DiffuseClamp = value
 Read: cbaserenderersource2.LightingControlPoint
 Write: cbaserenderersource2.LightingControlPoint = value
 ```
-## SelfIllumPerParticle 
+## SelfIllumPerParticle (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cbaserenderersource2.SelfIllumPerParticle
-Write: cbaserenderersource2.SelfIllumPerParticle = value
 ```
 ## OutputBlendMode 
 ```lua
@@ -159,23 +148,20 @@ Write: cbaserenderersource2.GammaCorrectVertexColors = value
 Read: cbaserenderersource2.SaturateColorPreAlphaBlend
 Write: cbaserenderersource2.SaturateColorPreAlphaBlend = value
 ```
-## AddSelfAmount 
+## AddSelfAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.AddSelfAmount
-Write: cbaserenderersource2.AddSelfAmount = value
 ```
-## Desaturation 
+## Desaturation (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.Desaturation
-Write: cbaserenderersource2.Desaturation = value
 ```
-## OverbrightFactor 
+## OverbrightFactor (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.OverbrightFactor
-Write: cbaserenderersource2.OverbrightFactor = value
 ```
 ## HSVShiftControlPoint 
 ```lua
@@ -189,11 +175,10 @@ Write: cbaserenderersource2.HSVShiftControlPoint = value
 Read: cbaserenderersource2.FogType
 Write: cbaserenderersource2.FogType = value
 ```
-## FogAmount 
+## FogAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.FogAmount
-Write: cbaserenderersource2.FogAmount = value
 ```
 ## TintByFOW 
 ```lua
@@ -225,23 +210,20 @@ Write: cbaserenderersource2.PerParticleAlphaRefWindow = value
 Read: cbaserenderersource2.AlphaReferenceType
 Write: cbaserenderersource2.AlphaReferenceType = value
 ```
-## AlphaReferenceSoftness 
+## AlphaReferenceSoftness (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.AlphaReferenceSoftness
-Write: cbaserenderersource2.AlphaReferenceSoftness = value
 ```
-## SourceAlphaValueToMapToZero 
+## SourceAlphaValueToMapToZero (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.SourceAlphaValueToMapToZero
-Write: cbaserenderersource2.SourceAlphaValueToMapToZero = value
 ```
-## SourceAlphaValueToMapToOne 
+## SourceAlphaValueToMapToOne (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.SourceAlphaValueToMapToOne
-Write: cbaserenderersource2.SourceAlphaValueToMapToOne = value
 ```
 ## Refract 
 ```lua
@@ -255,11 +237,10 @@ Write: cbaserenderersource2.Refract = value
 Read: cbaserenderersource2.RefractSolid
 Write: cbaserenderersource2.RefractSolid = value
 ```
-## RefractAmount 
+## RefractAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.RefractAmount
-Write: cbaserenderersource2.RefractAmount = value
 ```
 ## RefractBlurRadius 
 ```lua
@@ -345,29 +326,25 @@ Write: cbaserenderersource2.DisableZBuffering = value
 Read: cbaserenderersource2.FeatheringMode
 Write: cbaserenderersource2.FeatheringMode = value
 ```
-## FeatheringMinDist 
+## FeatheringMinDist (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.FeatheringMinDist
-Write: cbaserenderersource2.FeatheringMinDist = value
 ```
-## FeatheringMaxDist 
+## FeatheringMaxDist (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.FeatheringMaxDist
-Write: cbaserenderersource2.FeatheringMaxDist = value
 ```
-## FeatheringFilter 
+## FeatheringFilter (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.FeatheringFilter
-Write: cbaserenderersource2.FeatheringFilter = value
 ```
-## DepthBias 
+## DepthBias (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: cbaserenderersource2.DepthBias
-Write: cbaserenderersource2.DepthBias = value
 ```
 ## SortMethod 
 ```lua

@@ -15,11 +15,10 @@ category:
 CMoverUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cmoverupdatenode.Damping
-Write: cmoverupdatenode.Damping = value
 ```
 ## FacingTarget 
 ```lua
@@ -27,23 +26,20 @@ Write: cmoverupdatenode.Damping = value
 Read: cmoverupdatenode.FacingTarget
 Write: cmoverupdatenode.FacingTarget = value
 ```
-## MoveVecParam 
+## MoveVecParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cmoverupdatenode.MoveVecParam
-Write: cmoverupdatenode.MoveVecParam = value
 ```
-## MoveHeadingParam 
+## MoveHeadingParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cmoverupdatenode.MoveHeadingParam
-Write: cmoverupdatenode.MoveHeadingParam = value
 ```
-## TurnToFaceParam 
+## TurnToFaceParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cmoverupdatenode.TurnToFaceParam
-Write: cmoverupdatenode.TurnToFaceParam = value
 ```
 ## TurnToFaceOffset 
 ```lua

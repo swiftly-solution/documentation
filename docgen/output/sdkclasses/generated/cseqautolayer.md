@@ -27,11 +27,10 @@ Write: cseqautolayer.LocalReference = value
 Read: cseqautolayer.LocalPose
 Write: cseqautolayer.LocalPose = value
 ```
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CSeqAutoLayerFlag
 Read: cseqautolayer.Flags
-Write: cseqautolayer.Flags = value
 ```
 ## Start 
 ```lua

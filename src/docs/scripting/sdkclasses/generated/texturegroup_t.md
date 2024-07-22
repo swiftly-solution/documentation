@@ -45,17 +45,15 @@ Write: texturegroup_t.TextureChannels = value
 Read: texturegroup_t.TextureBlendMode
 Write: texturegroup_t.TextureBlendMode = value
 ```
-## TextureBlend 
+## TextureBlend (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput
 Read: texturegroup_t.TextureBlend
-Write: texturegroup_t.TextureBlend = value
 ```
-## TextureControls 
+## TextureControls (Read-Only)
 ```lua
 @type TextureControls_t
 Read: texturegroup_t.TextureControls
-Write: texturegroup_t.TextureControls = value
 ```
 # Functions
 ## ToPtr

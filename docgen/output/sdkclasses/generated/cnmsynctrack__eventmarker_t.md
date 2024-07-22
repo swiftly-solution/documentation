@@ -15,11 +15,10 @@ category:
 CNmSyncTrack__EventMarker_t(ptr --[[ string ]])
 ```
 # Properties
-## StartTime 
+## StartTime (Read-Only)
 ```lua
 @type NmPercent_t
 Read: cnmsynctrack__eventmarker_t.StartTime
-Write: cnmsynctrack__eventmarker_t.StartTime = value
 ```
 # Functions
 ## ToPtr

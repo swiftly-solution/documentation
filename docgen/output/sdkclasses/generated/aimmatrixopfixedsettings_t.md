@@ -15,17 +15,15 @@ category:
 AimMatrixOpFixedSettings_t(ptr --[[ string ]])
 ```
 # Properties
-## Attachment 
+## Attachment (Read-Only)
 ```lua
 @type CAnimAttachment
 Read: aimmatrixopfixedsettings_t.Attachment
-Write: aimmatrixopfixedsettings_t.Attachment = value
 ```
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: aimmatrixopfixedsettings_t.Damping
-Write: aimmatrixopfixedsettings_t.Damping = value
 ```
 ## PoseCacheHandles 
 ```lua
@@ -87,11 +85,10 @@ Write: aimmatrixopfixedsettings_t.BiasAndClampYawOffset = value
 Read: aimmatrixopfixedsettings_t.BiasAndClampPitchOffset
 Write: aimmatrixopfixedsettings_t.BiasAndClampPitchOffset = value
 ```
-## BiasAndClampBlendCurve 
+## BiasAndClampBlendCurve (Read-Only)
 ```lua
 @type CBlendCurve
 Read: aimmatrixopfixedsettings_t.BiasAndClampBlendCurve
-Write: aimmatrixopfixedsettings_t.BiasAndClampBlendCurve = value
 ```
 # Functions
 ## ToPtr

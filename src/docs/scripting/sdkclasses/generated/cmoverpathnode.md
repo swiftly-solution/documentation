@@ -33,11 +33,10 @@ Write: cmoverpathnode.OutTangentLocal = value
 Read: cmoverpathnode.ParentPathUniqueID
 Write: cmoverpathnode.ParentPathUniqueID = value
 ```
-## OnPassThrough 
+## OnPassThrough (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmoverpathnode.OnPassThrough
-Write: cmoverpathnode.OnPassThrough = value
 ```
 ## Mover (Read-Only)
 ```lua

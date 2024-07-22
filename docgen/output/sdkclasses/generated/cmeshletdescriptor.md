@@ -15,11 +15,10 @@ category:
 CMeshletDescriptor(ptr --[[ string ]])
 ```
 # Properties
-## CullingData 
+## CullingData (Read-Only)
 ```lua
 @type CDrawCullingData
 Read: cmeshletdescriptor.CullingData
-Write: cmeshletdescriptor.CullingData = value
 ```
 # Functions
 ## ToPtr

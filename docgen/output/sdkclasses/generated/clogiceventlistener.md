@@ -33,11 +33,10 @@ Write: clogiceventlistener.IsEnabled = value
 Read: clogiceventlistener.Team
 Write: clogiceventlistener.Team = value
 ```
-## OnEventFired 
+## OnEventFired (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogiceventlistener.OnEventFired
-Write: clogiceventlistener.OnEventFired = value
 ```
 ## Parent 
 ```lua

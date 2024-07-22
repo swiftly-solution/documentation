@@ -39,11 +39,10 @@ Write: cparticlevecinput.LiteralColor = value
 Read: cparticlevecinput.FollowNamedValue
 Write: cparticlevecinput.FollowNamedValue = value
 ```
-## VectorAttribute 
+## VectorAttribute (Read-Only)
 ```lua
 @type ParticleAttributeIndex_t
 Read: cparticlevecinput.VectorAttribute
-Write: cparticlevecinput.VectorAttribute = value
 ```
 ## VectorAttributeScale 
 ```lua
@@ -81,29 +80,25 @@ Write: cparticlevecinput.CPRelativePosition = value
 Read: cparticlevecinput.CPRelativeDir
 Write: cparticlevecinput.CPRelativeDir = value
 ```
-## FloatComponentX 
+## FloatComponentX (Read-Only)
 ```lua
 @type CParticleFloatInput
 Read: cparticlevecinput.FloatComponentX
-Write: cparticlevecinput.FloatComponentX = value
 ```
-## FloatComponentY 
+## FloatComponentY (Read-Only)
 ```lua
 @type CParticleFloatInput
 Read: cparticlevecinput.FloatComponentY
-Write: cparticlevecinput.FloatComponentY = value
 ```
-## FloatComponentZ 
+## FloatComponentZ (Read-Only)
 ```lua
 @type CParticleFloatInput
 Read: cparticlevecinput.FloatComponentZ
-Write: cparticlevecinput.FloatComponentZ = value
 ```
-## FloatInterp 
+## FloatInterp (Read-Only)
 ```lua
 @type CParticleFloatInput
 Read: cparticlevecinput.FloatInterp
-Write: cparticlevecinput.FloatInterp = value
 ```
 ## InterpInput0 
 ```lua

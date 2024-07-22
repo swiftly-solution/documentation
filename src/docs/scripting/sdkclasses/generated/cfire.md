@@ -115,17 +115,15 @@ Write: cfire.StartDisabled = value
 Read: cfire.DidActivate
 Write: cfire.DidActivate = value
 ```
-## OnIgnited 
+## OnIgnited (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfire.OnIgnited
-Write: cfire.OnIgnited = value
 ```
-## OnExtinguished 
+## OnExtinguished (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfire.OnExtinguished
-Write: cfire.OnExtinguished = value
 ```
 ## Parent 
 ```lua

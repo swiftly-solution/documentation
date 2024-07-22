@@ -77,7 +77,7 @@ Write: cplayer_movementservices_humanoid.SurfaceFriction = value
 ```
 ## SurfaceProps 
 ```lua
-@type string
+@type number
 Read: cplayer_movementservices_humanoid.SurfaceProps
 Write: cplayer_movementservices_humanoid.SurfaceProps = value
 ```

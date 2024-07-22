@@ -15,11 +15,10 @@ category:
 CItemDefuser(ptr --[[ string ]])
 ```
 # Properties
-## EntitySpottedState 
+## EntitySpottedState (Read-Only)
 ```lua
 @type EntitySpottedState_t
 Read: citemdefuser.EntitySpottedState
-Write: citemdefuser.EntitySpottedState = value
 ```
 ## SpotRules 
 ```lua

@@ -85,11 +85,10 @@ Write: cphysconstraint.MinTeleportDistance = value
 Read: cphysconstraint.SnapObjectPositions
 Write: cphysconstraint.SnapObjectPositions = value
 ```
-## OnBreak 
+## OnBreak (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysconstraint.OnBreak
-Write: cphysconstraint.OnBreak = value
 ```
 ## Parent 
 ```lua

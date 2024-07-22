@@ -15,11 +15,10 @@ category:
 EventClientProcessGameInput_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventclientprocessgameinput_t.LoopState
-Write: eventclientprocessgameinput_t.LoopState = value
 ```
 ## RealTime 
 ```lua

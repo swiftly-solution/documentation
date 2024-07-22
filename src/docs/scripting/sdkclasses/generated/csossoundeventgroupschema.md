@@ -45,17 +45,15 @@ Write: csossoundeventgroupschema.BlockMaxCount = value
 Read: csossoundeventgroupschema.InvertMatch
 Write: csossoundeventgroupschema.InvertMatch = value
 ```
-## MatchPattern 
+## MatchPattern (Read-Only)
 ```lua
 @type CSosGroupMatchPattern
 Read: csossoundeventgroupschema.MatchPattern
-Write: csossoundeventgroupschema.MatchPattern = value
 ```
-## BranchPattern 
+## BranchPattern (Read-Only)
 ```lua
 @type CSosGroupBranchPattern
 Read: csossoundeventgroupschema.BranchPattern
-Write: csossoundeventgroupschema.BranchPattern = value
 ```
 ## LifeSpanTime 
 ```lua

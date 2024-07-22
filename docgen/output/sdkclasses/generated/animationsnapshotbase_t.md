@@ -51,11 +51,10 @@ Write: animationsnapshotbase_t.SnapshotType = value
 Read: animationsnapshotbase_t.HasDecodeDump
 Write: animationsnapshotbase_t.HasDecodeDump = value
 ```
-## DecodeDump 
+## DecodeDump (Read-Only)
 ```lua
 @type AnimationDecodeDebugDumpElement_t
 Read: animationsnapshotbase_t.DecodeDump
-Write: animationsnapshotbase_t.DecodeDump = value
 ```
 # Functions
 ## ToPtr

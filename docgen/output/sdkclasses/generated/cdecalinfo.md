@@ -69,15 +69,17 @@ Write: cdecalinfo.Position = value
 Read: cdecalinfo.BoundingRadiusSqr
 Write: cdecalinfo.BoundingRadiusSqr = value
 ```
-## Next (Read-Only)
+## Next 
 ```lua
 @type CDecalInfo
 Read: cdecalinfo.Next
+Write: cdecalinfo.Next = value
 ```
-## Prev (Read-Only)
+## Prev 
 ```lua
 @type CDecalInfo
 Read: cdecalinfo.Prev
+Write: cdecalinfo.Prev = value
 ```
 ## DecalMaterialIndex 
 ```lua

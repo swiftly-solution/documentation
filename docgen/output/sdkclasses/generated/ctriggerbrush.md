@@ -15,23 +15,20 @@ category:
 CTriggerBrush(ptr --[[ string ]])
 ```
 # Properties
-## OnStartTouch 
+## OnStartTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerbrush.OnStartTouch
-Write: ctriggerbrush.OnStartTouch = value
 ```
-## OnEndTouch 
+## OnEndTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerbrush.OnEndTouch
-Write: ctriggerbrush.OnEndTouch = value
 ```
-## OnUse 
+## OnUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerbrush.OnUse
-Write: ctriggerbrush.OnUse = value
 ```
 ## InputFilter 
 ```lua

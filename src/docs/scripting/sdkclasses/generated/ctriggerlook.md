@@ -80,23 +80,20 @@ Write: ctriggerlook.UseVelocity = value
 Read: ctriggerlook.TestOcclusion
 Write: ctriggerlook.TestOcclusion = value
 ```
-## OnTimeout 
+## OnTimeout (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerlook.OnTimeout
-Write: ctriggerlook.OnTimeout = value
 ```
-## OnStartLook 
+## OnStartLook (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerlook.OnStartLook
-Write: ctriggerlook.OnStartLook = value
 ```
-## OnEndLook 
+## OnEndLook (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerlook.OnEndLook
-Write: ctriggerlook.OnEndLook = value
 ```
 ## Parent 
 ```lua

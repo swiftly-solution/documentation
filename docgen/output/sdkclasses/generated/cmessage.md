@@ -45,11 +45,10 @@ Write: cmessage.Radius = value
 Read: cmessage.Noise
 Write: cmessage.Noise = value
 ```
-## OnShowMessage 
+## OnShowMessage (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cmessage.OnShowMessage
-Write: cmessage.OnShowMessage = value
 ```
 ## Parent 
 ```lua

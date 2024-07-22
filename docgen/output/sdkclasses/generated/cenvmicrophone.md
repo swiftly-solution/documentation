@@ -90,17 +90,15 @@ Write: cenvmicrophone.ListenFilter = value
 @type CBaseFilter
 Read: cenvmicrophone.ListenFilter1
 ```
-## OnRoutedSound 
+## OnRoutedSound (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvmicrophone.OnRoutedSound
-Write: cenvmicrophone.OnRoutedSound = value
 ```
-## OnHeardSound 
+## OnHeardSound (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvmicrophone.OnHeardSound
-Write: cenvmicrophone.OnHeardSound = value
 ```
 ## LastSound 
 ```lua

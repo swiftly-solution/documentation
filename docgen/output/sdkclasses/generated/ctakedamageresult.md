@@ -15,10 +15,11 @@ category:
 CTakeDamageResult(ptr --[[ string ]])
 ```
 # Properties
-## OriginatingInfo (Read-Only)
+## OriginatingInfo 
 ```lua
 @type CTakeDamageInfo
 Read: ctakedamageresult.OriginatingInfo
+Write: ctakedamageresult.OriginatingInfo = value
 ```
 ## HealthLost 
 ```lua

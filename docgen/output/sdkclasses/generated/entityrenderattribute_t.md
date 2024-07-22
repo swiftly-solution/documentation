@@ -17,7 +17,7 @@ EntityRenderAttribute_t(ptr --[[ string ]])
 # Properties
 ## ID 
 ```lua
-@type string
+@type number
 Read: entityrenderattribute_t.ID
 Write: entityrenderattribute_t.ID = value
 ```

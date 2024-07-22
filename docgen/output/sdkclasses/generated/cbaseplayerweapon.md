@@ -57,11 +57,10 @@ Write: cbaseplayerweapon.Clip2 = value
 Read: cbaseplayerweapon.ReserveAmmo
 Write: cbaseplayerweapon.ReserveAmmo = value
 ```
-## OnPlayerUse 
+## OnPlayerUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseplayerweapon.OnPlayerUse
-Write: cbaseplayerweapon.OnPlayerUse = value
 ```
 ## Parent 
 ```lua

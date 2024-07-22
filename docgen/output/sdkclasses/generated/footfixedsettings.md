@@ -15,11 +15,10 @@ category:
 FootFixedSettings(ptr --[[ string ]])
 ```
 # Properties
-## TraceSettings 
+## TraceSettings (Read-Only)
 ```lua
 @type TraceSettings_t
 Read: footfixedsettings.TraceSettings
-Write: footfixedsettings.TraceSettings = value
 ```
 ## FootBaseBindPosePositionMS 
 ```lua

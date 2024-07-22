@@ -15,11 +15,10 @@ category:
 CEnvSoundscape(ptr --[[ string ]])
 ```
 # Properties
-## OnPlay 
+## OnPlay (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvsoundscape.OnPlay
-Write: cenvsoundscape.OnPlay = value
 ```
 ## Radius 
 ```lua

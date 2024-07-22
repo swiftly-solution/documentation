@@ -21,11 +21,10 @@ CGameText(ptr --[[ string ]])
 Read: cgametext.Message
 Write: cgametext.Message = value
 ```
-## TextParms 
+## TextParms (Read-Only)
 ```lua
 @type hudtextparms_t
 Read: cgametext.TextParms
-Write: cgametext.TextParms = value
 ```
 ## Parent 
 ```lua

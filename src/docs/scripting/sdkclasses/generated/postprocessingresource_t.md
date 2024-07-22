@@ -21,11 +21,10 @@ PostProcessingResource_t(ptr --[[ string ]])
 Read: postprocessingresource_t.HasTonemapParams
 Write: postprocessingresource_t.HasTonemapParams = value
 ```
-## ToneMapParams 
+## ToneMapParams (Read-Only)
 ```lua
 @type PostProcessingTonemapParameters_t
 Read: postprocessingresource_t.ToneMapParams
-Write: postprocessingresource_t.ToneMapParams = value
 ```
 ## HasBloomParams 
 ```lua
@@ -33,11 +32,10 @@ Write: postprocessingresource_t.ToneMapParams = value
 Read: postprocessingresource_t.HasBloomParams
 Write: postprocessingresource_t.HasBloomParams = value
 ```
-## BloomParams 
+## BloomParams (Read-Only)
 ```lua
 @type PostProcessingBloomParameters_t
 Read: postprocessingresource_t.BloomParams
-Write: postprocessingresource_t.BloomParams = value
 ```
 ## HasVignetteParams 
 ```lua
@@ -45,11 +43,10 @@ Write: postprocessingresource_t.BloomParams = value
 Read: postprocessingresource_t.HasVignetteParams
 Write: postprocessingresource_t.HasVignetteParams = value
 ```
-## VignetteParams 
+## VignetteParams (Read-Only)
 ```lua
 @type PostProcessingVignetteParameters_t
 Read: postprocessingresource_t.VignetteParams
-Write: postprocessingresource_t.VignetteParams = value
 ```
 ## HasLocalContrastParams 
 ```lua
@@ -57,11 +54,10 @@ Write: postprocessingresource_t.VignetteParams = value
 Read: postprocessingresource_t.HasLocalContrastParams
 Write: postprocessingresource_t.HasLocalContrastParams = value
 ```
-## LocalConstrastParams 
+## LocalConstrastParams (Read-Only)
 ```lua
 @type PostProcessingLocalContrastParameters_t
 Read: postprocessingresource_t.LocalConstrastParams
-Write: postprocessingresource_t.LocalConstrastParams = value
 ```
 ## ColorCorrectionVolumeDim 
 ```lua

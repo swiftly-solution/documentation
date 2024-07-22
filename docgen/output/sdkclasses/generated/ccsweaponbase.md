@@ -117,11 +117,10 @@ Write: ccsweaponbase.TimeWeaponIdle = value
 Read: ccsweaponbase.FireOnEmpty
 Write: ccsweaponbase.FireOnEmpty = value
 ```
-## OnPlayerPickup 
+## OnPlayerPickup (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ccsweaponbase.OnPlayerPickup
-Write: ccsweaponbase.OnPlayerPickup = value
 ```
 ## WeaponMode 
 ```lua
@@ -332,11 +331,10 @@ Write: ccsweaponbase.FiredOutOfAmmoEvent = value
 Read: ccsweaponbase.NumRemoveUnownedWeaponThink
 Write: ccsweaponbase.NumRemoveUnownedWeaponThink = value
 ```
-## IronSightController 
+## IronSightController (Read-Only)
 ```lua
 @type CIronSightController
 Read: ccsweaponbase.IronSightController
-Write: ccsweaponbase.IronSightController = value
 ```
 ## IronSightMode 
 ```lua

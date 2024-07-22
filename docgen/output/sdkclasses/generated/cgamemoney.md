@@ -15,17 +15,15 @@ category:
 CGameMoney(ptr --[[ string ]])
 ```
 # Properties
-## OnMoneySpent 
+## OnMoneySpent (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgamemoney.OnMoneySpent
-Write: cgamemoney.OnMoneySpent = value
 ```
-## OnMoneySpentFail 
+## OnMoneySpentFail (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cgamemoney.OnMoneySpentFail
-Write: cgamemoney.OnMoneySpentFail = value
 ```
 ## Money 
 ```lua

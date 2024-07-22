@@ -45,11 +45,10 @@ Write: cnmtransitionnode.StartBoneMaskNodeIdx = value
 Read: cnmtransitionnode.Duration
 Write: cnmtransitionnode.Duration = value
 ```
-## BoneMaskBlendInTimePercentage 
+## BoneMaskBlendInTimePercentage (Read-Only)
 ```lua
 @type NmPercent_t
 Read: cnmtransitionnode.BoneMaskBlendInTimePercentage
-Write: cnmtransitionnode.BoneMaskBlendInTimePercentage = value
 ```
 ## SyncEventOffset 
 ```lua
@@ -57,11 +56,10 @@ Write: cnmtransitionnode.BoneMaskBlendInTimePercentage = value
 Read: cnmtransitionnode.SyncEventOffset
 Write: cnmtransitionnode.SyncEventOffset = value
 ```
-## TransitionOptions 
+## TransitionOptions (Read-Only)
 ```lua
 @type CNmTransitionNode
 Read: cnmtransitionnode.TransitionOptions
-Write: cnmtransitionnode.TransitionOptions = value
 ```
 ## TargetSyncIDNodeIdx 
 ```lua

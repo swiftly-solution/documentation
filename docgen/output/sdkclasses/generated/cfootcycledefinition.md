@@ -39,35 +39,30 @@ Write: cfootcycledefinition.StanceDirectionMS = value
 Read: cfootcycledefinition.ToStrideStartPos
 Write: cfootcycledefinition.ToStrideStartPos = value
 ```
-## StanceCycle 
+## StanceCycle (Read-Only)
 ```lua
 @type CAnimCycle
 Read: cfootcycledefinition.StanceCycle
-Write: cfootcycledefinition.StanceCycle = value
 ```
-## FootLiftCycle 
+## FootLiftCycle (Read-Only)
 ```lua
 @type CFootCycle
 Read: cfootcycledefinition.FootLiftCycle
-Write: cfootcycledefinition.FootLiftCycle = value
 ```
-## FootOffCycle 
+## FootOffCycle (Read-Only)
 ```lua
 @type CFootCycle
 Read: cfootcycledefinition.FootOffCycle
-Write: cfootcycledefinition.FootOffCycle = value
 ```
-## FootStrikeCycle 
+## FootStrikeCycle (Read-Only)
 ```lua
 @type CFootCycle
 Read: cfootcycledefinition.FootStrikeCycle
-Write: cfootcycledefinition.FootStrikeCycle = value
 ```
-## FootLandCycle 
+## FootLandCycle (Read-Only)
 ```lua
 @type CFootCycle
 Read: cfootcycledefinition.FootLandCycle
-Write: cfootcycledefinition.FootLandCycle = value
 ```
 # Functions
 ## ToPtr

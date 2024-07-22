@@ -15,11 +15,10 @@ category:
 CRagdollProp(ptr --[[ string ]])
 ```
 # Properties
-## Ragdoll 
+## Ragdoll (Read-Only)
 ```lua
 @type ragdoll_t
 Read: cragdollprop.Ragdoll
-Write: cragdollprop.Ragdoll = value
 ```
 ## StartDisabled 
 ```lua

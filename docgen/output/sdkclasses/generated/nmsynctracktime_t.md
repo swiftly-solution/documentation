@@ -21,11 +21,10 @@ NmSyncTrackTime_t(ptr --[[ string ]])
 Read: nmsynctracktime_t.EventIdx
 Write: nmsynctracktime_t.EventIdx = value
 ```
-## PercentageThrough 
+## PercentageThrough (Read-Only)
 ```lua
 @type NmPercent_t
 Read: nmsynctracktime_t.PercentageThrough
-Write: nmsynctracktime_t.PercentageThrough = value
 ```
 # Functions
 ## ToPtr

@@ -32,47 +32,40 @@ Write: cbasetrigger.FilterName = value
 @type CBaseFilter
 Read: cbasetrigger.Filter
 ```
-## OnStartTouch 
+## OnStartTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnStartTouch
-Write: cbasetrigger.OnStartTouch = value
 ```
-## OnStartTouchAll 
+## OnStartTouchAll (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnStartTouchAll
-Write: cbasetrigger.OnStartTouchAll = value
 ```
-## OnEndTouch 
+## OnEndTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnEndTouch
-Write: cbasetrigger.OnEndTouch = value
 ```
-## OnEndTouchAll 
+## OnEndTouchAll (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnEndTouchAll
-Write: cbasetrigger.OnEndTouchAll = value
 ```
-## OnTouching 
+## OnTouching (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnTouching
-Write: cbasetrigger.OnTouching = value
 ```
-## OnTouchingEachEntity 
+## OnTouchingEachEntity (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnTouchingEachEntity
-Write: cbasetrigger.OnTouchingEachEntity = value
 ```
-## OnNotTouching 
+## OnNotTouching (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasetrigger.OnNotTouching
-Write: cbasetrigger.OnNotTouching = value
 ```
 ## ClientSidePredicted 
 ```lua

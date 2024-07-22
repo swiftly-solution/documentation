@@ -21,11 +21,10 @@ CAnimComponentUpdater(ptr --[[ string ]])
 Read: canimcomponentupdater.Name
 Write: canimcomponentupdater.Name = value
 ```
-## Id 
+## Id (Read-Only)
 ```lua
 @type AnimComponentID
 Read: canimcomponentupdater.Id
-Write: canimcomponentupdater.Id = value
 ```
 ## NetworkMode 
 ```lua

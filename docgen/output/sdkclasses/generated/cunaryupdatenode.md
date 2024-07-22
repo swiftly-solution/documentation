@@ -15,11 +15,10 @@ category:
 CUnaryUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## ChildNode 
+## ChildNode (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: cunaryupdatenode.ChildNode
-Write: cunaryupdatenode.ChildNode = value
 ```
 ## Parent 
 ```lua

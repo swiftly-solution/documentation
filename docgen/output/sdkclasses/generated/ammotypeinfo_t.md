@@ -21,11 +21,10 @@ AmmoTypeInfo_t(ptr --[[ string ]])
 Read: ammotypeinfo_t.MaxCarry
 Write: ammotypeinfo_t.MaxCarry = value
 ```
-## SplashSize 
+## SplashSize (Read-Only)
 ```lua
 @type CRangeInt
 Read: ammotypeinfo_t.SplashSize
-Write: ammotypeinfo_t.SplashSize = value
 ```
 ## Flags 
 ```lua
@@ -39,11 +38,10 @@ Write: ammotypeinfo_t.Flags = value
 Read: ammotypeinfo_t.Mass
 Write: ammotypeinfo_t.Mass = value
 ```
-## Speed 
+## Speed (Read-Only)
 ```lua
 @type CRangeFloat
 Read: ammotypeinfo_t.Speed
-Write: ammotypeinfo_t.Speed = value
 ```
 # Functions
 ## ToPtr

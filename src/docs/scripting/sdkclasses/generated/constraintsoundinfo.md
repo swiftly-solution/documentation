@@ -15,17 +15,15 @@ category:
 ConstraintSoundInfo(ptr --[[ string ]])
 ```
 # Properties
-## Sampler 
+## Sampler (Read-Only)
 ```lua
 @type VelocitySampler
 Read: constraintsoundinfo.Sampler
-Write: constraintsoundinfo.Sampler = value
 ```
-## SoundProfile 
+## SoundProfile (Read-Only)
 ```lua
 @type SimpleConstraintSoundProfile
 Read: constraintsoundinfo.SoundProfile
-Write: constraintsoundinfo.SoundProfile = value
 ```
 ## ForwardAxis 
 ```lua

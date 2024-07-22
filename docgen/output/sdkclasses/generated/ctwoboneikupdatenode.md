@@ -15,11 +15,10 @@ category:
 CTwoBoneIKUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedData 
+## OpFixedData (Read-Only)
 ```lua
 @type TwoBoneIKSettings_t
 Read: ctwoboneikupdatenode.OpFixedData
-Write: ctwoboneikupdatenode.OpFixedData = value
 ```
 ## Parent 
 ```lua

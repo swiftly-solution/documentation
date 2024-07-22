@@ -15,11 +15,10 @@ category:
 CStateNodeStateData(ptr --[[ string ]])
 ```
 # Properties
-## Child 
+## Child (Read-Only)
 ```lua
 @type CAnimUpdateNodeRef
 Read: cstatenodestatedata.Child
-Write: cstatenodestatedata.Child = value
 ```
 # Functions
 ## ToPtr

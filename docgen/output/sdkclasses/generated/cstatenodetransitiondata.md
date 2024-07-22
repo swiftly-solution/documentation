@@ -15,11 +15,10 @@ category:
 CStateNodeTransitionData(ptr --[[ string ]])
 ```
 # Properties
-## Curve 
+## Curve (Read-Only)
 ```lua
 @type CBlendCurve
 Read: cstatenodetransitiondata.Curve
-Write: cstatenodetransitiondata.Curve = value
 ```
 # Functions
 ## ToPtr

@@ -21,17 +21,15 @@ CLogicBranch(ptr --[[ string ]])
 Read: clogicbranch.InValue
 Write: clogicbranch.InValue = value
 ```
-## OnTrue 
+## OnTrue (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicbranch.OnTrue
-Write: clogicbranch.OnTrue = value
 ```
-## OnFalse 
+## OnFalse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicbranch.OnFalse
-Write: clogicbranch.OnFalse = value
 ```
 ## Parent 
 ```lua

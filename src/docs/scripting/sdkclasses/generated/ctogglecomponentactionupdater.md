@@ -15,11 +15,10 @@ category:
 CToggleComponentActionUpdater(ptr --[[ string ]])
 ```
 # Properties
-## ComponentID 
+## ComponentID (Read-Only)
 ```lua
 @type AnimComponentID
 Read: ctogglecomponentactionupdater.ComponentID
-Write: ctogglecomponentactionupdater.ComponentID = value
 ```
 ## SetEnabled 
 ```lua

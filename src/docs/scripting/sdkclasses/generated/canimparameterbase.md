@@ -27,11 +27,10 @@ Write: canimparameterbase.Comment = value
 Read: canimparameterbase.Group
 Write: canimparameterbase.Group = value
 ```
-## Id 
+## Id (Read-Only)
 ```lua
 @type AnimParamID
 Read: canimparameterbase.Id
-Write: canimparameterbase.Id = value
 ```
 ## ComponentName 
 ```lua

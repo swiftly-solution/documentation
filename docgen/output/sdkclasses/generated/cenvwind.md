@@ -15,11 +15,10 @@ category:
 CEnvWind(ptr --[[ string ]])
 ```
 # Properties
-## EnvWindShared 
+## EnvWindShared (Read-Only)
 ```lua
 @type CEnvWindShared
 Read: cenvwind.EnvWindShared
-Write: cenvwind.EnvWindShared = value
 ```
 ## Parent 
 ```lua

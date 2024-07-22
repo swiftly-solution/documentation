@@ -15,11 +15,10 @@ category:
 PhysicsRagdollPose_t(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: physicsragdollpose_t.__pChainEntity
-Write: physicsragdollpose_t.__pChainEntity = value
 ```
 ## Owner (Read-Only)
 ```lua

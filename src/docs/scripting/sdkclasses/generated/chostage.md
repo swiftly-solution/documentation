@@ -15,35 +15,30 @@ category:
 CHostage(ptr --[[ string ]])
 ```
 # Properties
-## OnHostageBeginGrab 
+## OnHostageBeginGrab (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: chostage.OnHostageBeginGrab
-Write: chostage.OnHostageBeginGrab = value
 ```
-## OnFirstPickedUp 
+## OnFirstPickedUp (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: chostage.OnFirstPickedUp
-Write: chostage.OnFirstPickedUp = value
 ```
-## OnDroppedNotRescued 
+## OnDroppedNotRescued (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: chostage.OnDroppedNotRescued
-Write: chostage.OnDroppedNotRescued = value
 ```
-## OnRescued 
+## OnRescued (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: chostage.OnRescued
-Write: chostage.OnRescued = value
 ```
-## EntitySpottedState 
+## EntitySpottedState (Read-Only)
 ```lua
 @type EntitySpottedState_t
 Read: chostage.EntitySpottedState
-Write: chostage.EntitySpottedState = value
 ```
 ## SpotRules 
 ```lua
@@ -103,11 +98,10 @@ Read: chostage.Leader
 @type CCSPlayerPawnBase
 Read: chostage.LastLeader
 ```
-## ReuseTimer 
+## ReuseTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.ReuseTimer
-Write: chostage.ReuseTimer = value
 ```
 ## HasBeenUsed 
 ```lua
@@ -133,11 +127,10 @@ Write: chostage.IsRunning = value
 Read: chostage.IsCrouching
 Write: chostage.IsCrouching = value
 ```
-## JumpTimer 
+## JumpTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.JumpTimer
-Write: chostage.JumpTimer = value
 ```
 ## IsWaitingForLeader 
 ```lua
@@ -145,29 +138,25 @@ Write: chostage.JumpTimer = value
 Read: chostage.IsWaitingForLeader
 Write: chostage.IsWaitingForLeader = value
 ```
-## RepathTimer 
+## RepathTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.RepathTimer
-Write: chostage.RepathTimer = value
 ```
-## InhibitDoorTimer 
+## InhibitDoorTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.InhibitDoorTimer
-Write: chostage.InhibitDoorTimer = value
 ```
-## InhibitObstacleAvoidanceTimer 
+## InhibitObstacleAvoidanceTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.InhibitObstacleAvoidanceTimer
-Write: chostage.InhibitObstacleAvoidanceTimer = value
 ```
-## WiggleTimer 
+## WiggleTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: chostage.WiggleTimer
-Write: chostage.WiggleTimer = value
 ```
 ## IsAdjusted 
 ```lua

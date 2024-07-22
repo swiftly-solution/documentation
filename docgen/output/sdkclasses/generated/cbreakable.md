@@ -15,11 +15,10 @@ category:
 CBreakable(ptr --[[ string ]])
 ```
 # Properties
-## CPropDataComponent 
+## CPropDataComponent (Read-Only)
 ```lua
 @type CPropDataComponent
 Read: cbreakable.CPropDataComponent
-Write: cbreakable.CPropDataComponent = value
 ```
 ## Material 
 ```lua
@@ -74,11 +73,10 @@ Write: cbreakable.ImpactEnergyScale = value
 Read: cbreakable.OverrideBlockLOS
 Write: cbreakable.OverrideBlockLOS = value
 ```
-## OnBreak 
+## OnBreak (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbreakable.OnBreak
-Write: cbreakable.OnBreak = value
 ```
 ## PerformanceMode 
 ```lua

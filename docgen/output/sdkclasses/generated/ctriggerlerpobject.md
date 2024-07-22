@@ -79,17 +79,15 @@ Write: ctriggerlerpobject.AttachTouchingObject = value
 @type CBaseEntity
 Read: ctriggerlerpobject.EntityToWaitForDisconnect
 ```
-## OnLerpStarted 
+## OnLerpStarted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerlerpobject.OnLerpStarted
-Write: ctriggerlerpobject.OnLerpStarted = value
 ```
-## OnLerpFinished 
+## OnLerpFinished (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerlerpobject.OnLerpFinished
-Write: ctriggerlerpobject.OnLerpFinished = value
 ```
 ## Parent 
 ```lua

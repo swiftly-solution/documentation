@@ -15,47 +15,40 @@ category:
 CPhysicsProp(ptr --[[ string ]])
 ```
 # Properties
-## MotionEnabled 
+## MotionEnabled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.MotionEnabled
-Write: cphysicsprop.MotionEnabled = value
 ```
-## OnAwakened 
+## OnAwakened (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnAwakened
-Write: cphysicsprop.OnAwakened = value
 ```
-## OnAwake 
+## OnAwake (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnAwake
-Write: cphysicsprop.OnAwake = value
 ```
-## OnAsleep 
+## OnAsleep (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnAsleep
-Write: cphysicsprop.OnAsleep = value
 ```
-## OnPlayerUse 
+## OnPlayerUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnPlayerUse
-Write: cphysicsprop.OnPlayerUse = value
 ```
-## OnOutOfWorld 
+## OnOutOfWorld (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnOutOfWorld
-Write: cphysicsprop.OnOutOfWorld = value
 ```
-## OnPlayerPickup 
+## OnPlayerPickup (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysicsprop.OnPlayerPickup
-Write: cphysicsprop.OnPlayerPickup = value
 ```
 ## ForceNavIgnore 
 ```lua

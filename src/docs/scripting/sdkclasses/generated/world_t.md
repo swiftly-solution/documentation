@@ -15,11 +15,10 @@ category:
 World_t(ptr --[[ string ]])
 ```
 # Properties
-## BuilderParams 
+## BuilderParams (Read-Only)
 ```lua
 @type WorldBuilderParams_t
 Read: world_t.BuilderParams
-Write: world_t.BuilderParams = value
 ```
 ## WorldNodes 
 ```lua
@@ -27,11 +26,10 @@ Write: world_t.BuilderParams = value
 Read: world_t.WorldNodes
 Write: world_t.WorldNodes = value
 ```
-## WorldLightingInfo 
+## WorldLightingInfo (Read-Only)
 ```lua
 @type BakedLightingInfo_t
 Read: world_t.WorldLightingInfo
-Write: world_t.WorldLightingInfo = value
 ```
 # Functions
 ## ToPtr

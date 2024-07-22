@@ -15,17 +15,15 @@ category:
 CBaseGrenade(ptr --[[ string ]])
 ```
 # Properties
-## OnPlayerPickup 
+## OnPlayerPickup (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasegrenade.OnPlayerPickup
-Write: cbasegrenade.OnPlayerPickup = value
 ```
-## OnExplode 
+## OnExplode (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasegrenade.OnExplode
-Write: cbasegrenade.OnExplode = value
 ```
 ## HasWarnedAI 
 ```lua

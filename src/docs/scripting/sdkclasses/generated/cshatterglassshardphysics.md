@@ -27,11 +27,10 @@ Write: cshatterglassshardphysics.Debris = value
 Read: cshatterglassshardphysics.ParentShard
 Write: cshatterglassshardphysics.ParentShard = value
 ```
-## ShardDesc 
+## ShardDesc (Read-Only)
 ```lua
 @type shard_model_desc_t
 Read: cshatterglassshardphysics.ShardDesc
-Write: cshatterglassshardphysics.ShardDesc = value
 ```
 ## Parent 
 ```lua

@@ -15,21 +15,22 @@ category:
 CCSPlayerPawnBase(ptr --[[ string ]])
 ```
 # Properties
-## CTouchExpansionComponent 
+## CTouchExpansionComponent (Read-Only)
 ```lua
 @type CTouchExpansionComponent
 Read: ccsplayerpawnbase.CTouchExpansionComponent
-Write: ccsplayerpawnbase.CTouchExpansionComponent = value
 ```
-## PingServices (Read-Only)
+## PingServices 
 ```lua
 @type CCSPlayer_PingServices
 Read: ccsplayerpawnbase.PingServices
+Write: ccsplayerpawnbase.PingServices = value
 ```
-## ViewModelServices (Read-Only)
+## ViewModelServices 
 ```lua
 @type CPlayer_ViewModelServices
 Read: ccsplayerpawnbase.ViewModelServices
+Write: ccsplayerpawnbase.ViewModelServices = value
 ```
 ## BlindUntilTime 
 ```lua

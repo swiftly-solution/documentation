@@ -15,17 +15,15 @@ category:
 CFootStride(ptr --[[ string ]])
 ```
 # Properties
-## Definition 
+## Definition (Read-Only)
 ```lua
 @type CFootCycleDefinition
 Read: cfootstride.Definition
-Write: cfootstride.Definition = value
 ```
-## Trajectories 
+## Trajectories (Read-Only)
 ```lua
 @type CFootTrajectories
 Read: cfootstride.Trajectories
-Write: cfootstride.Trajectories = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 ActiveModelConfig_t(ptr --[[ string ]])
 ```
 # Properties
-## Handle 
+## Handle (Read-Only)
 ```lua
 @type ModelConfigHandle_t
 Read: activemodelconfig_t.Handle
-Write: activemodelconfig_t.Handle = value
 ```
 ## Name 
 ```lua

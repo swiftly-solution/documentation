@@ -27,11 +27,10 @@ Write: cbasedoor.MoveEntitySpace = value
 Read: cbasedoor.MoveDirParentSpace
 Write: cbasedoor.MoveDirParentSpace = value
 ```
-## Ls 
+## Ls (Read-Only)
 ```lua
 @type locksound_t
 Read: cbasedoor.Ls
-Write: cbasedoor.Ls = value
 ```
 ## ForceClosed 
 ```lua
@@ -99,59 +98,50 @@ Write: cbasedoor.NoiseArrivedClosed = value
 Read: cbasedoor.ChainTarget
 Write: cbasedoor.ChainTarget = value
 ```
-## OnBlockedClosing 
+## OnBlockedClosing (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnBlockedClosing
-Write: cbasedoor.OnBlockedClosing = value
 ```
-## OnBlockedOpening 
+## OnBlockedOpening (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnBlockedOpening
-Write: cbasedoor.OnBlockedOpening = value
 ```
-## OnUnblockedClosing 
+## OnUnblockedClosing (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnUnblockedClosing
-Write: cbasedoor.OnUnblockedClosing = value
 ```
-## OnUnblockedOpening 
+## OnUnblockedOpening (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnUnblockedOpening
-Write: cbasedoor.OnUnblockedOpening = value
 ```
-## OnFullyClosed 
+## OnFullyClosed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnFullyClosed
-Write: cbasedoor.OnFullyClosed = value
 ```
-## OnFullyOpen 
+## OnFullyOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnFullyOpen
-Write: cbasedoor.OnFullyOpen = value
 ```
-## OnClose 
+## OnClose (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnClose
-Write: cbasedoor.OnClose = value
 ```
-## OnOpen 
+## OnOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnOpen
-Write: cbasedoor.OnOpen = value
 ```
-## OnLockedUse 
+## OnLockedUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasedoor.OnLockedUse
-Write: cbasedoor.OnLockedUse = value
 ```
 ## LoopMoveSound 
 ```lua

@@ -21,11 +21,10 @@ CStateUpdateData(ptr --[[ string ]])
 Read: cstateupdatedata.Name
 Write: cstateupdatedata.Name = value
 ```
-## Script 
+## Script (Read-Only)
 ```lua
 @type AnimScriptHandle
 Read: cstateupdatedata.Script
-Write: cstateupdatedata.Script = value
 ```
 ## TransitionIndices 
 ```lua
@@ -39,11 +38,10 @@ Write: cstateupdatedata.TransitionIndices = value
 Read: cstateupdatedata.Actions
 Write: cstateupdatedata.Actions = value
 ```
-## StateID 
+## StateID (Read-Only)
 ```lua
 @type AnimStateID
 Read: cstateupdatedata.StateID
-Write: cstateupdatedata.StateID = value
 ```
 # Functions
 ## ToPtr

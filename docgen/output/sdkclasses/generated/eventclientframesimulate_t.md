@@ -15,11 +15,10 @@ category:
 EventClientFrameSimulate_t(ptr --[[ string ]])
 ```
 # Properties
-## LoopState 
+## LoopState (Read-Only)
 ```lua
 @type EngineLoopState_t
 Read: eventclientframesimulate_t.LoopState
-Write: eventclientframesimulate_t.LoopState = value
 ```
 ## RealTime 
 ```lua

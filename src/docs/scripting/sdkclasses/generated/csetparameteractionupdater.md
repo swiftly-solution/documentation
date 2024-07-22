@@ -15,11 +15,10 @@ category:
 CSetParameterActionUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Param 
+## Param (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: csetparameteractionupdater.Param
-Write: csetparameteractionupdater.Param = value
 ```
 ## Parent 
 ```lua

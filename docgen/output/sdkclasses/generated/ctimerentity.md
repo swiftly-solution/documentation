@@ -15,23 +15,20 @@ category:
 CTimerEntity(ptr --[[ string ]])
 ```
 # Properties
-## OnTimer 
+## OnTimer (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctimerentity.OnTimer
-Write: ctimerentity.OnTimer = value
 ```
-## OnTimerHigh 
+## OnTimerHigh (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctimerentity.OnTimerHigh
-Write: ctimerentity.OnTimerHigh = value
 ```
-## OnTimerLow 
+## OnTimerLow (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctimerentity.OnTimerLow
-Write: ctimerentity.OnTimerLow = value
 ```
 ## Disabled 
 ```lua

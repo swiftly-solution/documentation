@@ -51,11 +51,10 @@ Write: cbonemaskupdatenode.UseBlendScale = value
 Read: cbonemaskupdatenode.BlendValueSource
 Write: cbonemaskupdatenode.BlendValueSource = value
 ```
-## BlendParameter 
+## BlendParameter (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cbonemaskupdatenode.BlendParameter
-Write: cbonemaskupdatenode.BlendParameter = value
 ```
 ## Parent 
 ```lua

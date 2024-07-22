@@ -15,11 +15,10 @@ category:
 CSkeletonInstance(ptr --[[ string ]])
 ```
 # Properties
-## ModelState 
+## ModelState (Read-Only)
 ```lua
 @type CModelState
 Read: cskeletoninstance.ModelState
-Write: cskeletoninstance.ModelState = value
 ```
 ## IsAnimationEnabled 
 ```lua
@@ -41,7 +40,7 @@ Write: cskeletoninstance.DisableSolidCollisionsForHierarchy = value
 ```
 ## MaterialGroup 
 ```lua
-@type string
+@type number
 Read: cskeletoninstance.MaterialGroup
 Write: cskeletoninstance.MaterialGroup = value
 ```

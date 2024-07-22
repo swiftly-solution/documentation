@@ -39,15 +39,17 @@ Write: cpathkeyframe.NextKey = value
 Read: cpathkeyframe.NextTime
 Write: cpathkeyframe.NextTime = value
 ```
-## NextKey1 (Read-Only)
+## NextKey1 
 ```lua
 @type CPathKeyFrame
 Read: cpathkeyframe.NextKey1
+Write: cpathkeyframe.NextKey1 = value
 ```
-## PrevKey (Read-Only)
+## PrevKey 
 ```lua
 @type CPathKeyFrame
 Read: cpathkeyframe.PrevKey
+Write: cpathkeyframe.PrevKey = value
 ```
 ## MoveSpeed 
 ```lua

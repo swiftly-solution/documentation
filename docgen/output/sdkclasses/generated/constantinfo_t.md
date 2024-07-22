@@ -23,7 +23,7 @@ Write: constantinfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type string
+@type number
 Read: constantinfo_t.NameToken
 Write: constantinfo_t.NameToken = value
 ```

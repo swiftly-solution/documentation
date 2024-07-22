@@ -39,17 +39,15 @@ Write: cblendupdatenode.TargetValues = value
 Read: cblendupdatenode.BlendValueSource
 Write: cblendupdatenode.BlendValueSource = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cblendupdatenode.ParamIndex
-Write: cblendupdatenode.ParamIndex = value
 ```
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cblendupdatenode.Damping
-Write: cblendupdatenode.Damping = value
 ```
 ## BlendKeyType 
 ```lua

@@ -45,23 +45,20 @@ Write: cphyssurfaceproperties.Hidden = value
 Read: cphyssurfaceproperties.Description
 Write: cphyssurfaceproperties.Description = value
 ```
-## Physics 
+## Physics (Read-Only)
 ```lua
 @type CPhysSurfacePropertiesPhysics
 Read: cphyssurfaceproperties.Physics
-Write: cphyssurfaceproperties.Physics = value
 ```
-## AudioSounds 
+## AudioSounds (Read-Only)
 ```lua
 @type CPhysSurfacePropertiesSoundNames
 Read: cphyssurfaceproperties.AudioSounds
-Write: cphyssurfaceproperties.AudioSounds = value
 ```
-## AudioParams 
+## AudioParams (Read-Only)
 ```lua
 @type CPhysSurfacePropertiesAudio
 Read: cphyssurfaceproperties.AudioParams
-Write: cphyssurfaceproperties.AudioParams = value
 ```
 # Functions
 ## ToPtr

@@ -69,11 +69,10 @@ Write: cenvshake.CurrentAmp = value
 Read: cenvshake.MaxForce
 Write: cenvshake.MaxForce = value
 ```
-## ShakeCallback 
+## ShakeCallback (Read-Only)
 ```lua
 @type CPhysicsShake
 Read: cenvshake.ShakeCallback
-Write: cenvshake.ShakeCallback = value
 ```
 ## Parent 
 ```lua

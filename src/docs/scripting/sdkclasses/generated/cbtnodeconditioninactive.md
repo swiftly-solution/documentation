@@ -27,11 +27,10 @@ Write: cbtnodeconditioninactive.RoundStartThresholdSeconds = value
 Read: cbtnodeconditioninactive.SensorInactivityThresholdSeconds
 Write: cbtnodeconditioninactive.SensorInactivityThresholdSeconds = value
 ```
-## SensorInactivityTimer 
+## SensorInactivityTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cbtnodeconditioninactive.SensorInactivityTimer
-Write: cbtnodeconditioninactive.SensorInactivityTimer = value
 ```
 ## Parent 
 ```lua

@@ -33,11 +33,10 @@ Write: cplayer_cameraservices.CsViewPunchAngleTick = value
 Read: cplayer_cameraservices.CsViewPunchAngleTickRatio
 Write: cplayer_cameraservices.CsViewPunchAngleTickRatio = value
 ```
-## PlayerFog 
+## PlayerFog (Read-Only)
 ```lua
 @type fogplayerparams_t
 Read: cplayer_cameraservices.PlayerFog
-Write: cplayer_cameraservices.PlayerFog = value
 ```
 ## ColorCorrectionCtrl (Read-Only)
 ```lua
@@ -54,11 +53,10 @@ Read: cplayer_cameraservices.ViewEntity
 @type CTonemapController2
 Read: cplayer_cameraservices.TonemapController
 ```
-## Audio 
+## Audio (Read-Only)
 ```lua
 @type audioparams_t
 Read: cplayer_cameraservices.Audio
-Write: cplayer_cameraservices.Audio = value
 ```
 ## PostProcessingVolumes 
 ```lua

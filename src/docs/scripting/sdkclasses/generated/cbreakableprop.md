@@ -15,23 +15,20 @@ category:
 CBreakableProp(ptr --[[ string ]])
 ```
 # Properties
-## CPropDataComponent 
+## CPropDataComponent (Read-Only)
 ```lua
 @type CPropDataComponent
 Read: cbreakableprop.CPropDataComponent
-Write: cbreakableprop.CPropDataComponent = value
 ```
-## OnBreak 
+## OnBreak (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbreakableprop.OnBreak
-Write: cbreakableprop.OnBreak = value
 ```
-## OnTakeDamage 
+## OnTakeDamage (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbreakableprop.OnTakeDamage
-Write: cbreakableprop.OnTakeDamage = value
 ```
 ## ImpactEnergyScale 
 ```lua

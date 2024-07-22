@@ -15,11 +15,10 @@ category:
 CInfoWorldLayer(ptr --[[ string ]])
 ```
 # Properties
-## OutputOnEntitiesSpawned 
+## OutputOnEntitiesSpawned (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cinfoworldlayer.OutputOnEntitiesSpawned
-Write: cinfoworldlayer.OutputOnEntitiesSpawned = value
 ```
 ## WorldName 
 ```lua

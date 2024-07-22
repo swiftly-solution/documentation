@@ -15,23 +15,20 @@ category:
 CCommentaryAuto(ptr --[[ string ]])
 ```
 # Properties
-## OnCommentaryNewGame 
+## OnCommentaryNewGame (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryNewGame
-Write: ccommentaryauto.OnCommentaryNewGame = value
 ```
-## OnCommentaryMidGame 
+## OnCommentaryMidGame (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryMidGame
-Write: ccommentaryauto.OnCommentaryMidGame = value
 ```
-## OnCommentaryMultiplayerSpawn 
+## OnCommentaryMultiplayerSpawn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryMultiplayerSpawn
-Write: ccommentaryauto.OnCommentaryMultiplayerSpawn = value
 ```
 ## Parent 
 ```lua

@@ -27,11 +27,10 @@ Write: cchangelevel.MapName = value
 Read: cchangelevel.LandmarkName
 Write: cchangelevel.LandmarkName = value
 ```
-## OnChangeLevel 
+## OnChangeLevel (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cchangelevel.OnChangeLevel
-Write: cchangelevel.OnChangeLevel = value
 ```
 ## Touched 
 ```lua

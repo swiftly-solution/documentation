@@ -45,11 +45,10 @@ Write: cfishpool.WaterLevel = value
 Read: cfishpool.IsDormant
 Write: cfishpool.IsDormant = value
 ```
-## VisTimer 
+## VisTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cfishpool.VisTimer
-Write: cfishpool.VisTimer = value
 ```
 ## Parent 
 ```lua

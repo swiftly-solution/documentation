@@ -15,29 +15,25 @@ category:
 CInfoSpawnGroupLoadUnload(ptr --[[ string ]])
 ```
 # Properties
-## OnSpawnGroupLoadStarted 
+## OnSpawnGroupLoadStarted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cinfospawngrouploadunload.OnSpawnGroupLoadStarted
-Write: cinfospawngrouploadunload.OnSpawnGroupLoadStarted = value
 ```
-## OnSpawnGroupLoadFinished 
+## OnSpawnGroupLoadFinished (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cinfospawngrouploadunload.OnSpawnGroupLoadFinished
-Write: cinfospawngrouploadunload.OnSpawnGroupLoadFinished = value
 ```
-## OnSpawnGroupUnloadStarted 
+## OnSpawnGroupUnloadStarted (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cinfospawngrouploadunload.OnSpawnGroupUnloadStarted
-Write: cinfospawngrouploadunload.OnSpawnGroupUnloadStarted = value
 ```
-## OnSpawnGroupUnloadFinished 
+## OnSpawnGroupUnloadFinished (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cinfospawngrouploadunload.OnSpawnGroupUnloadFinished
-Write: cinfospawngrouploadunload.OnSpawnGroupUnloadFinished = value
 ```
 ## SpawnGroupName 
 ```lua

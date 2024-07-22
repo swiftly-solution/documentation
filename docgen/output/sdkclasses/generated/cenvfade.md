@@ -33,11 +33,10 @@ Write: cenvfade.Duration = value
 Read: cenvfade.HoldDuration
 Write: cenvfade.HoldDuration = value
 ```
-## OnBeginFade 
+## OnBeginFade (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cenvfade.OnBeginFade
-Write: cenvfade.OnBeginFade = value
 ```
 ## Parent 
 ```lua

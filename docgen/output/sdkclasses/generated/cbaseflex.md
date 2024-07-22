@@ -45,11 +45,10 @@ Write: cbaseflex.AllowResponsesEndTime = value
 Read: cbaseflex.LastFlexAnimationTime
 Write: cbaseflex.LastFlexAnimationTime = value
 ```
-## NextSceneEventId 
+## NextSceneEventId (Read-Only)
 ```lua
 @type SceneEventId_t
 Read: cbaseflex.NextSceneEventId
-Write: cbaseflex.NextSceneEventId = value
 ```
 ## UpdateLayerPriorities 
 ```lua

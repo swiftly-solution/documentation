@@ -51,11 +51,10 @@ Write: vphysxjoint_t.EnableCollision = value
 Read: vphysxjoint_t.EnableLinearLimit
 Write: vphysxjoint_t.EnableLinearLimit = value
 ```
-## LinearLimit 
+## LinearLimit (Read-Only)
 ```lua
 @type VPhysXRange_t
 Read: vphysxjoint_t.LinearLimit
-Write: vphysxjoint_t.LinearLimit = value
 ```
 ## EnableLinearMotor 
 ```lua
@@ -81,11 +80,10 @@ Write: vphysxjoint_t.MaxForce = value
 Read: vphysxjoint_t.EnableSwingLimit
 Write: vphysxjoint_t.EnableSwingLimit = value
 ```
-## SwingLimit 
+## SwingLimit (Read-Only)
 ```lua
 @type VPhysXRange_t
 Read: vphysxjoint_t.SwingLimit
-Write: vphysxjoint_t.SwingLimit = value
 ```
 ## EnableTwistLimit 
 ```lua
@@ -93,11 +91,10 @@ Write: vphysxjoint_t.SwingLimit = value
 Read: vphysxjoint_t.EnableTwistLimit
 Write: vphysxjoint_t.EnableTwistLimit = value
 ```
-## TwistLimit 
+## TwistLimit (Read-Only)
 ```lua
 @type VPhysXRange_t
 Read: vphysxjoint_t.TwistLimit
-Write: vphysxjoint_t.TwistLimit = value
 ```
 ## EnableAngularMotor 
 ```lua

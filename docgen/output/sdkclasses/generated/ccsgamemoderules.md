@@ -15,11 +15,10 @@ category:
 CCSGameModeRules(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity 
+## __pChainEntity (Read-Only)
 ```lua
 @type CNetworkVarChainer
 Read: ccsgamemoderules.__pChainEntity
-Write: ccsgamemoderules.__pChainEntity = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CAnimUpdateNodeBase(ptr --[[ string ]])
 ```
 # Properties
-## NodePath 
+## NodePath (Read-Only)
 ```lua
 @type CAnimNodePath
 Read: canimupdatenodebase.NodePath
-Write: canimupdatenodebase.NodePath = value
 ```
 ## NetworkMode 
 ```lua

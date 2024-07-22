@@ -15,16 +15,16 @@ category:
 CBaseModelEntity(ptr --[[ string ]])
 ```
 # Properties
-## CRenderComponent (Read-Only)
+## CRenderComponent 
 ```lua
 @type CRenderComponent
 Read: cbasemodelentity.CRenderComponent
+Write: cbasemodelentity.CRenderComponent = value
 ```
-## CHitboxComponent 
+## CHitboxComponent (Read-Only)
 ```lua
 @type CHitboxComponent
 Read: cbasemodelentity.CHitboxComponent
-Write: cbasemodelentity.CHitboxComponent = value
 ```
 ## DissolveStartTime 
 ```lua
@@ -32,11 +32,10 @@ Write: cbasemodelentity.CHitboxComponent = value
 Read: cbasemodelentity.DissolveStartTime
 Write: cbasemodelentity.DissolveStartTime = value
 ```
-## OnIgnite 
+## OnIgnite (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasemodelentity.OnIgnite
-Write: cbasemodelentity.OnIgnite = value
 ```
 ## RenderMode 
 ```lua
@@ -74,17 +73,15 @@ Write: cbasemodelentity.RenderAttributes = value
 Read: cbasemodelentity.RenderToCubemaps
 Write: cbasemodelentity.RenderToCubemaps = value
 ```
-## Collision 
+## Collision (Read-Only)
 ```lua
 @type CCollisionProperty
 Read: cbasemodelentity.Collision
-Write: cbasemodelentity.Collision = value
 ```
-## Glow 
+## Glow (Read-Only)
 ```lua
 @type CGlowProperty
 Read: cbasemodelentity.Glow
-Write: cbasemodelentity.Glow = value
 ```
 ## GlowBackfaceMult 
 ```lua
@@ -158,11 +155,10 @@ Write: cbasemodelentity.DecalHealHeightRate = value
 Read: cbasemodelentity.ConfigEntitiesToPropagateMaterialDecalsTo
 Write: cbasemodelentity.ConfigEntitiesToPropagateMaterialDecalsTo = value
 ```
-## ViewOffset 
+## ViewOffset (Read-Only)
 ```lua
 @type CNetworkViewOffsetVector
 Read: cbasemodelentity.ViewOffset
-Write: cbasemodelentity.ViewOffset = value
 ```
 ## Parent 
 ```lua

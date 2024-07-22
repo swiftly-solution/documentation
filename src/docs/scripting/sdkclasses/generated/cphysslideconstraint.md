@@ -69,11 +69,10 @@ Write: cphysslideconstraint.MotorDampingRatio = value
 Read: cphysslideconstraint.UseEntityPivot
 Write: cphysslideconstraint.UseEntityPivot = value
 ```
-## SoundInfo 
+## SoundInfo (Read-Only)
 ```lua
 @type ConstraintSoundInfo
 Read: cphysslideconstraint.SoundInfo
-Write: cphysslideconstraint.SoundInfo = value
 ```
 ## Parent 
 ```lua

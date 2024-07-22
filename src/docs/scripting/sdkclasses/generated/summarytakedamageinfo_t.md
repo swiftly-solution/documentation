@@ -21,17 +21,15 @@ SummaryTakeDamageInfo_t(ptr --[[ string ]])
 Read: summarytakedamageinfo_t.SummarisedCount
 Write: summarytakedamageinfo_t.SummarisedCount = value
 ```
-## Info 
+## Info (Read-Only)
 ```lua
 @type CTakeDamageInfo
 Read: summarytakedamageinfo_t.Info
-Write: summarytakedamageinfo_t.Info = value
 ```
-## Result 
+## Result (Read-Only)
 ```lua
 @type CTakeDamageResult
 Read: summarytakedamageinfo_t.Result
-Write: summarytakedamageinfo_t.Result = value
 ```
 ## Target (Read-Only)
 ```lua

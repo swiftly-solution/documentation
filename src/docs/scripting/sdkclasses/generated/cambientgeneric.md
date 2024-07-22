@@ -33,11 +33,10 @@ Write: cambientgeneric.MaxRadius = value
 Read: cambientgeneric.SoundLevel
 Write: cambientgeneric.SoundLevel = value
 ```
-## Dpv 
+## Dpv (Read-Only)
 ```lua
 @type dynpitchvol_t
 Read: cambientgeneric.Dpv
-Write: cambientgeneric.Dpv = value
 ```
 ## Active 
 ```lua

@@ -21,11 +21,10 @@ SkeletonAnimCapture_t__Frame_t(ptr --[[ string ]])
 Read: skeletonanimcapture_t__frame_t.Time
 Write: skeletonanimcapture_t__frame_t.Time = value
 ```
-## Stamp 
+## Stamp (Read-Only)
 ```lua
 @type SkeletonAnimCapture_t
 Read: skeletonanimcapture_t__frame_t.Stamp
-Write: skeletonanimcapture_t__frame_t.Stamp = value
 ```
 ## Teleport 
 ```lua

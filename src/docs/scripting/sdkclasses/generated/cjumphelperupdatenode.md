@@ -15,11 +15,10 @@ category:
 CJumpHelperUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## TargetParam 
+## TargetParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cjumphelperupdatenode.TargetParam
-Write: cjumphelperupdatenode.TargetParam = value
 ```
 ## OriginalJumpMovement 
 ```lua

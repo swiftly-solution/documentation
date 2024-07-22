@@ -15,11 +15,10 @@ category:
 CParticleFunction(ptr --[[ string ]])
 ```
 # Properties
-## OpStrength 
+## OpStrength (Read-Only)
 ```lua
 @type CParticleCollectionFloatInput
 Read: cparticlefunction.OpStrength
-Write: cparticlefunction.OpStrength = value
 ```
 ## OpEndCapState 
 ```lua

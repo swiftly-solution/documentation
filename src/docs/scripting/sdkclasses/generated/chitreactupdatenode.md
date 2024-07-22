@@ -15,41 +15,35 @@ category:
 CHitReactUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## OpFixedSettings 
+## OpFixedSettings (Read-Only)
 ```lua
 @type HitReactFixedSettings_t
 Read: chitreactupdatenode.OpFixedSettings
-Write: chitreactupdatenode.OpFixedSettings = value
 ```
-## TriggerParam 
+## TriggerParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: chitreactupdatenode.TriggerParam
-Write: chitreactupdatenode.TriggerParam = value
 ```
-## HitBoneParam 
+## HitBoneParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: chitreactupdatenode.HitBoneParam
-Write: chitreactupdatenode.HitBoneParam = value
 ```
-## HitOffsetParam 
+## HitOffsetParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: chitreactupdatenode.HitOffsetParam
-Write: chitreactupdatenode.HitOffsetParam = value
 ```
-## HitDirectionParam 
+## HitDirectionParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: chitreactupdatenode.HitDirectionParam
-Write: chitreactupdatenode.HitDirectionParam = value
 ```
-## HitStrengthParam 
+## HitStrengthParam (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: chitreactupdatenode.HitStrengthParam
-Write: chitreactupdatenode.HitStrengthParam = value
 ```
 ## MinDelayBetweenHits 
 ```lua

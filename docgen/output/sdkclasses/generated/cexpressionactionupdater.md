@@ -15,11 +15,10 @@ category:
 CExpressionActionUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Param 
+## Param (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cexpressionactionupdater.Param
-Write: cexpressionactionupdater.Param = value
 ```
 ## ParamType 
 ```lua
@@ -27,11 +26,10 @@ Write: cexpressionactionupdater.Param = value
 Read: cexpressionactionupdater.ParamType
 Write: cexpressionactionupdater.ParamType = value
 ```
-## Script 
+## Script (Read-Only)
 ```lua
 @type AnimScriptHandle
 Read: cexpressionactionupdater.Script
-Write: cexpressionactionupdater.Script = value
 ```
 ## Parent 
 ```lua

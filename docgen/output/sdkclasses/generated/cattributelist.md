@@ -21,10 +21,11 @@ CAttributeList(ptr --[[ string ]])
 Read: cattributelist.Attributes
 Write: cattributelist.Attributes = value
 ```
-## Manager (Read-Only)
+## Manager 
 ```lua
 @type CAttributeManager
 Read: cattributelist.Manager
+Write: cattributelist.Manager = value
 ```
 # Functions
 ## ToPtr

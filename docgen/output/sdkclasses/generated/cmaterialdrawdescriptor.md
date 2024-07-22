@@ -75,11 +75,10 @@ Write: cmaterialdrawdescriptor.StartIndex = value
 Read: cmaterialdrawdescriptor.IndexCount
 Write: cmaterialdrawdescriptor.IndexCount = value
 ```
-## IndexBuffer 
+## IndexBuffer (Read-Only)
 ```lua
 @type CRenderBufferBinding
 Read: cmaterialdrawdescriptor.IndexBuffer
-Write: cmaterialdrawdescriptor.IndexBuffer = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CMotionGraphGroup(ptr --[[ string ]])
 ```
 # Properties
-## SearchDB 
+## SearchDB (Read-Only)
 ```lua
 @type CMotionSearchDB
 Read: cmotiongraphgroup.SearchDB
-Write: cmotiongraphgroup.SearchDB = value
 ```
 ## MotionGraphConfigs 
 ```lua
@@ -33,11 +32,10 @@ Write: cmotiongraphgroup.MotionGraphConfigs = value
 Read: cmotiongraphgroup.SampleToConfig
 Write: cmotiongraphgroup.SampleToConfig = value
 ```
-## IsActiveScript 
+## IsActiveScript (Read-Only)
 ```lua
 @type AnimScriptHandle
 Read: cmotiongraphgroup.IsActiveScript
-Write: cmotiongraphgroup.IsActiveScript = value
 ```
 # Functions
 ## ToPtr

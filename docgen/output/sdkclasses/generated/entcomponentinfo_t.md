@@ -51,10 +51,11 @@ Write: entcomponentinfo_t.RuntimeIndex = value
 Read: entcomponentinfo_t.Flags
 Write: entcomponentinfo_t.Flags = value
 ```
-## BaseClassComponentHelper (Read-Only)
+## BaseClassComponentHelper 
 ```lua
 @type CEntityComponentHelper
 Read: entcomponentinfo_t.BaseClassComponentHelper
+Write: entcomponentinfo_t.BaseClassComponentHelper = value
 ```
 # Functions
 ## ToPtr

@@ -135,95 +135,80 @@ Write: ccsweaponbasevdata.IsFullAuto = value
 Read: ccsweaponbasevdata.NumBullets
 Write: ccsweaponbasevdata.NumBullets = value
 ```
-## CycleTime 
+## CycleTime (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.CycleTime
-Write: ccsweaponbasevdata.CycleTime = value
 ```
-## MaxSpeed 
+## MaxSpeed (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.MaxSpeed
-Write: ccsweaponbasevdata.MaxSpeed = value
 ```
-## Spread 
+## Spread (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.Spread
-Write: ccsweaponbasevdata.Spread = value
 ```
-## InaccuracyCrouch 
+## InaccuracyCrouch (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyCrouch
-Write: ccsweaponbasevdata.InaccuracyCrouch = value
 ```
-## InaccuracyStand 
+## InaccuracyStand (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyStand
-Write: ccsweaponbasevdata.InaccuracyStand = value
 ```
-## InaccuracyJump 
+## InaccuracyJump (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyJump
-Write: ccsweaponbasevdata.InaccuracyJump = value
 ```
-## InaccuracyLand 
+## InaccuracyLand (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyLand
-Write: ccsweaponbasevdata.InaccuracyLand = value
 ```
-## InaccuracyLadder 
+## InaccuracyLadder (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyLadder
-Write: ccsweaponbasevdata.InaccuracyLadder = value
 ```
-## InaccuracyFire 
+## InaccuracyFire (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyFire
-Write: ccsweaponbasevdata.InaccuracyFire = value
 ```
-## InaccuracyMove 
+## InaccuracyMove (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.InaccuracyMove
-Write: ccsweaponbasevdata.InaccuracyMove = value
 ```
-## RecoilAngle 
+## RecoilAngle (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.RecoilAngle
-Write: ccsweaponbasevdata.RecoilAngle = value
 ```
-## RecoilAngleVariance 
+## RecoilAngleVariance (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.RecoilAngleVariance
-Write: ccsweaponbasevdata.RecoilAngleVariance = value
 ```
-## RecoilMagnitude 
+## RecoilMagnitude (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.RecoilMagnitude
-Write: ccsweaponbasevdata.RecoilMagnitude = value
 ```
-## RecoilMagnitudeVariance 
+## RecoilMagnitudeVariance (Read-Only)
 ```lua
 @type CFiringModeFloat
 Read: ccsweaponbasevdata.RecoilMagnitudeVariance
-Write: ccsweaponbasevdata.RecoilMagnitudeVariance = value
 ```
-## TracerFrequency 
+## TracerFrequency (Read-Only)
 ```lua
 @type CFiringModeInt
 Read: ccsweaponbasevdata.TracerFrequency
-Write: ccsweaponbasevdata.TracerFrequency = value
 ```
 ## InaccuracyJumpInitial 
 ```lua

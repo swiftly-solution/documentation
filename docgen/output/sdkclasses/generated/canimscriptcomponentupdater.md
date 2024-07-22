@@ -15,11 +15,10 @@ category:
 CAnimScriptComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Script 
+## Script (Read-Only)
 ```lua
 @type AnimScriptHandle
 Read: canimscriptcomponentupdater.Script
-Write: canimscriptcomponentupdater.Script = value
 ```
 ## Parent 
 ```lua

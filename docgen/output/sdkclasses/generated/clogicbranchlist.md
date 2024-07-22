@@ -21,29 +21,25 @@ CLogicBranchList(ptr --[[ string ]])
 Read: clogicbranchlist.LogicBranchNames
 Write: clogicbranchlist.LogicBranchNames = value
 ```
-## LastState 
+## LastState (Read-Only)
 ```lua
 @type CLogicBranchList
 Read: clogicbranchlist.LastState
-Write: clogicbranchlist.LastState = value
 ```
-## OnAllTrue 
+## OnAllTrue (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicbranchlist.OnAllTrue
-Write: clogicbranchlist.OnAllTrue = value
 ```
-## OnAllFalse 
+## OnAllFalse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicbranchlist.OnAllFalse
-Write: clogicbranchlist.OnAllFalse = value
 ```
-## OnMixed 
+## OnMixed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicbranchlist.OnMixed
-Write: clogicbranchlist.OnMixed = value
 ```
 ## Parent 
 ```lua

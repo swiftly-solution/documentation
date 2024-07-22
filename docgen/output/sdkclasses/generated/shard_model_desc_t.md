@@ -77,7 +77,7 @@ Write: shard_model_desc_t.ParentFrozen = value
 ```
 ## SurfacePropStringToken 
 ```lua
-@type string
+@type number
 Read: shard_model_desc_t.SurfacePropStringToken
 Write: shard_model_desc_t.SurfacePropStringToken = value
 ```

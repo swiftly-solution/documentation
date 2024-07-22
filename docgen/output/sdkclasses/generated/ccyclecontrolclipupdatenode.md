@@ -33,11 +33,10 @@ Write: ccyclecontrolclipupdatenode.Duration = value
 Read: ccyclecontrolclipupdatenode.ValueSource
 Write: ccyclecontrolclipupdatenode.ValueSource = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: ccyclecontrolclipupdatenode.ParamIndex
-Write: ccyclecontrolclipupdatenode.ParamIndex = value
 ```
 ## Parent 
 ```lua

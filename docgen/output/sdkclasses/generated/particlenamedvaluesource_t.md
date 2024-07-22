@@ -33,11 +33,10 @@ Write: particlenamedvaluesource_t.IsPublic = value
 Read: particlenamedvaluesource_t.ValueType
 Write: particlenamedvaluesource_t.ValueType = value
 ```
-## DefaultConfig 
+## DefaultConfig (Read-Only)
 ```lua
 @type ParticleNamedValueConfiguration_t
 Read: particlenamedvaluesource_t.DefaultConfig
-Write: particlenamedvaluesource_t.DefaultConfig = value
 ```
 ## NamedConfigs 
 ```lua

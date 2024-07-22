@@ -23,7 +23,7 @@ Write: functioninfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type string
+@type number
 Read: functioninfo_t.NameToken
 Write: functioninfo_t.NameToken = value
 ```
@@ -33,11 +33,10 @@ Write: functioninfo_t.NameToken = value
 Read: functioninfo_t.ParamCount
 Write: functioninfo_t.ParamCount = value
 ```
-## Index 
+## Index (Read-Only)
 ```lua
 @type FuseFunctionIndex_t
 Read: functioninfo_t.Index
-Write: functioninfo_t.Index = value
 ```
 ## IsPure 
 ```lua

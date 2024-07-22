@@ -15,17 +15,15 @@ category:
 CSolveIKTargetHandle_t(ptr --[[ string ]])
 ```
 # Properties
-## PositionHandle 
+## PositionHandle (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: csolveiktargethandle_t.PositionHandle
-Write: csolveiktargethandle_t.PositionHandle = value
 ```
-## OrientationHandle 
+## OrientationHandle (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: csolveiktargethandle_t.OrientationHandle
-Write: csolveiktargethandle_t.OrientationHandle = value
 ```
 # Functions
 ## ToPtr

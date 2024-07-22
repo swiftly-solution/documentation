@@ -69,35 +69,30 @@ Write: cphysbox.ExploitableByPlayer = value
 Read: cphysbox.TouchOutputPerEntityDelay
 Write: cphysbox.TouchOutputPerEntityDelay = value
 ```
-## OnDamaged 
+## OnDamaged (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysbox.OnDamaged
-Write: cphysbox.OnDamaged = value
 ```
-## OnAwakened 
+## OnAwakened (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysbox.OnAwakened
-Write: cphysbox.OnAwakened = value
 ```
-## OnMotionEnabled 
+## OnMotionEnabled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysbox.OnMotionEnabled
-Write: cphysbox.OnMotionEnabled = value
 ```
-## OnPlayerUse 
+## OnPlayerUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysbox.OnPlayerUse
-Write: cphysbox.OnPlayerUse = value
 ```
-## OnStartTouch 
+## OnStartTouch (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cphysbox.OnStartTouch
-Write: cphysbox.OnStartTouch = value
 ```
 ## CarryingPlayer (Read-Only)
 ```lua

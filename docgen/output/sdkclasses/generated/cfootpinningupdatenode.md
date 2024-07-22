@@ -15,11 +15,10 @@ category:
 CFootPinningUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## PoseOpFixedData 
+## PoseOpFixedData (Read-Only)
 ```lua
 @type FootPinningPoseOpFixedData_t
 Read: cfootpinningupdatenode.PoseOpFixedData
-Write: cfootpinningupdatenode.PoseOpFixedData = value
 ```
 ## TimingSource 
 ```lua

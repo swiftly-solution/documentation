@@ -15,11 +15,10 @@ category:
 CBodyComponentPoint(ptr --[[ string ]])
 ```
 # Properties
-## SceneNode 
+## SceneNode (Read-Only)
 ```lua
 @type CGameSceneNode
 Read: cbodycomponentpoint.SceneNode
-Write: cbodycomponentpoint.SceneNode = value
 ```
 ## Parent 
 ```lua

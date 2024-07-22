@@ -15,11 +15,10 @@ category:
 CDirectionalBlendUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Damping 
+## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping
 Read: cdirectionalblendupdatenode.Damping
-Write: cdirectionalblendupdatenode.Damping = value
 ```
 ## BlendValueSource 
 ```lua
@@ -27,11 +26,10 @@ Write: cdirectionalblendupdatenode.Damping = value
 Read: cdirectionalblendupdatenode.BlendValueSource
 Write: cdirectionalblendupdatenode.BlendValueSource = value
 ```
-## ParamIndex 
+## ParamIndex (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: cdirectionalblendupdatenode.ParamIndex
-Write: cdirectionalblendupdatenode.ParamIndex = value
 ```
 ## PlaybackSpeed 
 ```lua

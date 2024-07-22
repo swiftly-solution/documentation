@@ -15,17 +15,15 @@ category:
 CLogicRelay(ptr --[[ string ]])
 ```
 # Properties
-## OnTrigger 
+## OnTrigger (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicrelay.OnTrigger
-Write: clogicrelay.OnTrigger = value
 ```
-## OnSpawn 
+## OnSpawn (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: clogicrelay.OnSpawn
-Write: clogicrelay.OnSpawn = value
 ```
 ## Disabled 
 ```lua

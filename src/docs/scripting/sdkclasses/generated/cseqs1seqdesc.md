@@ -15,17 +15,15 @@ category:
 CSeqS1SeqDesc(ptr --[[ string ]])
 ```
 # Properties
-## Flags 
+## Flags (Read-Only)
 ```lua
 @type CSeqSeqDescFlag
 Read: cseqs1seqdesc.Flags
-Write: cseqs1seqdesc.Flags = value
 ```
-## Fetch 
+## Fetch (Read-Only)
 ```lua
 @type CSeqMultiFetch
 Read: cseqs1seqdesc.Fetch
-Write: cseqs1seqdesc.Fetch = value
 ```
 ## LocalWeightlist 
 ```lua
@@ -45,11 +43,10 @@ Write: cseqs1seqdesc.AutoLayerArray = value
 Read: cseqs1seqdesc.IKLockArray
 Write: cseqs1seqdesc.IKLockArray = value
 ```
-## Transition 
+## Transition (Read-Only)
 ```lua
 @type CSeqTransition
 Read: cseqs1seqdesc.Transition
-Write: cseqs1seqdesc.Transition = value
 ```
 ## ActivityArray 
 ```lua

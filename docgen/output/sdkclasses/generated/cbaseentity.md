@@ -15,16 +15,16 @@ category:
 CBaseEntity(ptr --[[ string ]])
 ```
 # Properties
-## CBodyComponent (Read-Only)
+## CBodyComponent 
 ```lua
 @type CBodyComponent
 Read: cbaseentity.CBodyComponent
+Write: cbaseentity.CBodyComponent = value
 ```
-## NetworkTransmitComponent 
+## NetworkTransmitComponent (Read-Only)
 ```lua
 @type CNetworkTransmitComponent
 Read: cbaseentity.NetworkTransmitComponent
-Write: cbaseentity.NetworkTransmitComponent = value
 ```
 ## ThinkFunctions 
 ```lua
@@ -171,7 +171,7 @@ Write: cbaseentity.MoveDoneTime = value
 ```
 ## SubclassID 
 ```lua
-@type string
+@type number
 Read: cbaseentity.SubclassID
 Write: cbaseentity.SubclassID = value
 ```
@@ -259,11 +259,10 @@ Write: cbaseentity.NextThinkTick = value
 Read: cbaseentity.SimulationTick
 Write: cbaseentity.SimulationTick = value
 ```
-## OnKilled 
+## OnKilled (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseentity.OnKilled
-Write: cbaseentity.OnKilled = value
 ```
 ## Flags 
 ```lua
@@ -277,11 +276,10 @@ Write: cbaseentity.Flags = value
 Read: cbaseentity.AbsVelocity
 Write: cbaseentity.AbsVelocity = value
 ```
-## Velocity 
+## Velocity (Read-Only)
 ```lua
 @type CNetworkVelocityVector
 Read: cbaseentity.Velocity
-Write: cbaseentity.Velocity = value
 ```
 ## BaseVelocity 
 ```lua
@@ -295,10 +293,11 @@ Write: cbaseentity.BaseVelocity = value
 Read: cbaseentity.PushEnumCount
 Write: cbaseentity.PushEnumCount = value
 ```
-## Collision (Read-Only)
+## Collision 
 ```lua
 @type CCollisionProperty
 Read: cbaseentity.Collision
+Write: cbaseentity.Collision = value
 ```
 ## EffectEntity (Read-Only)
 ```lua
@@ -381,29 +380,25 @@ Write: cbaseentity.WaterType = value
 Read: cbaseentity.EFlags
 Write: cbaseentity.EFlags = value
 ```
-## OnUser1 
+## OnUser1 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseentity.OnUser1
-Write: cbaseentity.OnUser1 = value
 ```
-## OnUser2 
+## OnUser2 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseentity.OnUser2
-Write: cbaseentity.OnUser2 = value
 ```
-## OnUser3 
+## OnUser3 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseentity.OnUser3
-Write: cbaseentity.OnUser3 = value
 ```
-## OnUser4 
+## OnUser4 (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbaseentity.OnUser4
-Write: cbaseentity.OnUser4 = value
 ```
 ## InitialTeamNum 
 ```lua
@@ -471,6 +466,11 @@ Read: cbaseentity.Parent
 Write: cbaseentity.Parent = value
 ```
 # Functions
+## EHandle
+```lua
+@returns CBaseEntity
+cbaseentity:EHandle()
+```
 ## Spawn
 ```lua
 @returns void

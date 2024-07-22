@@ -68,11 +68,10 @@ Read: cbasepropdoor.Blocker
 Read: cbasepropdoor.FirstBlocked
 Write: cbasepropdoor.FirstBlocked = value
 ```
-## Ls 
+## Ls (Read-Only)
 ```lua
 @type locksound_t
 Read: cbasepropdoor.Ls
-Write: cbasepropdoor.Ls = value
 ```
 ## ForceClosed 
 ```lua
@@ -153,7 +152,7 @@ Write: cbasepropdoor.NumCloseAttempts = value
 ```
 ## PhysicsMaterial 
 ```lua
-@type string
+@type number
 Read: cbasepropdoor.PhysicsMaterial
 Write: cbasepropdoor.PhysicsMaterial = value
 ```
@@ -168,65 +167,55 @@ Write: cbasepropdoor.SlaveName = value
 @type CBasePropDoor
 Read: cbasepropdoor.Master
 ```
-## OnBlockedClosing 
+## OnBlockedClosing (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnBlockedClosing
-Write: cbasepropdoor.OnBlockedClosing = value
 ```
-## OnBlockedOpening 
+## OnBlockedOpening (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnBlockedOpening
-Write: cbasepropdoor.OnBlockedOpening = value
 ```
-## OnUnblockedClosing 
+## OnUnblockedClosing (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnUnblockedClosing
-Write: cbasepropdoor.OnUnblockedClosing = value
 ```
-## OnUnblockedOpening 
+## OnUnblockedOpening (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnUnblockedOpening
-Write: cbasepropdoor.OnUnblockedOpening = value
 ```
-## OnFullyClosed 
+## OnFullyClosed (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnFullyClosed
-Write: cbasepropdoor.OnFullyClosed = value
 ```
-## OnFullyOpen 
+## OnFullyOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnFullyOpen
-Write: cbasepropdoor.OnFullyOpen = value
 ```
-## OnClose 
+## OnClose (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnClose
-Write: cbasepropdoor.OnClose = value
 ```
-## OnOpen 
+## OnOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnOpen
-Write: cbasepropdoor.OnOpen = value
 ```
-## OnLockedUse 
+## OnLockedUse (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnLockedUse
-Write: cbasepropdoor.OnLockedUse = value
 ```
-## OnAjarOpen 
+## OnAjarOpen (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cbasepropdoor.OnAjarOpen
-Write: cbasepropdoor.OnAjarOpen = value
 ```
 ## Parent 
 ```lua

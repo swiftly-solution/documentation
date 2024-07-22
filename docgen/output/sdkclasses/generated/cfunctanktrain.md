@@ -15,11 +15,10 @@ category:
 CFuncTankTrain(ptr --[[ string ]])
 ```
 # Properties
-## OnDeath 
+## OnDeath (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: cfunctanktrain.OnDeath
-Write: cfunctanktrain.OnDeath = value
 ```
 ## Parent 
 ```lua

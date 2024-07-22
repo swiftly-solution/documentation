@@ -21,11 +21,10 @@ CTriggerDetectBulletFire(ptr --[[ string ]])
 Read: ctriggerdetectbulletfire.PlayerFireOnly
 Write: ctriggerdetectbulletfire.PlayerFireOnly = value
 ```
-## OnDetectedBulletFire 
+## OnDetectedBulletFire (Read-Only)
 ```lua
 @type CEntityIOOutput
 Read: ctriggerdetectbulletfire.OnDetectedBulletFire
-Write: ctriggerdetectbulletfire.OnDetectedBulletFire = value
 ```
 ## Parent 
 ```lua
