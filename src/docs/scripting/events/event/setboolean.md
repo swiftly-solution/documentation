@@ -1,18 +1,18 @@
 ---
-title: Setboolean
+title: SetBool
 index: true
 order: 2
 category:
   - Guide
 ---
 
-# Setboolean
+# SetBool
 Set the boolean value to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
 @returns void
-event:Setboolean(key --[[ string ]], value --[[ boolean ]])
+event:SetBool(key --[[ string ]], value --[[ boolean ]])
 ```
 
 :::

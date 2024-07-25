@@ -2,7 +2,12 @@ const { cpSync, existsSync, mkdirSync, readFileSync, rm, writeFileSync } = requi
 const { markdownTable } = require("./markdowntable.cjs")
 
 const FetchData = () => {
-    return JSON.parse(readFileSync("data/data.json").toString());
+    let data = JSON.parse(readFileSync("data/data.json").toString());
+    let sdk_data = JSON.parse(readFileSync("data/data_sdk.json").toString());
+    data.sdkclasses.data.generated.data = sdk_data
+    writeFileSync("data/data.json", JSON.stringify(data, null, 4))
+
+    return data;
 }
 
 const FetchTemplates = () => {

@@ -36,6 +36,21 @@
                 "params": {},
                 "additional": {}
             },
+            "getpluginpath": {
+                "title": "GetPluginPath",
+                "description": "Returns the path of a plugin.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "GetPluginPath"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "plugin_name": "string"
+                },
+                "additional": {}
+            },
             "createtexttable": {
                 "title": "CreateTextTable",
                 "description": "Returns a string table generated from provided arguments.",
@@ -373,11 +388,11 @@
                         "additional": {}
                     },
                     "setboolean": {
-                        "title": "Setboolean",
+                        "title": "SetBool",
                         "template": "function-syntax",
                         "description": "Set the boolean value to a key for a game event.",
                         "variable": {
-                            "lua": "event:Setboolean"
+                            "lua": "event:SetBool"
                         },
                         "return": {
                             "lua": "void"
@@ -453,11 +468,11 @@
                         "additional": {}
                     },
                     "getboolean": {
-                        "title": "Getboolean",
+                        "title": "GetBool",
                         "template": "function-syntax",
                         "description": "Returns the boolean value of a key from a game event.",
                         "variable": {
-                            "lua": "event:Getboolean"
+                            "lua": "event:GetBool"
                         },
                         "return": {
                             "lua": "boolean"
@@ -7181,6 +7196,17 @@
                             }
                         },
                         "functions": {
+                            "EmitSound": {
+                                "return": {
+                                    "lua": "void"
+                                },
+                                "params": {
+                                    "sound_name": "string",
+                                    "pitch": "number",
+                                    "volume": "number",
+                                    "delay": "number"
+                                }
+                            },
                             "EHandle": {
                                 "return": {
                                     "lua": "CBaseEntity"
@@ -16082,6 +16108,12 @@
                             }
                         },
                         "functions": {
+                            "EntityIndex": {
+                                "return": {
+                                    "lua": "number"
+                                },
+                                "params": {}
+                            },
                             "ToPtr": {
                                 "return": {
                                     "lua": "string"

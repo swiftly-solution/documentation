@@ -466,6 +466,11 @@ Read: cbaseentity.Parent
 Write: cbaseentity.Parent = value
 ```
 # Functions
+## EmitSound
+```lua
+@returns void
+cbaseentity:EmitSound(sound_name --[[ string ]], pitch --[[ number ]], volume --[[ number ]], delay --[[ number ]])
+```
 ## EHandle
 ```lua
 @returns CBaseEntity

@@ -1,12 +1,11 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { cut } from "nodejs-jieba";
+import { hopeTheme } from "vuepress-theme-hope"; import { searchProPlugin } from "vuepress-plugin-search-pro"; import { cut } from "nodejs-jieba";
+
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://rewrite.swiftlycs2.net",
+  hostname: "https://swiftlycs2.net",
 
   iconAssets: "fontawesome-with-brands",
 

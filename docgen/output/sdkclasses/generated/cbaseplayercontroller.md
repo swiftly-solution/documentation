@@ -170,6 +170,11 @@ Read: cbaseplayercontroller.Parent
 Write: cbaseplayercontroller.Parent = value
 ```
 # Functions
+## EntityIndex
+```lua
+@returns number
+cbaseplayercontroller:EntityIndex()
+```
 ## ToPtr
 ```lua
 @returns string
