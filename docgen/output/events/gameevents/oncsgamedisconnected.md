@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsGameDisconnected
-This event is triggered when cs_game_disconnected is triggered
+This event is triggered when cs_game_disconnected is triggered.
 ::: tabs
 @tab Lua
 ```lua

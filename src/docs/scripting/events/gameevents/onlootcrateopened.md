@@ -7,7 +7,7 @@ category:
 ---
 
 # OnLootCrateOpened
-This event is triggered when loot_crate_opened is triggered
+This event is triggered when loot_crate_opened is triggered.
 ::: tabs
 @tab Lua
 ```lua

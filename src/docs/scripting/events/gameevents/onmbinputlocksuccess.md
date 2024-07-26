@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMbInputLockSuccess
-This event is triggered when mb_input_lock_success is triggered
+This event is triggered when mb_input_lock_success is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnFlashbangDetonate
-This event is triggered when flashbang_detonate is triggered
+This event is triggered when flashbang_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua

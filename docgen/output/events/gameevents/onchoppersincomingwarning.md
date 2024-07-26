@@ -7,7 +7,7 @@ category:
 ---
 
 # OnChoppersIncomingWarning
-This event is triggered when choppers_incoming_warning is triggered
+This event is triggered when choppers_incoming_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua

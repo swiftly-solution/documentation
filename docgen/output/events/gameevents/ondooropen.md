@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDoorOpen
-This event is triggered when door_open is triggered
+This event is triggered when door_open is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -21,4 +21,5 @@ end)
 :::
 |     Key    | Data Type |
 | :--------: | :-------: |
+|  `userid`  |   `int`   |
 | `entindex` |   `int`   |

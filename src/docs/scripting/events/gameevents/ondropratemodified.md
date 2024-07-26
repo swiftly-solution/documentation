@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDropRateModified
-This event is triggered when drop_rate_modified is triggered
+This event is triggered when drop_rate_modified is triggered.
 ::: tabs
 @tab Lua
 ```lua

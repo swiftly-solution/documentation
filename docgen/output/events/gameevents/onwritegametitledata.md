@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWriteGameTitledata
-This event is triggered when write user titledata in profile
+This event is triggered when write_game_titledata is triggered.
 ::: tabs
 @tab Lua
 ```lua

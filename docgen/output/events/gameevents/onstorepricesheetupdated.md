@@ -7,7 +7,7 @@ category:
 ---
 
 # OnStorePricesheetUpdated
-This event is triggered when store_pricesheet_updated is triggered
+This event is triggered when store_pricesheet_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua

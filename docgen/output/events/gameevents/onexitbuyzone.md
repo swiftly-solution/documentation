@@ -7,7 +7,7 @@ category:
 ---
 
 # OnExitBuyzone
-This event is triggered when exit_buyzone is triggered
+This event is triggered when exit_buyzone is triggered.
 ::: tabs
 @tab Lua
 ```lua

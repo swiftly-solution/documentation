@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemPickup
-This event is triggered when item_pickup is triggered
+This event is triggered when item_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua

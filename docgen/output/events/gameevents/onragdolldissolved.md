@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRagdollDissolved
-This event is triggered when ragdoll_dissolved is triggered
+This event is triggered when ragdoll_dissolved is triggered.
 ::: tabs
 @tab Lua
 ```lua

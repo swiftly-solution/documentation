@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundMvp
-This event is triggered when round_mvp is triggered
+This event is triggered when round_mvp is triggered.
 ::: tabs
 @tab Lua
 ```lua

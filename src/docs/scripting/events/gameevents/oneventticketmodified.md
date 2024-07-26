@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEventTicketModified
-This event is triggered when event_ticket_modified is triggered
+This event is triggered when event_ticket_modified is triggered.
 ::: tabs
 @tab Lua
 ```lua

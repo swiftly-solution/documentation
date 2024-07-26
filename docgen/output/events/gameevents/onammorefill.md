@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAmmoRefill
-This event is triggered when ammo_refill is triggered
+This event is triggered when ammo_refill is triggered.
 ::: tabs
 @tab Lua
 ```lua

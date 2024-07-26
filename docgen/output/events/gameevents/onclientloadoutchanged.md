@@ -7,7 +7,7 @@ category:
 ---
 
 # OnClientLoadoutChanged
-This event is triggered when client_loadout_changed is triggered
+This event is triggered when client_loadout_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

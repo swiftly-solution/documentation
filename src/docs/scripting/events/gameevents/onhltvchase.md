@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvChase
-This event is triggered when shot of a single entity
+This event is triggered when hltv_chase is triggered.
 ::: tabs
 @tab Lua
 ```lua

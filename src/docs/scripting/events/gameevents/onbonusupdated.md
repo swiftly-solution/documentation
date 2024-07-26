@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBonusUpdated
-This event is triggered when bonus_updated is triggered
+This event is triggered when bonus_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua

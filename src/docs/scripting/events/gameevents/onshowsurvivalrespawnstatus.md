@@ -7,7 +7,7 @@ category:
 ---
 
 # OnShowSurvivalRespawnStatus
-This event is triggered when show_survival_respawn_status is triggered
+This event is triggered when show_survival_respawn_status is triggered.
 ::: tabs
 @tab Lua
 ```lua

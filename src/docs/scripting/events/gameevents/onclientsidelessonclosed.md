@@ -7,7 +7,7 @@ category:
 ---
 
 # OnClientsideLessonClosed
-This event is triggered when clientside_lesson_closed is triggered
+This event is triggered when clientside_lesson_closed is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnStartHalftime
-This event is triggered when start_halftime is triggered
+This event is triggered when start_halftime is triggered.
 ::: tabs
 @tab Lua
 ```lua

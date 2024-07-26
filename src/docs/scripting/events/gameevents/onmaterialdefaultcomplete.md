@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMaterialDefaultComplete
-This event is triggered when material_default_complete is triggered
+This event is triggered when material_default_complete is triggered.
 ::: tabs
 @tab Lua
 ```lua

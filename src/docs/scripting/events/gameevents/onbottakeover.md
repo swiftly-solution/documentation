@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBotTakeover
-This event is triggered when bot_takeover is triggered
+This event is triggered when bot_takeover is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -23,3 +23,6 @@ end)
 | :------: | :-------: |
 | `userid` |   `int`   |
 |  `botid` |   `int`   |
+|    `p`   |  `float`  |
+|    `y`   |  `float`  |
+|    `r`   |  `float`  |

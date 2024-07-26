@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSurvivalParadropSpawn
-This event is triggered when survival_paradrop_spawn is triggered
+This event is triggered when survival_paradrop_spawn is triggered.
 ::: tabs
 @tab Lua
 ```lua

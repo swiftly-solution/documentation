@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAmmoPickup
-This event is triggered when ammo_pickup is triggered
+This event is triggered when ammo_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua

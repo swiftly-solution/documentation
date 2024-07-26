@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsPrevNextSpectator
-This event is triggered when cs_prev_next_spectator is triggered
+This event is triggered when cs_prev_next_spectator is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvFixed
-This event is triggered when show from fixed view
+This event is triggered when hltv_fixed is triggered.
 ::: tabs
 @tab Lua
 ```lua

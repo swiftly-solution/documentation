@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundEndUploadStats
-This event is triggered when round_end_upload_stats is triggered
+This event is triggered when round_end_upload_stats is triggered.
 ::: tabs
 @tab Lua
 ```lua

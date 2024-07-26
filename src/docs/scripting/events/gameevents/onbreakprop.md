@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBreakProp
-This event is triggered when break_prop is triggered
+This event is triggered when break_prop is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,7 +19,10 @@ end)
 ```
 
 :::
-|     Key    | Data Type |
-| :--------: | :-------: |
-| `entindex` |   `int`   |
-|  `userid`  |   `int`   |
+|        Key       | Data Type |
+| :--------------: | :-------: |
+|    `entindex`    |   `int`   |
+|     `userid`     |   `int`   |
+|   `player_held`  | `boolean` |
+|  `player_thrown` | `boolean` |
+| `player_dropped` | `boolean` |

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBeginNewMatch
-This event is triggered when Fired when a match ends or is restarted
+This event is triggered when begin_new_match is triggered.
 ::: tabs
 @tab Lua
 ```lua

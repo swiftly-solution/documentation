@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameuiHidden
-This event is triggered when gameui_hidden is triggered
+This event is triggered when gameui_hidden is triggered.
 ::: tabs
 @tab Lua
 ```lua

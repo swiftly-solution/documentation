@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGcConnected
-This event is triggered when gc_connected is triggered
+This event is triggered when gc_connected is triggered.
 ::: tabs
 @tab Lua
 ```lua

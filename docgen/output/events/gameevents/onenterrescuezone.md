@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEnterRescueZone
-This event is triggered when enter_rescue_zone is triggered
+This event is triggered when enter_rescue_zone is triggered.
 ::: tabs
 @tab Lua
 ```lua

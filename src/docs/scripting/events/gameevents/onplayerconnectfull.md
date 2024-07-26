@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerConnectFull
-This event is triggered when player has sent final message in the connection sequence
+This event is triggered when player_connect_full is triggered.
 ::: tabs
 @tab Lua
 ```lua

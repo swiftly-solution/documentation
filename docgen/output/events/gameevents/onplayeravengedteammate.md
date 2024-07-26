@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerAvengedTeammate
-This event is triggered when player_avenged_teammate is triggered
+This event is triggered when player_avenged_teammate is triggered.
 ::: tabs
 @tab Lua
 ```lua

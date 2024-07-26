@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSetInstructorGroupEnabled
-This event is triggered when set_instructor_group_enabled is triggered
+This event is triggered when set_instructor_group_enabled is triggered.
 ::: tabs
 @tab Lua
 ```lua

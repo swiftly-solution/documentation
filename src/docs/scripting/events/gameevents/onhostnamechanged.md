@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHostnameChanged
-This event is triggered when hostname_changed is triggered
+This event is triggered when hostname_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

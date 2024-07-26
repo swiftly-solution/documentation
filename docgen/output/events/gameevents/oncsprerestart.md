@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsPreRestart
-This event is triggered when cs_pre_restart is triggered
+This event is triggered when cs_pre_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua

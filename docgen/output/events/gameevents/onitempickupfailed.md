@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemPickupFailed
-This event is triggered when item_pickup_failed is triggered
+This event is triggered when item_pickup_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua

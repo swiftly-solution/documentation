@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameNewmap
-This event is triggered when send when new map is completely loaded
+This event is triggered when game_newmap is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,7 @@ end)
 ```
 
 :::
-|    Key    | Data Type |
-| :-------: | :-------: |
-| `mapname` |  `string` |
+|      Key     | Data Type |
+| :----------: | :-------: |
+|   `mapname`  |  `string` |
+| `transition` | `boolean` |

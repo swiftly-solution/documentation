@@ -7,7 +7,7 @@ category:
 ---
 
 # OnParachutePickup
-This event is triggered when parachute_pickup is triggered
+This event is triggered when parachute_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua

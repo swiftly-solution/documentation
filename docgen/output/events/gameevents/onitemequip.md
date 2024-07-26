@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemEquip
-This event is triggered when item_equip is triggered
+This event is triggered when item_equip is triggered.
 ::: tabs
 @tab Lua
 ```lua

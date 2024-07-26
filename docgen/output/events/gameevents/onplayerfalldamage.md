@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerFalldamage
-This event is triggered when player_falldamage is triggered
+This event is triggered when player_falldamage is triggered.
 ::: tabs
 @tab Lua
 ```lua

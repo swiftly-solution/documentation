@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerStatsUpdated
-This event is triggered when player_stats_updated is triggered
+This event is triggered when player_stats_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua

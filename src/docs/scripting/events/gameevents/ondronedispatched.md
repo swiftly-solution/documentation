@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDroneDispatched
-This event is triggered when drone_dispatched is triggered
+This event is triggered when drone_dispatched is triggered.
 ::: tabs
 @tab Lua
 ```lua

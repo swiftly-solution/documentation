@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBuytimeEnded
-This event is triggered when buytime_ended is triggered
+This event is triggered when buytime_ended is triggered.
 ::: tabs
 @tab Lua
 ```lua

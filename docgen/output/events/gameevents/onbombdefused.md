@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombDefused
-This event is triggered when bomb_defused is triggered
+This event is triggered when bomb_defused is triggered.
 ::: tabs
 @tab Lua
 ```lua

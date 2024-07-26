@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEndmatchCmmStartRevealItems
-This event is triggered when endmatch_cmm_start_reveal_items is triggered
+This event is triggered when endmatch_cmm_start_reveal_items is triggered.
 ::: tabs
 @tab Lua
 ```lua

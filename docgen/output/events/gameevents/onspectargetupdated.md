@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSpecTargetUpdated
-This event is triggered when spec_target_updated is triggered
+This event is triggered when spec_target_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -22,4 +22,3 @@ end)
 |    Key   | Data Type |
 | :------: | :-------: |
 | `userid` |   `int`   |
-| `target` |   `int`   |

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerJump
-This event is triggered when player_jump is triggered
+This event is triggered when player_jump is triggered.
 ::: tabs
 @tab Lua
 ```lua

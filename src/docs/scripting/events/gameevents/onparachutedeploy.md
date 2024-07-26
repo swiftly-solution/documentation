@@ -7,7 +7,7 @@ category:
 ---
 
 # OnParachuteDeploy
-This event is triggered when parachute_deploy is triggered
+This event is triggered when parachute_deploy is triggered.
 ::: tabs
 @tab Lua
 ```lua

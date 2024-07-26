@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemSchemaInitialized
-This event is triggered when item_schema_initialized is triggered
+This event is triggered when item_schema_initialized is triggered.
 ::: tabs
 @tab Lua
 ```lua

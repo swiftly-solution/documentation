@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerFullUpdate
-This event is triggered when player_full_update is triggered
+This event is triggered when player_full_update is triggered.
 ::: tabs
 @tab Lua
 ```lua

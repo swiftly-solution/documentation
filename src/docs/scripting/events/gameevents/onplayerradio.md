@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerRadio
-This event is triggered when player_radio is triggered
+This event is triggered when player_radio is triggered.
 ::: tabs
 @tab Lua
 ```lua

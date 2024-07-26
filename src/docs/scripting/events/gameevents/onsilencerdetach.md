@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSilencerDetach
-This event is triggered when silencer_detach is triggered
+This event is triggered when silencer_detach is triggered.
 ::: tabs
 @tab Lua
 ```lua

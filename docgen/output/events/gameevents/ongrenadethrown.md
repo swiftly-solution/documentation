@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGrenadeThrown
-This event is triggered when grenade_thrown is triggered
+This event is triggered when grenade_thrown is triggered.
 ::: tabs
 @tab Lua
 ```lua

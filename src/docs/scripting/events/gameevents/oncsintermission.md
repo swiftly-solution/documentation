@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsIntermission
-This event is triggered when cs_intermission is triggered
+This event is triggered when cs_intermission is triggered.
 ::: tabs
 @tab Lua
 ```lua

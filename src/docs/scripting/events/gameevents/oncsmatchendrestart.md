@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsMatchEndRestart
-This event is triggered when cs_match_end_restart is triggered
+This event is triggered when cs_match_end_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua

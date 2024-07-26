@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEndmatchMapvoteSelectingMap
-This event is triggered when endmatch_mapvote_selecting_map is triggered
+This event is triggered when endmatch_mapvote_selecting_map is triggered.
 ::: tabs
 @tab Lua
 ```lua

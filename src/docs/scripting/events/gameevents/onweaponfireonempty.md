@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponFireOnEmpty
-This event is triggered when weapon_fire_on_empty is triggered
+This event is triggered when weapon_fire_on_empty is triggered.
 ::: tabs
 @tab Lua
 ```lua

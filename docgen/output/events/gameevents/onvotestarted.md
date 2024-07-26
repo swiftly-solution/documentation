@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteStarted
-This event is triggered when vote_started is triggered
+This event is triggered when vote_started is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -23,5 +23,6 @@ end)
 | :---------: | :-------: |
 |   `issue`   |  `string` |
 |   `param1`  |  `string` |
+|  `votedata` |  `string` |
 |    `team`   |   `int`   |
 | `initiator` |   `int`   |

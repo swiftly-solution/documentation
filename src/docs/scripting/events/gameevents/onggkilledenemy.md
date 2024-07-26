@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGgKilledEnemy
-This event is triggered when gg_killed_enemy is triggered
+This event is triggered when gg_killed_enemy is triggered.
 ::: tabs
 @tab Lua
 ```lua

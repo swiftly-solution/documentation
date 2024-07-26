@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvMessage
-This event is triggered when a HLTV message send by moderators
+This event is triggered when hltv_message is triggered.
 ::: tabs
 @tab Lua
 ```lua

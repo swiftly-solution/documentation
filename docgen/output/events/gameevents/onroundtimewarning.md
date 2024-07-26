@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundTimeWarning
-This event is triggered when round_time_warning is triggered
+This event is triggered when round_time_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua

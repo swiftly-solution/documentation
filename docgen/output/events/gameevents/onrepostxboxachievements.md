@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRepostXboxAchievements
-This event is triggered when repost_xbox_achievements is triggered
+This event is triggered when repost_xbox_achievements is triggered.
 ::: tabs
 @tab Lua
 ```lua

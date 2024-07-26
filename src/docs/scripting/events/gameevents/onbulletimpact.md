@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBulletImpact
-This event is triggered when bullet_impact is triggered
+This event is triggered when bullet_impact is triggered.
 ::: tabs
 @tab Lua
 ```lua

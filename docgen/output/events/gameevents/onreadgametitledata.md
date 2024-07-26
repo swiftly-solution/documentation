@@ -7,7 +7,7 @@ category:
 ---
 
 # OnReadGameTitledata
-This event is triggered when read user titledata from profile
+This event is triggered when read_game_titledata is triggered.
 ::: tabs
 @tab Lua
 ```lua

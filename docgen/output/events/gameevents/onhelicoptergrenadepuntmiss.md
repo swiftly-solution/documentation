@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHelicopterGrenadePuntMiss
-This event is triggered when helicopter_grenade_punt_miss is triggered
+This event is triggered when helicopter_grenade_punt_miss is triggered.
 ::: tabs
 @tab Lua
 ```lua

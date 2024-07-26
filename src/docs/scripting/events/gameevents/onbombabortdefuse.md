@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombAbortdefuse
-This event is triggered when bomb_abortdefuse is triggered
+This event is triggered when bomb_abortdefuse is triggered.
 ::: tabs
 @tab Lua
 ```lua

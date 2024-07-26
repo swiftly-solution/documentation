@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundAnnounceMatchPoint
-This event is triggered when round_announce_match_point is triggered
+This event is triggered when round_announce_match_point is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundPoststart
-This event is triggered when sent after all other round restart actions
+This event is triggered when round_poststart is triggered.
 ::: tabs
 @tab Lua
 ```lua

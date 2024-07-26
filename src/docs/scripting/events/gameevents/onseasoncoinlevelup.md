@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSeasoncoinLevelup
-This event is triggered when seasoncoin_levelup is triggered
+This event is triggered when seasoncoin_levelup is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponReload
-This event is triggered when weapon_reload is triggered
+This event is triggered when weapon_reload is triggered.
 ::: tabs
 @tab Lua
 ```lua

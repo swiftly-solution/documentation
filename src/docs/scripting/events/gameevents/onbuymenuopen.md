@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBuymenuOpen
-This event is triggered when buymenu_open is triggered
+This event is triggered when buymenu_open is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,5 @@ end)
 ```
 
 :::
-|    Key   | Data Type |
-| :------: | :-------: |
-| `userid` |   `int`   |
+| Key | Data Type |
+| :-: | :-------: |

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAchievementInfoLoaded
-This event is triggered when achievement_info_loaded is triggered
+This event is triggered when achievement_info_loaded is triggered.
 ::: tabs
 @tab Lua
 ```lua

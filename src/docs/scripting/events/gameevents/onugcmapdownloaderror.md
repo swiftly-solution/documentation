@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUgcMapDownloadError
-This event is triggered when ugc_map_download_error is triggered
+This event is triggered when ugc_map_download_error is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,7 @@ end)
 ```
 
 :::
-|      Key     | Data Type |
-| :----------: | :-------: |
-| `error_code` |   `int`   |
+|         Key         | Data Type |
+| :-----------------: | :-------: |
+| `published_file_id` |  `uint64` |
+|     `error_code`    |   `int`   |

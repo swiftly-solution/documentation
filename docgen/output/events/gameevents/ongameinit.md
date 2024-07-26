@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameInit
-This event is triggered when sent when a new game is started
+This event is triggered when game_init is triggered.
 ::: tabs
 @tab Lua
 ```lua

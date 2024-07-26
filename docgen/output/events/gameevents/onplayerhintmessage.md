@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerHintmessage
-This event is triggered when player_hintmessage is triggered
+This event is triggered when player_hintmessage is triggered.
 ::: tabs
 @tab Lua
 ```lua

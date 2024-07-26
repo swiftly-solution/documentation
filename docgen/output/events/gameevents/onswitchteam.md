@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSwitchTeam
-This event is triggered when switch_team is triggered
+This event is triggered when switch_team is triggered.
 ::: tabs
 @tab Lua
 ```lua

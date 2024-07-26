@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMbInputLockCancel
-This event is triggered when mb_input_lock_cancel is triggered
+This event is triggered when mb_input_lock_cancel is triggered.
 ::: tabs
 @tab Lua
 ```lua

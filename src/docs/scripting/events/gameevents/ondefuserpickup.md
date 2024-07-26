@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDefuserPickup
-This event is triggered when defuser_pickup is triggered
+This event is triggered when defuser_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua

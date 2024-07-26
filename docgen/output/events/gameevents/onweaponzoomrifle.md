@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponZoomRifle
-This event is triggered when exists for the game instructor to let it know when the player zoomed in with a regular rifle. Different from the above weapon_zoom because we don't use this event to notify bots
+This event is triggered when weapon_zoom_rifle is triggered.
 ::: tabs
 @tab Lua
 ```lua

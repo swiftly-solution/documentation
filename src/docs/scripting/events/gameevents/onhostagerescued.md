@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHostageRescued
-This event is triggered when hostage_rescued is triggered
+This event is triggered when hostage_rescued is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerPingStop
-This event is triggered when player_ping_stop is triggered
+This event is triggered when player_ping_stop is triggered.
 ::: tabs
 @tab Lua
 ```lua

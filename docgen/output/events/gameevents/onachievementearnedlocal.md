@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAchievementEarnedLocal
-This event is triggered when achievement_earned_local is triggered
+This event is triggered when achievement_earned_local is triggered.
 ::: tabs
 @tab Lua
 ```lua

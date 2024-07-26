@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDoorBreak
-This event is triggered when door_break is triggered
+This event is triggered when door_break is triggered.
 ::: tabs
 @tab Lua
 ```lua

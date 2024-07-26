@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundAnnounceFinal
-This event is triggered when round_announce_final is triggered
+This event is triggered when round_announce_final is triggered.
 ::: tabs
 @tab Lua
 ```lua

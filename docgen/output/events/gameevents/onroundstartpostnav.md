@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundStartPostNav
-This event is triggered when round_start_post_nav is triggered
+This event is triggered when round_start_post_nav is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteEnded
-This event is triggered when vote_ended is triggered
+This event is triggered when vote_ended is triggered.
 ::: tabs
 @tab Lua
 ```lua

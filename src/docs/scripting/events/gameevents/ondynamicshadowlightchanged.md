@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDynamicShadowLightChanged
-This event is triggered when dynamic_shadow_light_changed is triggered
+This event is triggered when dynamic_shadow_light_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

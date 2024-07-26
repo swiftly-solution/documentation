@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameinstructorNodraw
-This event is triggered when gameinstructor_nodraw is triggered
+This event is triggered when gameinstructor_nodraw is triggered.
 ::: tabs
 @tab Lua
 ```lua

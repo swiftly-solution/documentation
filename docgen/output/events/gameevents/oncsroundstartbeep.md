@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsRoundStartBeep
-This event is triggered when cs_round_start_beep is triggered
+This event is triggered when cs_round_start_beep is triggered.
 ::: tabs
 @tab Lua
 ```lua

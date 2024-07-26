@@ -7,7 +7,7 @@ category:
 ---
 
 # OnNavBlocked
-This event is triggered when nav_blocked is triggered
+This event is triggered when nav_blocked is triggered.
 ::: tabs
 @tab Lua
 ```lua

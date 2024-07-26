@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamInfo
-This event is triggered when info about team
+This event is triggered when team_info is triggered.
 ::: tabs
 @tab Lua
 ```lua

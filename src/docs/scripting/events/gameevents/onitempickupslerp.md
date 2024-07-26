@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemPickupSlerp
-This event is triggered when item_pickup_slerp is triggered
+This event is triggered when item_pickup_slerp is triggered.
 ::: tabs
 @tab Lua
 ```lua

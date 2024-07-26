@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteCastYes
-This event is triggered when vote_cast_yes is triggered
+This event is triggered when vote_cast_yes is triggered.
 ::: tabs
 @tab Lua
 ```lua

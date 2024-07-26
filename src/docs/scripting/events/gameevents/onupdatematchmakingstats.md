@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUpdateMatchmakingStats
-This event is triggered when Fired when it's time to update matchmaking data at the end of a round.
+This event is triggered when update_matchmaking_stats is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerDecal
-This event is triggered when player_decal is triggered
+This event is triggered when player_decal is triggered.
 ::: tabs
 @tab Lua
 ```lua

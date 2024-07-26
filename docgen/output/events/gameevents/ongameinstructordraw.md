@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameinstructorDraw
-This event is triggered when gameinstructor_draw is triggered
+This event is triggered when gameinstructor_draw is triggered.
 ::: tabs
 @tab Lua
 ```lua

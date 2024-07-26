@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSmokegrenadeDetonate
-This event is triggered when smokegrenade_detonate is triggered
+This event is triggered when smokegrenade_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua

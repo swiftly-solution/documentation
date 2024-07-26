@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInfernoExpire
-This event is triggered when inferno_expire is triggered
+This event is triggered when inferno_expire is triggered.
 ::: tabs
 @tab Lua
 ```lua

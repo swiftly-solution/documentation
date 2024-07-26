@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDzItemInteraction
-This event is triggered when dz_item_interaction is triggered
+This event is triggered when dz_item_interaction is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnJointeamFailed
-This event is triggered when jointeam_failed is triggered
+This event is triggered when jointeam_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUgcMapUnsubscribed
-This event is triggered when ugc_map_unsubscribed is triggered
+This event is triggered when ugc_map_unsubscribed is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,5 +19,6 @@ end)
 ```
 
 :::
-| Key | Data Type |
-| :-: | :-------: |
+|         Key         | Data Type |
+| :-----------------: | :-------: |
+| `published_file_id` |  `uint64` |

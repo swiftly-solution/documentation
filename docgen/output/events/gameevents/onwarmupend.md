@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWarmupEnd
-This event is triggered when warmup_end is triggered
+This event is triggered when warmup_end is triggered.
 ::: tabs
 @tab Lua
 ```lua

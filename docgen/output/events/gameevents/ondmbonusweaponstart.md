@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDmBonusWeaponStart
-This event is triggered when dm_bonus_weapon_start is triggered
+This event is triggered when dm_bonus_weapon_start is triggered.
 ::: tabs
 @tab Lua
 ```lua

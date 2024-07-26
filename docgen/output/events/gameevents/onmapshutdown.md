@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMapShutdown
-This event is triggered when map_shutdown is triggered
+This event is triggered when map_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua

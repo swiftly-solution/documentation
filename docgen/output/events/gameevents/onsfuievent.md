@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSfuievent
-This event is triggered when sfuievent is triggered
+This event is triggered when sfuievent is triggered.
 ::: tabs
 @tab Lua
 ```lua

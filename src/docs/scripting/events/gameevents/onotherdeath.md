@@ -7,7 +7,7 @@ category:
 ---
 
 # OnOtherDeath
-This event is triggered when other_death is triggered
+This event is triggered when other_death is triggered.
 ::: tabs
 @tab Lua
 ```lua

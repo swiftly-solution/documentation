@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHideDeathpanel
-This event is triggered when hide_deathpanel is triggered
+This event is triggered when hide_deathpanel is triggered.
 ::: tabs
 @tab Lua
 ```lua

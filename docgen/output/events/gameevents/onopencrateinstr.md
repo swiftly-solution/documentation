@@ -7,7 +7,7 @@ category:
 ---
 
 # OnOpenCrateInstr
-This event is triggered when open_crate_instr is triggered
+This event is triggered when open_crate_instr is triggered.
 ::: tabs
 @tab Lua
 ```lua

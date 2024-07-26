@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDroneCargoDetached
-This event is triggered when drone_cargo_detached is triggered
+This event is triggered when drone_cargo_detached is triggered.
 ::: tabs
 @tab Lua
 ```lua

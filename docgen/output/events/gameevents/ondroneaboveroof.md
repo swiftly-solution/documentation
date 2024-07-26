@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDroneAboveRoof
-This event is triggered when drone_above_roof is triggered
+This event is triggered when drone_above_roof is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameEnd
-This event is triggered when a game ended
+This event is triggered when game_end is triggered.
 ::: tabs
 @tab Lua
 ```lua

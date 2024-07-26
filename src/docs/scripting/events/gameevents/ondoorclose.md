@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDoorClose
-This event is triggered when door_close is triggered
+This event is triggered when door_close is triggered.
 ::: tabs
 @tab Lua
 ```lua

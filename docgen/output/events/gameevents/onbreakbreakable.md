@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBreakBreakable
-This event is triggered when break_breakable is triggered
+This event is triggered when break_breakable is triggered.
 ::: tabs
 @tab Lua
 ```lua

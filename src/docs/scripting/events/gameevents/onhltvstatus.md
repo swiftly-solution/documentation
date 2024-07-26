@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvStatus
-This event is triggered when general HLTV status
+This event is triggered when hltv_status is triggered.
 ::: tabs
 @tab Lua
 ```lua

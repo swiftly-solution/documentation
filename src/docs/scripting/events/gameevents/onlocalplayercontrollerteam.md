@@ -7,7 +7,7 @@ category:
 ---
 
 # OnLocalPlayerControllerTeam
-This event is triggered when sent only on the client for the local player - happens only after the local players controller team variable has been updated
+This event is triggered when local_player_controller_team is triggered.
 ::: tabs
 @tab Lua
 ```lua

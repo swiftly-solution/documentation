@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDecoyFiring
-This event is triggered when decoy_firing is triggered
+This event is triggered when decoy_firing is triggered.
 ::: tabs
 @tab Lua
 ```lua

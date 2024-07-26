@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundEnd
-This event is triggered when round_end is triggered
+This event is triggered when round_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,11 +19,9 @@ end)
 ```
 
 :::
-|       Key      | Data Type |
-| :------------: | :-------: |
-|    `winner`    |   `int`   |
-|    `reason`    |   `int`   |
-|    `message`   |  `string` |
-|    `legacy`    |   `int`   |
-| `player_count` |   `int`   |
-|    `nomusic`   |   `int`   |
+|    Key    | Data Type |
+| :-------: | :-------: |
+|  `winner` |   `int`   |
+|  `reason` |   `int`   |
+| `message` |  `string` |
+|   `time`  |  `float`  |

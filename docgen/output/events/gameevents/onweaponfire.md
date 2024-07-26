@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponFire
-This event is triggered when weapon_fire is triggered
+This event is triggered when weapon_fire is triggered.
 ::: tabs
 @tab Lua
 ```lua

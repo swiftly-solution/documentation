@@ -7,7 +7,7 @@ category:
 ---
 
 # OnServerCvar
-This event is triggered when a server console var has changed
+This event is triggered when server_cvar is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamplayBroadcastAudio
-This event is triggered when emits a sound to everyone on a team
+This event is triggered when teamplay_broadcast_audio is triggered.
 ::: tabs
 @tab Lua
 ```lua

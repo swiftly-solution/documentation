@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvReplayStatus
-This event is triggered when hltv_replay_status is triggered
+This event is triggered when hltv_replay_status is triggered.
 ::: tabs
 @tab Lua
 ```lua

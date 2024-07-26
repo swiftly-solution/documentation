@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvReplay
-This event is triggered when hltv_replay is triggered
+This event is triggered when hltv_replay is triggered.
 ::: tabs
 @tab Lua
 ```lua

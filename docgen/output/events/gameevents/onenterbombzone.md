@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEnterBombzone
-This event is triggered when enter_bombzone is triggered
+This event is triggered when enter_bombzone is triggered.
 ::: tabs
 @tab Lua
 ```lua

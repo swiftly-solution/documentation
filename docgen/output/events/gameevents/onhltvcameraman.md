@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvCameraman
-This event is triggered when a spectator/player is a cameraman
+This event is triggered when hltv_cameraman is triggered.
 ::: tabs
 @tab Lua
 ```lua

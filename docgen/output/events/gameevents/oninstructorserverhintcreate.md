@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInstructorServerHintCreate
-This event is triggered when create a hint using data supplied entirely by the server/map. Intended for hints to smooth playtests before content is ready to make the hint unneccessary. NOT INTENDED AS A SHIPPABLE CRUTCH
+This event is triggered when instructor_server_hint_create is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -22,6 +22,7 @@ end)
 |             Key            | Data Type |
 | :------------------------: | :-------: |
 |          `userid`          |   `int`   |
+|       `hint_entindex`      |   `int`   |
 |         `hint_name`        |  `string` |
 |     `hint_replace_key`     |  `string` |
 |        `hint_target`       |   `int`   |
@@ -36,8 +37,14 @@ end)
 |        `hint_range`        |  `float`  |
 |        `hint_flags`        |   `int`   |
 |       `hint_binding`       |  `string` |
-|   `hint_gamepad_binding`   |  `string` |
 | `hint_allow_nodraw_target` | `boolean` |
 |     `hint_nooffscreen`     | `boolean` |
 |     `hint_forcecaption`    | `boolean` |
 |  `hint_local_player_only`  | `boolean` |
+|     `hint_start_sound`     |  `string` |
+|      `hint_layoutfile`     |  `string` |
+|    `hint_vr_panel_type`    |   `int`   |
+|   `hint_vr_height_offset`  |  `float`  |
+|     `hint_vr_offset_x`     |  `float`  |
+|     `hint_vr_offset_y`     |  `float`  |
+|     `hint_vr_offset_z`     |  `float`  |

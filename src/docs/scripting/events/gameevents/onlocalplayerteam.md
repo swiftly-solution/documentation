@@ -7,7 +7,7 @@ category:
 ---
 
 # OnLocalPlayerTeam
-This event is triggered when sent only on the client for the local player - happens only after a local players pawn team variable has been updated
+This event is triggered when local_player_team is triggered.
 ::: tabs
 @tab Lua
 ```lua

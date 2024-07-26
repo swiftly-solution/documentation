@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInspectWeapon
-This event is triggered when inspect_weapon is triggered
+This event is triggered when inspect_weapon is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombPickup
-This event is triggered when bomb_pickup is triggered
+This event is triggered when bomb_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteFailed
-This event is triggered when vote_failed is triggered
+This event is triggered when vote_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua

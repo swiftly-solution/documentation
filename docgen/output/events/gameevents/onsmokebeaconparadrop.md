@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSmokeBeaconParadrop
-This event is triggered when smoke_beacon_paradrop is triggered
+This event is triggered when smoke_beacon_paradrop is triggered.
 ::: tabs
 @tab Lua
 ```lua

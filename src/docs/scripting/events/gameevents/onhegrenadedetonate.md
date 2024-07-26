@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHegrenadeDetonate
-This event is triggered when hegrenade_detonate is triggered
+This event is triggered when hegrenade_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua

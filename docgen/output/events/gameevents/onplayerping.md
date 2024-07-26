@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerPing
-This event is triggered when player_ping is triggered
+This event is triggered when player_ping is triggered.
 ::: tabs
 @tab Lua
 ```lua

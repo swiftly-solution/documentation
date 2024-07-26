@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombDropped
-This event is triggered when bomb_dropped is triggered
+This event is triggered when bomb_dropped is triggered.
 ::: tabs
 @tab Lua
 ```lua

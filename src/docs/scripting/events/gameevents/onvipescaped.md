@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVipEscaped
-This event is triggered when vip_escaped is triggered
+This event is triggered when vip_escaped is triggered.
 ::: tabs
 @tab Lua
 ```lua

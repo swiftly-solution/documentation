@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvRankEntity
-This event is triggered when an entity ranking
+This event is triggered when hltv_rank_entity is triggered.
 ::: tabs
 @tab Lua
 ```lua

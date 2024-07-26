@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEnterBuyzone
-This event is triggered when enter_buyzone is triggered
+This event is triggered when enter_buyzone is triggered.
 ::: tabs
 @tab Lua
 ```lua

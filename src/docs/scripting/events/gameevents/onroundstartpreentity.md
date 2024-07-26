@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundStartPreEntity
-This event is triggered when round_start_pre_entity is triggered
+This event is triggered when round_start_pre_entity is triggered.
 ::: tabs
 @tab Lua
 ```lua

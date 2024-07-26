@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombBegindefuse
-This event is triggered when bomb_begindefuse is triggered
+This event is triggered when bomb_begindefuse is triggered.
 ::: tabs
 @tab Lua
 ```lua

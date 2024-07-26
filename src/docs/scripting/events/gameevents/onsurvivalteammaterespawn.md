@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSurvivalTeammateRespawn
-This event is triggered when survival_teammate_respawn is triggered
+This event is triggered when survival_teammate_respawn is triggered.
 ::: tabs
 @tab Lua
 ```lua

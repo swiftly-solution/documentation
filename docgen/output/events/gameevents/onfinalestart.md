@@ -7,7 +7,7 @@ category:
 ---
 
 # OnFinaleStart
-This event is triggered when finale_start is triggered
+This event is triggered when finale_start is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnFirstbombsIncomingWarning
-This event is triggered when firstbombs_incoming_warning is triggered
+This event is triggered when firstbombs_incoming_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua

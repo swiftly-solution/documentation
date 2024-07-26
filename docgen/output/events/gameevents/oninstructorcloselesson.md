@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInstructorCloseLesson
-This event is triggered when instructor_close_lesson is triggered
+This event is triggered when instructor_close_lesson is triggered.
 ::: tabs
 @tab Lua
 ```lua

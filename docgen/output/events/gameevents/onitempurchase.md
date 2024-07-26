@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemPurchase
-This event is triggered when item_purchase is triggered
+This event is triggered when item_purchase is triggered.
 ::: tabs
 @tab Lua
 ```lua

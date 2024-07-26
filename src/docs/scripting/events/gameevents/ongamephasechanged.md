@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGamePhaseChanged
-This event is triggered when game_phase_changed is triggered
+This event is triggered when game_phase_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

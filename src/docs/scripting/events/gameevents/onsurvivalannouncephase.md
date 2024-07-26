@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSurvivalAnnouncePhase
-This event is triggered when survival_announce_phase is triggered
+This event is triggered when survival_announce_phase is triggered.
 ::: tabs
 @tab Lua
 ```lua

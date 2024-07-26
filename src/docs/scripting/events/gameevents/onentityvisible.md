@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEntityVisible
-This event is triggered when entity_visible is triggered
+This event is triggered when entity_visible is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerBlind
-This event is triggered when player_blind is triggered
+This event is triggered when player_blind is triggered.
 ::: tabs
 @tab Lua
 ```lua

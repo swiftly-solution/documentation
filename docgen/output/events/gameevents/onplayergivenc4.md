@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerGivenC4
-This event is triggered when player_given_c4 is triggered
+This event is triggered when player_given_c4 is triggered.
 ::: tabs
 @tab Lua
 ```lua

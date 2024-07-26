@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAddBulletHitMarker
-This event is triggered when add_bullet_hit_marker is triggered
+This event is triggered when add_bullet_hit_marker is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDronegunAttack
-This event is triggered when dronegun_attack is triggered
+This event is triggered when dronegun_attack is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnShowDeathpanel
-This event is triggered when show_deathpanel is triggered
+This event is triggered when show_deathpanel is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -22,7 +22,6 @@ end)
 |         Key         | Data Type |
 | :-----------------: | :-------: |
 |       `victim`      |   `int`   |
-|       `killer`      |   `int`   |
 | `killer_controller` |   `int`   |
 |     `hits_taken`    |   `int`   |
 |    `damage_taken`   |   `int`   |

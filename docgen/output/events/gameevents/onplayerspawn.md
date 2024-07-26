@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerSpawn
-This event is triggered when player spawned in game
+This event is triggered when player_spawn is triggered.
 ::: tabs
 @tab Lua
 ```lua

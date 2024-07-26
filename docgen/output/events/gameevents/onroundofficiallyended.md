@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundOfficiallyEnded
-This event is triggered when round_officially_ended is triggered
+This event is triggered when round_officially_ended is triggered.
 ::: tabs
 @tab Lua
 ```lua

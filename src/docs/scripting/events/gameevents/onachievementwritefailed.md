@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAchievementWriteFailed
-This event is triggered when Used for a notification message when an achievement fails to write
+This event is triggered when achievement_write_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua

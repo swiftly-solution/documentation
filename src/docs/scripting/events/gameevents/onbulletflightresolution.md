@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBulletFlightResolution
-This event is triggered when bullet_flight_resolution is triggered
+This event is triggered when bullet_flight_resolution is triggered.
 ::: tabs
 @tab Lua
 ```lua

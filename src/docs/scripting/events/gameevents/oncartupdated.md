@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCartUpdated
-This event is triggered when cart_updated is triggered
+This event is triggered when cart_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua

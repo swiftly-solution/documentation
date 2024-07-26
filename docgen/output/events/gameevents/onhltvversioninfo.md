@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvVersioninfo
-This event is triggered when hltv_versioninfo is triggered
+This event is triggered when hltv_versioninfo is triggered.
 ::: tabs
 @tab Lua
 ```lua

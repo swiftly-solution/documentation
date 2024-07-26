@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDifficultyChanged
-This event is triggered when difficulty_changed is triggered
+This event is triggered when difficulty_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

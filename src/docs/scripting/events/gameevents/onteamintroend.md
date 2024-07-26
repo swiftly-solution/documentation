@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamIntroEnd
-This event is triggered when team_intro_end is triggered
+This event is triggered when team_intro_end is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSurvivalNoRespawnsWarning
-This event is triggered when survival_no_respawns_warning is triggered
+This event is triggered when survival_no_respawns_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua

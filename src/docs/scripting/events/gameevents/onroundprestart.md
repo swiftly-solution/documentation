@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundPrestart
-This event is triggered when sent before all other round restart actions
+This event is triggered when round_prestart is triggered.
 ::: tabs
 @tab Lua
 ```lua

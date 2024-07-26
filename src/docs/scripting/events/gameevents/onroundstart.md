@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundStart
-This event is triggered when round_start is triggered
+This event is triggered when round_start is triggered.
 ::: tabs
 @tab Lua
 ```lua

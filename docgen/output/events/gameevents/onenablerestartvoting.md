@@ -7,7 +7,7 @@ category:
 ---
 
 # OnEnableRestartVoting
-This event is triggered when enable_restart_voting is triggered
+This event is triggered when enable_restart_voting is triggered.
 ::: tabs
 @tab Lua
 ```lua

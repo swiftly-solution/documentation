@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDefuserDropped
-This event is triggered when defuser_dropped is triggered
+This event is triggered when defuser_dropped is triggered.
 ::: tabs
 @tab Lua
 ```lua

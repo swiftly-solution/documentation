@@ -7,7 +7,7 @@ category:
 ---
 
 # OnServerShutdown
-This event is triggered when server shut down
+This event is triggered when server_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua

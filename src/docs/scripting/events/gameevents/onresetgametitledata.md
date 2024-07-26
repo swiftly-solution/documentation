@@ -7,7 +7,7 @@ category:
 ---
 
 # OnResetGameTitledata
-This event is triggered when reset user titledata; do not automatically write profile
+This event is triggered when reset_game_titledata is triggered.
 ::: tabs
 @tab Lua
 ```lua

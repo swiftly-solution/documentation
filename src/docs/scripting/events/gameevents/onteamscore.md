@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamScore
-This event is triggered when team score changed
+This event is triggered when team_score is triggered.
 ::: tabs
 @tab Lua
 ```lua

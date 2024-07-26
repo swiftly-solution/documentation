@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerTeam
-This event is triggered when player change his team. You can receive this on the client before the local player has updated the team field locally
+This event is triggered when player_team is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -26,4 +26,5 @@ end)
 |   `oldteam`  |   `int`   |
 | `disconnect` | `boolean` |
 |   `silent`   | `boolean` |
+|    `name`    |  `string` |
 |    `isbot`   | `boolean` |

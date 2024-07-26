@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteChanged
-This event is triggered when vote_changed is triggered
+This event is triggered when vote_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -21,9 +21,6 @@ end)
 :::
 |        Key       | Data Type |
 | :--------------: | :-------: |
-|  `vote_option1`  |   `int`   |
-|  `vote_option2`  |   `int`   |
-|  `vote_option3`  |   `int`   |
-|  `vote_option4`  |   `int`   |
-|  `vote_option5`  |   `int`   |
+|    `yesVotes`    |   `int`   |
+|     `noVotes`    |   `int`   |
 | `potentialVotes` |   `int`   |

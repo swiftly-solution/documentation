@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInstructorServerHintStop
-This event is triggered when destroys a server/map created hint
+This event is triggered when instructor_server_hint_stop is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,7 @@ end)
 ```
 
 :::
-|     Key     | Data Type |
-| :---------: | :-------: |
-| `hint_name` |  `string` |
+|       Key       | Data Type |
+| :-------------: | :-------: |
+|   `hint_name`   |  `string` |
+| `hint_entindex` |   `int`   |

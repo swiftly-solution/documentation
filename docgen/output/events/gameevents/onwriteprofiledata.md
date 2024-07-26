@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWriteProfileData
-This event is triggered when write_profile_data is triggered
+This event is triggered when write_profile_data is triggered.
 ::: tabs
 @tab Lua
 ```lua

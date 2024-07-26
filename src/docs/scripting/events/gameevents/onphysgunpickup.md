@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPhysgunPickup
-This event is triggered when physgun_pickup is triggered
+This event is triggered when physgun_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,5 @@ end)
 ```
 
 :::
-|    Key   | Data Type |
-| :------: | :-------: |
-| `target` |   `int`   |
+| Key | Data Type |
+| :-: | :-------: |

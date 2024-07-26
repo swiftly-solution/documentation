@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerChangename
-This event is triggered when player_changename is triggered
+This event is triggered when player_changename is triggered.
 ::: tabs
 @tab Lua
 ```lua

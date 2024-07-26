@@ -7,7 +7,7 @@ category:
 ---
 
 # OnFlareIgniteNpc
-This event is triggered when flare_ignite_npc is triggered
+This event is triggered when flare_ignite_npc is triggered.
 ::: tabs
 @tab Lua
 ```lua

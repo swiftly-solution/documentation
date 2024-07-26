@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerDisconnect
-This event is triggered when a client was disconnected
+This event is triggered when player_disconnect is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -25,4 +25,5 @@ end)
 |   `reason`  |   `int`   |
 |    `name`   |  `string` |
 | `networkid` |  `string` |
+|    `xuid`   |  `uint64` |
 |  `PlayerID` |   `int`   |

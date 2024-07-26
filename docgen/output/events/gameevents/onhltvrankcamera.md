@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvRankCamera
-This event is triggered when a camera ranking
+This event is triggered when hltv_rank_camera is triggered.
 ::: tabs
 @tab Lua
 ```lua

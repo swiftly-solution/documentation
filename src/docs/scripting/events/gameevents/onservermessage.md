@@ -7,7 +7,7 @@ category:
 ---
 
 # OnServerMessage
-This event is triggered when a generic server message
+This event is triggered when server_message is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamplayRoundStart
-This event is triggered when round restart
+This event is triggered when teamplay_round_start is triggered.
 ::: tabs
 @tab Lua
 ```lua

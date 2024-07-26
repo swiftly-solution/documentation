@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGrenadeBounce
-This event is triggered when grenade_bounce is triggered
+This event is triggered when grenade_bounce is triggered.
 ::: tabs
 @tab Lua
 ```lua

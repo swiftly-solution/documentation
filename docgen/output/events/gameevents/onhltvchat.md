@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvChat
-This event is triggered when a HLTV chat msg sent by spectators
+This event is triggered when hltv_chat is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,6 +19,7 @@ end)
 ```
 
 :::
-|   Key  | Data Type |
-| :----: | :-------: |
-| `text` |  `string` |
+|    Key    | Data Type |
+| :-------: | :-------: |
+|   `text`  |  `string` |
+| `steamID` |  `uint64` |

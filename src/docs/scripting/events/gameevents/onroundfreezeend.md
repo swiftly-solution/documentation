@@ -7,7 +7,7 @@ category:
 ---
 
 # OnRoundFreezeEnd
-This event is triggered when round_freeze_end is triggered
+This event is triggered when round_freeze_end is triggered.
 ::: tabs
 @tab Lua
 ```lua

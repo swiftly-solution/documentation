@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBuymenuClose
-This event is triggered when buymenu_close is triggered
+This event is triggered when buymenu_close is triggered.
 ::: tabs
 @tab Lua
 ```lua

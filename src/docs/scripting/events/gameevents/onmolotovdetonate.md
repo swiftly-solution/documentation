@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMolotovDetonate
-This event is triggered when molotov_detonate is triggered
+This event is triggered when molotov_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua

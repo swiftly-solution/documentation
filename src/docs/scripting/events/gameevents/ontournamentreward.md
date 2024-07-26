@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTournamentReward
-This event is triggered when tournament_reward is triggered
+This event is triggered when tournament_reward is triggered.
 ::: tabs
 @tab Lua
 ```lua

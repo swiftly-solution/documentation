@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMapTransition
-This event is triggered when map_transition is triggered
+This event is triggered when map_transition is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUserDataDownloaded
-This event is triggered when fired when achievements/stats are downloaded from Steam or XBox Live
+This event is triggered when user_data_downloaded is triggered.
 ::: tabs
 @tab Lua
 ```lua

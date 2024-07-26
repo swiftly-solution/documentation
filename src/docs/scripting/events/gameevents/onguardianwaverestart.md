@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGuardianWaveRestart
-This event is triggered when guardian_wave_restart is triggered
+This event is triggered when guardian_wave_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua

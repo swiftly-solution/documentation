@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVotePassed
-This event is triggered when vote_passed is triggered
+This event is triggered when vote_passed is triggered.
 ::: tabs
 @tab Lua
 ```lua

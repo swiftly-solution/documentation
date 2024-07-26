@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvTitle
-This event is triggered when hltv_title is triggered
+This event is triggered when hltv_title is triggered.
 ::: tabs
 @tab Lua
 ```lua

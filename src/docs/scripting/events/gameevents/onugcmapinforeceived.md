@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUgcMapInfoReceived
-This event is triggered when ugc_map_info_received is triggered
+This event is triggered when ugc_map_info_received is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,5 +19,6 @@ end)
 ```
 
 :::
-| Key | Data Type |
-| :-: | :-------: |
+|         Key         | Data Type |
+| :-----------------: | :-------: |
+| `published_file_id` |  `uint64` |

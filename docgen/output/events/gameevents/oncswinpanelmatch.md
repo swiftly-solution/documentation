@@ -7,7 +7,7 @@ category:
 ---
 
 # OnCsWinPanelMatch
-This event is triggered when cs_win_panel_match is triggered
+This event is triggered when cs_win_panel_match is triggered.
 ::: tabs
 @tab Lua
 ```lua

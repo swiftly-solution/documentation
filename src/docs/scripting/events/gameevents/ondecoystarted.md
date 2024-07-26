@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDecoyStarted
-This event is triggered when decoy_started is triggered
+This event is triggered when decoy_started is triggered.
 ::: tabs
 @tab Lua
 ```lua

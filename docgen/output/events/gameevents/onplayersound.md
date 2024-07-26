@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerSound
-This event is triggered when player_sound is triggered
+This event is triggered when player_sound is triggered.
 ::: tabs
 @tab Lua
 ```lua

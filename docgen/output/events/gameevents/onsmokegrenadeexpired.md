@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSmokegrenadeExpired
-This event is triggered when smokegrenade_expired is triggered
+This event is triggered when smokegrenade_expired is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnNextlevelChanged
-This event is triggered when a game event, name may be 32 characters long
+This event is triggered when nextlevel_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

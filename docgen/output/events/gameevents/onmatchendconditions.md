@@ -7,7 +7,7 @@ category:
 ---
 
 # OnMatchEndConditions
-This event is triggered when match_end_conditions is triggered
+This event is triggered when match_end_conditions is triggered.
 ::: tabs
 @tab Lua
 ```lua

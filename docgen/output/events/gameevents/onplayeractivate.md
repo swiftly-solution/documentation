@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerActivate
-This event is triggered when player_activate is triggered
+This event is triggered when player_activate is triggered.
 ::: tabs
 @tab Lua
 ```lua

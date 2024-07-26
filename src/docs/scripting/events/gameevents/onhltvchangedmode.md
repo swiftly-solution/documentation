@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHltvChangedMode
-This event is triggered when hltv_changed_mode is triggered
+This event is triggered when hltv_changed_mode is triggered.
 ::: tabs
 @tab Lua
 ```lua

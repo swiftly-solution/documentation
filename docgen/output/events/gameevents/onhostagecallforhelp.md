@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHostageCallForHelp
-This event is triggered when hostage_call_for_help is triggered
+This event is triggered when hostage_call_for_help is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnGameMessage
-This event is triggered when a message send by game logic to everyone
+This event is triggered when game_message is triggered.
 ::: tabs
 @tab Lua
 ```lua

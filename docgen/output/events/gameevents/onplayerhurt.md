@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerHurt
-This event is triggered when player_hurt is triggered
+This event is triggered when player_hurt is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,13 +19,8 @@ end)
 ```
 
 :::
-|      Key     | Data Type |
-| :----------: | :-------: |
-|   `userid`   |   `int`   |
-|  `attacker`  |   `int`   |
-|   `health`   |   `int`   |
-|    `armor`   |   `int`   |
-|   `weapon`   |  `string` |
-| `dmg_health` |   `int`   |
-|  `dmg_armor` |   `int`   |
-|  `hitgroup`  |   `int`   |
+|     Key    | Data Type |
+| :--------: | :-------: |
+|  `userid`  |   `int`   |
+| `attacker` |   `int`   |
+|  `health`  |   `int`   |

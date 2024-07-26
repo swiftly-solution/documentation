@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerResetVote
-This event is triggered when player_reset_vote is triggered
+This event is triggered when player_reset_vote is triggered.
 ::: tabs
 @tab Lua
 ```lua

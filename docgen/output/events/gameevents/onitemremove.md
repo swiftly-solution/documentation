@@ -7,7 +7,7 @@ category:
 ---
 
 # OnItemRemove
-This event is triggered when item_remove is triggered
+This event is triggered when item_remove is triggered.
 ::: tabs
 @tab Lua
 ```lua

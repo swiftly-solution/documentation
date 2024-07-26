@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInstructorStartLesson
-This event is triggered when instructor_start_lesson is triggered
+This event is triggered when instructor_start_lesson is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnUgcFileDownloadFinished
-This event is triggered when ugc_file_download_finished is triggered
+This event is triggered when ugc_file_download_finished is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,5 +19,6 @@ end)
 ```
 
 :::
-| Key | Data Type |
-| :-: | :-------: |
+|     Key    | Data Type |
+| :--------: | :-------: |
+| `hcontent` |  `uint64` |

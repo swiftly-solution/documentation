@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInventoryUpdated
-This event is triggered when inventory_updated is triggered
+This event is triggered when inventory_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,5 +19,7 @@ end)
 ```
 
 :::
-| Key | Data Type |
-| :-: | :-------: |
+|    Key    | Data Type |
+| :-------: | :-------: |
+| `itemdef` |   `int`   |
+|  `itemid` |   `int`   |

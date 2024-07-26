@@ -7,7 +7,7 @@ category:
 ---
 
 # OnNavGenerate
-This event is triggered when nav_generate is triggered
+This event is triggered when nav_generate is triggered.
 ::: tabs
 @tab Lua
 ```lua

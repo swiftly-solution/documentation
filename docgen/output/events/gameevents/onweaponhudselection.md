@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponhudSelection
-This event is triggered when weaponhud_selection is triggered
+This event is triggered when weaponhud_selection is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnServerPreShutdown
-This event is triggered when server is about to be shut down
+This event is triggered when server_pre_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua

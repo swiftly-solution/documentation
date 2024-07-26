@@ -7,7 +7,7 @@ category:
 ---
 
 # OnDoorMoving
-This event is triggered when door_moving is triggered
+This event is triggered when door_moving is triggered.
 ::: tabs
 @tab Lua
 ```lua

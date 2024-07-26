@@ -7,7 +7,7 @@ category:
 ---
 
 # OnLocalPlayerPawnChanged
-This event is triggered when local_player_pawn_changed is triggered
+This event is triggered when local_player_pawn_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua

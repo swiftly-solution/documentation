@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerFootstep
-This event is triggered when player_footstep is triggered
+This event is triggered when player_footstep is triggered.
 ::: tabs
 @tab Lua
 ```lua

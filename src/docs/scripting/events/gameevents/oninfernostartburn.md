@@ -7,7 +7,7 @@ category:
 ---
 
 # OnInfernoStartburn
-This event is triggered when inferno_startburn is triggered
+This event is triggered when inferno_startburn is triggered.
 ::: tabs
 @tab Lua
 ```lua

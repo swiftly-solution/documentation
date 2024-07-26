@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerInfo
-This event is triggered when a player changed his name
+This event is triggered when player_info is triggered.
 ::: tabs
 @tab Lua
 ```lua
@@ -19,8 +19,9 @@ end)
 ```
 
 :::
-|    Key   | Data Type |
-| :------: | :-------: |
-|  `name`  |  `string` |
-| `userid` |   `int`   |
-|   `bot`  | `boolean` |
+|    Key    | Data Type |
+| :-------: | :-------: |
+|   `name`  |  `string` |
+|  `userid` |   `int`   |
+| `steamid` |  `uint64` |
+|   `bot`   | `boolean` |

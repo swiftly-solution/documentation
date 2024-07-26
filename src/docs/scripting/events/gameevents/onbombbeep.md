@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombBeep
-This event is triggered when bomb_beep is triggered
+This event is triggered when bomb_beep is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAddPlayerSonarIcon
-This event is triggered when add_player_sonar_icon is triggered
+This event is triggered when add_player_sonar_icon is triggered.
 ::: tabs
 @tab Lua
 ```lua

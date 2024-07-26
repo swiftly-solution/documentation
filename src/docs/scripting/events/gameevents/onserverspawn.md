@@ -7,7 +7,7 @@ category:
 ---
 
 # OnServerSpawn
-This event is triggered when send once a server starts
+This event is triggered when server_spawn is triggered.
 ::: tabs
 @tab Lua
 ```lua

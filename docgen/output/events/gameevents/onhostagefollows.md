@@ -7,7 +7,7 @@ category:
 ---
 
 # OnHostageFollows
-This event is triggered when hostage_follows is triggered
+This event is triggered when hostage_follows is triggered.
 ::: tabs
 @tab Lua
 ```lua

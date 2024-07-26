@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVoteOptions
-This event is triggered when vote_options is triggered
+This event is triggered when vote_options is triggered.
 ::: tabs
 @tab Lua
 ```lua

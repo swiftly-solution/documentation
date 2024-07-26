@@ -7,7 +7,7 @@ category:
 ---
 
 # OnStartVote
-This event is triggered when start_vote is triggered
+This event is triggered when start_vote is triggered.
 ::: tabs
 @tab Lua
 ```lua

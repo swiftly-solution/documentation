@@ -7,7 +7,7 @@ category:
 ---
 
 # OnPlayerShoot
-This event is triggered when player shoot his weapon
+This event is triggered when player_shoot is triggered.
 ::: tabs
 @tab Lua
 ```lua

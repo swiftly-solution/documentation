@@ -7,7 +7,7 @@ category:
 ---
 
 # OnBombAbortplant
-This event is triggered when bomb_abortplant is triggered
+This event is triggered when bomb_abortplant is triggered.
 ::: tabs
 @tab Lua
 ```lua

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnAnnouncePhaseEnd
-This event is triggered when announce_phase_end is triggered
+This event is triggered when announce_phase_end is triggered.
 ::: tabs
 @tab Lua
 ```lua

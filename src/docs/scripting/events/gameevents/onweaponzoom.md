@@ -7,7 +7,7 @@ category:
 ---
 
 # OnWeaponZoom
-This event is triggered when weapon_zoom is triggered
+This event is triggered when weapon_zoom is triggered.
 ::: tabs
 @tab Lua
 ```lua

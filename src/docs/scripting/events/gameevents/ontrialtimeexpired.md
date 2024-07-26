@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTrialTimeExpired
-This event is triggered when fired when a player runs out of time in trial mode
+This event is triggered when trial_time_expired is triggered.
 ::: tabs
 @tab Lua
 ```lua

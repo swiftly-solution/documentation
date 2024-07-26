@@ -7,7 +7,7 @@ category:
 ---
 
 # OnSilencerOff
-This event is triggered when silencer_off is triggered
+This event is triggered when silencer_off is triggered.
 ::: tabs
 @tab Lua
 ```lua

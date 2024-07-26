@@ -7,7 +7,7 @@ category:
 ---
 
 # OnVipKilled
-This event is triggered when vip_killed is triggered
+This event is triggered when vip_killed is triggered.
 ::: tabs
 @tab Lua
 ```lua

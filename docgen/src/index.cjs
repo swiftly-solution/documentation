@@ -10,6 +10,9 @@ const FetchData = () => {
     let gameevents_data = JSON.parse(readFileSync("data/data_gameevents.json").toString());
     data.events.data.gameevents.data = gameevents_data
 
+    let types_data = JSON.parse(readFileSync("data/data_types.json").toString());
+    data.types.data.generated.data = types_data
+
     writeFileSync("data/data.json", JSON.stringify(data, null, 4))
 
     return data;

@@ -7,7 +7,7 @@ category:
 ---
 
 # OnTeamchangePending
-This event is triggered when teamchange_pending is triggered
+This event is triggered when teamchange_pending is triggered.
 ::: tabs
 @tab Lua
 ```lua
