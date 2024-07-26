@@ -165,6 +165,7 @@ const GenerateClassSyntax = (data) => {
 
 const GenerateTypeData = (data) => {
     const langs = Object.keys(languagePrettyNames)
+    if (Object.keys(data.values).length == 0) return ""
 
     const tabs = []
     for (const lang of langs) {
@@ -195,8 +196,11 @@ const ProcessData = async (data, subfolder) => {
             if (!existsSync(`output/${subfolder}${key}/README.md`)) writeFileSync(`output/${subfolder}${key}/README.md`, `---\ntitle: ${data[key].title}\nicon: ${data[key].icon}\norder: ${data[key].order}\nindex: false\ncategory:\n  - Guide\n---\n\n<Catalog />`);
             ProcessData(data[key].data, `${subfolder}${key}/`)
         } else {
+            let processedData = ProcessTemplate(data[key])
+            if (processedData == "") continue;
+
             writeFileSync(`output/${subfolder}${key}.md`,
-                `---\ntitle: ${data[key].title}\nindex: true\norder: ${data[key].template == "getting-started" ? 1 : 2}\ncategory:\n  - Guide\n---\n\n# ${data[key].title}\n${ProcessTemplate(data[key])}`
+                `---\ntitle: ${data[key].title}\nindex: true\norder: ${data[key].template == "getting-started" ? 1 : 2}\ncategory:\n  - Guide\n---\n\n# ${data[key].title}\n${processedData}`
             )
             generatedFiles++;
         }

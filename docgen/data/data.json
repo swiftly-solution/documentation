@@ -83027,6 +83027,21 @@
                             "CT": "3"
                         }
                     },
+                    "hookhandle": {
+                        "title": "HookHandle",
+                        "template": "types-syntax",
+                        "values": {}
+                    },
+                    "timerhandle": {
+                        "title": "TimerHandle",
+                        "template": "types-syntax",
+                        "values": {}
+                    },
+                    "eventhandler": {
+                        "title": "EventHandler",
+                        "template": "types-syntax",
+                        "values": {}
+                    },
                     "eventresult": {
                         "title": "EventResult",
                         "template": "types-syntax",
