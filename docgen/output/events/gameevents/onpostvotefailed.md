@@ -1,0 +1,24 @@
+---
+title: OnPostVoteFailed
+index: true
+order: 2
+category:
+  - Guide
+---
+
+# OnPostVoteFailed
+This event is triggered after vote_failed is triggered.
+::: tabs
+@tab Lua
+```lua
+@event returns void
+AddEventHandler("OnPostVoteFailed", function(event --[[ Event ]])
+    --[[ ... ]]
+    return EventResult.Continue
+end)
+```
+
+:::
+|   Key  | Data Type |
+| :----: | :-------: |
+| `team` |   `int`   |
