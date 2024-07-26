@@ -3,8 +3,13 @@ const { markdownTable } = require("./markdowntable.cjs")
 
 const FetchData = () => {
     let data = JSON.parse(readFileSync("data/data.json").toString());
+
     let sdk_data = JSON.parse(readFileSync("data/data_sdk.json").toString());
     data.sdkclasses.data.generated.data = sdk_data
+
+    let gameevents_data = JSON.parse(readFileSync("data/data_gameevents.json").toString());
+    data.events.data.gameevents.data = gameevents_data
+
     writeFileSync("data/data.json", JSON.stringify(data, null, 4))
 
     return data;
