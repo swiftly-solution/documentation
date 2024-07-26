@@ -1,157 +1,18 @@
 {
-    "onserverspawn": {
-        "title": "OnServerSpawn",
+    "ongameuihidden": {
+        "title": "OnGameuiHidden",
         "template": "game-event-syntax",
-        "description": "This event is triggered when send once a server starts",
+        "description": "This event is triggered when gameui_hidden is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {
-            "hostname": "string",
-            "address": "string",
-            "port": "int",
-            "game": "string",
-            "mapname": "string",
-            "addonname": "string",
-            "maxplayers": "int",
-            "os": "string",
-            "dedicated": "boolean",
-            "password": "boolean"
-        },
-        "additional": {}
-    },
-    "onserverpreshutdown": {
-        "title": "OnServerPreShutdown",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when server is about to be shut down",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "reason": "string"
-        },
-        "additional": {}
-    },
-    "onservershutdown": {
-        "title": "OnServerShutdown",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when server shut down",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "reason": "string"
-        },
-        "additional": {}
-    },
-    "onservermessage": {
-        "title": "OnServerMessage",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a generic server message",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "text": "string"
-        },
-        "additional": {}
-    },
-    "onservercvar": {
-        "title": "OnServerCvar",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a server console var has changed",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "cvarname": "string",
-            "cvarvalue": "string"
-        },
-        "additional": {}
-    },
-    "onplayeractivate": {
-        "title": "OnPlayerActivate",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_activate is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onplayerconnectfull": {
-        "title": "OnPlayerConnectFull",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player has sent final message in the connection sequence",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onplayerfullupdate": {
-        "title": "OnPlayerFullUpdate",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_full_update is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "count": "int"
-        },
-        "additional": {}
-    },
-    "onplayerdisconnect": {
-        "title": "OnPlayerDisconnect",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a client was disconnected",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "reason": "int",
-            "name": "string",
-            "networkid": "string",
-            "PlayerID": "int"
-        },
-        "additional": {}
-    },
-    "onplayerinfo": {
-        "title": "OnPlayerInfo",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a player changed his name",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "name": "string",
-            "userid": "int",
-            "bot": "boolean"
-        },
-        "additional": {}
-    },
-    "onplayerspawn": {
-        "title": "OnPlayerSpawn",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player spawned in game",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
+        "params": {},
         "additional": {}
     },
     "onplayerteam": {
         "title": "OnPlayerTeam",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player change his team. You can receive this on the client before the local player has updated the team field locally",
+        "description": "This event is triggered when player_team is triggered.",
         "return": {
             "lua": "void"
         },
@@ -161,990 +22,30 @@
             "oldteam": "int",
             "disconnect": "boolean",
             "silent": "boolean",
+            "name": "string",
             "isbot": "boolean"
         },
         "additional": {}
     },
-    "onlocalplayerteam": {
-        "title": "OnLocalPlayerTeam",
+    "onplayerchat": {
+        "title": "OnPlayerChat",
         "template": "game-event-syntax",
-        "description": "This event is triggered when sent only on the client for the local player - happens only after a local players pawn team variable has been updated",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onlocalplayercontrollerteam": {
-        "title": "OnLocalPlayerControllerTeam",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when sent only on the client for the local player - happens only after the local players controller team variable has been updated",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onplayerchangename": {
-        "title": "OnPlayerChangename",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_changename is triggered",
+        "description": "This event is triggered when player_chat is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
+            "teamonly": "boolean",
             "userid": "int",
-            "oldname": "string",
-            "newname": "string"
-        },
-        "additional": {}
-    },
-    "onplayerhurt": {
-        "title": "OnPlayerHurt",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_hurt is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "attacker": "int",
-            "health": "int",
-            "armor": "int",
-            "weapon": "string",
-            "dmg_health": "int",
-            "dmg_armor": "int",
-            "hitgroup": "int"
-        },
-        "additional": {}
-    },
-    "onlocalplayerpawnchanged": {
-        "title": "OnLocalPlayerPawnChanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when local_player_pawn_changed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onteamplaybroadcastaudio": {
-        "title": "OnTeamplayBroadcastAudio",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when emits a sound to everyone on a team",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "team": "int",
-            "sound": "string"
-        },
-        "additional": {}
-    },
-    "onfinalestart": {
-        "title": "OnFinaleStart",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when finale_start is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "rushes": "int"
-        },
-        "additional": {}
-    },
-    "onplayerstatsupdated": {
-        "title": "OnPlayerStatsUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_stats_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "forceupload": "boolean"
-        },
-        "additional": {}
-    },
-    "onuserdatadownloaded": {
-        "title": "OnUserDataDownloaded",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when fired when achievements/stats are downloaded from Steam or XBox Live",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onragdolldissolved": {
-        "title": "OnRagdollDissolved",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when ragdoll_dissolved is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int"
-        },
-        "additional": {}
-    },
-    "onteaminfo": {
-        "title": "OnTeamInfo",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when info about team",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "teamid": "int",
-            "teamname": "string"
-        },
-        "additional": {}
-    },
-    "onteamscore": {
-        "title": "OnTeamScore",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when team score changed",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "teamid": "int",
-            "score": "int"
-        },
-        "additional": {}
-    },
-    "onhltvcameraman": {
-        "title": "OnHltvCameraman",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a spectator/player is a cameraman",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onhltvchase": {
-        "title": "OnHltvChase",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when shot of a single entity",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "target1": "int",
-            "target2": "int",
-            "distance": "int",
-            "theta": "int",
-            "phi": "int",
-            "inertia": "int",
-            "ineye": "int"
-        },
-        "additional": {}
-    },
-    "onhltvrankcamera": {
-        "title": "OnHltvRankCamera",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a camera ranking",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "index": "int",
-            "rank": "float",
-            "target": "int"
-        },
-        "additional": {}
-    },
-    "onhltvrankentity": {
-        "title": "OnHltvRankEntity",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when an entity ranking",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "rank": "float",
-            "target": "int"
-        },
-        "additional": {}
-    },
-    "onhltvfixed": {
-        "title": "OnHltvFixed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when show from fixed view",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "posx": "int",
-            "posy": "int",
-            "posz": "int",
-            "theta": "int",
-            "phi": "int",
-            "offset": "int",
-            "fov": "float",
-            "target": "int"
-        },
-        "additional": {}
-    },
-    "onhltvmessage": {
-        "title": "OnHltvMessage",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a HLTV message send by moderators",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
+            "playerid": "int",
             "text": "string"
-        },
-        "additional": {}
-    },
-    "onhltvstatus": {
-        "title": "OnHltvStatus",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when general HLTV status",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "clients": "int",
-            "slots": "int",
-            "proxies": "int",
-            "master": "string"
-        },
-        "additional": {}
-    },
-    "onhltvtitle": {
-        "title": "OnHltvTitle",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when hltv_title is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "text": "string"
-        },
-        "additional": {}
-    },
-    "onhltvchat": {
-        "title": "OnHltvChat",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a HLTV chat msg sent by spectators",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "text": "string"
-        },
-        "additional": {}
-    },
-    "onhltvversioninfo": {
-        "title": "OnHltvVersioninfo",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when hltv_versioninfo is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "version": "int"
-        },
-        "additional": {}
-    },
-    "onhltvreplay": {
-        "title": "OnHltvReplay",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when hltv_replay is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "delay": "int",
-            "reason": "int"
-        },
-        "additional": {}
-    },
-    "onmapshutdown": {
-        "title": "OnMapShutdown",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when map_shutdown is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onmaptransition": {
-        "title": "OnMapTransition",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when map_transition is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onhostnamechanged": {
-        "title": "OnHostnameChanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when hostname_changed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "hostname": "string"
-        },
-        "additional": {}
-    },
-    "ondifficultychanged": {
-        "title": "OnDifficultyChanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when difficulty_changed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "newDifficulty": "int",
-            "oldDifficulty": "int",
-            "strDifficulty": "string"
-        },
-        "additional": {}
-    },
-    "ongamemessage": {
-        "title": "OnGameMessage",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a message send by game logic to everyone",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "target": "int",
-            "text": "string"
-        },
-        "additional": {}
-    },
-    "ongamenewmap": {
-        "title": "OnGameNewmap",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when send when new map is completely loaded",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "mapname": "string"
-        },
-        "additional": {}
-    },
-    "onroundstart": {
-        "title": "OnRoundStart",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round_start is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "timelimit": "int",
-            "fraglimit": "int",
-            "objective": "string"
-        },
-        "additional": {}
-    },
-    "onwarmupend": {
-        "title": "OnWarmupEnd",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when warmup_end is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onroundend": {
-        "title": "OnRoundEnd",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round_end is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "winner": "int",
-            "reason": "int",
-            "message": "string",
-            "legacy": "int",
-            "player_count": "int",
-            "nomusic": "int"
-        },
-        "additional": {}
-    },
-    "onroundstartpreentity": {
-        "title": "OnRoundStartPreEntity",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round_start_pre_entity is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onroundstartpostnav": {
-        "title": "OnRoundStartPostNav",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round_start_post_nav is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onroundfreezeend": {
-        "title": "OnRoundFreezeEnd",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round_freeze_end is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onteamplayroundstart": {
-        "title": "OnTeamplayRoundStart",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when round restart",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "full_reset": "boolean"
-        },
-        "additional": {}
-    },
-    "onplayerdeath": {
-        "title": "OnPlayerDeath",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when a game event, name may be 32 characters long",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "attacker": "int",
-            "assister": "int",
-            "assistedflash": "boolean",
-            "weapon": "string",
-            "weapon_itemid": "string",
-            "weapon_fauxitemid": "string",
-            "weapon_originalowner_xuid": "string",
-            "headshot": "boolean",
-            "dominated": "int",
-            "revenge": "int",
-            "wipe": "int",
-            "penetrated": "int",
-            "noreplay": "boolean",
-            "noscope": "boolean",
-            "thrusmoke": "boolean",
-            "attackerblind": "boolean",
-            "distance": "float",
-            "dmg_health": "int",
-            "dmg_armor": "int",
-            "hitgroup": "int",
-            "attackerinair": "boolean"
-        },
-        "additional": {}
-    },
-    "onplayerfootstep": {
-        "title": "OnPlayerFootstep",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_footstep is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onplayerhintmessage": {
-        "title": "OnPlayerHintmessage",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when player_hintmessage is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "hintmessage": "string"
-        },
-        "additional": {}
-    },
-    "onbreakbreakable": {
-        "title": "OnBreakBreakable",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when break_breakable is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int",
-            "userid": "int",
-            "material": "int"
-        },
-        "additional": {}
-    },
-    "onbreakprop": {
-        "title": "OnBreakProp",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when break_prop is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int",
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onentitykilled": {
-        "title": "OnEntityKilled",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when entity_killed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex_killed": "int",
-            "entindex_attacker": "int",
-            "entindex_inflictor": "int",
-            "damagebits": "int"
-        },
-        "additional": {}
-    },
-    "ondoorclose": {
-        "title": "OnDoorClose",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when door_close is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "checkpoint": "boolean"
-        },
-        "additional": {}
-    },
-    "onvotestarted": {
-        "title": "OnVoteStarted",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_started is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "issue": "string",
-            "param1": "string",
-            "team": "int",
-            "initiator": "int"
-        },
-        "additional": {}
-    },
-    "onvotefailed": {
-        "title": "OnVoteFailed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_failed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "team": "int"
-        },
-        "additional": {}
-    },
-    "onvotepassed": {
-        "title": "OnVotePassed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_passed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "details": "string",
-            "param1": "string",
-            "team": "int"
-        },
-        "additional": {}
-    },
-    "onvotechanged": {
-        "title": "OnVoteChanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_changed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "vote_option1": "int",
-            "vote_option2": "int",
-            "vote_option3": "int",
-            "vote_option4": "int",
-            "vote_option5": "int",
-            "potentialVotes": "int"
-        },
-        "additional": {}
-    },
-    "onvotecastyes": {
-        "title": "OnVoteCastYes",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_cast_yes is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "team": "int",
-            "entityid": "int"
-        },
-        "additional": {}
-    },
-    "onvotecastno": {
-        "title": "OnVoteCastNo",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when vote_cast_no is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "team": "int",
-            "entityid": "int"
-        },
-        "additional": {}
-    },
-    "onachievementevent": {
-        "title": "OnAchievementEvent",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when achievement_event is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "achievement_name": "string",
-            "cur_val": "int",
-            "max_val": "int"
-        },
-        "additional": {}
-    },
-    "onachievementearned": {
-        "title": "OnAchievementEarned",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when achievement_earned is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "player": "int",
-            "achievement": "int"
-        },
-        "additional": {}
-    },
-    "onachievementwritefailed": {
-        "title": "OnAchievementWriteFailed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when Used for a notification message when an achievement fails to write",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onbonusupdated": {
-        "title": "OnBonusUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when bonus_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "numadvanced": "int",
-            "numbronze": "int",
-            "numsilver": "int",
-            "numgold": "int"
-        },
-        "additional": {}
-    },
-    "onspectargetupdated": {
-        "title": "OnSpecTargetUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when spec_target_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "target": "int"
-        },
-        "additional": {}
-    },
-    "onspecmodeupdated": {
-        "title": "OnSpecModeUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when spec_mode_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "onentityvisible": {
-        "title": "OnEntityVisible",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when entity_visible is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "subject": "int",
-            "classname": "string",
-            "entityname": "string"
-        },
-        "additional": {}
-    },
-    "ongameinstructordraw": {
-        "title": "OnGameinstructorDraw",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when gameinstructor_draw is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "ongameinstructornodraw": {
-        "title": "OnGameinstructorNodraw",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when gameinstructor_nodraw is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onflareignitenpc": {
-        "title": "OnFlareIgniteNpc",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when flare_ignite_npc is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int"
-        },
-        "additional": {}
-    },
-    "onhelicoptergrenadepuntmiss": {
-        "title": "OnHelicopterGrenadePuntMiss",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when helicopter_grenade_punt_miss is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onphysgunpickup": {
-        "title": "OnPhysgunPickup",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when physgun_pickup is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "target": "int"
-        },
-        "additional": {}
-    },
-    "oninventoryupdated": {
-        "title": "OnInventoryUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when inventory_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "oncartupdated": {
-        "title": "OnCartUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when cart_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onstorepricesheetupdated": {
-        "title": "OnStorePricesheetUpdated",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when store_pricesheet_updated is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onitemschemainitialized": {
-        "title": "OnItemSchemaInitialized",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when item_schema_initialized is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "ondropratemodified": {
-        "title": "OnDropRateModified",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when drop_rate_modified is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "oneventticketmodified": {
-        "title": "OnEventTicketModified",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when event_ticket_modified is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "ongcconnected": {
-        "title": "OnGcConnected",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when gc_connected is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "oninstructorstartlesson": {
-        "title": "OnInstructorStartLesson",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when instructor_start_lesson is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "hint_name": "string",
-            "hint_target": "int",
-            "vr_movement_type": "int",
-            "vr_single_controller": "boolean",
-            "vr_controller_type": "int"
-        },
-        "additional": {}
-    },
-    "oninstructorcloselesson": {
-        "title": "OnInstructorCloseLesson",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when instructor_close_lesson is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "hint_name": "string"
-        },
-        "additional": {}
-    },
-    "oninstructorserverhintcreate": {
-        "title": "OnInstructorServerHintCreate",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when create a hint using data supplied entirely by the server/map. Intended for hints to smooth playtests before content is ready to make the hint unneccessary. NOT INTENDED AS A SHIPPABLE CRUTCH",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int",
-            "hint_name": "string",
-            "hint_replace_key": "string",
-            "hint_target": "int",
-            "hint_activator_userid": "int",
-            "hint_timeout": "int",
-            "hint_icon_onscreen": "string",
-            "hint_icon_offscreen": "string",
-            "hint_caption": "string",
-            "hint_activator_caption": "string",
-            "hint_color": "string",
-            "hint_icon_offset": "float",
-            "hint_range": "float",
-            "hint_flags": "int",
-            "hint_binding": "string",
-            "hint_gamepad_binding": "string",
-            "hint_allow_nodraw_target": "boolean",
-            "hint_nooffscreen": "boolean",
-            "hint_forcecaption": "boolean",
-            "hint_local_player_only": "boolean"
-        },
-        "additional": {}
-    },
-    "onclientsidelessonclosed": {
-        "title": "OnClientsideLessonClosed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when clientside_lesson_closed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "lesson_name": "string"
-        },
-        "additional": {}
-    },
-    "ondynamicshadowlightchanged": {
-        "title": "OnDynamicShadowLightChanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when dynamic_shadow_light_changed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "ongameuihidden": {
-        "title": "OnGameuiHidden",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when gameui_hidden is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "onitemsgifted": {
-        "title": "OnItemsGifted",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when items_gifted is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "player": "int",
-            "itemdef": "int",
-            "numgifts": "int",
-            "giftidx": "int",
-            "accountid": "int"
         },
         "additional": {}
     },
     "onplayerscore": {
         "title": "OnPlayerScore",
         "template": "game-event-syntax",
-        "description": "This event is triggered when players scores changed",
+        "description": "This event is triggered when player_score is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1159,7 +60,7 @@
     "onplayershoot": {
         "title": "OnPlayerShoot",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player shoot his weapon",
+        "description": "This event is triggered when player_shoot is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1173,17 +74,30 @@
     "ongameinit": {
         "title": "OnGameInit",
         "template": "game-event-syntax",
-        "description": "This event is triggered when sent when a new game is started",
+        "description": "This event is triggered when game_init is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {},
         "additional": {}
     },
+    "ongamenewmap": {
+        "title": "OnGameNewmap",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when game_newmap is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "mapname": "string",
+            "transition": "boolean"
+        },
+        "additional": {}
+    },
     "ongamestart": {
         "title": "OnGameStart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when a new game starts",
+        "description": "This event is triggered when game_start is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1198,7 +112,7 @@
     "ongameend": {
         "title": "OnGameEnd",
         "template": "game-event-syntax",
-        "description": "This event is triggered when a game ended",
+        "description": "This event is triggered when game_end is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1210,7 +124,7 @@
     "onroundannouncematchpoint": {
         "title": "OnRoundAnnounceMatchPoint",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_announce_match_point is triggered",
+        "description": "This event is triggered when round_announce_match_point is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1220,7 +134,7 @@
     "onroundannouncefinal": {
         "title": "OnRoundAnnounceFinal",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_announce_final is triggered",
+        "description": "This event is triggered when round_announce_final is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1230,7 +144,7 @@
     "onroundannouncelastroundhalf": {
         "title": "OnRoundAnnounceLastRoundHalf",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_announce_last_round_half is triggered",
+        "description": "This event is triggered when round_announce_last_round_half is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1240,7 +154,7 @@
     "onroundannouncematchstart": {
         "title": "OnRoundAnnounceMatchStart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_announce_match_start is triggered",
+        "description": "This event is triggered when round_announce_match_start is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1250,17 +164,42 @@
     "onroundannouncewarmup": {
         "title": "OnRoundAnnounceWarmup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_announce_warmup is triggered",
+        "description": "This event is triggered when round_announce_warmup is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {},
         "additional": {}
     },
+    "onwarmupend": {
+        "title": "OnWarmupEnd",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when warmup_end is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onroundend": {
+        "title": "OnRoundEnd",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when round_end is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "winner": "int",
+            "reason": "int",
+            "message": "string",
+            "time": "float"
+        },
+        "additional": {}
+    },
     "onroundenduploadstats": {
         "title": "OnRoundEndUploadStats",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_end_upload_stats is triggered",
+        "description": "This event is triggered when round_end_upload_stats is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1270,7 +209,7 @@
     "onroundofficiallyended": {
         "title": "OnRoundOfficiallyEnded",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_officially_ended is triggered",
+        "description": "This event is triggered when round_officially_ended is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1280,7 +219,7 @@
     "onroundtimewarning": {
         "title": "OnRoundTimeWarning",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_time_warning is triggered",
+        "description": "This event is triggered when round_time_warning is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1290,31 +229,36 @@
     "onugcmapinforeceived": {
         "title": "OnUgcMapInfoReceived",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ugc_map_info_received is triggered",
+        "description": "This event is triggered when ugc_map_info_received is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {},
+        "params": {
+            "published_file_id": "uint64"
+        },
         "additional": {}
     },
     "onugcmapunsubscribed": {
         "title": "OnUgcMapUnsubscribed",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ugc_map_unsubscribed is triggered",
+        "description": "This event is triggered when ugc_map_unsubscribed is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {},
+        "params": {
+            "published_file_id": "uint64"
+        },
         "additional": {}
     },
     "onugcmapdownloaderror": {
         "title": "OnUgcMapDownloadError",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ugc_map_download_error is triggered",
+        "description": "This event is triggered when ugc_map_download_error is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
+            "published_file_id": "uint64",
             "error_code": "int"
         },
         "additional": {}
@@ -1322,27 +266,32 @@
     "onugcfiledownloadfinished": {
         "title": "OnUgcFileDownloadFinished",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ugc_file_download_finished is triggered",
+        "description": "This event is triggered when ugc_file_download_finished is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {},
+        "params": {
+            "hcontent": "uint64"
+        },
         "additional": {}
     },
     "onugcfiledownloadstart": {
         "title": "OnUgcFileDownloadStart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ugc_file_download_start is triggered",
+        "description": "This event is triggered when ugc_file_download_start is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {},
+        "params": {
+            "hcontent": "uint64",
+            "published_file_id": "uint64"
+        },
         "additional": {}
     },
     "onbeginnewmatch": {
         "title": "OnBeginNewMatch",
         "template": "game-event-syntax",
-        "description": "This event is triggered when Fired when a match ends or is restarted",
+        "description": "This event is triggered when begin_new_match is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1352,7 +301,7 @@
     "ondmbonusweaponstart": {
         "title": "OnDmBonusWeaponStart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when dm_bonus_weapon_start is triggered",
+        "description": "This event is triggered when dm_bonus_weapon_start is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1365,7 +314,7 @@
     "onsurvivalannouncephase": {
         "title": "OnSurvivalAnnouncePhase",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_announce_phase is triggered",
+        "description": "This event is triggered when survival_announce_phase is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1374,24 +323,26 @@
         },
         "additional": {}
     },
-    "onbrokenbreakable": {
-        "title": "OnBrokenBreakable",
+    "onbreakprop": {
+        "title": "OnBreakProp",
         "template": "game-event-syntax",
-        "description": "This event is triggered when broken_breakable is triggered",
+        "description": "This event is triggered when break_prop is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
             "entindex": "int",
             "userid": "int",
-            "material": "int"
+            "player_held": "boolean",
+            "player_thrown": "boolean",
+            "player_dropped": "boolean"
         },
         "additional": {}
     },
     "onplayerdecal": {
         "title": "OnPlayerDecal",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_decal is triggered",
+        "description": "This event is triggered when player_decal is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1400,35 +351,76 @@
         },
         "additional": {}
     },
-    "onsetinstructorgroupenabled": {
-        "title": "OnSetInstructorGroupEnabled",
+    "onentityvisible": {
+        "title": "OnEntityVisible",
         "template": "game-event-syntax",
-        "description": "This event is triggered when set_instructor_group_enabled is triggered",
+        "description": "This event is triggered when entity_visible is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
-            "group": "string",
-            "enabled": "int"
+            "userid": "int",
+            "subject": "int",
+            "classname": "string",
+            "entityname": "string"
+        },
+        "additional": {}
+    },
+    "oninstructorserverhintcreate": {
+        "title": "OnInstructorServerHintCreate",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when instructor_server_hint_create is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "hint_entindex": "int",
+            "hint_name": "string",
+            "hint_replace_key": "string",
+            "hint_target": "int",
+            "hint_activator_userid": "int",
+            "hint_timeout": "int",
+            "hint_icon_onscreen": "string",
+            "hint_icon_offscreen": "string",
+            "hint_caption": "string",
+            "hint_activator_caption": "string",
+            "hint_color": "string",
+            "hint_icon_offset": "float",
+            "hint_range": "float",
+            "hint_flags": "int",
+            "hint_binding": "string",
+            "hint_allow_nodraw_target": "boolean",
+            "hint_nooffscreen": "boolean",
+            "hint_forcecaption": "boolean",
+            "hint_local_player_only": "boolean",
+            "hint_start_sound": "string",
+            "hint_layoutfile": "string",
+            "hint_vr_panel_type": "int",
+            "hint_vr_height_offset": "float",
+            "hint_vr_offset_x": "float",
+            "hint_vr_offset_y": "float",
+            "hint_vr_offset_z": "float"
         },
         "additional": {}
     },
     "oninstructorserverhintstop": {
         "title": "OnInstructorServerHintStop",
         "template": "game-event-syntax",
-        "description": "This event is triggered when destroys a server/map created hint",
+        "description": "This event is triggered when instructor_server_hint_stop is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
-            "hint_name": "string"
+            "hint_name": "string",
+            "hint_entindex": "int"
         },
         "additional": {}
     },
     "onreadgametitledata": {
         "title": "OnReadGameTitledata",
         "template": "game-event-syntax",
-        "description": "This event is triggered when read user titledata from profile",
+        "description": "This event is triggered when read_game_titledata is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1440,7 +432,7 @@
     "onwritegametitledata": {
         "title": "OnWriteGameTitledata",
         "template": "game-event-syntax",
-        "description": "This event is triggered when write user titledata in profile",
+        "description": "This event is triggered when write_game_titledata is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1452,7 +444,7 @@
     "onresetgametitledata": {
         "title": "OnResetGameTitledata",
         "template": "game-event-syntax",
-        "description": "This event is triggered when reset user titledata; do not automatically write profile",
+        "description": "This event is triggered when reset_game_titledata is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1464,7 +456,7 @@
     "onweaponhudselection": {
         "title": "OnWeaponhudSelection",
         "template": "game-event-syntax",
-        "description": "This event is triggered when weaponhud_selection is triggered",
+        "description": "This event is triggered when weaponhud_selection is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1478,17 +470,47 @@
     "onvoteended": {
         "title": "OnVoteEnded",
         "template": "game-event-syntax",
-        "description": "This event is triggered when vote_ended is triggered",
+        "description": "This event is triggered when vote_ended is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {},
         "additional": {}
     },
+    "onvotestarted": {
+        "title": "OnVoteStarted",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_started is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "issue": "string",
+            "param1": "string",
+            "votedata": "string",
+            "team": "int",
+            "initiator": "int"
+        },
+        "additional": {}
+    },
+    "onvotechanged": {
+        "title": "OnVoteChanged",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_changed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "yesVotes": "int",
+            "noVotes": "int",
+            "potentialVotes": "int"
+        },
+        "additional": {}
+    },
     "onvotecast": {
         "title": "OnVoteCast",
         "template": "game-event-syntax",
-        "description": "This event is triggered when vote_cast is triggered",
+        "description": "This event is triggered when vote_cast is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1502,7 +524,7 @@
     "onvoteoptions": {
         "title": "OnVoteOptions",
         "template": "game-event-syntax",
-        "description": "This event is triggered when vote_options is triggered",
+        "description": "This event is triggered when vote_options is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1519,7 +541,7 @@
     "onendmatchmapvoteselectingmap": {
         "title": "OnEndmatchMapvoteSelectingMap",
         "template": "game-event-syntax",
-        "description": "This event is triggered when endmatch_mapvote_selecting_map is triggered",
+        "description": "This event is triggered when endmatch_mapvote_selecting_map is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1541,17 +563,30 @@
     "onendmatchcmmstartrevealitems": {
         "title": "OnEndmatchCmmStartRevealItems",
         "template": "game-event-syntax",
-        "description": "This event is triggered when endmatch_cmm_start_reveal_items is triggered",
+        "description": "This event is triggered when endmatch_cmm_start_reveal_items is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {},
         "additional": {}
     },
+    "oninventoryupdated": {
+        "title": "OnInventoryUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when inventory_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "itemdef": "int",
+            "itemid": "int"
+        },
+        "additional": {}
+    },
     "onclientloadoutchanged": {
         "title": "OnClientLoadoutChanged",
         "template": "game-event-syntax",
-        "description": "This event is triggered when client_loadout_changed is triggered",
+        "description": "This event is triggered when client_loadout_changed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1561,7 +596,7 @@
     "onaddplayersonaricon": {
         "title": "OnAddPlayerSonarIcon",
         "template": "game-event-syntax",
-        "description": "This event is triggered when add_player_sonar_icon is triggered",
+        "description": "This event is triggered when add_player_sonar_icon is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1573,10 +608,49 @@
         },
         "additional": {}
     },
+    "ondooropen": {
+        "title": "OnDoorOpen",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when door_open is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "entindex": "int"
+        },
+        "additional": {}
+    },
+    "ondoorclosed": {
+        "title": "OnDoorClosed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when door_closed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "entindex": "int"
+        },
+        "additional": {}
+    },
+    "ondoorbreak": {
+        "title": "OnDoorBreak",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when door_break is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex": "int",
+            "dmgstate": "int"
+        },
+        "additional": {}
+    },
     "onaddbullethitmarker": {
         "title": "OnAddBulletHitMarker",
         "template": "game-event-syntax",
-        "description": "This event is triggered when add_bullet_hit_marker is triggered",
+        "description": "This event is triggered when add_bullet_hit_marker is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1596,10 +670,23 @@
         },
         "additional": {}
     },
+    "onplayerdeath": {
+        "title": "OnPlayerDeath",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_death is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "attacker": "int"
+        },
+        "additional": {}
+    },
     "onotherdeath": {
         "title": "OnOtherDeath",
         "template": "game-event-syntax",
-        "description": "This event is triggered when other_death is triggered",
+        "description": "This event is triggered when other_death is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1619,10 +706,44 @@
         },
         "additional": {}
     },
+    "onplayerhurt": {
+        "title": "OnPlayerHurt",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_hurt is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "attacker": "int",
+            "health": "int"
+        },
+        "additional": {}
+    },
+    "onbulletdamage": {
+        "title": "OnBulletDamage",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when bullet_damage is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "victim": "int",
+            "attacker": "int",
+            "distance": "float",
+            "damage_dir_x": "float",
+            "damage_dir_y": "float",
+            "damage_dir_z": "float",
+            "num_penetrations": "int",
+            "no_scope": "boolean",
+            "in_air": "boolean"
+        },
+        "additional": {}
+    },
     "onitempurchase": {
         "title": "OnItemPurchase",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_purchase is triggered",
+        "description": "This event is triggered when item_purchase is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1637,7 +758,7 @@
     "onbombbeginplant": {
         "title": "OnBombBeginplant",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_beginplant is triggered",
+        "description": "This event is triggered when bomb_beginplant is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1650,7 +771,7 @@
     "onbombabortplant": {
         "title": "OnBombAbortplant",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_abortplant is triggered",
+        "description": "This event is triggered when bomb_abortplant is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1663,7 +784,7 @@
     "onbombplanted": {
         "title": "OnBombPlanted",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_planted is triggered",
+        "description": "This event is triggered when bomb_planted is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1676,7 +797,7 @@
     "onbombdefused": {
         "title": "OnBombDefused",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_defused is triggered",
+        "description": "This event is triggered when bomb_defused is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1689,7 +810,7 @@
     "onbombexploded": {
         "title": "OnBombExploded",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_exploded is triggered",
+        "description": "This event is triggered when bomb_exploded is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1702,7 +823,7 @@
     "onbombdropped": {
         "title": "OnBombDropped",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_dropped is triggered",
+        "description": "This event is triggered when bomb_dropped is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1715,7 +836,7 @@
     "onbombpickup": {
         "title": "OnBombPickup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_pickup is triggered",
+        "description": "This event is triggered when bomb_pickup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1727,7 +848,7 @@
     "ondefuserdropped": {
         "title": "OnDefuserDropped",
         "template": "game-event-syntax",
-        "description": "This event is triggered when defuser_dropped is triggered",
+        "description": "This event is triggered when defuser_dropped is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1739,7 +860,7 @@
     "ondefuserpickup": {
         "title": "OnDefuserPickup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when defuser_pickup is triggered",
+        "description": "This event is triggered when defuser_pickup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1752,7 +873,7 @@
     "onannouncephaseend": {
         "title": "OnAnnouncePhaseEnd",
         "template": "game-event-syntax",
-        "description": "This event is triggered when announce_phase_end is triggered",
+        "description": "This event is triggered when announce_phase_end is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1762,7 +883,7 @@
     "oncsintermission": {
         "title": "OnCsIntermission",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_intermission is triggered",
+        "description": "This event is triggered when cs_intermission is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1772,7 +893,7 @@
     "onbombbegindefuse": {
         "title": "OnBombBegindefuse",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_begindefuse is triggered",
+        "description": "This event is triggered when bomb_begindefuse is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1785,7 +906,7 @@
     "onbombabortdefuse": {
         "title": "OnBombAbortdefuse",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_abortdefuse is triggered",
+        "description": "This event is triggered when bomb_abortdefuse is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1797,7 +918,7 @@
     "onhostagefollows": {
         "title": "OnHostageFollows",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_follows is triggered",
+        "description": "This event is triggered when hostage_follows is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1810,7 +931,7 @@
     "onhostagehurt": {
         "title": "OnHostageHurt",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_hurt is triggered",
+        "description": "This event is triggered when hostage_hurt is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1823,7 +944,7 @@
     "onhostagekilled": {
         "title": "OnHostageKilled",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_killed is triggered",
+        "description": "This event is triggered when hostage_killed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1836,7 +957,7 @@
     "onhostagerescued": {
         "title": "OnHostageRescued",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_rescued is triggered",
+        "description": "This event is triggered when hostage_rescued is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1850,7 +971,7 @@
     "onhostagestopsfollowing": {
         "title": "OnHostageStopsFollowing",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_stops_following is triggered",
+        "description": "This event is triggered when hostage_stops_following is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1863,7 +984,7 @@
     "onhostagerescuedall": {
         "title": "OnHostageRescuedAll",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_rescued_all is triggered",
+        "description": "This event is triggered when hostage_rescued_all is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1873,7 +994,7 @@
     "onhostagecallforhelp": {
         "title": "OnHostageCallForHelp",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hostage_call_for_help is triggered",
+        "description": "This event is triggered when hostage_call_for_help is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1885,7 +1006,7 @@
     "onvipescaped": {
         "title": "OnVipEscaped",
         "template": "game-event-syntax",
-        "description": "This event is triggered when vip_escaped is triggered",
+        "description": "This event is triggered when vip_escaped is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1897,7 +1018,7 @@
     "onvipkilled": {
         "title": "OnVipKilled",
         "template": "game-event-syntax",
-        "description": "This event is triggered when vip_killed is triggered",
+        "description": "This event is triggered when vip_killed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1910,7 +1031,7 @@
     "onplayerradio": {
         "title": "OnPlayerRadio",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_radio is triggered",
+        "description": "This event is triggered when player_radio is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1923,7 +1044,7 @@
     "onbombbeep": {
         "title": "OnBombBeep",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bomb_beep is triggered",
+        "description": "This event is triggered when bomb_beep is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1935,7 +1056,7 @@
     "onweaponfire": {
         "title": "OnWeaponFire",
         "template": "game-event-syntax",
-        "description": "This event is triggered when weapon_fire is triggered",
+        "description": "This event is triggered when weapon_fire is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1949,7 +1070,7 @@
     "onweaponfireonempty": {
         "title": "OnWeaponFireOnEmpty",
         "template": "game-event-syntax",
-        "description": "This event is triggered when weapon_fire_on_empty is triggered",
+        "description": "This event is triggered when weapon_fire_on_empty is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1962,7 +1083,7 @@
     "ongrenadethrown": {
         "title": "OnGrenadeThrown",
         "template": "game-event-syntax",
-        "description": "This event is triggered when grenade_thrown is triggered",
+        "description": "This event is triggered when grenade_thrown is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1972,22 +1093,10 @@
         },
         "additional": {}
     },
-    "onweaponoutofammo": {
-        "title": "OnWeaponOutofammo",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when weapon_outofammo is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
     "onweaponreload": {
         "title": "OnWeaponReload",
         "template": "game-event-syntax",
-        "description": "This event is triggered when weapon_reload is triggered",
+        "description": "This event is triggered when weapon_reload is triggered.",
         "return": {
             "lua": "void"
         },
@@ -1999,7 +1108,7 @@
     "onweaponzoom": {
         "title": "OnWeaponZoom",
         "template": "game-event-syntax",
-        "description": "This event is triggered when weapon_zoom is triggered",
+        "description": "This event is triggered when weapon_zoom is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2011,7 +1120,7 @@
     "onsilencerdetach": {
         "title": "OnSilencerDetach",
         "template": "game-event-syntax",
-        "description": "This event is triggered when silencer_detach is triggered",
+        "description": "This event is triggered when silencer_detach is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2023,7 +1132,7 @@
     "oninspectweapon": {
         "title": "OnInspectWeapon",
         "template": "game-event-syntax",
-        "description": "This event is triggered when inspect_weapon is triggered",
+        "description": "This event is triggered when inspect_weapon is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2035,7 +1144,7 @@
     "onweaponzoomrifle": {
         "title": "OnWeaponZoomRifle",
         "template": "game-event-syntax",
-        "description": "This event is triggered when exists for the game instructor to let it know when the player zoomed in with a regular rifle. Different from the above weapon_zoom because we don't use this event to notify bots",
+        "description": "This event is triggered when weapon_zoom_rifle is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2047,7 +1156,7 @@
     "onplayerspawned": {
         "title": "OnPlayerSpawned",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_spawned is triggered",
+        "description": "This event is triggered when player_spawned is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2060,7 +1169,7 @@
     "onitempickup": {
         "title": "OnItemPickup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_pickup is triggered",
+        "description": "This event is triggered when item_pickup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2075,7 +1184,7 @@
     "onitempickupslerp": {
         "title": "OnItemPickupSlerp",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_pickup_slerp is triggered",
+        "description": "This event is triggered when item_pickup_slerp is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2089,7 +1198,7 @@
     "onitempickupfailed": {
         "title": "OnItemPickupFailed",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_pickup_failed is triggered",
+        "description": "This event is triggered when item_pickup_failed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2104,7 +1213,7 @@
     "onitemremove": {
         "title": "OnItemRemove",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_remove is triggered",
+        "description": "This event is triggered when item_remove is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2118,7 +1227,7 @@
     "onammopickup": {
         "title": "OnAmmoPickup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ammo_pickup is triggered",
+        "description": "This event is triggered when ammo_pickup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2132,7 +1241,7 @@
     "onitemequip": {
         "title": "OnItemEquip",
         "template": "game-event-syntax",
-        "description": "This event is triggered when item_equip is triggered",
+        "description": "This event is triggered when item_equip is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2152,7 +1261,7 @@
     "onenterbuyzone": {
         "title": "OnEnterBuyzone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when enter_buyzone is triggered",
+        "description": "This event is triggered when enter_buyzone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2165,7 +1274,7 @@
     "onexitbuyzone": {
         "title": "OnExitBuyzone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when exit_buyzone is triggered",
+        "description": "This event is triggered when exit_buyzone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2178,7 +1287,7 @@
     "onbuytimeended": {
         "title": "OnBuytimeEnded",
         "template": "game-event-syntax",
-        "description": "This event is triggered when buytime_ended is triggered",
+        "description": "This event is triggered when buytime_ended is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2188,7 +1297,7 @@
     "onenterbombzone": {
         "title": "OnEnterBombzone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when enter_bombzone is triggered",
+        "description": "This event is triggered when enter_bombzone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2202,7 +1311,7 @@
     "onexitbombzone": {
         "title": "OnExitBombzone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when exit_bombzone is triggered",
+        "description": "This event is triggered when exit_bombzone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2216,7 +1325,7 @@
     "onenterrescuezone": {
         "title": "OnEnterRescueZone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when enter_rescue_zone is triggered",
+        "description": "This event is triggered when enter_rescue_zone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2228,7 +1337,7 @@
     "onexitrescuezone": {
         "title": "OnExitRescueZone",
         "template": "game-event-syntax",
-        "description": "This event is triggered when exit_rescue_zone is triggered",
+        "description": "This event is triggered when exit_rescue_zone is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2240,7 +1349,7 @@
     "onsilenceroff": {
         "title": "OnSilencerOff",
         "template": "game-event-syntax",
-        "description": "This event is triggered when silencer_off is triggered",
+        "description": "This event is triggered when silencer_off is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2252,7 +1361,7 @@
     "onsilenceron": {
         "title": "OnSilencerOn",
         "template": "game-event-syntax",
-        "description": "This event is triggered when silencer_on is triggered",
+        "description": "This event is triggered when silencer_on is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2264,19 +1373,17 @@
     "onbuymenuopen": {
         "title": "OnBuymenuOpen",
         "template": "game-event-syntax",
-        "description": "This event is triggered when buymenu_open is triggered",
+        "description": "This event is triggered when buymenu_open is triggered.",
         "return": {
             "lua": "void"
         },
-        "params": {
-            "userid": "int"
-        },
+        "params": {},
         "additional": {}
     },
     "onbuymenuclose": {
         "title": "OnBuymenuClose",
         "template": "game-event-syntax",
-        "description": "This event is triggered when buymenu_close is triggered",
+        "description": "This event is triggered when buymenu_close is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2288,7 +1395,7 @@
     "onroundprestart": {
         "title": "OnRoundPrestart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when sent before all other round restart actions",
+        "description": "This event is triggered when round_prestart is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2298,7 +1405,7 @@
     "onroundpoststart": {
         "title": "OnRoundPoststart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when sent after all other round restart actions",
+        "description": "This event is triggered when round_poststart is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2308,7 +1415,7 @@
     "ongrenadebounce": {
         "title": "OnGrenadeBounce",
         "template": "game-event-syntax",
-        "description": "This event is triggered when grenade_bounce is triggered",
+        "description": "This event is triggered when grenade_bounce is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2320,7 +1427,7 @@
     "onhegrenadedetonate": {
         "title": "OnHegrenadeDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hegrenade_detonate is triggered",
+        "description": "This event is triggered when hegrenade_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2336,7 +1443,7 @@
     "onflashbangdetonate": {
         "title": "OnFlashbangDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when flashbang_detonate is triggered",
+        "description": "This event is triggered when flashbang_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2352,7 +1459,7 @@
     "onsmokegrenadedetonate": {
         "title": "OnSmokegrenadeDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when smokegrenade_detonate is triggered",
+        "description": "This event is triggered when smokegrenade_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2368,7 +1475,7 @@
     "onsmokegrenadeexpired": {
         "title": "OnSmokegrenadeExpired",
         "template": "game-event-syntax",
-        "description": "This event is triggered when smokegrenade_expired is triggered",
+        "description": "This event is triggered when smokegrenade_expired is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2384,7 +1491,7 @@
     "onmolotovdetonate": {
         "title": "OnMolotovDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when molotov_detonate is triggered",
+        "description": "This event is triggered when molotov_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2399,7 +1506,7 @@
     "ondecoydetonate": {
         "title": "OnDecoyDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when decoy_detonate is triggered",
+        "description": "This event is triggered when decoy_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2415,7 +1522,7 @@
     "ondecoystarted": {
         "title": "OnDecoyStarted",
         "template": "game-event-syntax",
-        "description": "This event is triggered when decoy_started is triggered",
+        "description": "This event is triggered when decoy_started is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2431,7 +1538,7 @@
     "ontagrenadedetonate": {
         "title": "OnTagrenadeDetonate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when tagrenade_detonate is triggered",
+        "description": "This event is triggered when tagrenade_detonate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2447,7 +1554,7 @@
     "oninfernostartburn": {
         "title": "OnInfernoStartburn",
         "template": "game-event-syntax",
-        "description": "This event is triggered when inferno_startburn is triggered",
+        "description": "This event is triggered when inferno_startburn is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2462,7 +1569,7 @@
     "oninfernoexpire": {
         "title": "OnInfernoExpire",
         "template": "game-event-syntax",
-        "description": "This event is triggered when inferno_expire is triggered",
+        "description": "This event is triggered when inferno_expire is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2477,7 +1584,7 @@
     "oninfernoextinguish": {
         "title": "OnInfernoExtinguish",
         "template": "game-event-syntax",
-        "description": "This event is triggered when inferno_extinguish is triggered",
+        "description": "This event is triggered when inferno_extinguish is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2492,7 +1599,7 @@
     "ondecoyfiring": {
         "title": "OnDecoyFiring",
         "template": "game-event-syntax",
-        "description": "This event is triggered when decoy_firing is triggered",
+        "description": "This event is triggered when decoy_firing is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2508,7 +1615,7 @@
     "onbulletimpact": {
         "title": "OnBulletImpact",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bullet_impact is triggered",
+        "description": "This event is triggered when bullet_impact is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2520,10 +1627,22 @@
         },
         "additional": {}
     },
+    "onplayerfootstep": {
+        "title": "OnPlayerFootstep",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_footstep is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
     "onplayerjump": {
         "title": "OnPlayerJump",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_jump is triggered",
+        "description": "This event is triggered when player_jump is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2535,7 +1654,7 @@
     "onplayerblind": {
         "title": "OnPlayerBlind",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_blind is triggered",
+        "description": "This event is triggered when player_blind is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2550,7 +1669,7 @@
     "onplayerfalldamage": {
         "title": "OnPlayerFalldamage",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_falldamage is triggered",
+        "description": "This event is triggered when player_falldamage is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2563,7 +1682,7 @@
     "ondoormoving": {
         "title": "OnDoorMoving",
         "template": "game-event-syntax",
-        "description": "This event is triggered when door_moving is triggered",
+        "description": "This event is triggered when door_moving is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2576,7 +1695,7 @@
     "onmbinputlocksuccess": {
         "title": "OnMbInputLockSuccess",
         "template": "game-event-syntax",
-        "description": "This event is triggered when mb_input_lock_success is triggered",
+        "description": "This event is triggered when mb_input_lock_success is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2586,7 +1705,7 @@
     "onmbinputlockcancel": {
         "title": "OnMbInputLockCancel",
         "template": "game-event-syntax",
-        "description": "This event is triggered when mb_input_lock_cancel is triggered",
+        "description": "This event is triggered when mb_input_lock_cancel is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2596,7 +1715,7 @@
     "onnavblocked": {
         "title": "OnNavBlocked",
         "template": "game-event-syntax",
-        "description": "This event is triggered when nav_blocked is triggered",
+        "description": "This event is triggered when nav_blocked is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2609,7 +1728,7 @@
     "onnavgenerate": {
         "title": "OnNavGenerate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when nav_generate is triggered",
+        "description": "This event is triggered when nav_generate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2619,17 +1738,29 @@
     "onachievementinfoloaded": {
         "title": "OnAchievementInfoLoaded",
         "template": "game-event-syntax",
-        "description": "This event is triggered when achievement_info_loaded is triggered",
+        "description": "This event is triggered when achievement_info_loaded is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {},
         "additional": {}
     },
+    "onspecmodeupdated": {
+        "title": "OnSpecModeUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when spec_mode_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
     "onhltvchangedmode": {
         "title": "OnHltvChangedMode",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hltv_changed_mode is triggered",
+        "description": "This event is triggered when hltv_changed_mode is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2643,7 +1774,7 @@
     "oncsgamedisconnected": {
         "title": "OnCsGameDisconnected",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_game_disconnected is triggered",
+        "description": "This event is triggered when cs_game_disconnected is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2653,7 +1784,7 @@
     "oncsroundfinalbeep": {
         "title": "OnCsRoundFinalBeep",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_round_final_beep is triggered",
+        "description": "This event is triggered when cs_round_final_beep is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2663,7 +1794,7 @@
     "oncsroundstartbeep": {
         "title": "OnCsRoundStartBeep",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_round_start_beep is triggered",
+        "description": "This event is triggered when cs_round_start_beep is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2673,7 +1804,7 @@
     "oncswinpanelround": {
         "title": "OnCsWinPanelRound",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_win_panel_round is triggered",
+        "description": "This event is triggered when cs_win_panel_round is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2693,7 +1824,7 @@
     "oncswinpanelmatch": {
         "title": "OnCsWinPanelMatch",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_win_panel_match is triggered",
+        "description": "This event is triggered when cs_win_panel_match is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2703,7 +1834,7 @@
     "oncsmatchendrestart": {
         "title": "OnCsMatchEndRestart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_match_end_restart is triggered",
+        "description": "This event is triggered when cs_match_end_restart is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2713,7 +1844,7 @@
     "oncsprerestart": {
         "title": "OnCsPreRestart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_pre_restart is triggered",
+        "description": "This event is triggered when cs_pre_restart is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2723,13 +1854,12 @@
     "onshowdeathpanel": {
         "title": "OnShowDeathpanel",
         "template": "game-event-syntax",
-        "description": "This event is triggered when show_deathpanel is triggered",
+        "description": "This event is triggered when show_deathpanel is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
             "victim": "int",
-            "killer": "int",
             "killer_controller": "int",
             "hits_taken": "int",
             "damage_taken": "int",
@@ -2741,7 +1871,7 @@
     "onhidedeathpanel": {
         "title": "OnHideDeathpanel",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hide_deathpanel is triggered",
+        "description": "This event is triggered when hide_deathpanel is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2751,7 +1881,7 @@
     "onplayeravengedteammate": {
         "title": "OnPlayerAvengedTeammate",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_avenged_teammate is triggered",
+        "description": "This event is triggered when player_avenged_teammate is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2764,7 +1894,7 @@
     "onachievementearnedlocal": {
         "title": "OnAchievementEarnedLocal",
         "template": "game-event-syntax",
-        "description": "This event is triggered when achievement_earned_local is triggered",
+        "description": "This event is triggered when achievement_earned_local is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2777,7 +1907,7 @@
     "onrepostxboxachievements": {
         "title": "OnRepostXboxAchievements",
         "template": "game-event-syntax",
-        "description": "This event is triggered when repost_xbox_achievements is triggered",
+        "description": "This event is triggered when repost_xbox_achievements is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2789,7 +1919,7 @@
     "onmatchendconditions": {
         "title": "OnMatchEndConditions",
         "template": "game-event-syntax",
-        "description": "This event is triggered when match_end_conditions is triggered",
+        "description": "This event is triggered when match_end_conditions is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2804,7 +1934,7 @@
     "onroundmvp": {
         "title": "OnRoundMvp",
         "template": "game-event-syntax",
-        "description": "This event is triggered when round_mvp is triggered",
+        "description": "This event is triggered when round_mvp is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2821,7 +1951,7 @@
     "onshowsurvivalrespawnstatus": {
         "title": "OnShowSurvivalRespawnStatus",
         "template": "game-event-syntax",
-        "description": "This event is triggered when show_survival_respawn_status is triggered",
+        "description": "This event is triggered when show_survival_respawn_status is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2835,7 +1965,7 @@
     "onggkilledenemy": {
         "title": "OnGgKilledEnemy",
         "template": "game-event-syntax",
-        "description": "This event is triggered when gg_killed_enemy is triggered",
+        "description": "This event is triggered when gg_killed_enemy is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2851,7 +1981,7 @@
     "onswitchteam": {
         "title": "OnSwitchTeam",
         "template": "game-event-syntax",
-        "description": "This event is triggered when switch_team is triggered",
+        "description": "This event is triggered when switch_team is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2867,7 +1997,7 @@
     "onwriteprofiledata": {
         "title": "OnWriteProfileData",
         "template": "game-event-syntax",
-        "description": "This event is triggered when write_profile_data is triggered",
+        "description": "This event is triggered when write_profile_data is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2877,7 +2007,7 @@
     "ontrialtimeexpired": {
         "title": "OnTrialTimeExpired",
         "template": "game-event-syntax",
-        "description": "This event is triggered when fired when a player runs out of time in trial mode",
+        "description": "This event is triggered when trial_time_expired is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2889,7 +2019,7 @@
     "onupdatematchmakingstats": {
         "title": "OnUpdateMatchmakingStats",
         "template": "game-event-syntax",
-        "description": "This event is triggered when Fired when it's time to update matchmaking data at the end of a round.",
+        "description": "This event is triggered when update_matchmaking_stats is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2899,7 +2029,7 @@
     "onplayerresetvote": {
         "title": "OnPlayerResetVote",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_reset_vote is triggered",
+        "description": "This event is triggered when player_reset_vote is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2912,7 +2042,7 @@
     "onenablerestartvoting": {
         "title": "OnEnableRestartVoting",
         "template": "game-event-syntax",
-        "description": "This event is triggered when enable_restart_voting is triggered",
+        "description": "This event is triggered when enable_restart_voting is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2924,7 +2054,7 @@
     "onsfuievent": {
         "title": "OnSfuievent",
         "template": "game-event-syntax",
-        "description": "This event is triggered when sfuievent is triggered",
+        "description": "This event is triggered when sfuievent is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2938,7 +2068,7 @@
     "onstartvote": {
         "title": "OnStartVote",
         "template": "game-event-syntax",
-        "description": "This event is triggered when start_vote is triggered",
+        "description": "This event is triggered when start_vote is triggered.",
         "return": {
             "lua": "void"
         },
@@ -2952,98 +2082,35 @@
     "onplayergivenc4": {
         "title": "OnPlayerGivenC4",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_given_c4 is triggered",
+        "description": "This event is triggered when player_given_c4 is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
             "userid": "int"
         },
-        "additional": {}
-    },
-    "ontrplayerflashbanged": {
-        "title": "OnTrPlayerFlashbanged",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_player_flashbanged is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "userid": "int"
-        },
-        "additional": {}
-    },
-    "ontrmarkcomplete": {
-        "title": "OnTrMarkComplete",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_mark_complete is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "complete": "int"
-        },
-        "additional": {}
-    },
-    "ontrmarkbesttime": {
-        "title": "OnTrMarkBestTime",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_mark_best_time is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "time": "int"
-        },
-        "additional": {}
-    },
-    "ontrexithinttrigger": {
-        "title": "OnTrExitHintTrigger",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_exit_hint_trigger is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
         "additional": {}
     },
     "onbottakeover": {
         "title": "OnBotTakeover",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bot_takeover is triggered",
+        "description": "This event is triggered when bot_takeover is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
             "userid": "int",
-            "botid": "int"
+            "botid": "int",
+            "p": "float",
+            "y": "float",
+            "r": "float"
         },
-        "additional": {}
-    },
-    "ontrshowfinishmsgbox": {
-        "title": "OnTrShowFinishMsgbox",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_show_finish_msgbox is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
-        "additional": {}
-    },
-    "ontrshowexitmsgbox": {
-        "title": "OnTrShowExitMsgbox",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when tr_show_exit_msgbox is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {},
         "additional": {}
     },
     "onjointeamfailed": {
         "title": "OnJointeamFailed",
         "template": "game-event-syntax",
-        "description": "This event is triggered when jointeam_failed is triggered",
+        "description": "This event is triggered when jointeam_failed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3056,7 +2123,7 @@
     "onteamchangepending": {
         "title": "OnTeamchangePending",
         "template": "game-event-syntax",
-        "description": "This event is triggered when teamchange_pending is triggered",
+        "description": "This event is triggered when teamchange_pending is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3069,7 +2136,7 @@
     "onmaterialdefaultcomplete": {
         "title": "OnMaterialDefaultComplete",
         "template": "game-event-syntax",
-        "description": "This event is triggered when material_default_complete is triggered",
+        "description": "This event is triggered when material_default_complete is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3079,7 +2146,7 @@
     "oncsprevnextspectator": {
         "title": "OnCsPrevNextSpectator",
         "template": "game-event-syntax",
-        "description": "This event is triggered when cs_prev_next_spectator is triggered",
+        "description": "This event is triggered when cs_prev_next_spectator is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3091,7 +2158,7 @@
     "onnextlevelchanged": {
         "title": "OnNextlevelChanged",
         "template": "game-event-syntax",
-        "description": "This event is triggered when a game event, name may be 32 characters long",
+        "description": "This event is triggered when nextlevel_changed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3105,7 +2172,7 @@
     "onseasoncoinlevelup": {
         "title": "OnSeasoncoinLevelup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when seasoncoin_levelup is triggered",
+        "description": "This event is triggered when seasoncoin_levelup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3119,7 +2186,7 @@
     "ontournamentreward": {
         "title": "OnTournamentReward",
         "template": "game-event-syntax",
-        "description": "This event is triggered when tournament_reward is triggered",
+        "description": "This event is triggered when tournament_reward is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3133,7 +2200,7 @@
     "onstarthalftime": {
         "title": "OnStartHalftime",
         "template": "game-event-syntax",
-        "description": "This event is triggered when start_halftime is triggered",
+        "description": "This event is triggered when start_halftime is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3143,7 +2210,7 @@
     "onammorefill": {
         "title": "OnAmmoRefill",
         "template": "game-event-syntax",
-        "description": "This event is triggered when ammo_refill is triggered",
+        "description": "This event is triggered when ammo_refill is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3156,7 +2223,7 @@
     "onparachutepickup": {
         "title": "OnParachutePickup",
         "template": "game-event-syntax",
-        "description": "This event is triggered when parachute_pickup is triggered",
+        "description": "This event is triggered when parachute_pickup is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3168,7 +2235,7 @@
     "onparachutedeploy": {
         "title": "OnParachuteDeploy",
         "template": "game-event-syntax",
-        "description": "This event is triggered when parachute_deploy is triggered",
+        "description": "This event is triggered when parachute_deploy is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3180,7 +2247,7 @@
     "ondronegunattack": {
         "title": "OnDronegunAttack",
         "template": "game-event-syntax",
-        "description": "This event is triggered when dronegun_attack is triggered",
+        "description": "This event is triggered when dronegun_attack is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3192,7 +2259,7 @@
     "ondronedispatched": {
         "title": "OnDroneDispatched",
         "template": "game-event-syntax",
-        "description": "This event is triggered when drone_dispatched is triggered",
+        "description": "This event is triggered when drone_dispatched is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3206,7 +2273,7 @@
     "onlootcratevisible": {
         "title": "OnLootCrateVisible",
         "template": "game-event-syntax",
-        "description": "This event is triggered when loot_crate_visible is triggered",
+        "description": "This event is triggered when loot_crate_visible is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3220,7 +2287,7 @@
     "onlootcrateopened": {
         "title": "OnLootCrateOpened",
         "template": "game-event-syntax",
-        "description": "This event is triggered when loot_crate_opened is triggered",
+        "description": "This event is triggered when loot_crate_opened is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3233,7 +2300,7 @@
     "onopencrateinstr": {
         "title": "OnOpenCrateInstr",
         "template": "game-event-syntax",
-        "description": "This event is triggered when open_crate_instr is triggered",
+        "description": "This event is triggered when open_crate_instr is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3247,7 +2314,7 @@
     "onsmokebeaconparadrop": {
         "title": "OnSmokeBeaconParadrop",
         "template": "game-event-syntax",
-        "description": "This event is triggered when smoke_beacon_paradrop is triggered",
+        "description": "This event is triggered when smoke_beacon_paradrop is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3260,7 +2327,7 @@
     "onsurvivalparadropspawn": {
         "title": "OnSurvivalParadropSpawn",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_paradrop_spawn is triggered",
+        "description": "This event is triggered when survival_paradrop_spawn is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3272,7 +2339,7 @@
     "onsurvivalparadropbreak": {
         "title": "OnSurvivalParadropBreak",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_paradrop_break is triggered",
+        "description": "This event is triggered when survival_paradrop_break is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3284,7 +2351,7 @@
     "ondronecargodetached": {
         "title": "OnDroneCargoDetached",
         "template": "game-event-syntax",
-        "description": "This event is triggered when drone_cargo_detached is triggered",
+        "description": "This event is triggered when drone_cargo_detached is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3298,7 +2365,7 @@
     "ondroneaboveroof": {
         "title": "OnDroneAboveRoof",
         "template": "game-event-syntax",
-        "description": "This event is triggered when drone_above_roof is triggered",
+        "description": "This event is triggered when drone_above_roof is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3311,7 +2378,7 @@
     "onchoppersincomingwarning": {
         "title": "OnChoppersIncomingWarning",
         "template": "game-event-syntax",
-        "description": "This event is triggered when choppers_incoming_warning is triggered",
+        "description": "This event is triggered when choppers_incoming_warning is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3323,7 +2390,7 @@
     "onfirstbombsincomingwarning": {
         "title": "OnFirstbombsIncomingWarning",
         "template": "game-event-syntax",
-        "description": "This event is triggered when firstbombs_incoming_warning is triggered",
+        "description": "This event is triggered when firstbombs_incoming_warning is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3335,7 +2402,7 @@
     "ondziteminteraction": {
         "title": "OnDzItemInteraction",
         "template": "game-event-syntax",
-        "description": "This event is triggered when dz_item_interaction is triggered",
+        "description": "This event is triggered when dz_item_interaction is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3349,7 +2416,7 @@
     "onsurvivalteammaterespawn": {
         "title": "OnSurvivalTeammateRespawn",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_teammate_respawn is triggered",
+        "description": "This event is triggered when survival_teammate_respawn is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3361,7 +2428,7 @@
     "onsurvivalnorespawnswarning": {
         "title": "OnSurvivalNoRespawnsWarning",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_no_respawns_warning is triggered",
+        "description": "This event is triggered when survival_no_respawns_warning is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3373,7 +2440,7 @@
     "onsurvivalnorespawnsfinal": {
         "title": "OnSurvivalNoRespawnsFinal",
         "template": "game-event-syntax",
-        "description": "This event is triggered when survival_no_respawns_final is triggered",
+        "description": "This event is triggered when survival_no_respawns_final is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3385,7 +2452,7 @@
     "onplayerping": {
         "title": "OnPlayerPing",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_ping is triggered",
+        "description": "This event is triggered when player_ping is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3402,7 +2469,7 @@
     "onplayerpingstop": {
         "title": "OnPlayerPingStop",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_ping_stop is triggered",
+        "description": "This event is triggered when player_ping_stop is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3414,7 +2481,7 @@
     "onplayersound": {
         "title": "OnPlayerSound",
         "template": "game-event-syntax",
-        "description": "This event is triggered when player_sound is triggered",
+        "description": "This event is triggered when player_sound is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3429,7 +2496,7 @@
     "onguardianwaverestart": {
         "title": "OnGuardianWaveRestart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when guardian_wave_restart is triggered",
+        "description": "This event is triggered when guardian_wave_restart is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3439,7 +2506,7 @@
     "onteamintrostart": {
         "title": "OnTeamIntroStart",
         "template": "game-event-syntax",
-        "description": "This event is triggered when team_intro_start is triggered",
+        "description": "This event is triggered when team_intro_start is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3449,7 +2516,7 @@
     "onteamintroend": {
         "title": "OnTeamIntroEnd",
         "template": "game-event-syntax",
-        "description": "This event is triggered when team_intro_end is triggered",
+        "description": "This event is triggered when team_intro_end is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3459,7 +2526,7 @@
     "onbulletflightresolution": {
         "title": "OnBulletFlightResolution",
         "template": "game-event-syntax",
-        "description": "This event is triggered when bullet_flight_resolution is triggered",
+        "description": "This event is triggered when bullet_flight_resolution is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3477,47 +2544,10 @@
         },
         "additional": {}
     },
-    "ondoorbreak": {
-        "title": "OnDoorBreak",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when door_break is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int",
-            "dmgstate": "int"
-        },
-        "additional": {}
-    },
-    "ondoorclosed": {
-        "title": "OnDoorClosed",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when door_closed is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int"
-        },
-        "additional": {}
-    },
-    "ondooropen": {
-        "title": "OnDoorOpen",
-        "template": "game-event-syntax",
-        "description": "This event is triggered when door_open is triggered",
-        "return": {
-            "lua": "void"
-        },
-        "params": {
-            "entindex": "int"
-        },
-        "additional": {}
-    },
     "ongamephasechanged": {
         "title": "OnGamePhaseChanged",
         "template": "game-event-syntax",
-        "description": "This event is triggered when game_phase_changed is triggered",
+        "description": "This event is triggered when game_phase_changed is triggered.",
         "return": {
             "lua": "void"
         },
@@ -3526,16 +2556,965 @@
         },
         "additional": {}
     },
+    "onclientsidereloadcustomecon": {
+        "title": "OnClientsideReloadCustomEcon",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when clientside_reload_custom_econ is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "steamid": "string"
+        },
+        "additional": {}
+    },
+    "onserverspawn": {
+        "title": "OnServerSpawn",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when server_spawn is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "hostname": "string",
+            "address": "string",
+            "port": "int",
+            "game": "string",
+            "mapname": "string",
+            "addonname": "string",
+            "maxplayers": "int",
+            "os": "string",
+            "dedicated": "boolean",
+            "password": "boolean"
+        },
+        "additional": {}
+    },
+    "onserverpreshutdown": {
+        "title": "OnServerPreShutdown",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when server_pre_shutdown is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "reason": "string"
+        },
+        "additional": {}
+    },
+    "onservershutdown": {
+        "title": "OnServerShutdown",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when server_shutdown is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "reason": "string"
+        },
+        "additional": {}
+    },
+    "onservermessage": {
+        "title": "OnServerMessage",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when server_message is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "text": "string"
+        },
+        "additional": {}
+    },
+    "onservercvar": {
+        "title": "OnServerCvar",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when server_cvar is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "cvarname": "string",
+            "cvarvalue": "string"
+        },
+        "additional": {}
+    },
+    "onplayeractivate": {
+        "title": "OnPlayerActivate",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_activate is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
+    "onplayerconnectfull": {
+        "title": "OnPlayerConnectFull",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_connect_full is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
+    "onplayerfullupdate": {
+        "title": "OnPlayerFullUpdate",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_full_update is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "count": "int"
+        },
+        "additional": {}
+    },
+    "onplayerconnect": {
+        "title": "OnPlayerConnect",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_connect is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "name": "string",
+            "userid": "int",
+            "networkid": "string",
+            "xuid": "uint64",
+            "address": "string",
+            "bot": "boolean"
+        },
+        "additional": {}
+    },
+    "onplayerdisconnect": {
+        "title": "OnPlayerDisconnect",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_disconnect is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "reason": "int",
+            "name": "string",
+            "networkid": "string",
+            "xuid": "uint64",
+            "PlayerID": "int"
+        },
+        "additional": {}
+    },
+    "onplayerinfo": {
+        "title": "OnPlayerInfo",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_info is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "name": "string",
+            "userid": "int",
+            "steamid": "uint64",
+            "bot": "boolean"
+        },
+        "additional": {}
+    },
+    "onplayerspawn": {
+        "title": "OnPlayerSpawn",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_spawn is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
+    "onlocalplayerteam": {
+        "title": "OnLocalPlayerTeam",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when local_player_team is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onlocalplayercontrollerteam": {
+        "title": "OnLocalPlayerControllerTeam",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when local_player_controller_team is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onplayerchangename": {
+        "title": "OnPlayerChangename",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_changename is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "oldname": "string",
+            "newname": "string"
+        },
+        "additional": {}
+    },
+    "onlocalplayerpawnchanged": {
+        "title": "OnLocalPlayerPawnChanged",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when local_player_pawn_changed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onteamplaybroadcastaudio": {
+        "title": "OnTeamplayBroadcastAudio",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when teamplay_broadcast_audio is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "team": "int",
+            "sound": "string"
+        },
+        "additional": {}
+    },
+    "onfinalestart": {
+        "title": "OnFinaleStart",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when finale_start is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "rushes": "int"
+        },
+        "additional": {}
+    },
+    "onplayerstatsupdated": {
+        "title": "OnPlayerStatsUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_stats_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "forceupload": "boolean"
+        },
+        "additional": {}
+    },
+    "onuserdatadownloaded": {
+        "title": "OnUserDataDownloaded",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when user_data_downloaded is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onragdolldissolved": {
+        "title": "OnRagdollDissolved",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when ragdoll_dissolved is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex": "int"
+        },
+        "additional": {}
+    },
+    "onteaminfo": {
+        "title": "OnTeamInfo",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when team_info is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "teamid": "int",
+            "teamname": "string"
+        },
+        "additional": {}
+    },
+    "onteamscore": {
+        "title": "OnTeamScore",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when team_score is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "teamid": "int",
+            "score": "int"
+        },
+        "additional": {}
+    },
+    "onhltvcameraman": {
+        "title": "OnHltvCameraman",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_cameraman is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
+    "onhltvchase": {
+        "title": "OnHltvChase",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_chase is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "target1": "int",
+            "target2": "int",
+            "distance": "int",
+            "theta": "int",
+            "phi": "int",
+            "inertia": "int",
+            "ineye": "int"
+        },
+        "additional": {}
+    },
+    "onhltvrankcamera": {
+        "title": "OnHltvRankCamera",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_rank_camera is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "index": "int",
+            "rank": "float",
+            "target": "int"
+        },
+        "additional": {}
+    },
+    "onhltvrankentity": {
+        "title": "OnHltvRankEntity",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_rank_entity is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "rank": "float",
+            "target": "int"
+        },
+        "additional": {}
+    },
+    "onhltvfixed": {
+        "title": "OnHltvFixed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_fixed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "posx": "int",
+            "posy": "int",
+            "posz": "int",
+            "theta": "int",
+            "phi": "int",
+            "offset": "int",
+            "fov": "float",
+            "target": "int"
+        },
+        "additional": {}
+    },
+    "onhltvmessage": {
+        "title": "OnHltvMessage",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_message is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "text": "string"
+        },
+        "additional": {}
+    },
+    "onhltvstatus": {
+        "title": "OnHltvStatus",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_status is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "clients": "int",
+            "slots": "int",
+            "proxies": "int",
+            "master": "string"
+        },
+        "additional": {}
+    },
+    "onhltvtitle": {
+        "title": "OnHltvTitle",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_title is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "text": "string"
+        },
+        "additional": {}
+    },
+    "onhltvchat": {
+        "title": "OnHltvChat",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_chat is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "text": "string",
+            "steamID": "uint64"
+        },
+        "additional": {}
+    },
+    "onhltvversioninfo": {
+        "title": "OnHltvVersioninfo",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_versioninfo is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "version": "int"
+        },
+        "additional": {}
+    },
+    "onhltvreplay": {
+        "title": "OnHltvReplay",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hltv_replay is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "delay": "int",
+            "reason": "int"
+        },
+        "additional": {}
+    },
     "onhltvreplaystatus": {
         "title": "OnHltvReplayStatus",
         "template": "game-event-syntax",
-        "description": "This event is triggered when hltv_replay_status is triggered",
+        "description": "This event is triggered when hltv_replay_status is triggered.",
         "return": {
             "lua": "void"
         },
         "params": {
             "reason": "int"
         },
+        "additional": {}
+    },
+    "ondemostop": {
+        "title": "OnDemoStop",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when demo_stop is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onmapshutdown": {
+        "title": "OnMapShutdown",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when map_shutdown is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onmaptransition": {
+        "title": "OnMapTransition",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when map_transition is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onhostnamechanged": {
+        "title": "OnHostnameChanged",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when hostname_changed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "hostname": "string"
+        },
+        "additional": {}
+    },
+    "ondifficultychanged": {
+        "title": "OnDifficultyChanged",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when difficulty_changed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "newDifficulty": "int",
+            "oldDifficulty": "int",
+            "strDifficulty": "string"
+        },
+        "additional": {}
+    },
+    "ongamemessage": {
+        "title": "OnGameMessage",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when game_message is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "target": "int",
+            "text": "string"
+        },
+        "additional": {}
+    },
+    "onroundstart": {
+        "title": "OnRoundStart",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when round_start is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "timelimit": "int",
+            "fraglimit": "int",
+            "objective": "string"
+        },
+        "additional": {}
+    },
+    "onroundstartpreentity": {
+        "title": "OnRoundStartPreEntity",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when round_start_pre_entity is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onroundstartpostnav": {
+        "title": "OnRoundStartPostNav",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when round_start_post_nav is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onroundfreezeend": {
+        "title": "OnRoundFreezeEnd",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when round_freeze_end is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onteamplayroundstart": {
+        "title": "OnTeamplayRoundStart",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when teamplay_round_start is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "full_reset": "boolean"
+        },
+        "additional": {}
+    },
+    "onplayerhintmessage": {
+        "title": "OnPlayerHintmessage",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when player_hintmessage is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "hintmessage": "string"
+        },
+        "additional": {}
+    },
+    "onbreakbreakable": {
+        "title": "OnBreakBreakable",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when break_breakable is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex": "int",
+            "userid": "int",
+            "material": "int"
+        },
+        "additional": {}
+    },
+    "onbrokenbreakable": {
+        "title": "OnBrokenBreakable",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when broken_breakable is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex": "int",
+            "userid": "int",
+            "material": "int"
+        },
+        "additional": {}
+    },
+    "onentitykilled": {
+        "title": "OnEntityKilled",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when entity_killed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex_killed": "int",
+            "entindex_attacker": "int",
+            "entindex_inflictor": "int",
+            "damagebits": "int"
+        },
+        "additional": {}
+    },
+    "ondoorclose": {
+        "title": "OnDoorClose",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when door_close is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "checkpoint": "boolean"
+        },
+        "additional": {}
+    },
+    "onvotefailed": {
+        "title": "OnVoteFailed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_failed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "team": "int"
+        },
+        "additional": {}
+    },
+    "onvotepassed": {
+        "title": "OnVotePassed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_passed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "details": "string",
+            "param1": "string",
+            "team": "int"
+        },
+        "additional": {}
+    },
+    "onvotecastyes": {
+        "title": "OnVoteCastYes",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_cast_yes is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "team": "int",
+            "entityid": "int"
+        },
+        "additional": {}
+    },
+    "onvotecastno": {
+        "title": "OnVoteCastNo",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when vote_cast_no is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "team": "int",
+            "entityid": "int"
+        },
+        "additional": {}
+    },
+    "onachievementevent": {
+        "title": "OnAchievementEvent",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when achievement_event is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "achievement_name": "string",
+            "cur_val": "int",
+            "max_val": "int"
+        },
+        "additional": {}
+    },
+    "onachievementearned": {
+        "title": "OnAchievementEarned",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when achievement_earned is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "player": "int",
+            "achievement": "int"
+        },
+        "additional": {}
+    },
+    "onachievementwritefailed": {
+        "title": "OnAchievementWriteFailed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when achievement_write_failed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onbonusupdated": {
+        "title": "OnBonusUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when bonus_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "numadvanced": "int",
+            "numbronze": "int",
+            "numsilver": "int",
+            "numgold": "int"
+        },
+        "additional": {}
+    },
+    "onspectargetupdated": {
+        "title": "OnSpecTargetUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when spec_target_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int"
+        },
+        "additional": {}
+    },
+    "ongameinstructordraw": {
+        "title": "OnGameinstructorDraw",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when gameinstructor_draw is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "ongameinstructornodraw": {
+        "title": "OnGameinstructorNodraw",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when gameinstructor_nodraw is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onflareignitenpc": {
+        "title": "OnFlareIgniteNpc",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when flare_ignite_npc is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "entindex": "int"
+        },
+        "additional": {}
+    },
+    "onhelicoptergrenadepuntmiss": {
+        "title": "OnHelicopterGrenadePuntMiss",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when helicopter_grenade_punt_miss is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onphysgunpickup": {
+        "title": "OnPhysgunPickup",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when physgun_pickup is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "oncartupdated": {
+        "title": "OnCartUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when cart_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onstorepricesheetupdated": {
+        "title": "OnStorePricesheetUpdated",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when store_pricesheet_updated is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "onitemschemainitialized": {
+        "title": "OnItemSchemaInitialized",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when item_schema_initialized is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "ondropratemodified": {
+        "title": "OnDropRateModified",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when drop_rate_modified is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "oneventticketmodified": {
+        "title": "OnEventTicketModified",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when event_ticket_modified is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "ongcconnected": {
+        "title": "OnGcConnected",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when gc_connected is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
+        "additional": {}
+    },
+    "oninstructorstartlesson": {
+        "title": "OnInstructorStartLesson",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when instructor_start_lesson is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "hint_name": "string",
+            "hint_target": "int",
+            "vr_movement_type": "int",
+            "vr_single_controller": "boolean",
+            "vr_controller_type": "int"
+        },
+        "additional": {}
+    },
+    "oninstructorcloselesson": {
+        "title": "OnInstructorCloseLesson",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when instructor_close_lesson is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "userid": "int",
+            "hint_name": "string"
+        },
+        "additional": {}
+    },
+    "onsetinstructorgroupenabled": {
+        "title": "OnSetInstructorGroupEnabled",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when set_instructor_group_enabled is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "group": "string",
+            "enabled": "int"
+        },
+        "additional": {}
+    },
+    "onclientsidelessonclosed": {
+        "title": "OnClientsideLessonClosed",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when clientside_lesson_closed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {
+            "lesson_name": "string"
+        },
+        "additional": {}
+    },
+    "ondynamicshadowlightchanged": {
+        "title": "OnDynamicShadowLightChanged",
+        "template": "game-event-syntax",
+        "description": "This event is triggered when dynamic_shadow_light_changed is triggered.",
+        "return": {
+            "lua": "void"
+        },
+        "params": {},
         "additional": {}
     }
 }
