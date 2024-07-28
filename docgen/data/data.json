@@ -92301,6 +92301,19 @@
                         "params": {},
                         "additional": {}
                     },
+                    "setdefaultattributes": {
+                        "title": "SetDefaultAttributes",
+                        "template": "function-syntax",
+                        "description": "Sets the default attributes to the weapon based on it's specifications.",
+                        "variable": {
+                            "lua": "weapon:SetDefaultAttributes"
+                        },
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {},
+                        "additional": {}
+                    },
                     "remove": {
                         "title": "Remove",
                         "template": "function-syntax",
