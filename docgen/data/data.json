@@ -9331,6 +9331,19 @@
                 "params": {},
                 "additional": {}
             },
+            "getconnectedtime": {
+                "title": "GetConnectedTime",
+                "template": "function-syntax",
+                "description": "Returns the connected time of the player.",
+                "variable": {
+                    "lua": "player:GetConnectedTime"
+                },
+                "return": {
+                    "lua": "number"
+                },
+                "params": {},
+                "additional": {}
+            },
             "getsteamid2": {
                 "title": "GetSteamID2",
                 "template": "function-syntax",
