@@ -9,7 +9,7 @@ category:
 
 # Patches
 
-To enable specific patches from `addons/swiftly/gamedata/patches.json` on your server you need to add it's key to `patches_to_perform` in `addons/swiftly/configs/core.json`;
+To enable specific patches from `addons/swiftly/gamedata/patches.json` on your server you need to add it's key to `patches_to_perform` in `addons/swiftly/configs/core.json`:
 
 ```json title="core.json"
 {
