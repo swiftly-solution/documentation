@@ -123,6 +123,22 @@
                 },
                 "additional": {}
             },
+            "registerrawalias": {
+                "title": "RegisterRawAlias",
+                "description": "Registers a raw alias (without sw_ in console) for a command registered through Swiftly Commands.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "commands:RegisterRawAlias"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "commandName": "string",
+                    "alias": "string"
+                },
+                "additional": {}
+            },
             "registeralias": {
                 "title": "RegisterAlias",
                 "description": "Registers an alias for a command registered through Swiftly Commands.",
