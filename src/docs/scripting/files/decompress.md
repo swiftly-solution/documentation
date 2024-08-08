@@ -14,5 +14,7 @@ Decompresses a file.
 @returns boolean
 files:Decompress(path --[[ string ]], output --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

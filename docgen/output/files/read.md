@@ -14,5 +14,7 @@ Reads the content of a file
 @returns string
 files:Read(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

@@ -14,5 +14,7 @@ Deletes a file
 @returns void
 files:Delete(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

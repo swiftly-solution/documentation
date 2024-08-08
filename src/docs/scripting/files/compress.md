@@ -14,5 +14,7 @@ Compresses a file.
 @returns boolean
 files:Compress(path --[[ string ]], output --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

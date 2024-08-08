@@ -14,5 +14,7 @@ Returns if the path exists or not
 @returns boolean
 files:ExistsPath(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

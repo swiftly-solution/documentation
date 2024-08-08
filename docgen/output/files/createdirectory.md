@@ -14,5 +14,7 @@ Creates a directory
 @returns boolean
 files:CreateDirectory(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

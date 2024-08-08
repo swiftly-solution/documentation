@@ -14,5 +14,7 @@ Appends the content to a file
 @returns void
 files:Append(path --[[ string ]], content --[[ string ]], hasdate --[[ boolean ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

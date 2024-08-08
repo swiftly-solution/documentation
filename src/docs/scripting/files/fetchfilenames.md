@@ -14,5 +14,7 @@ Returns a list of all the file names in a directory.
 @returns table
 files:FetchFileNames(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::

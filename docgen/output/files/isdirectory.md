@@ -14,5 +14,7 @@ Returns if the path is a directory or not
 @returns boolean
 files:IsDirectory(path --[[ string ]])
 ```
+> [!info]
+> The root of the Files API is located in `game/csgo`.
 
 :::
