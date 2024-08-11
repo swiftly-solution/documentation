@@ -237,7 +237,7 @@
                     "lua": "config:Fetch"
                 },
                 "return": {
-                    "lua": "string / number / boolean"
+                    "lua": "string / number / boolean / table"
                 },
                 "params": {
                     "key": "string"
