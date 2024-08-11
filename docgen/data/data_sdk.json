@@ -742,8 +742,7 @@
                 "params": {
                     "sound_name": "string",
                     "pitch": "number",
-                    "volume": "number",
-                    "delay": "number"
+                    "volume": "number"
                 }
             },
             "EHandle": {
