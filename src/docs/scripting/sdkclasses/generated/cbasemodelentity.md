@@ -172,6 +172,11 @@ Write: cbasemodelentity.Parent = value
 @returns void
 cbasemodelentity:SetModel(model --[[ string ]])
 ```
+## SetSolidType
+```lua
+@returns void
+cbasemodelentity:SetSolidType(solidType --[[ number ]])
+```
 ## ToPtr
 ```lua
 @returns string

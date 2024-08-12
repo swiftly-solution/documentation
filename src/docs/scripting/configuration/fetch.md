@@ -11,7 +11,7 @@ Returns the configuration value for the specified key.
 ::: tabs
 @tab Lua
 ```lua
-@returns string / number / boolean
+@returns string / number / boolean / table
 config:Fetch(key --[[ string ]])
 ```
 > [!info]

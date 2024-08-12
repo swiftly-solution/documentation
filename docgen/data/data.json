@@ -397,7 +397,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Params\nThe parameters can be used by the following format inside the query string:\n```\n@key\n[key]\n{key}```\nInside the parameters value it needs to be the following format\n```lua\n{\n    [\"key\"] = value,\n    [\"key2\"] = value,\n    -- ...\n}```\nThe values can be a string, a number or a boolean. It will automatically convert to string form and perform EscapeString to it so that there would be no chance for SQL Injection.\n\n### Callback\nThe callback has the following arguments:\n```lua\ncb(err --[[ string ]], result --[[ table ]])\n```"
+                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Params\nThe parameters can be used by the following format inside the query string:\n```\n@key\n[key]\n{key}\n```\n\nInside the parameters value it needs to be the following format\n```lua\n{\n    [\"key\"] = value,\n    [\"key2\"] = value,\n    -- ...\n}\n```\n\nThe values can be a string, a number or a boolean. It will automatically convert to string form and perform EscapeString to it so that there would be no chance for SQL Injection.\n\n### Callback\nThe callback has the following arguments:\n```lua\ncb(err --[[ string ]], result --[[ table ]])\n```"
                 }
             }
         }
@@ -10833,8 +10833,7 @@
                                 "params": {
                                     "sound_name": "string",
                                     "pitch": "number",
-                                    "volume": "number",
-                                    "delay": "number"
+                                    "volume": "number"
                                 }
                             },
                             "EHandle": {
@@ -11289,6 +11288,14 @@
                                 },
                                 "params": {
                                     "model": "string"
+                                }
+                            },
+                            "SetSolidType": {
+                                "return": {
+                                    "lua": "void"
+                                },
+                                "params": {
+                                    "solidType": "number"
                                 }
                             },
                             "ToPtr": {

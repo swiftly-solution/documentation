@@ -22,14 +22,18 @@ The parameters can be used by the following format inside the query string:
 ```
 @key
 [key]
-{key}```
+{key}
+```
+
 Inside the parameters value it needs to be the following format
 ```lua
 {
     ["key"] = value,
     ["key2"] = value,
     -- ...
-}```
+}
+```
+
 The values can be a string, a number or a boolean. It will automatically convert to string form and perform EscapeString to it so that there would be no chance for SQL Injection.
 
 ### Callback

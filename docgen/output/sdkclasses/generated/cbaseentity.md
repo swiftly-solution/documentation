@@ -469,7 +469,7 @@ Write: cbaseentity.Parent = value
 ## EmitSound
 ```lua
 @returns void
-cbaseentity:EmitSound(sound_name --[[ string ]], pitch --[[ number ]], volume --[[ number ]], delay --[[ number ]])
+cbaseentity:EmitSound(sound_name --[[ string ]], pitch --[[ number ]], volume --[[ number ]])
 ```
 ## EHandle
 ```lua
