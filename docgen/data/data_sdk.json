@@ -1199,6 +1199,14 @@
                     "model": "string"
                 }
             },
+            "SetSolidType": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "solidType": "number"
+                }
+            },
             "ToPtr": {
                 "return": {
                     "lua": "string"
