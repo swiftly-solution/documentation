@@ -12,7 +12,7 @@ Loads the memory from the provided signature.
 @tab Lua
 ```lua
 @returns void
-memory:LoadFromSignature(signature --[[ string ]])
+memory:LoadFromSignature(library --[[ string ]], signature --[[ string ]])
 ```
 
 :::

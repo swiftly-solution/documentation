@@ -8799,6 +8799,34 @@
         "order": 3,
         "icon": "memory",
         "data": {
+            "accessedvtable": {
+                "title": "AccessedVTable",
+                "template": "function-syntax",
+                "description": "Returns if the memory is in the VTable.",
+                "variable": {
+                    "lua": "memory:AccessedVTable"
+                },
+                "return": {
+                    "lua": "boolean"
+                },
+                "params": {},
+                "additional": {}
+            },
+            "accessvtable": {
+                "title": "AccessVTable",
+                "template": "function-syntax",
+                "description": "Accesses the VTable at the specified offset.",
+                "variable": {
+                    "lua": "memory:AccessVTable"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "offset": "number"
+                },
+                "additional": {}
+            },
             "setbool": {
                 "title": "SetBool",
                 "template": "function-syntax",
@@ -9021,6 +9049,7 @@
                     "lua": "void"
                 },
                 "params": {
+                    "library": "string",
                     "signature": "string"
                 },
                 "additional": {}
