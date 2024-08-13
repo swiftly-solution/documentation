@@ -91530,6 +91530,24 @@
                 "order": 3,
                 "icon": "laptop-code",
                 "data": {
+                    "stateupdate": {
+                        "title": "StateUpdate",
+                        "template": "function-syntax",
+                        "description": "Updates the state of a specific field.",
+                        "variable": {
+                            "lua": "StateUpdate"
+                        },
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "ptr": "string",
+                            "classname": "string",
+                            "field": "string",
+                            "isStruct": "boolean"
+                        },
+                        "additional": {}
+                    },
                     "uuid": {
                         "title": "UUID",
                         "template": "function-syntax",
