@@ -9165,6 +9165,19 @@
         "order": 3,
         "icon": "user",
         "data": {
+            "isvalid": {
+                "title": "IsValid",
+                "template": "function-syntax",
+                "description": "Checks if it's a valid player.",
+                "variable": {
+                    "lua": "player:IsValid"
+                },
+                "return": {
+                    "lua": "boolean"
+                },
+                "params": {},
+                "additional": {}
+            },
             "cbaseentity": {
                 "title": "CBaseEntity",
                 "template": "function-syntax",
