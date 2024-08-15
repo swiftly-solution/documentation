@@ -270,6 +270,41 @@
         "order": 3,
         "icon": "puzzle-piece",
         "data": {
+            "createfake": {
+                "title": "CreateFake",
+                "template": "function-syntax",
+                "description": "Creates a fake convar.",
+                "variable": {
+                    "lua": "convar:CreateFake"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "name": "string",
+                    "cvartype": "EConVarType",
+                    "defaultValue": "any",
+                    "protected": "boolean"
+                },
+                "additional": {
+                    "lua": "If the protected is set to true, no data will be sent by the server to the client about this convar."
+                }
+            },
+            "deletefake": {
+                "title": "DeleteFake",
+                "template": "function-syntax",
+                "description": "Deletes a fake convar.",
+                "variable": {
+                    "lua": "convar:DeleteFake"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "name": "string"
+                },
+                "additional": {}
+            },
             "get": {
                 "title": "Get",
                 "template": "function-syntax",
