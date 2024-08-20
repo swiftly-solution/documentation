@@ -1192,6 +1192,15 @@
             }
         },
         "functions": {
+            "SetBodygroup": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "str": "string",
+                    "val": "value"
+                }
+            },
             "SetModel": {
                 "return": {
                     "lua": "void"
@@ -2461,6 +2470,15 @@
             }
         },
         "functions": {
+            "SetOrAddAttributeValueByName": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "str": "string",
+                    "value": "number"
+                }
+            },
             "ToPtr": {
                 "return": {
                     "lua": "string"
