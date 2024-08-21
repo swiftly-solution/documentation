@@ -167,6 +167,11 @@ Read: cbasemodelentity.Parent
 Write: cbasemodelentity.Parent = value
 ```
 # Functions
+## SetBodygroup
+```lua
+@returns void
+cbasemodelentity:SetBodygroup(str --[[ string ]], val --[[ value ]])
+```
 ## SetModel
 ```lua
 @returns void

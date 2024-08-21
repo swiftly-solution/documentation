@@ -28,6 +28,11 @@ Read: cattributelist.Manager
 Write: cattributelist.Manager = value
 ```
 # Functions
+## SetOrAddAttributeValueByName
+```lua
+@returns void
+cattributelist:SetOrAddAttributeValueByName(str --[[ string ]], value --[[ number ]])
+```
 ## ToPtr
 ```lua
 @returns string
