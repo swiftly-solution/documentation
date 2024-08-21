@@ -15,9 +15,20 @@ To change the menu configuration, you can modify the `addons/swiftly/configs/cor
 {
     ...
     "menu": {
+        "navigation_prefix" : "➤",
         "sound": {
-            "name": "UI.ContractType",
-            "volume": 0.75
+            "use": {
+                "name": "Vote.Cast.Yes",
+                "volume": 0.75
+            },
+            "scroll": {
+                "name": "UI.ContractType",
+                "volume": 0.75
+            },
+            "exit": {
+                "name": "Vote.Failed",
+                "volume": 0.75
+            }         
         },
         "buttons": {
             "use": "e",
