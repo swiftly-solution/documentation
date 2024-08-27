@@ -91709,6 +91709,21 @@
                         },
                         "additional": {}
                     },
+                    "stringtrim": {
+                        "title": "String Trim",
+                        "template": "function-syntax",
+                        "description": "Trims a string.",
+                        "variable": {
+                            "lua": "string.trim"
+                        },
+                        "return": {
+                            "lua": "string"
+                        },
+                        "params": {
+                            "str": "string"
+                        },
+                        "additional": {}
+                    },
                     "getccsgamerules": {
                         "title": "GetCCSGameRules",
                         "template": "function-syntax",
