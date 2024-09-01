@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ShatterPanelMode = {
-    SHATTER_GLASS = 0x0,
-    SHATTER_DRYWALL = 0x1
+    SHATTER_GLASS = 0,
+    SHATTER_DRYWALL = 1
 }
 ```
 :::

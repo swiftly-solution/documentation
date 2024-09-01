@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 HitGroup_t = {
-    HITGROUP_INVALID = 0xffffffffffffffff,
+    HITGROUP_INVALID = 0xffffffff,
     HITGROUP_GENERIC = 0x0,
     HITGROUP_HEAD = 0x1,
     HITGROUP_CHEST = 0x2,

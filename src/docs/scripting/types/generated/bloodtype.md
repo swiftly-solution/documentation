@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 BloodType = {
-    None = 0xffffffffffffffff,
+    None = 0xffffffff,
     ColorRed = 0x0,
     ColorYellow = 0x1,
     ColorGreen = 0x2,

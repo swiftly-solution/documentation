@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 NmRootMotionBlendMode_t = {
-    Blend = 0x0,
-    Additive = 0x1,
-    IgnoreSource = 0x2,
-    IgnoreTarget = 0x3
+    Blend = 0,
+    Additive = 1,
+    IgnoreSource = 2,
+    IgnoreTarget = 3
 }
 ```
 :::

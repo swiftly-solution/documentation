@@ -275,7 +275,7 @@ usermessage:SetString(fieldName --[[ string ]], value --[[ string ]])
 ## GetRepeatedString
 ```lua
 @returns string
-usermessage:GetRepeatedString(fieldName --[[ string ]], index --[[ string ]])
+usermessage:GetRepeatedString(fieldName --[[ string ]], index --[[ number ]])
 ```
 ## SetRepeatedString
 ```lua

@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 ScalarExpressionType_t = {
-    SCALAR_EXPRESSION_UNINITIALIZED = 0xffffffffffffffff,
+    SCALAR_EXPRESSION_UNINITIALIZED = 0xffffffff,
     SCALAR_EXPRESSION_ADD = 0x0,
     SCALAR_EXPRESSION_SUBTRACT = 0x1,
     SCALAR_EXPRESSION_MUL = 0x2,

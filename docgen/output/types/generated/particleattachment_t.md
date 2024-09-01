@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 ParticleAttachment_t = {
-    PATTACH_INVALID = 0xffffffffffffffff,
+    PATTACH_INVALID = 0xffffffff,
     PATTACH_ABSORIGIN = 0x0,
     PATTACH_ABSORIGIN_FOLLOW = 0x1,
     PATTACH_CUSTOMORIGIN = 0x2,

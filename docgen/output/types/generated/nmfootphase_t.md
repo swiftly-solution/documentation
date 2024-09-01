@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 NmFootPhase_t = {
-    LeftFootDown = 0x0,
-    RightFootPassing = 0x1,
-    RightFootDown = 0x2,
-    LeftFootPassing = 0x3
+    LeftFootDown = 0,
+    RightFootPassing = 1,
+    RightFootDown = 2,
+    LeftFootPassing = 3
 }
 ```
 :::

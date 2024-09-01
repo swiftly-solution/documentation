@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 FuseVariableAccess_t = {
-    WRITABLE = 0x0,
-    READ_ONLY = 0x1
+    WRITABLE = 0,
+    READ_ONLY = 1
 }
 ```
 :::

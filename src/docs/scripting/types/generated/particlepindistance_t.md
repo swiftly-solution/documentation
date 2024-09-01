@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 ParticlePinDistance_t = {
-    PARTICLE_PIN_DISTANCE_NONE = 0xffffffffffffffff,
+    PARTICLE_PIN_DISTANCE_NONE = 0xffffffff,
     PARTICLE_PIN_DISTANCE_NEIGHBOR = 0x0,
     PARTICLE_PIN_DISTANCE_FARTHEST = 0x1,
     PARTICLE_PIN_DISTANCE_FIRST = 0x2,

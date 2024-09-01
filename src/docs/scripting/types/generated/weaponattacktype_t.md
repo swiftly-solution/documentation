@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 WeaponAttackType_t = {
-    eInvalid = 0xffffffffffffffff,
+    eInvalid = 0xffffffff,
     ePrimary = 0x0,
     eSecondary = 0x1,
     eCount = 0x2

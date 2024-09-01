@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 ParticleFloatMapType_t = {
-    PF_MAP_TYPE_INVALID = 0xffffffffffffffff,
+    PF_MAP_TYPE_INVALID = 0xffffffff,
     PF_MAP_TYPE_DIRECT = 0x0,
     PF_MAP_TYPE_MULT = 0x1,
     PF_MAP_TYPE_REMAP = 0x2,

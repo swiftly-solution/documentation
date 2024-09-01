@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 VMixFilterType_t = {
-    FILTER_UNKNOWN = 0xffffffffffffffff,
+    FILTER_UNKNOWN = 0xffff,
     FILTER_LOWPASS = 0x0,
     FILTER_HIGHPASS = 0x1,
     FILTER_BANDPASS = 0x2,
