@@ -21,17 +21,15 @@ CAudioSentence(ptr --[[ string ]])
 Read: caudiosentence.ShouldVoiceDuck
 Write: caudiosentence.ShouldVoiceDuck = value
 ```
-## RunTimePhonemes 
+## RunTimePhonemes (Read-Only)
 ```lua
 @type table
 Read: caudiosentence.RunTimePhonemes
-Write: caudiosentence.RunTimePhonemes = value
 ```
-## EmphasisSamples 
+## EmphasisSamples (Read-Only)
 ```lua
 @type table
 Read: caudiosentence.EmphasisSamples
-Write: caudiosentence.EmphasisSamples = value
 ```
 ## MorphData (Read-Only)
 ```lua

@@ -117,11 +117,10 @@ Read: cphyshinge.OnStartMoving
 @type CEntityIOOutput
 Read: cphyshinge.OnStopMoving
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphyshinge.Parent
-Write: cphyshinge.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,17 +15,15 @@ category:
 CTeam(ptr --[[ string ]])
 ```
 # Properties
-## PlayerControllers 
+## PlayerControllers (Read-Only)
 ```lua
 @type table
 Read: cteam.PlayerControllers
-Write: cteam.PlayerControllers = value
 ```
-## Players 
+## Players (Read-Only)
 ```lua
 @type table
 Read: cteam.Players
-Write: cteam.Players = value
 ```
 ## Score 
 ```lua
@@ -39,11 +37,10 @@ Write: cteam.Score = value
 Read: cteam.Teamname
 Write: cteam.Teamname = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cteam.Parent
-Write: cteam.Parent = value
 ```
 # Functions
 ## ToPtr

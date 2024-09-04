@@ -15,11 +15,10 @@ category:
 CMarkupVolumeTagged_Nav(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMarkupVolumeTagged
 Read: cmarkupvolumetagged_nav.Parent
-Write: cmarkupvolumetagged_nav.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: cinfodynamicshadowhintbox.BoxMins = value
 Read: cinfodynamicshadowhintbox.BoxMaxs
 Write: cinfodynamicshadowhintbox.BoxMaxs = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CInfoDynamicShadowHint
 Read: cinfodynamicshadowhintbox.Parent
-Write: cinfodynamicshadowhintbox.Parent = value
 ```
 # Functions
 ## ToPtr

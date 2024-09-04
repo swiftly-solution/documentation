@@ -20,11 +20,10 @@ CMotionMatchingUpdateNode(ptr --[[ string ]])
 @type CMotionDataSet
 Read: cmotionmatchingupdatenode.DataSet
 ```
-## Weights 
+## Weights (Read-Only)
 ```lua
 @type table
 Read: cmotionmatchingupdatenode.Weights
-Write: cmotionmatchingupdatenode.Weights = value
 ```
 ## SearchEveryTick 
 ```lua
@@ -144,11 +143,10 @@ Write: cmotionmatchingupdatenode.DistanceScale_MinScale = value
 Read: cmotionmatchingupdatenode.EnableDistanceScaling
 Write: cmotionmatchingupdatenode.EnableDistanceScaling = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: cmotionmatchingupdatenode.Parent
-Write: cmotionmatchingupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CCSGameModeRules_Noop(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSGameModeRules
 Read: ccsgamemoderules_noop.Parent
-Write: ccsgamemoderules_noop.Parent = value
 ```
 # Functions
 ## ToPtr

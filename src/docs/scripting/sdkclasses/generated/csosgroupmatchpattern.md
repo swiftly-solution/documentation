@@ -45,11 +45,10 @@ Write: csosgroupmatchpattern.Opvar = value
 Read: csosgroupmatchpattern.OpvarString
 Write: csosgroupmatchpattern.OpvarString = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupBranchPattern
 Read: csosgroupmatchpattern.Parent
-Write: csosgroupmatchpattern.Parent = value
 ```
 # Functions
 ## ToPtr

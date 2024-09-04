@@ -57,11 +57,10 @@ Write: ctimeline.CompressionType = value
 Read: ctimeline.Stopped
 Write: ctimeline.Stopped = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type IntervalTimer
 Read: ctimeline.Parent
-Write: ctimeline.Parent = value
 ```
 # Functions
 ## ToPtr

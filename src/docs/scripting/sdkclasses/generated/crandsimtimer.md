@@ -27,11 +27,10 @@ Write: crandsimtimer.MinInterval = value
 Read: crandsimtimer.MaxInterval
 Write: crandsimtimer.MaxInterval = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSimpleSimTimer
 Read: crandsimtimer.Parent
-Write: crandsimtimer.Parent = value
 ```
 # Functions
 ## ToPtr

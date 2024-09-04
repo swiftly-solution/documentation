@@ -20,11 +20,10 @@ CAttributeContainer(ptr --[[ string ]])
 @type CEconItemView
 Read: cattributecontainer.Item
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAttributeManager
 Read: cattributecontainer.Parent
-Write: cattributecontainer.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: cbubbling.Frequency = value
 Read: cbubbling.State
 Write: cbubbling.State = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbubbling.Parent
-Write: cbubbling.Parent = value
 ```
 # Functions
 ## ToPtr

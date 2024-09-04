@@ -21,11 +21,10 @@ CBuyZone(ptr --[[ string ]])
 Read: cbuyzone.LegacyTeamNum
 Write: cbuyzone.LegacyTeamNum = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cbuyzone.Parent
-Write: cbuyzone.Parent = value
 ```
 # Functions
 ## ToPtr

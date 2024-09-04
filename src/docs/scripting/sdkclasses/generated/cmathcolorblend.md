@@ -39,11 +39,10 @@ Write: cmathcolorblend.OutColor1 = value
 Read: cmathcolorblend.OutColor2
 Write: cmathcolorblend.OutColor2 = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cmathcolorblend.Parent
-Write: cmathcolorblend.Parent = value
 ```
 # Functions
 ## ToPtr

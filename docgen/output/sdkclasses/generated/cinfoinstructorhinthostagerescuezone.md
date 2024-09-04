@@ -15,11 +15,10 @@ category:
 CInfoInstructorHintHostageRescueZone(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfoinstructorhinthostagerescuezone.Parent
-Write: cinfoinstructorhinthostagerescuezone.Parent = value
 ```
 # Functions
 ## ToPtr

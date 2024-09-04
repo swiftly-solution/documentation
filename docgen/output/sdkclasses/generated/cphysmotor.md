@@ -55,11 +55,10 @@ Write: cphysmotor.LastTime = value
 @type CMotorController
 Read: cphysmotor.Motor
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cphysmotor.Parent
-Write: cphysmotor.Parent = value
 ```
 # Functions
 ## ToPtr

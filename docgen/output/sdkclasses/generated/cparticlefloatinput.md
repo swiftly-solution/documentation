@@ -276,11 +276,10 @@ Write: cparticlefloatinput.BiasType = value
 Read: cparticlefloatinput.BiasParameter
 Write: cparticlefloatinput.BiasParameter = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleInput
 Read: cparticlefloatinput.Parent
-Write: cparticlefloatinput.Parent = value
 ```
 # Functions
 ## ToPtr

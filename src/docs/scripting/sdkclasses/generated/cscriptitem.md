@@ -21,11 +21,10 @@ CScriptItem(ptr --[[ string ]])
 Read: cscriptitem.MoveTypeOverride
 Write: cscriptitem.MoveTypeOverride = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItem
 Read: cscriptitem.Parent
-Write: cscriptitem.Parent = value
 ```
 # Functions
 ## ToPtr

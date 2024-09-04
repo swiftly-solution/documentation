@@ -39,11 +39,10 @@ Write: cfootsteplandedanimtag.DebugAnimSourceString = value
 Read: cfootsteplandedanimtag.BoneName
 Write: cfootsteplandedanimtag.BoneName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cfootsteplandedanimtag.Parent
-Write: cfootsteplandedanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

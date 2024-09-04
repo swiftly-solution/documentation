@@ -33,11 +33,10 @@ Write: cenvfiresource.Radius = value
 Read: cenvfiresource.Damage
 Write: cenvfiresource.Damage = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvfiresource.Parent
-Write: cenvfiresource.Parent = value
 ```
 # Functions
 ## ToPtr

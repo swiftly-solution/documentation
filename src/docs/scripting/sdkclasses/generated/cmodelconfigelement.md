@@ -21,11 +21,10 @@ CModelConfigElement(ptr --[[ string ]])
 Read: cmodelconfigelement.ElementName
 Write: cmodelconfigelement.ElementName = value
 ```
-## NestedElements 
+## NestedElements (Read-Only)
 ```lua
 @type table
 Read: cmodelconfigelement.NestedElements
-Write: cmodelconfigelement.NestedElements = value
 ```
 # Functions
 ## ToPtr

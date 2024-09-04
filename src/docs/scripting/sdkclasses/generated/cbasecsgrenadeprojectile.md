@@ -111,11 +111,10 @@ Write: cbasecsgrenadeprojectile.HasEverHitPlayer = value
 Read: cbasecsgrenadeprojectile.ClearFromPlayers
 Write: cbasecsgrenadeprojectile.ClearFromPlayers = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseGrenade
 Read: cbasecsgrenadeprojectile.Parent
-Write: cbasecsgrenadeprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

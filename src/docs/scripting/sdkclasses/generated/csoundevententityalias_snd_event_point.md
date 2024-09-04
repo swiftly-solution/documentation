@@ -15,11 +15,10 @@ category:
 CSoundEventEntityAlias_snd_event_point(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundEventEntity
 Read: csoundevententityalias_snd_event_point.Parent
-Write: csoundevententityalias_snd_event_point.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 FootPinningPoseOpFixedData_t(ptr --[[ string ]])
 ```
 # Properties
-## FootInfo 
+## FootInfo (Read-Only)
 ```lua
 @type table
 Read: footpinningposeopfixeddata_t.FootInfo
-Write: footpinningposeopfixeddata_t.FootInfo = value
 ```
 ## BlendTime 
 ```lua

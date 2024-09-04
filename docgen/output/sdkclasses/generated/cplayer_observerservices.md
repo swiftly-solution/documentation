@@ -38,11 +38,10 @@ Write: cplayer_observerservices.ObserverLastMode = value
 Read: cplayer_observerservices.ForcedObserverMode
 Write: cplayer_observerservices.ForcedObserverMode = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_observerservices.Parent
-Write: cplayer_observerservices.Parent = value
 ```
 # Functions
 ## ToPtr

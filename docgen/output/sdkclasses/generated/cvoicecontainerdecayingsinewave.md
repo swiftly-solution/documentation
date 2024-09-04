@@ -27,11 +27,10 @@ Write: cvoicecontainerdecayingsinewave.Frequency = value
 Read: cvoicecontainerdecayingsinewave.DecayTime
 Write: cvoicecontainerdecayingsinewave.DecayTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerdecayingsinewave.Parent
-Write: cvoicecontainerdecayingsinewave.Parent = value
 ```
 # Functions
 ## ToPtr

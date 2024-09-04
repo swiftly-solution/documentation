@@ -15,35 +15,30 @@ category:
 CAnimSkeleton(ptr --[[ string ]])
 ```
 # Properties
-## BoneNames 
+## BoneNames (Read-Only)
 ```lua
 @type table
 Read: canimskeleton.BoneNames
-Write: canimskeleton.BoneNames = value
 ```
-## Parents 
+## Parents (Read-Only)
 ```lua
 @type table
 Read: canimskeleton.Parents
-Write: canimskeleton.Parents = value
 ```
-## Feet 
+## Feet (Read-Only)
 ```lua
 @type table
 Read: canimskeleton.Feet
-Write: canimskeleton.Feet = value
 ```
-## MorphNames 
+## MorphNames (Read-Only)
 ```lua
 @type table
 Read: canimskeleton.MorphNames
-Write: canimskeleton.MorphNames = value
 ```
-## LodBoneCounts 
+## LodBoneCounts (Read-Only)
 ```lua
 @type table
 Read: canimskeleton.LodBoneCounts
-Write: canimskeleton.LodBoneCounts = value
 ```
 # Functions
 ## ToPtr

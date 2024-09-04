@@ -21,11 +21,10 @@ CEnvHudHint(ptr --[[ string ]])
 Read: cenvhudhint.Message
 Write: cenvhudhint.Message = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvhudhint.Parent
-Write: cenvhudhint.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -57,11 +57,10 @@ Write: clightglow.GlowProxySize = value
 Read: clightglow.HDRColorScale
 Write: clightglow.HDRColorScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: clightglow.Parent
-Write: clightglow.Parent = value
 ```
 # Functions
 ## ToPtr

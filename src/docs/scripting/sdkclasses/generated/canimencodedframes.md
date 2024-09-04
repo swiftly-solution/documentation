@@ -27,11 +27,10 @@ Write: canimencodedframes.Frames = value
 Read: canimencodedframes.FramesPerBlock
 Write: canimencodedframes.FramesPerBlock = value
 ```
-## FrameblockArray 
+## FrameblockArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedframes.FrameblockArray
-Write: canimencodedframes.FrameblockArray = value
 ```
 ## UsageDifferences (Read-Only)
 ```lua

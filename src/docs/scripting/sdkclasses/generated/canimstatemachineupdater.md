@@ -15,17 +15,15 @@ category:
 CAnimStateMachineUpdater(ptr --[[ string ]])
 ```
 # Properties
-## States 
+## States (Read-Only)
 ```lua
 @type table
 Read: canimstatemachineupdater.States
-Write: canimstatemachineupdater.States = value
 ```
-## Transitions 
+## Transitions (Read-Only)
 ```lua
 @type table
 Read: canimstatemachineupdater.Transitions
-Write: canimstatemachineupdater.Transitions = value
 ```
 ## StartStateIndex 
 ```lua

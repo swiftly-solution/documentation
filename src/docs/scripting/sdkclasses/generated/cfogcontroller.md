@@ -32,11 +32,10 @@ Write: cfogcontroller.UseAngles = value
 Read: cfogcontroller.ChangedVariables
 Write: cfogcontroller.ChangedVariables = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cfogcontroller.Parent
-Write: cfogcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

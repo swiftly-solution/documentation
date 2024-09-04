@@ -15,11 +15,10 @@ category:
 CItemKevlar(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItem
 Read: citemkevlar.Parent
-Write: citemkevlar.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CGamePlayerEquip(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRulePointEntity
 Read: cgameplayerequip.Parent
-Write: cgameplayerequip.Parent = value
 ```
 # Functions
 ## ToPtr

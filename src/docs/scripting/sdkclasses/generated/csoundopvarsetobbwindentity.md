@@ -63,11 +63,10 @@ Write: csoundopvarsetobbwindentity.WindMapMin = value
 Read: csoundopvarsetobbwindentity.WindMapMax
 Write: csoundopvarsetobbwindentity.WindMapMax = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetPointBase
 Read: csoundopvarsetobbwindentity.Parent
-Write: csoundopvarsetobbwindentity.Parent = value
 ```
 # Functions
 ## ToPtr

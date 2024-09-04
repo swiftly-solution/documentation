@@ -21,11 +21,10 @@ CModelConfigElement_SetMaterialGroup(ptr --[[ string ]])
 Read: cmodelconfigelement_setmaterialgroup.MaterialGroupName
 Write: cmodelconfigelement_setmaterialgroup.MaterialGroupName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_setmaterialgroup.Parent
-Write: cmodelconfigelement_setmaterialgroup.Parent = value
 ```
 # Functions
 ## ToPtr

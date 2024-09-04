@@ -21,11 +21,10 @@ CMarkupVolumeTagged_NavGame(ptr --[[ string ]])
 Read: cmarkupvolumetagged_navgame.FloodFillAttribute
 Write: cmarkupvolumetagged_navgame.FloodFillAttribute = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMarkupVolumeWithRef
 Read: cmarkupvolumetagged_navgame.Parent
-Write: cmarkupvolumetagged_navgame.Parent = value
 ```
 # Functions
 ## ToPtr

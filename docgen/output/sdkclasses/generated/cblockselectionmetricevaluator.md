@@ -15,11 +15,10 @@ category:
 CBlockSelectionMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cblockselectionmetricevaluator.Parent
-Write: cblockselectionmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

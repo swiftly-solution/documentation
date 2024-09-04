@@ -15,11 +15,10 @@ category:
 CRenderGroom(ptr --[[ string ]])
 ```
 # Properties
-## Hairs 
+## Hairs (Read-Only)
 ```lua
 @type table
 Read: crendergroom.Hairs
-Write: crendergroom.Hairs = value
 ```
 ## SegmentsPerHairStrand 
 ```lua

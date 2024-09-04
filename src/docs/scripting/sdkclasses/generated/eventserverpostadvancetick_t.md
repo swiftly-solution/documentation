@@ -15,11 +15,10 @@ category:
 EventServerPostAdvanceTick_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type EventPostAdvanceTick_t
 Read: eventserverpostadvancetick_t.Parent
-Write: eventserverpostadvancetick_t.Parent = value
 ```
 # Functions
 ## ToPtr

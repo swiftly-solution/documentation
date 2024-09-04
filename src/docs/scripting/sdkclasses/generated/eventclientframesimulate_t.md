@@ -32,11 +32,11 @@ Write: eventclientframesimulate_t.RealTime = value
 Read: eventclientframesimulate_t.FrameTime
 Write: eventclientframesimulate_t.FrameTime = value
 ```
-## WhenScheduleSendTickPacket 
+## ScheduleSendTickPacket 
 ```lua
-@type number
-Read: eventclientframesimulate_t.WhenScheduleSendTickPacket
-Write: eventclientframesimulate_t.WhenScheduleSendTickPacket = value
+@type boolean
+Read: eventclientframesimulate_t.ScheduleSendTickPacket
+Write: eventclientframesimulate_t.ScheduleSendTickPacket = value
 ```
 # Functions
 ## ToPtr

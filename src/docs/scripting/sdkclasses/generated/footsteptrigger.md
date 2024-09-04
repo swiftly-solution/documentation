@@ -15,11 +15,10 @@ category:
 FootStepTrigger(ptr --[[ string ]])
 ```
 # Properties
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: footsteptrigger.Tags
-Write: footsteptrigger.Tags = value
 ```
 ## FootIndex 
 ```lua

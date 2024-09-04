@@ -57,11 +57,10 @@ Write: compmatpropertymutator_t.StrCopyProperty_TargetProperty = value
 Read: compmatpropertymutator_t.StrRandomRollInputVars_SeedInputVar
 Write: compmatpropertymutator_t.StrRandomRollInputVars_SeedInputVar = value
 ```
-## RandomRollInputVars_InputVarsToRoll 
+## RandomRollInputVars_InputVarsToRoll (Read-Only)
 ```lua
 @type table
 Read: compmatpropertymutator_t.RandomRollInputVars_InputVarsToRoll
-Write: compmatpropertymutator_t.RandomRollInputVars_InputVarsToRoll = value
 ```
 ## StrCopyMatchingKeys_InputContainerSrc 
 ```lua
@@ -128,17 +127,15 @@ Write: compmatpropertymutator_t.SplatDebugInfo = value
 Read: compmatpropertymutator_t.CaptureInRenderDoc
 Write: compmatpropertymutator_t.CaptureInRenderDoc = value
 ```
-## TexGenInstructions 
+## TexGenInstructions (Read-Only)
 ```lua
 @type table
 Read: compmatpropertymutator_t.TexGenInstructions
-Write: compmatpropertymutator_t.TexGenInstructions = value
 ```
-## ConditionalMutators 
+## ConditionalMutators (Read-Only)
 ```lua
 @type table
 Read: compmatpropertymutator_t.ConditionalMutators
-Write: compmatpropertymutator_t.ConditionalMutators = value
 ```
 ## StrPopInputQueue_Container 
 ```lua
@@ -176,11 +173,10 @@ Write: compmatpropertymutator_t.ColDrawText_Color = value
 Read: compmatpropertymutator_t.StrDrawText_Font
 Write: compmatpropertymutator_t.StrDrawText_Font = value
 ```
-## Conditions 
+## Conditions (Read-Only)
 ```lua
 @type table
 Read: compmatpropertymutator_t.Conditions
-Write: compmatpropertymutator_t.Conditions = value
 ```
 # Functions
 ## ToPtr

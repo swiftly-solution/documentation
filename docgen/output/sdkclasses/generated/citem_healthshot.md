@@ -15,11 +15,10 @@ category:
 CItem_Healthshot(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CWeaponBaseItem
 Read: citem_healthshot.Parent
-Write: citem_healthshot.Parent = value
 ```
 # Functions
 ## ToPtr

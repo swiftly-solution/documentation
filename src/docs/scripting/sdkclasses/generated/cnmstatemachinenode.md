@@ -21,11 +21,10 @@ CNmStateMachineNode(ptr --[[ string ]])
 Read: cnmstatemachinenode.DefaultStateIndex
 Write: cnmstatemachinenode.DefaultStateIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmstatemachinenode.Parent
-Write: cnmstatemachinenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -55,11 +55,10 @@ Write: cdampedpathanimmotorupdater.MinSpringTension = value
 Read: cdampedpathanimmotorupdater.MaxSpringTension
 Write: cdampedpathanimmotorupdater.MaxSpringTension = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPathAnimMotorUpdaterBase
 Read: cdampedpathanimmotorupdater.Parent
-Write: cdampedpathanimmotorupdater.Parent = value
 ```
 # Functions
 ## ToPtr

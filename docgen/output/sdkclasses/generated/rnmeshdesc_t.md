@@ -20,11 +20,10 @@ RnMeshDesc_t(ptr --[[ string ]])
 @type RnMesh_t
 Read: rnmeshdesc_t.Mesh
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type RnShapeDesc_t
 Read: rnmeshdesc_t.Parent
-Write: rnmeshdesc_t.Parent = value
 ```
 # Functions
 ## ToPtr

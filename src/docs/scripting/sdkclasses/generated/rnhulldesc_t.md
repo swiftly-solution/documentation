@@ -20,11 +20,10 @@ RnHullDesc_t(ptr --[[ string ]])
 @type RnHull_t
 Read: rnhulldesc_t.Hull
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type RnShapeDesc_t
 Read: rnhulldesc_t.Parent
-Write: rnhulldesc_t.Parent = value
 ```
 # Functions
 ## ToPtr

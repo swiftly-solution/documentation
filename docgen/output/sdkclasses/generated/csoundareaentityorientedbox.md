@@ -27,11 +27,10 @@ Write: csoundareaentityorientedbox.Min = value
 Read: csoundareaentityorientedbox.Max
 Write: csoundareaentityorientedbox.Max = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundAreaEntityBase
 Read: csoundareaentityorientedbox.Parent
-Write: csoundareaentityorientedbox.Parent = value
 ```
 # Functions
 ## ToPtr

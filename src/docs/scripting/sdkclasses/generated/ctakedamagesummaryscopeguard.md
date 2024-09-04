@@ -15,11 +15,10 @@ category:
 CTakeDamageSummaryScopeGuard(ptr --[[ string ]])
 ```
 # Properties
-## Summaries 
+## Summaries (Read-Only)
 ```lua
 @type table
 Read: ctakedamagesummaryscopeguard.Summaries
-Write: ctakedamagesummaryscopeguard.Summaries = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CParticleFunctionPreEmission(ptr --[[ string ]])
 Read: cparticlefunctionpreemission.RunOnce
 Write: cparticlefunctionpreemission.RunOnce = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunctionOperator
 Read: cparticlefunctionpreemission.Parent
-Write: cparticlefunctionpreemission.Parent = value
 ```
 # Functions
 ## ToPtr

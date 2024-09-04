@@ -196,11 +196,10 @@ Write: cchicken.LastEggPoopPosition = value
 @type CountdownTimer
 Read: cchicken.BlockDirectionTimer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CDynamicProp
 Read: cchicken.Parent
-Write: cchicken.Parent = value
 ```
 # Functions
 ## ToPtr

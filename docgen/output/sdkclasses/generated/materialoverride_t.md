@@ -27,11 +27,10 @@ Write: materialoverride_t.SubSceneObject = value
 Read: materialoverride_t.DrawCallIndex
 Write: materialoverride_t.DrawCallIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type BaseSceneObjectOverride_t
 Read: materialoverride_t.Parent
-Write: materialoverride_t.Parent = value
 ```
 # Functions
 ## ToPtr

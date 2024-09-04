@@ -20,11 +20,10 @@ World_t(ptr --[[ string ]])
 @type WorldBuilderParams_t
 Read: world_t.BuilderParams
 ```
-## WorldNodes 
+## WorldNodes (Read-Only)
 ```lua
 @type table
 Read: world_t.WorldNodes
-Write: world_t.WorldNodes = value
 ```
 ## WorldLightingInfo (Read-Only)
 ```lua

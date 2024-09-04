@@ -21,11 +21,10 @@ CScriptNavBlocker(ptr --[[ string ]])
 Read: cscriptnavblocker.Extent
 Write: cscriptnavblocker.Extent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncNavBlocker
 Read: cscriptnavblocker.Parent
-Write: cscriptnavblocker.Parent = value
 ```
 # Functions
 ## ToPtr

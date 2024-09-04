@@ -15,11 +15,10 @@ category:
 CWaterBullet(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cwaterbullet.Parent
-Write: cwaterbullet.Parent = value
 ```
 # Functions
 ## ToPtr

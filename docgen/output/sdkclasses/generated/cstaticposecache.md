@@ -15,11 +15,10 @@ category:
 CStaticPoseCache(ptr --[[ string ]])
 ```
 # Properties
-## Poses 
+## Poses (Read-Only)
 ```lua
 @type table
 Read: cstaticposecache.Poses
-Write: cstaticposecache.Poses = value
 ```
 ## BoneCount 
 ```lua

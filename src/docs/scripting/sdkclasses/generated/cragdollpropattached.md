@@ -51,11 +51,10 @@ Write: cragdollpropattached.ShouldDetach = value
 Read: cragdollpropattached.ShouldDeleteAttachedActivationRecord
 Write: cragdollpropattached.ShouldDeleteAttachedActivationRecord = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRagdollProp
 Read: cragdollpropattached.Parent
-Write: cragdollpropattached.Parent = value
 ```
 # Functions
 ## ToPtr

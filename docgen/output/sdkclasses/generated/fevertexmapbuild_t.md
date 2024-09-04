@@ -45,11 +45,10 @@ Write: fevertexmapbuild_t.VolumetricSolveStrength = value
 Read: fevertexmapbuild_t.ScaleSourceNode
 Write: fevertexmapbuild_t.ScaleSourceNode = value
 ```
-## Weights 
+## Weights (Read-Only)
 ```lua
 @type table
 Read: fevertexmapbuild_t.Weights
-Write: fevertexmapbuild_t.Weights = value
 ```
 # Functions
 ## ToPtr

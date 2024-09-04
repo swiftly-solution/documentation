@@ -90,11 +90,10 @@ Write: ctimerentity.RemainingTime = value
 Read: ctimerentity.Paused
 Write: ctimerentity.Paused = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: ctimerentity.Parent
-Write: ctimerentity.Parent = value
 ```
 # Functions
 ## ToPtr

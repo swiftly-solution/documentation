@@ -15,11 +15,10 @@ category:
 CSceneEntityAlias_logic_choreographed_scene(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSceneEntity
 Read: csceneentityalias_logic_choreographed_scene.Parent
-Write: csceneentityalias_logic_choreographed_scene.Parent = value
 ```
 # Functions
 ## ToPtr

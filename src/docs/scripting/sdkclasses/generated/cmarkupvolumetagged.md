@@ -45,11 +45,10 @@ Write: cmarkupvolumetagged.GroupOtherGroups = value
 Read: cmarkupvolumetagged.IsInGroup
 Write: cmarkupvolumetagged.IsInGroup = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMarkupVolume
 Read: cmarkupvolumetagged.Parent
-Write: cmarkupvolumetagged.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,22 +15,20 @@ category:
 CSolveIKChainUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## TargetHandles 
+## TargetHandles (Read-Only)
 ```lua
 @type table
 Read: csolveikchainupdatenode.TargetHandles
-Write: csolveikchainupdatenode.TargetHandles = value
 ```
 ## OpFixedData (Read-Only)
 ```lua
 @type SolveIKChainPoseOpFixedSettings_t
 Read: csolveikchainupdatenode.OpFixedData
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: csolveikchainupdatenode.Parent
-Write: csolveikchainupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

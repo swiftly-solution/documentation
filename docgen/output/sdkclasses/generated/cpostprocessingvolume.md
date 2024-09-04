@@ -105,11 +105,10 @@ Write: cpostprocessingvolume.TonemapPercentBrightPixels = value
 Read: cpostprocessingvolume.TonemapMinAvgLum
 Write: cpostprocessingvolume.TonemapMinAvgLum = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cpostprocessingvolume.Parent
-Write: cpostprocessingvolume.Parent = value
 ```
 # Functions
 ## ToPtr

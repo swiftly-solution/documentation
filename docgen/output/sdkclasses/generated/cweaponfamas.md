@@ -15,11 +15,10 @@ category:
 CWeaponFamas(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cweaponfamas.Parent
-Write: cweaponfamas.Parent = value
 ```
 # Functions
 ## ToPtr

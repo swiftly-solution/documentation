@@ -31,11 +31,10 @@ Read: clogicbranch.OnTrue
 @type CEntityIOOutput
 Read: clogicbranch.OnFalse
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicbranch.Parent
-Write: clogicbranch.Parent = value
 ```
 # Functions
 ## ToPtr

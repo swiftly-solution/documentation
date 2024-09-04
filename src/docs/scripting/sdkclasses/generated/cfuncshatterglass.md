@@ -15,11 +15,10 @@ category:
 CFuncShatterglass(ptr --[[ string ]])
 ```
 # Properties
-## ShatterGlassShards 
+## ShatterGlassShards (Read-Only)
 ```lua
 @type table
 Read: cfuncshatterglass.ShatterGlassShards
-Write: cfuncshatterglass.ShatterGlassShards = value
 ```
 ## PanelSize 
 ```lua
@@ -141,17 +140,15 @@ Write: cfuncshatterglass.DamagePositioningEntityName03 = value
 Read: cfuncshatterglass.DamagePositioningEntityName04
 Write: cfuncshatterglass.DamagePositioningEntityName04 = value
 ```
-## InitialDamagePositions 
+## InitialDamagePositions (Read-Only)
 ```lua
 @type table
 Read: cfuncshatterglass.InitialDamagePositions
-Write: cfuncshatterglass.InitialDamagePositions = value
 ```
-## ExtraDamagePositions 
+## ExtraDamagePositions (Read-Only)
 ```lua
 @type table
 Read: cfuncshatterglass.ExtraDamagePositions
-Write: cfuncshatterglass.ExtraDamagePositions = value
 ```
 ## OnBroken (Read-Only)
 ```lua
@@ -164,11 +161,10 @@ Read: cfuncshatterglass.OnBroken
 Read: cfuncshatterglass.SurfaceType
 Write: cfuncshatterglass.SurfaceType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncshatterglass.Parent
-Write: cfuncshatterglass.Parent = value
 ```
 # Functions
 ## ToPtr

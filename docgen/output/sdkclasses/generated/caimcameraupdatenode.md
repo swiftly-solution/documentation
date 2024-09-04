@@ -55,11 +55,10 @@ Read: caimcameraupdatenode.ParameterCameraClearanceDistance
 @type AimCameraOpFixedSettings_t
 Read: caimcameraupdatenode.OpFixedSettings
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: caimcameraupdatenode.Parent
-Write: caimcameraupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

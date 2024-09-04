@@ -21,11 +21,10 @@ CSosGroupActionTimeLimitSchema(ptr --[[ string ]])
 Read: csosgroupactiontimelimitschema.MaxDuration
 Write: csosgroupactiontimelimitschema.MaxDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactiontimelimitschema.Parent
-Write: csosgroupactiontimelimitschema.Parent = value
 ```
 # Functions
 ## ToPtr

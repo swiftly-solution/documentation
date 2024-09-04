@@ -15,11 +15,10 @@ category:
 CBaseFlexAlias_funCBaseFlex(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFlex
 Read: cbaseflexalias_funcbaseflex.Parent
-Write: cbaseflexalias_funcbaseflex.Parent = value
 ```
 # Functions
 ## ToPtr

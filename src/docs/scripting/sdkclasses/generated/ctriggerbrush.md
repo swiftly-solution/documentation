@@ -42,11 +42,10 @@ Write: ctriggerbrush.InputFilter = value
 Read: ctriggerbrush.DontMessageParent
 Write: ctriggerbrush.DontMessageParent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: ctriggerbrush.Parent
-Write: ctriggerbrush.Parent = value
 ```
 # Functions
 ## ToPtr

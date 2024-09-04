@@ -21,11 +21,10 @@ CMorphData(ptr --[[ string ]])
 Read: cmorphdata.Name
 Write: cmorphdata.Name = value
 ```
-## MorphRectDatas 
+## MorphRectDatas (Read-Only)
 ```lua
 @type table
 Read: cmorphdata.MorphRectDatas
-Write: cmorphdata.MorphRectDatas = value
 ```
 # Functions
 ## ToPtr

@@ -86,11 +86,10 @@ Write: ctriggerfan.AddNoise = value
 @type CountdownTimer
 Read: ctriggerfan.RampTimer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerfan.Parent
-Write: ctriggerfan.Parent = value
 ```
 # Functions
 ## ToPtr

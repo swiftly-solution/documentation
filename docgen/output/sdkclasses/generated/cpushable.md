@@ -15,11 +15,10 @@ category:
 CPushable(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBreakable
 Read: cpushable.Parent
-Write: cpushable.Parent = value
 ```
 # Functions
 ## ToPtr

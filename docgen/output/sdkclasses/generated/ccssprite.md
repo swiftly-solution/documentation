@@ -15,11 +15,10 @@ category:
 CCSSprite(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSprite
 Read: ccssprite.Parent
-Write: ccssprite.Parent = value
 ```
 # Functions
 ## ToPtr

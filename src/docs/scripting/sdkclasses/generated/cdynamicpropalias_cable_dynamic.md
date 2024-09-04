@@ -15,11 +15,10 @@ category:
 CDynamicPropAlias_cable_dynamic(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CDynamicProp
 Read: cdynamicpropalias_cable_dynamic.Parent
-Write: cdynamicpropalias_cable_dynamic.Parent = value
 ```
 # Functions
 ## ToPtr

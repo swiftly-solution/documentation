@@ -15,17 +15,15 @@ category:
 CSeqBoneMaskList(ptr --[[ string ]])
 ```
 # Properties
-## LocalBoneArray 
+## LocalBoneArray (Read-Only)
 ```lua
 @type table
 Read: cseqbonemasklist.LocalBoneArray
-Write: cseqbonemasklist.LocalBoneArray = value
 ```
-## BoneWeightArray 
+## BoneWeightArray (Read-Only)
 ```lua
 @type table
 Read: cseqbonemasklist.BoneWeightArray
-Write: cseqbonemasklist.BoneWeightArray = value
 ```
 ## DefaultMorphCtrlWeight 
 ```lua

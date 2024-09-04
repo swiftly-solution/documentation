@@ -15,11 +15,10 @@ category:
 CTriggerToggleSave(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggertogglesave.Parent
-Write: ctriggertogglesave.Parent = value
 ```
 # Functions
 ## ToPtr

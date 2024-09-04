@@ -15,11 +15,10 @@ category:
 CSosSoundEventGroupListSchema(ptr --[[ string ]])
 ```
 # Properties
-## GroupList 
+## GroupList (Read-Only)
 ```lua
 @type table
 Read: csossoundeventgrouplistschema.GroupList
-Write: csossoundeventgrouplistschema.GroupList = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CAttributeList(ptr --[[ string ]])
 ```
 # Properties
-## Attributes 
+## Attributes (Read-Only)
 ```lua
 @type table
 Read: cattributelist.Attributes
-Write: cattributelist.Attributes = value
 ```
 ## Manager 
 ```lua

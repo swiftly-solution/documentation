@@ -21,11 +21,10 @@ CNmVirtualParameterFloatNode(ptr --[[ string ]])
 Read: cnmvirtualparameterfloatnode.ChildNodeIdx
 Write: cnmvirtualparameterfloatnode.ChildNodeIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmFloatValueNode
 Read: cnmvirtualparameterfloatnode.Parent
-Write: cnmvirtualparameterfloatnode.Parent = value
 ```
 # Functions
 ## ToPtr

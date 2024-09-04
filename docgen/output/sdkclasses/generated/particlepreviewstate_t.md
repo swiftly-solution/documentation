@@ -57,11 +57,10 @@ Write: particlepreviewstate_t.HitboxSetName = value
 Read: particlepreviewstate_t.MaterialGroupName
 Write: particlepreviewstate_t.MaterialGroupName = value
 ```
-## BodyGroups 
+## BodyGroups (Read-Only)
 ```lua
 @type table
 Read: particlepreviewstate_t.BodyGroups
-Write: particlepreviewstate_t.BodyGroups = value
 ```
 ## PlaybackSpeed 
 ```lua

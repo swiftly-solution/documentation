@@ -55,11 +55,10 @@ Write: cinstancedsceneentity.RemoveOnCompletion = value
 @type CBaseEntity
 Read: cinstancedsceneentity.Target
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSceneEntity
 Read: cinstancedsceneentity.Parent
-Write: cinstancedsceneentity.Parent = value
 ```
 # Functions
 ## ToPtr

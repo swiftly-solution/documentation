@@ -15,11 +15,10 @@ category:
 CGameRulesProxy(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cgamerulesproxy.Parent
-Write: cgamerulesproxy.Parent = value
 ```
 # Functions
 ## ToPtr

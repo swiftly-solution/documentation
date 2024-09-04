@@ -15,11 +15,10 @@ category:
 CRootUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: crootupdatenode.Parent
-Write: crootupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

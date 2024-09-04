@@ -15,11 +15,10 @@ category:
 CLightOrthoEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLightEntity
 Read: clightorthoentity.Parent
-Write: clightorthoentity.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CNavHullPresetVData(ptr --[[ string ]])
 ```
 # Properties
-## NavHulls 
+## NavHulls (Read-Only)
 ```lua
 @type table
 Read: cnavhullpresetvdata.NavHulls
-Write: cnavhullpresetvdata.NavHulls = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CModelConfigElement_SetRenderColor(ptr --[[ string ]])
 Read: cmodelconfigelement_setrendercolor.Color
 Write: cmodelconfigelement_setrendercolor.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_setrendercolor.Parent
-Write: cmodelconfigelement_setrendercolor.Parent = value
 ```
 # Functions
 ## ToPtr

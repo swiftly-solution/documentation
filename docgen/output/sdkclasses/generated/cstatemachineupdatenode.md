@@ -20,17 +20,15 @@ CStateMachineUpdateNode(ptr --[[ string ]])
 @type CAnimStateMachineUpdater
 Read: cstatemachineupdatenode.StateMachine
 ```
-## StateData 
+## StateData (Read-Only)
 ```lua
 @type table
 Read: cstatemachineupdatenode.StateData
-Write: cstatemachineupdatenode.StateData = value
 ```
-## TransitionData 
+## TransitionData (Read-Only)
 ```lua
 @type table
 Read: cstatemachineupdatenode.TransitionData
-Write: cstatemachineupdatenode.TransitionData = value
 ```
 ## BlockWaningTags 
 ```lua
@@ -44,11 +42,10 @@ Write: cstatemachineupdatenode.BlockWaningTags = value
 Read: cstatemachineupdatenode.LockStateWhenWaning
 Write: cstatemachineupdatenode.LockStateWhenWaning = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cstatemachineupdatenode.Parent
-Write: cstatemachineupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

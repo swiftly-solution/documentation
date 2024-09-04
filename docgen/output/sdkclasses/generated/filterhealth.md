@@ -33,11 +33,10 @@ Write: filterhealth.HealthMin = value
 Read: filterhealth.HealthMax
 Write: filterhealth.HealthMax = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: filterhealth.Parent
-Write: filterhealth.Parent = value
 ```
 # Functions
 ## ToPtr

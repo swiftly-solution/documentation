@@ -141,11 +141,10 @@ Write: csmatchstats_t.EntryCount = value
 Read: csmatchstats_t.EntryWins
 Write: csmatchstats_t.EntryWins = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSPerRoundStats_t
 Read: csmatchstats_t.Parent
-Write: csmatchstats_t.Parent = value
 ```
 # Functions
 ## ToPtr

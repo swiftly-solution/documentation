@@ -15,11 +15,10 @@ category:
 CFilterLOS(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfilterlos.Parent
-Write: cfilterlos.Parent = value
 ```
 # Functions
 ## ToPtr

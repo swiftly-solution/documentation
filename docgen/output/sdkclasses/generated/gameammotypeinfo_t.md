@@ -27,11 +27,10 @@ Write: gameammotypeinfo_t.BuySize = value
 Read: gameammotypeinfo_t.Cost
 Write: gameammotypeinfo_t.Cost = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type AmmoTypeInfo_t
 Read: gameammotypeinfo_t.Parent
-Write: gameammotypeinfo_t.Parent = value
 ```
 # Functions
 ## ToPtr

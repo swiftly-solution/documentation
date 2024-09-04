@@ -27,35 +27,30 @@ Write: cmorphsetdata.Width = value
 Read: cmorphsetdata.Height
 Write: cmorphsetdata.Height = value
 ```
-## BundleTypes 
+## BundleTypes (Read-Only)
 ```lua
 @type table
 Read: cmorphsetdata.BundleTypes
-Write: cmorphsetdata.BundleTypes = value
 ```
-## MorphDatas 
+## MorphDatas (Read-Only)
 ```lua
 @type table
 Read: cmorphsetdata.MorphDatas
-Write: cmorphsetdata.MorphDatas = value
 ```
-## FlexDesc 
+## FlexDesc (Read-Only)
 ```lua
 @type table
 Read: cmorphsetdata.FlexDesc
-Write: cmorphsetdata.FlexDesc = value
 ```
-## FlexControllers 
+## FlexControllers (Read-Only)
 ```lua
 @type table
 Read: cmorphsetdata.FlexControllers
-Write: cmorphsetdata.FlexControllers = value
 ```
-## FlexRules 
+## FlexRules (Read-Only)
 ```lua
 @type table
 Read: cmorphsetdata.FlexRules
-Write: cmorphsetdata.FlexRules = value
 ```
 # Functions
 ## ToPtr

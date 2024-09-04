@@ -71,11 +71,10 @@ Read: clogicauto.OnVRNotEnabled
 Read: clogicauto.Globalstate
 Write: clogicauto.Globalstate = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: clogicauto.Parent
-Write: clogicauto.Parent = value
 ```
 # Functions
 ## ToPtr

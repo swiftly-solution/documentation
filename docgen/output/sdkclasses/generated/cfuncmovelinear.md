@@ -85,11 +85,10 @@ Write: cfuncmovelinear.CreateMovableNavMesh = value
 Read: cfuncmovelinear.CreateNavObstacle
 Write: cfuncmovelinear.CreateNavObstacle = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cfuncmovelinear.Parent
-Write: cfuncmovelinear.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CompositeMaterial_t(ptr --[[ string ]])
 ```
 # Properties
-## GeneratedTextures 
+## GeneratedTextures (Read-Only)
 ```lua
 @type table
 Read: compositematerial_t.GeneratedTextures
-Write: compositematerial_t.GeneratedTextures = value
 ```
 # Functions
 ## ToPtr

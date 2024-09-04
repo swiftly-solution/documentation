@@ -50,11 +50,10 @@ Write: cgeneralrandomrotation.RotationRandExponent = value
 Read: cgeneralrandomrotation.RandomlyFlipDirection
 Write: cgeneralrandomrotation.RandomlyFlipDirection = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunctionInitializer
 Read: cgeneralrandomrotation.Parent
-Write: cgeneralrandomrotation.Parent = value
 ```
 # Functions
 ## ToPtr

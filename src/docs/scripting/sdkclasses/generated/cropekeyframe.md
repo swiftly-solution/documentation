@@ -121,11 +121,10 @@ Read: cropekeyframe.StartPoint
 @type CBaseEntity
 Read: cropekeyframe.EndPoint
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cropekeyframe.Parent
-Write: cropekeyframe.Parent = value
 ```
 # Functions
 ## ToPtr

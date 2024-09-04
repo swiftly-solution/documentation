@@ -15,11 +15,10 @@ category:
 CNavVolumeMarkupVolume(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolume
 Read: cnavvolumemarkupvolume.Parent
-Write: cnavvolumemarkupvolume.Parent = value
 ```
 # Functions
 ## ToPtr

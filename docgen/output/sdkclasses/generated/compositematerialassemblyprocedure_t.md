@@ -15,23 +15,20 @@ category:
 CompositeMaterialAssemblyProcedure_t(ptr --[[ string ]])
 ```
 # Properties
-## MatchFilters 
+## MatchFilters (Read-Only)
 ```lua
 @type table
 Read: compositematerialassemblyprocedure_t.MatchFilters
-Write: compositematerialassemblyprocedure_t.MatchFilters = value
 ```
-## CompositeInputContainers 
+## CompositeInputContainers (Read-Only)
 ```lua
 @type table
 Read: compositematerialassemblyprocedure_t.CompositeInputContainers
-Write: compositematerialassemblyprocedure_t.CompositeInputContainers = value
 ```
-## PropertyMutators 
+## PropertyMutators (Read-Only)
 ```lua
 @type table
 Read: compositematerialassemblyprocedure_t.PropertyMutators
-Write: compositematerialassemblyprocedure_t.PropertyMutators = value
 ```
 # Functions
 ## ToPtr

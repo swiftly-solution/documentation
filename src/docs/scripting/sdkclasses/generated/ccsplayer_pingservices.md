@@ -26,11 +26,10 @@ Write: ccsplayer_pingservices.PlayerPingTokens = value
 @type CBaseEntity
 Read: ccsplayer_pingservices.PlayerPing
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_pingservices.Parent
-Write: ccsplayer_pingservices.Parent = value
 ```
 # Functions
 ## ToPtr

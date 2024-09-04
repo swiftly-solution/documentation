@@ -20,17 +20,15 @@ CMotionGraphGroup(ptr --[[ string ]])
 @type CMotionSearchDB
 Read: cmotiongraphgroup.SearchDB
 ```
-## MotionGraphConfigs 
+## MotionGraphConfigs (Read-Only)
 ```lua
 @type table
 Read: cmotiongraphgroup.MotionGraphConfigs
-Write: cmotiongraphgroup.MotionGraphConfigs = value
 ```
-## SampleToConfig 
+## SampleToConfig (Read-Only)
 ```lua
 @type table
 Read: cmotiongraphgroup.SampleToConfig
-Write: cmotiongraphgroup.SampleToConfig = value
 ```
 ## IsActiveScript (Read-Only)
 ```lua

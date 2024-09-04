@@ -32,11 +32,10 @@ Write: cinstructorevententity.HintTargetEntity = value
 @type CBasePlayerPawn
 Read: cinstructorevententity.TargetPlayer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinstructorevententity.Parent
-Write: cinstructorevententity.Parent = value
 ```
 # Functions
 ## ToPtr

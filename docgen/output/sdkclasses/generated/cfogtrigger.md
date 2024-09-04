@@ -20,11 +20,10 @@ CFogTrigger(ptr --[[ string ]])
 @type fogparams_t
 Read: cfogtrigger.Fog
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cfogtrigger.Parent
-Write: cfogtrigger.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CMotionNodeBlend1D(ptr --[[ string ]])
 ```
 # Properties
-## BlendItems 
+## BlendItems (Read-Only)
 ```lua
 @type table
 Read: cmotionnodeblend1d.BlendItems
-Write: cmotionnodeblend1d.BlendItems = value
 ```
 ## ParamIndex 
 ```lua
@@ -27,11 +26,10 @@ Write: cmotionnodeblend1d.BlendItems = value
 Read: cmotionnodeblend1d.ParamIndex
 Write: cmotionnodeblend1d.ParamIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionNode
 Read: cmotionnodeblend1d.Parent
-Write: cmotionnodeblend1d.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CCSPlayer_DamageReactServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_damagereactservices.Parent
-Write: ccsplayer_damagereactservices.Parent = value
 ```
 # Functions
 ## ToPtr

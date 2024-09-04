@@ -15,11 +15,10 @@ category:
 CChoreoUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cchoreoupdatenode.Parent
-Write: cchoreoupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

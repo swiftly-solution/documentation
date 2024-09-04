@@ -27,11 +27,10 @@ Write: cvectoranimparameter.DefaultValue = value
 Read: cvectoranimparameter.Interpolate
 Write: cvectoranimparameter.Interpolate = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cvectoranimparameter.Parent
-Write: cvectoranimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: skeletonanimcapture_t.EntIndex = value
 Read: skeletonanimcapture_t.EntParent
 Write: skeletonanimcapture_t.EntParent = value
 ```
-## ImportedCollision 
+## ImportedCollision (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t.ImportedCollision
-Write: skeletonanimcapture_t.ImportedCollision = value
 ```
 ## ModelName 
 ```lua
@@ -45,17 +44,15 @@ Write: skeletonanimcapture_t.ModelName = value
 Read: skeletonanimcapture_t.CaptureName
 Write: skeletonanimcapture_t.CaptureName = value
 ```
-## ModelBindPose 
+## ModelBindPose (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t.ModelBindPose
-Write: skeletonanimcapture_t.ModelBindPose = value
 ```
-## FeModelInitPose 
+## FeModelInitPose (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t.FeModelInitPose
-Write: skeletonanimcapture_t.FeModelInitPose = value
 ```
 ## FlexControllers 
 ```lua
@@ -69,11 +66,10 @@ Write: skeletonanimcapture_t.FlexControllers = value
 Read: skeletonanimcapture_t.Predicted
 Write: skeletonanimcapture_t.Predicted = value
 ```
-## Frames 
+## Frames (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t.Frames
-Write: skeletonanimcapture_t.Frames = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CFuncWallToggle(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncWall
 Read: cfuncwalltoggle.Parent
-Write: cfuncwalltoggle.Parent = value
 ```
 # Functions
 ## ToPtr

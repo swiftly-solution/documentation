@@ -62,23 +62,20 @@ Write: cpointtemplate.ClientOnlyEntityBehavior = value
 Read: cpointtemplate.OwnerSpawnGroupType
 Write: cpointtemplate.OwnerSpawnGroupType = value
 ```
-## CreatedSpawnGroupHandles 
+## CreatedSpawnGroupHandles (Read-Only)
 ```lua
 @type table
 Read: cpointtemplate.CreatedSpawnGroupHandles
-Write: cpointtemplate.CreatedSpawnGroupHandles = value
 ```
-## SpawnedEntityHandles 
+## SpawnedEntityHandles (Read-Only)
 ```lua
 @type table
 Read: cpointtemplate.SpawnedEntityHandles
-Write: cpointtemplate.SpawnedEntityHandles = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cpointtemplate.Parent
-Write: cpointtemplate.Parent = value
 ```
 # Functions
 ## ToPtr

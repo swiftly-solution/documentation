@@ -68,11 +68,10 @@ Write: cpathtrack.OrientationType = value
 @type CEntityIOOutput
 Read: cpathtrack.OnPass
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpathtrack.Parent
-Write: cpathtrack.Parent = value
 ```
 # Functions
 ## ToPtr

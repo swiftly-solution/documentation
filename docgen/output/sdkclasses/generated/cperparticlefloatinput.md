@@ -15,11 +15,10 @@ category:
 CPerParticleFloatInput(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFloatInput
 Read: cperparticlefloatinput.Parent
-Write: cperparticlefloatinput.Parent = value
 ```
 # Functions
 ## ToPtr

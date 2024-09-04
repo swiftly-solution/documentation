@@ -159,11 +159,10 @@ Read: cinferno.NextSpreadTimer
 Read: cinferno.SourceItemDefIndex
 Write: cinferno.SourceItemDefIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cinferno.Parent
-Write: cinferno.Parent = value
 ```
 # Functions
 ## ToPtr

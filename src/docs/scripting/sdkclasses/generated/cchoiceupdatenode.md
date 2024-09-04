@@ -15,23 +15,20 @@ category:
 CChoiceUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Children 
+## Children (Read-Only)
 ```lua
 @type table
 Read: cchoiceupdatenode.Children
-Write: cchoiceupdatenode.Children = value
 ```
-## Weights 
+## Weights (Read-Only)
 ```lua
 @type table
 Read: cchoiceupdatenode.Weights
-Write: cchoiceupdatenode.Weights = value
 ```
-## BlendTimes 
+## BlendTimes (Read-Only)
 ```lua
 @type table
 Read: cchoiceupdatenode.BlendTimes
-Write: cchoiceupdatenode.BlendTimes = value
 ```
 ## ChoiceMethod 
 ```lua
@@ -75,11 +72,10 @@ Write: cchoiceupdatenode.ResetChosen = value
 Read: cchoiceupdatenode.DontResetSameSelection
 Write: cchoiceupdatenode.DontResetSameSelection = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cchoiceupdatenode.Parent
-Write: cchoiceupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

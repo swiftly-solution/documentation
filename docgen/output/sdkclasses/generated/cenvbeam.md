@@ -121,11 +121,10 @@ Write: cenvbeam.Decal = value
 @type CEntityIOOutput
 Read: cenvbeam.OnTouchedByEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBeam
 Read: cenvbeam.Parent
-Write: cenvbeam.Parent = value
 ```
 # Functions
 ## ToPtr

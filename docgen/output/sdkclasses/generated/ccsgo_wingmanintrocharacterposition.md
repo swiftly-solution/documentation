@@ -15,11 +15,10 @@ category:
 CCSGO_WingmanIntroCharacterPosition(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSGO_TeamIntroCharacterPosition
 Read: ccsgo_wingmanintrocharacterposition.Parent
-Write: ccsgo_wingmanintrocharacterposition.Parent = value
 ```
 # Functions
 ## ToPtr

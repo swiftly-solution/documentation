@@ -21,11 +21,10 @@ CScriptTriggerOnce(ptr --[[ string ]])
 Read: cscripttriggeronce.Extent
 Write: cscripttriggeronce.Extent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerOnce
 Read: cscripttriggeronce.Parent
-Write: cscripttriggeronce.Parent = value
 ```
 # Functions
 ## ToPtr

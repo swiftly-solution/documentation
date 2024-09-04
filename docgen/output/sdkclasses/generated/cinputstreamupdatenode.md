@@ -15,11 +15,10 @@ category:
 CInputStreamUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: cinputstreamupdatenode.Parent
-Write: cinputstreamupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

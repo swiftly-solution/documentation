@@ -15,11 +15,10 @@ category:
 CTaskStatusAnimTag(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: ctaskstatusanimtag.Parent
-Write: ctaskstatusanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

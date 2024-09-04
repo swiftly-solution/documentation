@@ -27,17 +27,15 @@ Write: worldnodeondiskbufferdata_t.ElementCount = value
 Read: worldnodeondiskbufferdata_t.ElementSizeInBytes
 Write: worldnodeondiskbufferdata_t.ElementSizeInBytes = value
 ```
-## InputLayoutFields 
+## InputLayoutFields (Read-Only)
 ```lua
 @type table
 Read: worldnodeondiskbufferdata_t.InputLayoutFields
-Write: worldnodeondiskbufferdata_t.InputLayoutFields = value
 ```
-## Data 
+## Data (Read-Only)
 ```lua
 @type table
 Read: worldnodeondiskbufferdata_t.Data
-Write: worldnodeondiskbufferdata_t.Data = value
 ```
 # Functions
 ## ToPtr

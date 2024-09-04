@@ -32,11 +32,10 @@ Write: ccsplayer_useservices.LastUseTimeStamp = value
 Read: ccsplayer_useservices.TimeLastUsedWindow
 Write: ccsplayer_useservices.TimeLastUsedWindow = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_UseServices
 Read: ccsplayer_useservices.Parent
-Write: ccsplayer_useservices.Parent = value
 ```
 # Functions
 ## ToPtr

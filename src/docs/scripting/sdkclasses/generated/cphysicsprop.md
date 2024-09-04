@@ -206,11 +206,10 @@ Write: cphysicsprop.EnableUseOutput = value
 Read: cphysicsprop.Awake
 Write: cphysicsprop.Awake = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBreakableProp
 Read: cphysicsprop.Parent
-Write: cphysicsprop.Parent = value
 ```
 # Functions
 ## ToPtr

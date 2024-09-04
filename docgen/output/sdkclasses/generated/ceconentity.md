@@ -67,11 +67,10 @@ Read: ceconentity.OldProvidee
 Read: ceconentity.OldOwnerClass
 Write: ceconentity.OldOwnerClass = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFlex
 Read: ceconentity.Parent
-Write: ceconentity.Parent = value
 ```
 # Functions
 ## ToPtr

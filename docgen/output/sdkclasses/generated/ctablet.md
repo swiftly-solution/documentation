@@ -15,11 +15,10 @@ category:
 CTablet(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: ctablet.Parent
-Write: ctablet.Parent = value
 ```
 # Functions
 ## ToPtr

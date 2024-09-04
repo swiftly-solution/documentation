@@ -15,11 +15,10 @@ category:
 CLeanMatrixUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Poses 
+## Poses (Read-Only)
 ```lua
 @type table
 Read: cleanmatrixupdatenode.Poses
-Write: cleanmatrixupdatenode.Poses = value
 ```
 ## Damping (Read-Only)
 ```lua
@@ -61,11 +60,10 @@ Write: cleanmatrixupdatenode.MaxValue = value
 Read: cleanmatrixupdatenode.SequenceMaxFrame
 Write: cleanmatrixupdatenode.SequenceMaxFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: cleanmatrixupdatenode.Parent
-Write: cleanmatrixupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

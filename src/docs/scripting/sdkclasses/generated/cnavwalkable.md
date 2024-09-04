@@ -15,11 +15,10 @@ category:
 CNavWalkable(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cnavwalkable.Parent
-Write: cnavwalkable.Parent = value
 ```
 # Functions
 ## ToPtr

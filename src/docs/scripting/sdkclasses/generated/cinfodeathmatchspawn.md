@@ -15,11 +15,10 @@ category:
 CInfoDeathmatchSpawn(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type SpawnPoint
 Read: cinfodeathmatchspawn.Parent
-Write: cinfodeathmatchspawn.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CMotionNodeSequence(ptr --[[ string ]])
 ```
 # Properties
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: cmotionnodesequence.Tags
-Write: cmotionnodesequence.Tags = value
 ```
 ## PlaybackSpeed 
 ```lua
@@ -27,11 +26,10 @@ Write: cmotionnodesequence.Tags = value
 Read: cmotionnodesequence.PlaybackSpeed
 Write: cmotionnodesequence.PlaybackSpeed = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionNode
 Read: cmotionnodesequence.Parent
-Write: cmotionnodesequence.Parent = value
 ```
 # Functions
 ## ToPtr

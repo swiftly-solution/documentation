@@ -21,11 +21,10 @@ CTankTargetChange(ptr --[[ string ]])
 Read: ctanktargetchange.NewTargetName
 Write: ctanktargetchange.NewTargetName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: ctanktargetchange.Parent
-Write: ctanktargetchange.Parent = value
 ```
 # Functions
 ## ToPtr

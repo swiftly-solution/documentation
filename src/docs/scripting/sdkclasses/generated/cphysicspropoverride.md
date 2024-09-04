@@ -15,11 +15,10 @@ category:
 CPhysicsPropOverride(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysicsProp
 Read: cphysicspropoverride.Parent
-Write: cphysicspropoverride.Parent = value
 ```
 # Functions
 ## ToPtr

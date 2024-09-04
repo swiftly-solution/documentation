@@ -15,17 +15,15 @@ category:
 SkeletonDemoDb_t(ptr --[[ string ]])
 ```
 # Properties
-## AnimCaptures 
+## AnimCaptures (Read-Only)
 ```lua
 @type table
 Read: skeletondemodb_t.AnimCaptures
-Write: skeletondemodb_t.AnimCaptures = value
 ```
-## CameraTrack 
+## CameraTrack (Read-Only)
 ```lua
 @type table
 Read: skeletondemodb_t.CameraTrack
-Write: skeletondemodb_t.CameraTrack = value
 ```
 ## RecordingTime 
 ```lua

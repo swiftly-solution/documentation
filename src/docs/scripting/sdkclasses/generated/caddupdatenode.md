@@ -45,11 +45,10 @@ Write: caddupdatenode.UseModelSpace = value
 Read: caddupdatenode.ApplyScale
 Write: caddupdatenode.ApplyScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBinaryUpdateNode
 Read: caddupdatenode.Parent
-Write: caddupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

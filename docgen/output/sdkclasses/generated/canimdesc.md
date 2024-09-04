@@ -31,29 +31,25 @@ Write: canimdesc.Fps = value
 @type CAnimEncodedFrames
 Read: canimdesc.Data
 ```
-## MovementArray 
+## MovementArray (Read-Only)
 ```lua
 @type table
 Read: canimdesc.MovementArray
-Write: canimdesc.MovementArray = value
 ```
-## EventArray 
+## EventArray (Read-Only)
 ```lua
 @type table
 Read: canimdesc.EventArray
-Write: canimdesc.EventArray = value
 ```
-## ActivityArray 
+## ActivityArray (Read-Only)
 ```lua
 @type table
 Read: canimdesc.ActivityArray
-Write: canimdesc.ActivityArray = value
 ```
-## HierarchyArray 
+## HierarchyArray (Read-Only)
 ```lua
 @type table
 Read: canimdesc.HierarchyArray
-Write: canimdesc.HierarchyArray = value
 ```
 ## Framestalltime 
 ```lua
@@ -73,17 +69,15 @@ Write: canimdesc.RootMin = value
 Read: canimdesc.RootMax
 Write: canimdesc.RootMax = value
 ```
-## BoneWorldMin 
+## BoneWorldMin (Read-Only)
 ```lua
 @type table
 Read: canimdesc.BoneWorldMin
-Write: canimdesc.BoneWorldMin = value
 ```
-## BoneWorldMax 
+## BoneWorldMax (Read-Only)
 ```lua
 @type table
 Read: canimdesc.BoneWorldMax
-Write: canimdesc.BoneWorldMax = value
 ```
 ## SequenceParams (Read-Only)
 ```lua

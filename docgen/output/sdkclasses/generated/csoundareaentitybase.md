@@ -33,11 +33,10 @@ Write: csoundareaentitybase.SoundAreaType = value
 Read: csoundareaentitybase.Pos
 Write: csoundareaentitybase.Pos = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: csoundareaentitybase.Parent
-Write: csoundareaentitybase.Parent = value
 ```
 # Functions
 ## ToPtr

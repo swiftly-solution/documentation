@@ -21,23 +21,20 @@ CEnumAnimParameter(ptr --[[ string ]])
 Read: cenumanimparameter.DefaultValue
 Write: cenumanimparameter.DefaultValue = value
 ```
-## EnumOptions 
+## EnumOptions (Read-Only)
 ```lua
 @type table
 Read: cenumanimparameter.EnumOptions
-Write: cenumanimparameter.EnumOptions = value
 ```
-## EnumReferenced 
+## EnumReferenced (Read-Only)
 ```lua
 @type table
 Read: cenumanimparameter.EnumReferenced
-Write: cenumanimparameter.EnumReferenced = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cenumanimparameter.Parent
-Write: cenumanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

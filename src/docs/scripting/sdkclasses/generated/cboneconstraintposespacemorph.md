@@ -27,17 +27,15 @@ Write: cboneconstraintposespacemorph.BoneName = value
 Read: cboneconstraintposespacemorph.AttachmentName
 Write: cboneconstraintposespacemorph.AttachmentName = value
 ```
-## OutputMorph 
+## OutputMorph (Read-Only)
 ```lua
 @type table
 Read: cboneconstraintposespacemorph.OutputMorph
-Write: cboneconstraintposespacemorph.OutputMorph = value
 ```
-## InputList 
+## InputList (Read-Only)
 ```lua
 @type table
 Read: cboneconstraintposespacemorph.InputList
-Write: cboneconstraintposespacemorph.InputList = value
 ```
 ## Clamp 
 ```lua
@@ -45,11 +43,10 @@ Write: cboneconstraintposespacemorph.InputList = value
 Read: cboneconstraintposespacemorph.Clamp
 Write: cboneconstraintposespacemorph.Clamp = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBoneConstraintBase
 Read: cboneconstraintposespacemorph.Parent
-Write: cboneconstraintposespacemorph.Parent = value
 ```
 # Functions
 ## ToPtr

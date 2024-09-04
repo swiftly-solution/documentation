@@ -69,11 +69,10 @@ Write: cragdollconstraint.Yfriction = value
 Read: cragdollconstraint.Zfriction
 Write: cragdollconstraint.Zfriction = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cragdollconstraint.Parent
-Write: cragdollconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

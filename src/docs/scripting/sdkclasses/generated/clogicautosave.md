@@ -33,11 +33,10 @@ Write: clogicautosave.MinHitPoints = value
 Read: clogicautosave.MinHitPointsToCommit
 Write: clogicautosave.MinHitPointsToCommit = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicautosave.Parent
-Write: clogicautosave.Parent = value
 ```
 # Functions
 ## ToPtr

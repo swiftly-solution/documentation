@@ -20,11 +20,10 @@ CAnimScriptComponentUpdater(ptr --[[ string ]])
 @type AnimScriptHandle
 Read: canimscriptcomponentupdater.Script
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: canimscriptcomponentupdater.Parent
-Write: canimscriptcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

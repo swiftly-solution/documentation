@@ -27,77 +27,65 @@ Write: materialresourcedata_t.MaterialName = value
 Read: materialresourcedata_t.ShaderName
 Write: materialresourcedata_t.ShaderName = value
 ```
-## IntParams 
+## IntParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.IntParams
-Write: materialresourcedata_t.IntParams = value
 ```
-## FloatParams 
+## FloatParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.FloatParams
-Write: materialresourcedata_t.FloatParams = value
 ```
-## VectorParams 
+## VectorParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.VectorParams
-Write: materialresourcedata_t.VectorParams = value
 ```
-## TextureParams 
+## TextureParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.TextureParams
-Write: materialresourcedata_t.TextureParams = value
 ```
-## DynamicParams 
+## DynamicParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.DynamicParams
-Write: materialresourcedata_t.DynamicParams = value
 ```
-## DynamicTextureParams 
+## DynamicTextureParams (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.DynamicTextureParams
-Write: materialresourcedata_t.DynamicTextureParams = value
 ```
-## IntAttributes 
+## IntAttributes (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.IntAttributes
-Write: materialresourcedata_t.IntAttributes = value
 ```
-## FloatAttributes 
+## FloatAttributes (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.FloatAttributes
-Write: materialresourcedata_t.FloatAttributes = value
 ```
-## VectorAttributes 
+## VectorAttributes (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.VectorAttributes
-Write: materialresourcedata_t.VectorAttributes = value
 ```
-## TextureAttributes 
+## TextureAttributes (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.TextureAttributes
-Write: materialresourcedata_t.TextureAttributes = value
 ```
-## StringAttributes 
+## StringAttributes (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.StringAttributes
-Write: materialresourcedata_t.StringAttributes = value
 ```
-## RenderAttributesUsed 
+## RenderAttributesUsed (Read-Only)
 ```lua
 @type table
 Read: materialresourcedata_t.RenderAttributesUsed
-Write: materialresourcedata_t.RenderAttributesUsed = value
 ```
 # Functions
 ## ToPtr

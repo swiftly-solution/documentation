@@ -45,11 +45,10 @@ Write: cenvscreenoverlay.DesiredOverlay = value
 Read: cenvscreenoverlay.IsActive
 Write: cenvscreenoverlay.IsActive = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvscreenoverlay.Parent
-Write: cenvscreenoverlay.Parent = value
 ```
 # Functions
 ## ToPtr

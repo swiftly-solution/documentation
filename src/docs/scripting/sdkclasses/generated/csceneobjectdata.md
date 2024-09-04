@@ -27,23 +27,20 @@ Write: csceneobjectdata.MinBounds = value
 Read: csceneobjectdata.MaxBounds
 Write: csceneobjectdata.MaxBounds = value
 ```
-## DrawCalls 
+## DrawCalls (Read-Only)
 ```lua
 @type table
 Read: csceneobjectdata.DrawCalls
-Write: csceneobjectdata.DrawCalls = value
 ```
-## DrawBounds 
+## DrawBounds (Read-Only)
 ```lua
 @type table
 Read: csceneobjectdata.DrawBounds
-Write: csceneobjectdata.DrawBounds = value
 ```
-## Meshlets 
+## Meshlets (Read-Only)
 ```lua
 @type table
 Read: csceneobjectdata.Meshlets
-Write: csceneobjectdata.Meshlets = value
 ```
 ## TintColor 
 ```lua

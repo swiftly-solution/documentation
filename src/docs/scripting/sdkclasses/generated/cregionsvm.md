@@ -15,17 +15,15 @@ category:
 CRegionSVM(ptr --[[ string ]])
 ```
 # Properties
-## Planes 
+## Planes (Read-Only)
 ```lua
 @type table
 Read: cregionsvm.Planes
-Write: cregionsvm.Planes = value
 ```
-## Nodes 
+## Nodes (Read-Only)
 ```lua
 @type table
 Read: cregionsvm.Nodes
-Write: cregionsvm.Nodes = value
 ```
 # Functions
 ## ToPtr

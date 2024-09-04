@@ -56,11 +56,10 @@ Write: cchangelevel.NewChapter = value
 Read: cchangelevel.OnChangeLevelFired
 Write: cchangelevel.OnChangeLevelFired = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cchangelevel.Parent
-Write: cchangelevel.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,17 +27,15 @@ Write: cseqscaleset.RootOffset = value
 Read: cseqscaleset.RootOffset1
 Write: cseqscaleset.RootOffset1 = value
 ```
-## LocalBoneArray 
+## LocalBoneArray (Read-Only)
 ```lua
 @type table
 Read: cseqscaleset.LocalBoneArray
-Write: cseqscaleset.LocalBoneArray = value
 ```
-## BoneScaleArray 
+## BoneScaleArray (Read-Only)
 ```lua
 @type table
 Read: cseqscaleset.BoneScaleArray
-Write: cseqscaleset.BoneScaleArray = value
 ```
 # Functions
 ## ToPtr

@@ -20,11 +20,10 @@ CJiggleBoneUpdateNode(ptr --[[ string ]])
 @type JiggleBoneSettingsList_t
 Read: cjiggleboneupdatenode.OpFixedData
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cjiggleboneupdatenode.Parent
-Write: cjiggleboneupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

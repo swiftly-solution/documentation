@@ -27,23 +27,20 @@ Write: cbaseconstraint.Name = value
 Read: cbaseconstraint.UpVector
 Write: cbaseconstraint.UpVector = value
 ```
-## Slaves 
+## Slaves (Read-Only)
 ```lua
 @type table
 Read: cbaseconstraint.Slaves
-Write: cbaseconstraint.Slaves = value
 ```
-## Targets 
+## Targets (Read-Only)
 ```lua
 @type table
 Read: cbaseconstraint.Targets
-Write: cbaseconstraint.Targets = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBoneConstraintBase
 Read: cbaseconstraint.Parent
-Write: cbaseconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

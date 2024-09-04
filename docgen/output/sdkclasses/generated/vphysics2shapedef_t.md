@@ -15,35 +15,30 @@ category:
 VPhysics2ShapeDef_t(ptr --[[ string ]])
 ```
 # Properties
-## Spheres 
+## Spheres (Read-Only)
 ```lua
 @type table
 Read: vphysics2shapedef_t.Spheres
-Write: vphysics2shapedef_t.Spheres = value
 ```
-## Capsules 
+## Capsules (Read-Only)
 ```lua
 @type table
 Read: vphysics2shapedef_t.Capsules
-Write: vphysics2shapedef_t.Capsules = value
 ```
-## Hulls 
+## Hulls (Read-Only)
 ```lua
 @type table
 Read: vphysics2shapedef_t.Hulls
-Write: vphysics2shapedef_t.Hulls = value
 ```
-## Meshes 
+## Meshes (Read-Only)
 ```lua
 @type table
 Read: vphysics2shapedef_t.Meshes
-Write: vphysics2shapedef_t.Meshes = value
 ```
-## CollisionAttributeIndices 
+## CollisionAttributeIndices (Read-Only)
 ```lua
 @type table
 Read: vphysics2shapedef_t.CollisionAttributeIndices
-Write: vphysics2shapedef_t.CollisionAttributeIndices = value
 ```
 # Functions
 ## ToPtr

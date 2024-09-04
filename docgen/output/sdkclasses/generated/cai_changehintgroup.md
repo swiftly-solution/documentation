@@ -39,11 +39,10 @@ Write: cai_changehintgroup.StrNewHintGroup = value
 Read: cai_changehintgroup.Radius
 Write: cai_changehintgroup.Radius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cai_changehintgroup.Parent
-Write: cai_changehintgroup.Parent = value
 ```
 # Functions
 ## ToPtr

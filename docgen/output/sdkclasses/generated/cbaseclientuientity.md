@@ -89,11 +89,10 @@ Read: cbaseclientuientity.CustomOutput8
 @type CEntityIOOutput
 Read: cbaseclientuientity.CustomOutput9
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbaseclientuientity.Parent
-Write: cbaseclientuientity.Parent = value
 ```
 # Functions
 ## ToPtr

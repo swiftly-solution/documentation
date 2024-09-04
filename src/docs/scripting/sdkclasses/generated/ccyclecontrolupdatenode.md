@@ -26,11 +26,10 @@ Write: ccyclecontrolupdatenode.ValueSource = value
 @type CAnimParamHandle
 Read: ccyclecontrolupdatenode.ParamIndex
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: ccyclecontrolupdatenode.Parent
-Write: ccyclecontrolupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

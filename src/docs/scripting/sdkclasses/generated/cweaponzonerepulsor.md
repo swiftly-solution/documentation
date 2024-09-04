@@ -15,11 +15,10 @@ category:
 CWeaponZoneRepulsor(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cweaponzonerepulsor.Parent
-Write: cweaponzonerepulsor.Parent = value
 ```
 # Functions
 ## ToPtr

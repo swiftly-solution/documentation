@@ -15,11 +15,10 @@ category:
 CProductQuantizer(ptr --[[ string ]])
 ```
 # Properties
-## SubQuantizers 
+## SubQuantizers (Read-Only)
 ```lua
 @type table
 Read: cproductquantizer.SubQuantizers
-Write: cproductquantizer.SubQuantizers = value
 ```
 ## Dimensions 
 ```lua

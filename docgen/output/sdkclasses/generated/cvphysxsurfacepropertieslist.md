@@ -15,11 +15,10 @@ category:
 CVPhysXSurfacePropertiesList(ptr --[[ string ]])
 ```
 # Properties
-## SurfacePropertiesList 
+## SurfacePropertiesList (Read-Only)
 ```lua
 @type table
 Read: cvphysxsurfacepropertieslist.SurfacePropertiesList
-Write: cvphysxsurfacepropertieslist.SurfacePropertiesList = value
 ```
 # Functions
 ## ToPtr

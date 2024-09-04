@@ -39,11 +39,10 @@ Write: cdecoyprojectile.ExpireTime = value
 Read: cdecoyprojectile.DecoyWeaponDefIndex
 Write: cdecoyprojectile.DecoyWeaponDefIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: cdecoyprojectile.Parent
-Write: cdecoyprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

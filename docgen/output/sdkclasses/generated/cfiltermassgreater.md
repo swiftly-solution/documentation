@@ -21,11 +21,10 @@ CFilterMassGreater(ptr --[[ string ]])
 Read: cfiltermassgreater.FilterMass
 Write: cfiltermassgreater.FilterMass = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfiltermassgreater.Parent
-Write: cfiltermassgreater.Parent = value
 ```
 # Functions
 ## ToPtr

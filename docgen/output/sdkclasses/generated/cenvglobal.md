@@ -39,11 +39,10 @@ Write: cenvglobal.Initialstate = value
 Read: cenvglobal.Counter
 Write: cenvglobal.Counter = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cenvglobal.Parent
-Write: cenvglobal.Parent = value
 ```
 # Functions
 ## ToPtr

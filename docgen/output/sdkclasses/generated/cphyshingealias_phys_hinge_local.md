@@ -15,11 +15,10 @@ category:
 CPhysHingeAlias_phys_hinge_local(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysHinge
 Read: cphyshingealias_phys_hinge_local.Parent
-Write: cphyshingealias_phys_hinge_local.Parent = value
 ```
 # Functions
 ## ToPtr

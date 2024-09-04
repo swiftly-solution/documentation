@@ -30,11 +30,10 @@ Read: ccommentaryauto.OnCommentaryMidGame
 @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryMultiplayerSpawn
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccommentaryauto.Parent
-Write: ccommentaryauto.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,17 +27,15 @@ Write: cdirectplaybackupdatenode.FinishEarly = value
 Read: cdirectplaybackupdatenode.ResetOnFinish
 Write: cdirectplaybackupdatenode.ResetOnFinish = value
 ```
-## AllTags 
+## AllTags (Read-Only)
 ```lua
 @type table
 Read: cdirectplaybackupdatenode.AllTags
-Write: cdirectplaybackupdatenode.AllTags = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cdirectplaybackupdatenode.Parent
-Write: cdirectplaybackupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

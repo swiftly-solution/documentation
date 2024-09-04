@@ -20,11 +20,10 @@ CMotionGraph(ptr --[[ string ]])
 @type CParamSpanUpdater
 Read: cmotiongraph.ParamSpans
 ```
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: cmotiongraph.Tags
-Write: cmotiongraph.Tags = value
 ```
 ## ParameterCount 
 ```lua

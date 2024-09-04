@@ -15,11 +15,10 @@ category:
 CCSServerPointScriptEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSPointScriptEntity
 Read: ccsserverpointscriptentity.Parent
-Write: ccsserverpointscriptentity.Parent = value
 ```
 # Functions
 ## ToPtr

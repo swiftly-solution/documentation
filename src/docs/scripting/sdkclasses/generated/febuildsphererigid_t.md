@@ -27,11 +27,10 @@ Write: febuildsphererigid_t.Priority = value
 Read: febuildsphererigid_t.VertexMapHash
 Write: febuildsphererigid_t.VertexMapHash = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type FeSphereRigid_t
 Read: febuildsphererigid_t.Parent
-Write: febuildsphererigid_t.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: canimationgraphvisualizersphere.Radius = value
 Read: canimationgraphvisualizersphere.Color
 Write: canimationgraphvisualizersphere.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizersphere.Parent
-Write: canimationgraphvisualizersphere.Parent = value
 ```
 # Functions
 ## ToPtr

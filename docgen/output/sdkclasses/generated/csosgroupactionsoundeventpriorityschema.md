@@ -39,11 +39,10 @@ Write: csosgroupactionsoundeventpriorityschema.PriorityContributeButDontRead = v
 Read: csosgroupactionsoundeventpriorityschema.PriorityReadButDontContribute
 Write: csosgroupactionsoundeventpriorityschema.PriorityReadButDontContribute = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactionsoundeventpriorityschema.Parent
-Write: csosgroupactionsoundeventpriorityschema.Parent = value
 ```
 # Functions
 ## ToPtr

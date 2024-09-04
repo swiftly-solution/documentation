@@ -15,11 +15,10 @@ category:
 CPredictedViewModel(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseViewModel
 Read: cpredictedviewmodel.Parent
-Write: cpredictedviewmodel.Parent = value
 ```
 # Functions
 ## ToPtr

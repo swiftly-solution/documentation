@@ -21,11 +21,10 @@ CPhysTorque(ptr --[[ string ]])
 Read: cphystorque.Axis
 Write: cphystorque.Axis = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysForce
 Read: cphystorque.Parent
-Write: cphystorque.Parent = value
 ```
 # Functions
 ## ToPtr

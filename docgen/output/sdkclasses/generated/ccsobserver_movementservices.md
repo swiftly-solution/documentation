@@ -15,11 +15,10 @@ category:
 CCSObserver_MovementServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_MovementServices
 Read: ccsobserver_movementservices.Parent
-Write: ccsobserver_movementservices.Parent = value
 ```
 # Functions
 ## ToPtr

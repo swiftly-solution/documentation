@@ -44,11 +44,10 @@ Write: crendercomponent.EnableRendering = value
 Read: crendercomponent.InterpolationReadyToDraw
 Write: crendercomponent.InterpolationReadyToDraw = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: crendercomponent.Parent
-Write: crendercomponent.Parent = value
 ```
 # Functions
 ## ToPtr

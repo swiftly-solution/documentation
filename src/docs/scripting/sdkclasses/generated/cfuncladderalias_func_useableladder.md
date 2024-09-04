@@ -15,11 +15,10 @@ category:
 CFuncLadderAlias_func_useableladder(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncLadder
 Read: cfuncladderalias_func_useableladder.Parent
-Write: cfuncladderalias_func_useableladder.Parent = value
 ```
 # Functions
 ## ToPtr

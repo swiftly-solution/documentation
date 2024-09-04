@@ -75,11 +75,10 @@ Write: cbaseanimgraph.RagdollPose = value
 Read: cbaseanimgraph.RagdollClientSide
 Write: cbaseanimgraph.RagdollClientSide = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbaseanimgraph.Parent
-Write: cbaseanimgraph.Parent = value
 ```
 # Functions
 ## ToPtr

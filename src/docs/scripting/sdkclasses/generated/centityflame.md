@@ -79,11 +79,10 @@ Write: centityflame.DirectDamagePerSecond = value
 Read: centityflame.CustomDamageType
 Write: centityflame.CustomDamageType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: centityflame.Parent
-Write: centityflame.Parent = value
 ```
 # Functions
 ## ToPtr

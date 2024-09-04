@@ -21,11 +21,10 @@ CQuaternionAnimParameter(ptr --[[ string ]])
 Read: cquaternionanimparameter.Interpolate
 Write: cquaternionanimparameter.Interpolate = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cquaternionanimparameter.Parent
-Write: cquaternionanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

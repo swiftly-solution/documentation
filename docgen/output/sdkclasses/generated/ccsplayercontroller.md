@@ -406,11 +406,10 @@ Write: ccsplayercontroller.RoundScore = value
 Read: ccsplayercontroller.RoundsWon
 Write: ccsplayercontroller.RoundsWon = value
 ```
-## Kills 
+## Kills (Read-Only)
 ```lua
 @type table
 Read: ccsplayercontroller.Kills
-Write: ccsplayercontroller.Kills = value
 ```
 ## MvpNoMusic 
 ```lua
@@ -525,11 +524,10 @@ Write: ccsplayercontroller.SuspiciousHitCount = value
 Read: ccsplayercontroller.NonSuspiciousHitStreak
 Write: ccsplayercontroller.NonSuspiciousHitStreak = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlayerController
 Read: ccsplayercontroller.Parent
-Write: ccsplayercontroller.Parent = value
 ```
 # Functions
 ## ToPtr

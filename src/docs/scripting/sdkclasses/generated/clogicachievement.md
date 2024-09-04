@@ -32,11 +32,10 @@ Write: clogicachievement.AchievementEventID = value
 @type CEntityIOOutput
 Read: clogicachievement.OnFired
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicachievement.Parent
-Write: clogicachievement.Parent = value
 ```
 # Functions
 ## ToPtr

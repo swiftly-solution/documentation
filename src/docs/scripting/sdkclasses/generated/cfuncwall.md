@@ -21,11 +21,10 @@ CFuncWall(ptr --[[ string ]])
 Read: cfuncwall.State
 Write: cfuncwall.State = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncwall.Parent
-Write: cfuncwall.Parent = value
 ```
 # Functions
 ## ToPtr

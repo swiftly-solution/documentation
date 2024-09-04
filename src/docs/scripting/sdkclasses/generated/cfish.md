@@ -146,17 +146,15 @@ Read: cfish.DisperseTimer
 @type CountdownTimer
 Read: cfish.ProximityTimer
 ```
-## Visible 
+## Visible (Read-Only)
 ```lua
 @type table
 Read: cfish.Visible
-Write: cfish.Visible = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cfish.Parent
-Write: cfish.Parent = value
 ```
 # Functions
 ## ToPtr

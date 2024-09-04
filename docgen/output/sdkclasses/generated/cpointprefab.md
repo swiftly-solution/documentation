@@ -50,11 +50,10 @@ Write: cpointprefab.LoadDynamic = value
 @type CPointPrefab
 Read: cpointprefab.AssociatedRelayEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyPointEntity
 Read: cpointprefab.Parent
-Write: cpointprefab.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -51,11 +51,10 @@ Write: shard_model_desc_t.StressPositionA = value
 Read: shard_model_desc_t.StressPositionB
 Write: shard_model_desc_t.StressPositionB = value
 ```
-## PanelVertices 
+## PanelVertices (Read-Only)
 ```lua
 @type table
 Read: shard_model_desc_t.PanelVertices
-Write: shard_model_desc_t.PanelVertices = value
 ```
 ## GlassHalfThickness 
 ```lua

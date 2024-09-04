@@ -39,11 +39,10 @@ Write: cblood.Amount = value
 Read: cblood.Color
 Write: cblood.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cblood.Parent
-Write: cblood.Parent = value
 ```
 # Functions
 ## ToPtr

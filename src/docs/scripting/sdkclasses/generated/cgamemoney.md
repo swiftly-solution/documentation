@@ -37,11 +37,10 @@ Write: cgamemoney.Money = value
 Read: cgamemoney.StrAwardText
 Write: cgamemoney.StrAwardText = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRulePointEntity
 Read: cgamemoney.Parent
-Write: cgamemoney.Parent = value
 ```
 # Functions
 ## ToPtr

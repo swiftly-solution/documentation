@@ -57,11 +57,10 @@ Write: cdistanceremainingmetricevaluator.FilterGoalDistance = value
 Read: cdistanceremainingmetricevaluator.FilterGoalOvershoot
 Write: cdistanceremainingmetricevaluator.FilterGoalOvershoot = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cdistanceremainingmetricevaluator.Parent
-Write: cdistanceremainingmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cfunctimescale.BlendDeltaMultiplier = value
 Read: cfunctimescale.IsStarted
 Write: cfunctimescale.IsStarted = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cfunctimescale.Parent
-Write: cfunctimescale.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CSplineConstraint(ptr --[[ string ]])
 Read: csplineconstraint.AnchorOffsetRestore
 Write: csplineconstraint.AnchorOffsetRestore = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: csplineconstraint.Parent
-Write: csplineconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

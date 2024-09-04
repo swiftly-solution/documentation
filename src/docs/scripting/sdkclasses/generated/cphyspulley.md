@@ -39,11 +39,10 @@ Write: cphyspulley.AddLength = value
 Read: cphyspulley.GearRatio
 Write: cphyspulley.GearRatio = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphyspulley.Parent
-Write: cphyspulley.Parent = value
 ```
 # Functions
 ## ToPtr

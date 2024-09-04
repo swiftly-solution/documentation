@@ -49,11 +49,10 @@ Write: cphysforce.WasRestored = value
 @type CConstantForceController
 Read: cphysforce.Integrator
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cphysforce.Parent
-Write: cphysforce.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: cnavvolumebreadthfirstsearch.StartPos = value
 Read: cnavvolumebreadthfirstsearch.SearchDist
 Write: cnavvolumebreadthfirstsearch.SearchDist = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolumeCalculatedVector
 Read: cnavvolumebreadthfirstsearch.Parent
-Write: cnavvolumebreadthfirstsearch.Parent = value
 ```
 # Functions
 ## ToPtr

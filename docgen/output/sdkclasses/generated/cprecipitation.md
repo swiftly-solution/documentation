@@ -15,11 +15,10 @@ category:
 CPrecipitation(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cprecipitation.Parent
-Write: cprecipitation.Parent = value
 ```
 # Functions
 ## ToPtr

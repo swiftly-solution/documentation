@@ -15,11 +15,10 @@ category:
 ParamSpan_t(ptr --[[ string ]])
 ```
 # Properties
-## Samples 
+## Samples (Read-Only)
 ```lua
 @type table
 Read: paramspan_t.Samples
-Write: paramspan_t.Samples = value
 ```
 ## Param (Read-Only)
 ```lua

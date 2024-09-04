@@ -91,11 +91,10 @@ Read: ctriggerhurt.OnHurt
 @type CEntityIOOutput
 Read: ctriggerhurt.OnHurtPlayer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerhurt.Parent
-Write: ctriggerhurt.Parent = value
 ```
 # Functions
 ## ToPtr

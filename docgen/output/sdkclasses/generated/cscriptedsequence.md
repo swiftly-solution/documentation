@@ -402,11 +402,10 @@ Read: cscriptedsequence.OnCancelSequence
 @type CEntityIOOutput
 Read: cscriptedsequence.OnCancelFailedSequence
 ```
-## OnScriptEvent 
+## OnScriptEvent (Read-Only)
 ```lua
 @type table
 Read: cscriptedsequence.OnScriptEvent
-Write: cscriptedsequence.OnScriptEvent = value
 ```
 ## InteractionMainEntity (Read-Only)
 ```lua
@@ -419,11 +418,10 @@ Read: cscriptedsequence.InteractionMainEntity
 Read: cscriptedsequence.PlayerDeathBehavior
 Write: cscriptedsequence.PlayerDeathBehavior = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cscriptedsequence.Parent
-Write: cscriptedsequence.Parent = value
 ```
 # Functions
 ## ToPtr

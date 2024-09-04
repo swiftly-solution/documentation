@@ -62,11 +62,10 @@ Write: cjumphelperupdatenode.TranslationAxis = value
 Read: cjumphelperupdatenode.ScaleSpeed
 Write: cjumphelperupdatenode.ScaleSpeed = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSequenceUpdateNode
 Read: cjumphelperupdatenode.Parent
-Write: cjumphelperupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

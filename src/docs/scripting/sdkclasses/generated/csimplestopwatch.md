@@ -15,11 +15,10 @@ category:
 CSimpleStopwatch(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CStopwatchBase
 Read: csimplestopwatch.Parent
-Write: csimplestopwatch.Parent = value
 ```
 # Functions
 ## ToPtr

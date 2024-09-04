@@ -21,11 +21,10 @@ AnimationDecodeDebugDump_t(ptr --[[ string ]])
 Read: animationdecodedebugdump_t.ProcessingType
 Write: animationdecodedebugdump_t.ProcessingType = value
 ```
-## Elems 
+## Elems (Read-Only)
 ```lua
 @type table
 Read: animationdecodedebugdump_t.Elems
-Write: animationdecodedebugdump_t.Elems = value
 ```
 # Functions
 ## ToPtr

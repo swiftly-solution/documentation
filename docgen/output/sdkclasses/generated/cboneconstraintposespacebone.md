@@ -15,17 +15,15 @@ category:
 CBoneConstraintPoseSpaceBone(ptr --[[ string ]])
 ```
 # Properties
-## InputList 
+## InputList (Read-Only)
 ```lua
 @type table
 Read: cboneconstraintposespacebone.InputList
-Write: cboneconstraintposespacebone.InputList = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: cboneconstraintposespacebone.Parent
-Write: cboneconstraintposespacebone.Parent = value
 ```
 # Functions
 ## ToPtr

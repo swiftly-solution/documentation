@@ -21,11 +21,10 @@ CDspPresetModifierList(ptr --[[ string ]])
 Read: cdsppresetmodifierlist.DspName
 Write: cdsppresetmodifierlist.DspName = value
 ```
-## Modifiers 
+## Modifiers (Read-Only)
 ```lua
 @type table
 Read: cdsppresetmodifierlist.Modifiers
-Write: cdsppresetmodifierlist.Modifiers = value
 ```
 # Functions
 ## ToPtr

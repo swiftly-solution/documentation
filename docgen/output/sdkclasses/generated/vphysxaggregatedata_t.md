@@ -27,47 +27,40 @@ Write: vphysxaggregatedata_t.Flags = value
 Read: vphysxaggregatedata_t.RefCounter
 Write: vphysxaggregatedata_t.RefCounter = value
 ```
-## BonesHash 
+## BonesHash (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.BonesHash
-Write: vphysxaggregatedata_t.BonesHash = value
 ```
-## BoneNames 
+## BoneNames (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.BoneNames
-Write: vphysxaggregatedata_t.BoneNames = value
 ```
-## IndexNames 
+## IndexNames (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.IndexNames
-Write: vphysxaggregatedata_t.IndexNames = value
 ```
-## IndexHash 
+## IndexHash (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.IndexHash
-Write: vphysxaggregatedata_t.IndexHash = value
 ```
-## Parts 
+## Parts (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.Parts
-Write: vphysxaggregatedata_t.Parts = value
 ```
-## Constraints2 
+## Constraints2 (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.Constraints2
-Write: vphysxaggregatedata_t.Constraints2 = value
 ```
-## Joints 
+## Joints (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.Joints
-Write: vphysxaggregatedata_t.Joints = value
 ```
 ## FeModel 
 ```lua
@@ -75,29 +68,25 @@ Write: vphysxaggregatedata_t.Joints = value
 Read: vphysxaggregatedata_t.FeModel
 Write: vphysxaggregatedata_t.FeModel = value
 ```
-## BoneParents 
+## BoneParents (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.BoneParents
-Write: vphysxaggregatedata_t.BoneParents = value
 ```
-## SurfacePropertyHashes 
+## SurfacePropertyHashes (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.SurfacePropertyHashes
-Write: vphysxaggregatedata_t.SurfacePropertyHashes = value
 ```
-## CollisionAttributes 
+## CollisionAttributes (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.CollisionAttributes
-Write: vphysxaggregatedata_t.CollisionAttributes = value
 ```
-## DebugPartNames 
+## DebugPartNames (Read-Only)
 ```lua
 @type table
 Read: vphysxaggregatedata_t.DebugPartNames
-Write: vphysxaggregatedata_t.DebugPartNames = value
 ```
 ## EmbeddedKeyvalues 
 ```lua

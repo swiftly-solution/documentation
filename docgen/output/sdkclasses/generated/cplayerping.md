@@ -43,11 +43,10 @@ Write: cplayerping.Urgent = value
 Read: cplayerping.PlaceName
 Write: cplayerping.PlaceName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cplayerping.Parent
-Write: cplayerping.Parent = value
 ```
 # Functions
 ## ToPtr

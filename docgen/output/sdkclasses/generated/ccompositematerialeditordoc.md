@@ -21,11 +21,10 @@ CCompositeMaterialEditorDoc(ptr --[[ string ]])
 Read: ccompositematerialeditordoc.Version
 Write: ccompositematerialeditordoc.Version = value
 ```
-## Points 
+## Points (Read-Only)
 ```lua
 @type table
 Read: ccompositematerialeditordoc.Points
-Write: ccompositematerialeditordoc.Points = value
 ```
 # Functions
 ## ToPtr

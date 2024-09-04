@@ -33,11 +33,10 @@ Write: cinfovisibilitybox.BoxSize = value
 Read: cinfovisibilitybox.Enabled
 Write: cinfovisibilitybox.Enabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cinfovisibilitybox.Parent
-Write: cinfovisibilitybox.Parent = value
 ```
 # Functions
 ## ToPtr

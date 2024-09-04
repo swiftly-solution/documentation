@@ -15,11 +15,10 @@ category:
 CSmokeGrenade(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenade
 Read: csmokegrenade.Parent
-Write: csmokegrenade.Parent = value
 ```
 # Functions
 ## ToPtr

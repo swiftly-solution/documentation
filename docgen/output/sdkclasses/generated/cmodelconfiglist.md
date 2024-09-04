@@ -27,11 +27,10 @@ Write: cmodelconfiglist.HideMaterialGroupInTools = value
 Read: cmodelconfiglist.HideRenderColorInTools
 Write: cmodelconfiglist.HideRenderColorInTools = value
 ```
-## Configs 
+## Configs (Read-Only)
 ```lua
 @type table
 Read: cmodelconfiglist.Configs
-Write: cmodelconfiglist.Configs = value
 ```
 # Functions
 ## ToPtr

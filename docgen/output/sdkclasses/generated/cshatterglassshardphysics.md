@@ -32,11 +32,10 @@ Write: cshatterglassshardphysics.ParentShard = value
 @type shard_model_desc_t
 Read: cshatterglassshardphysics.ShardDesc
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysicsProp
 Read: cshatterglassshardphysics.Parent
-Write: cshatterglassshardphysics.Parent = value
 ```
 # Functions
 ## ToPtr

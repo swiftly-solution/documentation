@@ -43,11 +43,10 @@ Write: caimmatrixupdatenode.ResetChild = value
 Read: caimmatrixupdatenode.LockWhenWaning
 Write: caimmatrixupdatenode.LockWhenWaning = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: caimmatrixupdatenode.Parent
-Write: caimmatrixupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

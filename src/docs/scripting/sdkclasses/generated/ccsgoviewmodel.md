@@ -33,11 +33,10 @@ Write: ccsgoviewmodel.WeaponParity = value
 Read: ccsgoviewmodel.OldWeaponParity
 Write: ccsgoviewmodel.OldWeaponParity = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPredictedViewModel
 Read: ccsgoviewmodel.Parent
-Write: ccsgoviewmodel.Parent = value
 ```
 # Functions
 ## ToPtr

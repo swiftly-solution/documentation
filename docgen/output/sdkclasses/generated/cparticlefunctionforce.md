@@ -15,11 +15,10 @@ category:
 CParticleFunctionForce(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunction
 Read: cparticlefunctionforce.Parent
-Write: cparticlefunctionforce.Parent = value
 ```
 # Functions
 ## ToPtr

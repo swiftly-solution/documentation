@@ -21,11 +21,10 @@ CSkeletonAnimationController(ptr --[[ string ]])
 Read: cskeletonanimationcontroller.SkeletonInstance
 Write: cskeletonanimationcontroller.SkeletonInstance = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type ISkeletonAnimationController
 Read: cskeletonanimationcontroller.Parent
-Write: cskeletonanimationcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

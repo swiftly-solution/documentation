@@ -15,11 +15,10 @@ category:
 CFuncTrainControls(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfunctraincontrols.Parent
-Write: cfunctraincontrols.Parent = value
 ```
 # Functions
 ## ToPtr

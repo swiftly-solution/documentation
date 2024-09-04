@@ -15,11 +15,10 @@ category:
 CNmVectorValueNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmValueNode
 Read: cnmvectorvaluenode.Parent
-Write: cnmvectorvaluenode.Parent = value
 ```
 # Functions
 ## ToPtr

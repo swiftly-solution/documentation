@@ -95,11 +95,10 @@ Read: cbreakable.PhysicsAttacker
 Read: cbreakable.LastPhysicsInfluenceTime
 Write: cbreakable.LastPhysicsInfluenceTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbreakable.Parent
-Write: cbreakable.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,47 +15,40 @@ category:
 CAnimEncodeDifference(ptr --[[ string ]])
 ```
 # Properties
-## BoneArray 
+## BoneArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.BoneArray
-Write: canimencodedifference.BoneArray = value
 ```
-## MorphArray 
+## MorphArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.MorphArray
-Write: canimencodedifference.MorphArray = value
 ```
-## UserArray 
+## UserArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.UserArray
-Write: canimencodedifference.UserArray = value
 ```
-## HasRotationBitArray 
+## HasRotationBitArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.HasRotationBitArray
-Write: canimencodedifference.HasRotationBitArray = value
 ```
-## HasMovementBitArray 
+## HasMovementBitArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.HasMovementBitArray
-Write: canimencodedifference.HasMovementBitArray = value
 ```
-## HasMorphBitArray 
+## HasMorphBitArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.HasMorphBitArray
-Write: canimencodedifference.HasMorphBitArray = value
 ```
-## HasUserBitArray 
+## HasUserBitArray (Read-Only)
 ```lua
 @type table
 Read: canimencodedifference.HasUserBitArray
-Write: canimencodedifference.HasUserBitArray = value
 ```
 # Functions
 ## ToPtr

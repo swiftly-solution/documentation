@@ -51,11 +51,10 @@ Write: caisound.Duration = value
 Read: caisound.ProxyEntityName
 Write: caisound.ProxyEntityName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: caisound.Parent
-Write: caisound.Parent = value
 ```
 # Functions
 ## ToPtr

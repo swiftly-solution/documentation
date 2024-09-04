@@ -39,11 +39,10 @@ Write: cenvparticleglow.SelfIllumScale = value
 Read: cenvparticleglow.ColorTint
 Write: cenvparticleglow.ColorTint = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleSystem
 Read: cenvparticleglow.Parent
-Write: cenvparticleglow.Parent = value
 ```
 # Functions
 ## ToPtr

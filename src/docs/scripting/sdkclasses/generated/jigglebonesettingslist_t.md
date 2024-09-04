@@ -15,11 +15,10 @@ category:
 JiggleBoneSettingsList_t(ptr --[[ string ]])
 ```
 # Properties
-## BoneSettings 
+## BoneSettings (Read-Only)
 ```lua
 @type table
 Read: jigglebonesettingslist_t.BoneSettings
-Write: jigglebonesettingslist_t.BoneSettings = value
 ```
 # Functions
 ## ToPtr

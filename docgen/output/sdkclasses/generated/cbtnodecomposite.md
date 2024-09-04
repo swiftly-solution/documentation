@@ -15,11 +15,10 @@ category:
 CBtNodeComposite(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtnodecomposite.Parent
-Write: cbtnodecomposite.Parent = value
 ```
 # Functions
 ## ToPtr

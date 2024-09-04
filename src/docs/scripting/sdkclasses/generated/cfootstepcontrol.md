@@ -27,11 +27,10 @@ Write: cfootstepcontrol.Source = value
 Read: cfootstepcontrol.Destination
 Write: cfootstepcontrol.Destination = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cfootstepcontrol.Parent
-Write: cfootstepcontrol.Parent = value
 ```
 # Functions
 ## ToPtr

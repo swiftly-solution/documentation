@@ -26,11 +26,10 @@ Read: relationshipoverride_t.Entity
 Read: relationshipoverride_t.ClassType
 Write: relationshipoverride_t.ClassType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type Relationship_t
 Read: relationshipoverride_t.Parent
-Write: relationshipoverride_t.Parent = value
 ```
 # Functions
 ## ToPtr

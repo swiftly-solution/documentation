@@ -15,11 +15,10 @@ category:
 CTriggerGravity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggergravity.Parent
-Write: ctriggergravity.Parent = value
 ```
 # Functions
 ## ToPtr

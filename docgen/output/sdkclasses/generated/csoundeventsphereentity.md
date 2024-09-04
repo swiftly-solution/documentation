@@ -21,11 +21,10 @@ CSoundEventSphereEntity(ptr --[[ string ]])
 Read: csoundeventsphereentity.Radius
 Write: csoundeventsphereentity.Radius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundEventEntity
 Read: csoundeventsphereentity.Parent
-Write: csoundeventsphereentity.Parent = value
 ```
 # Functions
 ## ToPtr

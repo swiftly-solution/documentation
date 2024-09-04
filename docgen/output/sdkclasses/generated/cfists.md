@@ -55,11 +55,10 @@ Write: cfists.DelayedHardPunchIncoming = value
 Read: cfists.DestroyAfterTaunt
 Write: cfists.DestroyAfterTaunt = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cfists.Parent
-Write: cfists.Parent = value
 ```
 # Functions
 ## ToPtr

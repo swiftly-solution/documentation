@@ -45,11 +45,10 @@ Write: ccsplayer_radioservices.RadioTokenSlots = value
 Read: ccsplayer_radioservices.IgnoreRadio
 Write: ccsplayer_radioservices.IgnoreRadio = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_radioservices.Parent
-Write: ccsplayer_radioservices.Parent = value
 ```
 # Functions
 ## ToPtr

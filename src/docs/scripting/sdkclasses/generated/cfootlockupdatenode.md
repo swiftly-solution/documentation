@@ -20,11 +20,10 @@ CFootLockUpdateNode(ptr --[[ string ]])
 @type FootLockPoseOpFixedSettings
 Read: cfootlockupdatenode.OpFixedSettings
 ```
-## FootSettings 
+## FootSettings (Read-Only)
 ```lua
 @type table
 Read: cfootlockupdatenode.FootSettings
-Write: cfootlockupdatenode.FootSettings = value
 ```
 ## HipShiftDamping (Read-Only)
 ```lua
@@ -132,11 +131,10 @@ Write: cfootlockupdatenode.EnableVerticalCurvedPaths = value
 Read: cfootlockupdatenode.EnableRootHeightDamping
 Write: cfootlockupdatenode.EnableRootHeightDamping = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfootlockupdatenode.Parent
-Write: cfootlockupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

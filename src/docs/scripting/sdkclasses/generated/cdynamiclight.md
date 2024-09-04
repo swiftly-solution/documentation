@@ -69,11 +69,10 @@ Write: cdynamiclight.OuterAngle = value
 Read: cdynamiclight.SpotRadius
 Write: cdynamiclight.SpotRadius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cdynamiclight.Parent
-Write: cdynamiclight.Parent = value
 ```
 # Functions
 ## ToPtr

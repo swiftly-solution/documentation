@@ -246,11 +246,10 @@ Write: clogicnpccounter.MaxFactor_3 = value
 Read: clogicnpccounter.DefaultDist_3
 Write: clogicnpccounter.DefaultDist_3 = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: clogicnpccounter.Parent
-Write: clogicnpccounter.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: cnavlinkmovementvdata.IsInterpolated = value
 Read: cnavlinkmovementvdata.RecommendedDistance
 Write: cnavlinkmovementvdata.RecommendedDistance = value
 ```
-## AnimgraphVars 
+## AnimgraphVars (Read-Only)
 ```lua
 @type table
 Read: cnavlinkmovementvdata.AnimgraphVars
-Write: cnavlinkmovementvdata.AnimgraphVars = value
 ```
 # Functions
 ## ToPtr

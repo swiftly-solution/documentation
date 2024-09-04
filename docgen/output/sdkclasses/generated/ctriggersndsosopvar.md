@@ -93,11 +93,10 @@ Write: ctriggersndsosopvar.VecNormPos = value
 Read: ctriggersndsosopvar.NormCenterSize
 Write: ctriggersndsosopvar.NormCenterSize = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggersndsosopvar.Parent
-Write: ctriggersndsosopvar.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CCPPScriptComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: ccppscriptcomponentupdater.Parent
-Write: ccppscriptcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

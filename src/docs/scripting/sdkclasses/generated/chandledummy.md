@@ -15,11 +15,10 @@ category:
 CHandleDummy(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: chandledummy.Parent
-Write: chandledummy.Parent = value
 ```
 # Functions
 ## ToPtr

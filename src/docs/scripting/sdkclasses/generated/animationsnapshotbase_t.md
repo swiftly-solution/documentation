@@ -27,17 +27,15 @@ Write: animationsnapshotbase_t.RealTime = value
 Read: animationsnapshotbase_t.BonesInWorldSpace
 Write: animationsnapshotbase_t.BonesInWorldSpace = value
 ```
-## BoneSetupMask 
+## BoneSetupMask (Read-Only)
 ```lua
 @type table
 Read: animationsnapshotbase_t.BoneSetupMask
-Write: animationsnapshotbase_t.BoneSetupMask = value
 ```
-## FlexControllers 
+## FlexControllers (Read-Only)
 ```lua
 @type table
 Read: animationsnapshotbase_t.FlexControllers
-Write: animationsnapshotbase_t.FlexControllers = value
 ```
 ## SnapshotType 
 ```lua

@@ -15,11 +15,10 @@ category:
 CServerRagdollTrigger(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cserverragdolltrigger.Parent
-Write: cserverragdolltrigger.Parent = value
 ```
 # Functions
 ## ToPtr

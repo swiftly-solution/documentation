@@ -27,11 +27,10 @@ Write: cragdollupdatenode.WeightListIndex = value
 Read: cragdollupdatenode.PoseControlMethod
 Write: cragdollupdatenode.PoseControlMethod = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cragdollupdatenode.Parent
-Write: cragdollupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

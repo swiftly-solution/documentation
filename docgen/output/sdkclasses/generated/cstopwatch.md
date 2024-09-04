@@ -21,11 +21,10 @@ CStopwatch(ptr --[[ string ]])
 Read: cstopwatch.Interval
 Write: cstopwatch.Interval = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CStopwatchBase
 Read: cstopwatch.Parent
-Write: cstopwatch.Parent = value
 ```
 # Functions
 ## ToPtr

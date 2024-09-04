@@ -15,11 +15,10 @@ category:
 CHitBoxSetList(ptr --[[ string ]])
 ```
 # Properties
-## HitBoxSets 
+## HitBoxSets (Read-Only)
 ```lua
 @type table
 Read: chitboxsetlist.HitBoxSets
-Write: chitboxsetlist.HitBoxSets = value
 ```
 # Functions
 ## ToPtr

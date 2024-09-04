@@ -15,11 +15,10 @@ category:
 CLogicNPCCounterOBB(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicNPCCounterAABB
 Read: clogicnpccounterobb.Parent
-Write: clogicnpccounterobb.Parent = value
 ```
 # Functions
 ## ToPtr

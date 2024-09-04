@@ -49,11 +49,10 @@ Write: cbinaryupdatenode.ResetChild1 = value
 Read: cbinaryupdatenode.ResetChild2
 Write: cbinaryupdatenode.ResetChild2 = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cbinaryupdatenode.Parent
-Write: cbinaryupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

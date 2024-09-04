@@ -15,11 +15,10 @@ category:
 CInfoLadderDismount(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cinfoladderdismount.Parent
-Write: cinfoladderdismount.Parent = value
 ```
 # Functions
 ## ToPtr

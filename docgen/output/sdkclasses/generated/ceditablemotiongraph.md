@@ -15,11 +15,10 @@ category:
 CEditableMotionGraph(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionGraph
 Read: ceditablemotiongraph.Parent
-Write: ceditablemotiongraph.Parent = value
 ```
 # Functions
 ## ToPtr

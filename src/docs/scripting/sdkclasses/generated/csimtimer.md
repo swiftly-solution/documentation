@@ -21,11 +21,10 @@ CSimTimer(ptr --[[ string ]])
 Read: csimtimer.Interval
 Write: csimtimer.Interval = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSimpleSimTimer
 Read: csimtimer.Parent
-Write: csimtimer.Parent = value
 ```
 # Functions
 ## ToPtr

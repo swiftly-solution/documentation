@@ -21,11 +21,10 @@ CNmTransitionEvent(ptr --[[ string ]])
 Read: cnmtransitionevent.Rule
 Write: cnmtransitionevent.Rule = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmEvent
 Read: cnmtransitionevent.Parent
-Write: cnmtransitionevent.Parent = value
 ```
 # Functions
 ## ToPtr

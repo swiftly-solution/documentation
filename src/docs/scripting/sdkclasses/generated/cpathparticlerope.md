@@ -33,11 +33,10 @@ Write: cpathparticlerope.MaxSimulationTime = value
 Read: cpathparticlerope.EffectName
 Write: cpathparticlerope.EffectName = value
 ```
-## PathNodes_Name 
+## PathNodes_Name (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_Name
-Write: cpathparticlerope.PathNodes_Name = value
 ```
 ## ParticleSpacing 
 ```lua
@@ -69,47 +68,40 @@ Write: cpathparticlerope.ColorTint = value
 Read: cpathparticlerope.EffectState
 Write: cpathparticlerope.EffectState = value
 ```
-## PathNodes_Position 
+## PathNodes_Position (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_Position
-Write: cpathparticlerope.PathNodes_Position = value
 ```
-## PathNodes_TangentIn 
+## PathNodes_TangentIn (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_TangentIn
-Write: cpathparticlerope.PathNodes_TangentIn = value
 ```
-## PathNodes_TangentOut 
+## PathNodes_TangentOut (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_TangentOut
-Write: cpathparticlerope.PathNodes_TangentOut = value
 ```
-## PathNodes_Color 
+## PathNodes_Color (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_Color
-Write: cpathparticlerope.PathNodes_Color = value
 ```
-## PathNodes_PinEnabled 
+## PathNodes_PinEnabled (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_PinEnabled
-Write: cpathparticlerope.PathNodes_PinEnabled = value
 ```
-## PathNodes_RadiusScale 
+## PathNodes_RadiusScale (Read-Only)
 ```lua
 @type table
 Read: cpathparticlerope.PathNodes_RadiusScale
-Write: cpathparticlerope.PathNodes_RadiusScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpathparticlerope.Parent
-Write: cpathparticlerope.Parent = value
 ```
 # Functions
 ## ToPtr

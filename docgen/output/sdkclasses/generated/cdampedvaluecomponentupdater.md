@@ -15,17 +15,15 @@ category:
 CDampedValueComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Items 
+## Items (Read-Only)
 ```lua
 @type table
 Read: cdampedvaluecomponentupdater.Items
-Write: cdampedvaluecomponentupdater.Items = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cdampedvaluecomponentupdater.Parent
-Write: cdampedvaluecomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

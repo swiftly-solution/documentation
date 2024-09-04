@@ -403,11 +403,10 @@ Write: ccsbot.LookAtSpotClearIfClose = value
 Read: ccsbot.LookAtSpotAttack
 Write: ccsbot.LookAtSpotAttack = value
 ```
-## LookAtDesc 
+## LookAtDesc (Read-Only)
 ```lua
 @type string
 Read: ccsbot.LookAtDesc
-Write: ccsbot.LookAtDesc = value
 ```
 ## PeripheralTimestamp 
 ```lua
@@ -811,11 +810,10 @@ Write: ccsbot.VoiceEndTimestamp = value
 Read: ccsbot.LastValidReactionQueueFrame
 Write: ccsbot.LastValidReactionQueueFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBot
 Read: ccsbot.Parent
-Write: ccsbot.Parent = value
 ```
 # Functions
 ## ToPtr

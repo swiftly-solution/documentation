@@ -15,11 +15,10 @@ category:
 CPlayer_WeaponServices(ptr --[[ string ]])
 ```
 # Properties
-## MyWeapons 
+## MyWeapons (Read-Only)
 ```lua
 @type table
 Read: cplayer_weaponservices.MyWeapons
-Write: cplayer_weaponservices.MyWeapons = value
 ```
 ## ActiveWeapon (Read-Only)
 ```lua
@@ -43,11 +42,10 @@ Write: cplayer_weaponservices.Ammo = value
 Read: cplayer_weaponservices.PreventWeaponPickup
 Write: cplayer_weaponservices.PreventWeaponPickup = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_weaponservices.Parent
-Write: cplayer_weaponservices.Parent = value
 ```
 # Functions
 ## ToPtr

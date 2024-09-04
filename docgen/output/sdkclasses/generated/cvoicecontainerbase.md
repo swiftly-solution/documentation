@@ -21,11 +21,10 @@ CVoiceContainerBase(ptr --[[ string ]])
 Read: cvoicecontainerbase.HideAnalyzers
 Write: cvoicecontainerbase.HideAnalyzers = value
 ```
-## AnalysisContainers 
+## AnalysisContainers (Read-Only)
 ```lua
 @type table
 Read: cvoicecontainerbase.AnalysisContainers
-Write: cvoicecontainerbase.AnalysisContainers = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CTaskHandshakeAnimTag(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CHandshakeAnimTagBase
 Read: ctaskhandshakeanimtag.Parent
-Write: ctaskhandshakeanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

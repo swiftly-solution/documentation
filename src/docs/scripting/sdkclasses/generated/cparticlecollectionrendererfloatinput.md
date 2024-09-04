@@ -15,11 +15,10 @@ category:
 CParticleCollectionRendererFloatInput(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleCollectionFloatInput
 Read: cparticlecollectionrendererfloatinput.Parent
-Write: cparticlecollectionrendererfloatinput.Parent = value
 ```
 # Functions
 ## ToPtr

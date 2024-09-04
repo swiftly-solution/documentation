@@ -21,11 +21,10 @@ CHandshakeAnimTagBase(ptr --[[ string ]])
 Read: chandshakeanimtagbase.IsDisableTag
 Write: chandshakeanimtagbase.IsDisableTag = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: chandshakeanimtagbase.Parent
-Write: chandshakeanimtagbase.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -57,11 +57,10 @@ Write: ctriggerpush.PathSimple = value
 Read: ctriggerpush.SplinePushType
 Write: ctriggerpush.SplinePushType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerpush.Parent
-Write: ctriggerpush.Parent = value
 ```
 # Functions
 ## ToPtr

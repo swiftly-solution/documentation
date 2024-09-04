@@ -26,11 +26,10 @@ Write: ctriggerdetectbulletfire.PlayerFireOnly = value
 @type CEntityIOOutput
 Read: ctriggerdetectbulletfire.OnDetectedBulletFire
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerdetectbulletfire.Parent
-Write: ctriggerdetectbulletfire.Parent = value
 ```
 # Functions
 ## ToPtr

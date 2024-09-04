@@ -15,11 +15,10 @@ category:
 CRenderMesh(ptr --[[ string ]])
 ```
 # Properties
-## Constraints 
+## Constraints (Read-Only)
 ```lua
 @type table
 Read: crendermesh.Constraints
-Write: crendermesh.Constraints = value
 ```
 ## Skeleton (Read-Only)
 ```lua

@@ -21,11 +21,10 @@ CFilterProximity(ptr --[[ string ]])
 Read: cfilterproximity.Radius
 Write: cfilterproximity.Radius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfilterproximity.Parent
-Write: cfilterproximity.Parent = value
 ```
 # Functions
 ## ToPtr

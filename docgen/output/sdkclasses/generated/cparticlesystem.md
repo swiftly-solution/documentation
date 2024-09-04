@@ -75,11 +75,10 @@ Write: cparticlesystem.ServerControlPoints = value
 Read: cparticlesystem.ServerControlPointAssignments
 Write: cparticlesystem.ServerControlPointAssignments = value
 ```
-## ControlPointEnts 
+## ControlPointEnts (Read-Only)
 ```lua
 @type table
 Read: cparticlesystem.ControlPointEnts
-Write: cparticlesystem.ControlPointEnts = value
 ```
 ## NoSave 
 ```lua
@@ -141,11 +140,10 @@ Write: cparticlesystem.TintCP = value
 Read: cparticlesystem.Tint
 Write: cparticlesystem.Tint = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cparticlesystem.Parent
-Write: cparticlesystem.Parent = value
 ```
 # Functions
 ## ToPtr

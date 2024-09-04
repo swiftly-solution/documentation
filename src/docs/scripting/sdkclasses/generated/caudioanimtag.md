@@ -57,11 +57,10 @@ Write: caudioanimtag.PlayOnServer = value
 Read: caudioanimtag.PlayOnClient
 Write: caudioanimtag.PlayOnClient = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: caudioanimtag.Parent
-Write: caudioanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

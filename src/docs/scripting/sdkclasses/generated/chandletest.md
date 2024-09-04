@@ -26,11 +26,10 @@ Read: chandletest.Handle
 Read: chandletest.SendHandle
 Write: chandletest.SendHandle = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: chandletest.Parent
-Write: chandletest.Parent = value
 ```
 # Functions
 ## ToPtr

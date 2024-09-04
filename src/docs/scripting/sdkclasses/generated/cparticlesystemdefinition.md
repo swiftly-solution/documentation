@@ -21,53 +21,45 @@ CParticleSystemDefinition(ptr --[[ string ]])
 Read: cparticlesystemdefinition.BehaviorVersion
 Write: cparticlesystemdefinition.BehaviorVersion = value
 ```
-## PreEmissionOperators 
+## PreEmissionOperators (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.PreEmissionOperators
-Write: cparticlesystemdefinition.PreEmissionOperators = value
 ```
-## Emitters 
+## Emitters (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Emitters
-Write: cparticlesystemdefinition.Emitters = value
 ```
-## Initializers 
+## Initializers (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Initializers
-Write: cparticlesystemdefinition.Initializers = value
 ```
-## Operators 
+## Operators (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Operators
-Write: cparticlesystemdefinition.Operators = value
 ```
-## ForceGenerators 
+## ForceGenerators (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.ForceGenerators
-Write: cparticlesystemdefinition.ForceGenerators = value
 ```
-## Constraints 
+## Constraints (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Constraints
-Write: cparticlesystemdefinition.Constraints = value
 ```
-## Renderers 
+## Renderers (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Renderers
-Write: cparticlesystemdefinition.Renderers = value
 ```
-## Children 
+## Children (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.Children
-Write: cparticlesystemdefinition.Children = value
 ```
 ## FirstMultipleOverride_BackwardCompat 
 ```lua
@@ -135,11 +127,10 @@ Write: cparticlesystemdefinition.EnableNamedValues = value
 Read: cparticlesystemdefinition.NamedValueDomain
 Write: cparticlesystemdefinition.NamedValueDomain = value
 ```
-## NamedValueLocals 
+## NamedValueLocals (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.NamedValueLocals
-Write: cparticlesystemdefinition.NamedValueLocals = value
 ```
 ## ConstantColor 
 ```lua
@@ -369,11 +360,10 @@ Write: cparticlesystemdefinition.AllowRenderControlPoint = value
 Read: cparticlesystemdefinition.ShouldSort
 Write: cparticlesystemdefinition.ShouldSort = value
 ```
-## ControlPointConfigurations 
+## ControlPointConfigurations (Read-Only)
 ```lua
 @type table
 Read: cparticlesystemdefinition.ControlPointConfigurations
-Write: cparticlesystemdefinition.ControlPointConfigurations = value
 ```
 # Functions
 ## ToPtr

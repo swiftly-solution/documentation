@@ -15,11 +15,10 @@ category:
 CFuncMoveLinearAlias_momentary_door(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncMoveLinear
 Read: cfuncmovelinearalias_momentary_door.Parent
-Write: cfuncmovelinearalias_momentary_door.Parent = value
 ```
 # Functions
 ## ToPtr

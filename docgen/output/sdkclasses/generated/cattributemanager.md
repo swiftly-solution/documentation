@@ -38,11 +38,10 @@ Write: cattributemanager.PreventLoopback = value
 Read: cattributemanager.ProviderType
 Write: cattributemanager.ProviderType = value
 ```
-## CachedResults 
+## CachedResults (Read-Only)
 ```lua
 @type table
 Read: cattributemanager.CachedResults
-Write: cattributemanager.CachedResults = value
 ```
 # Functions
 ## ToPtr

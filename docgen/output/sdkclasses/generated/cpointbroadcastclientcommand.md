@@ -15,11 +15,10 @@ category:
 CPointBroadcastClientCommand(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointbroadcastclientcommand.Parent
-Write: cpointbroadcastclientcommand.Parent = value
 ```
 # Functions
 ## ToPtr

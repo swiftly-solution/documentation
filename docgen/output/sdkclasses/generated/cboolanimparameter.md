@@ -21,11 +21,10 @@ CBoolAnimParameter(ptr --[[ string ]])
 Read: cboolanimparameter.DefaultValue
 Write: cboolanimparameter.DefaultValue = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cboolanimparameter.Parent
-Write: cboolanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

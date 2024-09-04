@@ -33,11 +33,10 @@ Write: cfireoverlay.Scale = value
 Read: cfireoverlay.GUID
 Write: cfireoverlay.GUID = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CGlowOverlay
 Read: cfireoverlay.Parent
-Write: cfireoverlay.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -51,11 +51,10 @@ Write: clogicdistanceautosave.ThinkDangerous = value
 Read: clogicdistanceautosave.DangerousTime
 Write: clogicdistanceautosave.DangerousTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicdistanceautosave.Parent
-Write: clogicdistanceautosave.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -39,11 +39,10 @@ Write: cgamegibmanager.MaxPieces = value
 Read: cgamegibmanager.LastFrame
 Write: cgamegibmanager.LastFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cgamegibmanager.Parent
-Write: cgamegibmanager.Parent = value
 ```
 # Functions
 ## ToPtr

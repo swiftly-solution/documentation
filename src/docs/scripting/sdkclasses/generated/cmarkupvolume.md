@@ -21,11 +21,10 @@ CMarkupVolume(ptr --[[ string ]])
 Read: cmarkupvolume.Disabled
 Write: cmarkupvolume.Disabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cmarkupvolume.Parent
-Write: cmarkupvolume.Parent = value
 ```
 # Functions
 ## ToPtr

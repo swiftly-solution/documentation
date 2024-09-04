@@ -63,11 +63,10 @@ Write: csoundopvarsetentity.OpvarValueString = value
 Read: csoundopvarsetentity.SetOnSpawn
 Write: csoundopvarsetentity.SetOnSpawn = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: csoundopvarsetentity.Parent
-Write: csoundopvarsetentity.Parent = value
 ```
 # Functions
 ## ToPtr

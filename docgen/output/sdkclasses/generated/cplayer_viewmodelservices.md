@@ -15,11 +15,10 @@ category:
 CPlayer_ViewModelServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_viewmodelservices.Parent
-Write: cplayer_viewmodelservices.Parent = value
 ```
 # Functions
 ## ToPtr

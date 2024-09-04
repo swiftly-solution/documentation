@@ -15,11 +15,10 @@ category:
 CStepsRemainingMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## FootIndices 
+## FootIndices (Read-Only)
 ```lua
 @type table
 Read: cstepsremainingmetricevaluator.FootIndices
-Write: cstepsremainingmetricevaluator.FootIndices = value
 ```
 ## MinStepsRemaining 
 ```lua
@@ -27,11 +26,10 @@ Write: cstepsremainingmetricevaluator.FootIndices = value
 Read: cstepsremainingmetricevaluator.MinStepsRemaining
 Write: cstepsremainingmetricevaluator.MinStepsRemaining = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cstepsremainingmetricevaluator.Parent
-Write: cstepsremainingmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

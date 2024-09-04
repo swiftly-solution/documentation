@@ -95,11 +95,10 @@ Write: cbasegrenade.NextAttack = value
 @type CCSPlayerPawn
 Read: cbasegrenade.OriginalThrower
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFlex
 Read: cbasegrenade.Parent
-Write: cbasegrenade.Parent = value
 ```
 # Functions
 ## ToPtr

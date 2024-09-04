@@ -27,11 +27,10 @@ Write: cmodelconfigelement_setbodygroup.GroupName = value
 Read: cmodelconfigelement_setbodygroup.Choice
 Write: cmodelconfigelement_setbodygroup.Choice = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_setbodygroup.Parent
-Write: cmodelconfigelement_setbodygroup.Parent = value
 ```
 # Functions
 ## ToPtr

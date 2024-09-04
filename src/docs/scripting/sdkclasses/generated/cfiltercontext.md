@@ -21,11 +21,10 @@ CFilterContext(ptr --[[ string ]])
 Read: cfiltercontext.FilterContext
 Write: cfiltercontext.FilterContext = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfiltercontext.Parent
-Write: cfiltercontext.Parent = value
 ```
 # Functions
 ## ToPtr

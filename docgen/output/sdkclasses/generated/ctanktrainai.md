@@ -55,11 +55,10 @@ Write: ctanktrainai.MovementSoundName = value
 Read: ctanktrainai.TargetEntityName
 Write: ctanktrainai.TargetEntityName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: ctanktrainai.Parent
-Write: ctanktrainai.Parent = value
 ```
 # Functions
 ## ToPtr

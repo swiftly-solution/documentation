@@ -21,11 +21,10 @@ CKnife(ptr --[[ string ]])
 Read: cknife.FirstAttack
 Write: cknife.FirstAttack = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cknife.Parent
-Write: cknife.Parent = value
 ```
 # Functions
 ## ToPtr

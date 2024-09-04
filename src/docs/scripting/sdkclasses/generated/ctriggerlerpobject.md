@@ -50,11 +50,10 @@ Write: ctriggerlerpobject.LerpRestoreMoveType = value
 Read: ctriggerlerpobject.SingleLerpObject
 Write: ctriggerlerpobject.SingleLerpObject = value
 ```
-## LerpingObjects 
+## LerpingObjects (Read-Only)
 ```lua
 @type table
 Read: ctriggerlerpobject.LerpingObjects
-Write: ctriggerlerpobject.LerpingObjects = value
 ```
 ## LerpEffect 
 ```lua
@@ -89,11 +88,10 @@ Read: ctriggerlerpobject.OnLerpStarted
 @type CEntityIOOutput
 Read: ctriggerlerpobject.OnLerpFinished
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerlerpobject.Parent
-Write: ctriggerlerpobject.Parent = value
 ```
 # Functions
 ## ToPtr

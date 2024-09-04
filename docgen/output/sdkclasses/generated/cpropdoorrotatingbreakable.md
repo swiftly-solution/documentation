@@ -33,17 +33,15 @@ Write: cpropdoorrotatingbreakable.IsAbleToCloseAreaPortals = value
 Read: cpropdoorrotatingbreakable.CurrentDamageState
 Write: cpropdoorrotatingbreakable.CurrentDamageState = value
 ```
-## DamageStates 
+## DamageStates (Read-Only)
 ```lua
 @type table
 Read: cpropdoorrotatingbreakable.DamageStates
-Write: cpropdoorrotatingbreakable.DamageStates = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPropDoorRotating
 Read: cpropdoorrotatingbreakable.Parent
-Write: cpropdoorrotatingbreakable.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: cvoicecontainerselector.Mode = value
 Read: cvoicecontainerselector.Retrigger
 Write: cvoicecontainerselector.Retrigger = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerselector.Parent
-Write: cvoicecontainerselector.Parent = value
 ```
 # Functions
 ## ToPtr

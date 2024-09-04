@@ -41,11 +41,10 @@ Read: clogicbranchlist.OnAllFalse
 @type CEntityIOOutput
 Read: clogicbranchlist.OnMixed
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicbranchlist.Parent
-Write: clogicbranchlist.Parent = value
 ```
 # Functions
 ## ToPtr

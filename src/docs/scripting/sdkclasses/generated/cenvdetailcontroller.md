@@ -27,11 +27,10 @@ Write: cenvdetailcontroller.FadeStartDist = value
 Read: cenvdetailcontroller.FadeEndDist
 Write: cenvdetailcontroller.FadeEndDist = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvdetailcontroller.Parent
-Write: cenvdetailcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CHEGrenadeProjectile(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: chegrenadeprojectile.Parent
-Write: chegrenadeprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

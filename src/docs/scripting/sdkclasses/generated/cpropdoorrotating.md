@@ -116,11 +116,10 @@ Write: cpropdoorrotating.AjarDoorShouldntAlwaysOpen = value
 @type CEntityBlocker
 Read: cpropdoorrotating.EntityBlocker
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePropDoor
 Read: cpropdoorrotating.Parent
-Write: cpropdoorrotating.Parent = value
 ```
 # Functions
 ## ToPtr

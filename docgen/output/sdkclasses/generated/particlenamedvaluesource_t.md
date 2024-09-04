@@ -38,11 +38,10 @@ Write: particlenamedvaluesource_t.ValueType = value
 @type ParticleNamedValueConfiguration_t
 Read: particlenamedvaluesource_t.DefaultConfig
 ```
-## NamedConfigs 
+## NamedConfigs (Read-Only)
 ```lua
 @type table
 Read: particlenamedvaluesource_t.NamedConfigs
-Write: particlenamedvaluesource_t.NamedConfigs = value
 ```
 # Functions
 ## ToPtr

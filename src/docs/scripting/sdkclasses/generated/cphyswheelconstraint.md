@@ -81,11 +81,10 @@ Write: cphyswheelconstraint.SteeringAxisFriction = value
 Read: cphyswheelconstraint.SpinAxisFriction
 Write: cphyswheelconstraint.SpinAxisFriction = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphyswheelconstraint.Parent
-Write: cphyswheelconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CFilterModel(ptr --[[ string ]])
 Read: cfiltermodel.FilterModel
 Write: cfiltermodel.FilterModel = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfiltermodel.Parent
-Write: cfiltermodel.Parent = value
 ```
 # Functions
 ## ToPtr

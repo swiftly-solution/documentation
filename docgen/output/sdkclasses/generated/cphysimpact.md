@@ -33,11 +33,10 @@ Write: cphysimpact.Distance = value
 Read: cphysimpact.DirectionEntityName
 Write: cphysimpact.DirectionEntityName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cphysimpact.Parent
-Write: cphysimpact.Parent = value
 ```
 # Functions
 ## ToPtr

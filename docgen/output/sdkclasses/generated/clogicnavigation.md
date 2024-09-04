@@ -27,11 +27,10 @@ Write: clogicnavigation.IsOn = value
 Read: clogicnavigation.NavProperty
 Write: clogicnavigation.NavProperty = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicnavigation.Parent
-Write: clogicnavigation.Parent = value
 ```
 # Functions
 ## ToPtr

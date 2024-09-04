@@ -15,11 +15,10 @@ category:
 CCSObserver_ViewModelServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_ViewModelServices
 Read: ccsobserver_viewmodelservices.Parent
-Write: ccsobserver_viewmodelservices.Parent = value
 ```
 # Functions
 ## ToPtr

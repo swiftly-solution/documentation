@@ -21,11 +21,10 @@ CEnvSplash(ptr --[[ string ]])
 Read: cenvsplash.Scale
 Write: cenvsplash.Scale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvsplash.Parent
-Write: cenvsplash.Parent = value
 ```
 # Functions
 ## ToPtr

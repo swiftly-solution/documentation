@@ -15,11 +15,10 @@ category:
 CNavVolumeCalculatedVector(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolume
 Read: cnavvolumecalculatedvector.Parent
-Write: cnavvolumecalculatedvector.Parent = value
 ```
 # Functions
 ## ToPtr

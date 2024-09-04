@@ -21,23 +21,20 @@ VPhysXCollisionAttributes_t(ptr --[[ string ]])
 Read: vphysxcollisionattributes_t.CollisionGroup
 Write: vphysxcollisionattributes_t.CollisionGroup = value
 ```
-## InteractAs 
+## InteractAs (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractAs
-Write: vphysxcollisionattributes_t.InteractAs = value
 ```
-## InteractWith 
+## InteractWith (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractWith
-Write: vphysxcollisionattributes_t.InteractWith = value
 ```
-## InteractExclude 
+## InteractExclude (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractExclude
-Write: vphysxcollisionattributes_t.InteractExclude = value
 ```
 ## CollisionGroupString 
 ```lua
@@ -45,23 +42,20 @@ Write: vphysxcollisionattributes_t.InteractExclude = value
 Read: vphysxcollisionattributes_t.CollisionGroupString
 Write: vphysxcollisionattributes_t.CollisionGroupString = value
 ```
-## InteractAsStrings 
+## InteractAsStrings (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractAsStrings
-Write: vphysxcollisionattributes_t.InteractAsStrings = value
 ```
-## InteractWithStrings 
+## InteractWithStrings (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractWithStrings
-Write: vphysxcollisionattributes_t.InteractWithStrings = value
 ```
-## InteractExcludeStrings 
+## InteractExcludeStrings (Read-Only)
 ```lua
 @type table
 Read: vphysxcollisionattributes_t.InteractExcludeStrings
-Write: vphysxcollisionattributes_t.InteractExcludeStrings = value
 ```
 # Functions
 ## ToPtr

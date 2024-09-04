@@ -68,11 +68,10 @@ Write: cphysexplosion.ConvertToDebrisWhenPossible = value
 @type CEntityIOOutput
 Read: cphysexplosion.OnPushedPlayer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cphysexplosion.Parent
-Write: cphysexplosion.Parent = value
 ```
 # Functions
 ## ToPtr

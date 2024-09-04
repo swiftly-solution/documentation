@@ -31,11 +31,6 @@ Read: summarytakedamageinfo_t.Info
 @type CTakeDamageResult
 Read: summarytakedamageinfo_t.Result
 ```
-## Target (Read-Only)
-```lua
-@type CBaseEntity
-Read: summarytakedamageinfo_t.Target
-```
 # Functions
 ## ToPtr
 ```lua

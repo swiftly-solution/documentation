@@ -27,17 +27,15 @@ Write: canimdatachanneldesc.Flags = value
 Read: canimdatachanneldesc.Type
 Write: canimdatachanneldesc.Type = value
 ```
-## ElementIndexArray 
+## ElementIndexArray (Read-Only)
 ```lua
 @type table
 Read: canimdatachanneldesc.ElementIndexArray
-Write: canimdatachanneldesc.ElementIndexArray = value
 ```
-## ElementMaskArray 
+## ElementMaskArray (Read-Only)
 ```lua
 @type table
 Read: canimdatachanneldesc.ElementMaskArray
-Write: canimdatachanneldesc.ElementMaskArray = value
 ```
 # Functions
 ## ToPtr

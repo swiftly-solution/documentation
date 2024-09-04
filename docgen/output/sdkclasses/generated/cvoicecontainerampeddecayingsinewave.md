@@ -21,11 +21,10 @@ CVoiceContainerAmpedDecayingSineWave(ptr --[[ string ]])
 Read: cvoicecontainerampeddecayingsinewave.GainAmount
 Write: cvoicecontainerampeddecayingsinewave.GainAmount = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerDecayingSineWave
 Read: cvoicecontainerampeddecayingsinewave.Parent
-Write: cvoicecontainerampeddecayingsinewave.Parent = value
 ```
 # Functions
 ## ToPtr

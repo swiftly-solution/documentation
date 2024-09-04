@@ -31,11 +31,10 @@ Read: clogiclinetoentity.StartEntity
 @type CBaseEntity
 Read: clogiclinetoentity.EndEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogiclinetoentity.Parent
-Write: clogiclinetoentity.Parent = value
 ```
 # Functions
 ## ToPtr

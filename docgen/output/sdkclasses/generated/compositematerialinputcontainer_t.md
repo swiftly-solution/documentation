@@ -39,11 +39,10 @@ Write: compositematerialinputcontainer_t.StrAttrName = value
 Read: compositematerialinputcontainer_t.StrAlias
 Write: compositematerialinputcontainer_t.StrAlias = value
 ```
-## LooseVariables 
+## LooseVariables (Read-Only)
 ```lua
 @type table
 Read: compositematerialinputcontainer_t.LooseVariables
-Write: compositematerialinputcontainer_t.LooseVariables = value
 ```
 ## StrAttrNameForVar 
 ```lua

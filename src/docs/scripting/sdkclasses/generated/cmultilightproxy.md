@@ -57,11 +57,10 @@ Write: cmultilightproxy.TargetBrightnessMultiplier = value
 Read: cmultilightproxy.CurrentBrightnessMultiplier
 Write: cmultilightproxy.CurrentBrightnessMultiplier = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cmultilightproxy.Parent
-Write: cmultilightproxy.Parent = value
 ```
 # Functions
 ## ToPtr

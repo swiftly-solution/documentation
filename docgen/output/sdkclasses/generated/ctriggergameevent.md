@@ -33,11 +33,10 @@ Write: ctriggergameevent.StrEndTouchEventName = value
 Read: ctriggergameevent.StrTriggerID
 Write: ctriggergameevent.StrTriggerID = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggergameevent.Parent
-Write: ctriggergameevent.Parent = value
 ```
 # Functions
 ## ToPtr

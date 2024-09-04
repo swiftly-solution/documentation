@@ -15,11 +15,10 @@ category:
 CNmBoolValueNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmValueNode
 Read: cnmboolvaluenode.Parent
-Write: cnmboolvaluenode.Parent = value
 ```
 # Functions
 ## ToPtr

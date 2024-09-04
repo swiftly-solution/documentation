@@ -51,11 +51,10 @@ Write: cplayervisibility.StartDisabled = value
 Read: cplayervisibility.IsEnabled
 Write: cplayervisibility.IsEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cplayervisibility.Parent
-Write: cplayervisibility.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -109,18 +109,6 @@ Write: cbaseplayercontroller.IsLowViolence = value
 Read: cbaseplayercontroller.GamePaused
 Write: cbaseplayercontroller.GamePaused = value
 ```
-## LastRealCommandNumberExecuted 
-```lua
-@type number
-Read: cbaseplayercontroller.LastRealCommandNumberExecuted
-Write: cbaseplayercontroller.LastRealCommandNumberExecuted = value
-```
-## LastLateCommandExecuted 
-```lua
-@type number
-Read: cbaseplayercontroller.LastLateCommandExecuted
-Write: cbaseplayercontroller.LastLateCommandExecuted = value
-```
 ## IgnoreGlobalChat 
 ```lua
 @type number
@@ -163,11 +151,10 @@ Write: cbaseplayercontroller.SteamID = value
 Read: cbaseplayercontroller.DesiredFOV
 Write: cbaseplayercontroller.DesiredFOV = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cbaseplayercontroller.Parent
-Write: cbaseplayercontroller.Parent = value
 ```
 # Functions
 ## EntityIndex

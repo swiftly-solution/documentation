@@ -93,17 +93,15 @@ Write: canimdemocapturesettings.BaseSequenceFrame = value
 Read: canimdemocapturesettings.BoneSelectionMode
 Write: canimdemocapturesettings.BoneSelectionMode = value
 ```
-## Bones 
+## Bones (Read-Only)
 ```lua
 @type table
 Read: canimdemocapturesettings.Bones
-Write: canimdemocapturesettings.Bones = value
 ```
-## IkChains 
+## IkChains (Read-Only)
 ```lua
 @type table
 Read: canimdemocapturesettings.IkChains
-Write: canimdemocapturesettings.IkChains = value
 ```
 # Functions
 ## ToPtr

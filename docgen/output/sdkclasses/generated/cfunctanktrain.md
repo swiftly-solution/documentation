@@ -20,11 +20,10 @@ CFuncTankTrain(ptr --[[ string ]])
 @type CEntityIOOutput
 Read: cfunctanktrain.OnDeath
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncTrackTrain
 Read: cfunctanktrain.Parent
-Write: cfunctanktrain.Parent = value
 ```
 # Functions
 ## ToPtr

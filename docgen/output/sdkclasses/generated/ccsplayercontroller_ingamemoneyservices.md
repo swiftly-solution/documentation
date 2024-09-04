@@ -51,11 +51,10 @@ Write: ccsplayercontroller_ingamemoneyservices.TotalCashSpent = value
 Read: ccsplayercontroller_ingamemoneyservices.CashSpentThisRound
 Write: ccsplayercontroller_ingamemoneyservices.CashSpentThisRound = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerControllerComponent
 Read: ccsplayercontroller_ingamemoneyservices.Parent
-Write: ccsplayercontroller_ingamemoneyservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -75,11 +75,10 @@ Write: ccsplayerresource.EndMatchNextMapAllVoted = value
 Read: ccsplayerresource.FoundGoalPositions
 Write: ccsplayerresource.FoundGoalPositions = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccsplayerresource.Parent
-Write: ccsplayerresource.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CPointCameraVFOV(ptr --[[ string ]])
 Read: cpointcameravfov.VerticalFOV
 Write: cpointcameravfov.VerticalFOV = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointCamera
 Read: cpointcameravfov.Parent
-Write: cpointcameravfov.Parent = value
 ```
 # Functions
 ## ToPtr

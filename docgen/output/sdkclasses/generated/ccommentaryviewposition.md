@@ -15,11 +15,10 @@ category:
 CCommentaryViewPosition(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSprite
 Read: ccommentaryviewposition.Parent
-Write: ccommentaryviewposition.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -77,11 +77,10 @@ Write: cinfospawngrouploadunload.StreamingStarted = value
 Read: cinfospawngrouploadunload.UnloadingStarted
 Write: cinfospawngrouploadunload.UnloadingStarted = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cinfospawngrouploadunload.Parent
-Write: cinfospawngrouploadunload.Parent = value
 ```
 # Functions
 ## ToPtr

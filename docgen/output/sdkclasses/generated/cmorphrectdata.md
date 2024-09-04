@@ -39,11 +39,10 @@ Write: cmorphrectdata.UWidthSrc = value
 Read: cmorphrectdata.VHeightSrc
 Write: cmorphrectdata.VHeightSrc = value
 ```
-## BundleDatas 
+## BundleDatas (Read-Only)
 ```lua
 @type table
 Read: cmorphrectdata.BundleDatas
-Write: cmorphrectdata.BundleDatas = value
 ```
 # Functions
 ## ToPtr

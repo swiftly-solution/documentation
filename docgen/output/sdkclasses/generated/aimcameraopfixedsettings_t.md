@@ -51,11 +51,10 @@ Write: aimcameraopfixedsettings_t.ClavicleRightJointIndex = value
 Read: aimcameraopfixedsettings_t.DepenetrationJointIndex
 Write: aimcameraopfixedsettings_t.DepenetrationJointIndex = value
 ```
-## PropJoints 
+## PropJoints (Read-Only)
 ```lua
 @type table
 Read: aimcameraopfixedsettings_t.PropJoints
-Write: aimcameraopfixedsettings_t.PropJoints = value
 ```
 # Functions
 ## ToPtr

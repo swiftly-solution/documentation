@@ -27,11 +27,10 @@ Write: animationsnapshot_t.EntIndex = value
 Read: animationsnapshot_t.ModelName
 Write: animationsnapshot_t.ModelName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type AnimationSnapshotBase_t
 Read: animationsnapshot_t.Parent
-Write: animationsnapshot_t.Parent = value
 ```
 # Functions
 ## ToPtr

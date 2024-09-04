@@ -15,11 +15,10 @@ category:
 CMultiSource(ptr --[[ string ]])
 ```
 # Properties
-## RgEntities 
+## RgEntities (Read-Only)
 ```lua
 @type table
 Read: cmultisource.RgEntities
-Write: cmultisource.RgEntities = value
 ```
 ## RgTriggered 
 ```lua
@@ -44,11 +43,10 @@ Write: cmultisource.Total = value
 Read: cmultisource.Globalstate
 Write: cmultisource.Globalstate = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cmultisource.Parent
-Write: cmultisource.Parent = value
 ```
 # Functions
 ## ToPtr

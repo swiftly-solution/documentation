@@ -15,17 +15,15 @@ category:
 CModelConfigElement_UserPick(ptr --[[ string ]])
 ```
 # Properties
-## Choices 
+## Choices (Read-Only)
 ```lua
 @type table
 Read: cmodelconfigelement_userpick.Choices
-Write: cmodelconfigelement_userpick.Choices = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_userpick.Parent
-Write: cmodelconfigelement_userpick.Parent = value
 ```
 # Functions
 ## ToPtr

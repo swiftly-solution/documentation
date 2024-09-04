@@ -81,11 +81,10 @@ Write: cpointworldtext.JustifyVertical = value
 Read: cpointworldtext.ReorientMode
 Write: cpointworldtext.ReorientMode = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: cpointworldtext.Parent
-Write: cpointworldtext.Parent = value
 ```
 # Functions
 ## ToPtr

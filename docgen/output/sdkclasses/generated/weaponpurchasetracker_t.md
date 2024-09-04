@@ -15,11 +15,10 @@ category:
 WeaponPurchaseTracker_t(ptr --[[ string ]])
 ```
 # Properties
-## WeaponPurchases 
+## WeaponPurchases (Read-Only)
 ```lua
 @type table
 Read: weaponpurchasetracker_t.WeaponPurchases
-Write: weaponpurchasetracker_t.WeaponPurchases = value
 ```
 # Functions
 ## ToPtr

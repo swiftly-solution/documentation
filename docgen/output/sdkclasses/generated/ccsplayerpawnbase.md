@@ -128,12 +128,6 @@ Write: ccsplayerpawnbase.ProgressBarDuration = value
 Read: ccsplayerpawnbase.EyeAngles
 Write: ccsplayerpawnbase.EyeAngles = value
 ```
-## NumEnemiesAtRoundStart 
-```lua
-@type number
-Read: ccsplayerpawnbase.NumEnemiesAtRoundStart
-Write: ccsplayerpawnbase.NumEnemiesAtRoundStart = value
-```
 ## WasNotKilledNaturally 
 ```lua
 @type boolean
@@ -151,11 +145,10 @@ Write: ccsplayerpawnbase.CommittingSuicideOnTeamChange = value
 @type CCSPlayerController
 Read: ccsplayerpawnbase.OriginalController
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlayerPawn
 Read: ccsplayerpawnbase.Parent
-Write: ccsplayerpawnbase.Parent = value
 ```
 # Functions
 ## ToPtr

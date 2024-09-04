@@ -26,11 +26,10 @@ Read: cfootpinningupdatenode.PoseOpFixedData
 Read: cfootpinningupdatenode.TimingSource
 Write: cfootpinningupdatenode.TimingSource = value
 ```
-## Params 
+## Params (Read-Only)
 ```lua
 @type table
 Read: cfootpinningupdatenode.Params
-Write: cfootpinningupdatenode.Params = value
 ```
 ## ResetChild 
 ```lua
@@ -38,11 +37,10 @@ Write: cfootpinningupdatenode.Params = value
 Read: cfootpinningupdatenode.ResetChild
 Write: cfootpinningupdatenode.ResetChild = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfootpinningupdatenode.Parent
-Write: cfootpinningupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

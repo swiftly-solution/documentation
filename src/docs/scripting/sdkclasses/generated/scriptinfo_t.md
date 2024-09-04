@@ -21,23 +21,20 @@ ScriptInfo_t(ptr --[[ string ]])
 Read: scriptinfo_t.Code
 Write: scriptinfo_t.Code = value
 ```
-## ParamsModified 
+## ParamsModified (Read-Only)
 ```lua
 @type table
 Read: scriptinfo_t.ParamsModified
-Write: scriptinfo_t.ParamsModified = value
 ```
-## ProxyReadParams 
+## ProxyReadParams (Read-Only)
 ```lua
 @type table
 Read: scriptinfo_t.ProxyReadParams
-Write: scriptinfo_t.ProxyReadParams = value
 ```
-## ProxyWriteParams 
+## ProxyWriteParams (Read-Only)
 ```lua
 @type table
 Read: scriptinfo_t.ProxyWriteParams
-Write: scriptinfo_t.ProxyWriteParams = value
 ```
 ## ScriptType 
 ```lua

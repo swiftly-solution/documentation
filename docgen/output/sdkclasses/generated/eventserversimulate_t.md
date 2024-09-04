@@ -15,11 +15,10 @@ category:
 EventServerSimulate_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type EventSimulate_t
 Read: eventserversimulate_t.Parent
-Write: eventserversimulate_t.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cfogvolume.Disabled = value
 Read: cfogvolume.InFogVolumesList
 Write: cfogvolume.InFogVolumesList = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyModelEntity
 Read: cfogvolume.Parent
-Write: cfogvolume.Parent = value
 ```
 # Functions
 ## ToPtr

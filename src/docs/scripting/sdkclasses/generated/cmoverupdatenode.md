@@ -83,11 +83,10 @@ Write: cmoverupdatenode.ApplyRotation = value
 Read: cmoverupdatenode.LimitOnly
 Write: cmoverupdatenode.LimitOnly = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cmoverupdatenode.Parent
-Write: cmoverupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

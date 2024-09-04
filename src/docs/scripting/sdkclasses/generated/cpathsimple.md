@@ -21,11 +21,10 @@ CPathSimple(ptr --[[ string ]])
 Read: cpathsimple.PathString
 Write: cpathsimple.PathString = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpathsimple.Parent
-Write: cpathsimple.Parent = value
 ```
 # Functions
 ## ToPtr

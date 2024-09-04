@@ -99,11 +99,10 @@ Read: cpointangularvelocitysensor.OnGreaterThanOrEqualTo
 @type CEntityIOOutput
 Read: cpointangularvelocitysensor.OnEqualTo
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointangularvelocitysensor.Parent
-Write: cpointangularvelocitysensor.Parent = value
 ```
 # Functions
 ## ToPtr

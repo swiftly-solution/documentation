@@ -33,11 +33,10 @@ Write: cmarkupvolumewithref.RefPos = value
 Read: cmarkupvolumewithref.RefDot
 Write: cmarkupvolumewithref.RefDot = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMarkupVolumeTagged
 Read: cmarkupvolumewithref.Parent
-Write: cmarkupvolumewithref.Parent = value
 ```
 # Functions
 ## ToPtr

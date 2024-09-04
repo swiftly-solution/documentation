@@ -15,11 +15,10 @@ category:
 CHostageCarriableProp(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: chostagecarriableprop.Parent
-Write: chostagecarriableprop.Parent = value
 ```
 # Functions
 ## ToPtr

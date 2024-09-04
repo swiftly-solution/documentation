@@ -117,11 +117,10 @@ Write: ccolorcorrection.NetlookupFilename = value
 Read: ccolorcorrection.LookupFilename
 Write: ccolorcorrection.LookupFilename = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccolorcorrection.Parent
-Write: ccolorcorrection.Parent = value
 ```
 # Functions
 ## ToPtr

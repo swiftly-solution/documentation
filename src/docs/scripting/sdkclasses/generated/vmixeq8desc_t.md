@@ -15,11 +15,10 @@ category:
 VMixEQ8Desc_t(ptr --[[ string ]])
 ```
 # Properties
-## Stages 
+## Stages (Read-Only)
 ```lua
 @type table
 Read: vmixeq8desc_t.Stages
-Write: vmixeq8desc_t.Stages = value
 ```
 # Functions
 ## ToPtr

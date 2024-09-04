@@ -87,11 +87,10 @@ Write: csadditionalmatchstats_t.NumTeamKills = value
 Read: csadditionalmatchstats_t.TeamDamage
 Write: csadditionalmatchstats_t.TeamDamage = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSAdditionalPerRoundStats_t
 Read: csadditionalmatchstats_t.Parent
-Write: csadditionalmatchstats_t.Parent = value
 ```
 # Functions
 ## ToPtr

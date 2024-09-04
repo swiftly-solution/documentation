@@ -20,11 +20,10 @@ CEnvWind(ptr --[[ string ]])
 @type CEnvWindShared
 Read: cenvwind.EnvWindShared
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvwind.Parent
-Write: cenvwind.Parent = value
 ```
 # Functions
 ## ToPtr

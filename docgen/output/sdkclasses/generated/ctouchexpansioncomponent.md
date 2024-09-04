@@ -15,11 +15,10 @@ category:
 CTouchExpansionComponent(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: ctouchexpansioncomponent.Parent
-Write: ctouchexpansioncomponent.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -48,11 +48,10 @@ Write: clookatupdatenode.ResetChild = value
 Read: clookatupdatenode.LockWhenWaning
 Write: clookatupdatenode.LockWhenWaning = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: clookatupdatenode.Parent
-Write: clookatupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -73,11 +73,10 @@ Read: cbasetrigger.OnNotTouching
 Read: cbasetrigger.ClientSidePredicted
 Write: cbasetrigger.ClientSidePredicted = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cbasetrigger.Parent
-Write: cbasetrigger.Parent = value
 ```
 # Functions
 ## ToPtr

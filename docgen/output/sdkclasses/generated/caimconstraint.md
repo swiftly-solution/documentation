@@ -21,11 +21,10 @@ CAimConstraint(ptr --[[ string ]])
 Read: caimconstraint.UpType
 Write: caimconstraint.UpType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: caimconstraint.Parent
-Write: caimconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

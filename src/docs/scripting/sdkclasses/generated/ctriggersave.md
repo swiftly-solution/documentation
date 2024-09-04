@@ -33,11 +33,10 @@ Write: ctriggersave.DangerousTimer = value
 Read: ctriggersave.MinHitPoints
 Write: ctriggersave.MinHitPoints = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggersave.Parent
-Write: ctriggersave.Parent = value
 ```
 # Functions
 ## ToPtr

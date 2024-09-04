@@ -156,11 +156,10 @@ Write: cbasebutton.Usable = value
 Read: cbasebutton.DisplayText
 Write: cbasebutton.DisplayText = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cbasebutton.Parent
-Write: cbasebutton.Parent = value
 ```
 # Functions
 ## ToPtr

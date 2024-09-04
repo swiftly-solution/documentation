@@ -15,11 +15,10 @@ category:
 CInfoData(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyEntity
 Read: cinfodata.Parent
-Write: cinfodata.Parent = value
 ```
 # Functions
 ## ToPtr

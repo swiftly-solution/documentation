@@ -165,11 +165,10 @@ Write: cplantedc4.CatchUpToPlayerEye = value
 Read: cplantedc4.LastSpinDetectionTime
 Write: cplantedc4.LastSpinDetectionTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cplantedc4.Parent
-Write: cplantedc4.Parent = value
 ```
 # Functions
 ## ToPtr

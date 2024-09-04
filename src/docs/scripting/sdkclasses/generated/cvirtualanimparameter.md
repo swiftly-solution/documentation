@@ -27,11 +27,10 @@ Write: cvirtualanimparameter.ExpressionString = value
 Read: cvirtualanimparameter.ParamType
 Write: cvirtualanimparameter.ParamType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimParameterBase
 Read: cvirtualanimparameter.Parent
-Write: cvirtualanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CNmFootEvent(ptr --[[ string ]])
 Read: cnmfootevent.Phase
 Write: cnmfootevent.Phase = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmEvent
 Read: cnmfootevent.Parent
-Write: cnmfootevent.Parent = value
 ```
 # Functions
 ## ToPtr

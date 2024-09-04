@@ -21,11 +21,10 @@ CDirectPlaybackTagData(ptr --[[ string ]])
 Read: cdirectplaybacktagdata.SequenceName
 Write: cdirectplaybacktagdata.SequenceName = value
 ```
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: cdirectplaybacktagdata.Tags
-Write: cdirectplaybacktagdata.Tags = value
 ```
 # Functions
 ## ToPtr

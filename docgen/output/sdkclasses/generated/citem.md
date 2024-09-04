@@ -59,11 +59,10 @@ Write: citem.OriginalSpawnAngles = value
 Read: citem.PhysStartAsleep
 Write: citem.PhysStartAsleep = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: citem.Parent
-Write: citem.Parent = value
 ```
 # Functions
 ## ToPtr

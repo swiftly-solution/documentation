@@ -26,11 +26,10 @@ Write: ctonemaptrigger.TonemapControllerName = value
 @type CEntityInstance
 Read: ctonemaptrigger.TonemapController
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctonemaptrigger.Parent
-Write: ctonemaptrigger.Parent = value
 ```
 # Functions
 ## ToPtr

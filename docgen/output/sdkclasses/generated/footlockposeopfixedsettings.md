@@ -15,11 +15,10 @@ category:
 FootLockPoseOpFixedSettings(ptr --[[ string ]])
 ```
 # Properties
-## FootInfo 
+## FootInfo (Read-Only)
 ```lua
 @type table
 Read: footlockposeopfixedsettings.FootInfo
-Write: footlockposeopfixedsettings.FootInfo = value
 ```
 ## HipDampingSettings (Read-Only)
 ```lua

@@ -26,11 +26,10 @@ Read: ctogglecomponentactionupdater.ComponentID
 Read: ctogglecomponentactionupdater.SetEnabled
 Write: ctogglecomponentactionupdater.SetEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimActionUpdater
 Read: ctogglecomponentactionupdater.Parent
-Write: ctogglecomponentactionupdater.Parent = value
 ```
 # Functions
 ## ToPtr

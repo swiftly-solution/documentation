@@ -15,11 +15,10 @@ category:
 CSensorGrenade(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenade
 Read: csensorgrenade.Parent
-Write: csensorgrenade.Parent = value
 ```
 # Functions
 ## ToPtr

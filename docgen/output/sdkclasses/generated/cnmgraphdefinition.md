@@ -15,11 +15,10 @@ category:
 CNmGraphDefinition(ptr --[[ string ]])
 ```
 # Properties
-## PersistentNodeIndices 
+## PersistentNodeIndices (Read-Only)
 ```lua
 @type table
 Read: cnmgraphdefinition.PersistentNodeIndices
-Write: cnmgraphdefinition.PersistentNodeIndices = value
 ```
 ## RootNodeIdx 
 ```lua
@@ -27,23 +26,20 @@ Write: cnmgraphdefinition.PersistentNodeIndices = value
 Read: cnmgraphdefinition.RootNodeIdx
 Write: cnmgraphdefinition.RootNodeIdx = value
 ```
-## VirtualParameterNodeIndices 
+## VirtualParameterNodeIndices (Read-Only)
 ```lua
 @type table
 Read: cnmgraphdefinition.VirtualParameterNodeIndices
-Write: cnmgraphdefinition.VirtualParameterNodeIndices = value
 ```
-## ChildGraphSlots 
+## ChildGraphSlots (Read-Only)
 ```lua
 @type table
 Read: cnmgraphdefinition.ChildGraphSlots
-Write: cnmgraphdefinition.ChildGraphSlots = value
 ```
-## ExternalGraphSlots 
+## ExternalGraphSlots (Read-Only)
 ```lua
 @type table
 Read: cnmgraphdefinition.ExternalGraphSlots
-Write: cnmgraphdefinition.ExternalGraphSlots = value
 ```
 # Functions
 ## ToPtr

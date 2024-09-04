@@ -51,11 +51,10 @@ Write: cphyslength.TotalLength = value
 Read: cphyslength.EnableCollision
 Write: cphyslength.EnableCollision = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphyslength.Parent
-Write: cphyslength.Parent = value
 ```
 # Functions
 ## ToPtr

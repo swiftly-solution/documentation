@@ -15,11 +15,10 @@ category:
 MaterialParamBuffer_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type MaterialParam_t
 Read: materialparambuffer_t.Parent
-Write: materialparambuffer_t.Parent = value
 ```
 # Functions
 ## ToPtr

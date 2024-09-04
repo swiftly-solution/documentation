@@ -217,11 +217,10 @@ Read: cbasepropdoor.OnLockedUse
 @type CEntityIOOutput
 Read: cbasepropdoor.OnAjarOpen
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CDynamicProp
 Read: cbasepropdoor.Parent
-Write: cbasepropdoor.Parent = value
 ```
 # Functions
 ## ToPtr

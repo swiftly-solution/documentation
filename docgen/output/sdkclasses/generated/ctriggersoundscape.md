@@ -26,11 +26,10 @@ Read: ctriggersoundscape.Soundscape
 Read: ctriggersoundscape.SoundscapeName
 Write: ctriggersoundscape.SoundscapeName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggersoundscape.Parent
-Write: ctriggersoundscape.Parent = value
 ```
 # Functions
 ## ToPtr

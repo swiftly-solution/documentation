@@ -233,11 +233,10 @@ Write: cfunctracktrain.AccelToSpeed = value
 Read: cfunctracktrain.NextMPSoundTime
 Write: cfunctracktrain.NextMPSoundTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfunctracktrain.Parent
-Write: cfunctracktrain.Parent = value
 ```
 # Functions
 ## ToPtr

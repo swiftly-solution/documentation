@@ -51,11 +51,10 @@ Write: cturnhelperupdatenode.ManualTurnOffset = value
 Read: cturnhelperupdatenode.UseManualTurnOffset
 Write: cturnhelperupdatenode.UseManualTurnOffset = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cturnhelperupdatenode.Parent
-Write: cturnhelperupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

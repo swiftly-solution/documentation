@@ -21,11 +21,10 @@ CPathAnimMotorUpdaterBase(ptr --[[ string ]])
 Read: cpathanimmotorupdaterbase.LockToPath
 Write: cpathanimmotorupdaterbase.LockToPath = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimMotorUpdaterBase
 Read: cpathanimmotorupdaterbase.Parent
-Write: cpathanimmotorupdaterbase.Parent = value
 ```
 # Functions
 ## ToPtr

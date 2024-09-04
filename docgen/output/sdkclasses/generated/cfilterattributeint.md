@@ -21,11 +21,10 @@ CFilterAttributeInt(ptr --[[ string ]])
 Read: cfilterattributeint.AttributeName
 Write: cfilterattributeint.AttributeName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfilterattributeint.Parent
-Write: cfilterattributeint.Parent = value
 ```
 # Functions
 ## ToPtr

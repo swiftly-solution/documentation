@@ -55,11 +55,10 @@ Write: clogicrelay.FastRetrigger = value
 Read: clogicrelay.PassthoughCaller
 Write: clogicrelay.PassthoughCaller = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicrelay.Parent
-Write: clogicrelay.Parent = value
 ```
 # Functions
 ## ToPtr

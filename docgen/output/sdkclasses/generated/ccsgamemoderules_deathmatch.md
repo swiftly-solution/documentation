@@ -33,11 +33,10 @@ Write: ccsgamemoderules_deathmatch.DMBonusTimeLength = value
 Read: ccsgamemoderules_deathmatch.DMBonusWeapon
 Write: ccsgamemoderules_deathmatch.DMBonusWeapon = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSGameModeRules
 Read: ccsgamemoderules_deathmatch.Parent
-Write: ccsgamemoderules_deathmatch.Parent = value
 ```
 # Functions
 ## ToPtr

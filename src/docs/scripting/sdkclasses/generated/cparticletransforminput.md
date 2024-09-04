@@ -57,11 +57,10 @@ Write: cparticletransforminput.ControlPointRangeMax = value
 Read: cparticletransforminput.EndCPGrowthTime
 Write: cparticletransforminput.EndCPGrowthTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleInput
 Read: cparticletransforminput.Parent
-Write: cparticletransforminput.Parent = value
 ```
 # Functions
 ## ToPtr

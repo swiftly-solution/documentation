@@ -50,17 +50,15 @@ Write: cmovementcomponentupdater.NetworkPath = value
 Read: cmovementcomponentupdater.NetworkFacing
 Write: cmovementcomponentupdater.NetworkFacing = value
 ```
-## ParamHandles 
+## ParamHandles (Read-Only)
 ```lua
 @type table
 Read: cmovementcomponentupdater.ParamHandles
-Write: cmovementcomponentupdater.ParamHandles = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cmovementcomponentupdater.Parent
-Write: cmovementcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

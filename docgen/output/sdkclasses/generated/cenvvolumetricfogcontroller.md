@@ -201,11 +201,10 @@ Write: cenvvolumetricfogcontroller.NoiseScale = value
 Read: cenvvolumetricfogcontroller.FirstTime
 Write: cenvvolumetricfogcontroller.FirstTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvvolumetricfogcontroller.Parent
-Write: cenvvolumetricfogcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

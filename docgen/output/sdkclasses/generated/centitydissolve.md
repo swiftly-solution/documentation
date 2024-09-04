@@ -75,11 +75,10 @@ Write: centitydissolve.DissolverOrigin = value
 Read: centitydissolve.Magnitude
 Write: centitydissolve.Magnitude = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: centitydissolve.Parent
-Write: centitydissolve.Parent = value
 ```
 # Functions
 ## ToPtr

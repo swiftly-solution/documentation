@@ -27,11 +27,10 @@ Write: cenvbeverage.CanInDispenser = value
 Read: cenvbeverage.BeverageType
 Write: cenvbeverage.BeverageType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvbeverage.Parent
-Write: cenvbeverage.Parent = value
 ```
 # Functions
 ## ToPtr

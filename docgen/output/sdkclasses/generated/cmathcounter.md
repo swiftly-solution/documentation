@@ -65,11 +65,10 @@ Read: cmathcounter.OnChangedFromMin
 @type CEntityIOOutput
 Read: cmathcounter.OnChangedFromMax
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cmathcounter.Parent
-Write: cmathcounter.Parent = value
 ```
 # Functions
 ## ToPtr

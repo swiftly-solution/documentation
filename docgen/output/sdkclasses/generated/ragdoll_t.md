@@ -15,17 +15,15 @@ category:
 ragdoll_t(ptr --[[ string ]])
 ```
 # Properties
-## List 
+## List (Read-Only)
 ```lua
 @type table
 Read: ragdoll_t.List
-Write: ragdoll_t.List = value
 ```
-## BoneIndex 
+## BoneIndex (Read-Only)
 ```lua
 @type table
 Read: ragdoll_t.BoneIndex
-Write: ragdoll_t.BoneIndex = value
 ```
 ## AllowStretch 
 ```lua

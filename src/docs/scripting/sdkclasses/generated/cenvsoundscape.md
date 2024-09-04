@@ -79,11 +79,10 @@ Read: cenvsoundscape.ProxySoundscape
 Read: cenvsoundscape.Disabled
 Write: cenvsoundscape.Disabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyEntity
 Read: cenvsoundscape.Parent
-Write: cenvsoundscape.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -35,11 +35,10 @@ Read: clogicplayerproxy.PlayerHasNoAmmo
 @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerDied
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicplayerproxy.Parent
-Write: clogicplayerproxy.Parent = value
 ```
 # Functions
 ## ToPtr

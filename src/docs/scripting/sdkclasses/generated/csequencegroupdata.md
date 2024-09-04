@@ -21,53 +21,45 @@ CSequenceGroupData(ptr --[[ string ]])
 Read: csequencegroupdata.Flags
 Write: csequencegroupdata.Flags = value
 ```
-## LocalS1SeqDescArray 
+## LocalS1SeqDescArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalS1SeqDescArray
-Write: csequencegroupdata.LocalS1SeqDescArray = value
 ```
-## LocalMultiSeqDescArray 
+## LocalMultiSeqDescArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalMultiSeqDescArray
-Write: csequencegroupdata.LocalMultiSeqDescArray = value
 ```
-## LocalSynthAnimDescArray 
+## LocalSynthAnimDescArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalSynthAnimDescArray
-Write: csequencegroupdata.LocalSynthAnimDescArray = value
 ```
-## LocalCmdSeqDescArray 
+## LocalCmdSeqDescArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalCmdSeqDescArray
-Write: csequencegroupdata.LocalCmdSeqDescArray = value
 ```
-## LocalBoneMaskArray 
+## LocalBoneMaskArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalBoneMaskArray
-Write: csequencegroupdata.LocalBoneMaskArray = value
 ```
-## LocalScaleSetArray 
+## LocalScaleSetArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalScaleSetArray
-Write: csequencegroupdata.LocalScaleSetArray = value
 ```
-## LocalPoseParamArray 
+## LocalPoseParamArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalPoseParamArray
-Write: csequencegroupdata.LocalPoseParamArray = value
 ```
-## LocalIKAutoplayLockArray 
+## LocalIKAutoplayLockArray (Read-Only)
 ```lua
 @type table
 Read: csequencegroupdata.LocalIKAutoplayLockArray
-Write: csequencegroupdata.LocalIKAutoplayLockArray = value
 ```
 # Functions
 ## ToPtr

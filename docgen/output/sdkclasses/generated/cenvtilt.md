@@ -39,11 +39,10 @@ Write: cenvtilt.TiltTime = value
 Read: cenvtilt.StopTime
 Write: cenvtilt.StopTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvtilt.Parent
-Write: cenvtilt.Parent = value
 ```
 # Functions
 ## ToPtr

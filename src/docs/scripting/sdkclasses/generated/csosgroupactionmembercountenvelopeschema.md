@@ -63,11 +63,10 @@ Write: csosgroupactionmembercountenvelopeschema.ResultVarName = value
 Read: csosgroupactionmembercountenvelopeschema.SaveToGroup
 Write: csosgroupactionmembercountenvelopeschema.SaveToGroup = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactionmembercountenvelopeschema.Parent
-Write: csosgroupactionmembercountenvelopeschema.Parent = value
 ```
 # Functions
 ## ToPtr

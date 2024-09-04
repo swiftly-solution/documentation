@@ -21,17 +21,15 @@ CSceneListManager(ptr --[[ string ]])
 Read: cscenelistmanager.Scenes
 Write: cscenelistmanager.Scenes = value
 ```
-## Scenes1 
+## Scenes1 (Read-Only)
 ```lua
 @type table
 Read: cscenelistmanager.Scenes1
-Write: cscenelistmanager.Scenes1 = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cscenelistmanager.Parent
-Write: cscenelistmanager.Parent = value
 ```
 # Functions
 ## ToPtr

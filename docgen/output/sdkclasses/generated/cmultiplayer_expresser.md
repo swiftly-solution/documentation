@@ -21,11 +21,10 @@ CMultiplayer_Expresser(ptr --[[ string ]])
 Read: cmultiplayer_expresser.AllowMultipleScenes
 Write: cmultiplayer_expresser.AllowMultipleScenes = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAI_ExpresserWithFollowup
 Read: cmultiplayer_expresser.Parent
-Write: cmultiplayer_expresser.Parent = value
 ```
 # Functions
 ## ToPtr

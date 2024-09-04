@@ -15,11 +15,10 @@ category:
 CTeamplayRules(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMultiplayRules
 Read: cteamplayrules.Parent
-Write: cteamplayrules.Parent = value
 ```
 # Functions
 ## ToPtr

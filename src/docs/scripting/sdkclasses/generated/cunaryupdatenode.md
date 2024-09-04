@@ -20,11 +20,10 @@ CUnaryUpdateNode(ptr --[[ string ]])
 @type CAnimUpdateNodeRef
 Read: cunaryupdatenode.ChildNode
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cunaryupdatenode.Parent
-Write: cunaryupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

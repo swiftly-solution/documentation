@@ -27,11 +27,10 @@ Write: cnmlayerblendnode.BaseNodeIdx = value
 Read: cnmlayerblendnode.OnlySampleBaseRootMotion
 Write: cnmlayerblendnode.OnlySampleBaseRootMotion = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmlayerblendnode.Parent
-Write: cnmlayerblendnode.Parent = value
 ```
 # Functions
 ## ToPtr

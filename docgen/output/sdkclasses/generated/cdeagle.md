@@ -15,11 +15,10 @@ category:
 CDEagle(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cdeagle.Parent
-Write: cdeagle.Parent = value
 ```
 # Functions
 ## ToPtr

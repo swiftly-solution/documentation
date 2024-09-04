@@ -31,11 +31,10 @@ Read: cbasefilter.OnPass
 @type CEntityIOOutput
 Read: cbasefilter.OnFail
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cbasefilter.Parent
-Write: cbasefilter.Parent = value
 ```
 # Functions
 ## ToPtr

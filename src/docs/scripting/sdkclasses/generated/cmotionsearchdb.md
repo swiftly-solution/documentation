@@ -25,11 +25,10 @@ Read: cmotionsearchdb.RootNode
 @type CProductQuantizer
 Read: cmotionsearchdb.ResidualQuantizer
 ```
-## CodeIndices 
+## CodeIndices (Read-Only)
 ```lua
 @type table
 Read: cmotionsearchdb.CodeIndices
-Write: cmotionsearchdb.CodeIndices = value
 ```
 # Functions
 ## ToPtr

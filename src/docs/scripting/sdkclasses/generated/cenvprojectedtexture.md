@@ -194,11 +194,10 @@ Write: cenvprojectedtexture.Rotation = value
 Read: cenvprojectedtexture.FlipHorizontal
 Write: cenvprojectedtexture.FlipHorizontal = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: cenvprojectedtexture.Parent
-Write: cenvprojectedtexture.Parent = value
 ```
 # Functions
 ## ToPtr

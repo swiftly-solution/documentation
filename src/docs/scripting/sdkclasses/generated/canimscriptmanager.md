@@ -15,11 +15,10 @@ category:
 CAnimScriptManager(ptr --[[ string ]])
 ```
 # Properties
-## ScriptInfo 
+## ScriptInfo (Read-Only)
 ```lua
 @type table
 Read: canimscriptmanager.ScriptInfo
-Write: canimscriptmanager.ScriptInfo = value
 ```
 # Functions
 ## ToPtr

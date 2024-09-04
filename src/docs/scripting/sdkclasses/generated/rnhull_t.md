@@ -50,35 +50,30 @@ Write: rnhull_t.Volume = value
 Read: rnhull_t.SurfaceArea
 Write: rnhull_t.SurfaceArea = value
 ```
-## Vertices 
+## Vertices (Read-Only)
 ```lua
 @type table
 Read: rnhull_t.Vertices
-Write: rnhull_t.Vertices = value
 ```
-## VertexPositions 
+## VertexPositions (Read-Only)
 ```lua
 @type table
 Read: rnhull_t.VertexPositions
-Write: rnhull_t.VertexPositions = value
 ```
-## Edges 
+## Edges (Read-Only)
 ```lua
 @type table
 Read: rnhull_t.Edges
-Write: rnhull_t.Edges = value
 ```
-## Faces 
+## Faces (Read-Only)
 ```lua
 @type table
 Read: rnhull_t.Faces
-Write: rnhull_t.Faces = value
 ```
-## FacePlanes 
+## FacePlanes (Read-Only)
 ```lua
 @type table
 Read: rnhull_t.FacePlanes
-Write: rnhull_t.FacePlanes = value
 ```
 ## Flags 
 ```lua

@@ -15,11 +15,10 @@ category:
 CBaseFlex(ptr --[[ string ]])
 ```
 # Properties
-## FlexWeight 
+## FlexWeight (Read-Only)
 ```lua
 @type table
 Read: cbaseflex.FlexWeight
-Write: cbaseflex.FlexWeight = value
 ```
 ## LookTargetPosition 
 ```lua
@@ -56,11 +55,10 @@ Read: cbaseflex.NextSceneEventId
 Read: cbaseflex.UpdateLayerPriorities
 Write: cbaseflex.UpdateLayerPriorities = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cbaseflex.Parent
-Write: cbaseflex.Parent = value
 ```
 # Functions
 ## ToPtr

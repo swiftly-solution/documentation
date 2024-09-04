@@ -15,11 +15,10 @@ category:
 CPointServerCommand(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointservercommand.Parent
-Write: cpointservercommand.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: ctriggerteleport.UseLandmarkAngles = value
 Read: ctriggerteleport.MirrorPlayer
 Write: ctriggerteleport.MirrorPlayer = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerteleport.Parent
-Write: ctriggerteleport.Parent = value
 ```
 # Functions
 ## ToPtr

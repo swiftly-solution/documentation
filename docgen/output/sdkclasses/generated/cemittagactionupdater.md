@@ -27,11 +27,10 @@ Write: cemittagactionupdater.TagIndex = value
 Read: cemittagactionupdater.IsZeroDuration
 Write: cemittagactionupdater.IsZeroDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimActionUpdater
 Read: cemittagactionupdater.Parent
-Write: cemittagactionupdater.Parent = value
 ```
 # Functions
 ## ToPtr

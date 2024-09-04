@@ -15,11 +15,10 @@ category:
 CMelee(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cmelee.Parent
-Write: cmelee.Parent = value
 ```
 # Functions
 ## ToPtr

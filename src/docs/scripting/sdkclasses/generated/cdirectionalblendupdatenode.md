@@ -55,11 +55,10 @@ Write: cdirectionalblendupdatenode.Loop = value
 Read: cdirectionalblendupdatenode.LockBlendOnReset
 Write: cdirectionalblendupdatenode.LockBlendOnReset = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: cdirectionalblendupdatenode.Parent
-Write: cdirectionalblendupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

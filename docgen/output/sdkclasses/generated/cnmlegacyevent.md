@@ -15,11 +15,10 @@ category:
 CNmLegacyEvent(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmEvent
 Read: cnmlegacyevent.Parent
-Write: cnmlegacyevent.Parent = value
 ```
 # Functions
 ## ToPtr

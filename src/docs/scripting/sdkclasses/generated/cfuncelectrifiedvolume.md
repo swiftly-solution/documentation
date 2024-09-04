@@ -39,11 +39,10 @@ Write: cfuncelectrifiedvolume.EffectZapName = value
 Read: cfuncelectrifiedvolume.EffectSource
 Write: cfuncelectrifiedvolume.EffectSource = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncBrush
 Read: cfuncelectrifiedvolume.Parent
-Write: cfuncelectrifiedvolume.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -51,11 +51,10 @@ Write: cconcreteanimparameter.GameWritable = value
 Read: cconcreteanimparameter.GraphWritable
 Write: cconcreteanimparameter.GraphWritable = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimParameterBase
 Read: cconcreteanimparameter.Parent
-Write: cconcreteanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

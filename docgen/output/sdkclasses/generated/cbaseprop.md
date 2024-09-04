@@ -33,11 +33,10 @@ Write: cbaseprop.ShapeType = value
 Read: cbaseprop.ConformToCollisionBounds
 Write: cbaseprop.ConformToCollisionBounds = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cbaseprop.Parent
-Write: cbaseprop.Parent = value
 ```
 # Functions
 ## ToPtr

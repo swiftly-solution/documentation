@@ -15,11 +15,10 @@ category:
 CInfoInstructorHintBombTargetA(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfoinstructorhintbombtargeta.Parent
-Write: cinfoinstructorhintbombtargeta.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -39,11 +39,10 @@ Write: cmorphconstraint.Min = value
 Read: cmorphconstraint.Max
 Write: cmorphconstraint.Max = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: cmorphconstraint.Parent
-Write: cmorphconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

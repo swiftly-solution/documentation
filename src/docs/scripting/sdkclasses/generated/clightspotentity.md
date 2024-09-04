@@ -15,11 +15,10 @@ category:
 CLightSpotEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLightEntity
 Read: clightspotentity.Parent
-Write: clightspotentity.Parent = value
 ```
 # Functions
 ## ToPtr

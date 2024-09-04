@@ -21,11 +21,10 @@ CNmPassthroughNode(ptr --[[ string ]])
 Read: cnmpassthroughnode.ChildNodeIdx
 Write: cnmpassthroughnode.ChildNodeIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmpassthroughnode.Parent
-Write: cnmpassthroughnode.Parent = value
 ```
 # Functions
 ## ToPtr

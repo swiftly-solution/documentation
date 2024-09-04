@@ -15,11 +15,10 @@ category:
 CMolotovGrenade(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenade
 Read: cmolotovgrenade.Parent
-Write: cmolotovgrenade.Parent = value
 ```
 # Functions
 ## ToPtr

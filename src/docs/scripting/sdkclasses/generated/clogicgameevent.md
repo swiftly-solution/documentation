@@ -21,11 +21,10 @@ CLogicGameEvent(ptr --[[ string ]])
 Read: clogicgameevent.EventName
 Write: clogicgameevent.EventName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicgameevent.Parent
-Write: clogicgameevent.Parent = value
 ```
 # Functions
 ## ToPtr

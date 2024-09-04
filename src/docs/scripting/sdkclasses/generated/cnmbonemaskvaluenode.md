@@ -15,11 +15,10 @@ category:
 CNmBoneMaskValueNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmValueNode
 Read: cnmbonemaskvaluenode.Parent
-Write: cnmbonemaskvaluenode.Parent = value
 ```
 # Functions
 ## ToPtr

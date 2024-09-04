@@ -15,11 +15,10 @@ category:
 CItemSoda(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: citemsoda.Parent
-Write: citemsoda.Parent = value
 ```
 # Functions
 ## ToPtr

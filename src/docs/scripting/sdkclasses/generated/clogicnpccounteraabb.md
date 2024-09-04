@@ -39,11 +39,10 @@ Write: clogicnpccounteraabb.OuterMins = value
 Read: clogicnpccounteraabb.OuterMaxs
 Write: clogicnpccounteraabb.OuterMaxs = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicNPCCounter
 Read: clogicnpccounteraabb.Parent
-Write: clogicnpccounteraabb.Parent = value
 ```
 # Functions
 ## ToPtr

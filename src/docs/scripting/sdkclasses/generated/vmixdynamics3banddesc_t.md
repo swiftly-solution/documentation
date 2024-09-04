@@ -69,11 +69,10 @@ Write: vmixdynamics3banddesc_t.HighCutoffFreq = value
 Read: vmixdynamics3banddesc_t.PeakMode
 Write: vmixdynamics3banddesc_t.PeakMode = value
 ```
-## BandDesc 
+## BandDesc (Read-Only)
 ```lua
 @type table
 Read: vmixdynamics3banddesc_t.BandDesc
-Write: vmixdynamics3banddesc_t.BandDesc = value
 ```
 # Functions
 ## ToPtr

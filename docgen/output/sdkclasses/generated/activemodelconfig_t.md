@@ -26,17 +26,15 @@ Read: activemodelconfig_t.Handle
 Read: activemodelconfig_t.Name
 Write: activemodelconfig_t.Name = value
 ```
-## AssociatedEntities 
+## AssociatedEntities (Read-Only)
 ```lua
 @type table
 Read: activemodelconfig_t.AssociatedEntities
-Write: activemodelconfig_t.AssociatedEntities = value
 ```
-## AssociatedEntityNames 
+## AssociatedEntityNames (Read-Only)
 ```lua
 @type table
 Read: activemodelconfig_t.AssociatedEntityNames
-Write: activemodelconfig_t.AssociatedEntityNames = value
 ```
 # Functions
 ## ToPtr

@@ -53,11 +53,10 @@ Write: cpointentityfinder.FindMethod = value
 @type CEntityIOOutput
 Read: cpointentityfinder.OnFoundEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpointentityfinder.Parent
-Write: cpointentityfinder.Parent = value
 ```
 # Functions
 ## ToPtr

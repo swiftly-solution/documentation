@@ -15,11 +15,10 @@ category:
 CPlayerInputAnimMotorUpdater(ptr --[[ string ]])
 ```
 # Properties
-## SampleTimes 
+## SampleTimes (Read-Only)
 ```lua
 @type table
 Read: cplayerinputanimmotorupdater.SampleTimes
-Write: cplayerinputanimmotorupdater.SampleTimes = value
 ```
 ## SpringConstant 
 ```lua
@@ -49,11 +48,10 @@ Read: cplayerinputanimmotorupdater.AnticipationHeadingParam
 Read: cplayerinputanimmotorupdater.UseAcceleration
 Write: cplayerinputanimmotorupdater.UseAcceleration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimMotorUpdaterBase
 Read: cplayerinputanimmotorupdater.Parent
-Write: cplayerinputanimmotorupdater.Parent = value
 ```
 # Functions
 ## ToPtr

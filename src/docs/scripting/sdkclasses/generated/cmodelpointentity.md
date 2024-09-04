@@ -15,11 +15,10 @@ category:
 CModelPointEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cmodelpointentity.Parent
-Write: cmodelpointentity.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CTripWireFireProjectile(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseGrenade
 Read: ctripwirefireprojectile.Parent
-Write: ctripwirefireprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

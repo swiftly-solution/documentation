@@ -93,11 +93,10 @@ Write: cpointclientuiworldpanel.Orientation = value
 Read: cpointclientuiworldpanel.AllowInteractionFromAllSceneWorlds
 Write: cpointclientuiworldpanel.AllowInteractionFromAllSceneWorlds = value
 ```
-## CSSClasses 
+## CSSClasses (Read-Only)
 ```lua
 @type table
 Read: cpointclientuiworldpanel.CSSClasses
-Write: cpointclientuiworldpanel.CSSClasses = value
 ```
 ## Opaque 
 ```lua
@@ -153,11 +152,10 @@ Write: cpointclientuiworldpanel.DisableMipGen = value
 Read: cpointclientuiworldpanel.ExplicitImageLayout
 Write: cpointclientuiworldpanel.ExplicitImageLayout = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseClientUIEntity
 Read: cpointclientuiworldpanel.Parent
-Write: cpointclientuiworldpanel.Parent = value
 ```
 # Functions
 ## ToPtr

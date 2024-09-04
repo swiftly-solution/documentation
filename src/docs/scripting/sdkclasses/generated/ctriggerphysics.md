@@ -93,11 +93,10 @@ Write: ctriggerphysics.LinearForceDirection = value
 Read: ctriggerphysics.ConvertToDebrisWhenPossible
 Write: ctriggerphysics.ConvertToDebrisWhenPossible = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerphysics.Parent
-Write: ctriggerphysics.Parent = value
 ```
 # Functions
 ## ToPtr

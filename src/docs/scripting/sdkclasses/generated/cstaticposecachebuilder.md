@@ -15,11 +15,10 @@ category:
 CStaticPoseCacheBuilder(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CStaticPoseCache
 Read: cstaticposecachebuilder.Parent
-Write: cstaticposecachebuilder.Parent = value
 ```
 # Functions
 ## ToPtr

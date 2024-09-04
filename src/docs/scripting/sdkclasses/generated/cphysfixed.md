@@ -51,11 +51,10 @@ Write: cphysfixed.EnableLinearConstraint = value
 Read: cphysfixed.EnableAngularConstraint
 Write: cphysfixed.EnableAngularConstraint = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphysfixed.Parent
-Write: cphysfixed.Parent = value
 ```
 # Functions
 ## ToPtr

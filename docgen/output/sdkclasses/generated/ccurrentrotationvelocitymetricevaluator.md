@@ -15,11 +15,10 @@ category:
 CCurrentRotationVelocityMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: ccurrentrotationvelocitymetricevaluator.Parent
-Write: ccurrentrotationvelocitymetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

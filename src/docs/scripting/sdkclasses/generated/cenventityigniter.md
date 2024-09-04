@@ -21,11 +21,10 @@ CEnvEntityIgniter(ptr --[[ string ]])
 Read: cenventityigniter.Lifetime
 Write: cenventityigniter.Lifetime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenventityigniter.Parent
-Write: cenventityigniter.Parent = value
 ```
 # Functions
 ## ToPtr

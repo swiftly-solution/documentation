@@ -15,11 +15,10 @@ category:
 CPlayer_FlashlightServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_flashlightservices.Parent
-Write: cplayer_flashlightservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -25,11 +25,10 @@ Read: cgameplayerzone.OnPlayerInZone
 @type CEntityIOOutput
 Read: cgameplayerzone.OnPlayerOutZone
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRuleBrushEntity
 Read: cgameplayerzone.Parent
-Write: cgameplayerzone.Parent = value
 ```
 # Functions
 ## ToPtr

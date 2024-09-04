@@ -105,11 +105,10 @@ Write: cenvvolumetricfogvolume.OverrideSunLightStrength = value
 Read: cenvvolumetricfogvolume.OverrideNoiseStrength
 Write: cenvvolumetricfogvolume.OverrideNoiseStrength = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvvolumetricfogvolume.Parent
-Write: cenvvolumetricfogvolume.Parent = value
 ```
 # Functions
 ## ToPtr

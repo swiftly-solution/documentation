@@ -27,11 +27,10 @@ Write: aggregatelodsetup_t.LODOrigin = value
 Read: aggregatelodsetup_t.MaxObjectScale
 Write: aggregatelodsetup_t.MaxObjectScale = value
 ```
-## SwitchDistances 
+## SwitchDistances (Read-Only)
 ```lua
 @type table
 Read: aggregatelodsetup_t.SwitchDistances
-Write: aggregatelodsetup_t.SwitchDistances = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CAI_ExpresserWithFollowup(ptr --[[ string ]])
 Read: cai_expresserwithfollowup.PostponedFollowup
 Write: cai_expresserwithfollowup.PostponedFollowup = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAI_Expresser
 Read: cai_expresserwithfollowup.Parent
-Write: cai_expresserwithfollowup.Parent = value
 ```
 # Functions
 ## ToPtr

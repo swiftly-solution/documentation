@@ -15,11 +15,10 @@ category:
 CPhysicalButton(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseButton
 Read: cphysicalbutton.Parent
-Write: cphysicalbutton.Parent = value
 ```
 # Functions
 ## ToPtr

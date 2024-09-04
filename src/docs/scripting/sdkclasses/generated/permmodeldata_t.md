@@ -26,47 +26,40 @@ Write: permmodeldata_t.Name = value
 @type PermModelInfo_t
 Read: permmodeldata_t.ModelInfo
 ```
-## ExtParts 
+## ExtParts (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.ExtParts
-Write: permmodeldata_t.ExtParts = value
 ```
-## RefMeshGroupMasks 
+## RefMeshGroupMasks (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.RefMeshGroupMasks
-Write: permmodeldata_t.RefMeshGroupMasks = value
 ```
-## RefPhysGroupMasks 
+## RefPhysGroupMasks (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.RefPhysGroupMasks
-Write: permmodeldata_t.RefPhysGroupMasks = value
 ```
-## RefLODGroupMasks 
+## RefLODGroupMasks (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.RefLODGroupMasks
-Write: permmodeldata_t.RefLODGroupMasks = value
 ```
-## LodGroupSwitchDistances 
+## LodGroupSwitchDistances (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.LodGroupSwitchDistances
-Write: permmodeldata_t.LodGroupSwitchDistances = value
 ```
-## MeshGroups 
+## MeshGroups (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.MeshGroups
-Write: permmodeldata_t.MeshGroups = value
 ```
-## MaterialGroups 
+## MaterialGroups (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.MaterialGroups
-Write: permmodeldata_t.MaterialGroups = value
 ```
 ## DefaultMeshGroupMask 
 ```lua
@@ -79,23 +72,20 @@ Write: permmodeldata_t.DefaultMeshGroupMask = value
 @type ModelSkeletonData_t
 Read: permmodeldata_t.ModelSkeleton
 ```
-## RemappingTable 
+## RemappingTable (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.RemappingTable
-Write: permmodeldata_t.RemappingTable = value
 ```
-## RemappingTableStarts 
+## RemappingTableStarts (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.RemappingTableStarts
-Write: permmodeldata_t.RemappingTableStarts = value
 ```
-## BoneFlexDrivers 
+## BoneFlexDrivers (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.BoneFlexDrivers
-Write: permmodeldata_t.BoneFlexDrivers = value
 ```
 ## ModelConfigList 
 ```lua
@@ -103,17 +93,15 @@ Write: permmodeldata_t.BoneFlexDrivers = value
 Read: permmodeldata_t.ModelConfigList
 Write: permmodeldata_t.ModelConfigList = value
 ```
-## BodyGroupsHiddenInTools 
+## BodyGroupsHiddenInTools (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.BodyGroupsHiddenInTools
-Write: permmodeldata_t.BodyGroupsHiddenInTools = value
 ```
-## AnimatedMaterialAttributes 
+## AnimatedMaterialAttributes (Read-Only)
 ```lua
 @type table
 Read: permmodeldata_t.AnimatedMaterialAttributes
-Write: permmodeldata_t.AnimatedMaterialAttributes = value
 ```
 # Functions
 ## ToPtr

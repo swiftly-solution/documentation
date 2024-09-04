@@ -62,11 +62,10 @@ Write: cbaseplayerweapon.ReserveAmmo = value
 @type CEntityIOOutput
 Read: cbaseplayerweapon.OnPlayerUse
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEconEntity
 Read: cbaseplayerweapon.Parent
-Write: cbaseplayerweapon.Parent = value
 ```
 # Functions
 ## ToPtr

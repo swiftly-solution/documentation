@@ -75,11 +75,10 @@ Write: ccolorcorrectionvolume.LastExitWeight = value
 Read: ccolorcorrectionvolume.LastExitTime
 Write: ccolorcorrectionvolume.LastExitTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ccolorcorrectionvolume.Parent
-Write: ccolorcorrectionvolume.Parent = value
 ```
 # Functions
 ## ToPtr

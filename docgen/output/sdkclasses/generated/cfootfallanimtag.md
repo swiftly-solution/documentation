@@ -21,11 +21,10 @@ CFootFallAnimTag(ptr --[[ string ]])
 Read: cfootfallanimtag.Foot
 Write: cfootfallanimtag.Foot = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cfootfallanimtag.Parent
-Write: cfootfallanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

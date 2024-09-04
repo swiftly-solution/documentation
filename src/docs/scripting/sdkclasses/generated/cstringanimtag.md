@@ -15,11 +15,10 @@ category:
 CStringAnimTag(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cstringanimtag.Parent
-Write: cstringanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

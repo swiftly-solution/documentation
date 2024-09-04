@@ -33,11 +33,10 @@ Write: ctriggerimpact.Noise = value
 Read: ctriggerimpact.Viewkick
 Write: ctriggerimpact.Viewkick = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerMultiple
 Read: ctriggerimpact.Parent
-Write: ctriggerimpact.Parent = value
 ```
 # Functions
 ## ToPtr

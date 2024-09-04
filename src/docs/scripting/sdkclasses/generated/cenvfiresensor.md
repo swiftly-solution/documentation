@@ -61,11 +61,10 @@ Read: cenvfiresensor.OnHeatLevelStart
 @type CEntityIOOutput
 Read: cenvfiresensor.OnHeatLevelEnd
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvfiresensor.Parent
-Write: cenvfiresensor.Parent = value
 ```
 # Functions
 ## ToPtr

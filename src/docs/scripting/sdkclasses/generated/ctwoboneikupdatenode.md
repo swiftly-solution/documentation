@@ -20,11 +20,10 @@ CTwoBoneIKUpdateNode(ptr --[[ string ]])
 @type TwoBoneIKSettings_t
 Read: ctwoboneikupdatenode.OpFixedData
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: ctwoboneikupdatenode.Parent
-Write: ctwoboneikupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

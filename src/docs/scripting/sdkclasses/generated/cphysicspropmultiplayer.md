@@ -15,11 +15,10 @@ category:
 CPhysicsPropMultiplayer(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysicsProp
 Read: cphysicspropmultiplayer.Parent
-Write: cphysicspropmultiplayer.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CCSGameRulesProxy(ptr --[[ string ]])
 Read: ccsgamerulesproxy.GameRules
 Write: ccsgamerulesproxy.GameRules = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CGameRulesProxy
 Read: ccsgamerulesproxy.Parent
-Write: ccsgamerulesproxy.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CPhysThruster(ptr --[[ string ]])
 Read: cphysthruster.LocalOrigin
 Write: cphysthruster.LocalOrigin = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysForce
 Read: cphysthruster.Parent
-Write: cphysthruster.Parent = value
 ```
 # Functions
 ## ToPtr

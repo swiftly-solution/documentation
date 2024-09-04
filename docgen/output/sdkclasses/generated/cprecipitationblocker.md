@@ -15,11 +15,10 @@ category:
 CPrecipitationBlocker(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cprecipitationblocker.Parent
-Write: cprecipitationblocker.Parent = value
 ```
 # Functions
 ## ToPtr

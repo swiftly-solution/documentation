@@ -15,11 +15,10 @@ category:
 CEnvFunnel(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvfunnel.Parent
-Write: cenvfunnel.Parent = value
 ```
 # Functions
 ## ToPtr

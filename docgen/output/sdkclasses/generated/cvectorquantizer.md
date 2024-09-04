@@ -15,11 +15,10 @@ category:
 CVectorQuantizer(ptr --[[ string ]])
 ```
 # Properties
-## CentroidVectors 
+## CentroidVectors (Read-Only)
 ```lua
 @type table
 Read: cvectorquantizer.CentroidVectors
-Write: cvectorquantizer.CentroidVectors = value
 ```
 ## Centroids 
 ```lua

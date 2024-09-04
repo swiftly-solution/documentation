@@ -57,11 +57,10 @@ Write: chitreactupdatenode.MinDelayBetweenHits = value
 Read: chitreactupdatenode.ResetChild
 Write: chitreactupdatenode.ResetChild = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: chitreactupdatenode.Parent
-Write: chitreactupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -104,11 +104,10 @@ Write: cplayer_movementservices.LastMovementImpulses = value
 Read: cplayer_movementservices.OldViewAngles
 Write: cplayer_movementservices.OldViewAngles = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_movementservices.Parent
-Write: cplayer_movementservices.Parent = value
 ```
 # Functions
 ## ToPtr

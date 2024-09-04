@@ -15,11 +15,10 @@ category:
 EventClientPauseSimulate_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type EventSimulate_t
 Read: eventclientpausesimulate_t.Parent
-Write: eventclientpausesimulate_t.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: ccsplayer_itemservices.HasHelmet = value
 Read: ccsplayer_itemservices.HasHeavyArmor
 Write: ccsplayer_itemservices.HasHeavyArmor = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_ItemServices
 Read: ccsplayer_itemservices.Parent
-Write: ccsplayer_itemservices.Parent = value
 ```
 # Functions
 ## ToPtr

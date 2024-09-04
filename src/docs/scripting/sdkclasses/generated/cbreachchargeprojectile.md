@@ -15,11 +15,10 @@ category:
 CBreachChargeProjectile(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseGrenade
 Read: cbreachchargeprojectile.Parent
-Write: cbreachchargeprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

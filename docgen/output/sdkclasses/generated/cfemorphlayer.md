@@ -27,35 +27,30 @@ Write: cfemorphlayer.Name = value
 Read: cfemorphlayer.NameHash
 Write: cfemorphlayer.NameHash = value
 ```
-## Nodes 
+## Nodes (Read-Only)
 ```lua
 @type table
 Read: cfemorphlayer.Nodes
-Write: cfemorphlayer.Nodes = value
 ```
-## InitPos 
+## InitPos (Read-Only)
 ```lua
 @type table
 Read: cfemorphlayer.InitPos
-Write: cfemorphlayer.InitPos = value
 ```
-## Gravity 
+## Gravity (Read-Only)
 ```lua
 @type table
 Read: cfemorphlayer.Gravity
-Write: cfemorphlayer.Gravity = value
 ```
-## GoalStrength 
+## GoalStrength (Read-Only)
 ```lua
 @type table
 Read: cfemorphlayer.GoalStrength
-Write: cfemorphlayer.GoalStrength = value
 ```
-## GoalDamping 
+## GoalDamping (Read-Only)
 ```lua
 @type table
 Read: cfemorphlayer.GoalDamping
-Write: cfemorphlayer.GoalDamping = value
 ```
 # Functions
 ## ToPtr

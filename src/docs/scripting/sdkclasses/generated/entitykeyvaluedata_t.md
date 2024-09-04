@@ -15,11 +15,10 @@ category:
 EntityKeyValueData_t(ptr --[[ string ]])
 ```
 # Properties
-## Connections 
+## Connections (Read-Only)
 ```lua
 @type table
 Read: entitykeyvaluedata_t.Connections
-Write: entitykeyvaluedata_t.Connections = value
 ```
 # Functions
 ## ToPtr

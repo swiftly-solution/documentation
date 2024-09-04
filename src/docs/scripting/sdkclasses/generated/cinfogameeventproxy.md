@@ -27,11 +27,10 @@ Write: cinfogameeventproxy.EventName = value
 Read: cinfogameeventproxy.Range
 Write: cinfogameeventproxy.Range = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfogameeventproxy.Parent
-Write: cinfogameeventproxy.Parent = value
 ```
 # Functions
 ## ToPtr

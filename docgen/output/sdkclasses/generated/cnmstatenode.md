@@ -45,11 +45,10 @@ Write: cnmstatenode.LayerBoneMaskNodeIdx = value
 Read: cnmstatenode.IsOffState
 Write: cnmstatenode.IsOffState = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmstatenode.Parent
-Write: cnmstatenode.Parent = value
 ```
 # Functions
 ## ToPtr

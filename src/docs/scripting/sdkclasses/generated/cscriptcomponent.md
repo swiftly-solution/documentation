@@ -21,11 +21,10 @@ CScriptComponent(ptr --[[ string ]])
 Read: cscriptcomponent.ScriptClassName
 Write: cscriptcomponent.ScriptClassName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: cscriptcomponent.Parent
-Write: cscriptcomponent.Parent = value
 ```
 # Functions
 ## ToPtr

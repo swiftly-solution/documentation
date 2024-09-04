@@ -33,11 +33,10 @@ Write: cvoicecontainerenvelopeanalyzer.Samples = value
 Read: cvoicecontainerenvelopeanalyzer.Threshold
 Write: cvoicecontainerenvelopeanalyzer.Threshold = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerAnalysisBase
 Read: cvoicecontainerenvelopeanalyzer.Parent
-Write: cvoicecontainerenvelopeanalyzer.Parent = value
 ```
 # Functions
 ## ToPtr

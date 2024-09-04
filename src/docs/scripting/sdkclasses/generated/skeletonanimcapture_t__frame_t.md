@@ -32,17 +32,15 @@ Read: skeletonanimcapture_t__frame_t.Stamp
 Read: skeletonanimcapture_t__frame_t.Teleport
 Write: skeletonanimcapture_t__frame_t.Teleport = value
 ```
-## FeModelPos 
+## FeModelPos (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t__frame_t.FeModelPos
-Write: skeletonanimcapture_t__frame_t.FeModelPos = value
 ```
-## FlexControllerWeights 
+## FlexControllerWeights (Read-Only)
 ```lua
 @type table
 Read: skeletonanimcapture_t__frame_t.FlexControllerWeights
-Write: skeletonanimcapture_t__frame_t.FlexControllerWeights = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CTriggerBombReset(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerbombreset.Parent
-Write: ctriggerbombreset.Parent = value
 ```
 # Functions
 ## ToPtr

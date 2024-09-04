@@ -15,17 +15,15 @@ category:
 CCSPlayer_ViewModelServices(ptr --[[ string ]])
 ```
 # Properties
-## ViewModel 
+## ViewModel (Read-Only)
 ```lua
 @type table
 Read: ccsplayer_viewmodelservices.ViewModel
-Write: ccsplayer_viewmodelservices.ViewModel = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_ViewModelServices
 Read: ccsplayer_viewmodelservices.Parent
-Write: ccsplayer_viewmodelservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 dynpitchvol_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type dynpitchvol_base_t
 Read: dynpitchvol_t.Parent
-Write: dynpitchvol_t.Parent = value
 ```
 # Functions
 ## ToPtr

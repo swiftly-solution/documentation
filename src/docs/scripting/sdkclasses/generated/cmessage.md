@@ -50,11 +50,10 @@ Write: cmessage.Noise = value
 @type CEntityIOOutput
 Read: cmessage.OnShowMessage
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cmessage.Parent
-Write: cmessage.Parent = value
 ```
 # Functions
 ## ToPtr

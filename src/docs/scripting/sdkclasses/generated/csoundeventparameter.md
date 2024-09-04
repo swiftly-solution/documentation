@@ -27,11 +27,10 @@ Write: csoundeventparameter.ParamName = value
 Read: csoundeventparameter.FloatValue
 Write: csoundeventparameter.FloatValue = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: csoundeventparameter.Parent
-Write: csoundeventparameter.Parent = value
 ```
 # Functions
 ## ToPtr

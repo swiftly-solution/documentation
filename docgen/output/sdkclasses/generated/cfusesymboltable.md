@@ -15,23 +15,20 @@ category:
 CFuseSymbolTable(ptr --[[ string ]])
 ```
 # Properties
-## Constants 
+## Constants (Read-Only)
 ```lua
 @type table
 Read: cfusesymboltable.Constants
-Write: cfusesymboltable.Constants = value
 ```
-## Variables 
+## Variables (Read-Only)
 ```lua
 @type table
 Read: cfusesymboltable.Variables
-Write: cfusesymboltable.Variables = value
 ```
-## Functions 
+## Functions (Read-Only)
 ```lua
 @type table
 Read: cfusesymboltable.Functions
-Write: cfusesymboltable.Functions = value
 ```
 # Functions
 ## ToPtr

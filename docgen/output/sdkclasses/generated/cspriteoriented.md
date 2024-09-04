@@ -15,11 +15,10 @@ category:
 CSpriteOriented(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSprite
 Read: cspriteoriented.Parent
-Write: cspriteoriented.Parent = value
 ```
 # Functions
 ## ToPtr

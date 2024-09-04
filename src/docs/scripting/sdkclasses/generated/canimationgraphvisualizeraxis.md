@@ -21,11 +21,10 @@ CAnimationGraphVisualizerAxis(ptr --[[ string ]])
 Read: canimationgraphvisualizeraxis.AxisSize
 Write: canimationgraphvisualizeraxis.AxisSize = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizeraxis.Parent
-Write: canimationgraphvisualizeraxis.Parent = value
 ```
 # Functions
 ## ToPtr

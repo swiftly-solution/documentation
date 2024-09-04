@@ -45,11 +45,10 @@ Write: csmokegrenadeprojectile.SmokeColor = value
 Read: csmokegrenadeprojectile.SmokeDetonationPos
 Write: csmokegrenadeprojectile.SmokeDetonationPos = value
 ```
-## VoxelFrameData 
+## VoxelFrameData (Read-Only)
 ```lua
 @type table
 Read: csmokegrenadeprojectile.VoxelFrameData
-Write: csmokegrenadeprojectile.VoxelFrameData = value
 ```
 ## LastBounce 
 ```lua
@@ -63,11 +62,16 @@ Write: csmokegrenadeprojectile.LastBounce = value
 Read: csmokegrenadeprojectile.FllastSimulationTime
 Write: csmokegrenadeprojectile.FllastSimulationTime = value
 ```
-## Parent 
+## ExplodeFromInferno 
+```lua
+@type boolean
+Read: csmokegrenadeprojectile.ExplodeFromInferno
+Write: csmokegrenadeprojectile.ExplodeFromInferno = value
+```
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: csmokegrenadeprojectile.Parent
-Write: csmokegrenadeprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

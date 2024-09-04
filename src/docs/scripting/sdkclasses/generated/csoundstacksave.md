@@ -21,11 +21,10 @@ CSoundStackSave(ptr --[[ string ]])
 Read: csoundstacksave.StackName
 Write: csoundstacksave.StackName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: csoundstacksave.Parent
-Write: csoundstacksave.Parent = value
 ```
 # Functions
 ## ToPtr

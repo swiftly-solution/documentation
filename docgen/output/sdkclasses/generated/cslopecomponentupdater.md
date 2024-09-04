@@ -51,11 +51,10 @@ Read: cslopecomponentupdater.SlopeNormal
 @type CAnimParamHandle
 Read: cslopecomponentupdater.SlopeNormal_WorldSpace
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cslopecomponentupdater.Parent
-Write: cslopecomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

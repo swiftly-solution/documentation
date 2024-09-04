@@ -20,11 +20,10 @@ CBtActionParachutePositioning(ptr --[[ string ]])
 @type CountdownTimer
 Read: cbtactionparachutepositioning.ActionTimer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtactionparachutepositioning.Parent
-Write: cbtactionparachutepositioning.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CFilterClass(ptr --[[ string ]])
 Read: cfilterclass.FilterClass
 Write: cfilterclass.FilterClass = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfilterclass.Parent
-Write: cfilterclass.Parent = value
 ```
 # Functions
 ## ToPtr

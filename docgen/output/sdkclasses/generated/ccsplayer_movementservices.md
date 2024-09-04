@@ -243,11 +243,10 @@ Write: ccsplayer_movementservices.HeightAtJumpStart = value
 Read: ccsplayer_movementservices.MaxJumpHeightThisJump
 Write: ccsplayer_movementservices.MaxJumpHeightThisJump = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_MovementServices_Humanoid
 Read: ccsplayer_movementservices.Parent
-Write: ccsplayer_movementservices.Parent = value
 ```
 # Functions
 ## ToPtr

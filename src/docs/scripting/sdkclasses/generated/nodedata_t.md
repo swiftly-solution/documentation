@@ -45,11 +45,10 @@ Write: nodedata_t.MaxBounds = value
 Read: nodedata_t.MinimumDistance
 Write: nodedata_t.MinimumDistance = value
 ```
-## ChildNodeIndices 
+## ChildNodeIndices (Read-Only)
 ```lua
 @type table
 Read: nodedata_t.ChildNodeIndices
-Write: nodedata_t.ChildNodeIndices = value
 ```
 ## WorldNodePrefix 
 ```lua

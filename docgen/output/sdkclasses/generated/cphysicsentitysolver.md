@@ -37,11 +37,10 @@ Write: cphysicsentitysolver.SeparationDuration = value
 Read: cphysicsentitysolver.CancelTime
 Write: cphysicsentitysolver.CancelTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cphysicsentitysolver.Parent
-Write: cphysicsentitysolver.Parent = value
 ```
 # Functions
 ## ToPtr

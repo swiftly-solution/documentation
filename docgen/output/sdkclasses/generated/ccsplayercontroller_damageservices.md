@@ -21,17 +21,15 @@ CCSPlayerController_DamageServices(ptr --[[ string ]])
 Read: ccsplayercontroller_damageservices.SendUpdate
 Write: ccsplayercontroller_damageservices.SendUpdate = value
 ```
-## DamageList 
+## DamageList (Read-Only)
 ```lua
 @type table
 Read: ccsplayercontroller_damageservices.DamageList
-Write: ccsplayercontroller_damageservices.DamageList = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerControllerComponent
 Read: ccsplayercontroller_damageservices.Parent
-Write: ccsplayercontroller_damageservices.Parent = value
 ```
 # Functions
 ## ToPtr

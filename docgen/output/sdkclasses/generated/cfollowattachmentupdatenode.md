@@ -20,11 +20,10 @@ CFollowAttachmentUpdateNode(ptr --[[ string ]])
 @type FollowAttachmentSettings_t
 Read: cfollowattachmentupdatenode.OpFixedData
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfollowattachmentupdatenode.Parent
-Write: cfollowattachmentupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

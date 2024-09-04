@@ -15,11 +15,10 @@ category:
 CLogicScript(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: clogicscript.Parent
-Write: clogicscript.Parent = value
 ```
 # Functions
 ## ToPtr

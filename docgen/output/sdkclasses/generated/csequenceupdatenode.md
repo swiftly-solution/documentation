@@ -20,11 +20,10 @@ CSequenceUpdateNode(ptr --[[ string ]])
 @type CParamSpanUpdater
 Read: csequenceupdatenode.ParamSpans
 ```
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: csequenceupdatenode.Tags
-Write: csequenceupdatenode.Tags = value
 ```
 ## PlaybackSpeed 
 ```lua
@@ -44,11 +43,10 @@ Write: csequenceupdatenode.Duration = value
 Read: csequenceupdatenode.Loop
 Write: csequenceupdatenode.Loop = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: csequenceupdatenode.Parent
-Write: csequenceupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

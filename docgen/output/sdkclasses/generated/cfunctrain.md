@@ -49,11 +49,10 @@ Write: cfunctrain.NextBlockTime = value
 Read: cfunctrain.LastTarget
 Write: cfunctrain.LastTarget = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlatTrain
 Read: cfunctrain.Parent
-Write: cfunctrain.Parent = value
 ```
 # Functions
 ## ToPtr

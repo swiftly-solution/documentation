@@ -21,11 +21,10 @@ CSingleplayRules(ptr --[[ string ]])
 Read: csingleplayrules.SinglePlayerGameEnding
 Write: csingleplayrules.SinglePlayerGameEnding = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CGameRules
 Read: csingleplayrules.Parent
-Write: csingleplayrules.Parent = value
 ```
 # Functions
 ## ToPtr

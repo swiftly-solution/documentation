@@ -75,11 +75,10 @@ Write: cpropdatacomponent.DisableTakePhysicsDamageSpawnFlag = value
 Read: cpropdatacomponent.MotionDisabledSpawnFlag
 Write: cpropdatacomponent.MotionDisabledSpawnFlag = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: cpropdatacomponent.Parent
-Write: cpropdatacomponent.Parent = value
 ```
 # Functions
 ## ToPtr

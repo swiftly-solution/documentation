@@ -26,11 +26,10 @@ Write: cgametext.Message = value
 @type hudtextparms_t
 Read: cgametext.TextParms
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRulePointEntity
 Read: cgametext.Parent
-Write: cgametext.Parent = value
 ```
 # Functions
 ## ToPtr

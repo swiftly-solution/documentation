@@ -99,11 +99,10 @@ Write: csun.HDRColorScale = value
 Read: csun.FarZScale
 Write: csun.FarZScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: csun.Parent
-Write: csun.Parent = value
 ```
 # Functions
 ## ToPtr

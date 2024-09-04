@@ -15,11 +15,10 @@ category:
 CMotionDataSet(ptr --[[ string ]])
 ```
 # Properties
-## Groups 
+## Groups (Read-Only)
 ```lua
 @type table
 Read: cmotiondataset.Groups
-Write: cmotiondataset.Groups = value
 ```
 ## DimensionCount 
 ```lua

@@ -63,17 +63,15 @@ Write: ccsplayercontroller_inventoryservices.PersonaDataXpTrailLevel = value
 Read: ccsplayercontroller_inventoryservices.EquippedPlayerSprayIDs
 Write: ccsplayercontroller_inventoryservices.EquippedPlayerSprayIDs = value
 ```
-## ServerAuthoritativeWeaponSlots 
+## ServerAuthoritativeWeaponSlots (Read-Only)
 ```lua
 @type table
 Read: ccsplayercontroller_inventoryservices.ServerAuthoritativeWeaponSlots
-Write: ccsplayercontroller_inventoryservices.ServerAuthoritativeWeaponSlots = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerControllerComponent
 Read: ccsplayercontroller_inventoryservices.Parent
-Write: ccsplayercontroller_inventoryservices.Parent = value
 ```
 # Functions
 ## ToPtr

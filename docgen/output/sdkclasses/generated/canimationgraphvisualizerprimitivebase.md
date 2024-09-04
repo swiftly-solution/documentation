@@ -21,11 +21,10 @@ CAnimationGraphVisualizerPrimitiveBase(ptr --[[ string ]])
 Read: canimationgraphvisualizerprimitivebase.Type
 Write: canimationgraphvisualizerprimitivebase.Type = value
 ```
-## OwningAnimNodePaths 
+## OwningAnimNodePaths (Read-Only)
 ```lua
 @type table
 Read: canimationgraphvisualizerprimitivebase.OwningAnimNodePaths
-Write: canimationgraphvisualizerprimitivebase.OwningAnimNodePaths = value
 ```
 ## OwningAnimNodePathCount 
 ```lua

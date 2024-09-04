@@ -43,11 +43,10 @@ Read: cmoverpathnode.OnPassThrough
 @type CPathMover
 Read: cmoverpathnode.Mover
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cmoverpathnode.Parent
-Write: cmoverpathnode.Parent = value
 ```
 # Functions
 ## ToPtr

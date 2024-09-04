@@ -410,11 +410,10 @@ Write: clightcomponent.MinRoughness = value
 Read: clightcomponent.PvsModifyEntity
 Write: clightcomponent.PvsModifyEntity = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: clightcomponent.Parent
-Write: clightcomponent.Parent = value
 ```
 # Functions
 ## ToPtr

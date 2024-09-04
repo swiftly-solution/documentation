@@ -27,29 +27,25 @@ Write: rnmesh_t.Min = value
 Read: rnmesh_t.Max
 Write: rnmesh_t.Max = value
 ```
-## Nodes 
+## Nodes (Read-Only)
 ```lua
 @type table
 Read: rnmesh_t.Nodes
-Write: rnmesh_t.Nodes = value
 ```
-## Triangles 
+## Triangles (Read-Only)
 ```lua
 @type table
 Read: rnmesh_t.Triangles
-Write: rnmesh_t.Triangles = value
 ```
-## Wings 
+## Wings (Read-Only)
 ```lua
 @type table
 Read: rnmesh_t.Wings
-Write: rnmesh_t.Wings = value
 ```
-## Materials 
+## Materials (Read-Only)
 ```lua
 @type table
 Read: rnmesh_t.Materials
-Write: rnmesh_t.Materials = value
 ```
 ## OrthographicAreas 
 ```lua

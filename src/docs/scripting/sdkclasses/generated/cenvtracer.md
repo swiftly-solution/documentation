@@ -27,11 +27,10 @@ Write: cenvtracer.End = value
 Read: cenvtracer.Delay
 Write: cenvtracer.Delay = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvtracer.Parent
-Write: cenvtracer.Parent = value
 ```
 # Functions
 ## ToPtr

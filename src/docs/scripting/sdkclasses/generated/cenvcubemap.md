@@ -117,11 +117,10 @@ Write: cenvcubemap.Entity_bCopyDiffuseFromDefaultCubemap = value
 Read: cenvcubemap.Entity_bEnabled
 Write: cenvcubemap.Entity_bEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvcubemap.Parent
-Write: cenvcubemap.Parent = value
 ```
 # Functions
 ## ToPtr

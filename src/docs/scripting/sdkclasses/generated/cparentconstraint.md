@@ -15,11 +15,10 @@ category:
 CParentConstraint(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: cparentconstraint.Parent
-Write: cparentconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -26,11 +26,10 @@ Read: cweaponbaseitem.SequenceCompleteTimer
 Read: cweaponbaseitem.Redraw
 Write: cweaponbaseitem.Redraw = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cweaponbaseitem.Parent
-Write: cweaponbaseitem.Parent = value
 ```
 # Functions
 ## ToPtr

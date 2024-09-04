@@ -45,11 +45,10 @@ Write: cglowoverlay.InSky = value
 Read: cglowoverlay.SkyObstructionScale
 Write: cglowoverlay.SkyObstructionScale = value
 ```
-## Sprites 
+## Sprites (Read-Only)
 ```lua
 @type table
 Read: cglowoverlay.Sprites
-Write: cglowoverlay.Sprites = value
 ```
 ## Sprites1 
 ```lua

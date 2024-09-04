@@ -15,11 +15,10 @@ category:
 CRuleBrushEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRuleEntity
 Read: crulebrushentity.Parent
-Write: crulebrushentity.Parent = value
 ```
 # Functions
 ## ToPtr

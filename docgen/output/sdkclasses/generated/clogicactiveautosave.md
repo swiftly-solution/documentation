@@ -39,11 +39,10 @@ Write: clogicactiveautosave.StartTime = value
 Read: clogicactiveautosave.DangerousTime
 Write: clogicactiveautosave.DangerousTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicAutosave
 Read: clogicactiveautosave.Parent
-Write: clogicactiveautosave.Parent = value
 ```
 # Functions
 ## ToPtr

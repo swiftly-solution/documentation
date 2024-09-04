@@ -20,11 +20,10 @@ CSetParameterActionUpdater(ptr --[[ string ]])
 @type CAnimParamHandle
 Read: csetparameteractionupdater.Param
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimActionUpdater
 Read: csetparameteractionupdater.Parent
-Write: csetparameteractionupdater.Parent = value
 ```
 # Functions
 ## ToPtr

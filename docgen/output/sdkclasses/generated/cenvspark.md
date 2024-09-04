@@ -44,11 +44,10 @@ Write: cenvspark.Type = value
 @type CEntityIOOutput
 Read: cenvspark.OnSpark
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvspark.Parent
-Write: cenvspark.Parent = value
 ```
 # Functions
 ## ToPtr

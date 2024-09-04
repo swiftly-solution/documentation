@@ -15,11 +15,10 @@ category:
 CSimpleMarkupVolumeTagged(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMarkupVolumeTagged
 Read: csimplemarkupvolumetagged.Parent
-Write: csimplemarkupvolumetagged.Parent = value
 ```
 # Functions
 ## ToPtr

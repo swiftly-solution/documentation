@@ -99,11 +99,10 @@ Write: cplayer_movementservices_humanoid.TargetVolume = value
 Read: cplayer_movementservices_humanoid.SmoothedVelocity
 Write: cplayer_movementservices_humanoid.SmoothedVelocity = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_MovementServices
 Read: cplayer_movementservices_humanoid.Parent
-Write: cplayer_movementservices_humanoid.Parent = value
 ```
 # Functions
 ## ToPtr

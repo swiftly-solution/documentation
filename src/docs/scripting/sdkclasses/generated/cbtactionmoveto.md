@@ -96,11 +96,10 @@ Write: cbtactionmoveto.HidingSpotCheckDistanceThreshold = value
 Read: cbtactionmoveto.NearestAreaDistanceThreshold
 Write: cbtactionmoveto.NearestAreaDistanceThreshold = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtactionmoveto.Parent
-Write: cbtactionmoveto.Parent = value
 ```
 # Functions
 ## ToPtr

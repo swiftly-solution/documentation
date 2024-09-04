@@ -15,71 +15,60 @@ category:
 WorldNode_t(ptr --[[ string ]])
 ```
 # Properties
-## SceneObjects 
+## SceneObjects (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.SceneObjects
-Write: worldnode_t.SceneObjects = value
 ```
-## InfoOverlays 
+## InfoOverlays (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.InfoOverlays
-Write: worldnode_t.InfoOverlays = value
 ```
-## VisClusterMembership 
+## VisClusterMembership (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.VisClusterMembership
-Write: worldnode_t.VisClusterMembership = value
 ```
-## AggregateSceneObjects 
+## AggregateSceneObjects (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.AggregateSceneObjects
-Write: worldnode_t.AggregateSceneObjects = value
 ```
-## ClutterSceneObjects 
+## ClutterSceneObjects (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.ClutterSceneObjects
-Write: worldnode_t.ClutterSceneObjects = value
 ```
-## ExtraVertexStreamOverrides 
+## ExtraVertexStreamOverrides (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.ExtraVertexStreamOverrides
-Write: worldnode_t.ExtraVertexStreamOverrides = value
 ```
-## MaterialOverrides 
+## MaterialOverrides (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.MaterialOverrides
-Write: worldnode_t.MaterialOverrides = value
 ```
-## ExtraVertexStreams 
+## ExtraVertexStreams (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.ExtraVertexStreams
-Write: worldnode_t.ExtraVertexStreams = value
 ```
-## LayerNames 
+## LayerNames (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.LayerNames
-Write: worldnode_t.LayerNames = value
 ```
-## SceneObjectLayerIndices 
+## SceneObjectLayerIndices (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.SceneObjectLayerIndices
-Write: worldnode_t.SceneObjectLayerIndices = value
 ```
-## OverlayLayerIndices 
+## OverlayLayerIndices (Read-Only)
 ```lua
 @type table
 Read: worldnode_t.OverlayLayerIndices
-Write: worldnode_t.OverlayLayerIndices = value
 ```
 ## GrassFileName 
 ```lua

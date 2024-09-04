@@ -20,11 +20,10 @@ CTriggerDetectExplosion(ptr --[[ string ]])
 @type CEntityIOOutput
 Read: ctriggerdetectexplosion.OnDetectedExplosion
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerdetectexplosion.Parent
-Write: ctriggerdetectexplosion.Parent = value
 ```
 # Functions
 ## ToPtr

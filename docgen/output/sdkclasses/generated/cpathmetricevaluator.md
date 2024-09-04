@@ -15,11 +15,10 @@ category:
 CPathMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## PathTimeSamples 
+## PathTimeSamples (Read-Only)
 ```lua
 @type table
 Read: cpathmetricevaluator.PathTimeSamples
-Write: cpathmetricevaluator.PathTimeSamples = value
 ```
 ## Distance 
 ```lua
@@ -39,11 +38,10 @@ Write: cpathmetricevaluator.ExtrapolateMovement = value
 Read: cpathmetricevaluator.MinExtrapolationSpeed
 Write: cpathmetricevaluator.MinExtrapolationSpeed = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cpathmetricevaluator.Parent
-Write: cpathmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

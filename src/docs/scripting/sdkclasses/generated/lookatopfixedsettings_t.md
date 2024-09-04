@@ -25,11 +25,10 @@ Read: lookatopfixedsettings_t.Attachment
 @type CAnimInputDamping
 Read: lookatopfixedsettings_t.Damping
 ```
-## Bones 
+## Bones (Read-Only)
 ```lua
 @type table
 Read: lookatopfixedsettings_t.Bones
-Write: lookatopfixedsettings_t.Bones = value
 ```
 ## YawLimit 
 ```lua

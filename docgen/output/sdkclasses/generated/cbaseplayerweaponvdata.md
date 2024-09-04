@@ -117,11 +117,10 @@ Write: cbaseplayerweaponvdata.Slot = value
 Read: cbaseplayerweaponvdata.Position
 Write: cbaseplayerweaponvdata.Position = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntitySubclassVDataBase
 Read: cbaseplayerweaponvdata.Parent
-Write: cbaseplayerweaponvdata.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -110,11 +110,10 @@ Write: cbasetoggle.MovementType = value
 Read: cbasetoggle.Master
 Write: cbasetoggle.Master = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbasetoggle.Parent
-Write: cbasetoggle.Parent = value
 ```
 # Functions
 ## ToPtr

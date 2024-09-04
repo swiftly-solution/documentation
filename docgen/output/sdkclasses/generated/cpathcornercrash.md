@@ -15,11 +15,10 @@ category:
 CPathCornerCrash(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPathCorner
 Read: cpathcornercrash.Parent
-Write: cpathcornercrash.Parent = value
 ```
 # Functions
 ## ToPtr

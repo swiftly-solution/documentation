@@ -15,22 +15,20 @@ category:
 CMotionSearchNode(ptr --[[ string ]])
 ```
 # Properties
-## Children 
+## Children (Read-Only)
 ```lua
 @type table
 Read: cmotionsearchnode.Children
-Write: cmotionsearchnode.Children = value
 ```
 ## Quantizer (Read-Only)
 ```lua
 @type CVectorQuantizer
 Read: cmotionsearchnode.Quantizer
 ```
-## SelectableSamples 
+## SelectableSamples (Read-Only)
 ```lua
 @type table
 Read: cmotionsearchnode.SelectableSamples
-Write: cmotionsearchnode.SelectableSamples = value
 ```
 # Functions
 ## ToPtr

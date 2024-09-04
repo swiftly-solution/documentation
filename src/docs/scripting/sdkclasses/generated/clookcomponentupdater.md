@@ -56,11 +56,10 @@ Read: clookcomponentupdater.LookTargetWorldSpace
 Read: clookcomponentupdater.NetworkLookTarget
 Write: clookcomponentupdater.NetworkLookTarget = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: clookcomponentupdater.Parent
-Write: clookcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CCopyRecipientFilter(ptr --[[ string ]])
 Read: ccopyrecipientfilter.Flags
 Write: ccopyrecipientfilter.Flags = value
 ```
-## Recipients 
+## Recipients (Read-Only)
 ```lua
 @type table
 Read: ccopyrecipientfilter.Recipients
-Write: ccopyrecipientfilter.Recipients = value
 ```
 # Functions
 ## ToPtr

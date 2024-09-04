@@ -15,11 +15,10 @@ category:
 CRopeKeyframeAlias_move_rope(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRopeKeyframe
 Read: cropekeyframealias_move_rope.Parent
-Write: cropekeyframealias_move_rope.Parent = value
 ```
 # Functions
 ## ToPtr

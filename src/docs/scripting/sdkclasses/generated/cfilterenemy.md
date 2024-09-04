@@ -45,11 +45,10 @@ Write: cfilterenemy.MaxSquadmatesPerEnemy = value
 Read: cfilterenemy.PlayerName
 Write: cfilterenemy.PlayerName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfilterenemy.Parent
-Write: cfilterenemy.Parent = value
 ```
 # Functions
 ## ToPtr

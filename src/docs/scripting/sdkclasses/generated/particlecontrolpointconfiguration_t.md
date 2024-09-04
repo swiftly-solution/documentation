@@ -21,11 +21,10 @@ ParticleControlPointConfiguration_t(ptr --[[ string ]])
 Read: particlecontrolpointconfiguration_t.Name
 Write: particlecontrolpointconfiguration_t.Name = value
 ```
-## Drivers 
+## Drivers (Read-Only)
 ```lua
 @type table
 Read: particlecontrolpointconfiguration_t.Drivers
-Write: particlecontrolpointconfiguration_t.Drivers = value
 ```
 ## PreviewState (Read-Only)
 ```lua

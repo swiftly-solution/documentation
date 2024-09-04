@@ -44,11 +44,10 @@ Write: cpointvelocitysensor.PrevVelocity = value
 Read: cpointvelocitysensor.AvgInterval
 Write: cpointvelocitysensor.AvgInterval = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointvelocitysensor.Parent
-Write: cpointvelocitysensor.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -68,11 +68,10 @@ Write: csoundopvarsetpointbase.OpvarIndex = value
 Read: csoundopvarsetpointbase.UseAutoCompare
 Write: csoundopvarsetpointbase.UseAutoCompare = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: csoundopvarsetpointbase.Parent
-Write: csoundopvarsetpointbase.Parent = value
 ```
 # Functions
 ## ToPtr

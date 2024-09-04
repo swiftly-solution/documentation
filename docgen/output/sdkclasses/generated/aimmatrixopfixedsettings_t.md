@@ -25,11 +25,10 @@ Read: aimmatrixopfixedsettings_t.Attachment
 @type CAnimInputDamping
 Read: aimmatrixopfixedsettings_t.Damping
 ```
-## PoseCacheHandles 
+## PoseCacheHandles (Read-Only)
 ```lua
 @type table
 Read: aimmatrixopfixedsettings_t.PoseCacheHandles
-Write: aimmatrixopfixedsettings_t.PoseCacheHandles = value
 ```
 ## BlendMode 
 ```lua

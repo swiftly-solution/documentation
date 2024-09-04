@@ -33,11 +33,10 @@ Write: cweaponshield.LastBulletHitSoundTime = value
 Read: cweaponshield.DisplayHealth
 Write: cweaponshield.DisplayHealth = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cweaponshield.Parent
-Write: cweaponshield.Parent = value
 ```
 # Functions
 ## ToPtr

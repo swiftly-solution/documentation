@@ -15,11 +15,10 @@ category:
 CBumpMineProjectile(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseGrenade
 Read: cbumpmineprojectile.Parent
-Write: cbumpmineprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

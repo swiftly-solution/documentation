@@ -21,11 +21,10 @@ CPhysicsWire(ptr --[[ string ]])
 Read: cphysicswire.Density
 Write: cphysicswire.Density = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cphysicswire.Parent
-Write: cphysicswire.Parent = value
 ```
 # Functions
 ## ToPtr

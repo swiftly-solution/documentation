@@ -21,11 +21,10 @@ CHitboxComponent(ptr --[[ string ]])
 Read: chitboxcomponent.DisabledHitGroups
 Write: chitboxcomponent.DisabledHitGroups = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: chitboxcomponent.Parent
-Write: chitboxcomponent.Parent = value
 ```
 # Functions
 ## ToPtr

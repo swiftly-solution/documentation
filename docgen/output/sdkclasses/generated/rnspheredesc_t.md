@@ -15,11 +15,10 @@ category:
 RnSphereDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type RnShapeDesc_t
 Read: rnspheredesc_t.Parent
-Write: rnspheredesc_t.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -83,11 +83,10 @@ Read: cenventitymaker.OutputOnSpawned
 @type CEntityIOOutput
 Read: cenventitymaker.OutputOnFailedSpawn
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenventitymaker.Parent
-Write: cenventitymaker.Parent = value
 ```
 # Functions
 ## ToPtr

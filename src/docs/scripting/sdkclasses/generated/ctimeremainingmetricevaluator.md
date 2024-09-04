@@ -39,11 +39,10 @@ Write: ctimeremainingmetricevaluator.FilterByTimeRemaining = value
 Read: ctimeremainingmetricevaluator.MinTimeRemaining
 Write: ctimeremainingmetricevaluator.MinTimeRemaining = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: ctimeremainingmetricevaluator.Parent
-Write: ctimeremainingmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

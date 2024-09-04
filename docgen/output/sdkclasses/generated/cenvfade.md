@@ -38,11 +38,10 @@ Write: cenvfade.HoldDuration = value
 @type CEntityIOOutput
 Read: cenvfade.OnBeginFade
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cenvfade.Parent
-Write: cenvfade.Parent = value
 ```
 # Functions
 ## ToPtr

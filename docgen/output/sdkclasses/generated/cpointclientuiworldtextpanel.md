@@ -21,11 +21,10 @@ CPointClientUIWorldTextPanel(ptr --[[ string ]])
 Read: cpointclientuiworldtextpanel.MessageText
 Write: cpointclientuiworldtextpanel.MessageText = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointClientUIWorldPanel
 Read: cpointclientuiworldtextpanel.Parent
-Write: cpointclientuiworldtextpanel.Parent = value
 ```
 # Functions
 ## ToPtr

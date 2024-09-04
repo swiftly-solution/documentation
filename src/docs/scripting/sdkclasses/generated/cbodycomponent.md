@@ -26,11 +26,10 @@ Write: cbodycomponent.SceneNode = value
 @type CNetworkVarChainer
 Read: cbodycomponent.__pChainEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityComponent
 Read: cbodycomponent.Parent
-Write: cbodycomponent.Parent = value
 ```
 # Functions
 ## ToPtr

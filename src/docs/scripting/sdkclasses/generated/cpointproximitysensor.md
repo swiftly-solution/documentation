@@ -26,11 +26,10 @@ Write: cpointproximitysensor.Disabled = value
 @type CBaseEntity
 Read: cpointproximitysensor.TargetEntity
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointproximitysensor.Parent
-Write: cpointproximitysensor.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 COrientConstraint(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: corientconstraint.Parent
-Write: corientconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

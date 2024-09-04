@@ -98,11 +98,10 @@ Write: cbasecsgrenade.NextHoldFrac = value
 @type CCSWeaponBase
 Read: cbasecsgrenade.SwitchToWeaponAfterThrow
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cbasecsgrenade.Parent
-Write: cbasecsgrenade.Parent = value
 ```
 # Functions
 ## ToPtr

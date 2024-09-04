@@ -15,11 +15,10 @@ category:
 CPlayer_AutoaimServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_autoaimservices.Parent
-Write: cplayer_autoaimservices.Parent = value
 ```
 # Functions
 ## ToPtr

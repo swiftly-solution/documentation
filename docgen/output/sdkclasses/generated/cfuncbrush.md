@@ -51,11 +51,10 @@ Write: cfuncbrush.InvertExclusion = value
 Read: cfuncbrush.ScriptedMovement
 Write: cfuncbrush.ScriptedMovement = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncbrush.Parent
-Write: cfuncbrush.Parent = value
 ```
 # Functions
 ## ToPtr

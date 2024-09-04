@@ -33,11 +33,10 @@ Write: csosgroupactionlimitschema.StopType = value
 Read: csosgroupactionlimitschema.SortType
 Write: csosgroupactionlimitschema.SortType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactionlimitschema.Parent
-Write: csosgroupactionlimitschema.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CVoiceContainerDefault(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerdefault.Parent
-Write: cvoicecontainerdefault.Parent = value
 ```
 # Functions
 ## ToPtr

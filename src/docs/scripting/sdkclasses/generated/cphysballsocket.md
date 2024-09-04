@@ -51,11 +51,10 @@ Write: cphysballsocket.MinTwistAngle = value
 Read: cphysballsocket.MaxTwistAngle
 Write: cphysballsocket.MaxTwistAngle = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphysballsocket.Parent
-Write: cphysballsocket.Parent = value
 ```
 # Functions
 ## ToPtr

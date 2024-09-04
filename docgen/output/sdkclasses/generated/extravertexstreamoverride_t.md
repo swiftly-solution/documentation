@@ -38,11 +38,10 @@ Write: extravertexstreamoverride_t.AdditionalMeshDrawPrimitiveFlags = value
 @type CRenderBufferBinding
 Read: extravertexstreamoverride_t.ExtraBufferBinding
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type BaseSceneObjectOverride_t
 Read: extravertexstreamoverride_t.Parent
-Write: extravertexstreamoverride_t.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -38,11 +38,10 @@ Write: clogiceventlistener.Team = value
 @type CEntityIOOutput
 Read: clogiceventlistener.OnEventFired
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogiceventlistener.Parent
-Write: clogiceventlistener.Parent = value
 ```
 # Functions
 ## ToPtr

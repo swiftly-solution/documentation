@@ -15,11 +15,10 @@ category:
 CZeroPoseUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: czeroposeupdatenode.Parent
-Write: czeroposeupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

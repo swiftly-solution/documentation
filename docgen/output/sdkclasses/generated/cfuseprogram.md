@@ -15,23 +15,20 @@ category:
 CFuseProgram(ptr --[[ string ]])
 ```
 # Properties
-## ProgramBuffer 
+## ProgramBuffer (Read-Only)
 ```lua
 @type table
 Read: cfuseprogram.ProgramBuffer
-Write: cfuseprogram.ProgramBuffer = value
 ```
-## VariablesRead 
+## VariablesRead (Read-Only)
 ```lua
 @type table
 Read: cfuseprogram.VariablesRead
-Write: cfuseprogram.VariablesRead = value
 ```
-## VariablesWritten 
+## VariablesWritten (Read-Only)
 ```lua
 @type table
 Read: cfuseprogram.VariablesWritten
-Write: cfuseprogram.VariablesWritten = value
 ```
 ## MaxTempVarsUsed 
 ```lua

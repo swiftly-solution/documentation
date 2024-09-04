@@ -81,11 +81,10 @@ Write: cbasemovebehavior.TimeIntoFrame = value
 Read: cbasemovebehavior.Direction
 Write: cbasemovebehavior.Direction = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPathKeyFrame
 Read: cbasemovebehavior.Parent
-Write: cbasemovebehavior.Parent = value
 ```
 # Functions
 ## ToPtr

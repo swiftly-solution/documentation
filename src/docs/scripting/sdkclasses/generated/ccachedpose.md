@@ -15,11 +15,10 @@ category:
 CCachedPose(ptr --[[ string ]])
 ```
 # Properties
-## MorphWeights 
+## MorphWeights (Read-Only)
 ```lua
 @type table
 Read: ccachedpose.MorphWeights
-Write: ccachedpose.MorphWeights = value
 ```
 ## Cycle 
 ```lua

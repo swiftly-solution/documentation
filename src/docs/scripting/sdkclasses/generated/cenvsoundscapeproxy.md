@@ -21,11 +21,10 @@ CEnvSoundscapeProxy(ptr --[[ string ]])
 Read: cenvsoundscapeproxy.MainSoundscapeName
 Write: cenvsoundscapeproxy.MainSoundscapeName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEnvSoundscape
 Read: cenvsoundscapeproxy.Parent
-Write: cenvsoundscapeproxy.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -84,11 +84,10 @@ Read: cbtactionaim.FocusIntervalTimer
 Read: cbtactionaim.Acquired
 Write: cbtactionaim.Acquired = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtactionaim.Parent
-Write: cbtactionaim.Parent = value
 ```
 # Functions
 ## ToPtr

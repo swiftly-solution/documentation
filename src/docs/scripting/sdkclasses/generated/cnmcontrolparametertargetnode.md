@@ -15,11 +15,10 @@ category:
 CNmControlParameterTargetNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmTargetValueNode
 Read: cnmcontrolparametertargetnode.Parent
-Write: cnmcontrolparametertargetnode.Parent = value
 ```
 # Functions
 ## ToPtr

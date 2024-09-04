@@ -15,11 +15,10 @@ category:
 CLogicalEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyEntity
 Read: clogicalentity.Parent
-Write: clogicalentity.Parent = value
 ```
 # Functions
 ## ToPtr

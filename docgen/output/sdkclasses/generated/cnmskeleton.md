@@ -15,11 +15,10 @@ category:
 CNmSkeleton(ptr --[[ string ]])
 ```
 # Properties
-## ParentIndices 
+## ParentIndices (Read-Only)
 ```lua
 @type table
 Read: cnmskeleton.ParentIndices
-Write: cnmskeleton.ParentIndices = value
 ```
 ## NumBonesToSampleAtLowLOD 
 ```lua

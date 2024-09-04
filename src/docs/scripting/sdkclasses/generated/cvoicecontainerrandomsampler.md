@@ -45,11 +45,10 @@ Write: cvoicecontainerrandomsampler.MaxLength = value
 Read: cvoicecontainerrandomsampler.NumDelayVariations
 Write: cvoicecontainerrandomsampler.NumDelayVariations = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerrandomsampler.Parent
-Write: cvoicecontainerrandomsampler.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -74,11 +74,10 @@ Write: cphysslideconstraint.UseEntityPivot = value
 @type ConstraintSoundInfo
 Read: cphysslideconstraint.SoundInfo
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cphysslideconstraint.Parent
-Write: cphysslideconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

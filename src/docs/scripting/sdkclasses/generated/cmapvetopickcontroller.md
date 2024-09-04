@@ -129,11 +129,10 @@ Write: cmapvetopickcontroller.PhaseStartTick = value
 Read: cmapvetopickcontroller.PhaseDurationTicks
 Write: cmapvetopickcontroller.PhaseDurationTicks = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cmapvetopickcontroller.Parent
-Write: cmapvetopickcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

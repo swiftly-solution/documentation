@@ -33,11 +33,10 @@ Write: cflashbangprojectile.NumOpponentsHit = value
 Read: cflashbangprojectile.NumTeammatesHit
 Write: cflashbangprojectile.NumTeammatesHit = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: cflashbangprojectile.Parent
-Write: cflashbangprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

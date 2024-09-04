@@ -15,11 +15,10 @@ category:
 CStanceOverrideUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## FootStanceInfo 
+## FootStanceInfo (Read-Only)
 ```lua
 @type table
 Read: cstanceoverrideupdatenode.FootStanceInfo
-Write: cstanceoverrideupdatenode.FootStanceInfo = value
 ```
 ## StanceSourceNode (Read-Only)
 ```lua
@@ -37,11 +36,10 @@ Read: cstanceoverrideupdatenode.Parameter
 Read: cstanceoverrideupdatenode.Mode
 Write: cstanceoverrideupdatenode.Mode = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cstanceoverrideupdatenode.Parent
-Write: cstanceoverrideupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

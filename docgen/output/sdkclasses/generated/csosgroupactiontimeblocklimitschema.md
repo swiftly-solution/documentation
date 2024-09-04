@@ -27,11 +27,10 @@ Write: csosgroupactiontimeblocklimitschema.MaxCount = value
 Read: csosgroupactiontimeblocklimitschema.MaxDuration
 Write: csosgroupactiontimeblocklimitschema.MaxDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactiontimeblocklimitschema.Parent
-Write: csosgroupactiontimeblocklimitschema.Parent = value
 ```
 # Functions
 ## ToPtr

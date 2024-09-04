@@ -15,11 +15,10 @@ category:
 CFootCycle(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCycleBase
 Read: cfootcycle.Parent
-Write: cfootcycle.Parent = value
 ```
 # Functions
 ## ToPtr

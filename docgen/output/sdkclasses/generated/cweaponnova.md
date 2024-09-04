@@ -15,11 +15,10 @@ category:
 CWeaponNOVA(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cweaponnova.Parent
-Write: cweaponnova.Parent = value
 ```
 # Functions
 ## ToPtr

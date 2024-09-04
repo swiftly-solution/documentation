@@ -15,11 +15,10 @@ category:
 CFeVertexMapBuildArray(ptr --[[ string ]])
 ```
 # Properties
-## Array 
+## Array (Read-Only)
 ```lua
 @type table
 Read: cfevertexmapbuildarray.Array
-Write: cfevertexmapbuildarray.Array = value
 ```
 # Functions
 ## ToPtr

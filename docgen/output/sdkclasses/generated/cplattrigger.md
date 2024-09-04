@@ -20,11 +20,10 @@ CPlatTrigger(ptr --[[ string ]])
 @type CFuncPlat
 Read: cplattrigger.Platform
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cplattrigger.Parent
-Write: cplattrigger.Parent = value
 ```
 # Functions
 ## ToPtr

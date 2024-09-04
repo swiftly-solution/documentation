@@ -33,17 +33,15 @@ Write: compositematerialeditorpoint_t.Cycle = value
 Read: compositematerialeditorpoint_t.EnableChildModel
 Write: compositematerialeditorpoint_t.EnableChildModel = value
 ```
-## CompositeMaterialAssemblyProcedures 
+## CompositeMaterialAssemblyProcedures (Read-Only)
 ```lua
 @type table
 Read: compositematerialeditorpoint_t.CompositeMaterialAssemblyProcedures
-Write: compositematerialeditorpoint_t.CompositeMaterialAssemblyProcedures = value
 ```
-## CompositeMaterials 
+## CompositeMaterials (Read-Only)
 ```lua
 @type table
 Read: compositematerialeditorpoint_t.CompositeMaterials
-Write: compositematerialeditorpoint_t.CompositeMaterials = value
 ```
 # Functions
 ## ToPtr

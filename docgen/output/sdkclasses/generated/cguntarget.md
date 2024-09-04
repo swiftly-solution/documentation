@@ -31,11 +31,10 @@ Read: cguntarget.TargetEnt
 @type CEntityIOOutput
 Read: cguntarget.OnDeath
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cguntarget.Parent
-Write: cguntarget.Parent = value
 ```
 # Functions
 ## ToPtr

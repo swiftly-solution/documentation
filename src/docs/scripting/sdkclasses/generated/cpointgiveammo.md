@@ -20,11 +20,10 @@ CPointGiveAmmo(ptr --[[ string ]])
 @type CBaseEntity
 Read: cpointgiveammo.Activator
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointgiveammo.Parent
-Write: cpointgiveammo.Parent = value
 ```
 # Functions
 ## ToPtr

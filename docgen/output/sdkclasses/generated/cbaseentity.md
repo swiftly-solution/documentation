@@ -26,11 +26,10 @@ Write: cbaseentity.CBodyComponent = value
 @type CNetworkTransmitComponent
 Read: cbaseentity.NetworkTransmitComponent
 ```
-## ThinkFunctions 
+## ThinkFunctions (Read-Only)
 ```lua
 @type table
 Read: cbaseentity.ThinkFunctions
-Write: cbaseentity.ThinkFunctions = value
 ```
 ## CurrentThinkContext 
 ```lua
@@ -56,11 +55,10 @@ Write: cbaseentity.DisabledContextThinks = value
 Read: cbaseentity.LastNetworkChange
 Write: cbaseentity.LastNetworkChange = value
 ```
-## ResponseContexts 
+## ResponseContexts (Read-Only)
 ```lua
 @type table
 Read: cbaseentity.ResponseContexts
-Write: cbaseentity.ResponseContexts = value
 ```
 ## ResponseContext 
 ```lua
@@ -459,11 +457,10 @@ Write: cbaseentity.VPhysicsUpdateLocalTime = value
 Read: cbaseentity.BloodType
 Write: cbaseentity.BloodType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntityInstance
 Read: cbaseentity.Parent
-Write: cbaseentity.Parent = value
 ```
 # Functions
 ## EmitSound

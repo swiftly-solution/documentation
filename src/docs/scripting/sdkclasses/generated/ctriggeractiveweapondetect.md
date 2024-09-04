@@ -26,11 +26,10 @@ Read: ctriggeractiveweapondetect.OnTouchedActiveWeapon
 Read: ctriggeractiveweapondetect.WeaponClassName
 Write: ctriggeractiveweapondetect.WeaponClassName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggeractiveweapondetect.Parent
-Write: ctriggeractiveweapondetect.Parent = value
 ```
 # Functions
 ## ToPtr

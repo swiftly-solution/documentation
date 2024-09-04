@@ -26,11 +26,10 @@ Read: citemdefuser.EntitySpottedState
 Read: citemdefuser.SpotRules
 Write: citemdefuser.SpotRules = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItem
 Read: citemdefuser.Parent
-Write: citemdefuser.Parent = value
 ```
 # Functions
 ## ToPtr

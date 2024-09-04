@@ -15,11 +15,10 @@ category:
 CPathParticleRopeAlias_path_particle_rope_clientside(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPathParticleRope
 Read: cpathparticleropealias_path_particle_rope_clientside.Parent
-Write: cpathparticleropealias_path_particle_rope_clientside.Parent = value
 ```
 # Functions
 ## ToPtr

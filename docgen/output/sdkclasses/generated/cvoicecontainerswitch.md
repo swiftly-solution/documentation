@@ -15,17 +15,15 @@ category:
 CVoiceContainerSwitch(ptr --[[ string ]])
 ```
 # Properties
-## SoundsToPlay 
+## SoundsToPlay (Read-Only)
 ```lua
 @type table
 Read: cvoicecontainerswitch.SoundsToPlay
-Write: cvoicecontainerswitch.SoundsToPlay = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerswitch.Parent
-Write: cvoicecontainerswitch.Parent = value
 ```
 # Functions
 ## ToPtr

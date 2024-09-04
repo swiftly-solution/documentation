@@ -112,11 +112,10 @@ Write: cenvmicrophone.LastSound = value
 Read: cenvmicrophone.LastRoutedFrame
 Write: cenvmicrophone.LastRoutedFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvmicrophone.Parent
-Write: cenvmicrophone.Parent = value
 ```
 # Functions
 ## ToPtr

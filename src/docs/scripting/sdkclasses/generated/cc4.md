@@ -80,11 +80,10 @@ Write: cc4.PlayedArmingBeeps = value
 Read: cc4.BombPlanted
 Write: cc4.BombPlanted = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cc4.Parent
-Write: cc4.Parent = value
 ```
 # Functions
 ## ToPtr

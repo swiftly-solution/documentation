@@ -99,11 +99,10 @@ Read: cphysbox.OnStartTouch
 @type CBasePlayerPawn
 Read: cphysbox.CarryingPlayer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBreakable
 Read: cphysbox.Parent
-Write: cphysbox.Parent = value
 ```
 # Functions
 ## ToPtr

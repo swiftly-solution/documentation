@@ -15,28 +15,25 @@ category:
 CBlend2DUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Items 
+## Items (Read-Only)
 ```lua
 @type table
 Read: cblend2dupdatenode.Items
-Write: cblend2dupdatenode.Items = value
 ```
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: cblend2dupdatenode.Tags
-Write: cblend2dupdatenode.Tags = value
 ```
 ## ParamSpans (Read-Only)
 ```lua
 @type CParamSpanUpdater
 Read: cblend2dupdatenode.ParamSpans
 ```
-## NodeItemIndices 
+## NodeItemIndices (Read-Only)
 ```lua
 @type table
 Read: cblend2dupdatenode.NodeItemIndices
-Write: cblend2dupdatenode.NodeItemIndices = value
 ```
 ## Damping (Read-Only)
 ```lua
@@ -101,11 +98,10 @@ Write: cblend2dupdatenode.LockWhenWaning = value
 Read: cblend2dupdatenode.AnimEventsAndTagsOnMostWeightedOnly
 Write: cblend2dupdatenode.AnimEventsAndTagsOnMostWeightedOnly = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cblend2dupdatenode.Parent
-Write: cblend2dupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

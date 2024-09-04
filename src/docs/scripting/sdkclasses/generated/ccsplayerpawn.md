@@ -183,11 +183,10 @@ Write: ccsplayerpawn.AimPunchTickBase = value
 Read: ccsplayerpawn.AimPunchTickFraction
 Write: ccsplayerpawn.AimPunchTickFraction = value
 ```
-## AimPunchCache 
+## AimPunchCache (Read-Only)
 ```lua
 @type table
 Read: ccsplayerpawn.AimPunchCache
-Write: ccsplayerpawn.AimPunchCache = value
 ```
 ## IsBuyMenuOpen 
 ```lua
@@ -607,12 +606,6 @@ Write: ccsplayerpawn.FreezetimeEndEquipmentValue = value
 Read: ccsplayerpawn.LastWeaponFireUsercmd
 Write: ccsplayerpawn.LastWeaponFireUsercmd = value
 ```
-## LastFriendlyFireDamageReductionRatio 
-```lua
-@type number
-Read: ccsplayerpawn.LastFriendlyFireDamageReductionRatio
-Write: ccsplayerpawn.LastFriendlyFireDamageReductionRatio = value
-```
 ## IsSpawning 
 ```lua
 @type boolean
@@ -703,11 +696,21 @@ Write: ccsplayerpawn.ThrowPositionHistory = value
 Read: ccsplayerpawn.VelocityHistory
 Write: ccsplayerpawn.VelocityHistory = value
 ```
-## Parent 
+## PredictedDamageTags (Read-Only)
+```lua
+@type table
+Read: ccsplayerpawn.PredictedDamageTags
+```
+## HighestAppliedDamageTagTick 
+```lua
+@type number
+Read: ccsplayerpawn.HighestAppliedDamageTagTick
+Write: ccsplayerpawn.HighestAppliedDamageTagTick = value
+```
+## Parent (Read-Only)
 ```lua
 @type CCSPlayerPawnBase
 Read: ccsplayerpawn.Parent
-Write: ccsplayerpawn.Parent = value
 ```
 # Functions
 ## ToPtr

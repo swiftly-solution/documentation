@@ -15,17 +15,15 @@ category:
 CAnimKeyData(ptr --[[ string ]])
 ```
 # Properties
-## BoneArray 
+## BoneArray (Read-Only)
 ```lua
 @type table
 Read: canimkeydata.BoneArray
-Write: canimkeydata.BoneArray = value
 ```
-## UserArray 
+## UserArray (Read-Only)
 ```lua
 @type table
 Read: canimkeydata.UserArray
-Write: canimkeydata.UserArray = value
 ```
 ## ChannelElements 
 ```lua
@@ -33,11 +31,10 @@ Write: canimkeydata.UserArray = value
 Read: canimkeydata.ChannelElements
 Write: canimkeydata.ChannelElements = value
 ```
-## DataChannelArray 
+## DataChannelArray (Read-Only)
 ```lua
 @type table
 Read: canimkeydata.DataChannelArray
-Write: canimkeydata.DataChannelArray = value
 ```
 # Functions
 ## ToPtr

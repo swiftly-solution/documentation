@@ -15,11 +15,10 @@ category:
 CEnableMotionFixup(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenablemotionfixup.Parent
-Write: cenablemotionfixup.Parent = value
 ```
 # Functions
 ## ToPtr

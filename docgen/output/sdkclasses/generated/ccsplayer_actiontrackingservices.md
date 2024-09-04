@@ -36,11 +36,10 @@ Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisMatch
 @type WeaponPurchaseTracker_t
 Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisRound
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_actiontrackingservices.Parent
-Write: ccsplayer_actiontrackingservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CDecoyGrenade(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenade
 Read: cdecoygrenade.Parent
-Write: cdecoygrenade.Parent = value
 ```
 # Functions
 ## ToPtr

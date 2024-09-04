@@ -15,11 +15,10 @@ category:
 CAnimNodePath(ptr --[[ string ]])
 ```
 # Properties
-## Path 
+## Path (Read-Only)
 ```lua
 @type table
 Read: canimnodepath.Path
-Write: canimnodepath.Path = value
 ```
 ## Count 
 ```lua

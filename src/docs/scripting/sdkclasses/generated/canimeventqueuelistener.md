@@ -15,11 +15,10 @@ category:
 CAnimEventQueueListener(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimEventListenerBase
 Read: canimeventqueuelistener.Parent
-Write: canimeventqueuelistener.Parent = value
 ```
 # Functions
 ## ToPtr

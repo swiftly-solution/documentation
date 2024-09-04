@@ -15,11 +15,10 @@ category:
 CIncendiaryGrenade(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMolotovGrenade
 Read: cincendiarygrenade.Parent
-Write: cincendiarygrenade.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -63,11 +63,10 @@ Write: cphysicsspring.End = value
 Read: cphysicsspring.TeleportTick
 Write: cphysicsspring.TeleportTick = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cphysicsspring.Parent
-Write: cphysicsspring.Parent = value
 ```
 # Functions
 ## ToPtr

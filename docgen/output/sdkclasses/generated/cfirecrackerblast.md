@@ -15,11 +15,10 @@ category:
 CFireCrackerBlast(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CInferno
 Read: cfirecrackerblast.Parent
-Write: cfirecrackerblast.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CAnimParameterManagerUpdater(ptr --[[ string ]])
 ```
 # Properties
-## IndexToHandle 
+## IndexToHandle (Read-Only)
 ```lua
 @type table
 Read: canimparametermanagerupdater.IndexToHandle
-Write: canimparametermanagerupdater.IndexToHandle = value
 ```
 # Functions
 ## ToPtr

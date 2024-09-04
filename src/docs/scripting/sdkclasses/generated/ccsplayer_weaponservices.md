@@ -104,11 +104,10 @@ Write: ccsplayer_weaponservices.OldShootPositionHistoryCount = value
 Read: ccsplayer_weaponservices.OldInputHistoryCount
 Write: ccsplayer_weaponservices.OldInputHistoryCount = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_WeaponServices
 Read: ccsplayer_weaponservices.Parent
-Write: ccsplayer_weaponservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cmessageentity.DeveloperOnly = value
 Read: cmessageentity.Enabled
 Write: cmessageentity.Enabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cmessageentity.Parent
-Write: cmessageentity.Parent = value
 ```
 # Functions
 ## ToPtr

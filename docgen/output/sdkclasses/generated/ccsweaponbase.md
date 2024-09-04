@@ -360,11 +360,10 @@ Write: ccsweaponbase.NumEmptyAttacks = value
 Read: ccsweaponbase.WatTickOffset
 Write: ccsweaponbase.WatTickOffset = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlayerWeapon
 Read: ccsweaponbase.Parent
-Write: ccsweaponbase.Parent = value
 ```
 # Functions
 ## ToPtr

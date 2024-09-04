@@ -61,11 +61,10 @@ Write: cfootadjustmentupdatenode.ResetChild = value
 Read: cfootadjustmentupdatenode.AnimationDriven
 Write: cfootadjustmentupdatenode.AnimationDriven = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfootadjustmentupdatenode.Parent
-Write: cfootadjustmentupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

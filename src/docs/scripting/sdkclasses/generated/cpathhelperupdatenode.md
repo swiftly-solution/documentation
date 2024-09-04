@@ -27,11 +27,10 @@ Write: cpathhelperupdatenode.StoppingRadius = value
 Read: cpathhelperupdatenode.StoppingSpeedScale
 Write: cpathhelperupdatenode.StoppingSpeedScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cpathhelperupdatenode.Parent
-Write: cpathhelperupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

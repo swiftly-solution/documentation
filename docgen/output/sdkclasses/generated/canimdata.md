@@ -15,17 +15,15 @@ category:
 CAnimData(ptr --[[ string ]])
 ```
 # Properties
-## AnimArray 
+## AnimArray (Read-Only)
 ```lua
 @type table
 Read: canimdata.AnimArray
-Write: canimdata.AnimArray = value
 ```
-## DecoderArray 
+## DecoderArray (Read-Only)
 ```lua
 @type table
 Read: canimdata.DecoderArray
-Write: canimdata.DecoderArray = value
 ```
 ## MaxUniqueFrameIndex 
 ```lua
@@ -33,11 +31,10 @@ Write: canimdata.DecoderArray = value
 Read: canimdata.MaxUniqueFrameIndex
 Write: canimdata.MaxUniqueFrameIndex = value
 ```
-## SegmentArray 
+## SegmentArray (Read-Only)
 ```lua
 @type table
 Read: canimdata.SegmentArray
-Write: canimdata.SegmentArray = value
 ```
 # Functions
 ## ToPtr

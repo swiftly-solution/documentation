@@ -90,11 +90,10 @@ Write: cphysconstraint.SnapObjectPositions = value
 @type CEntityIOOutput
 Read: cphysconstraint.OnBreak
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cphysconstraint.Parent
-Write: cphysconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

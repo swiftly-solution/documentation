@@ -38,11 +38,10 @@ Read: cmolotovprojectile.StillTimer
 Read: cmolotovprojectile.HasBouncedOffPlayer
 Write: cmolotovprojectile.HasBouncedOffPlayer = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: cmolotovprojectile.Parent
-Write: cmolotovprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

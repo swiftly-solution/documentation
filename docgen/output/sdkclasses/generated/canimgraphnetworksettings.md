@@ -21,11 +21,10 @@ CAnimGraphNetworkSettings(ptr --[[ string ]])
 Read: canimgraphnetworksettings.NetworkingEnabled
 Write: canimgraphnetworksettings.NetworkingEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimGraphSettingsGroup
 Read: canimgraphnetworksettings.Parent
-Write: canimgraphnetworksettings.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,11 +27,10 @@ Write: cpathmover.PathLength = value
 Read: cpathmover.ClosedLoop
 Write: cpathmover.ClosedLoop = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpathmover.Parent
-Write: cpathmover.Parent = value
 ```
 # Functions
 ## ToPtr

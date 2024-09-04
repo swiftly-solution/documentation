@@ -45,11 +45,10 @@ Write: cwaypointhelperupdatenode.PreventOvershoot = value
 Read: cwaypointhelperupdatenode.PreventUndershoot
 Write: cwaypointhelperupdatenode.PreventUndershoot = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cwaypointhelperupdatenode.Parent
-Write: cwaypointhelperupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

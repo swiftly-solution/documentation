@@ -26,11 +26,10 @@ Read: ctriggerbuoyancy.BuoyancyHelper
 Read: ctriggerbuoyancy.FluidDensity
 Write: ctriggerbuoyancy.FluidDensity = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerbuoyancy.Parent
-Write: ctriggerbuoyancy.Parent = value
 ```
 # Functions
 ## ToPtr

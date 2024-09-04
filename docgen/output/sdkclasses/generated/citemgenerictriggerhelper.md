@@ -15,11 +15,10 @@ category:
 CItemGenericTriggerHelper(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: citemgenerictriggerhelper.Parent
-Write: citemgenerictriggerhelper.Parent = value
 ```
 # Functions
 ## ToPtr

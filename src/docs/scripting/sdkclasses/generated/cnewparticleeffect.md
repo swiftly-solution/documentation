@@ -33,11 +33,10 @@ Write: cnewparticleeffect.Prev = value
 Read: cnewparticleeffect.Particles
 Write: cnewparticleeffect.Particles = value
 ```
-## DebugName 
+## DebugName (Read-Only)
 ```lua
 @type string
 Read: cnewparticleeffect.DebugName
-Write: cnewparticleeffect.DebugName = value
 ```
 ## SortOrigin 
 ```lua
@@ -129,11 +128,10 @@ Write: cnewparticleeffect.AggregationCenter = value
 Read: cnewparticleeffect.RefCount
 Write: cnewparticleeffect.RefCount = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type IParticleEffect
 Read: cnewparticleeffect.Parent
-Write: cnewparticleeffect.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CNmFrameSnapEvent(ptr --[[ string ]])
 Read: cnmframesnapevent.FrameSnapMode
 Write: cnmframesnapevent.FrameSnapMode = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmEvent
 Read: cnmframesnapevent.Parent
-Write: cnmframesnapevent.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CTriggerOnce(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerMultiple
 Read: ctriggeronce.Parent
-Write: ctriggeronce.Parent = value
 ```
 # Functions
 ## ToPtr

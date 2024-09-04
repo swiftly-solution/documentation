@@ -61,11 +61,10 @@ Write: cbasemodelentity.AllowFadeInView = value
 Read: cbasemodelentity.Render
 Write: cbasemodelentity.Render = value
 ```
-## RenderAttributes 
+## RenderAttributes (Read-Only)
 ```lua
 @type table
 Read: cbasemodelentity.RenderAttributes
-Write: cbasemodelentity.RenderAttributes = value
 ```
 ## RenderToCubemaps 
 ```lua
@@ -149,22 +148,20 @@ Write: cbasemodelentity.DecalHealBloodRate = value
 Read: cbasemodelentity.DecalHealHeightRate
 Write: cbasemodelentity.DecalHealHeightRate = value
 ```
-## ConfigEntitiesToPropagateMaterialDecalsTo 
+## ConfigEntitiesToPropagateMaterialDecalsTo (Read-Only)
 ```lua
 @type table
 Read: cbasemodelentity.ConfigEntitiesToPropagateMaterialDecalsTo
-Write: cbasemodelentity.ConfigEntitiesToPropagateMaterialDecalsTo = value
 ```
 ## ViewOffset (Read-Only)
 ```lua
 @type CNetworkViewOffsetVector
 Read: cbasemodelentity.ViewOffset
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cbasemodelentity.Parent
-Write: cbasemodelentity.Parent = value
 ```
 # Functions
 ## SetBodygroup

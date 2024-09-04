@@ -71,11 +71,10 @@ Read: cmathremap.OnFellBelowMin
 @type CEntityIOOutput
 Read: cmathremap.OnFellBelowMax
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cmathremap.Parent
-Write: cmathremap.Parent = value
 ```
 # Functions
 ## ToPtr

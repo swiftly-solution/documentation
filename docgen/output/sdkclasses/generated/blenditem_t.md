@@ -15,11 +15,10 @@ category:
 BlendItem_t(ptr --[[ string ]])
 ```
 # Properties
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: blenditem_t.Tags
-Write: blenditem_t.Tags = value
 ```
 ## Child (Read-Only)
 ```lua

@@ -15,17 +15,15 @@ category:
 CSelectorUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Children 
+## Children (Read-Only)
 ```lua
 @type table
 Read: cselectorupdatenode.Children
-Write: cselectorupdatenode.Children = value
 ```
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: cselectorupdatenode.Tags
-Write: cselectorupdatenode.Tags = value
 ```
 ## BlendCurve (Read-Only)
 ```lua
@@ -67,11 +65,10 @@ Write: cselectorupdatenode.LockWhenWaning = value
 Read: cselectorupdatenode.SyncCyclesOnChange
 Write: cselectorupdatenode.SyncCyclesOnChange = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cselectorupdatenode.Parent
-Write: cselectorupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

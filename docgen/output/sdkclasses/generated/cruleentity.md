@@ -21,11 +21,10 @@ CRuleEntity(ptr --[[ string ]])
 Read: cruleentity.Master
 Write: cruleentity.Master = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cruleentity.Parent
-Write: cruleentity.Parent = value
 ```
 # Functions
 ## ToPtr

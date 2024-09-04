@@ -21,11 +21,10 @@ CExampleSchemaVData_PolymorphicDerivedA(ptr --[[ string ]])
 Read: cexampleschemavdata_polymorphicderiveda.DerivedA
 Write: cexampleschemavdata_polymorphicderiveda.DerivedA = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CExampleSchemaVData_PolymorphicBase
 Read: cexampleschemavdata_polymorphicderiveda.Parent
-Write: cexampleschemavdata_polymorphicderiveda.Parent = value
 ```
 # Functions
 ## ToPtr

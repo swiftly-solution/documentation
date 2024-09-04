@@ -26,11 +26,10 @@ Write: ctriggervolume.FilterName = value
 @type CBaseFilter
 Read: ctriggervolume.Filter
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: ctriggervolume.Parent
-Write: ctriggervolume.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cbaseplattrain.TWidth = value
 Read: cbaseplattrain.TLength
 Write: cbaseplattrain.TLength = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cbaseplattrain.Parent
-Write: cbaseplattrain.Parent = value
 ```
 # Functions
 ## ToPtr

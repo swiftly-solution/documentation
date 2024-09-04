@@ -39,11 +39,10 @@ Write: cmaterialattributeanimtag.Value = value
 Read: cmaterialattributeanimtag.Color
 Write: cmaterialattributeanimtag.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cmaterialattributeanimtag.Parent
-Write: cmaterialattributeanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

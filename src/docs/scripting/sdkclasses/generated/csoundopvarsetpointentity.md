@@ -150,11 +150,10 @@ Write: csoundopvarsetpointentity.PathingDirection = value
 Read: csoundopvarsetpointentity.PathingSourceIndex
 Write: csoundopvarsetpointentity.PathingSourceIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetPointBase
 Read: csoundopvarsetpointentity.Parent
-Write: csoundopvarsetpointentity.Parent = value
 ```
 # Functions
 ## ToPtr

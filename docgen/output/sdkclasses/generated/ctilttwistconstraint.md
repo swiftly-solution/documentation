@@ -27,11 +27,10 @@ Write: ctilttwistconstraint.TargetAxis = value
 Read: ctilttwistconstraint.SlaveAxis
 Write: ctilttwistconstraint.SlaveAxis = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: ctilttwistconstraint.Parent
-Write: ctilttwistconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

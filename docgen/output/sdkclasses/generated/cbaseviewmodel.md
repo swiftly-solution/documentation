@@ -73,11 +73,10 @@ Write: cbaseviewmodel.OldLayerStartTime = value
 @type CBaseEntity
 Read: cbaseviewmodel.ControlPanel
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cbaseviewmodel.Parent
-Write: cbaseviewmodel.Parent = value
 ```
 # Functions
 ## ToPtr

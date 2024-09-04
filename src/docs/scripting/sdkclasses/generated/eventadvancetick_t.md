@@ -39,11 +39,10 @@ Write: eventadvancetick_t.TotalTicksThisFrame = value
 Read: eventadvancetick_t.TotalTicks
 Write: eventadvancetick_t.TotalTicks = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type EventSimulate_t
 Read: eventadvancetick_t.Parent
-Write: eventadvancetick_t.Parent = value
 ```
 # Functions
 ## ToPtr

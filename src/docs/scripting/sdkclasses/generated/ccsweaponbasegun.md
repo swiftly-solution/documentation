@@ -69,11 +69,10 @@ Write: ccsweaponbasegun.SkillBoltInterruptAvailable = value
 Read: ccsweaponbasegun.SkillBoltLiftedFireKey
 Write: ccsweaponbasegun.SkillBoltLiftedFireKey = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: ccsweaponbasegun.Parent
-Write: ccsweaponbasegun.Parent = value
 ```
 # Functions
 ## ToPtr

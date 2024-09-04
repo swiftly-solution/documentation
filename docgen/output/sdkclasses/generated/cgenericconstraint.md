@@ -300,11 +300,10 @@ Read: cgenericconstraint.NotifyForceReachedY
 @type CEntityIOOutput
 Read: cgenericconstraint.NotifyForceReachedZ
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysConstraint
 Read: cgenericconstraint.Parent
-Write: cgenericconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

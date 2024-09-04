@@ -15,23 +15,20 @@ category:
 CModelConfigElement_RandomPick(ptr --[[ string ]])
 ```
 # Properties
-## Choices 
+## Choices (Read-Only)
 ```lua
 @type table
 Read: cmodelconfigelement_randompick.Choices
-Write: cmodelconfigelement_randompick.Choices = value
 ```
-## ChoiceWeights 
+## ChoiceWeights (Read-Only)
 ```lua
 @type table
 Read: cmodelconfigelement_randompick.ChoiceWeights
-Write: cmodelconfigelement_randompick.ChoiceWeights = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_randompick.Parent
-Write: cmodelconfigelement_randompick.Parent = value
 ```
 # Functions
 ## ToPtr

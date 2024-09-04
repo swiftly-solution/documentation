@@ -15,11 +15,10 @@ category:
 CBodyComponentBaseModelEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBodyComponentSkeletonInstance
 Read: cbodycomponentbasemodelentity.Parent
-Write: cbodycomponentbasemodelentity.Parent = value
 ```
 # Functions
 ## ToPtr

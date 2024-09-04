@@ -15,11 +15,10 @@ category:
 CItemDefuserAlias_item_defuser(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItemDefuser
 Read: citemdefuseralias_item_defuser.Parent
-Write: citemdefuseralias_item_defuser.Parent = value
 ```
 # Functions
 ## ToPtr

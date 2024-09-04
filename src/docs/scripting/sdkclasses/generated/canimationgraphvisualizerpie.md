@@ -39,11 +39,10 @@ Write: canimationgraphvisualizerpie.WsEnd = value
 Read: canimationgraphvisualizerpie.Color
 Write: canimationgraphvisualizerpie.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizerpie.Parent
-Write: canimationgraphvisualizerpie.Parent = value
 ```
 # Functions
 ## ToPtr

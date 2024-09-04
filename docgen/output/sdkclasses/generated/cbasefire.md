@@ -39,11 +39,10 @@ Write: cbasefire.ScaleTime = value
 Read: cbasefire.Flags
 Write: cbasefire.Flags = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cbasefire.Parent
-Write: cbasefire.Parent = value
 ```
 # Functions
 ## ToPtr

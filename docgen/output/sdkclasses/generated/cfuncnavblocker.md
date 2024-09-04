@@ -27,11 +27,10 @@ Write: cfuncnavblocker.Disabled = value
 Read: cfuncnavblocker.BlockedTeamNumber
 Write: cfuncnavblocker.BlockedTeamNumber = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncnavblocker.Parent
-Write: cfuncnavblocker.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CTwistConstraint(ptr --[[ string ]])
 Read: ctwistconstraint.Inverse
 Write: ctwistconstraint.Inverse = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseConstraint
 Read: ctwistconstraint.Parent
-Write: ctwistconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

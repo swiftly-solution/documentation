@@ -21,11 +21,10 @@ CRectLight(ptr --[[ string ]])
 Read: crectlight.ShowLight
 Write: crectlight.ShowLight = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBarnLight
 Read: crectlight.Parent
-Write: crectlight.Parent = value
 ```
 # Functions
 ## ToPtr

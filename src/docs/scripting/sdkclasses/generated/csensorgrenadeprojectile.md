@@ -32,11 +32,10 @@ Write: csensorgrenadeprojectile.NextDetectPlayerSound = value
 @type CBaseEntity
 Read: csensorgrenadeprojectile.DisplayGrenade
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenadeProjectile
 Read: csensorgrenadeprojectile.Parent
-Write: csensorgrenadeprojectile.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,17 +15,15 @@ category:
 CCSPlayer_BuyServices(ptr --[[ string ]])
 ```
 # Properties
-## SellbackPurchaseEntries 
+## SellbackPurchaseEntries (Read-Only)
 ```lua
 @type table
 Read: ccsplayer_buyservices.SellbackPurchaseEntries
-Write: ccsplayer_buyservices.SellbackPurchaseEntries = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_buyservices.Parent
-Write: ccsplayer_buyservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CLeafUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cleafupdatenode.Parent
-Write: cleafupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

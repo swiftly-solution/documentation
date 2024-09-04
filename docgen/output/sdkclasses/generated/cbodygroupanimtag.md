@@ -21,17 +21,15 @@ CBodyGroupAnimTag(ptr --[[ string ]])
 Read: cbodygroupanimtag.Priority
 Write: cbodygroupanimtag.Priority = value
 ```
-## BodyGroupSettings 
+## BodyGroupSettings (Read-Only)
 ```lua
 @type table
 Read: cbodygroupanimtag.BodyGroupSettings
-Write: cbodygroupanimtag.BodyGroupSettings = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cbodygroupanimtag.Parent
-Write: cbodygroupanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

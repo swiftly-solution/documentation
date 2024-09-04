@@ -165,11 +165,10 @@ Write: cpointcamera.IsOn = value
 Read: cpointcamera.Next
 Write: cpointcamera.Next = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpointcamera.Parent
-Write: cpointcamera.Parent = value
 ```
 # Functions
 ## ToPtr

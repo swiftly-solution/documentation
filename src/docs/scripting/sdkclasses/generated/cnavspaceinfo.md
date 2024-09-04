@@ -21,11 +21,10 @@ CNavSpaceInfo(ptr --[[ string ]])
 Read: cnavspaceinfo.CreateFlightSpace
 Write: cnavspaceinfo.CreateFlightSpace = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cnavspaceinfo.Parent
-Write: cnavspaceinfo.Parent = value
 ```
 # Functions
 ## ToPtr

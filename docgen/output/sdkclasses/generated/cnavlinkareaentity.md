@@ -90,11 +90,10 @@ Read: cnavlinkareaentity.OnNavLinkFinish
 Read: cnavlinkareaentity.IsTerminus
 Write: cnavlinkareaentity.IsTerminus = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cnavlinkareaentity.Parent
-Write: cnavlinkareaentity.Parent = value
 ```
 # Functions
 ## ToPtr

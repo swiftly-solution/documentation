@@ -21,11 +21,10 @@ FilterDamageType(ptr --[[ string ]])
 Read: filterdamagetype.DamageType
 Write: filterdamagetype.DamageType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: filterdamagetype.Parent
-Write: filterdamagetype.Parent = value
 ```
 # Functions
 ## ToPtr

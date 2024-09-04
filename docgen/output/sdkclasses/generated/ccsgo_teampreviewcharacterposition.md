@@ -60,11 +60,10 @@ Read: ccsgo_teampreviewcharacterposition.GlovesItem
 @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.WeaponItem
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccsgo_teampreviewcharacterposition.Parent
-Write: ccsgo_teampreviewcharacterposition.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,16 +15,10 @@ category:
 CRopeOverlapHit(ptr --[[ string ]])
 ```
 # Properties
-## Entity (Read-Only)
-```lua
-@type CBaseEntity
-Read: cropeoverlaphit.Entity
-```
-## OverlappingLinks 
+## OverlappingLinks (Read-Only)
 ```lua
 @type table
 Read: cropeoverlaphit.OverlappingLinks
-Write: cropeoverlaphit.OverlappingLinks = value
 ```
 # Functions
 ## ToPtr

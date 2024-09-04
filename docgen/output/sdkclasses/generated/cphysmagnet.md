@@ -43,11 +43,10 @@ Write: cphysmagnet.ForceLimit = value
 Read: cphysmagnet.TorqueLimit
 Write: cphysmagnet.TorqueLimit = value
 ```
-## MagnettedEntities 
+## MagnettedEntities (Read-Only)
 ```lua
 @type table
 Read: cphysmagnet.MagnettedEntities
-Write: cphysmagnet.MagnettedEntities = value
 ```
 ## Active 
 ```lua
@@ -85,11 +84,10 @@ Write: cphysmagnet.NextSuckTime = value
 Read: cphysmagnet.MaxObjectsAttached
 Write: cphysmagnet.MaxObjectsAttached = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cphysmagnet.Parent
-Write: cphysmagnet.Parent = value
 ```
 # Functions
 ## ToPtr

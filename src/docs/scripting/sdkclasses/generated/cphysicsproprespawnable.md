@@ -45,11 +45,10 @@ Write: cphysicsproprespawnable.OriginalMaxs = value
 Read: cphysicsproprespawnable.RespawnDuration
 Write: cphysicsproprespawnable.RespawnDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPhysicsProp
 Read: cphysicsproprespawnable.Parent
-Write: cphysicsproprespawnable.Parent = value
 ```
 # Functions
 ## ToPtr

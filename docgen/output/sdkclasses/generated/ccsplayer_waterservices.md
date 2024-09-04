@@ -51,11 +51,10 @@ Write: ccsplayer_waterservices.WaterJumpVel = value
 Read: ccsplayer_waterservices.SwimSoundTime
 Write: ccsplayer_waterservices.SwimSoundTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_WaterServices
 Read: ccsplayer_waterservices.Parent
-Write: ccsplayer_waterservices.Parent = value
 ```
 # Functions
 ## ToPtr

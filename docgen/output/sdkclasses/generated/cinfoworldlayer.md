@@ -56,11 +56,10 @@ Write: cinfoworldlayer.CreateAsChildSpawnGroup = value
 Read: cinfoworldlayer.LayerSpawnGroup
 Write: cinfoworldlayer.LayerSpawnGroup = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cinfoworldlayer.Parent
-Write: cinfoworldlayer.Parent = value
 ```
 # Functions
 ## ToPtr

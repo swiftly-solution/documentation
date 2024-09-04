@@ -89,11 +89,10 @@ Write: cmomentaryrotbutton.ReturnSpeed = value
 Read: cmomentaryrotbutton.StartPosition
 Write: cmomentaryrotbutton.StartPosition = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRotButton
 Read: cmomentaryrotbutton.Parent
-Write: cmomentaryrotbutton.Parent = value
 ```
 # Functions
 ## ToPtr

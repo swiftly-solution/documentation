@@ -15,17 +15,15 @@ category:
 CCSGameModeRules_ArmsRace(ptr --[[ string ]])
 ```
 # Properties
-## WeaponSequence 
+## WeaponSequence (Read-Only)
 ```lua
 @type table
 Read: ccsgamemoderules_armsrace.WeaponSequence
-Write: ccsgamemoderules_armsrace.WeaponSequence = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSGameModeRules
 Read: ccsgamemoderules_armsrace.Parent
-Write: ccsgamemoderules_armsrace.Parent = value
 ```
 # Functions
 ## ToPtr

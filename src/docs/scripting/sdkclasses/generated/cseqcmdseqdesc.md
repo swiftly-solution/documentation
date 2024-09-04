@@ -55,29 +55,25 @@ Write: cseqcmdseqdesc.SubCycles = value
 Read: cseqcmdseqdesc.NumLocalResults
 Write: cseqcmdseqdesc.NumLocalResults = value
 ```
-## CmdLayerArray 
+## CmdLayerArray (Read-Only)
 ```lua
 @type table
 Read: cseqcmdseqdesc.CmdLayerArray
-Write: cseqcmdseqdesc.CmdLayerArray = value
 ```
-## EventArray 
+## EventArray (Read-Only)
 ```lua
 @type table
 Read: cseqcmdseqdesc.EventArray
-Write: cseqcmdseqdesc.EventArray = value
 ```
-## ActivityArray 
+## ActivityArray (Read-Only)
 ```lua
 @type table
 Read: cseqcmdseqdesc.ActivityArray
-Write: cseqcmdseqdesc.ActivityArray = value
 ```
-## PoseSettingArray 
+## PoseSettingArray (Read-Only)
 ```lua
 @type table
 Read: cseqcmdseqdesc.PoseSettingArray
-Write: cseqcmdseqdesc.PoseSettingArray = value
 ```
 # Functions
 ## ToPtr

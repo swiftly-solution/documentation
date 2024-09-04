@@ -27,11 +27,10 @@ Write: ceconwearable.ForceSkin = value
 Read: ceconwearable.AlwaysAllow
 Write: ceconwearable.AlwaysAllow = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEconEntity
 Read: ceconwearable.Parent
-Write: ceconwearable.Parent = value
 ```
 # Functions
 ## ToPtr

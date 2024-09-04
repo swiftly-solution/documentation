@@ -51,11 +51,10 @@ Write: cprecipitationvdata.RTEnvCPComponent = value
 Read: cprecipitationvdata.Modifier
 Write: cprecipitationvdata.Modifier = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntitySubclassVDataBase
 Read: cprecipitationvdata.Parent
-Write: cprecipitationvdata.Parent = value
 ```
 # Functions
 ## ToPtr

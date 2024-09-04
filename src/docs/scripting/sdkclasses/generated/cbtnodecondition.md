@@ -21,11 +21,10 @@ CBtNodeCondition(ptr --[[ string ]])
 Read: cbtnodecondition.Negated
 Write: cbtnodecondition.Negated = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNodeDecorator
 Read: cbtnodecondition.Parent
-Write: cbtnodecondition.Parent = value
 ```
 # Functions
 ## ToPtr

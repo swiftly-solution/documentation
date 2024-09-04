@@ -91,11 +91,10 @@ Write: ceconitemview.CustomName = value
 Read: ceconitemview.CustomNameOverride
 Write: ceconitemview.CustomNameOverride = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type IEconItemInterface
 Read: ceconitemview.Parent
-Write: ceconitemview.Parent = value
 ```
 # Functions
 ## ToPtr

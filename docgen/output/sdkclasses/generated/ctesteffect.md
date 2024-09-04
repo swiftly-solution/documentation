@@ -27,11 +27,10 @@ Write: ctesteffect.Loop = value
 Read: ctesteffect.Beam
 Write: ctesteffect.Beam = value
 ```
-## Beam1 
+## Beam1 (Read-Only)
 ```lua
 @type table
 Read: ctesteffect.Beam1
-Write: ctesteffect.Beam1 = value
 ```
 ## BeamTime 
 ```lua
@@ -45,11 +44,10 @@ Write: ctesteffect.BeamTime = value
 Read: ctesteffect.StartTime
 Write: ctesteffect.StartTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ctesteffect.Parent
-Write: ctesteffect.Parent = value
 ```
 # Functions
 ## ToPtr

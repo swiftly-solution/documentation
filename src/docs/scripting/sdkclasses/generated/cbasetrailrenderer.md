@@ -55,11 +55,10 @@ Read: cbasetrailrenderer.EndFadeSize
 Read: cbasetrailrenderer.ClampV
 Write: cbasetrailrenderer.ClampV = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseRendererSource2
 Read: cbasetrailrenderer.Parent
-Write: cbasetrailrenderer.Parent = value
 ```
 # Functions
 ## ToPtr

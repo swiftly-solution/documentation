@@ -21,11 +21,10 @@ CBaseDMStart(ptr --[[ string ]])
 Read: cbasedmstart.Master
 Write: cbasedmstart.Master = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cbasedmstart.Parent
-Write: cbasedmstart.Parent = value
 ```
 # Functions
 ## ToPtr

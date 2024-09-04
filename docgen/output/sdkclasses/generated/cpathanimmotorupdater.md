@@ -15,11 +15,10 @@ category:
 CPathAnimMotorUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPathAnimMotorUpdaterBase
 Read: cpathanimmotorupdater.Parent
-Write: cpathanimmotorupdater.Parent = value
 ```
 # Functions
 ## ToPtr

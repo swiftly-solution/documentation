@@ -21,11 +21,10 @@ CScriptTriggerMultiple(ptr --[[ string ]])
 Read: cscripttriggermultiple.Extent
 Write: cscripttriggermultiple.Extent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerMultiple
 Read: cscripttriggermultiple.Parent
-Write: cscripttriggermultiple.Parent = value
 ```
 # Functions
 ## ToPtr

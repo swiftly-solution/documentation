@@ -27,11 +27,10 @@ Write: cmodelconfigelement_setbodygrouponattachedmodels.GroupName = value
 Read: cmodelconfigelement_setbodygrouponattachedmodels.Choice
 Write: cmodelconfigelement_setbodygrouponattachedmodels.Choice = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_setbodygrouponattachedmodels.Parent
-Write: cmodelconfigelement_setbodygrouponattachedmodels.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -65,11 +65,10 @@ Read: cbombtarget.InstructorHint
 Read: cbombtarget.BombSiteDesignation
 Write: cbombtarget.BombSiteDesignation = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: cbombtarget.Parent
-Write: cbombtarget.Parent = value
 ```
 # Functions
 ## ToPtr

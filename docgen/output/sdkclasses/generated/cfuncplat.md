@@ -21,11 +21,10 @@ CFuncPlat(ptr --[[ string ]])
 Read: cfuncplat.Noise
 Write: cfuncplat.Noise = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlatTrain
 Read: cfuncplat.Parent
-Write: cfuncplat.Parent = value
 ```
 # Functions
 ## ToPtr

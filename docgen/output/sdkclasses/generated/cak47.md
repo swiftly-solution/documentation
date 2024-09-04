@@ -15,11 +15,10 @@ category:
 CAK47(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cak47.Parent
-Write: cak47.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -56,11 +56,10 @@ Write: ckeepupright.Active = value
 Read: ckeepupright.DampAllRotation
 Write: ckeepupright.DampAllRotation = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: ckeepupright.Parent
-Write: ckeepupright.Parent = value
 ```
 # Functions
 ## ToPtr

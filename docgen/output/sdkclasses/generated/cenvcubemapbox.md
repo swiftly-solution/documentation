@@ -15,11 +15,10 @@ category:
 CEnvCubemapBox(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEnvCubemap
 Read: cenvcubemapbox.Parent
-Write: cenvcubemapbox.Parent = value
 ```
 # Functions
 ## ToPtr

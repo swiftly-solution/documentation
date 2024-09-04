@@ -27,17 +27,15 @@ Write: cmorphbundledata.ULeftSrc = value
 Read: cmorphbundledata.VTopSrc
 Write: cmorphbundledata.VTopSrc = value
 ```
-## Offsets 
+## Offsets (Read-Only)
 ```lua
 @type table
 Read: cmorphbundledata.Offsets
-Write: cmorphbundledata.Offsets = value
 ```
-## Ranges 
+## Ranges (Read-Only)
 ```lua
 @type table
 Read: cmorphbundledata.Ranges
-Write: cmorphbundledata.Ranges = value
 ```
 # Functions
 ## ToPtr

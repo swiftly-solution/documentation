@@ -39,17 +39,15 @@ Write: clogiccase.LastShuffleCase = value
 Read: clogiccase.UchShuffleCaseMap
 Write: clogiccase.UchShuffleCaseMap = value
 ```
-## OnCase 
+## OnCase (Read-Only)
 ```lua
 @type table
 Read: clogiccase.OnCase
-Write: clogiccase.OnCase = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogiccase.Parent
-Write: clogiccase.Parent = value
 ```
 # Functions
 ## ToPtr

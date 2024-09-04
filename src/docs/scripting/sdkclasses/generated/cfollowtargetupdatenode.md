@@ -30,11 +30,10 @@ Read: cfollowtargetupdatenode.ParameterPosition
 @type CAnimParamHandle
 Read: cfollowtargetupdatenode.ParameterOrientation
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfollowtargetupdatenode.Parent
-Write: cfollowtargetupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

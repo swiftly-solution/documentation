@@ -15,11 +15,10 @@ category:
 CBindPoseUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: cbindposeupdatenode.Parent
-Write: cbindposeupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CSSDSMsg_PostLayer(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSSDSMsg_LayerBase
 Read: cssdsmsg_postlayer.Parent
-Write: cssdsmsg_postlayer.Parent = value
 ```
 # Functions
 ## ToPtr

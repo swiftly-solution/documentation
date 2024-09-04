@@ -15,17 +15,15 @@ category:
 PhysFeModelDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## CtrlHash 
+## CtrlHash (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CtrlHash
-Write: physfemodeldesc_t.CtrlHash = value
 ```
-## CtrlName 
+## CtrlName (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CtrlName
-Write: physfemodeldesc_t.CtrlName = value
 ```
 ## StaticNodeFlags 
 ```lua
@@ -129,269 +127,225 @@ Write: physfemodeldesc_t.NodeBaseJiggleboneDependsCount = value
 Read: physfemodeldesc_t.RopeCount
 Write: physfemodeldesc_t.RopeCount = value
 ```
-## Ropes 
+## Ropes (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Ropes
-Write: physfemodeldesc_t.Ropes = value
 ```
-## NodeBases 
+## NodeBases (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.NodeBases
-Write: physfemodeldesc_t.NodeBases = value
 ```
-## SimdNodeBases 
+## SimdNodeBases (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdNodeBases
-Write: physfemodeldesc_t.SimdNodeBases = value
 ```
-## Quads 
+## Quads (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Quads
-Write: physfemodeldesc_t.Quads = value
 ```
-## SimdQuads 
+## SimdQuads (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdQuads
-Write: physfemodeldesc_t.SimdQuads = value
 ```
-## SimdTris 
+## SimdTris (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdTris
-Write: physfemodeldesc_t.SimdTris = value
 ```
-## SimdRods 
+## SimdRods (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdRods
-Write: physfemodeldesc_t.SimdRods = value
 ```
-## SimdRodsAnim 
+## SimdRodsAnim (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdRodsAnim
-Write: physfemodeldesc_t.SimdRodsAnim = value
 ```
-## Rods 
+## Rods (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Rods
-Write: physfemodeldesc_t.Rods = value
 ```
-## Twists 
+## Twists (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Twists
-Write: physfemodeldesc_t.Twists = value
 ```
-## AxialEdges 
+## AxialEdges (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.AxialEdges
-Write: physfemodeldesc_t.AxialEdges = value
 ```
-## NodeInvMasses 
+## NodeInvMasses (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.NodeInvMasses
-Write: physfemodeldesc_t.NodeInvMasses = value
 ```
-## CtrlOffsets 
+## CtrlOffsets (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CtrlOffsets
-Write: physfemodeldesc_t.CtrlOffsets = value
 ```
-## CtrlOsOffsets 
+## CtrlOsOffsets (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CtrlOsOffsets
-Write: physfemodeldesc_t.CtrlOsOffsets = value
 ```
-## FollowNodes 
+## FollowNodes (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.FollowNodes
-Write: physfemodeldesc_t.FollowNodes = value
 ```
-## CollisionPlanes 
+## CollisionPlanes (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CollisionPlanes
-Write: physfemodeldesc_t.CollisionPlanes = value
 ```
-## NodeIntegrator 
+## NodeIntegrator (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.NodeIntegrator
-Write: physfemodeldesc_t.NodeIntegrator = value
 ```
-## SpringIntegrator 
+## SpringIntegrator (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SpringIntegrator
-Write: physfemodeldesc_t.SpringIntegrator = value
 ```
-## SimdSpringIntegrator 
+## SimdSpringIntegrator (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdSpringIntegrator
-Write: physfemodeldesc_t.SimdSpringIntegrator = value
 ```
-## WorldCollisionParams 
+## WorldCollisionParams (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.WorldCollisionParams
-Write: physfemodeldesc_t.WorldCollisionParams = value
 ```
-## LegacyStretchForce 
+## LegacyStretchForce (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.LegacyStretchForce
-Write: physfemodeldesc_t.LegacyStretchForce = value
 ```
-## NodeCollisionRadii 
+## NodeCollisionRadii (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.NodeCollisionRadii
-Write: physfemodeldesc_t.NodeCollisionRadii = value
 ```
-## DynNodeFriction 
+## DynNodeFriction (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.DynNodeFriction
-Write: physfemodeldesc_t.DynNodeFriction = value
 ```
-## LocalRotation1 
+## LocalRotation1 (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.LocalRotation1
-Write: physfemodeldesc_t.LocalRotation1 = value
 ```
-## LocalForce1 
+## LocalForce1 (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.LocalForce1
-Write: physfemodeldesc_t.LocalForce1 = value
 ```
-## TaperedCapsuleStretches 
+## TaperedCapsuleStretches (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.TaperedCapsuleStretches
-Write: physfemodeldesc_t.TaperedCapsuleStretches = value
 ```
-## TaperedCapsuleRigids 
+## TaperedCapsuleRigids (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.TaperedCapsuleRigids
-Write: physfemodeldesc_t.TaperedCapsuleRigids = value
 ```
-## SphereRigids 
+## SphereRigids (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SphereRigids
-Write: physfemodeldesc_t.SphereRigids = value
 ```
-## WorldCollisionNodes 
+## WorldCollisionNodes (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.WorldCollisionNodes
-Write: physfemodeldesc_t.WorldCollisionNodes = value
 ```
-## TreeParents 
+## TreeParents (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.TreeParents
-Write: physfemodeldesc_t.TreeParents = value
 ```
-## TreeCollisionMasks 
+## TreeCollisionMasks (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.TreeCollisionMasks
-Write: physfemodeldesc_t.TreeCollisionMasks = value
 ```
-## TreeChildren 
+## TreeChildren (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.TreeChildren
-Write: physfemodeldesc_t.TreeChildren = value
 ```
-## FreeNodes 
+## FreeNodes (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.FreeNodes
-Write: physfemodeldesc_t.FreeNodes = value
 ```
-## FitMatrices 
+## FitMatrices (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.FitMatrices
-Write: physfemodeldesc_t.FitMatrices = value
 ```
-## FitWeights 
+## FitWeights (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.FitWeights
-Write: physfemodeldesc_t.FitWeights = value
 ```
-## ReverseOffsets 
+## ReverseOffsets (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.ReverseOffsets
-Write: physfemodeldesc_t.ReverseOffsets = value
 ```
-## AnimStrayRadii 
+## AnimStrayRadii (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.AnimStrayRadii
-Write: physfemodeldesc_t.AnimStrayRadii = value
 ```
-## SimdAnimStrayRadii 
+## SimdAnimStrayRadii (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SimdAnimStrayRadii
-Write: physfemodeldesc_t.SimdAnimStrayRadii = value
 ```
-## KelagerBends 
+## KelagerBends (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.KelagerBends
-Write: physfemodeldesc_t.KelagerBends = value
 ```
-## CtrlSoftOffsets 
+## CtrlSoftOffsets (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.CtrlSoftOffsets
-Write: physfemodeldesc_t.CtrlSoftOffsets = value
 ```
-## JiggleBones 
+## JiggleBones (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.JiggleBones
-Write: physfemodeldesc_t.JiggleBones = value
 ```
-## SourceElems 
+## SourceElems (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SourceElems
-Write: physfemodeldesc_t.SourceElems = value
 ```
-## GoalDampedSpringIntegrators 
+## GoalDampedSpringIntegrators (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.GoalDampedSpringIntegrators
-Write: physfemodeldesc_t.GoalDampedSpringIntegrators = value
 ```
-## Tris 
+## Tris (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Tris
-Write: physfemodeldesc_t.Tris = value
 ```
 ## TriCount1 
 ```lua
@@ -429,83 +383,70 @@ Write: physfemodeldesc_t.ExtraGoalIterations = value
 Read: physfemodeldesc_t.ExtraIterations
 Write: physfemodeldesc_t.ExtraIterations = value
 ```
-## BoxRigids 
+## BoxRigids (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.BoxRigids
-Write: physfemodeldesc_t.BoxRigids = value
 ```
-## DynNodeVertexSet 
+## DynNodeVertexSet (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.DynNodeVertexSet
-Write: physfemodeldesc_t.DynNodeVertexSet = value
 ```
-## VertexSetNames 
+## VertexSetNames (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.VertexSetNames
-Write: physfemodeldesc_t.VertexSetNames = value
 ```
-## RigidColliderPriorities 
+## RigidColliderPriorities (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.RigidColliderPriorities
-Write: physfemodeldesc_t.RigidColliderPriorities = value
 ```
-## MorphLayers 
+## MorphLayers (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.MorphLayers
-Write: physfemodeldesc_t.MorphLayers = value
 ```
-## MorphSetData 
+## MorphSetData (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.MorphSetData
-Write: physfemodeldesc_t.MorphSetData = value
 ```
-## VertexMaps 
+## VertexMaps (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.VertexMaps
-Write: physfemodeldesc_t.VertexMaps = value
 ```
-## VertexMapValues 
+## VertexMapValues (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.VertexMapValues
-Write: physfemodeldesc_t.VertexMapValues = value
 ```
-## Effects 
+## Effects (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.Effects
-Write: physfemodeldesc_t.Effects = value
 ```
-## LockToParent 
+## LockToParent (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.LockToParent
-Write: physfemodeldesc_t.LockToParent = value
 ```
-## LockToGoal 
+## LockToGoal (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.LockToGoal
-Write: physfemodeldesc_t.LockToGoal = value
 ```
-## SkelParents 
+## SkelParents (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.SkelParents
-Write: physfemodeldesc_t.SkelParents = value
 ```
-## DynNodeWindBases 
+## DynNodeWindBases (Read-Only)
 ```lua
 @type table
 Read: physfemodeldesc_t.DynNodeWindBases
-Write: physfemodeldesc_t.DynNodeWindBases = value
 ```
 ## InternalPressure 
 ```lua

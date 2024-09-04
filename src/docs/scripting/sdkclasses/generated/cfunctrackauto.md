@@ -15,11 +15,10 @@ category:
 CFuncTrackAuto(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncTrackChange
 Read: cfunctrackauto.Parent
-Write: cfunctrackauto.Parent = value
 ```
 # Functions
 ## ToPtr

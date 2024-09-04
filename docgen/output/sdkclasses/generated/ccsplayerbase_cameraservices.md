@@ -49,11 +49,10 @@ Read: ccsplayerbase_cameraservices.ZoomOwner
 @type CBaseEntity
 Read: ccsplayerbase_cameraservices.LastFogTrigger
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_CameraServices
 Read: ccsplayerbase_cameraservices.Parent
-Write: ccsplayerbase_cameraservices.Parent = value
 ```
 # Functions
 ## ToPtr

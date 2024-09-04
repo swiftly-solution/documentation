@@ -21,11 +21,10 @@ CSoundAreaEntitySphere(ptr --[[ string ]])
 Read: csoundareaentitysphere.Radius
 Write: csoundareaentitysphere.Radius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundAreaEntityBase
 Read: csoundareaentitysphere.Parent
-Write: csoundareaentitysphere.Parent = value
 ```
 # Functions
 ## ToPtr

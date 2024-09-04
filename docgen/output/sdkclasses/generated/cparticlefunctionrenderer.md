@@ -32,11 +32,10 @@ Write: cparticlefunctionrenderer.CannotBeRefracted = value
 Read: cparticlefunctionrenderer.SkipRenderingOnMobile
 Write: cparticlefunctionrenderer.SkipRenderingOnMobile = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunction
 Read: cparticlefunctionrenderer.Parent
-Write: cparticlefunctionrenderer.Parent = value
 ```
 # Functions
 ## ToPtr

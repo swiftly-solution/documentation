@@ -38,11 +38,10 @@ Write: ctriggerproximity.Radius = value
 Read: ctriggerproximity.Touchers
 Write: ctriggerproximity.Touchers = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerproximity.Parent
-Write: ctriggerproximity.Parent = value
 ```
 # Functions
 ## ToPtr

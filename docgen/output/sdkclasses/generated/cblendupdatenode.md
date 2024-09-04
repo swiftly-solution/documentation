@@ -15,23 +15,20 @@ category:
 CBlendUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Children 
+## Children (Read-Only)
 ```lua
 @type table
 Read: cblendupdatenode.Children
-Write: cblendupdatenode.Children = value
 ```
-## SortedOrder 
+## SortedOrder (Read-Only)
 ```lua
 @type table
 Read: cblendupdatenode.SortedOrder
-Write: cblendupdatenode.SortedOrder = value
 ```
-## TargetValues 
+## TargetValues (Read-Only)
 ```lua
 @type table
 Read: cblendupdatenode.TargetValues
-Write: cblendupdatenode.TargetValues = value
 ```
 ## BlendValueSource 
 ```lua
@@ -79,11 +76,10 @@ Write: cblendupdatenode.Loop = value
 Read: cblendupdatenode.LockWhenWaning
 Write: cblendupdatenode.LockWhenWaning = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimUpdateNodeBase
 Read: cblendupdatenode.Parent
-Write: cblendupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -44,11 +44,10 @@ Write: cstopatgoalupdatenode.MinScale = value
 @type CAnimInputDamping
 Read: cstopatgoalupdatenode.Damping
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cstopatgoalupdatenode.Parent
-Write: cstopatgoalupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CRagdollPropAlias_physics_prop_ragdoll(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRagdollProp
 Read: cragdollpropalias_physics_prop_ragdoll.Parent
-Write: cragdollpropalias_physics_prop_ragdoll.Parent = value
 ```
 # Functions
 ## ToPtr

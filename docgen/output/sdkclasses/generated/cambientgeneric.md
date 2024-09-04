@@ -73,11 +73,10 @@ Read: cambientgeneric.SoundSource
 Read: cambientgeneric.SoundSourceEntIndex
 Write: cambientgeneric.SoundSourceEntIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cambientgeneric.Parent
-Write: cambientgeneric.Parent = value
 ```
 # Functions
 ## ToPtr

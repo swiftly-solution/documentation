@@ -26,11 +26,10 @@ Read: cssdsmsg_viewtargetlist.ViewId
 Read: cssdsmsg_viewtargetlist.ViewName
 Write: cssdsmsg_viewtargetlist.ViewName = value
 ```
-## Targets 
+## Targets (Read-Only)
 ```lua
 @type table
 Read: cssdsmsg_viewtargetlist.Targets
-Write: cssdsmsg_viewtargetlist.Targets = value
 ```
 # Functions
 ## ToPtr

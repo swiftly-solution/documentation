@@ -21,11 +21,10 @@ CFlexRule(ptr --[[ string ]])
 Read: cflexrule.Flex
 Write: cflexrule.Flex = value
 ```
-## FlexOps 
+## FlexOps (Read-Only)
 ```lua
 @type table
 Read: cflexrule.FlexOps
-Write: cflexrule.FlexOps = value
 ```
 # Functions
 ## ToPtr

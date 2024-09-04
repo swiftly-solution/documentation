@@ -15,11 +15,10 @@ category:
 CFootTrajectories(ptr --[[ string ]])
 ```
 # Properties
-## Trajectories 
+## Trajectories (Read-Only)
 ```lua
 @type table
 Read: cfoottrajectories.Trajectories
-Write: cfoottrajectories.Trajectories = value
 ```
 # Functions
 ## ToPtr

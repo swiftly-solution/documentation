@@ -31,11 +31,10 @@ Write: cexpressionactionupdater.ParamType = value
 @type AnimScriptHandle
 Read: cexpressionactionupdater.Script
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimActionUpdater
 Read: cexpressionactionupdater.Parent
-Write: cexpressionactionupdater.Parent = value
 ```
 # Functions
 ## ToPtr

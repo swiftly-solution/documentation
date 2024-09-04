@@ -50,11 +50,10 @@ Write: cfishpool.IsDormant = value
 @type CountdownTimer
 Read: cfishpool.VisTimer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cfishpool.Parent
-Write: cfishpool.Parent = value
 ```
 # Functions
 ## ToPtr

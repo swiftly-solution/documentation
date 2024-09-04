@@ -74,11 +74,10 @@ Write: cenvshake.MaxForce = value
 @type CPhysicsShake
 Read: cenvshake.ShakeCallback
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvshake.Parent
-Write: cenvshake.Parent = value
 ```
 # Functions
 ## ToPtr

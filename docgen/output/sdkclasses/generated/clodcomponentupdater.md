@@ -21,11 +21,10 @@ CLODComponentUpdater(ptr --[[ string ]])
 Read: clodcomponentupdater.ServerLOD
 Write: clodcomponentupdater.ServerLOD = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: clodcomponentupdater.Parent
-Write: clodcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

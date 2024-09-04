@@ -27,11 +27,10 @@ Write: febuildboxrigid_t.Priority = value
 Read: febuildboxrigid_t.VertexMapHash
 Write: febuildboxrigid_t.VertexMapHash = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type FeBoxRigid_t
 Read: febuildboxrigid_t.Parent
-Write: febuildboxrigid_t.Parent = value
 ```
 # Functions
 ## ToPtr

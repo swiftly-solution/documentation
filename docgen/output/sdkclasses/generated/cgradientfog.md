@@ -105,11 +105,10 @@ Write: cgradientfog.IsEnabled = value
 Read: cgradientfog.GradientFogNeedsTextures
 Write: cgradientfog.GradientFogNeedsTextures = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cgradientfog.Parent
-Write: cgradientfog.Parent = value
 ```
 # Functions
 ## ToPtr

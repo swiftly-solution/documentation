@@ -15,11 +15,10 @@ category:
 CNmIDEvent(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmEvent
 Read: cnmidevent.Parent
-Write: cnmidevent.Parent = value
 ```
 # Functions
 ## ToPtr

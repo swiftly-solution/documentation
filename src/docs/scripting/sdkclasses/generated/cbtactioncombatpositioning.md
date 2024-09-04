@@ -38,11 +38,10 @@ Read: cbtactioncombatpositioning.ActionTimer
 Read: cbtactioncombatpositioning.Crouching
 Write: cbtactioncombatpositioning.Crouching = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtactioncombatpositioning.Parent
-Write: cbtactioncombatpositioning.Parent = value
 ```
 # Functions
 ## ToPtr

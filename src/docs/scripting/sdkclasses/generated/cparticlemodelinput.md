@@ -27,11 +27,10 @@ Write: cparticlemodelinput.Type = value
 Read: cparticlemodelinput.ControlPoint
 Write: cparticlemodelinput.ControlPoint = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleInput
 Read: cparticlemodelinput.Parent
-Write: cparticlemodelinput.Parent = value
 ```
 # Functions
 ## ToPtr

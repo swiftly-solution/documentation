@@ -20,11 +20,10 @@ CStanceScaleUpdateNode(ptr --[[ string ]])
 @type CAnimParamHandle
 Read: cstancescaleupdatenode.Param
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cstancescaleupdatenode.Parent
-Write: cstancescaleupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

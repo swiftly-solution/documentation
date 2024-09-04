@@ -93,29 +93,25 @@ Write: cbarnlight.LightStyleString = value
 Read: cbarnlight.LightStyleStartTime
 Write: cbarnlight.LightStyleStartTime = value
 ```
-## QueuedLightStyleStrings 
+## QueuedLightStyleStrings (Read-Only)
 ```lua
 @type table
 Read: cbarnlight.QueuedLightStyleStrings
-Write: cbarnlight.QueuedLightStyleStrings = value
 ```
-## LightStyleEvents 
+## LightStyleEvents (Read-Only)
 ```lua
 @type table
 Read: cbarnlight.LightStyleEvents
-Write: cbarnlight.LightStyleEvents = value
 ```
-## LightStyleTargets 
+## LightStyleTargets (Read-Only)
 ```lua
 @type table
 Read: cbarnlight.LightStyleTargets
-Write: cbarnlight.LightStyleTargets = value
 ```
-## StyleEvent 
+## StyleEvent (Read-Only)
 ```lua
 @type table
 Read: cbarnlight.StyleEvent
-Write: cbarnlight.StyleEvent = value
 ```
 ## Shape 
 ```lua
@@ -321,11 +317,10 @@ Write: cbarnlight.PrecomputedOBBExtent = value
 Read: cbarnlight.PvsModifyEntity
 Write: cbarnlight.PvsModifyEntity = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbarnlight.Parent
-Write: cbarnlight.Parent = value
 ```
 # Functions
 ## ToPtr

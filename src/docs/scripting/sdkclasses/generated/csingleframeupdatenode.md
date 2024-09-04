@@ -26,11 +26,10 @@ Read: csingleframeupdatenode.PoseCacheHandle
 Read: csingleframeupdatenode.Cycle
 Write: csingleframeupdatenode.Cycle = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: csingleframeupdatenode.Parent
-Write: csingleframeupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -75,11 +75,10 @@ Write: cenvsky.FogMaxEnd = value
 Read: cenvsky.Enabled
 Write: cenvsky.Enabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cenvsky.Parent
-Write: cenvsky.Parent = value
 ```
 # Functions
 ## ToPtr

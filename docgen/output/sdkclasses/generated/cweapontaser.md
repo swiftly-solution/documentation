@@ -27,11 +27,10 @@ Write: cweapontaser.FireTime = value
 Read: cweapontaser.LastAttackTick
 Write: cweapontaser.LastAttackTick = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cweapontaser.Parent
-Write: cweapontaser.Parent = value
 ```
 # Functions
 ## ToPtr

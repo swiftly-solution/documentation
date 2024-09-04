@@ -15,11 +15,10 @@ category:
 CCSPlayerController_ActionTrackingServices(ptr --[[ string ]])
 ```
 # Properties
-## PerRoundStats 
+## PerRoundStats (Read-Only)
 ```lua
 @type table
 Read: ccsplayercontroller_actiontrackingservices.PerRoundStats
-Write: ccsplayercontroller_actiontrackingservices.PerRoundStats = value
 ```
 ## MatchStats (Read-Only)
 ```lua
@@ -44,11 +43,10 @@ Write: ccsplayercontroller_actiontrackingservices.NumRoundKillsHeadshots = value
 Read: ccsplayercontroller_actiontrackingservices.TotalRoundDamageDealt
 Write: ccsplayercontroller_actiontrackingservices.TotalRoundDamageDealt = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerControllerComponent
 Read: ccsplayercontroller_actiontrackingservices.Parent
-Write: ccsplayercontroller_actiontrackingservices.Parent = value
 ```
 # Functions
 ## ToPtr

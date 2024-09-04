@@ -15,11 +15,10 @@ category:
 CFootMotion(ptr --[[ string ]])
 ```
 # Properties
-## Strides 
+## Strides (Read-Only)
 ```lua
 @type table
 Read: cfootmotion.Strides
-Write: cfootmotion.Strides = value
 ```
 ## Name 
 ```lua

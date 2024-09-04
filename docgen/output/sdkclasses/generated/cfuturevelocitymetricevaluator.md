@@ -39,11 +39,10 @@ Write: cfuturevelocitymetricevaluator.TargetSpeed = value
 Read: cfuturevelocitymetricevaluator.Mode
 Write: cfuturevelocitymetricevaluator.Mode = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cfuturevelocitymetricevaluator.Parent
-Write: cfuturevelocitymetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

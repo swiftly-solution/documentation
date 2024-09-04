@@ -15,11 +15,10 @@ category:
 MaterialParamTexture_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type MaterialParam_t
 Read: materialparamtexture_t.Parent
-Write: materialparamtexture_t.Parent = value
 ```
 # Functions
 ## ToPtr

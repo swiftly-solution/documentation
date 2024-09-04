@@ -80,11 +80,10 @@ Write: cbaserenderersource2.BumpStrength = value
 Read: cbaserenderersource2.CropTextureOverride
 Write: cbaserenderersource2.CropTextureOverride = value
 ```
-## TexturesInput 
+## TexturesInput (Read-Only)
 ```lua
 @type table
 Read: cbaserenderersource2.TexturesInput
-Write: cbaserenderersource2.TexturesInput = value
 ```
 ## AnimationRate 
 ```lua
@@ -364,11 +363,10 @@ Write: cbaserenderersource2.BlendFramesSeq0 = value
 Read: cbaserenderersource2.MaxLuminanceBlendingSequence0
 Write: cbaserenderersource2.MaxLuminanceBlendingSequence0 = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunctionRenderer
 Read: cbaserenderersource2.Parent
-Write: cbaserenderersource2.Parent = value
 ```
 # Functions
 ## ToPtr

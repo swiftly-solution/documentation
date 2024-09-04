@@ -45,11 +45,10 @@ Write: cinfooffscreenpanoramatexture.LayoutFileName = value
 Read: cinfooffscreenpanoramatexture.RenderAttrName
 Write: cinfooffscreenpanoramatexture.RenderAttrName = value
 ```
-## TargetEntities 
+## TargetEntities (Read-Only)
 ```lua
 @type table
 Read: cinfooffscreenpanoramatexture.TargetEntities
-Write: cinfooffscreenpanoramatexture.TargetEntities = value
 ```
 ## TargetChangeCount 
 ```lua
@@ -57,11 +56,10 @@ Write: cinfooffscreenpanoramatexture.TargetEntities = value
 Read: cinfooffscreenpanoramatexture.TargetChangeCount
 Write: cinfooffscreenpanoramatexture.TargetChangeCount = value
 ```
-## CSSClasses 
+## CSSClasses (Read-Only)
 ```lua
 @type table
 Read: cinfooffscreenpanoramatexture.CSSClasses
-Write: cinfooffscreenpanoramatexture.CSSClasses = value
 ```
 ## TargetsName 
 ```lua
@@ -69,11 +67,10 @@ Write: cinfooffscreenpanoramatexture.CSSClasses = value
 Read: cinfooffscreenpanoramatexture.TargetsName
 Write: cinfooffscreenpanoramatexture.TargetsName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfooffscreenpanoramatexture.Parent
-Write: cinfooffscreenpanoramatexture.Parent = value
 ```
 # Functions
 ## ToPtr

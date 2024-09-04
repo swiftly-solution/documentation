@@ -120,11 +120,10 @@ Write: cfuncrotating.ClientOrigin = value
 Read: cfuncrotating.ClientAngles
 Write: cfuncrotating.ClientAngles = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncrotating.Parent
-Write: cfuncrotating.Parent = value
 ```
 # Functions
 ## ToPtr

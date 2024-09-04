@@ -21,11 +21,10 @@ CBaseCombatCharacter(ptr --[[ string ]])
 Read: cbasecombatcharacter.ForceServerRagdoll
 Write: cbasecombatcharacter.ForceServerRagdoll = value
 ```
-## MyWearables 
+## MyWearables (Read-Only)
 ```lua
 @type table
 Read: cbasecombatcharacter.MyWearables
-Write: cbasecombatcharacter.MyWearables = value
 ```
 ## FieldOfView 
 ```lua
@@ -75,11 +74,10 @@ Write: cbasecombatcharacter.Hull = value
 Read: cbasecombatcharacter.NavHullIdx
 Write: cbasecombatcharacter.NavHullIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFlex
 Read: cbasecombatcharacter.Parent
-Write: cbasecombatcharacter.Parent = value
 ```
 # Functions
 ## ToPtr

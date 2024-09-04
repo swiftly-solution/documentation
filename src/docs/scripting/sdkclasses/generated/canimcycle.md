@@ -15,11 +15,10 @@ category:
 CAnimCycle(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCycleBase
 Read: canimcycle.Parent
-Write: canimcycle.Parent = value
 ```
 # Functions
 ## ToPtr

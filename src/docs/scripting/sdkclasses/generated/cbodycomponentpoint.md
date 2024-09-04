@@ -20,11 +20,10 @@ CBodyComponentPoint(ptr --[[ string ]])
 @type CGameSceneNode
 Read: cbodycomponentpoint.SceneNode
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBodyComponent
 Read: cbodycomponentpoint.Parent
-Write: cbodycomponentpoint.Parent = value
 ```
 # Functions
 ## ToPtr

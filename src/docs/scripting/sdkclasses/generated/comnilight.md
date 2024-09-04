@@ -33,11 +33,10 @@ Write: comnilight.OuterAngle = value
 Read: comnilight.ShowLight
 Write: comnilight.ShowLight = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBarnLight
 Read: comnilight.Parent
-Write: comnilight.Parent = value
 ```
 # Functions
 ## ToPtr

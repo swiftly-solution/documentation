@@ -21,11 +21,10 @@ CScriptTriggerHurt(ptr --[[ string ]])
 Read: cscripttriggerhurt.Extent
 Write: cscripttriggerhurt.Extent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerHurt
 Read: cscripttriggerhurt.Parent
-Write: cscripttriggerhurt.Parent = value
 ```
 # Functions
 ## ToPtr

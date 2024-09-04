@@ -15,11 +15,10 @@ category:
 CSpinUpdateBase(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunctionOperator
 Read: cspinupdatebase.Parent
-Write: cspinupdatebase.Parent = value
 ```
 # Functions
 ## ToPtr

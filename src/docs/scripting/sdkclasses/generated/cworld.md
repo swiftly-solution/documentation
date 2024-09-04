@@ -15,11 +15,10 @@ category:
 CWorld(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cworld.Parent
-Write: cworld.Parent = value
 ```
 # Functions
 ## ToPtr

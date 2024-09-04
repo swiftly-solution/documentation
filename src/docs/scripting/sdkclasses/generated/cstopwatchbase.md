@@ -21,11 +21,10 @@ CStopwatchBase(ptr --[[ string ]])
 Read: cstopwatchbase.IsRunning
 Write: cstopwatchbase.IsRunning = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSimpleSimTimer
 Read: cstopwatchbase.Parent
-Write: cstopwatchbase.Parent = value
 ```
 # Functions
 ## ToPtr

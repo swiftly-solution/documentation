@@ -15,29 +15,25 @@ category:
 EntComponentInfo_t(ptr --[[ string ]])
 ```
 # Properties
-## Name 
+## Name (Read-Only)
 ```lua
 @type string
 Read: entcomponentinfo_t.Name
-Write: entcomponentinfo_t.Name = value
 ```
-## CPPClassname 
+## CPPClassname (Read-Only)
 ```lua
 @type string
 Read: entcomponentinfo_t.CPPClassname
-Write: entcomponentinfo_t.CPPClassname = value
 ```
-## NetworkDataReferencedDescription 
+## NetworkDataReferencedDescription (Read-Only)
 ```lua
 @type string
 Read: entcomponentinfo_t.NetworkDataReferencedDescription
-Write: entcomponentinfo_t.NetworkDataReferencedDescription = value
 ```
-## NetworkDataReferencedPtrPropDescription 
+## NetworkDataReferencedPtrPropDescription (Read-Only)
 ```lua
 @type string
 Read: entcomponentinfo_t.NetworkDataReferencedPtrPropDescription
-Write: entcomponentinfo_t.NetworkDataReferencedPtrPropDescription = value
 ```
 ## RuntimeIndex 
 ```lua

@@ -27,11 +27,10 @@ Write: cenvviewpunch.Radius = value
 Read: cenvviewpunch.ViewPunch
 Write: cenvviewpunch.ViewPunch = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvviewpunch.Parent
-Write: cenvviewpunch.Parent = value
 ```
 # Functions
 ## ToPtr

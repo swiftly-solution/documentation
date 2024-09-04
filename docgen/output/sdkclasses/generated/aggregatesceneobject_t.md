@@ -33,23 +33,20 @@ Write: aggregatesceneobject_t.AnyFlags = value
 Read: aggregatesceneobject_t.Layer
 Write: aggregatesceneobject_t.Layer = value
 ```
-## AggregateMeshes 
+## AggregateMeshes (Read-Only)
 ```lua
 @type table
 Read: aggregatesceneobject_t.AggregateMeshes
-Write: aggregatesceneobject_t.AggregateMeshes = value
 ```
-## LodSetups 
+## LodSetups (Read-Only)
 ```lua
 @type table
 Read: aggregatesceneobject_t.LodSetups
-Write: aggregatesceneobject_t.LodSetups = value
 ```
-## VisClusterMembership 
+## VisClusterMembership (Read-Only)
 ```lua
 @type table
 Read: aggregatesceneobject_t.VisClusterMembership
-Write: aggregatesceneobject_t.VisClusterMembership = value
 ```
 # Functions
 ## ToPtr

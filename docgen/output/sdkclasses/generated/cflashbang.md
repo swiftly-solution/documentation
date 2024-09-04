@@ -15,11 +15,10 @@ category:
 CFlashbang(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCSGrenade
 Read: cflashbang.Parent
-Write: cflashbang.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CParamSpanUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Spans 
+## Spans (Read-Only)
 ```lua
 @type table
 Read: cparamspanupdater.Spans
-Write: cparamspanupdater.Spans = value
 ```
 # Functions
 ## ToPtr

@@ -69,11 +69,10 @@ Write: cfunctrackchange.TargetState = value
 Read: cfunctrackchange.Use
 Write: cfunctrackchange.Use = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncPlatRot
 Read: cfunctrackchange.Parent
-Write: cfunctrackchange.Parent = value
 ```
 # Functions
 ## ToPtr

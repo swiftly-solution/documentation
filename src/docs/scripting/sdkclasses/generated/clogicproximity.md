@@ -15,11 +15,10 @@ category:
 CLogicProximity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: clogicproximity.Parent
-Write: clogicproximity.Parent = value
 ```
 # Functions
 ## ToPtr

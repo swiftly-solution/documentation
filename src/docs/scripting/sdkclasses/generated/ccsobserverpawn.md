@@ -15,11 +15,10 @@ category:
 CCSObserverPawn(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSPlayerPawnBase
 Read: ccsobserverpawn.Parent
-Write: ccsobserverpawn.Parent = value
 ```
 # Functions
 ## ToPtr

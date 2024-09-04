@@ -56,11 +56,10 @@ Write: cbonemaskupdatenode.BlendValueSource = value
 @type CAnimParamHandle
 Read: cbonemaskupdatenode.BlendParameter
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBinaryUpdateNode
 Read: cbonemaskupdatenode.Parent
-Write: cbonemaskupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

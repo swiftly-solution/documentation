@@ -21,11 +21,10 @@ CBoneVelocityMetricEvaluator(ptr --[[ string ]])
 Read: cbonevelocitymetricevaluator.BoneIndex
 Write: cbonevelocitymetricevaluator.BoneIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cbonevelocitymetricevaluator.Parent
-Write: cbonevelocitymetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

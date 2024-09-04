@@ -15,11 +15,10 @@ category:
 CTonemapController2Alias_env_tonemap_controller2(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTonemapController2
 Read: ctonemapcontroller2alias_env_tonemap_controller2.Parent
-Write: ctonemapcontroller2alias_env_tonemap_controller2.Parent = value
 ```
 # Functions
 ## ToPtr

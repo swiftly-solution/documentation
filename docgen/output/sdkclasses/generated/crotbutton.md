@@ -15,11 +15,10 @@ category:
 CRotButton(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseButton
 Read: crotbutton.Parent
-Write: crotbutton.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -26,17 +26,15 @@ Read: cragdollprop.Ragdoll
 Read: cragdollprop.StartDisabled
 Write: cragdollprop.StartDisabled = value
 ```
-## RagPos 
+## RagPos (Read-Only)
 ```lua
 @type table
 Read: cragdollprop.RagPos
-Write: cragdollprop.RagPos = value
 ```
-## RagAngles 
+## RagAngles (Read-Only)
 ```lua
 @type table
 Read: cragdollprop.RagAngles
-Write: cragdollprop.RagAngles = value
 ```
 ## RagdollSource (Read-Only)
 ```lua
@@ -148,17 +146,15 @@ Write: cragdollprop.BlendWeight = value
 Read: cragdollprop.DefaultFadeScale
 Write: cragdollprop.DefaultFadeScale = value
 ```
-## RagdollMins 
+## RagdollMins (Read-Only)
 ```lua
 @type table
 Read: cragdollprop.RagdollMins
-Write: cragdollprop.RagdollMins = value
 ```
-## RagdollMaxs 
+## RagdollMaxs (Read-Only)
 ```lua
 @type table
 Read: cragdollprop.RagdollMaxs
-Write: cragdollprop.RagdollMaxs = value
 ```
 ## ShouldDeleteActivationRecord 
 ```lua
@@ -172,11 +168,10 @@ Write: cragdollprop.ShouldDeleteActivationRecord = value
 Read: cragdollprop.ValidatePoweredRagdollPose
 Write: cragdollprop.ValidatePoweredRagdollPose = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cragdollprop.Parent
-Write: cragdollprop.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -63,11 +63,10 @@ Write: ccitadelsoundopvarsetobb.DistanceOuterMaxs = value
 Read: ccitadelsoundopvarsetobb.AABBDirection
 Write: ccitadelsoundopvarsetobb.AABBDirection = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccitadelsoundopvarsetobb.Parent
-Write: ccitadelsoundopvarsetobb.Parent = value
 ```
 # Functions
 ## ToPtr

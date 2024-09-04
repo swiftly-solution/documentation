@@ -168,11 +168,10 @@ Write: cfuncmover.OriginalUp = value
 Read: cfuncmover.TimeToRollToNewUp
 Write: cfuncmover.TimeToRollToNewUp = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncmover.Parent
-Write: cfuncmover.Parent = value
 ```
 # Functions
 ## ToPtr

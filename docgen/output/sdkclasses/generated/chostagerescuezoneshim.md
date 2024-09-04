@@ -15,11 +15,10 @@ category:
 CHostageRescueZoneShim(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: chostagerescuezoneshim.Parent
-Write: chostagerescuezoneshim.Parent = value
 ```
 # Functions
 ## ToPtr

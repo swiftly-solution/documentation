@@ -15,11 +15,10 @@ category:
 CBtNodeDecorator(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNode
 Read: cbtnodedecorator.Parent
-Write: cbtnodedecorator.Parent = value
 ```
 # Functions
 ## ToPtr

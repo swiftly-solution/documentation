@@ -69,11 +69,10 @@ Write: cenvinstructorvrhint.AttachType = value
 Read: cenvinstructorvrhint.HeightOffset
 Write: cenvinstructorvrhint.HeightOffset = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvinstructorvrhint.Parent
-Write: cenvinstructorvrhint.Parent = value
 ```
 # Functions
 ## ToPtr

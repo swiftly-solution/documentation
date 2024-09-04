@@ -63,11 +63,10 @@ Write: ctonemapcontroller2.ExposureAdaptationSpeedDown = value
 Read: ctonemapcontroller2.TonemapEVSmoothingRange
 Write: ctonemapcontroller2.TonemapEVSmoothingRange = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ctonemapcontroller2.Parent
-Write: ctonemapcontroller2.Parent = value
 ```
 # Functions
 ## ToPtr

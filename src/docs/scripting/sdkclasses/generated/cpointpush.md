@@ -56,11 +56,10 @@ Write: cpointpush.FilterName = value
 @type CBaseFilter
 Read: cpointpush.Filter
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointpush.Parent
-Write: cpointpush.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CConstraintAnchor(ptr --[[ string ]])
 Read: cconstraintanchor.MassScale
 Write: cconstraintanchor.MassScale = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseAnimGraph
 Read: cconstraintanchor.Parent
-Write: cconstraintanchor.Parent = value
 ```
 # Functions
 ## ToPtr

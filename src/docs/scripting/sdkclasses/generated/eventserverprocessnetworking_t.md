@@ -15,11 +15,10 @@ category:
 EventServerProcessNetworking_t(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type EventSimulate_t
 Read: eventserverprocessnetworking_t.Parent
-Write: eventserverprocessnetworking_t.Parent = value
 ```
 # Functions
 ## ToPtr

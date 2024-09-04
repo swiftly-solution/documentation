@@ -63,11 +63,10 @@ Write: cmapinfo.HostageCount = value
 Read: cmapinfo.FadePlayerVisibilityFarZ
 Write: cmapinfo.FadePlayerVisibilityFarZ = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cmapinfo.Parent
-Write: cmapinfo.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: spawnpoint.Enabled = value
 Read: spawnpoint.Type
 Write: spawnpoint.Type = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyPointEntity
 Read: spawnpoint.Parent
-Write: spawnpoint.Parent = value
 ```
 # Functions
 ## ToPtr

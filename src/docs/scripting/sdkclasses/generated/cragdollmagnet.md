@@ -39,11 +39,10 @@ Write: cragdollmagnet.Force = value
 Read: cragdollmagnet.Axis
 Write: cragdollmagnet.Axis = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cragdollmagnet.Parent
-Write: cragdollmagnet.Parent = value
 ```
 # Functions
 ## ToPtr

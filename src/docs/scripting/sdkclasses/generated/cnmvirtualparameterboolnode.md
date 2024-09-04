@@ -21,11 +21,10 @@ CNmVirtualParameterBoolNode(ptr --[[ string ]])
 Read: cnmvirtualparameterboolnode.ChildNodeIdx
 Write: cnmvirtualparameterboolnode.ChildNodeIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmBoolValueNode
 Read: cnmvirtualparameterboolnode.Parent
-Write: cnmvirtualparameterboolnode.Parent = value
 ```
 # Functions
 ## ToPtr

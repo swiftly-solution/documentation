@@ -25,11 +25,10 @@ Read: citemdogtags.OwningPlayer
 @type CCSPlayerPawn
 Read: citemdogtags.KillingPlayer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItem
 Read: citemdogtags.Parent
-Write: citemdogtags.Parent = value
 ```
 # Functions
 ## ToPtr

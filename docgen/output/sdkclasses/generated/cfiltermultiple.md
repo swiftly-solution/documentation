@@ -27,11 +27,10 @@ Write: cfiltermultiple.FilterType = value
 Read: cfiltermultiple.FilterName
 Write: cfiltermultiple.FilterName = value
 ```
-## Filter 
+## Filter (Read-Only)
 ```lua
 @type table
 Read: cfiltermultiple.Filter
-Write: cfiltermultiple.Filter = value
 ```
 ## FilterCount 
 ```lua
@@ -39,11 +38,10 @@ Write: cfiltermultiple.Filter = value
 Read: cfiltermultiple.FilterCount
 Write: cfiltermultiple.FilterCount = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: cfiltermultiple.Parent
-Write: cfiltermultiple.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CItemHeavyAssaultSuit(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CItemAssaultSuit
 Read: citemheavyassaultsuit.Parent
-Write: citemheavyassaultsuit.Parent = value
 ```
 # Functions
 ## ToPtr

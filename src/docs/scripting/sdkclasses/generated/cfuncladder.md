@@ -79,11 +79,10 @@ Read: cfuncladder.OnPlayerGotOnLadder
 @type CEntityIOOutput
 Read: cfuncladder.OnPlayerGotOffLadder
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncladder.Parent
-Write: cfuncladder.Parent = value
 ```
 # Functions
 ## ToPtr

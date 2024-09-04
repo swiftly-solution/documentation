@@ -109,11 +109,10 @@ Write: cpointvalueremapper.OutputEntity3Name = value
 Read: cpointvalueremapper.OutputEntity4Name
 Write: cpointvalueremapper.OutputEntity4Name = value
 ```
-## OutputEntities 
+## OutputEntities (Read-Only)
 ```lua
 @type table
 Read: cpointvalueremapper.OutputEntities
-Write: cpointvalueremapper.OutputEntities = value
 ```
 ## HapticsType 
 ```lua
@@ -259,11 +258,10 @@ Read: cpointvalueremapper.OnEngage
 @type CEntityIOOutput
 Read: cpointvalueremapper.OnDisengage
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cpointvalueremapper.Parent
-Write: cpointvalueremapper.Parent = value
 ```
 # Functions
 ## ToPtr

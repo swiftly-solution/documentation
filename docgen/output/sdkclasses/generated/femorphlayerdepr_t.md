@@ -27,35 +27,30 @@ Write: femorphlayerdepr_t.Name = value
 Read: femorphlayerdepr_t.NameHash
 Write: femorphlayerdepr_t.NameHash = value
 ```
-## Nodes 
+## Nodes (Read-Only)
 ```lua
 @type table
 Read: femorphlayerdepr_t.Nodes
-Write: femorphlayerdepr_t.Nodes = value
 ```
-## InitPos 
+## InitPos (Read-Only)
 ```lua
 @type table
 Read: femorphlayerdepr_t.InitPos
-Write: femorphlayerdepr_t.InitPos = value
 ```
-## Gravity 
+## Gravity (Read-Only)
 ```lua
 @type table
 Read: femorphlayerdepr_t.Gravity
-Write: femorphlayerdepr_t.Gravity = value
 ```
-## GoalStrength 
+## GoalStrength (Read-Only)
 ```lua
 @type table
 Read: femorphlayerdepr_t.GoalStrength
-Write: femorphlayerdepr_t.GoalStrength = value
 ```
-## GoalDamping 
+## GoalDamping (Read-Only)
 ```lua
 @type table
 Read: femorphlayerdepr_t.GoalDamping
-Write: femorphlayerdepr_t.GoalDamping = value
 ```
 ## Flags 
 ```lua

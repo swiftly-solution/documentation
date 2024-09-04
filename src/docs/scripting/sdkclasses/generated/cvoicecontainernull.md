@@ -15,11 +15,10 @@ category:
 CVoiceContainerNull(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainernull.Parent
-Write: cvoicecontainernull.Parent = value
 ```
 # Functions
 ## ToPtr

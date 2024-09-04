@@ -39,11 +39,10 @@ Write: cpointteleport.TeleportParentedEntities = value
 Read: cpointteleport.TeleportUseCurrentAngle
 Write: cpointteleport.TeleportUseCurrentAngle = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyPointEntity
 Read: cpointteleport.Parent
-Write: cpointteleport.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,17 +15,15 @@ category:
 CMotionMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## Means 
+## Means (Read-Only)
 ```lua
 @type table
 Read: cmotionmetricevaluator.Means
-Write: cmotionmetricevaluator.Means = value
 ```
-## StandardDeviations 
+## StandardDeviations (Read-Only)
 ```lua
 @type table
 Read: cmotionmetricevaluator.StandardDeviations
-Write: cmotionmetricevaluator.StandardDeviations = value
 ```
 ## Weight 
 ```lua

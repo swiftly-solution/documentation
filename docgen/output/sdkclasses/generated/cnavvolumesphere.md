@@ -27,11 +27,10 @@ Write: cnavvolumesphere.Center = value
 Read: cnavvolumesphere.Radius
 Write: cnavvolumesphere.Radius = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolume
 Read: cnavvolumesphere.Parent
-Write: cnavvolumesphere.Parent = value
 ```
 # Functions
 ## ToPtr

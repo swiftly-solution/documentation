@@ -15,11 +15,10 @@ category:
 CInfoPlayerTerrorist(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type SpawnPoint
 Read: cinfoplayerterrorist.Parent
-Write: cinfoplayerterrorist.Parent = value
 ```
 # Functions
 ## ToPtr

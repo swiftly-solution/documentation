@@ -71,11 +71,10 @@ Read: cpointanglesensor.OnFacingLookat
 @type CEntityIOOutput
 Read: cpointanglesensor.OnNotFacingLookat
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointanglesensor.Parent
-Write: cpointanglesensor.Parent = value
 ```
 # Functions
 ## ToPtr

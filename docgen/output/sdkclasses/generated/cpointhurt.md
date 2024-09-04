@@ -50,11 +50,10 @@ Write: cpointhurt.StrTarget = value
 @type CBaseEntity
 Read: cpointhurt.Activator
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointhurt.Parent
-Write: cpointhurt.Parent = value
 ```
 # Functions
 ## ToPtr

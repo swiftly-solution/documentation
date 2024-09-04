@@ -15,11 +15,10 @@ category:
 CHostageAlias_info_hostage_spawn(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CHostage
 Read: chostagealias_info_hostage_spawn.Parent
-Write: chostagealias_info_hostage_spawn.Parent = value
 ```
 # Functions
 ## ToPtr

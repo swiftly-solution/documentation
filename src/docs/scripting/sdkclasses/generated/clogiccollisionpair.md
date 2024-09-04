@@ -45,11 +45,10 @@ Write: clogiccollisionpair.Disabled = value
 Read: clogiccollisionpair.Succeeded
 Write: clogiccollisionpair.Succeeded = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogiccollisionpair.Parent
-Write: clogiccollisionpair.Parent = value
 ```
 # Functions
 ## ToPtr

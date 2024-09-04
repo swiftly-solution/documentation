@@ -26,11 +26,10 @@ Write: cskyboxreference.WorldGroupId = value
 @type CSkyCamera
 Read: cskyboxreference.SkyCamera
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cskyboxreference.Parent
-Write: cskyboxreference.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ vphysics_save_cphysicsbody_t(ptr --[[ string ]])
 Read: vphysics_save_cphysicsbody_t.OldPointer
 Write: vphysics_save_cphysicsbody_t.OldPointer = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type RnBodyDesc_t
 Read: vphysics_save_cphysicsbody_t.Parent
-Write: vphysics_save_cphysicsbody_t.Parent = value
 ```
 # Functions
 ## ToPtr

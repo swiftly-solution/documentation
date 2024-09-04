@@ -21,11 +21,10 @@ CFuncVPhysicsClip(ptr --[[ string ]])
 Read: cfuncvphysicsclip.Disabled
 Write: cfuncvphysicsclip.Disabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncvphysicsclip.Parent
-Write: cfuncvphysicsclip.Parent = value
 ```
 # Functions
 ## ToPtr

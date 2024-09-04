@@ -15,11 +15,10 @@ category:
 CFuncVehicleClip(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncvehicleclip.Parent
-Write: cfuncvehicleclip.Parent = value
 ```
 # Functions
 ## ToPtr

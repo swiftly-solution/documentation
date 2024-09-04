@@ -21,11 +21,10 @@ CRotDoor(ptr --[[ string ]])
 Read: crotdoor.SolidBsp
 Write: crotdoor.SolidBsp = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseDoor
 Read: crotdoor.Parent
-Write: crotdoor.Parent = value
 ```
 # Functions
 ## ToPtr

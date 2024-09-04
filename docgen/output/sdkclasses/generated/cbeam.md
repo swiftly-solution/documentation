@@ -57,11 +57,10 @@ Write: cbeam.BeamType = value
 Read: cbeam.BeamFlags
 Write: cbeam.BeamFlags = value
 ```
-## AttachEntity 
+## AttachEntity (Read-Only)
 ```lua
 @type table
 Read: cbeam.AttachEntity
-Write: cbeam.AttachEntity = value
 ```
 ## Width 
 ```lua
@@ -140,11 +139,10 @@ Read: cbeam.EndEntity
 Read: cbeam.DissolveType
 Write: cbeam.DissolveType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cbeam.Parent
-Write: cbeam.Parent = value
 ```
 # Functions
 ## ToPtr

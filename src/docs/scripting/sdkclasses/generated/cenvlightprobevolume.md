@@ -93,11 +93,10 @@ Write: cenvlightprobevolume.Entity_nLightProbeAtlasZ = value
 Read: cenvlightprobevolume.Entity_bEnabled
 Write: cenvlightprobevolume.Entity_bEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvlightprobevolume.Parent
-Write: cenvlightprobevolume.Parent = value
 ```
 # Functions
 ## ToPtr

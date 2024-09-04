@@ -69,11 +69,10 @@ Write: cbaseplayerpawn.CameraServices = value
 Read: cbaseplayerpawn.MovementServices
 Write: cbaseplayerpawn.MovementServices = value
 ```
-## ServerViewAngleChanges 
+## ServerViewAngleChanges (Read-Only)
 ```lua
 @type table
 Read: cbaseplayerpawn.ServerViewAngleChanges
-Write: cbaseplayerpawn.ServerViewAngleChanges = value
 ```
 ## HighestGeneratedServerViewAngleChangeIndex 
 ```lua
@@ -157,17 +156,15 @@ Write: cbaseplayerpawn.HltvReplayEnd = value
 Read: cbaseplayerpawn.HltvReplayEntity
 Write: cbaseplayerpawn.HltvReplayEntity = value
 ```
-## SndOpvarLatchData 
+## SndOpvarLatchData (Read-Only)
 ```lua
 @type table
 Read: cbaseplayerpawn.SndOpvarLatchData
-Write: cbaseplayerpawn.SndOpvarLatchData = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCombatCharacter
 Read: cbaseplayerpawn.Parent
-Write: cbaseplayerpawn.Parent = value
 ```
 # Functions
 ## ToPtr

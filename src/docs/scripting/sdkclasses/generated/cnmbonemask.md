@@ -20,11 +20,10 @@ CNmBoneMask(ptr --[[ string ]])
 @type CNmBoneMask
 Read: cnmbonemask.WeightInfo
 ```
-## Weights 
+## Weights (Read-Only)
 ```lua
 @type table
 Read: cnmbonemask.Weights
-Write: cnmbonemask.Weights = value
 ```
 # Functions
 ## ToPtr

@@ -15,17 +15,15 @@ category:
 CRenderSkeleton(ptr --[[ string ]])
 ```
 # Properties
-## Bones 
+## Bones (Read-Only)
 ```lua
 @type table
 Read: crenderskeleton.Bones
-Write: crenderskeleton.Bones = value
 ```
-## BoneParents 
+## BoneParents (Read-Only)
 ```lua
 @type table
 Read: crenderskeleton.BoneParents
-Write: crenderskeleton.BoneParents = value
 ```
 ## BoneWeightCount 
 ```lua

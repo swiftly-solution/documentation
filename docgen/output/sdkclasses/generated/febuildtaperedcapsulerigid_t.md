@@ -27,11 +27,10 @@ Write: febuildtaperedcapsulerigid_t.Priority = value
 Read: febuildtaperedcapsulerigid_t.VertexMapHash
 Write: febuildtaperedcapsulerigid_t.VertexMapHash = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type FeTaperedCapsuleRigid_t
 Read: febuildtaperedcapsulerigid_t.Parent
-Write: febuildtaperedcapsulerigid_t.Parent = value
 ```
 # Functions
 ## ToPtr

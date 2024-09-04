@@ -33,11 +33,10 @@ Write: csoundopvarsetpathcornerentity.DistMaxSqr = value
 Read: csoundopvarsetpathcornerentity.PathCornerEntityName
 Write: csoundopvarsetpathcornerentity.PathCornerEntityName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetPointEntity
 Read: csoundopvarsetpathcornerentity.Parent
-Write: csoundopvarsetpathcornerentity.Parent = value
 ```
 # Functions
 ## ToPtr

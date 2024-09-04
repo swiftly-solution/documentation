@@ -27,11 +27,10 @@ Write: chitboxset.Name = value
 Read: chitboxset.NameHash
 Write: chitboxset.NameHash = value
 ```
-## HitBoxes 
+## HitBoxes (Read-Only)
 ```lua
 @type table
 Read: chitboxset.HitBoxes
-Write: chitboxset.HitBoxes = value
 ```
 ## SourceFilename 
 ```lua

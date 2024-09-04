@@ -38,11 +38,10 @@ Write: cskycamera.UseAngles = value
 Read: cskycamera.Next
 Write: cskycamera.Next = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cskycamera.Parent
-Write: cskycamera.Parent = value
 ```
 # Functions
 ## ToPtr

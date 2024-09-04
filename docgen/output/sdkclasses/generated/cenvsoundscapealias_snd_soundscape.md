@@ -15,11 +15,10 @@ category:
 CEnvSoundscapeAlias_snd_soundscape(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEnvSoundscape
 Read: cenvsoundscapealias_snd_soundscape.Parent
-Write: cenvsoundscapealias_snd_soundscape.Parent = value
 ```
 # Functions
 ## ToPtr

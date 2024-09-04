@@ -20,11 +20,10 @@ CBodyComponentBaseAnimGraph(ptr --[[ string ]])
 @type CBaseAnimGraphController
 Read: cbodycomponentbaseanimgraph.AnimationController
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBodyComponentSkeletonInstance
 Read: cbodycomponentbaseanimgraph.Parent
-Write: cbodycomponentbaseanimgraph.Parent = value
 ```
 # Functions
 ## ToPtr

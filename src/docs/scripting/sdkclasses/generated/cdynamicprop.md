@@ -136,11 +136,10 @@ Write: cdynamicprop.GlowColor = value
 Read: cdynamicprop.GlowTeam
 Write: cdynamicprop.GlowTeam = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBreakableProp
 Read: cdynamicprop.Parent
-Write: cdynamicprop.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CDebugHistory(ptr --[[ string ]])
 Read: cdebughistory.NpcEvents
 Write: cdebughistory.NpcEvents = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cdebughistory.Parent
-Write: cdebughistory.Parent = value
 ```
 # Functions
 ## ToPtr

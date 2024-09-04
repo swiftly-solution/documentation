@@ -21,11 +21,10 @@ CBoneConstraintPoseSpaceMorph__Input_t(ptr --[[ string ]])
 Read: cboneconstraintposespacemorph__input_t.InputValue
 Write: cboneconstraintposespacemorph__input_t.InputValue = value
 ```
-## OutputWeightList 
+## OutputWeightList (Read-Only)
 ```lua
 @type table
 Read: cboneconstraintposespacemorph__input_t.OutputWeightList
-Write: cboneconstraintposespacemorph__input_t.OutputWeightList = value
 ```
 # Functions
 ## ToPtr

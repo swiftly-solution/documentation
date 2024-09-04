@@ -15,101 +15,85 @@ category:
 CAnimGraphNetworkedVariables(ptr --[[ string ]])
 ```
 # Properties
-## PredNetBoolVariables 
+## PredNetBoolVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetBoolVariables
-Write: canimgraphnetworkedvariables.PredNetBoolVariables = value
 ```
-## PredNetByteVariables 
+## PredNetByteVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetByteVariables
-Write: canimgraphnetworkedvariables.PredNetByteVariables = value
 ```
-## PredNetUInt16Variables 
+## PredNetUInt16Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetUInt16Variables
-Write: canimgraphnetworkedvariables.PredNetUInt16Variables = value
 ```
-## PredNetIntVariables 
+## PredNetIntVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetIntVariables
-Write: canimgraphnetworkedvariables.PredNetIntVariables = value
 ```
-## PredNetUInt32Variables 
+## PredNetUInt32Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetUInt32Variables
-Write: canimgraphnetworkedvariables.PredNetUInt32Variables = value
 ```
-## PredNetUInt64Variables 
+## PredNetUInt64Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetUInt64Variables
-Write: canimgraphnetworkedvariables.PredNetUInt64Variables = value
 ```
-## PredNetFloatVariables 
+## PredNetFloatVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetFloatVariables
-Write: canimgraphnetworkedvariables.PredNetFloatVariables = value
 ```
-## PredNetVectorVariables 
+## PredNetVectorVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.PredNetVectorVariables
-Write: canimgraphnetworkedvariables.PredNetVectorVariables = value
 ```
-## OwnerOnlyPredNetBoolVariables 
+## OwnerOnlyPredNetBoolVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetBoolVariables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetBoolVariables = value
 ```
-## OwnerOnlyPredNetByteVariables 
+## OwnerOnlyPredNetByteVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetByteVariables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetByteVariables = value
 ```
-## OwnerOnlyPredNetUInt16Variables 
+## OwnerOnlyPredNetUInt16Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt16Variables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt16Variables = value
 ```
-## OwnerOnlyPredNetIntVariables 
+## OwnerOnlyPredNetIntVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetIntVariables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetIntVariables = value
 ```
-## OwnerOnlyPredNetUInt32Variables 
+## OwnerOnlyPredNetUInt32Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt32Variables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt32Variables = value
 ```
-## OwnerOnlyPredNetUInt64Variables 
+## OwnerOnlyPredNetUInt64Variables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt64Variables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetUInt64Variables = value
 ```
-## OwnerOnlyPredNetFloatVariables 
+## OwnerOnlyPredNetFloatVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetFloatVariables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetFloatVariables = value
 ```
-## OwnerOnlyPredNetVectorVariables 
+## OwnerOnlyPredNetVectorVariables (Read-Only)
 ```lua
 @type table
 Read: canimgraphnetworkedvariables.OwnerOnlyPredNetVectorVariables
-Write: canimgraphnetworkedvariables.OwnerOnlyPredNetVectorVariables = value
 ```
 ## BoolVariablesCount 
 ```lua

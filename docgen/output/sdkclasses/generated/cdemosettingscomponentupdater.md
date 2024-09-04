@@ -20,11 +20,10 @@ CDemoSettingsComponentUpdater(ptr --[[ string ]])
 @type CAnimDemoCaptureSettings
 Read: cdemosettingscomponentupdater.Settings
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cdemosettingscomponentupdater.Parent
-Write: cdemosettingscomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CActionComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cactioncomponentupdater.Parent
-Write: cactioncomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

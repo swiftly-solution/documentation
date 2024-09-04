@@ -15,11 +15,10 @@ category:
 CShower(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: cshower.Parent
-Write: cshower.Parent = value
 ```
 # Functions
 ## ToPtr

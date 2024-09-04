@@ -21,11 +21,10 @@ CParticleFunctionEmitter(ptr --[[ string ]])
 Read: cparticlefunctionemitter.EmitterIndex
 Write: cparticlefunctionemitter.EmitterIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunction
 Read: cparticlefunctionemitter.Parent
-Write: cparticlefunctionemitter.Parent = value
 ```
 # Functions
 ## ToPtr

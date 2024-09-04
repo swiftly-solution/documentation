@@ -41,11 +41,10 @@ Read: cgamechoreoservices.ChoreoState
 Read: cgamechoreoservices.TimeStartedState
 Write: cgamechoreoservices.TimeStartedState = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type IChoreoServices
 Read: cgamechoreoservices.Parent
-Write: cgamechoreoservices.Parent = value
 ```
 # Functions
 ## ToPtr

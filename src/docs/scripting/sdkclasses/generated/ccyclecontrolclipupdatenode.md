@@ -15,11 +15,10 @@ category:
 CCycleControlClipUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Tags 
+## Tags (Read-Only)
 ```lua
 @type table
 Read: ccyclecontrolclipupdatenode.Tags
-Write: ccyclecontrolclipupdatenode.Tags = value
 ```
 ## Duration 
 ```lua
@@ -38,11 +37,10 @@ Write: ccyclecontrolclipupdatenode.ValueSource = value
 @type CAnimParamHandle
 Read: ccyclecontrolclipupdatenode.ParamIndex
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLeafUpdateNode
 Read: ccyclecontrolclipupdatenode.Parent
-Write: ccyclecontrolclipupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

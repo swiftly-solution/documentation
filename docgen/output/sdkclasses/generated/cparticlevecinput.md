@@ -136,11 +136,10 @@ Write: cparticlevecinput.RandomMin = value
 Read: cparticlevecinput.RandomMax
 Write: cparticlevecinput.RandomMax = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleInput
 Read: cparticlevecinput.Parent
-Write: cparticlevecinput.Parent = value
 ```
 # Functions
 ## ToPtr

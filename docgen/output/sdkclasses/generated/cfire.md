@@ -125,11 +125,10 @@ Read: cfire.OnIgnited
 @type CEntityIOOutput
 Read: cfire.OnExtinguished
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfire.Parent
-Write: cfire.Parent = value
 ```
 # Functions
 ## ToPtr

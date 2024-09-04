@@ -15,11 +15,10 @@ category:
 CInfoSpawnGroupLandmark(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfospawngrouplandmark.Parent
-Write: cinfospawngrouplandmark.Parent = value
 ```
 # Functions
 ## ToPtr

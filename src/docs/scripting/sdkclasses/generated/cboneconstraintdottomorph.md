@@ -39,11 +39,10 @@ Write: cboneconstraintdottomorph.MorphChannelName = value
 Read: cboneconstraintdottomorph.Remap
 Write: cboneconstraintdottomorph.Remap = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBoneConstraintBase
 Read: cboneconstraintdottomorph.Parent
-Write: cboneconstraintdottomorph.Parent = value
 ```
 # Functions
 ## ToPtr

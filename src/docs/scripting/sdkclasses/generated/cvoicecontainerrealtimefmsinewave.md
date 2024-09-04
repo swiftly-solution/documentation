@@ -33,11 +33,10 @@ Write: cvoicecontainerrealtimefmsinewave.ModulatorFrequency = value
 Read: cvoicecontainerrealtimefmsinewave.ModulatorAmount
 Write: cvoicecontainerrealtimefmsinewave.ModulatorAmount = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerrealtimefmsinewave.Parent
-Write: cvoicecontainerrealtimefmsinewave.Parent = value
 ```
 # Functions
 ## ToPtr

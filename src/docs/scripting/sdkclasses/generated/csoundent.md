@@ -33,17 +33,15 @@ Write: csoundent.ActiveSound = value
 Read: csoundent.CLastActiveSounds
 Write: csoundent.CLastActiveSounds = value
 ```
-## SoundPool 
+## SoundPool (Read-Only)
 ```lua
 @type table
 Read: csoundent.SoundPool
-Write: csoundent.SoundPool = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: csoundent.Parent
-Write: csoundent.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -20,11 +20,10 @@ RnCapsuleDesc_t(ptr --[[ string ]])
 @type RnCapsule_t
 Read: rncapsuledesc_t.Capsule
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type RnShapeDesc_t
 Read: rncapsuledesc_t.Parent
-Write: rncapsuledesc_t.Parent = value
 ```
 # Functions
 ## ToPtr

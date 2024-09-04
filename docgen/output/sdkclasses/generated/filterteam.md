@@ -21,11 +21,10 @@ FilterTeam(ptr --[[ string ]])
 Read: filterteam.FilterTeam
 Write: filterteam.FilterTeam = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFilter
 Read: filterteam.Parent
-Write: filterteam.Parent = value
 ```
 # Functions
 ## ToPtr

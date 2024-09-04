@@ -21,11 +21,10 @@ CNmVirtualParameterBoneMaskNode(ptr --[[ string ]])
 Read: cnmvirtualparameterbonemasknode.ChildNodeIdx
 Write: cnmvirtualparameterbonemasknode.ChildNodeIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmBoneMaskValueNode
 Read: cnmvirtualparameterbonemasknode.Parent
-Write: cnmvirtualparameterbonemasknode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CCSPlace(ptr --[[ string ]])
 Read: ccsplace.Name
 Write: ccsplace.Name = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CServerOnlyModelEntity
 Read: ccsplace.Parent
-Write: ccsplace.Parent = value
 ```
 # Functions
 ## ToPtr

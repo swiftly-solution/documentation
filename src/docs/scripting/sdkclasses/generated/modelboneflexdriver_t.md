@@ -27,11 +27,10 @@ Write: modelboneflexdriver_t.BoneName = value
 Read: modelboneflexdriver_t.BoneNameToken
 Write: modelboneflexdriver_t.BoneNameToken = value
 ```
-## Controls 
+## Controls (Read-Only)
 ```lua
 @type table
 Read: modelboneflexdriver_t.Controls
-Write: modelboneflexdriver_t.Controls = value
 ```
 # Functions
 ## ToPtr

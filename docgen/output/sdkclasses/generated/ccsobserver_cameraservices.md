@@ -15,11 +15,10 @@ category:
 CCSObserver_CameraServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSPlayerBase_CameraServices
 Read: ccsobserver_cameraservices.Parent
-Write: ccsobserver_cameraservices.Parent = value
 ```
 # Functions
 ## ToPtr

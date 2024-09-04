@@ -37,11 +37,10 @@ Write: cseqsynthanimdesc.LocalBaseReference = value
 Read: cseqsynthanimdesc.LocalBoneMask
 Write: cseqsynthanimdesc.LocalBoneMask = value
 ```
-## ActivityArray 
+## ActivityArray (Read-Only)
 ```lua
 @type table
 Read: cseqsynthanimdesc.ActivityArray
-Write: cseqsynthanimdesc.ActivityArray = value
 ```
 # Functions
 ## ToPtr

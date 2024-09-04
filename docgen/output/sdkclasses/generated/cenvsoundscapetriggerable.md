@@ -15,11 +15,10 @@ category:
 CEnvSoundscapeTriggerable(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEnvSoundscape
 Read: cenvsoundscapetriggerable.Parent
-Write: cenvsoundscapetriggerable.Parent = value
 ```
 # Functions
 ## ToPtr

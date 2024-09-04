@@ -15,11 +15,10 @@ category:
 CCSMinimapBoundary(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: ccsminimapboundary.Parent
-Write: ccsminimapboundary.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CSoundOpvarSetOBBEntity(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetAABBEntity
 Read: csoundopvarsetobbentity.Parent
-Write: csoundopvarsetobbentity.Parent = value
 ```
 # Functions
 ## ToPtr

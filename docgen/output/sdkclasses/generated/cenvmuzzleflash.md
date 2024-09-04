@@ -27,11 +27,10 @@ Write: cenvmuzzleflash.Scale = value
 Read: cenvmuzzleflash.ParentAttachment
 Write: cenvmuzzleflash.ParentAttachment = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvmuzzleflash.Parent
-Write: cenvmuzzleflash.Parent = value
 ```
 # Functions
 ## ToPtr

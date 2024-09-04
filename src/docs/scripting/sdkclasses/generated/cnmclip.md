@@ -27,17 +27,15 @@ Write: cnmclip.NumFrames = value
 Read: cnmclip.Duration
 Write: cnmclip.Duration = value
 ```
-## TrackCompressionSettings 
+## TrackCompressionSettings (Read-Only)
 ```lua
 @type table
 Read: cnmclip.TrackCompressionSettings
-Write: cnmclip.TrackCompressionSettings = value
 ```
-## CompressedPoseOffsets 
+## CompressedPoseOffsets (Read-Only)
 ```lua
 @type table
 Read: cnmclip.CompressedPoseOffsets
-Write: cnmclip.CompressedPoseOffsets = value
 ```
 ## SyncTrack (Read-Only)
 ```lua

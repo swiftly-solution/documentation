@@ -75,11 +75,10 @@ Write: cclientalphaproperty.RenderFxStartTime = value
 Read: cclientalphaproperty.RenderFxDuration
 Write: cclientalphaproperty.RenderFxDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type IClientAlphaProperty
 Read: cclientalphaproperty.Parent
-Write: cclientalphaproperty.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CModelConfigElement_Command(ptr --[[ string ]])
 Read: cmodelconfigelement_command.Command
 Write: cmodelconfigelement_command.Command = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_command.Parent
-Write: cmodelconfigelement_command.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -58,11 +58,10 @@ Read: cplayer_cameraservices.TonemapController
 @type audioparams_t
 Read: cplayer_cameraservices.Audio
 ```
-## PostProcessingVolumes 
+## PostProcessingVolumes (Read-Only)
 ```lua
 @type table
 Read: cplayer_cameraservices.PostProcessingVolumes
-Write: cplayer_cameraservices.PostProcessingVolumes = value
 ```
 ## OldPlayerZ 
 ```lua
@@ -76,11 +75,10 @@ Write: cplayer_cameraservices.OldPlayerZ = value
 Read: cplayer_cameraservices.OldPlayerViewOffsetZ
 Write: cplayer_cameraservices.OldPlayerViewOffsetZ = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_cameraservices.Parent
-Write: cplayer_cameraservices.Parent = value
 ```
 # Functions
 ## ToPtr

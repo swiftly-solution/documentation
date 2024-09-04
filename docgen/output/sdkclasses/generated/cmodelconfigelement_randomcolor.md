@@ -15,11 +15,10 @@ category:
 CModelConfigElement_RandomColor(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_randomcolor.Parent
-Write: cmodelconfigelement_randomcolor.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -21,11 +21,10 @@ CFuncNavObstruction(ptr --[[ string ]])
 Read: cfuncnavobstruction.Disabled
 Write: cfuncnavobstruction.Disabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncnavobstruction.Parent
-Write: cfuncnavobstruction.Parent = value
 ```
 # Functions
 ## ToPtr

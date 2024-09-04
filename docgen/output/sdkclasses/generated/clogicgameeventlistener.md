@@ -44,11 +44,10 @@ Write: clogicgameeventlistener.Enabled = value
 Read: clogicgameeventlistener.StartDisabled
 Write: clogicgameeventlistener.StartDisabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicgameeventlistener.Parent
-Write: clogicgameeventlistener.Parent = value
 ```
 # Functions
 ## ToPtr

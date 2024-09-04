@@ -15,11 +15,10 @@ category:
 SelectedEditItemInfo_t(ptr --[[ string ]])
 ```
 # Properties
-## EditItems 
+## EditItems (Read-Only)
 ```lua
 @type table
 Read: selectededititeminfo_t.EditItems
-Write: selectededititeminfo_t.EditItems = value
 ```
 # Functions
 ## ToPtr

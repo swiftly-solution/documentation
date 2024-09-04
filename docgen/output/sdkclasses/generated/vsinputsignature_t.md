@@ -15,11 +15,10 @@ category:
 VsInputSignature_t(ptr --[[ string ]])
 ```
 # Properties
-## Elems 
+## Elems (Read-Only)
 ```lua
 @type table
 Read: vsinputsignature_t.Elems
-Write: vsinputsignature_t.Elems = value
 ```
 # Functions
 ## ToPtr

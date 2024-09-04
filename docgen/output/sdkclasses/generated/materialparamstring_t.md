@@ -21,11 +21,10 @@ MaterialParamString_t(ptr --[[ string ]])
 Read: materialparamstring_t.Value
 Write: materialparamstring_t.Value = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type MaterialParam_t
 Read: materialparamstring_t.Parent
-Write: materialparamstring_t.Parent = value
 ```
 # Functions
 ## ToPtr

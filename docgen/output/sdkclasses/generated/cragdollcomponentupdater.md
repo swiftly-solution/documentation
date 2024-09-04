@@ -15,29 +15,25 @@ category:
 CRagdollComponentUpdater(ptr --[[ string ]])
 ```
 # Properties
-## RagdollNodePaths 
+## RagdollNodePaths (Read-Only)
 ```lua
 @type table
 Read: cragdollcomponentupdater.RagdollNodePaths
-Write: cragdollcomponentupdater.RagdollNodePaths = value
 ```
-## BoneIndices 
+## BoneIndices (Read-Only)
 ```lua
 @type table
 Read: cragdollcomponentupdater.BoneIndices
-Write: cragdollcomponentupdater.BoneIndices = value
 ```
-## BoneNames 
+## BoneNames (Read-Only)
 ```lua
 @type table
 Read: cragdollcomponentupdater.BoneNames
-Write: cragdollcomponentupdater.BoneNames = value
 ```
-## WeightLists 
+## WeightLists (Read-Only)
 ```lua
 @type table
 Read: cragdollcomponentupdater.WeightLists
-Write: cragdollcomponentupdater.WeightLists = value
 ```
 ## SpringFrequencyMin 
 ```lua
@@ -63,11 +59,10 @@ Write: cragdollcomponentupdater.MaxStretch = value
 Read: cragdollcomponentupdater.SolidCollisionAtZeroWeight
 Write: cragdollcomponentupdater.SolidCollisionAtZeroWeight = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cragdollcomponentupdater.Parent
-Write: cragdollcomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

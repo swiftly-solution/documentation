@@ -15,11 +15,10 @@ category:
 CSpriteAlias_env_glow(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSprite
 Read: cspritealias_env_glow.Parent
-Write: cspritealias_env_glow.Parent = value
 ```
 # Functions
 ## ToPtr

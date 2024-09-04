@@ -32,29 +32,25 @@ Write: cluttersceneobject_t.Flags = value
 Read: cluttersceneobject_t.Layer
 Write: cluttersceneobject_t.Layer = value
 ```
-## InstancePositions 
+## InstancePositions (Read-Only)
 ```lua
 @type table
 Read: cluttersceneobject_t.InstancePositions
-Write: cluttersceneobject_t.InstancePositions = value
 ```
-## InstanceScales 
+## InstanceScales (Read-Only)
 ```lua
 @type table
 Read: cluttersceneobject_t.InstanceScales
-Write: cluttersceneobject_t.InstanceScales = value
 ```
-## InstanceTintSrgb 
+## InstanceTintSrgb (Read-Only)
 ```lua
 @type table
 Read: cluttersceneobject_t.InstanceTintSrgb
-Write: cluttersceneobject_t.InstanceTintSrgb = value
 ```
-## Tiles 
+## Tiles (Read-Only)
 ```lua
 @type table
 Read: cluttersceneobject_t.Tiles
-Write: cluttersceneobject_t.Tiles = value
 ```
 # Functions
 ## ToPtr

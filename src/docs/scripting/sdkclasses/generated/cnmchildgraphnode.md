@@ -21,11 +21,10 @@ CNmChildGraphNode(ptr --[[ string ]])
 Read: cnmchildgraphnode.ChildGraphIdx
 Write: cnmchildgraphnode.ChildGraphIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmchildgraphnode.Parent
-Write: cnmchildgraphnode.Parent = value
 ```
 # Functions
 ## ToPtr

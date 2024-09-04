@@ -69,11 +69,10 @@ Write: csoundopvarsetaabbentity.OuterMins = value
 Read: csoundopvarsetaabbentity.OuterMaxs
 Write: csoundopvarsetaabbentity.OuterMaxs = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetPointEntity
 Read: csoundopvarsetaabbentity.Parent
-Write: csoundopvarsetaabbentity.Parent = value
 ```
 # Functions
 ## ToPtr

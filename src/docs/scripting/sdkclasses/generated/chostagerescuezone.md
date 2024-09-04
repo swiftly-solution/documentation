@@ -15,11 +15,10 @@ category:
 CHostageRescueZone(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CHostageRescueZoneShim
 Read: chostagerescuezone.Parent
-Write: chostagerescuezone.Parent = value
 ```
 # Functions
 ## ToPtr

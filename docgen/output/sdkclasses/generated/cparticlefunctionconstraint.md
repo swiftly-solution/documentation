@@ -15,11 +15,10 @@ category:
 CParticleFunctionConstraint(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunction
 Read: cparticlefunctionconstraint.Parent
-Write: cparticlefunctionconstraint.Parent = value
 ```
 # Functions
 ## ToPtr

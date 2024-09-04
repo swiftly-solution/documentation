@@ -20,11 +20,10 @@ CStateMachineComponentUpdater(ptr --[[ string ]])
 @type CAnimStateMachineUpdater
 Read: cstatemachinecomponentupdater.StateMachine
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimComponentUpdater
 Read: cstatemachinecomponentupdater.Parent
-Write: cstatemachinecomponentupdater.Parent = value
 ```
 # Functions
 ## ToPtr

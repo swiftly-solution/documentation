@@ -99,11 +99,10 @@ Write: ccsteam.NextResourceTime = value
 Read: ccsteam.LastUpdateSentAt
 Write: ccsteam.LastUpdateSentAt = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTeam
 Read: ccsteam.Parent
-Write: ccsteam.Parent = value
 ```
 # Functions
 ## ToPtr

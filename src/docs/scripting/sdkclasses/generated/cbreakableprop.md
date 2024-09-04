@@ -182,11 +182,10 @@ Write: cbreakableprop.PuntSound = value
 Read: cbreakableprop.NoGhostCollision
 Write: cbreakableprop.NoGhostCollision = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseProp
 Read: cbreakableprop.Parent
-Write: cbreakableprop.Parent = value
 ```
 # Functions
 ## ToPtr

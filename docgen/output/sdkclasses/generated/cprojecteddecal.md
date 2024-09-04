@@ -27,11 +27,10 @@ Write: cprojecteddecal.Texture = value
 Read: cprojecteddecal.Distance
 Write: cprojecteddecal.Distance = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cprojecteddecal.Parent
-Write: cprojecteddecal.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -159,11 +159,10 @@ Write: cenvinstructorhint.AutoStart = value
 Read: cenvinstructorhint.LocalPlayerOnly
 Write: cenvinstructorhint.LocalPlayerOnly = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cenvinstructorhint.Parent
-Write: cenvinstructorhint.Parent = value
 ```
 # Functions
 ## ToPtr

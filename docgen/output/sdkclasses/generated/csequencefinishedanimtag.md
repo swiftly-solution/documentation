@@ -21,11 +21,10 @@ CSequenceFinishedAnimTag(ptr --[[ string ]])
 Read: csequencefinishedanimtag.SequenceName
 Write: csequencefinishedanimtag.SequenceName = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: csequencefinishedanimtag.Parent
-Write: csequencefinishedanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cnmclipnode.AllowLooping = value
 Read: cnmclipnode.DataSlotIdx
 Write: cnmclipnode.DataSlotIdx = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmclipnode.Parent
-Write: cnmclipnode.Parent = value
 ```
 # Functions
 ## ToPtr

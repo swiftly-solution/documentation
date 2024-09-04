@@ -61,11 +61,10 @@ Read: csossoundeventgroupschema.BranchPattern
 Read: csossoundeventgroupschema.LifeSpanTime
 Write: csossoundeventgroupschema.LifeSpanTime = value
 ```
-## Actions 
+## Actions (Read-Only)
 ```lua
 @type table
 Read: csossoundeventgroupschema.Actions
-Write: csossoundeventgroupschema.Actions = value
 ```
 # Functions
 ## ToPtr

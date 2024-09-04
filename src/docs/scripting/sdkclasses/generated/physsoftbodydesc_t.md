@@ -15,35 +15,30 @@ category:
 PhysSoftbodyDesc_t(ptr --[[ string ]])
 ```
 # Properties
-## ParticleBoneHash 
+## ParticleBoneHash (Read-Only)
 ```lua
 @type table
 Read: physsoftbodydesc_t.ParticleBoneHash
-Write: physsoftbodydesc_t.ParticleBoneHash = value
 ```
-## Particles 
+## Particles (Read-Only)
 ```lua
 @type table
 Read: physsoftbodydesc_t.Particles
-Write: physsoftbodydesc_t.Particles = value
 ```
-## Springs 
+## Springs (Read-Only)
 ```lua
 @type table
 Read: physsoftbodydesc_t.Springs
-Write: physsoftbodydesc_t.Springs = value
 ```
-## Capsules 
+## Capsules (Read-Only)
 ```lua
 @type table
 Read: physsoftbodydesc_t.Capsules
-Write: physsoftbodydesc_t.Capsules = value
 ```
-## ParticleBoneName 
+## ParticleBoneName (Read-Only)
 ```lua
 @type table
 Read: physsoftbodydesc_t.ParticleBoneName
-Write: physsoftbodydesc_t.ParticleBoneName = value
 ```
 # Functions
 ## ToPtr

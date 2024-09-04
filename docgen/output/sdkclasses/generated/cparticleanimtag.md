@@ -69,11 +69,10 @@ Write: cparticleanimtag.AttachmentCP1Name = value
 Read: cparticleanimtag.AttachmentCP1Type
 Write: cparticleanimtag.AttachmentCP1Type = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cparticleanimtag.Parent
-Write: cparticleanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

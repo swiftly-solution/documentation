@@ -93,11 +93,10 @@ Write: cmodelconfigelement_attachedmodel.BodygroupOnOtherModels = value
 Read: cmodelconfigelement_attachedmodel.MaterialGroupOnOtherModels
 Write: cmodelconfigelement_attachedmodel.MaterialGroupOnOtherModels = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelConfigElement
 Read: cmodelconfigelement_attachedmodel.Parent
-Write: cmodelconfigelement_attachedmodel.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: cintanimparameter.MinValue = value
 Read: cintanimparameter.MaxValue
 Write: cintanimparameter.MaxValue = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cintanimparameter.Parent
-Write: cintanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

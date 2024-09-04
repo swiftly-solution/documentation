@@ -88,11 +88,10 @@ Write: cbaseplayervdata.UseAngleTolerance = value
 Read: cbaseplayervdata.CrouchTime
 Write: cbaseplayervdata.CrouchTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEntitySubclassVDataBase
 Read: cbaseplayervdata.Parent
-Write: cbaseplayervdata.Parent = value
 ```
 # Functions
 ## ToPtr

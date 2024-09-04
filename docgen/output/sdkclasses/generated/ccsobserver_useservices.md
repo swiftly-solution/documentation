@@ -15,11 +15,10 @@ category:
 CCSObserver_UseServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayer_UseServices
 Read: ccsobserver_useservices.Parent
-Write: ccsobserver_useservices.Parent = value
 ```
 # Functions
 ## ToPtr

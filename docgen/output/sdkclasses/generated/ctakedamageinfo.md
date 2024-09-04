@@ -39,21 +39,6 @@ Write: ctakedamageinfo.ReportedPosition = value
 Read: ctakedamageinfo.DamageDirection
 Write: ctakedamageinfo.DamageDirection = value
 ```
-## Inflictor (Read-Only)
-```lua
-@type CBaseEntity
-Read: ctakedamageinfo.Inflictor
-```
-## Attacker (Read-Only)
-```lua
-@type CBaseEntity
-Read: ctakedamageinfo.Attacker
-```
-## Ability (Read-Only)
-```lua
-@type CBaseEntity
-Read: ctakedamageinfo.Ability
-```
 ## Damage 
 ```lua
 @type number
@@ -113,6 +98,12 @@ Write: ctakedamageinfo.DamageFlags = value
 @type number
 Read: ctakedamageinfo.NumObjectsPenetrated
 Write: ctakedamageinfo.NumObjectsPenetrated = value
+```
+## FriendlyFireDamageReductionRatio 
+```lua
+@type number
+Read: ctakedamageinfo.FriendlyFireDamageReductionRatio
+Write: ctakedamageinfo.FriendlyFireDamageReductionRatio = value
 ```
 ## InTakeDamageFlow 
 ```lua

@@ -105,11 +105,10 @@ Write: cplayerspraydecal.Version = value
 Read: cplayerspraydecal.Signature
 Write: cplayerspraydecal.Signature = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: cplayerspraydecal.Parent
-Write: cplayerspraydecal.Parent = value
 ```
 # Functions
 ## ToPtr

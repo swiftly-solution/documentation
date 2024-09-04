@@ -33,11 +33,10 @@ Write: canimationgraphvisualizertext.Color = value
 Read: canimationgraphvisualizertext.Text
 Write: canimationgraphvisualizertext.Text = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizertext.Parent
-Write: canimationgraphvisualizertext.Parent = value
 ```
 # Functions
 ## ToPtr

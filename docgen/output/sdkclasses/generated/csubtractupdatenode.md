@@ -39,11 +39,10 @@ Write: csubtractupdatenode.ApplyChannelsSeparately = value
 Read: csubtractupdatenode.UseModelSpace
 Write: csubtractupdatenode.UseModelSpace = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBinaryUpdateNode
 Read: csubtractupdatenode.Parent
-Write: csubtractupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

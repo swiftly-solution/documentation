@@ -20,11 +20,10 @@ CBodyComponentSkeletonInstance(ptr --[[ string ]])
 @type CSkeletonInstance
 Read: cbodycomponentskeletoninstance.SkeletonInstance
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBodyComponent
 Read: cbodycomponentskeletoninstance.Parent
-Write: cbodycomponentskeletoninstance.Parent = value
 ```
 # Functions
 ## ToPtr

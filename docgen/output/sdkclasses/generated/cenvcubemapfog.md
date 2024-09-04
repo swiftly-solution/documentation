@@ -111,11 +111,10 @@ Write: cenvcubemapfog.HasHeightFogEnd = value
 Read: cenvcubemapfog.FirstTime
 Write: cenvcubemapfog.FirstTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: cenvcubemapfog.Parent
-Write: cenvcubemapfog.Parent = value
 ```
 # Functions
 ## ToPtr

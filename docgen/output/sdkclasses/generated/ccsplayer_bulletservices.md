@@ -21,11 +21,10 @@ CCSPlayer_BulletServices(ptr --[[ string ]])
 Read: ccsplayer_bulletservices.TotalHitsOnServer
 Write: ccsplayer_bulletservices.TotalHitsOnServer = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_bulletservices.Parent
-Write: ccsplayer_bulletservices.Parent = value
 ```
 # Functions
 ## ToPtr

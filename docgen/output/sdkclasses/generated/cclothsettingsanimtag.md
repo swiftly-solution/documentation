@@ -39,11 +39,10 @@ Write: cclothsettingsanimtag.EaseOut = value
 Read: cclothsettingsanimtag.VertexSet
 Write: cclothsettingsanimtag.VertexSet = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cclothsettingsanimtag.Parent
-Write: cclothsettingsanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -92,11 +92,10 @@ Write: cbaseanimgraphcontroller.LastUpdateSkipped = value
 Read: cbaseanimgraphcontroller.PrevAnimUpdateTime
 Write: cbaseanimgraphcontroller.PrevAnimUpdateTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSkeletonAnimationController
 Read: cbaseanimgraphcontroller.Parent
-Write: cbaseanimgraphcontroller.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CSoundOpvarSetAutoRoomEntity(ptr --[[ string ]])
 ```
 # Properties
-## TraceResults 
+## TraceResults (Read-Only)
 ```lua
 @type table
 Read: csoundopvarsetautoroomentity.TraceResults
-Write: csoundopvarsetautoroomentity.TraceResults = value
 ```
 ## Size 
 ```lua
@@ -39,11 +38,10 @@ Write: csoundopvarsetautoroomentity.HeightTolerance = value
 Read: csoundopvarsetautoroomentity.SizeSqr
 Write: csoundopvarsetautoroomentity.SizeSqr = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundOpvarSetPointEntity
 Read: csoundopvarsetautoroomentity.Parent
-Write: csoundopvarsetautoroomentity.Parent = value
 ```
 # Functions
 ## ToPtr

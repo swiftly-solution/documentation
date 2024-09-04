@@ -15,11 +15,10 @@ category:
 CDSPPresetMixgroupModifierTable(ptr --[[ string ]])
 ```
 # Properties
-## Table 
+## Table (Read-Only)
 ```lua
 @type table
 Read: cdsppresetmixgroupmodifiertable.Table
-Write: cdsppresetmixgroupmodifiertable.Table = value
 ```
 # Functions
 ## ToPtr

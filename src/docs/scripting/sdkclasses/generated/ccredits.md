@@ -32,11 +32,10 @@ Write: ccredits.RolledOutroCredits = value
 Read: ccredits.LogoLength
 Write: ccredits.LogoLength = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: ccredits.Parent
-Write: ccredits.Parent = value
 ```
 # Functions
 ## ToPtr

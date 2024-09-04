@@ -15,11 +15,10 @@ category:
 CNmControlParameterBoolNode(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmBoolValueNode
 Read: cnmcontrolparameterboolnode.Parent
-Write: cnmcontrolparameterboolnode.Parent = value
 ```
 # Functions
 ## ToPtr

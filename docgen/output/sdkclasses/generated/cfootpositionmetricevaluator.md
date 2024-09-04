@@ -15,11 +15,10 @@ category:
 CFootPositionMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## FootIndices 
+## FootIndices (Read-Only)
 ```lua
 @type table
 Read: cfootpositionmetricevaluator.FootIndices
-Write: cfootpositionmetricevaluator.FootIndices = value
 ```
 ## IgnoreSlope 
 ```lua
@@ -27,11 +26,10 @@ Write: cfootpositionmetricevaluator.FootIndices = value
 Read: cfootpositionmetricevaluator.IgnoreSlope
 Write: cfootpositionmetricevaluator.IgnoreSlope = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cfootpositionmetricevaluator.Parent
-Write: cfootpositionmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

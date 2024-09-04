@@ -21,11 +21,10 @@ CNavVolumeVector(ptr --[[ string ]])
 Read: cnavvolumevector.HasBeenPreFiltered
 Write: cnavvolumevector.HasBeenPreFiltered = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolume
 Read: cnavvolumevector.Parent
-Write: cnavvolumevector.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CTriggerCallback(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggercallback.Parent
-Write: ctriggercallback.Parent = value
 ```
 # Functions
 ## ToPtr

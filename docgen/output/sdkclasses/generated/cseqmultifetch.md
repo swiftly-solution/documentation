@@ -20,11 +20,10 @@ CSeqMultiFetch(ptr --[[ string ]])
 @type CSeqMultiFetchFlag
 Read: cseqmultifetch.Flags
 ```
-## LocalReferenceArray 
+## LocalReferenceArray (Read-Only)
 ```lua
 @type table
 Read: cseqmultifetch.LocalReferenceArray
-Write: cseqmultifetch.LocalReferenceArray = value
 ```
 ## GroupSize 
 ```lua
@@ -38,17 +37,15 @@ Write: cseqmultifetch.GroupSize = value
 Read: cseqmultifetch.LocalPose
 Write: cseqmultifetch.LocalPose = value
 ```
-## PoseKeyArray0 
+## PoseKeyArray0 (Read-Only)
 ```lua
 @type table
 Read: cseqmultifetch.PoseKeyArray0
-Write: cseqmultifetch.PoseKeyArray0 = value
 ```
-## PoseKeyArray1 
+## PoseKeyArray1 (Read-Only)
 ```lua
 @type table
 Read: cseqmultifetch.PoseKeyArray1
-Write: cseqmultifetch.PoseKeyArray1 = value
 ```
 ## LocalCyclePoseParameter 
 ```lua

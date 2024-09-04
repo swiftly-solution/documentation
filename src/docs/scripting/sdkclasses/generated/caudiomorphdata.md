@@ -15,23 +15,20 @@ category:
 CAudioMorphData(ptr --[[ string ]])
 ```
 # Properties
-## Times 
+## Times (Read-Only)
 ```lua
 @type table
 Read: caudiomorphdata.Times
-Write: caudiomorphdata.Times = value
 ```
-## NameHashCodes 
+## NameHashCodes (Read-Only)
 ```lua
 @type table
 Read: caudiomorphdata.NameHashCodes
-Write: caudiomorphdata.NameHashCodes = value
 ```
-## NameStrings 
+## NameStrings (Read-Only)
 ```lua
 @type table
 Read: caudiomorphdata.NameStrings
-Write: caudiomorphdata.NameStrings = value
 ```
 ## EaseIn 
 ```lua

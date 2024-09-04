@@ -95,11 +95,10 @@ Read: ctriggerlook.OnStartLook
 @type CEntityIOOutput
 Read: ctriggerlook.OnEndLook
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTriggerOnce
 Read: ctriggerlook.Parent
-Write: ctriggerlook.Parent = value
 ```
 # Functions
 ## ToPtr

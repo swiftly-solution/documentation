@@ -21,11 +21,10 @@ PointDefinitionWithTimeValues_t(ptr --[[ string ]])
 Read: pointdefinitionwithtimevalues_t.TimeDuration
 Write: pointdefinitionwithtimevalues_t.TimeDuration = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type PointDefinition_t
 Read: pointdefinitionwithtimevalues_t.Parent
-Write: pointdefinitionwithtimevalues_t.Parent = value
 ```
 # Functions
 ## ToPtr

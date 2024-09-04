@@ -20,11 +20,10 @@ CTriggerMultiple(ptr --[[ string ]])
 @type CEntityIOOutput
 Read: ctriggermultiple.OnTrigger
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggermultiple.Parent
-Write: ctriggermultiple.Parent = value
 ```
 # Functions
 ## ToPtr

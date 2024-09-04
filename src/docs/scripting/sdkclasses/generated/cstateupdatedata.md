@@ -26,17 +26,15 @@ Write: cstateupdatedata.Name = value
 @type AnimScriptHandle
 Read: cstateupdatedata.Script
 ```
-## TransitionIndices 
+## TransitionIndices (Read-Only)
 ```lua
 @type table
 Read: cstateupdatedata.TransitionIndices
-Write: cstateupdatedata.TransitionIndices = value
 ```
-## Actions 
+## Actions (Read-Only)
 ```lua
 @type table
 Read: cstateupdatedata.Actions
-Write: cstateupdatedata.Actions = value
 ```
 ## StateID (Read-Only)
 ```lua

@@ -103,11 +103,10 @@ Write: cenvexplosion.EntityIgnoreName = value
 @type CBaseEntity
 Read: cenvexplosion.EntityIgnore
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: cenvexplosion.Parent
-Write: cenvexplosion.Parent = value
 ```
 # Functions
 ## ToPtr

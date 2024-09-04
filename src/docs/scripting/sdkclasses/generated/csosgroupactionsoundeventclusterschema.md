@@ -57,11 +57,10 @@ Write: csosgroupactionsoundeventclusterschema.GroupBoundingBoxMinsOpvar = value
 Read: csosgroupactionsoundeventclusterschema.GroupBoundingBoxMaxsOpvar
 Write: csosgroupactionsoundeventclusterschema.GroupBoundingBoxMaxsOpvar = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactionsoundeventclusterschema.Parent
-Write: csosgroupactionsoundeventclusterschema.Parent = value
 ```
 # Functions
 ## ToPtr

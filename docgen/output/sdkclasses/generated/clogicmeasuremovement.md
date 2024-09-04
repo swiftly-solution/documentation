@@ -65,11 +65,10 @@ Write: clogicmeasuremovement.Scale = value
 Read: clogicmeasuremovement.MeasureType
 Write: clogicmeasuremovement.MeasureType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicmeasuremovement.Parent
-Write: clogicmeasuremovement.Parent = value
 ```
 # Functions
 ## ToPtr

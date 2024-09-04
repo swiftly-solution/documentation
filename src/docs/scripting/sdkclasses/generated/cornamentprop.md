@@ -21,11 +21,10 @@ COrnamentProp(ptr --[[ string ]])
 Read: cornamentprop.InitialOwner
 Write: cornamentprop.InitialOwner = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CDynamicProp
 Read: cornamentprop.Parent
-Write: cornamentprop.Parent = value
 ```
 # Functions
 ## ToPtr

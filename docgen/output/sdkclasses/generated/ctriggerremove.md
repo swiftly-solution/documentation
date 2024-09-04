@@ -20,11 +20,10 @@ CTriggerRemove(ptr --[[ string ]])
 @type CEntityIOOutput
 Read: ctriggerremove.OnRemove
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerremove.Parent
-Write: ctriggerremove.Parent = value
 ```
 # Functions
 ## ToPtr

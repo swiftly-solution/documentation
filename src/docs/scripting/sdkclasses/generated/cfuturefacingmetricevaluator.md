@@ -27,11 +27,10 @@ Write: cfuturefacingmetricevaluator.Distance = value
 Read: cfuturefacingmetricevaluator.Time
 Write: cfuturefacingmetricevaluator.Time = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cfuturefacingmetricevaluator.Parent
-Write: cfuturefacingmetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

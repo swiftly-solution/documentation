@@ -57,11 +57,10 @@ Write: cpathkeyframe.PrevKey = value
 Read: cpathkeyframe.MoveSpeed
 Write: cpathkeyframe.MoveSpeed = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: cpathkeyframe.Parent
-Write: cpathkeyframe.Parent = value
 ```
 # Functions
 ## ToPtr

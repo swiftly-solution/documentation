@@ -44,11 +44,10 @@ Write: cinfodynamicshadowhint.LightChoice = value
 @type CBaseEntity
 Read: cinfodynamicshadowhint.Light
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfodynamicshadowhint.Parent
-Write: cinfodynamicshadowhint.Parent = value
 ```
 # Functions
 ## ToPtr

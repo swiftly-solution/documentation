@@ -167,11 +167,10 @@ Write: cbasedoor.IsChaining = value
 Read: cbasedoor.IsUsable
 Write: cbasedoor.IsUsable = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseToggle
 Read: cbasedoor.Parent
-Write: cbasedoor.Parent = value
 ```
 # Functions
 ## ToPtr

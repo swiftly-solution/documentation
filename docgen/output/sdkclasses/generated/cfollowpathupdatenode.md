@@ -91,11 +91,10 @@ Write: cfollowpathupdatenode.TurnToFaceOffset = value
 Read: cfollowpathupdatenode.TurnToFace
 Write: cfollowpathupdatenode.TurnToFace = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfollowpathupdatenode.Parent
-Write: cfollowpathupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -20,11 +20,10 @@ CFuncWater(ptr --[[ string ]])
 @type CBuoyancyHelper
 Read: cfuncwater.BuoyancyHelper
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncwater.Parent
-Write: cfuncwater.Parent = value
 ```
 # Functions
 ## ToPtr

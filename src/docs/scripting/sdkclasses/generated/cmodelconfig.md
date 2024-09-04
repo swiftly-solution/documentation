@@ -21,11 +21,10 @@ CModelConfig(ptr --[[ string ]])
 Read: cmodelconfig.ConfigName
 Write: cmodelconfig.ConfigName = value
 ```
-## Elements 
+## Elements (Read-Only)
 ```lua
 @type table
 Read: cmodelconfig.Elements
-Write: cmodelconfig.Elements = value
 ```
 ## TopLevel 
 ```lua

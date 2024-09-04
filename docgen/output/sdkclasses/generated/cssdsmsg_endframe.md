@@ -15,11 +15,10 @@ category:
 CSSDSMsg_EndFrame(ptr --[[ string ]])
 ```
 # Properties
-## Views 
+## Views (Read-Only)
 ```lua
 @type table
 Read: cssdsmsg_endframe.Views
-Write: cssdsmsg_endframe.Views = value
 ```
 # Functions
 ## ToPtr

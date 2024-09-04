@@ -21,11 +21,10 @@ WeightList(ptr --[[ string ]])
 Read: weightlist.Name
 Write: weightlist.Name = value
 ```
-## Weights 
+## Weights (Read-Only)
 ```lua
 @type table
 Read: weightlist.Weights
-Write: weightlist.Weights = value
 ```
 # Functions
 ## ToPtr

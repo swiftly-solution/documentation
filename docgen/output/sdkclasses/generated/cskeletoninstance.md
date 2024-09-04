@@ -50,11 +50,10 @@ Write: cskeletoninstance.MaterialGroup = value
 Read: cskeletoninstance.HitboxSet
 Write: cskeletoninstance.HitboxSet = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CGameSceneNode
 Read: cskeletoninstance.Parent
-Write: cskeletoninstance.Parent = value
 ```
 # Functions
 ## ToPtr

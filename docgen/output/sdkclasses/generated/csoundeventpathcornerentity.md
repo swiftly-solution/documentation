@@ -51,11 +51,10 @@ Write: csoundeventpathcornerentity.DotProductMax = value
 Read: csoundeventpathcornerentity.Playing
 Write: csoundeventpathcornerentity.Playing = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundEventEntity
 Read: csoundeventpathcornerentity.Parent
-Write: csoundeventpathcornerentity.Parent = value
 ```
 # Functions
 ## ToPtr

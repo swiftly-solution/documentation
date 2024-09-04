@@ -39,11 +39,10 @@ Write: cspotlightend.SpotlightDir = value
 Read: cspotlightend.SpotlightOrg
 Write: cspotlightend.SpotlightOrg = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cspotlightend.Parent
-Write: cspotlightend.Parent = value
 ```
 # Functions
 ## ToPtr

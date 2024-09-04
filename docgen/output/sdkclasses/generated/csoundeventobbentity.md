@@ -27,11 +27,10 @@ Write: csoundeventobbentity.Mins = value
 Read: csoundeventobbentity.Maxs
 Write: csoundeventobbentity.Maxs = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSoundEventEntity
 Read: csoundeventobbentity.Parent
-Write: csoundeventobbentity.Parent = value
 ```
 # Functions
 ## ToPtr

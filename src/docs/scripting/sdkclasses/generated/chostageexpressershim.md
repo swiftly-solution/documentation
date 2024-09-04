@@ -21,11 +21,10 @@ CHostageExpresserShim(ptr --[[ string ]])
 Read: chostageexpressershim.Expresser
 Write: chostageexpressershim.Expresser = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseCombatCharacter
 Read: chostageexpressershim.Parent
-Write: chostageexpressershim.Parent = value
 ```
 # Functions
 ## ToPtr

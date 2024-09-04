@@ -33,11 +33,10 @@ Write: cfuncinteractionlayerclip.InteractsAs = value
 Read: cfuncinteractionlayerclip.InteractsWith
 Write: cfuncinteractionlayerclip.InteractsWith = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncinteractionlayerclip.Parent
-Write: cfuncinteractionlayerclip.Parent = value
 ```
 # Functions
 ## ToPtr

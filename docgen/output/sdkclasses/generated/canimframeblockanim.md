@@ -27,11 +27,10 @@ Write: canimframeblockanim.StartFrame = value
 Read: canimframeblockanim.EndFrame
 Write: canimframeblockanim.EndFrame = value
 ```
-## SegmentIndexArray 
+## SegmentIndexArray (Read-Only)
 ```lua
 @type table
 Read: canimframeblockanim.SegmentIndexArray
-Write: canimframeblockanim.SegmentIndexArray = value
 ```
 # Functions
 ## ToPtr

@@ -235,11 +235,10 @@ Write: chostage.SpawnGroundPos = value
 Read: chostage.HostageResetPosition
 Write: chostage.HostageResetPosition = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CHostageExpresserShim
 Read: chostage.Parent
-Write: chostage.Parent = value
 ```
 # Functions
 ## ToPtr

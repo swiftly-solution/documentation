@@ -21,11 +21,10 @@ CRulePointEntity(ptr --[[ string ]])
 Read: crulepointentity.Score
 Write: crulepointentity.Score = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CRuleEntity
 Read: crulepointentity.Parent
-Write: crulepointentity.Parent = value
 ```
 # Functions
 ## ToPtr

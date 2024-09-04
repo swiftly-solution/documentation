@@ -31,34 +31,30 @@ Read: cseqs1seqdesc.Fetch
 Read: cseqs1seqdesc.LocalWeightlist
 Write: cseqs1seqdesc.LocalWeightlist = value
 ```
-## AutoLayerArray 
+## AutoLayerArray (Read-Only)
 ```lua
 @type table
 Read: cseqs1seqdesc.AutoLayerArray
-Write: cseqs1seqdesc.AutoLayerArray = value
 ```
-## IKLockArray 
+## IKLockArray (Read-Only)
 ```lua
 @type table
 Read: cseqs1seqdesc.IKLockArray
-Write: cseqs1seqdesc.IKLockArray = value
 ```
 ## Transition (Read-Only)
 ```lua
 @type CSeqTransition
 Read: cseqs1seqdesc.Transition
 ```
-## ActivityArray 
+## ActivityArray (Read-Only)
 ```lua
 @type table
 Read: cseqs1seqdesc.ActivityArray
-Write: cseqs1seqdesc.ActivityArray = value
 ```
-## FootMotion 
+## FootMotion (Read-Only)
 ```lua
 @type table
 Read: cseqs1seqdesc.FootMotion
-Write: cseqs1seqdesc.FootMotion = value
 ```
 # Functions
 ## ToPtr

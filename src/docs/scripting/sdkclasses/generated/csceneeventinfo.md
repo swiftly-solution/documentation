@@ -63,11 +63,6 @@ Write: csceneeventinfo.IsGesture = value
 Read: csceneeventinfo.ShouldRemove
 Write: csceneeventinfo.ShouldRemove = value
 ```
-## Target (Read-Only)
-```lua
-@type CBaseEntity
-Read: csceneeventinfo.Target
-```
 ## SceneEventId (Read-Only)
 ```lua
 @type SceneEventId_t

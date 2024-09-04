@@ -15,11 +15,10 @@ category:
 CFuncIllusionary(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cfuncillusionary.Parent
-Write: cfuncillusionary.Parent = value
 ```
 # Functions
 ## ToPtr

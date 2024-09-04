@@ -26,11 +26,10 @@ Read: cpointclientuidialog.Activator
 Read: cpointclientuidialog.StartEnabled
 Write: cpointclientuidialog.StartEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseClientUIEntity
 Read: cpointclientuidialog.Parent
-Write: cpointclientuidialog.Parent = value
 ```
 # Functions
 ## ToPtr

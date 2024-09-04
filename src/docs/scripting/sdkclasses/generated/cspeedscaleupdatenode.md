@@ -20,11 +20,10 @@ CSpeedScaleUpdateNode(ptr --[[ string ]])
 @type CAnimParamHandle
 Read: cspeedscaleupdatenode.ParamIndex
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cspeedscaleupdatenode.Parent
-Write: cspeedscaleupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

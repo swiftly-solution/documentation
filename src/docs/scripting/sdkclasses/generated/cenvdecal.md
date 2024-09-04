@@ -63,11 +63,10 @@ Write: cenvdecal.ProjectOnWater = value
 Read: cenvdecal.DepthSortBias
 Write: cenvdecal.DepthSortBias = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: cenvdecal.Parent
-Write: cenvdecal.Parent = value
 ```
 # Functions
 ## ToPtr

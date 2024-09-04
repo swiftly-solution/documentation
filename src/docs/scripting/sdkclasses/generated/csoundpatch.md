@@ -43,11 +43,6 @@ Write: csoundpatch.LastTime = value
 Read: csoundpatch.SoundScriptName
 Write: csoundpatch.SoundScriptName = value
 ```
-## Ent (Read-Only)
-```lua
-@type CBaseEntity
-Read: csoundpatch.Ent
-```
 ## SoundEntityIndex 
 ```lua
 @type number

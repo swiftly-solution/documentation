@@ -15,11 +15,10 @@ category:
 CTriggerHostageReset(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggerhostagereset.Parent
-Write: ctriggerhostagereset.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -27,29 +27,25 @@ Write: animationdecodedebugdumpelement_t.EntityIndex = value
 Read: animationdecodedebugdumpelement_t.ModelName
 Write: animationdecodedebugdumpelement_t.ModelName = value
 ```
-## PoseParams 
+## PoseParams (Read-Only)
 ```lua
 @type table
 Read: animationdecodedebugdumpelement_t.PoseParams
-Write: animationdecodedebugdumpelement_t.PoseParams = value
 ```
-## DecodeOps 
+## DecodeOps (Read-Only)
 ```lua
 @type table
 Read: animationdecodedebugdumpelement_t.DecodeOps
-Write: animationdecodedebugdumpelement_t.DecodeOps = value
 ```
-## InternalOps 
+## InternalOps (Read-Only)
 ```lua
 @type table
 Read: animationdecodedebugdumpelement_t.InternalOps
-Write: animationdecodedebugdumpelement_t.InternalOps = value
 ```
-## DecodedAnims 
+## DecodedAnims (Read-Only)
 ```lua
 @type table
 Read: animationdecodedebugdumpelement_t.DecodedAnims
-Write: animationdecodedebugdumpelement_t.DecodedAnims = value
 ```
 # Functions
 ## ToPtr

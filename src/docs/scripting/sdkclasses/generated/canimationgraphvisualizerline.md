@@ -33,11 +33,10 @@ Write: canimationgraphvisualizerline.WsPositionEnd = value
 Read: canimationgraphvisualizerline.Color
 Write: canimationgraphvisualizerline.Color = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizerline.Parent
-Write: canimationgraphvisualizerline.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -51,11 +51,10 @@ Write: ctexturebasedanimatable.StartTime = value
 Read: ctexturebasedanimatable.StartFrame
 Write: ctexturebasedanimatable.StartFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: ctexturebasedanimatable.Parent
-Write: ctexturebasedanimatable.Parent = value
 ```
 # Functions
 ## ToPtr

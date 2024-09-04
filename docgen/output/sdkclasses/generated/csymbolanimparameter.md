@@ -15,11 +15,10 @@ category:
 CSymbolAnimParameter(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: csymbolanimparameter.Parent
-Write: csymbolanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

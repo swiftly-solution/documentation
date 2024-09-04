@@ -45,11 +45,10 @@ Write: csosgroupactionsetsoundeventparameterschema.OpvarName = value
 Read: csosgroupactionsetsoundeventparameterschema.SortType
 Write: csosgroupactionsetsoundeventparameterschema.SortType = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CSosGroupActionSchema
 Read: csosgroupactionsetsoundeventparameterschema.Parent
-Write: csosgroupactionsetsoundeventparameterschema.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -51,11 +51,10 @@ Write: cragdollanimtag.DecayBias = value
 Read: cragdollanimtag.Destroy
 Write: cragdollanimtag.Destroy = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CAnimTagBase
 Read: cragdollanimtag.Parent
-Write: cragdollanimtag.Parent = value
 ```
 # Functions
 ## ToPtr

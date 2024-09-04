@@ -21,11 +21,10 @@ CNavVolumeSphericalShell(ptr --[[ string ]])
 Read: cnavvolumesphericalshell.RadiusInner
 Write: cnavvolumesphericalshell.RadiusInner = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNavVolumeSphere
 Read: cnavvolumesphericalshell.Parent
-Write: cnavvolumesphericalshell.Parent = value
 ```
 # Functions
 ## ToPtr

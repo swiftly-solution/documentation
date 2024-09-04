@@ -15,11 +15,10 @@ category:
 CInfoTeleportDestination(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfoteleportdestination.Parent
-Write: cinfoteleportdestination.Parent = value
 ```
 # Functions
 ## ToPtr

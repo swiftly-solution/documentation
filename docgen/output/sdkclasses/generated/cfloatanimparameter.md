@@ -39,11 +39,10 @@ Write: cfloatanimparameter.MaxValue = value
 Read: cfloatanimparameter.Interpolate
 Write: cfloatanimparameter.Interpolate = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CConcreteAnimParameter
 Read: cfloatanimparameter.Parent
-Write: cfloatanimparameter.Parent = value
 ```
 # Functions
 ## ToPtr

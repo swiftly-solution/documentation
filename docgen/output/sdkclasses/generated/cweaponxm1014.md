@@ -15,11 +15,10 @@ category:
 CWeaponXM1014(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cweaponxm1014.Parent
-Write: cweaponxm1014.Parent = value
 ```
 # Functions
 ## ToPtr

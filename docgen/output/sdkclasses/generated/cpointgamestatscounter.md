@@ -27,11 +27,10 @@ Write: cpointgamestatscounter.StrStatisticName = value
 Read: cpointgamestatscounter.Disabled
 Write: cpointgamestatscounter.Disabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpointgamestatscounter.Parent
-Write: cpointgamestatscounter.Parent = value
 ```
 # Functions
 ## ToPtr

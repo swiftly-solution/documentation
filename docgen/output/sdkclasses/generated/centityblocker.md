@@ -15,11 +15,10 @@ category:
 CEntityBlocker(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: centityblocker.Parent
-Write: centityblocker.Parent = value
 ```
 # Functions
 ## ToPtr

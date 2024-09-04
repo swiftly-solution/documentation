@@ -15,11 +15,10 @@ category:
 CTriggerTripWire(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseTrigger
 Read: ctriggertripwire.Parent
-Write: ctriggertripwire.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -33,11 +33,10 @@ Write: crevertsaved.Duration = value
 Read: crevertsaved.HoldTime
 Write: crevertsaved.HoldTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CModelPointEntity
 Read: crevertsaved.Parent
-Write: crevertsaved.Parent = value
 ```
 # Functions
 ## ToPtr

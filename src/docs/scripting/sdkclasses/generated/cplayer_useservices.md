@@ -15,11 +15,10 @@ category:
 CPlayer_UseServices(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: cplayer_useservices.Parent
-Write: cplayer_useservices.Parent = value
 ```
 # Functions
 ## ToPtr

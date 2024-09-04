@@ -21,11 +21,10 @@ CSlowDownOnSlopesUpdateNode(ptr --[[ string ]])
 Read: cslowdownonslopesupdatenode.SlowDownStrength
 Write: cslowdownonslopesupdatenode.SlowDownStrength = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cslowdownonslopesupdatenode.Parent
-Write: cslowdownonslopesupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr

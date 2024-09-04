@@ -21,11 +21,10 @@ CShatterGlassShard(ptr --[[ string ]])
 Read: cshatterglassshard.ShardHandle
 Write: cshatterglassshard.ShardHandle = value
 ```
-## PanelVertices 
+## PanelVertices (Read-Only)
 ```lua
 @type table
 Read: cshatterglassshard.PanelVertices
-Write: cshatterglassshard.PanelVertices = value
 ```
 ## LocalPanelSpaceOrigin 
 ```lua
@@ -180,11 +179,10 @@ Write: cshatterglassshard.ShatterRateLimited = value
 @type CBaseEntity
 Read: cshatterglassshard.EntityHittingMe
 ```
-## Neighbors 
+## Neighbors (Read-Only)
 ```lua
 @type table
 Read: cshatterglassshard.Neighbors
-Write: cshatterglassshard.Neighbors = value
 ```
 # Functions
 ## ToPtr

@@ -32,11 +32,10 @@ Write: cbtnodeconditioninactive.SensorInactivityThresholdSeconds = value
 @type CountdownTimer
 Read: cbtnodeconditioninactive.SensorInactivityTimer
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBtNodeCondition
 Read: cbtnodeconditioninactive.Parent
-Write: cbtnodeconditioninactive.Parent = value
 ```
 # Functions
 ## ToPtr

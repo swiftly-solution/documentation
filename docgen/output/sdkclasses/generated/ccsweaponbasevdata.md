@@ -474,11 +474,10 @@ Write: ccsweaponbasevdata.ThrowVelocity = value
 Read: ccsweaponbasevdata.SmokeColor
 Write: ccsweaponbasevdata.SmokeColor = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBasePlayerWeaponVData
 Read: ccsweaponbasevdata.Parent
-Write: ccsweaponbasevdata.Parent = value
 ```
 # Functions
 ## ToPtr

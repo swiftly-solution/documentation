@@ -27,11 +27,10 @@ Write: clogiccompare.InValue = value
 Read: clogiccompare.CompareValue
 Write: clogiccompare.CompareValue = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogiccompare.Parent
-Write: clogiccompare.Parent = value
 ```
 # Functions
 ## ToPtr

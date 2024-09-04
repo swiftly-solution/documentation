@@ -15,11 +15,10 @@ category:
 CPerParticleVecInput(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleVecInput
 Read: cperparticlevecinput.Parent
-Write: cperparticlevecinput.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,17 +15,15 @@ category:
 CFootCycleMetricEvaluator(ptr --[[ string ]])
 ```
 # Properties
-## FootIndices 
+## FootIndices (Read-Only)
 ```lua
 @type table
 Read: cfootcyclemetricevaluator.FootIndices
-Write: cfootcyclemetricevaluator.FootIndices = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CMotionMetricEvaluator
 Read: cfootcyclemetricevaluator.Parent
-Write: cfootcyclemetricevaluator.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CEnvSoundscapeProxyAlias_snd_soundscape_proxy(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CEnvSoundscapeProxy
 Read: cenvsoundscapeproxyalias_snd_soundscape_proxy.Parent
-Write: cenvsoundscapeproxyalias_snd_soundscape_proxy.Parent = value
 ```
 # Functions
 ## ToPtr

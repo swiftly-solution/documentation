@@ -15,11 +15,10 @@ category:
 CBumpMine(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBase
 Read: cbumpmine.Parent
-Write: cbumpmine.Parent = value
 ```
 # Functions
 ## ToPtr

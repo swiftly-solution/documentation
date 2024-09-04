@@ -140,11 +140,10 @@ Write: csprite.SpriteWidth = value
 Read: csprite.SpriteHeight
 Write: csprite.SpriteHeight = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: csprite.Parent
-Write: csprite.Parent = value
 ```
 # Functions
 ## ToPtr

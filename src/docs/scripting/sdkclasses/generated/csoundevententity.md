@@ -85,11 +85,10 @@ Read: csoundevententity.Source
 Read: csoundevententity.EntityIndexSelection
 Write: csoundevententity.EntityIndexSelection = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseEntity
 Read: csoundevententity.Parent
-Write: csoundevententity.Parent = value
 ```
 # Functions
 ## ToPtr

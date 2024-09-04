@@ -21,11 +21,10 @@ CVoiceContainerBlender(ptr --[[ string ]])
 Read: cvoicecontainerblender.BlendFactor
 Write: cvoicecontainerblender.BlendFactor = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CVoiceContainerBase
 Read: cvoicecontainerblender.Parent
-Write: cvoicecontainerblender.Parent = value
 ```
 # Functions
 ## ToPtr

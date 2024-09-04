@@ -54,11 +54,10 @@ Read: clogicdistancecheck.InZone2
 @type CEntityIOOutput
 Read: clogicdistancecheck.InZone3
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CLogicalEntity
 Read: clogicdistancecheck.Parent
-Write: clogicdistancecheck.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -45,11 +45,10 @@ Write: cenvlaser.FirePosition = value
 Read: cenvlaser.StartFrame
 Write: cenvlaser.StartFrame = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBeam
 Read: cenvlaser.Parent
-Write: cenvlaser.Parent = value
 ```
 # Functions
 ## ToPtr

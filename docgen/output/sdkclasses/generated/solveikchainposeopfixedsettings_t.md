@@ -15,11 +15,10 @@ category:
 SolveIKChainPoseOpFixedSettings_t(ptr --[[ string ]])
 ```
 # Properties
-## ChainsToSolveData 
+## ChainsToSolveData (Read-Only)
 ```lua
 @type table
 Read: solveikchainposeopfixedsettings_t.ChainsToSolveData
-Write: solveikchainposeopfixedsettings_t.ChainsToSolveData = value
 ```
 ## MatchTargetOrientation 
 ```lua

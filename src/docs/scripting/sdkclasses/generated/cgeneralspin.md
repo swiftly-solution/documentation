@@ -33,11 +33,10 @@ Write: cgeneralspin.SpinRateMinDegrees = value
 Read: cgeneralspin.SpinRateStopTime
 Write: cgeneralspin.SpinRateStopTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CParticleFunctionOperator
 Read: cgeneralspin.Parent
-Write: cgeneralspin.Parent = value
 ```
 # Functions
 ## ToPtr

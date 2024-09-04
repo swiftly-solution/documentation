@@ -252,11 +252,10 @@ Write: csceneentity.BreakOnNonIdle = value
 Read: csceneentity.SceneFinished
 Write: csceneentity.SceneFinished = value
 ```
-## ActorList 
+## ActorList (Read-Only)
 ```lua
 @type table
 Read: csceneentity.ActorList
-Write: csceneentity.ActorList = value
 ```
 ## SceneFlushCounter 
 ```lua
@@ -295,11 +294,10 @@ Read: csceneentity.OnPaused
 @type CEntityIOOutput
 Read: csceneentity.OnResumed
 ```
-## OnTrigger 
+## OnTrigger (Read-Only)
 ```lua
 @type table
 Read: csceneentity.OnTrigger
-Write: csceneentity.OnTrigger = value
 ```
 ## InterruptScene (Read-Only)
 ```lua
@@ -376,11 +374,10 @@ Write: csceneentity.BusyActor = value
 Read: csceneentity.PlayerDeathBehavior
 Write: csceneentity.PlayerDeathBehavior = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: csceneentity.Parent
-Write: csceneentity.Parent = value
 ```
 # Functions
 ## ToPtr

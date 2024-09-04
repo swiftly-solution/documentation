@@ -25,11 +25,10 @@ Read: ccsplayer_hostageservices.CarriedHostage
 @type CBaseEntity
 Read: ccsplayer_hostageservices.CarriedHostageProp
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPlayerPawnComponent
 Read: ccsplayer_hostageservices.Parent
-Write: ccsplayer_hostageservices.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -531,11 +531,10 @@ Write: ccsgamerules.NumSpawnableTerrorist = value
 Read: ccsgamerules.NumSpawnableCT
 Write: ccsgamerules.NumSpawnableCT = value
 ```
-## SelectedHostageSpawnIndices 
+## SelectedHostageSpawnIndices (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.SelectedHostageSpawnIndices
-Write: ccsgamerules.SelectedHostageSpawnIndices = value
 ```
 ## SpawnPointsRandomSeed 
 ```lua
@@ -573,11 +572,10 @@ Write: ccsgamerules.ScrambleTeamsOnRestart = value
 Read: ccsgamerules.SwapTeamsOnRestart
 Write: ccsgamerules.SwapTeamsOnRestart = value
 ```
-## EndMatchTiedVotes 
+## EndMatchTiedVotes (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.EndMatchTiedVotes
-Write: ccsgamerules.EndMatchTiedVotes = value
 ```
 ## NeedToAskPlayersForContinueVote 
 ```lua
@@ -597,11 +595,10 @@ Write: ccsgamerules.NumQueuedMatchmakingAccounts = value
 Read: ccsgamerules.AvgPlayerRank
 Write: ccsgamerules.AvgPlayerRank = value
 ```
-## QueuedMatchmakingReservationString 
+## QueuedMatchmakingReservationString (Read-Only)
 ```lua
 @type string
 Read: ccsgamerules.QueuedMatchmakingReservationString
-Write: ccsgamerules.QueuedMatchmakingReservationString = value
 ```
 ## NumTotalTournamentDrops 
 ```lua
@@ -849,17 +846,15 @@ Write: ccsgamerules.MapHasBombZone = value
 Read: ccsgamerules.MainCTSpawnPos
 Write: ccsgamerules.MainCTSpawnPos = value
 ```
-## CTSpawnPointsMasterList 
+## CTSpawnPointsMasterList (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.CTSpawnPointsMasterList
-Write: ccsgamerules.CTSpawnPointsMasterList = value
 ```
-## TerroristSpawnPointsMasterList 
+## TerroristSpawnPointsMasterList (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.TerroristSpawnPointsMasterList
-Write: ccsgamerules.TerroristSpawnPointsMasterList = value
 ```
 ## RespawningAllRespawnablePlayers 
 ```lua
@@ -891,17 +886,15 @@ Write: ccsgamerules.NextTerroristSpawnPoint = value
 Read: ccsgamerules.TerroristSpawnPointUsedTime
 Write: ccsgamerules.TerroristSpawnPointUsedTime = value
 ```
-## CTSpawnPoints 
+## CTSpawnPoints (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.CTSpawnPoints
-Write: ccsgamerules.CTSpawnPoints = value
 ```
-## TerroristSpawnPoints 
+## TerroristSpawnPoints (Read-Only)
 ```lua
 @type table
 Read: ccsgamerules.TerroristSpawnPoints
-Write: ccsgamerules.TerroristSpawnPoints = value
 ```
 ## IsUnreservedGameServer 
 ```lua
@@ -1135,11 +1128,10 @@ Write: ccsgamerules.RoundStartCount = value
 Read: ccsgamerules.LastPerfSampleTime
 Write: ccsgamerules.LastPerfSampleTime = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CTeamplayRules
 Read: ccsgamerules.Parent
-Write: ccsgamerules.Parent = value
 ```
 # Functions
 ## ToPtr

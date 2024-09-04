@@ -27,11 +27,10 @@ Write: crandstopwatch.MinInterval = value
 Read: crandstopwatch.MaxInterval
 Write: crandstopwatch.MaxInterval = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CStopwatchBase
 Read: crandstopwatch.Parent
-Write: crandstopwatch.Parent = value
 ```
 # Functions
 ## ToPtr

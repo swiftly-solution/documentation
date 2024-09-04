@@ -27,11 +27,10 @@ Write: cfiresmoke.FlameModelIndex = value
 Read: cfiresmoke.FlameFromAboveModelIndex
 Write: cfiresmoke.FlameFromAboveModelIndex = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseFire
 Read: cfiresmoke.Parent
-Write: cfiresmoke.Parent = value
 ```
 # Functions
 ## ToPtr

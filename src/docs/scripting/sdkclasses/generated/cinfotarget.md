@@ -15,11 +15,10 @@ category:
 CInfoTarget(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cinfotarget.Parent
-Write: cinfotarget.Parent = value
 ```
 # Functions
 ## ToPtr

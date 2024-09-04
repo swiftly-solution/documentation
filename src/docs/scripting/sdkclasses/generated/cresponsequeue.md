@@ -15,11 +15,10 @@ category:
 CResponseQueue(ptr --[[ string ]])
 ```
 # Properties
-## ExpresserTargets 
+## ExpresserTargets (Read-Only)
 ```lua
 @type table
 Read: cresponsequeue.ExpresserTargets
-Write: cresponsequeue.ExpresserTargets = value
 ```
 # Functions
 ## ToPtr

@@ -79,11 +79,10 @@ Write: cnmtransitionnode.BlendWeightEasing = value
 Read: cnmtransitionnode.RootMotionBlend
 Write: cnmtransitionnode.RootMotionBlend = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CNmPoseNode
 Read: cnmtransitionnode.Parent
-Write: cnmtransitionnode.Parent = value
 ```
 # Functions
 ## ToPtr

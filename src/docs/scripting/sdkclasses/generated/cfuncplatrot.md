@@ -27,11 +27,10 @@ Write: cfuncplatrot.End = value
 Read: cfuncplatrot.Start
 Write: cfuncplatrot.Start = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncPlat
 Read: cfuncplatrot.Parent
-Write: cfuncplatrot.Parent = value
 ```
 # Functions
 ## ToPtr

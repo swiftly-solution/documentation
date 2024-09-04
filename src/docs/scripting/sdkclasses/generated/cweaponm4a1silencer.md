@@ -15,11 +15,10 @@ category:
 CWeaponM4A1Silencer(ptr --[[ string ]])
 ```
 # Properties
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CCSWeaponBaseGun
 Read: cweaponm4a1silencer.Parent
-Write: cweaponm4a1silencer.Parent = value
 ```
 # Functions
 ## ToPtr

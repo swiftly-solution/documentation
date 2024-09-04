@@ -68,11 +68,10 @@ Write: cfuncmonitor.Draw3DSkybox = value
 Read: cfuncmonitor.StartEnabled
 Write: cfuncmonitor.StartEnabled = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CFuncBrush
 Read: cfuncmonitor.Parent
-Write: cfuncmonitor.Parent = value
 ```
 # Functions
 ## ToPtr

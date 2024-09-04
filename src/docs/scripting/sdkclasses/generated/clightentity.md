@@ -21,11 +21,10 @@ CLightEntity(ptr --[[ string ]])
 Read: clightentity.CLightComponent
 Write: clightentity.CLightComponent = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
 Read: clightentity.Parent
-Write: clightentity.Parent = value
 ```
 # Functions
 ## ToPtr

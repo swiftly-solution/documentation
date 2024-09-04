@@ -32,11 +32,10 @@ Write: cpathcorner.Radius = value
 @type CEntityIOOutput
 Read: cpathcorner.OnPass
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CPointEntity
 Read: cpathcorner.Parent
-Write: cpathcorner.Parent = value
 ```
 # Functions
 ## ToPtr

@@ -15,11 +15,10 @@ category:
 CFootStepTriggerUpdateNode(ptr --[[ string ]])
 ```
 # Properties
-## Triggers 
+## Triggers (Read-Only)
 ```lua
 @type table
 Read: cfootsteptriggerupdatenode.Triggers
-Write: cfootsteptriggerupdatenode.Triggers = value
 ```
 ## Tolerance 
 ```lua
@@ -27,11 +26,10 @@ Write: cfootsteptriggerupdatenode.Triggers = value
 Read: cfootsteptriggerupdatenode.Tolerance
 Write: cfootsteptriggerupdatenode.Tolerance = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CUnaryUpdateNode
 Read: cfootsteptriggerupdatenode.Parent
-Write: cfootsteptriggerupdatenode.Parent = value
 ```
 # Functions
 ## ToPtr
