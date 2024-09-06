@@ -96879,6 +96879,31 @@
                             "fieldName": "string"
                         }
                     },
+                    "GetMessage": {
+                        "return": {
+                            "lua": "UserMessage"
+                        },
+                        "params": {
+                            "fieldName": "string"
+                        }
+                    },
+                    "GetRepeatedMessage": {
+                        "return": {
+                            "lua": "UserMessage"
+                        },
+                        "params": {
+                            "fieldName": "string",
+                            "index": "number"
+                        }
+                    },
+                    "AddMessage": {
+                        "return": {
+                            "lua": "UserMessage"
+                        },
+                        "params": {
+                            "fieldName": "string"
+                        }
+                    },
                     "SendToPlayer": {
                         "return": {
                             "lua": "void"

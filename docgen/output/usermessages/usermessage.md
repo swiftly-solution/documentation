@@ -397,6 +397,21 @@ usermessage:RemoveRepeatedFieldValue(fieldName --[[ string ]], index --[[ number
 @returns number
 usermessage:GetRepeatedFieldCount(fieldName --[[ string ]])
 ```
+## GetMessage
+```lua
+@returns UserMessage
+usermessage:GetMessage(fieldName --[[ string ]])
+```
+## GetRepeatedMessage
+```lua
+@returns UserMessage
+usermessage:GetRepeatedMessage(fieldName --[[ string ]], index --[[ number ]])
+```
+## AddMessage
+```lua
+@returns UserMessage
+usermessage:AddMessage(fieldName --[[ string ]])
+```
 ## SendToPlayer
 ```lua
 @returns void
