@@ -147,6 +147,11 @@ Read: cgamescenenode.RenderOrigin
 Write: cgamescenenode.RenderOrigin = value
 ```
 # Functions
+## GetSkeletonInstance
+```lua
+@returns CSkeletonInstance
+cgamescenenode:GetSkeletonInstance()
+```
 ## ToPtr
 ```lua
 @returns string

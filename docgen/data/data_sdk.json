@@ -3344,6 +3344,12 @@
             }
         },
         "functions": {
+            "GetSkeletonInstance": {
+                "return": {
+                    "lua": "CSkeletonInstance"
+                },
+                "params": {}
+            },
             "ToPtr": {
                 "return": {
                     "lua": "string"
@@ -65634,6 +65640,12 @@
             }
         },
         "functions": {
+            "GetPawn": {
+                "return": {
+                    "lua": "CBasePlayerPawn"
+                },
+                "params": {}
+            },
             "ToPtr": {
                 "return": {
                     "lua": "string"

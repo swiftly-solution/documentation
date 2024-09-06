@@ -21,6 +21,11 @@ CPlayerPawnComponent(ptr --[[ string ]])
 Read: cplayerpawncomponent.__pChainEntity
 ```
 # Functions
+## GetPawn
+```lua
+@returns CBasePlayerPawn
+cplayerpawncomponent:GetPawn()
+```
 ## ToPtr
 ```lua
 @returns string

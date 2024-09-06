@@ -21,7 +21,7 @@ Returns the translation for the specified key.
 @tab Lua
 ```lua
 @returns string
-FetchTranslation(key --[[ string ]])
+FetchTranslation(key --[[ string ]], playerid --[[ number/nil ]])
 ```
 
 :::
