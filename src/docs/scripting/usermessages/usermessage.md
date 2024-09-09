@@ -422,5 +422,30 @@ usermessage:SendToPlayer(playerid --[[ number ]])
 @returns void
 usermessage:SendToAllPlayers()
 ```
-This class supports doing operations on them: addition, division, multiplication, substraction.
+## AddClient
+```lua
+@returns void
+usermessage:AddClient(playerid --[[ number ]])
+```
+## RemoveClient
+```lua
+@returns void
+usermessage:RemoveClient(playerid --[[ number ]])
+```
+## ClearClients
+```lua
+@returns void
+usermessage:ClearClients()
+```
+## AddClients
+```lua
+@returns void
+usermessage:AddClients()
+```
+## GetClients
+```lua
+@returns table
+usermessage:GetClients()
+```
+
 :::
