@@ -1199,7 +1199,8 @@
                             "playerid": "number",
                             "attackerid": "number",
                             "damageinfo_ptr": "string",
-                            "inflictor_ptr": "string"
+                            "inflictor_ptr": "string",
+                            "ability_ptr": "string"
                         },
                         "additional": {}
                     },
