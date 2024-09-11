@@ -468,6 +468,11 @@ Read: cbaseentity.Parent
 @returns void
 cbaseentity:EmitSound(sound_name --[[ string ]], pitch --[[ number ]], volume --[[ number ]])
 ```
+## CollisionRulesChanged
+```lua
+@returns void
+cbaseentity:CollisionRulesChanged()
+```
 ## EHandle
 ```lua
 @returns CBaseEntity

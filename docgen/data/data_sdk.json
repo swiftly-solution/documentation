@@ -473,6 +473,12 @@
                     "volume": "number"
                 }
             },
+            "CollisionRulesChanged": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {}
+            },
             "EHandle": {
                 "return": {
                     "lua": "CBaseEntity"

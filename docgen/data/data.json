@@ -1188,6 +1188,21 @@
                         },
                         "additional": {}
                     },
+                    "onplayerdamage": {
+                        "title": "OnPlayerDamage",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a player receives damage.",
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "playerid": "number",
+                            "attackerid": "number",
+                            "damageinfo_ptr": "string",
+                            "inflictor_ptr": "string"
+                        },
+                        "additional": {}
+                    },
                     "onusermessagesend": {
                         "title": "OnUserMessageSend",
                         "template": "core-event-syntax",
@@ -10717,6 +10732,12 @@
                                     "pitch": "number",
                                     "volume": "number"
                                 }
+                            },
+                            "CollisionRulesChanged": {
+                                "return": {
+                                    "lua": "void"
+                                },
+                                "params": {}
                             },
                             "EHandle": {
                                 "return": {
