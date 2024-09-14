@@ -451,6 +451,23 @@
                 "icon": "code",
                 "order": 1,
                 "data": {
+                    "constructor": {
+                        "title": "Constructor",
+                        "template": "function-syntax",
+                        "description": "Generates an event object to trigger a game event from Counter Strike: 2.",
+                        "variable": {
+                            "lua": "Event"
+                        },
+                        "return": {
+                            "lua": "Event"
+                        },
+                        "params": {
+                            "event_name": "string"
+                        },
+                        "additional": {
+                            "lua": "The event names are being listed inside [Game Events](https://swiftlycs2.net/docs/scripting/events/gameevents/)."
+                        }
+                    },
                     "getinvokingplugin": {
                         "title": "GetInvokingPlugin",
                         "template": "function-syntax",
