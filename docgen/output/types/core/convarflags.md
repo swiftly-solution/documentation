@@ -1,16 +1,16 @@
 ---
-title: PluginState_t
+title: ConvarFlags
 index: true
 order: 2
 category:
   - Guide
 ---
 
-# PluginState_t
+# ConvarFlags
 ::: tabs
 @tab Lua
 ```lua
-PluginState_t = {
+ConvarFlags = {
     FCVAR_NONE = 0,
     FCVAR_LINKED_CONCOMMAND = 1<<0,
     FCVAR_DEVELOPMENTONLY = 1<<1,

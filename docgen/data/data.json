@@ -91241,8 +91241,8 @@
                 "icon": "laptop-code",
                 "order": 2,
                 "data": {
-                    "ConvarFlags": {
-                        "title": "PluginState_t",
+                    "convarflags": {
+                        "title": "ConvarFlags",
                         "template": "types-syntax",
                         "values": {
                             "FCVAR_NONE": "0",
