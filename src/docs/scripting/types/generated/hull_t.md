@@ -11,18 +11,18 @@ category:
 @tab Lua
 ```lua
 Hull_t = {
-    HULL_HUMAN = 0x0,
-    HULL_SMALL_CENTERED = 0x1,
-    HULL_WIDE_HUMAN = 0x2,
-    HULL_TINY = 0x3,
-    HULL_MEDIUM = 0x4,
-    HULL_TINY_CENTERED = 0x5,
-    HULL_LARGE = 0x6,
-    HULL_LARGE_CENTERED = 0x7,
-    HULL_MEDIUM_TALL = 0x8,
-    HULL_SMALL = 0x9,
-    NUM_HULLS = 0xa,
-    HULL_NONE = 0xb
+    HULL_HUMAN = 0,
+    HULL_LARGE = 6,
+    HULL_LARGE_CENTERED = 7,
+    HULL_MEDIUM = 4,
+    HULL_MEDIUM_TALL = 8,
+    HULL_NONE = 11,
+    HULL_SMALL = 9,
+    HULL_SMALL_CENTERED = 1,
+    HULL_TINY = 3,
+    HULL_TINY_CENTERED = 5,
+    HULL_WIDE_HUMAN = 2,
+    NUM_HULLS = 10
 }
 ```
 :::

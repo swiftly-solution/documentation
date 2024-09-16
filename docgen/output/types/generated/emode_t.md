@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 EMode_t = {
-    Peak = 0x0,
-    RMS = 0x1
+    Peak = 0,
+    RMS = 1
 }
 ```
 :::

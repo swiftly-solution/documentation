@@ -11,19 +11,19 @@ category:
 @tab Lua
 ```lua
 RenderMode_t = {
+    kRenderDevVisualizer = 11,
+    kRenderEnvironmental = 6,
+    kRenderGlow = 3,
+    kRenderModeCount = 12,
+    kRenderNone = 10,
     kRenderNormal = 0,
+    kRenderTransAdd = 5,
+    kRenderTransAddFrameBlend = 7,
+    kRenderTransAlpha = 4,
+    kRenderTransAlphaAdd = 8,
     kRenderTransColor = 1,
     kRenderTransTexture = 2,
-    kRenderGlow = 3,
-    kRenderTransAlpha = 4,
-    kRenderTransAdd = 5,
-    kRenderEnvironmental = 6,
-    kRenderTransAddFrameBlend = 7,
-    kRenderTransAlphaAdd = 8,
-    kRenderWorldGlow = 9,
-    kRenderNone = 10,
-    kRenderDevVisualizer = 11,
-    kRenderModeCount = 12
+    kRenderWorldGlow = 9
 }
 ```
 :::

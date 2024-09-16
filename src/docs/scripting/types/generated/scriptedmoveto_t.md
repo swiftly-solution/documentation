@@ -11,12 +11,12 @@ category:
 @tab Lua
 ```lua
 ScriptedMoveTo_t = {
-    eWait = 0x0,
-    eMoveWithGait = 0x3,
-    eTeleport = 0x4,
-    eWaitFacing = 0x5,
-    eObsoleteBackCompat1 = 0x1,
-    eObsoleteBackCompat2 = 0x2
+    eMoveWithGait = 3,
+    eObsoleteBackCompat1 = 1,
+    eObsoleteBackCompat2 = 2,
+    eTeleport = 4,
+    eWait = 0,
+    eWaitFacing = 5
 }
 ```
 :::

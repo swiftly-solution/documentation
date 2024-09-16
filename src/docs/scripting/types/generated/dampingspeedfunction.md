@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 DampingSpeedFunction = {
-    NoDamping = 0x0,
-    Constant = 0x1,
-    Spring = 0x2
+    Constant = 1,
+    NoDamping = 0,
+    Spring = 2
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 NmRootMotionBlendMode_t = {
-    Blend = 0,
     Additive = 1,
+    Blend = 0,
     IgnoreSource = 2,
     IgnoreTarget = 3
 }

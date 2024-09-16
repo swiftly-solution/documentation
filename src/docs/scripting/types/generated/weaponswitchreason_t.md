@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 WeaponSwitchReason_t = {
-    eDrawn = 0x0,
-    eEquipped = 0x1,
-    eUserInitiatedSwitchToLast = 0x2,
-    eUserInitiatedSwitchHands = 0x3
+    eDrawn = 0,
+    eEquipped = 1,
+    eUserInitiatedSwitchHands = 3,
+    eUserInitiatedSwitchToLast = 2
 }
 ```
 :::

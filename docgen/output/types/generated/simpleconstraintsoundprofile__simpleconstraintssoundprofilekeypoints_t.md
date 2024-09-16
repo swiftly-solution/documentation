@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t = {
-    kMIN_THRESHOLD = 0x0,
-    kMIN_FULL = 0x1,
-    kHIGHWATER = 0x2
+    kHIGHWATER = 2,
+    kMIN_FULL = 1,
+    kMIN_THRESHOLD = 0
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 NmFrameSnapEventMode_t = {
-    Floor = 0x0,
-    Round = 0x1
+    Floor = 0,
+    Round = 1
 }
 ```
 :::

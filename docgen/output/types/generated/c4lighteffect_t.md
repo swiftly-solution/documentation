@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 C4LightEffect_t = {
-    eLightEffectNone = 0x0,
-    eLightEffectDropped = 0x1,
-    eLightEffectThirdPersonHeld = 0x2
+    eLightEffectDropped = 1,
+    eLightEffectNone = 0,
+    eLightEffectThirdPersonHeld = 2
 }
 ```
 :::

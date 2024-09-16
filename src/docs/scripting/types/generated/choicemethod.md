@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 ChoiceMethod = {
-    WeightedRandom = 0x0,
-    WeightedRandomNoRepeat = 0x1,
-    Iterate = 0x2,
-    IterateRandom = 0x3
+    Iterate = 2,
+    IterateRandom = 3,
+    WeightedRandom = 0,
+    WeightedRandomNoRepeat = 1
 }
 ```
 :::

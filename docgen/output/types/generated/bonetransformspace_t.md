@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 BoneTransformSpace_t = {
-    BoneTransformSpace_Invalid = 0xffffffff,
-    BoneTransformSpace_Parent = 0x0,
-    BoneTransformSpace_Model = 0x1,
-    BoneTransformSpace_World = 0x2
+    BoneTransformSpace_Invalid = -1,
+    BoneTransformSpace_Model = 1,
+    BoneTransformSpace_Parent = 0,
+    BoneTransformSpace_World = 2
 }
 ```
 :::

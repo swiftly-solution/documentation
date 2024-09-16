@@ -11,13 +11,13 @@ category:
 @tab Lua
 ```lua
 PlayerConnectedState = {
-    PlayerNeverConnected = 0xffffffff,
-    PlayerConnected = 0x0,
-    PlayerConnecting = 0x1,
-    PlayerReconnecting = 0x2,
-    PlayerDisconnecting = 0x3,
-    PlayerDisconnected = 0x4,
-    PlayerReserved = 0x5
+    PlayerConnected = 0,
+    PlayerConnecting = 1,
+    PlayerDisconnected = 4,
+    PlayerDisconnecting = 3,
+    PlayerNeverConnected = -1,
+    PlayerReconnecting = 2,
+    PlayerReserved = 5
 }
 ```
 :::

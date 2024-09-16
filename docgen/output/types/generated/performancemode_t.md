@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 PerformanceMode_t = {
-    PM_NORMAL = 0x0,
-    PM_NO_GIBS = 0x1,
-    PM_FULL_GIBS = 0x2,
-    PM_REDUCED_GIBS = 0x3
+    PM_FULL_GIBS = 2,
+    PM_NORMAL = 0,
+    PM_NO_GIBS = 1,
+    PM_REDUCED_GIBS = 3
 }
 ```
 :::

@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 HandshakeTagType_t = {
-    eInvalid = 0xffffffff,
-    eTask = 0x0,
-    eMovement = 0x1,
-    eCount = 0x2
+    eCount = 2,
+    eInvalid = -1,
+    eMovement = 1,
+    eTask = 0
 }
 ```
 :::

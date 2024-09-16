@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ParticleHitboxBiasType_t = {
-    PARTICLE_HITBOX_BIAS_ENTITY = 0x0,
-    PARTICLE_HITBOX_BIAS_HITBOX = 0x1
+    PARTICLE_HITBOX_BIAS_ENTITY = 0,
+    PARTICLE_HITBOX_BIAS_HITBOX = 1
 }
 ```
 :::

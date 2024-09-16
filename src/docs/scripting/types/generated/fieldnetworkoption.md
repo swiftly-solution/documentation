@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 FieldNetworkOption = {
-    Auto = 0x0,
-    ForceEnable = 0x1,
-    ForceDisable = 0x2
+    Auto = 0,
+    ForceDisable = 2,
+    ForceEnable = 1
 }
 ```
 :::

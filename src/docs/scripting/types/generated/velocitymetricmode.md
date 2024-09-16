@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 VelocityMetricMode = {
+    DirectionAndMagnitude = 2,
     DirectionOnly = 0,
-    MagnitudeOnly = 1,
-    DirectionAndMagnitude = 2
+    MagnitudeOnly = 1
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 MatterialAttributeTagType_t = {
-    MATERIAL_ATTRIBUTE_TAG_VALUE = 0x0,
-    MATERIAL_ATTRIBUTE_TAG_COLOR = 0x1
+    MATERIAL_ATTRIBUTE_TAG_COLOR = 1,
+    MATERIAL_ATTRIBUTE_TAG_VALUE = 0
 }
 ```
 :::

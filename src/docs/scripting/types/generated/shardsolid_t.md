@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ShardSolid_t = {
-    SHARD_SOLID = 0,
-    SHARD_DEBRIS = 1
+    SHARD_DEBRIS = 1,
+    SHARD_SOLID = 0
 }
 ```
 :::

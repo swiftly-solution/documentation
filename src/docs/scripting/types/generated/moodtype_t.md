@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 MoodType_t = {
-    eMoodType_Head = 0x0,
-    eMoodType_Body = 0x1
+    eMoodType_Body = 1,
+    eMoodType_Head = 0
 }
 ```
 :::

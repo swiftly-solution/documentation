@@ -11,14 +11,14 @@ category:
 @tab Lua
 ```lua
 CNmTransitionNode__TransitionOptions_t = {
-    None = 0,
     ClampDuration = 1,
-    Synchronized = 2,
     MatchSourceTime = 4,
-    MatchSyncEventIndex = 8,
     MatchSyncEventID = 16,
+    MatchSyncEventIndex = 8,
     MatchSyncEventPercentage = 32,
-    PreferClosestSyncEventID = 64
+    None = 0,
+    PreferClosestSyncEventID = 64,
+    Synchronized = 2
 }
 ```
 :::

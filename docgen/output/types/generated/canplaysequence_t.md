@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 CanPlaySequence_t = {
-    CANNOT_PLAY = 0x0,
-    CAN_PLAY_NOW = 0x1,
-    CAN_PLAY_ENQUEUED = 0x2
+    CANNOT_PLAY = 0,
+    CAN_PLAY_ENQUEUED = 2,
+    CAN_PLAY_NOW = 1
 }
 ```
 :::

@@ -11,11 +11,11 @@ category:
 @tab Lua
 ```lua
 StanceType_t = {
-    STANCE_CURRENT = 0xffffffff,
-    STANCE_DEFAULT = 0x0,
-    STANCE_CROUCHING = 0x1,
-    STANCE_PRONE = 0x2,
-    NUM_STANCES = 0x3
+    NUM_STANCES = 3,
+    STANCE_CROUCHING = 1,
+    STANCE_CURRENT = -1,
+    STANCE_DEFAULT = 0,
+    STANCE_PRONE = 2
 }
 ```
 :::

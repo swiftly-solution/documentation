@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 RagdollPoseControl = {
-    Absolute = 0x0,
-    Relative = 0x1
+    Absolute = 0,
+    Relative = 1
 }
 ```
 :::

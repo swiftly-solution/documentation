@@ -11,16 +11,16 @@ category:
 @tab Lua
 ```lua
 PreviewCharacterMode = {
-    DIORAMA = 0x0,
-    MAIN_MENU = 0x1,
-    BUY_MENU = 0x2,
-    TEAM_SELECT = 0x3,
-    END_OF_MATCH = 0x4,
-    INVENTORY_INSPECT = 0x5,
-    WALKING = 0x6,
-    TEAM_INTRO = 0x7,
-    WINGMAN_INTRO = 0x8,
-    BANNER = 0x9
+    BANNER = 9,
+    BUY_MENU = 2,
+    DIORAMA = 0,
+    END_OF_MATCH = 4,
+    INVENTORY_INSPECT = 5,
+    MAIN_MENU = 1,
+    TEAM_INTRO = 7,
+    TEAM_SELECT = 3,
+    WALKING = 6,
+    WINGMAN_INTRO = 8
 }
 ```
 :::

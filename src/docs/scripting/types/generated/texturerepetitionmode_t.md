@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 TextureRepetitionMode_t = {
-    TEXTURE_REPETITION_PARTICLE = 0x0,
-    TEXTURE_REPETITION_PATH = 0x1
+    TEXTURE_REPETITION_PARTICLE = 0,
+    TEXTURE_REPETITION_PATH = 1
 }
 ```
 :::

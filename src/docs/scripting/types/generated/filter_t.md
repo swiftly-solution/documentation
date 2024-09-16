@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 filter_t = {
-    FILTER_AND = 0x0,
-    FILTER_OR = 0x1
+    FILTER_AND = 0,
+    FILTER_OR = 1
 }
 ```
 :::

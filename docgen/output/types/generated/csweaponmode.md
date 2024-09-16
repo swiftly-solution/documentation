@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 CSWeaponMode = {
-    Primary_Mode = 0x0,
-    Secondary_Mode = 0x1,
-    WeaponMode_MAX = 0x2
+    Primary_Mode = 0,
+    Secondary_Mode = 1,
+    WeaponMode_MAX = 2
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 MaterialProxyType_t = {
-    MATERIAL_PROXY_STATUS_EFFECT = 0x0,
-    MATERIAL_PROXY_TINT = 0x1
+    MATERIAL_PROXY_STATUS_EFFECT = 0,
+    MATERIAL_PROXY_TINT = 1
 }
 ```
 :::

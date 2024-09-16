@@ -11,11 +11,11 @@ category:
 @tab Lua
 ```lua
 ResetCycleOption = {
-    Beginning = 0x0,
-    SameCycleAsSource = 0x1,
-    InverseSourceCycle = 0x2,
-    FixedValue = 0x3,
-    SameTimeAsSource = 0x4
+    Beginning = 0,
+    FixedValue = 3,
+    InverseSourceCycle = 2,
+    SameCycleAsSource = 1,
+    SameTimeAsSource = 4
 }
 ```
 :::

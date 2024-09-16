@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 BinaryNodeChildOption = {
-    Child1 = 0x0,
-    Child2 = 0x1
+    Child1 = 0,
+    Child2 = 1
 }
 ```
 :::

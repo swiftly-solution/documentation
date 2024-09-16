@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 AnimParamNetworkSetting = {
-    Auto = 0x0,
-    AlwaysNetwork = 0x1,
-    NeverNetwork = 0x2
+    AlwaysNetwork = 1,
+    Auto = 0,
+    NeverNetwork = 2
 }
 ```
 :::

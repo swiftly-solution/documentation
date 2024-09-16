@@ -12,8 +12,8 @@ category:
 ```lua
 SequenceFinishNotifyState_t = {
     eDoNotNotify = 0,
-    eNotifyWhenFinished = 1,
-    eNotifyTriggered = 2
+    eNotifyTriggered = 2,
+    eNotifyWhenFinished = 1
 }
 ```
 :::

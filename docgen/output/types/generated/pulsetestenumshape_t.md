@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 PulseTestEnumShape_t = {
-    CIRCLE = 0x64,
-    SQUARE = 0xc8,
-    TRIANGLE = 0x12c
+    CIRCLE = 100,
+    SQUARE = 200,
+    TRIANGLE = 300
 }
 ```
 :::

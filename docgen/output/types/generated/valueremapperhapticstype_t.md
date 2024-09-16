@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ValueRemapperHapticsType_t = {
-    HaticsType_Default = 0x0,
-    HaticsType_None = 0x1
+    HaticsType_Default = 0,
+    HaticsType_None = 1
 }
 ```
 :::

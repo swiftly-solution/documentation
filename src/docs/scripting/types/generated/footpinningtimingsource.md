@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 FootPinningTimingSource = {
-    FootMotion = 0x0,
-    Tag = 0x1,
-    Parameter = 0x2
+    FootMotion = 0,
+    Parameter = 2,
+    Tag = 1
 }
 ```
 :::

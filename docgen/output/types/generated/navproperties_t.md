@@ -11,7 +11,7 @@ category:
 @tab Lua
 ```lua
 navproperties_t = {
-    NAV_IGNORE = 0x1
+    NAV_IGNORE = 1
 }
 ```
 :::

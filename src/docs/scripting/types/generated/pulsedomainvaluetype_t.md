@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 PulseDomainValueType_t = {
-    INVALID = 0xffffffff,
-    ENTITY_NAME = 0x0,
-    PANEL_ID = 0x1,
-    COUNT = 0x2
+    COUNT = 2,
+    ENTITY_NAME = 0,
+    INVALID = -1,
+    PANEL_ID = 1
 }
 ```
 :::

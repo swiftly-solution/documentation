@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 BeamClipStyle_t = {
-    kNOCLIP = 0x0,
-    kGEOCLIP = 0x1,
-    kMODELCLIP = 0x2,
-    kBEAMCLIPSTYLE_NUMBITS = 0x2
+    kBEAMCLIPSTYLE_NUMBITS = 2,
+    kGEOCLIP = 1,
+    kMODELCLIP = 2,
+    kNOCLIP = 0
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 JumpCorrectionMethod = {
-    ScaleMotion = 0x0,
-    AddCorrectionDelta = 0x1
+    AddCorrectionDelta = 1,
+    ScaleMotion = 0
 }
 ```
 :::

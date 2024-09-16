@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 PlayBackMode_t = {
-    Random = 0x0,
-    RandomNoRepeats = 0x1,
-    RandomAvoidLast = 0x2,
-    Sequential = 0x3
+    Random = 0,
+    RandomAvoidLast = 2,
+    RandomNoRepeats = 1,
+    Sequential = 3
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ValueRemapperInputType_t = {
-    InputType_PlayerShootPosition = 0x0,
-    InputType_PlayerShootPositionAroundAxis = 0x1
+    InputType_PlayerShootPosition = 0,
+    InputType_PlayerShootPositionAroundAxis = 1
 }
 ```
 :::

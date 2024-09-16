@@ -11,15 +11,15 @@ category:
 @tab Lua
 ```lua
 BloodType = {
-    None = 0xffffffff,
-    ColorRed = 0x0,
-    ColorYellow = 0x1,
-    ColorGreen = 0x2,
-    ColorRedLVL2 = 0x3,
-    ColorRedLVL3 = 0x4,
-    ColorRedLVL4 = 0x5,
-    ColorRedLVL5 = 0x6,
-    ColorRedLVL6 = 0x7
+    ColorGreen = 2,
+    ColorRed = 0,
+    ColorRedLVL2 = 3,
+    ColorRedLVL3 = 4,
+    ColorRedLVL4 = 5,
+    ColorRedLVL5 = 6,
+    ColorRedLVL6 = 7,
+    ColorYellow = 1,
+    None = -1
 }
 ```
 :::

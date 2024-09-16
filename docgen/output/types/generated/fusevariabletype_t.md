@@ -11,15 +11,15 @@ category:
 @tab Lua
 ```lua
 FuseVariableType_t = {
-    INVALID = 0,
     BOOL = 1,
-    INT8 = 2,
+    FLOAT32 = 8,
     INT16 = 3,
     INT32 = 4,
-    UINT8 = 5,
+    INT8 = 2,
+    INVALID = 0,
     UINT16 = 6,
     UINT32 = 7,
-    FLOAT32 = 8
+    UINT8 = 5
 }
 ```
 :::

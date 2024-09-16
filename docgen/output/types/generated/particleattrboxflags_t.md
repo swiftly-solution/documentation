@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ParticleAttrBoxFlags_t = {
-    PARTICLE_ATTR_BOX_FLAGS_NONE = 0x0,
-    PARTICLE_ATTR_BOX_FLAGS_WATER = 0x1
+    PARTICLE_ATTR_BOX_FLAGS_NONE = 0,
+    PARTICLE_ATTR_BOX_FLAGS_WATER = 1
 }
 ```
 :::

@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 CNmBoneMask__WeightInfo_t = {
-    Zero = 0,
     Mixed = 1,
-    One = 2
+    One = 2,
+    Zero = 0
 }
 ```
 :::

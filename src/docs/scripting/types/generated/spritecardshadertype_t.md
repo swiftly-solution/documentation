@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 SpriteCardShaderType_t = {
-    SPRITECARD_SHADER_BASE = 0x0,
-    SPRITECARD_SHADER_CUSTOM = 0x1
+    SPRITECARD_SHADER_BASE = 0,
+    SPRITECARD_SHADER_CUSTOM = 1
 }
 ```
 :::

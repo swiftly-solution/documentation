@@ -11,16 +11,16 @@ category:
 @tab Lua
 ```lua
 Disposition_t = {
-    D_ER = 0x0,
-    D_HT = 0x1,
-    D_FR = 0x2,
-    D_LI = 0x3,
-    D_NU = 0x4,
-    D_ERROR = 0x0,
-    D_HATE = 0x1,
-    D_FEAR = 0x2,
-    D_LIKE = 0x3,
-    D_NEUTRAL = 0x4
+    D_ER = 0,
+    D_ERROR = 0,
+    D_FEAR = 2,
+    D_FR = 2,
+    D_HATE = 1,
+    D_HT = 1,
+    D_LI = 3,
+    D_LIKE = 3,
+    D_NEUTRAL = 4,
+    D_NU = 4
 }
 ```
 :::

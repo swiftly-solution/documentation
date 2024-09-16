@@ -11,18 +11,18 @@ category:
 @tab Lua
 ```lua
 Materials = {
-    matGlass = 0x0,
-    matWood = 0x1,
-    matMetal = 0x2,
-    matFlesh = 0x3,
-    matCinderBlock = 0x4,
-    matCeilingTile = 0x5,
-    matComputer = 0x6,
-    matUnbreakableGlass = 0x7,
-    matRocks = 0x8,
-    matWeb = 0x9,
-    matNone = 0xa,
-    matLastMaterial = 0xb
+    matCeilingTile = 5,
+    matCinderBlock = 4,
+    matComputer = 6,
+    matFlesh = 3,
+    matGlass = 0,
+    matLastMaterial = 11,
+    matMetal = 2,
+    matNone = 10,
+    matRocks = 8,
+    matUnbreakableGlass = 7,
+    matWeb = 9,
+    matWood = 1
 }
 ```
 :::

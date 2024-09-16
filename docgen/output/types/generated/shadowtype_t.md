@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ShadowType_t = {
-    SHADOWS_NONE = 0x0,
-    SHADOWS_SIMPLE = 0x1
+    SHADOWS_NONE = 0,
+    SHADOWS_SIMPLE = 1
 }
 ```
 :::

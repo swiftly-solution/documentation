@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 NmPoseBlendMode_t = {
-    Overlay = 0,
     Additive = 1,
-    GlobalSpace = 2
+    GlobalSpace = 2,
+    Overlay = 0
 }
 ```
 :::

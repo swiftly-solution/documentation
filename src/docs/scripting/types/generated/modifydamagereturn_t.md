@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ModifyDamageReturn_t = {
-    CONTINUE_TO_APPLY_DAMAGE = 0x0,
-    ABORT_DO_NOT_APPLY_DAMAGE = 0x1
+    ABORT_DO_NOT_APPLY_DAMAGE = 1,
+    CONTINUE_TO_APPLY_DAMAGE = 0
 }
 ```
 :::

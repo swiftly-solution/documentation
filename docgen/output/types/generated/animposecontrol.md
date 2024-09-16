@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 AnimPoseControl = {
-    NoPoseControl = 0x0,
-    AbsolutePoseControl = 0x1,
-    RelativePoseControl = 0x2
+    AbsolutePoseControl = 1,
+    NoPoseControl = 0,
+    RelativePoseControl = 2
 }
 ```
 :::

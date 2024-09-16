@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 AnimNodeNetworkMode = {
-    ServerAuthoritative = 0x0,
-    ClientSimulate = 0x1
+    ClientSimulate = 1,
+    ServerAuthoritative = 0
 }
 ```
 :::

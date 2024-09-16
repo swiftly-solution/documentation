@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 SosActionSortType_t = {
-    SOS_SORTTYPE_HIGHEST = 0x0,
-    SOS_SORTTYPE_LOWEST = 0x1
+    SOS_SORTTYPE_HIGHEST = 0,
+    SOS_SORTTYPE_LOWEST = 1
 }
 ```
 :::

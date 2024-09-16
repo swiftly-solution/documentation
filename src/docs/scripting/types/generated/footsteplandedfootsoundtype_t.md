@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 FootstepLandedFootSoundType_t = {
-    FOOTSOUND_Left = 0x0,
-    FOOTSOUND_Right = 0x1,
-    FOOTSOUND_UseOverrideSound = 0x2
+    FOOTSOUND_Left = 0,
+    FOOTSOUND_Right = 1,
+    FOOTSOUND_UseOverrideSound = 2
 }
 ```
 :::

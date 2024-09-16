@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 JiggleBoneSimSpace = {
-    SimSpace_Local = 0x0,
-    SimSpace_Model = 0x1,
-    SimSpace_World = 0x2
+    SimSpace_Local = 0,
+    SimSpace_Model = 1,
+    SimSpace_World = 2
 }
 ```
 :::

@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 EOverrideBlockLOS_t = {
-    BLOCK_LOS_DEFAULT = 0x0,
-    BLOCK_LOS_FORCE_FALSE = 0x1,
-    BLOCK_LOS_FORCE_TRUE = 0x2
+    BLOCK_LOS_DEFAULT = 0,
+    BLOCK_LOS_FORCE_FALSE = 1,
+    BLOCK_LOS_FORCE_TRUE = 2
 }
 ```
 :::

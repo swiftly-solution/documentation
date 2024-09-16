@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 CommandEntitySpecType_t = {
-    SPEC_SEARCH = 0x0,
-    SPEC_TYPES_COUNT = 0x1
+    SPEC_SEARCH = 0,
+    SPEC_TYPES_COUNT = 1
 }
 ```
 :::

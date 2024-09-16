@@ -11,23 +11,23 @@ category:
 @tab Lua
 ```lua
 SeqCmd_t = {
-    SeqCmd_Nop = 0x0,
-    SeqCmd_LinearDelta = 0x1,
-    SeqCmd_FetchFrameRange = 0x2,
-    SeqCmd_Slerp = 0x3,
-    SeqCmd_Add = 0x4,
-    SeqCmd_Subtract = 0x5,
-    SeqCmd_Scale = 0x6,
-    SeqCmd_Copy = 0x7,
-    SeqCmd_Blend = 0x8,
-    SeqCmd_Worldspace = 0x9,
-    SeqCmd_Sequence = 0xa,
-    SeqCmd_FetchCycle = 0xb,
-    SeqCmd_FetchFrame = 0xc,
-    SeqCmd_IKLockInPlace = 0xd,
-    SeqCmd_IKRestoreAll = 0xe,
-    SeqCmd_ReverseSequence = 0xf,
-    SeqCmd_Transform = 0x10
+    SeqCmd_Add = 4,
+    SeqCmd_Blend = 8,
+    SeqCmd_Copy = 7,
+    SeqCmd_FetchCycle = 11,
+    SeqCmd_FetchFrame = 12,
+    SeqCmd_FetchFrameRange = 2,
+    SeqCmd_IKLockInPlace = 13,
+    SeqCmd_IKRestoreAll = 14,
+    SeqCmd_LinearDelta = 1,
+    SeqCmd_Nop = 0,
+    SeqCmd_ReverseSequence = 15,
+    SeqCmd_Scale = 6,
+    SeqCmd_Sequence = 10,
+    SeqCmd_Slerp = 3,
+    SeqCmd_Subtract = 5,
+    SeqCmd_Transform = 16,
+    SeqCmd_Worldspace = 9
 }
 ```
 :::

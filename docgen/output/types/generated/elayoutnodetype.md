@@ -11,19 +11,19 @@ category:
 @tab Lua
 ```lua
 ELayoutNodeType = {
-    ROOT = 0x0,
-    STYLES = 0x1,
-    SCRIPT_BODY = 0x2,
-    SCRIPTS = 0x3,
-    SNIPPETS = 0x4,
-    INCLUDE = 0x5,
-    SNIPPET = 0x6,
-    PANEL = 0x7,
-    PANEL_ATTRIBUTE = 0x8,
-    PANEL_ATTRIBUTE_VALUE = 0x9,
-    REFERENCE_CONTENT = 0xa,
-    REFERENCE_COMPILED = 0xb,
-    REFERENCE_PASSTHROUGH = 0xc
+    INCLUDE = 5,
+    PANEL = 7,
+    PANEL_ATTRIBUTE = 8,
+    PANEL_ATTRIBUTE_VALUE = 9,
+    REFERENCE_COMPILED = 11,
+    REFERENCE_CONTENT = 10,
+    REFERENCE_PASSTHROUGH = 12,
+    ROOT = 0,
+    SCRIPTS = 3,
+    SCRIPT_BODY = 2,
+    SNIPPET = 6,
+    SNIPPETS = 4,
+    STYLES = 1
 }
 ```
 :::

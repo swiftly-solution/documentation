@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 Explosions = {
-    expRandom = 0x0,
-    expDirected = 0x1,
-    expUsePrecise = 0x2
+    expDirected = 1,
+    expRandom = 0,
+    expUsePrecise = 2
 }
 ```
 :::
