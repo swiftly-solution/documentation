@@ -1271,6 +1271,20 @@
                         },
                         "additional": {}
                     },
+                    "onclientconvarquery": {
+                        "title": "OnClientConvarQuery",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a player's convar is being queried.",
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "playerid": "number",
+                            "convar_name": "string",
+                            "convar_value": "string"
+                        },
+                        "additional": {}
+                    },
                     "onclientcommand": {
                         "title": "OnClientCommand",
                         "template": "core-event-syntax",
@@ -10058,6 +10072,21 @@
                 },
                 "params": {
                     "state": "boolean"
+                },
+                "additional": {}
+            },
+            "queryconvar": {
+                "title": "QueryConvar",
+                "template": "function-syntax",
+                "description": "Queries a convar from a player.",
+                "variable": {
+                    "lua": "player:QueryConvar"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "convar_name": "string"
                 },
                 "additional": {}
             },
