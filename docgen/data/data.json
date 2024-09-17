@@ -8881,6 +8881,150 @@
             }
         }
     },
+    "ip": {
+        "title": "IP",
+        "description": "A list of API functions for IP informations.",
+        "iscategory": true,
+        "order": 3,
+        "icon": "magnifying-glass",
+        "data": {
+            "getisocode": {
+                "title": "GetIsoCode",
+                "template": "function-syntax",
+                "description": "Returns the ISO code for the country from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetIsoCode"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getcontinent": {
+                "title": "GetContinent",
+                "template": "function-syntax",
+                "description": "Returns the continent from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetContinent"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getcountry": {
+                "title": "GetCountry",
+                "template": "function-syntax",
+                "description": "Returns the country from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetCountry"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getregion": {
+                "title": "GetRegion",
+                "template": "function-syntax",
+                "description": "Returns the region from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetRegion"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getcity": {
+                "title": "GetCity",
+                "template": "function-syntax",
+                "description": "Returns the city from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetCity"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "gettimezone": {
+                "title": "GetTimezone",
+                "template": "function-syntax",
+                "description": "Returns the timezone of the country from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetTimezone"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getlatitude": {
+                "title": "GetLatitude",
+                "template": "function-syntax",
+                "description": "Returns the latitude from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetLatitude"
+                },
+                "return": {
+                    "lua": "number"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getlongitude": {
+                "title": "GetTimezone",
+                "template": "function-syntax",
+                "description": "Returns the longitude from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetLongitude"
+                },
+                "return": {
+                    "lua": "number"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            },
+            "getasn": {
+                "title": "GetASN",
+                "template": "function-syntax",
+                "description": "Returns the Autonomous System Number (ASN) from which this ip originates.",
+                "variable": {
+                    "lua": "ip:GetASN"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {
+                    "ip": "string"
+                },
+                "additional": {}
+            }
+        }
+    },
     "logs": {
         "title": "Logs",
         "description": "A list of API functions for logging.",
