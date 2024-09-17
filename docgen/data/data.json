@@ -10075,6 +10075,21 @@
                 },
                 "additional": {}
             },
+            "islisteningtogameevent": {
+                "title": "IsListeningToGameEvent",
+                "template": "function-syntax",
+                "description": "Checks if a player is listening to a game event.",
+                "variable": {
+                    "lua": "player:IsListeningToGameEvent"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "game_event": "string"
+                },
+                "additional": {}
+            },
             "queryconvar": {
                 "title": "QueryConvar",
                 "template": "function-syntax",
