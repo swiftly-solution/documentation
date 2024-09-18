@@ -489,7 +489,9 @@
                 "return": {
                     "lua": "void"
                 },
-                "params": {}
+                "params": {
+                    "keyvals": "CEntityKeyValues/nil"
+                }
             },
             "Despawn": {
                 "return": {

@@ -8506,6 +8506,274 @@
                 "additional": {
                     "lua": "To see a complete list of class names and the specific entity class, see the following link: [https://cs2.poggu.me/dumped-data/entity-list](https://cs2.poggu.me/dumped-data/entity-list).\n\nThis list is provided by Poggu on it's own website for Counter Strike 2."
                 }
+            },
+            "centitykeyvalues": {
+                "title": "CEntityKeyValues",
+                "description": "",
+                "template": "class-syntax",
+                "languages": [
+                    "lua"
+                ],
+                "constructor": {},
+                "properties": {},
+                "functions": {
+                    "GetBool": {
+                        "return": {
+                            "lua": "bool"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetInt": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetUint": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetInt64": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetUint64": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetFloat": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetDouble": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetString": {
+                        "return": {
+                            "lua": "string"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetPtr": {
+                        "return": {
+                            "lua": "string"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetStringToken": {
+                        "return": {
+                            "lua": "number"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetColor": {
+                        "return": {
+                            "lua": "Color"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetVector": {
+                        "return": {
+                            "lua": "Vector"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetVector2D": {
+                        "return": {
+                            "lua": "Vector2D"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetVector4D": {
+                        "return": {
+                            "lua": "Vector4D"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "GetQAngle": {
+                        "return": {
+                            "lua": "QAngle"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "SetBool": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "bool"
+                        }
+                    },
+                    "SetInt": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetUint": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetInt64": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetUint64": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetFloat": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetDouble": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetString": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "string"
+                        }
+                    },
+                    "SetPtr": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "string"
+                        }
+                    },
+                    "SetStringToken": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "number"
+                        }
+                    },
+                    "SetColor": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "Color"
+                        }
+                    },
+                    "SetVector": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "Vector"
+                        }
+                    },
+                    "SetVector2D": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "Vector2D"
+                        }
+                    },
+                    "SetVector4D": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "Vector4D"
+                        }
+                    },
+                    "SetQAngle": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "value": "QAngle"
+                        }
+                    }
+                },
+                "additional": {}
             }
         }
     },
@@ -11048,7 +11316,9 @@
                                 "return": {
                                     "lua": "void"
                                 },
-                                "params": {}
+                                "params": {
+                                    "keyvals": "CEntityKeyValues/nil"
+                                }
                             },
                             "Despawn": {
                                 "return": {

@@ -481,7 +481,7 @@ cbaseentity:EHandle()
 ## Spawn
 ```lua
 @returns void
-cbaseentity:Spawn()
+cbaseentity:Spawn(keyvals --[[ CEntityKeyValues/nil ]])
 ```
 ## Despawn
 ```lua
