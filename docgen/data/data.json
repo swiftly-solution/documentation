@@ -1209,6 +1209,36 @@
                         },
                         "additional": {}
                     },
+                    "onentityacceptinput": {
+                        "title": "OnEntityAcceptInput",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity receives an input.",
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "entityptr": "string",
+                            "inputname": "string",
+                            "activatorptr": "string",
+                            "callerptr": "string",
+                            "value": "string",
+                            "outputID": "number"
+                        },
+                        "additional": {}
+                    },
+                    "onplayerchecktransmit": {
+                        "title": "OnPlayerCheckTransmit",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a player checks for transmitting entities.",
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "playerid": "number",
+                            "transmitinfoptr": "string"
+                        },
+                        "additional": {}
+                    },
                     "onclientconnect": {
                         "title": "OnClientConnect",
                         "template": "core-event-syntax",
@@ -10813,6 +10843,41 @@
                                     "lua": "string"
                                 },
                                 "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cchecktransmitinfo": {
+                        "title": "CCheckTransmitInfo",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {},
+                        "functions": {
+                            "GetPlayers": {
+                                "return": {
+                                    "lua": "table"
+                                },
+                                "params": {}
+                            },
+                            "GetEntities": {
+                                "return": {
+                                    "lua": "table"
+                                },
+                                "params": {}
+                            },
+                            "SetEntities": {
+                                "return": {
+                                    "lua": "void"
+                                },
+                                "params": {
+                                    "value": "table"
+                                }
                             }
                         },
                         "additional": {}
