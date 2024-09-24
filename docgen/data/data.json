@@ -90,6 +90,32 @@
         "order": 3,
         "icon": "laptop",
         "data": {
+            "getcommands": {
+                "title": "GetCommands",
+                "description": "Returns a list of the commands registered by this plugin.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "commands:GetCommands"
+                },
+                "return": {
+                    "lua": "table"
+                },
+                "params": {},
+                "additional": {}
+            },
+            "getallcommands": {
+                "title": "GetAllCommands",
+                "description": "Returns a list of the commands registered by all the plugins.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "commands:GetAllCommands"
+                },
+                "return": {
+                    "lua": "table"
+                },
+                "params": {},
+                "additional": {}
+            },
             "register": {
                 "title": "Register",
                 "description": "Registers a new command through Swiftly Commands.",
