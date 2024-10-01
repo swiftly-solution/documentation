@@ -28,6 +28,10 @@ Read: vector2d.y
 Write: vector2d.y = value
 ```
 # Functions
-There are no functions available for this class.
+## GetPtr
+```lua
+@returns string
+vector2d:GetPtr()
+```
 This class supports doing operations on them: addition, division, multiplication, substraction.
 :::

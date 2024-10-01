@@ -34,6 +34,10 @@ Read: vector.z
 Write: vector.z = value
 ```
 # Functions
-There are no functions available for this class.
+## GetPtr
+```lua
+@returns string
+vector:GetPtr()
+```
 This class supports doing operations on them: addition, division, multiplication, substraction.
 :::

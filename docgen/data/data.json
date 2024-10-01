@@ -1235,6 +1235,19 @@
                         },
                         "additional": {}
                     },
+                    "onterminateround": {
+                        "title": "OnTerminateRound",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when CGameRules->TerminateRound is being called.",
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "delay": "number",
+                            "reason": "number"
+                        },
+                        "additional": {}
+                    },
                     "onentityacceptinput": {
                         "title": "OnEntityAcceptInput",
                         "template": "core-event-syntax",
@@ -9459,6 +9472,21 @@
         "order": 3,
         "icon": "memory",
         "data": {
+            "accessindex": {
+                "title": "AccessIndex",
+                "template": "function-syntax",
+                "description": "Accesses the specified index.",
+                "variable": {
+                    "lua": "memory:AccessIndex"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "index": "number"
+                },
+                "additional": {}
+            },
             "accessedvtable": {
                 "title": "AccessedVTable",
                 "template": "function-syntax",
@@ -10571,6 +10599,22 @@
         "order": 3,
         "icon": "server",
         "data": {
+            "terminateround": {
+                "title": "TerminateRound",
+                "template": "function-syntax",
+                "description": "Ends a round with a delay and with a reason.",
+                "variable": {
+                    "lua": "server:TerminateRound"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "delay": "number",
+                    "reason": "RoundEndReason_t"
+                },
+                "additional": {}
+            },
             "getmap": {
                 "title": "GetMap",
                 "template": "function-syntax",
@@ -10711,6 +10755,14 @@
                                 "writable": true
                             }
                         },
+                        "functions": {
+                            "GetPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            }
+                        },
                         "additional": {
                             "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
                         }
@@ -10741,6 +10793,14 @@
                                 "writable": true
                             }
                         },
+                        "functions": {
+                            "GetPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            }
+                        },
                         "additional": {
                             "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
                         }
@@ -10764,6 +10824,14 @@
                             "y": {
                                 "type": "number",
                                 "writable": true
+                            }
+                        },
+                        "functions": {
+                            "GetPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
                             }
                         },
                         "additional": {
@@ -10801,6 +10869,14 @@
                                 "writable": true
                             }
                         },
+                        "functions": {
+                            "GetPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            }
+                        },
                         "additional": {
                             "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
                         }
@@ -10834,6 +10910,14 @@
                             "a": {
                                 "type": "number",
                                 "writable": true
+                            }
+                        },
+                        "functions": {
+                            "GetPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
                             }
                         },
                         "additional": {}
@@ -91825,6 +91909,32 @@
                             "FCVAR_VCONSOLE_SET_FOCUS": "1<<27",
                             "FCVAR_CLIENTCMD_CAN_EXECUTE": "1<<28",
                             "FCVAR_EXECUTE_PER_TICK": "1<<29"
+                        }
+                    },
+                    "roundendreason_t": {
+                        "title": "RoundEndReason_t",
+                        "template": "types-syntax",
+                        "values": {
+                            "Unknown": "0",
+                            "TargetBombed": "0x1",
+                            "TerroristsEscaped": "0x4",
+                            "CTsPreventEscape": "0x5",
+                            "EscapingTerroristsNeutralized": "0x6",
+                            "BombDefused": "0x7",
+                            "CTsWin": "0x8",
+                            "TerroristsWin": "0x9",
+                            "RoundDraw": "0xA",
+                            "AllHostageRescued": "0xB",
+                            "TargetSaved": "0xC",
+                            "HostagesNotRescued": "0xD",
+                            "TerroristsNotEscaped": "0xE",
+                            "GameCommencing": "0x10",
+                            "TerroristsSurrender": "0x11",
+                            "CTsSurrender": "0x12",
+                            "TerroristsPlanted": "0x13",
+                            "CTsReachedHostage": "0x14",
+                            "SurvivalWin": "0x15",
+                            "SurvivalDraw": "0x16"
                         }
                     },
                     "pluginstate_t": {

@@ -40,6 +40,10 @@ Read: vector4d.w
 Write: vector4d.w = value
 ```
 # Functions
-There are no functions available for this class.
+## GetPtr
+```lua
+@returns string
+vector4d:GetPtr()
+```
 This class supports doing operations on them: addition, division, multiplication, substraction.
 :::

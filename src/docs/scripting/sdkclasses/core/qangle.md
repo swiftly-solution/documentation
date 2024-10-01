@@ -34,6 +34,10 @@ Read: qangle.z
 Write: qangle.z = value
 ```
 # Functions
-There are no functions available for this class.
+## GetPtr
+```lua
+@returns string
+qangle:GetPtr()
+```
 This class supports doing operations on them: addition, division, multiplication, substraction.
 :::

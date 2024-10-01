@@ -1,5 +1,3 @@
 #!/bin/bash
 
-rm -rf /home/swiftlycs2/web/swiftlycs2.net/public_html/*
-cp -r src/.vuepress/dist/* /home/swiftlycs2/web/swiftlycs2.net/public_html
-chown -R swiftlycs2:swiftlycs2 /home/swiftlycs2/web/swiftlycs2.net/public_html
+rsync -arvz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress --delete src/.vuepress/dist/* docs-telro@core01-ffm-de.swiftlycs2.net:/home/docs-telro/htdocs/swiftlycs2.net

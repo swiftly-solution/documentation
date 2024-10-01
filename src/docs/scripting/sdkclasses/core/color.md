@@ -40,6 +40,10 @@ Read: color.a
 Write: color.a = value
 ```
 # Functions
-There are no functions available for this class.
+## GetPtr
+```lua
+@returns string
+color:GetPtr()
+```
 
 :::
