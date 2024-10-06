@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 BinaryNodeTiming = {
-    SyncChildren = 2,
     UseChild1 = 0,
-    UseChild2 = 1
+    UseChild2 = 1,
+    SyncChildren = 2
 }
 ```
 :::

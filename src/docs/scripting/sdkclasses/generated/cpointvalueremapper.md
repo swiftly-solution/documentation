@@ -109,11 +109,6 @@ Write: cpointvalueremapper.OutputEntity3Name = value
 Read: cpointvalueremapper.OutputEntity4Name
 Write: cpointvalueremapper.OutputEntity4Name = value
 ```
-## OutputEntities (Read-Only)
-```lua
-@type table
-Read: cpointvalueremapper.OutputEntities
-```
 ## HapticsType 
 ```lua
 @type number

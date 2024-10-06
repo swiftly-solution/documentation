@@ -105,6 +105,12 @@ Write: cpointcamera.ZNear = value
 Read: cpointcamera.CanHLTVUse
 Write: cpointcamera.CanHLTVUse = value
 ```
+## AlignWithParent 
+```lua
+@type boolean
+Read: cpointcamera.AlignWithParent
+Write: cpointcamera.AlignWithParent = value
+```
 ## DofEnabled 
 ```lua
 @type boolean
@@ -159,11 +165,10 @@ Write: cpointcamera.DegreesPerSecond = value
 Read: cpointcamera.IsOn
 Write: cpointcamera.IsOn = value
 ```
-## Next 
+## Next (Read-Only)
 ```lua
 @type CPointCamera
 Read: cpointcamera.Next
-Write: cpointcamera.Next = value
 ```
 ## Parent (Read-Only)
 ```lua

@@ -31,6 +31,12 @@ Write: caimmatrixupdatenode.Target = value
 @type CAnimParamHandle
 Read: caimmatrixupdatenode.ParamIndex
 ```
+## Sequence 
+```lua
+@type number
+Read: caimmatrixupdatenode.Sequence
+Write: caimmatrixupdatenode.Sequence = value
+```
 ## ResetChild 
 ```lua
 @type boolean

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 FixAngleSet_t = {
-    Absolute = 1,
     None = 0,
+    Absolute = 1,
     Relative = 2
 }
 ```

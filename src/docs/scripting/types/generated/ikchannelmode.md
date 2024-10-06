@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 IKChannelMode = {
-    OneBone = 2,
-    OneBone_Translate = 3,
     TwoBone = 0,
-    TwoBone_Translate = 1
+    TwoBone_Translate = 1,
+    OneBone = 2,
+    OneBone_Translate = 3
 }
 ```
 :::

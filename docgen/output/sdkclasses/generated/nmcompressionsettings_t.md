@@ -17,22 +17,22 @@ NmCompressionSettings_t(ptr --[[ string ]])
 # Properties
 ## TranslationRangeX (Read-Only)
 ```lua
-@type NmCompressionSettings_t
+@type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeX
 ```
 ## TranslationRangeY (Read-Only)
 ```lua
-@type NmCompressionSettings_t
+@type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeY
 ```
 ## TranslationRangeZ (Read-Only)
 ```lua
-@type NmCompressionSettings_t
+@type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeZ
 ```
 ## ScaleRange (Read-Only)
 ```lua
-@type NmCompressionSettings_t
+@type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.ScaleRange
 ```
 ## IsRotationStatic 

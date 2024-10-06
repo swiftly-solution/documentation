@@ -15,6 +15,12 @@ category:
 CDirectionalBlendUpdateNode(ptr --[[ string ]])
 ```
 # Properties
+## Sequences 
+```lua
+@type table
+Read: cdirectionalblendupdatenode.Sequences
+Write: cdirectionalblendupdatenode.Sequences = value
+```
 ## Damping (Read-Only)
 ```lua
 @type CAnimInputDamping

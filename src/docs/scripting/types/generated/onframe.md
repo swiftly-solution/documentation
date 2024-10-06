@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 OnFrame = {
-    ONFRAME_FALSE = 2,
+    ONFRAME_UNKNOWN = 0,
     ONFRAME_TRUE = 1,
-    ONFRAME_UNKNOWN = 0
+    ONFRAME_FALSE = 2
 }
 ```
 :::

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ForcedCrouchState_t = {
-    FORCEDCROUCH_CROUCHED = 1,
     FORCEDCROUCH_NONE = 0,
+    FORCEDCROUCH_CROUCHED = 1,
     FORCEDCROUCH_UNCROUCHED = 2
 }
 ```

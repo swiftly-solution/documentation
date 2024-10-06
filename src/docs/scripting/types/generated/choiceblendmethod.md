@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ChoiceBlendMethod = {
-    PerChoiceBlendTimes = 1,
-    SingleBlendTime = 0
+    SingleBlendTime = 0,
+    PerChoiceBlendTimes = 1
 }
 ```
 :::

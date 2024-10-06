@@ -11,11 +11,11 @@ category:
 @tab Lua
 ```lua
 NavDirType = {
-    EAST = 1,
     NORTH = 0,
-    NUM_NAV_DIR_TYPE_DIRECTIONS = 4,
+    EAST = 1,
     SOUTH = 2,
-    WEST = 3
+    WEST = 3,
+    NUM_NAV_DIR_TYPE_DIRECTIONS = 4
 }
 ```
 :::

@@ -193,11 +193,10 @@ Write: cenvwindshared.WindAngleVariation = value
 Read: cenvwindshared.WindSpeedVariation
 Write: cenvwindshared.WindSpeedVariation = value
 ```
-## EntIndex 
+## EntOwner (Read-Only)
 ```lua
-@type number
-Read: cenvwindshared.EntIndex
-Write: cenvwindshared.EntIndex = value
+@type CBaseEntity
+Read: cenvwindshared.EntOwner
 ```
 # Functions
 ## ToPtr

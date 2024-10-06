@@ -58,11 +58,6 @@ Read: cplayer_cameraservices.TonemapController
 @type audioparams_t
 Read: cplayer_cameraservices.Audio
 ```
-## PostProcessingVolumes (Read-Only)
-```lua
-@type table
-Read: cplayer_cameraservices.PostProcessingVolumes
-```
 ## OldPlayerZ 
 ```lua
 @type number

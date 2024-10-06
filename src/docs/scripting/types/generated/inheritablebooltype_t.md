@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 InheritableBoolType_t = {
-    INHERITABLE_BOOL_FALSE = 1,
     INHERITABLE_BOOL_INHERIT = 0,
+    INHERITABLE_BOOL_FALSE = 1,
     INHERITABLE_BOOL_TRUE = 2
 }
 ```

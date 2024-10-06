@@ -15,29 +15,25 @@ category:
 CCSPlayerController(ptr --[[ string ]])
 ```
 # Properties
-## InGameMoneyServices 
+## InGameMoneyServices (Read-Only)
 ```lua
 @type CCSPlayerController_InGameMoneyServices
 Read: ccsplayercontroller.InGameMoneyServices
-Write: ccsplayercontroller.InGameMoneyServices = value
 ```
-## InventoryServices 
+## InventoryServices (Read-Only)
 ```lua
 @type CCSPlayerController_InventoryServices
 Read: ccsplayercontroller.InventoryServices
-Write: ccsplayercontroller.InventoryServices = value
 ```
-## ActionTrackingServices 
+## ActionTrackingServices (Read-Only)
 ```lua
 @type CCSPlayerController_ActionTrackingServices
 Read: ccsplayercontroller.ActionTrackingServices
-Write: ccsplayercontroller.ActionTrackingServices = value
 ```
-## DamageServices 
+## DamageServices (Read-Only)
 ```lua
 @type CCSPlayerController_DamageServices
 Read: ccsplayercontroller.DamageServices
-Write: ccsplayercontroller.DamageServices = value
 ```
 ## Ping 
 ```lua
@@ -206,11 +202,6 @@ Write: ccsplayercontroller.EndMatchNextMapVote = value
 @type number
 Read: ccsplayercontroller.ActiveQuestId
 Write: ccsplayercontroller.ActiveQuestId = value
-```
-## QuestProgressReason (Read-Only)
-```lua
-@type QuestProgress
-Read: ccsplayercontroller.QuestProgressReason
 ```
 ## PlayerTvControlFlags 
 ```lua

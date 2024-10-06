@@ -33,6 +33,12 @@ Write: ctriggerteleport.UseLandmarkAngles = value
 Read: ctriggerteleport.MirrorPlayer
 Write: ctriggerteleport.MirrorPlayer = value
 ```
+## CheckDestIfClearForPlayer 
+```lua
+@type boolean
+Read: ctriggerteleport.CheckDestIfClearForPlayer
+Write: ctriggerteleport.CheckDestIfClearForPlayer = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CBaseTrigger

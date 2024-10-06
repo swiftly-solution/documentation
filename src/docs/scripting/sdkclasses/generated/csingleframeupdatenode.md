@@ -20,6 +20,12 @@ CSingleFrameUpdateNode(ptr --[[ string ]])
 @type CPoseHandle
 Read: csingleframeupdatenode.PoseCacheHandle
 ```
+## Sequence 
+```lua
+@type number
+Read: csingleframeupdatenode.Sequence
+Write: csingleframeupdatenode.Sequence = value
+```
 ## Cycle 
 ```lua
 @type number

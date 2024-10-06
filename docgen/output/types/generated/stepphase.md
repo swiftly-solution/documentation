@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 StepPhase = {
-    StepPhase_InAir = 1,
-    StepPhase_OnGround = 0
+    StepPhase_OnGround = 0,
+    StepPhase_InAir = 1
 }
 ```
 :::

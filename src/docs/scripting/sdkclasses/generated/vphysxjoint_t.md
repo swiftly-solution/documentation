@@ -144,6 +144,24 @@ Write: vphysxjoint_t.AngularDampingRatio = value
 Read: vphysxjoint_t.Friction
 Write: vphysxjoint_t.Friction = value
 ```
+## Elasticity 
+```lua
+@type number
+Read: vphysxjoint_t.Elasticity
+Write: vphysxjoint_t.Elasticity = value
+```
+## ElasticDamping 
+```lua
+@type number
+Read: vphysxjoint_t.ElasticDamping
+Write: vphysxjoint_t.ElasticDamping = value
+```
+## Plasticity 
+```lua
+@type number
+Read: vphysxjoint_t.Plasticity
+Write: vphysxjoint_t.Plasticity = value
+```
 # Functions
 ## ToPtr
 ```lua

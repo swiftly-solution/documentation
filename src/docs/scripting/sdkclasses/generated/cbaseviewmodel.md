@@ -56,6 +56,12 @@ Write: cbaseviewmodel.VMName = value
 Read: cbaseviewmodel.AnimationPrefix
 Write: cbaseviewmodel.AnimationPrefix = value
 ```
+## OldLayerSequence 
+```lua
+@type number
+Read: cbaseviewmodel.OldLayerSequence
+Write: cbaseviewmodel.OldLayerSequence = value
+```
 ## OldLayer 
 ```lua
 @type number

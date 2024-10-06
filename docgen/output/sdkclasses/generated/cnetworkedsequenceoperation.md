@@ -15,6 +15,12 @@ category:
 CNetworkedSequenceOperation(ptr --[[ string ]])
 ```
 # Properties
+## Sequence 
+```lua
+@type number
+Read: cnetworkedsequenceoperation.Sequence
+Write: cnetworkedsequenceoperation.Sequence = value
+```
 ## PrevCycle 
 ```lua
 @type number

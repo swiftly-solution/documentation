@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 ChoreoLookAtMode_t = {
+    eInvalid = -1,
     eChest = 0,
-    eEyesOnly = 2,
     eHead = 1,
-    eInvalid = -1
+    eEyesOnly = 2
 }
 ```
 :::

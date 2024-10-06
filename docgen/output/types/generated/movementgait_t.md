@@ -11,12 +11,12 @@ category:
 @tab Lua
 ```lua
 MovementGait_t = {
-    eCount = 4,
-    eFast = 2,
     eInvalid = -1,
-    eMedium = 1,
     eSlow = 0,
-    eVeryFast = 3
+    eMedium = 1,
+    eFast = 2,
+    eVeryFast = 3,
+    eCount = 4
 }
 ```
 :::

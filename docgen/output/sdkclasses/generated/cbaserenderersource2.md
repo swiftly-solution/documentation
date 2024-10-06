@@ -103,6 +103,16 @@ Write: cbaserenderersource2.AnimationType = value
 Read: cbaserenderersource2.AnimateInFPS
 Write: cbaserenderersource2.AnimateInFPS = value
 ```
+## MotionVectorScaleU (Read-Only)
+```lua
+@type CParticleCollectionRendererFloatInput
+Read: cbaserenderersource2.MotionVectorScaleU
+```
+## MotionVectorScaleV (Read-Only)
+```lua
+@type CParticleCollectionRendererFloatInput
+Read: cbaserenderersource2.MotionVectorScaleV
+```
 ## SelfIllumAmount (Read-Only)
 ```lua
 @type CParticleCollectionRendererFloatInput

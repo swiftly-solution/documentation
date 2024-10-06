@@ -38,6 +38,12 @@ Write: cbaseanimgraphcontroller.SoundSyncTime = value
 Read: cbaseanimgraphcontroller.ActiveIKChainMask
 Write: cbaseanimgraphcontroller.ActiveIKChainMask = value
 ```
+## Sequence 
+```lua
+@type number
+Read: cbaseanimgraphcontroller.Sequence
+Write: cbaseanimgraphcontroller.Sequence = value
+```
 ## SeqStartTime 
 ```lua
 @type number

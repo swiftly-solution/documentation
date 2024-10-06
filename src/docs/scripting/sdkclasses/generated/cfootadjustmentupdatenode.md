@@ -15,6 +15,11 @@ category:
 CFootAdjustmentUpdateNode(ptr --[[ string ]])
 ```
 # Properties
+## Clips (Read-Only)
+```lua
+@type table
+Read: cfootadjustmentupdatenode.Clips
+```
 ## BasePoseCacheHandle (Read-Only)
 ```lua
 @type CPoseHandle

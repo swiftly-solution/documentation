@@ -15,7 +15,12 @@ category:
 EventClientProcessNetworking_t(ptr --[[ string ]])
 ```
 # Properties
-There are no properties available for this class.
+## TickCount 
+```lua
+@type number
+Read: eventclientprocessnetworking_t.TickCount
+Write: eventclientprocessnetworking_t.TickCount = value
+```
 # Functions
 ## ToPtr
 ```lua

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 SceneOnPlayerDeath_t = {
-    SCENE_ONPLAYERDEATH_CANCEL = 1,
-    SCENE_ONPLAYERDEATH_DO_NOTHING = 0
+    SCENE_ONPLAYERDEATH_DO_NOTHING = 0,
+    SCENE_ONPLAYERDEATH_CANCEL = 1
 }
 ```
 :::

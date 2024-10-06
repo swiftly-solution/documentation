@@ -15,11 +15,6 @@ category:
 CRenderMesh(ptr --[[ string ]])
 ```
 # Properties
-## Constraints (Read-Only)
-```lua
-@type table
-Read: crendermesh.Constraints
-```
 ## Skeleton (Read-Only)
 ```lua
 @type CRenderSkeleton
@@ -30,11 +25,10 @@ Read: crendermesh.Skeleton
 @type DynamicMeshDeformParams_t
 Read: crendermesh.MeshDeformParams
 ```
-## GroomData 
+## GroomData (Read-Only)
 ```lua
 @type CRenderGroom
 Read: crendermesh.GroomData
-Write: crendermesh.GroomData = value
 ```
 # Functions
 ## ToPtr

@@ -29,7 +29,7 @@ Write: particlenamedvaluesource_t.IsPublic = value
 ```
 ## ValueType 
 ```lua
-@type number
+@type PulseValueType_t
 Read: particlenamedvaluesource_t.ValueType
 Write: particlenamedvaluesource_t.ValueType = value
 ```

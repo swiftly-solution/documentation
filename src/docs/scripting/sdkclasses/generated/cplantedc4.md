@@ -39,6 +39,11 @@ Write: cplantedc4.BombSite = value
 Read: cplantedc4.SourceSoundscapeHash
 Write: cplantedc4.SourceSoundscapeHash = value
 ```
+## AttributeManager (Read-Only)
+```lua
+@type CAttributeContainer
+Read: cplantedc4.AttributeManager
+```
 ## OnBombDefused (Read-Only)
 ```lua
 @type CEntityIOOutput

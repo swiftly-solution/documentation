@@ -15,11 +15,10 @@ category:
 CBaseModelEntity(ptr --[[ string ]])
 ```
 # Properties
-## CRenderComponent 
+## CRenderComponent (Read-Only)
 ```lua
 @type CRenderComponent
 Read: cbasemodelentity.CRenderComponent
-Write: cbasemodelentity.CRenderComponent = value
 ```
 ## CHitboxComponent (Read-Only)
 ```lua
@@ -71,6 +70,12 @@ Read: cbasemodelentity.RenderAttributes
 @type boolean
 Read: cbasemodelentity.RenderToCubemaps
 Write: cbasemodelentity.RenderToCubemaps = value
+```
+## NoInterpolate 
+```lua
+@type boolean
+Read: cbasemodelentity.NoInterpolate
+Write: cbasemodelentity.NoInterpolate = value
 ```
 ## Collision (Read-Only)
 ```lua
@@ -147,11 +152,6 @@ Write: cbasemodelentity.DecalHealBloodRate = value
 @type number
 Read: cbasemodelentity.DecalHealHeightRate
 Write: cbasemodelentity.DecalHealHeightRate = value
-```
-## ConfigEntitiesToPropagateMaterialDecalsTo (Read-Only)
-```lua
-@type table
-Read: cbasemodelentity.ConfigEntitiesToPropagateMaterialDecalsTo
 ```
 ## ViewOffset (Read-Only)
 ```lua

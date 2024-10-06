@@ -17,7 +17,7 @@ RnHullDesc_t(ptr --[[ string ]])
 # Properties
 ## Hull (Read-Only)
 ```lua
-@type RnHull_t
+@type Rnuint32_t
 Read: rnhulldesc_t.Hull
 ```
 ## Parent (Read-Only)

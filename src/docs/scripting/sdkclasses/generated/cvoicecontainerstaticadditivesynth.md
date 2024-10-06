@@ -15,29 +15,15 @@ category:
 CVoiceContainerStaticAdditiveSynth(ptr --[[ string ]])
 ```
 # Properties
-## MinVolume 
+## Tones (Read-Only)
 ```lua
-@type number
-Read: cvoicecontainerstaticadditivesynth.MinVolume
-Write: cvoicecontainerstaticadditivesynth.MinVolume = value
+@type table
+Read: cvoicecontainerstaticadditivesynth.Tones
 ```
-## InstancesAtMinVolume 
+## Parent (Read-Only)
 ```lua
-@type number
-Read: cvoicecontainerstaticadditivesynth.InstancesAtMinVolume
-Write: cvoicecontainerstaticadditivesynth.InstancesAtMinVolume = value
-```
-## MaxVolume 
-```lua
-@type number
-Read: cvoicecontainerstaticadditivesynth.MaxVolume
-Write: cvoicecontainerstaticadditivesynth.MaxVolume = value
-```
-## InstancesAtMaxVolume 
-```lua
-@type number
-Read: cvoicecontainerstaticadditivesynth.InstancesAtMaxVolume
-Write: cvoicecontainerstaticadditivesynth.InstancesAtMaxVolume = value
+@type CVoiceContainerBase
+Read: cvoicecontainerstaticadditivesynth.Parent
 ```
 # Functions
 ## ToPtr

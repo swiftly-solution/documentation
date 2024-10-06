@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 BrushSolidities_e = {
-    BRUSHSOLID_ALWAYS = 2,
+    BRUSHSOLID_TOGGLE = 0,
     BRUSHSOLID_NEVER = 1,
-    BRUSHSOLID_TOGGLE = 0
+    BRUSHSOLID_ALWAYS = 2
 }
 ```
 :::

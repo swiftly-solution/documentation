@@ -57,6 +57,18 @@ Write: cenvvolumetricfogcontroller.FadeInEnd = value
 Read: cenvvolumetricfogcontroller.IndirectStrength
 Write: cenvvolumetricfogcontroller.IndirectStrength = value
 ```
+## VolumeDepth 
+```lua
+@type number
+Read: cenvvolumetricfogcontroller.VolumeDepth
+Write: cenvvolumetricfogcontroller.VolumeDepth = value
+```
+## FirstVolumeSliceThickness 
+```lua
+@type number
+Read: cenvvolumetricfogcontroller.FirstVolumeSliceThickness
+Write: cenvvolumetricfogcontroller.FirstVolumeSliceThickness = value
+```
 ## IndirectTextureDimX 
 ```lua
 @type number

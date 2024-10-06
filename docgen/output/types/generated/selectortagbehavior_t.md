@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 SelectorTagBehavior_t = {
-    SelectorTagBehavior_OffBeforeFinished = 2,
+    SelectorTagBehavior_OnWhileCurrent = 0,
     SelectorTagBehavior_OffWhenFinished = 1,
-    SelectorTagBehavior_OnWhileCurrent = 0
+    SelectorTagBehavior_OffBeforeFinished = 2
 }
 ```
 :::

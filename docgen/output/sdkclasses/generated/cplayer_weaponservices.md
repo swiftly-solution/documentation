@@ -15,11 +15,6 @@ category:
 CPlayer_WeaponServices(ptr --[[ string ]])
 ```
 # Properties
-## MyWeapons (Read-Only)
-```lua
-@type table
-Read: cplayer_weaponservices.MyWeapons
-```
 ## ActiveWeapon (Read-Only)
 ```lua
 @type CBasePlayerWeapon

@@ -67,11 +67,6 @@ Write: cpointtemplate.OwnerSpawnGroupType = value
 @type table
 Read: cpointtemplate.CreatedSpawnGroupHandles
 ```
-## SpawnedEntityHandles (Read-Only)
-```lua
-@type table
-Read: cpointtemplate.SpawnedEntityHandles
-```
 ## Parent (Read-Only)
 ```lua
 @type CLogicalEntity

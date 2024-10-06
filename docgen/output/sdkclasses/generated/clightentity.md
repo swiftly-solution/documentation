@@ -15,11 +15,10 @@ category:
 CLightEntity(ptr --[[ string ]])
 ```
 # Properties
-## CLightComponent 
+## CLightComponent (Read-Only)
 ```lua
 @type CLightComponent
 Read: clightentity.CLightComponent
-Write: clightentity.CLightComponent = value
 ```
 ## Parent (Read-Only)
 ```lua

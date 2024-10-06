@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 Blend2DMode = {
-    Blend2DMode_Directional = 1,
-    Blend2DMode_General = 0
+    Blend2DMode_General = 0,
+    Blend2DMode_Directional = 1
 }
 ```
 :::

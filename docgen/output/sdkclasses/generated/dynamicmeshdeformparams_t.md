@@ -39,6 +39,12 @@ Write: dynamicmeshdeformparams_t.RecomputeSmoothNormalsAfterAnimation = value
 Read: dynamicmeshdeformparams_t.ComputeDynamicMeshTensionAfterAnimation
 Write: dynamicmeshdeformparams_t.ComputeDynamicMeshTensionAfterAnimation = value
 ```
+## SmoothNormalsAcrossUvSeams 
+```lua
+@type boolean
+Read: dynamicmeshdeformparams_t.SmoothNormalsAcrossUvSeams
+Write: dynamicmeshdeformparams_t.SmoothNormalsAcrossUvSeams = value
+```
 # Functions
 ## ToPtr
 ```lua

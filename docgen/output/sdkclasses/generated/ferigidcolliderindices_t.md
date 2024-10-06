@@ -33,6 +33,12 @@ Write: ferigidcolliderindices_t.SphereRigidIndex = value
 Read: ferigidcolliderindices_t.BoxRigidIndex
 Write: ferigidcolliderindices_t.BoxRigidIndex = value
 ```
+## SDFRigidIndex 
+```lua
+@type number
+Read: ferigidcolliderindices_t.SDFRigidIndex
+Write: ferigidcolliderindices_t.SDFRigidIndex = value
+```
 ## CollisionPlaneIndex 
 ```lua
 @type number

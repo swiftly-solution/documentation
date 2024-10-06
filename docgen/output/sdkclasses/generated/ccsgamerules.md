@@ -595,10 +595,11 @@ Write: ccsgamerules.NumQueuedMatchmakingAccounts = value
 Read: ccsgamerules.AvgPlayerRank
 Write: ccsgamerules.AvgPlayerRank = value
 ```
-## QueuedMatchmakingReservationString (Read-Only)
+## QueuedMatchmakingReservationString 
 ```lua
 @type string
 Read: ccsgamerules.QueuedMatchmakingReservationString
+Write: ccsgamerules.QueuedMatchmakingReservationString = value
 ```
 ## NumTotalTournamentDrops 
 ```lua
@@ -968,11 +969,10 @@ Write: ccsgamerules.HasTriggeredRoundStartMusic = value
 Read: ccsgamerules.SwitchingTeamsAtRoundReset
 Write: ccsgamerules.SwitchingTeamsAtRoundReset = value
 ```
-## GameModeRules 
+## GameModeRules (Read-Only)
 ```lua
 @type CCSGameModeRules
 Read: ccsgamerules.GameModeRules
-Write: ccsgamerules.GameModeRules = value
 ```
 ## PlayerResource (Read-Only)
 ```lua

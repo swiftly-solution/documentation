@@ -108,12 +108,6 @@ Write: cshatterglassshard.Area = value
 Read: cshatterglassshard.OnFrameEdge
 Write: cshatterglassshard.OnFrameEdge = value
 ```
-## ParentPanelsNthShard 
-```lua
-@type number
-Read: cshatterglassshard.ParentPanelsNthShard
-Write: cshatterglassshard.ParentPanelsNthShard = value
-```
 ## SubShardGeneration 
 ```lua
 @type number
@@ -167,12 +161,6 @@ Write: cshatterglassshard.FlaggedForRemoval = value
 @type number
 Read: cshatterglassshard.PhysicsEntitySpawnedAtTime
 Write: cshatterglassshard.PhysicsEntitySpawnedAtTime = value
-```
-## ShatterRateLimited 
-```lua
-@type boolean
-Read: cshatterglassshard.ShatterRateLimited
-Write: cshatterglassshard.ShatterRateLimited = value
 ```
 ## EntityHittingMe (Read-Only)
 ```lua

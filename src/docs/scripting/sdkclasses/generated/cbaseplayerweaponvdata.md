@@ -27,11 +27,16 @@ Write: cbaseplayerweaponvdata.BuiltRightHanded = value
 Read: cbaseplayerweaponvdata.AllowFlipping
 Write: cbaseplayerweaponvdata.AllowFlipping = value
 ```
-## MuzzleAttachment 
+## MuzzleAttachment (Read-Only)
 ```lua
-@type string
+@type CAttachmentNameSymbolWithStorage
 Read: cbaseplayerweaponvdata.MuzzleAttachment
-Write: cbaseplayerweaponvdata.MuzzleAttachment = value
+```
+## LinkedCooldowns 
+```lua
+@type boolean
+Read: cbaseplayerweaponvdata.LinkedCooldowns
+Write: cbaseplayerweaponvdata.LinkedCooldowns = value
 ```
 ## Flags 
 ```lua
@@ -75,6 +80,12 @@ Write: cbaseplayerweaponvdata.DefaultClip1 = value
 Read: cbaseplayerweaponvdata.DefaultClip2
 Write: cbaseplayerweaponvdata.DefaultClip2 = value
 ```
+## ReserveAmmoAsClips 
+```lua
+@type boolean
+Read: cbaseplayerweaponvdata.ReserveAmmoAsClips
+Write: cbaseplayerweaponvdata.ReserveAmmoAsClips = value
+```
 ## Weight 
 ```lua
 @type number
@@ -98,12 +109,6 @@ Write: cbaseplayerweaponvdata.AutoSwitchFrom = value
 @type number
 Read: cbaseplayerweaponvdata.RumbleEffect
 Write: cbaseplayerweaponvdata.RumbleEffect = value
-```
-## LinkedCooldowns 
-```lua
-@type boolean
-Read: cbaseplayerweaponvdata.LinkedCooldowns
-Write: cbaseplayerweaponvdata.LinkedCooldowns = value
 ```
 ## Slot 
 ```lua

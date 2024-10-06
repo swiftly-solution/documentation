@@ -11,13 +11,15 @@ category:
 @tab Lua
 ```lua
 ChickenActivity = {
-    GLIDE = 4,
     IDLE = 0,
+    SQUAT = 1,
+    WALK = 2,
+    RUN = 3,
+    GLIDE = 4,
     LAND = 5,
     PANIC = 6,
-    RUN = 3,
-    SQUAT = 1,
-    WALK = 2
+    TRICK = 7,
+    TURN_IN_PLACE = 8
 }
 ```
 :::

@@ -21,11 +21,10 @@ CEnvLaser(ptr --[[ string ]])
 Read: cenvlaser.LaserTarget
 Write: cenvlaser.LaserTarget = value
 ```
-## Sprite 
+## Sprite (Read-Only)
 ```lua
 @type CSprite
 Read: cenvlaser.Sprite
-Write: cenvlaser.Sprite = value
 ```
 ## SpriteName 
 ```lua

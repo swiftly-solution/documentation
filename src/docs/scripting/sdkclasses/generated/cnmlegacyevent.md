@@ -15,6 +15,12 @@ category:
 CNmLegacyEvent(ptr --[[ string ]])
 ```
 # Properties
+## AnimEventClassName 
+```lua
+@type string
+Read: cnmlegacyevent.AnimEventClassName
+Write: cnmlegacyevent.AnimEventClassName = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CNmEvent

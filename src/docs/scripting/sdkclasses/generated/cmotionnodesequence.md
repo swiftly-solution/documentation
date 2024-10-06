@@ -20,6 +20,12 @@ CMotionNodeSequence(ptr --[[ string ]])
 @type table
 Read: cmotionnodesequence.Tags
 ```
+## Sequence 
+```lua
+@type number
+Read: cmotionnodesequence.Sequence
+Write: cmotionnodesequence.Sequence = value
+```
 ## PlaybackSpeed 
 ```lua
 @type number

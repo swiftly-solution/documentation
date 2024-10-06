@@ -21,18 +21,6 @@ CCSGOViewModel(ptr --[[ string ]])
 Read: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy
 Write: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy = value
 ```
-## WeaponParity 
-```lua
-@type number
-Read: ccsgoviewmodel.WeaponParity
-Write: ccsgoviewmodel.WeaponParity = value
-```
-## OldWeaponParity 
-```lua
-@type number
-Read: ccsgoviewmodel.OldWeaponParity
-Write: ccsgoviewmodel.OldWeaponParity = value
-```
 ## Parent (Read-Only)
 ```lua
 @type CPredictedViewModel

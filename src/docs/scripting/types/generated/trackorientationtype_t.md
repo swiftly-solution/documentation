@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 TrackOrientationType_t = {
+    TrackOrientation_Fixed = 0,
     TrackOrientation_FacePath = 1,
-    TrackOrientation_FacePathAngles = 2,
-    TrackOrientation_Fixed = 0
+    TrackOrientation_FacePathAngles = 2
 }
 ```
 :::

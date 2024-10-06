@@ -15,11 +15,6 @@ category:
 SimpleConstraintSoundProfile(ptr --[[ string ]])
 ```
 # Properties
-## Keypoints (Read-Only)
-```lua
-@type SimpleConstraintSoundProfile
-Read: simpleconstraintsoundprofile.Keypoints
-```
 ## KeyPoints 
 ```lua
 @type table

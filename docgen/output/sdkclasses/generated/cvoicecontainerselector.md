@@ -21,11 +21,15 @@ CVoiceContainerSelector(ptr --[[ string ]])
 Read: cvoicecontainerselector.Mode
 Write: cvoicecontainerselector.Mode = value
 ```
-## Retrigger 
+## SoundsToPlay (Read-Only)
 ```lua
-@type boolean
-Read: cvoicecontainerselector.Retrigger
-Write: cvoicecontainerselector.Retrigger = value
+@type CSoundContainerReferenceArray
+Read: cvoicecontainerselector.SoundsToPlay
+```
+## ProbabilityWeights (Read-Only)
+```lua
+@type table
+Read: cvoicecontainerselector.ProbabilityWeights
 ```
 ## Parent (Read-Only)
 ```lua

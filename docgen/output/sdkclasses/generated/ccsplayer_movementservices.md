@@ -129,6 +129,12 @@ Write: ccsplayer_movementservices.StuckLast = value
 Read: ccsplayer_movementservices.SpeedCropped
 Write: ccsplayer_movementservices.SpeedCropped = value
 ```
+## GroundMoveEfficiency 
+```lua
+@type number
+Read: ccsplayer_movementservices.GroundMoveEfficiency
+Write: ccsplayer_movementservices.GroundMoveEfficiency = value
+```
 ## OldWaterLevel 
 ```lua
 @type number
@@ -242,6 +248,12 @@ Write: ccsplayer_movementservices.HeightAtJumpStart = value
 @type number
 Read: ccsplayer_movementservices.MaxJumpHeightThisJump
 Write: ccsplayer_movementservices.MaxJumpHeightThisJump = value
+```
+## MaxJumpHeightLastJump 
+```lua
+@type number
+Read: ccsplayer_movementservices.MaxJumpHeightLastJump
+Write: ccsplayer_movementservices.MaxJumpHeightLastJump = value
 ```
 ## Parent (Read-Only)
 ```lua

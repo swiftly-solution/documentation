@@ -62,6 +62,12 @@ Read: cenvexplosion.Inflictor
 Read: cenvexplosion.CustomDamageType
 Write: cenvexplosion.CustomDamageType = value
 ```
+## CreateDebris 
+```lua
+@type boolean
+Read: cenvexplosion.CreateDebris
+Write: cenvexplosion.CreateDebris = value
+```
 ## ExplosionType 
 ```lua
 @type string

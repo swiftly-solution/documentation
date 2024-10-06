@@ -63,11 +63,6 @@ Write: cfuncconveyor.TransitionDurationTicks = value
 Read: cfuncconveyor.TransitionStartSpeed
 Write: cfuncconveyor.TransitionStartSpeed = value
 ```
-## ConveyorModels1 (Read-Only)
-```lua
-@type table
-Read: cfuncconveyor.ConveyorModels1
-```
 ## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity

@@ -81,6 +81,12 @@ Write: worldnode_t.GrassFileName = value
 @type BakedLightingInfo_t
 Read: worldnode_t.NodeLightingInfo
 ```
+## HasBakedGeometryFlag 
+```lua
+@type boolean
+Read: worldnode_t.HasBakedGeometryFlag
+Write: worldnode_t.HasBakedGeometryFlag = value
+```
 # Functions
 ## ToPtr
 ```lua

@@ -19,8 +19,13 @@ end)
 ```
 
 :::
-|     Key    | Data Type |
-| :--------: | :-------: |
-|  `userid`  |   `int`   |
-| `attacker` |   `int`   |
-|  `health`  |   `int`   |
+|      Key     | Data Type |
+| :----------: | :-------: |
+|   `userid`   |   `int`   |
+|  `attacker`  |   `int`   |
+|   `health`   |   `int`   |
+|    `armor`   |   `int`   |
+|   `weapon`   |  `string` |
+| `dmg_health` |   `int`   |
+|  `dmg_armor` |   `int`   |
+|  `hitgroup`  |   `int`   |

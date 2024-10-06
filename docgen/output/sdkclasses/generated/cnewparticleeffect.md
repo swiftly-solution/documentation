@@ -15,28 +15,104 @@ category:
 CNewParticleEffect(ptr --[[ string ]])
 ```
 # Properties
-## Next 
+## Next (Read-Only)
 ```lua
 @type CNewParticleEffect
 Read: cnewparticleeffect.Next
-Write: cnewparticleeffect.Next = value
 ```
-## Prev 
+## Prev (Read-Only)
 ```lua
 @type CNewParticleEffect
 Read: cnewparticleeffect.Prev
-Write: cnewparticleeffect.Prev = value
 ```
-## Particles 
+## Particles (Read-Only)
 ```lua
 @type IParticleCollection
 Read: cnewparticleeffect.Particles
-Write: cnewparticleeffect.Particles = value
 ```
-## DebugName (Read-Only)
+## DebugName 
 ```lua
 @type string
 Read: cnewparticleeffect.DebugName
+Write: cnewparticleeffect.DebugName = value
+```
+## DontRemove 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.DontRemove
+Write: cnewparticleeffect.DontRemove = value
+```
+## Remove 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.Remove
+Write: cnewparticleeffect.Remove = value
+```
+## NeedsBBoxUpdate 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.NeedsBBoxUpdate
+Write: cnewparticleeffect.NeedsBBoxUpdate = value
+```
+## IsFirstFrame 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.IsFirstFrame
+Write: cnewparticleeffect.IsFirstFrame = value
+```
+## AutoUpdateBBox 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.AutoUpdateBBox
+Write: cnewparticleeffect.AutoUpdateBBox = value
+```
+## Allocated 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.Allocated
+Write: cnewparticleeffect.Allocated = value
+```
+## Simulate 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.Simulate
+Write: cnewparticleeffect.Simulate = value
+```
+## ShouldPerformCullCheck 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.ShouldPerformCullCheck
+Write: cnewparticleeffect.ShouldPerformCullCheck = value
+```
+## ForceNoDraw 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.ForceNoDraw
+Write: cnewparticleeffect.ForceNoDraw = value
+```
+## ShouldSave 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.ShouldSave
+Write: cnewparticleeffect.ShouldSave = value
+```
+## DisableAggregation 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.DisableAggregation
+Write: cnewparticleeffect.DisableAggregation = value
+```
+## ShouldSimulateDuringGamePaused 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.ShouldSimulateDuringGamePaused
+Write: cnewparticleeffect.ShouldSimulateDuringGamePaused = value
+```
+## ShouldCheckFoW 
+```lua
+@type bitfield:1
+Read: cnewparticleeffect.ShouldCheckFoW
+Write: cnewparticleeffect.ShouldCheckFoW = value
 ```
 ## SortOrigin 
 ```lua
@@ -50,17 +126,15 @@ Write: cnewparticleeffect.SortOrigin = value
 Read: cnewparticleeffect.Scale
 Write: cnewparticleeffect.Scale = value
 ```
-## Owner 
+## Owner (Read-Only)
 ```lua
 @type PARTICLE_EHANDLE__
 Read: cnewparticleeffect.Owner
-Write: cnewparticleeffect.Owner = value
 ```
-## OwningParticleProperty 
+## OwningParticleProperty (Read-Only)
 ```lua
 @type CParticleProperty
 Read: cnewparticleeffect.OwningParticleProperty
-Write: cnewparticleeffect.OwningParticleProperty = value
 ```
 ## FreezeTransitionStart 
 ```lua

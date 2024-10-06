@@ -20,6 +20,18 @@ CStateNodeTransitionData(ptr --[[ string ]])
 @type CBlendCurve
 Read: cstatenodetransitiondata.Curve
 ```
+## Reset 
+```lua
+@type bitfield:1
+Read: cstatenodetransitiondata.Reset
+Write: cstatenodetransitiondata.Reset = value
+```
+## ResetCycleOption 
+```lua
+@type bitfield:3
+Read: cstatenodetransitiondata.ResetCycleOption
+Write: cstatenodetransitiondata.ResetCycleOption = value
+```
 # Functions
 ## ToPtr
 ```lua

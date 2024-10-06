@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 IKTargetCoordinateSystem = {
-    IKTARGETCOORDINATESYSTEM_COUNT = 2,
+    IKTARGETCOORDINATESYSTEM_WorldSpace = 0,
     IKTARGETCOORDINATESYSTEM_ModelSpace = 1,
-    IKTARGETCOORDINATESYSTEM_WorldSpace = 0
+    IKTARGETCOORDINATESYSTEM_COUNT = 2
 }
 ```
 :::

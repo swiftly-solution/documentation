@@ -62,11 +62,10 @@ Read: vphysxaggregatedata_t.Constraints2
 @type table
 Read: vphysxaggregatedata_t.Joints
 ```
-## FeModel 
+## FeModel (Read-Only)
 ```lua
 @type PhysFeModelDesc_t
 Read: vphysxaggregatedata_t.FeModel
-Write: vphysxaggregatedata_t.FeModel = value
 ```
 ## BoneParents (Read-Only)
 ```lua

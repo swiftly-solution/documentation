@@ -15,6 +15,16 @@ category:
 CVoiceContainerBlender(ptr --[[ string ]])
 ```
 # Properties
+## FirstSound (Read-Only)
+```lua
+@type CSoundContainerReference
+Read: cvoicecontainerblender.FirstSound
+```
+## SecondSound (Read-Only)
+```lua
+@type CSoundContainerReference
+Read: cvoicecontainerblender.SecondSound
+```
 ## BlendFactor 
 ```lua
 @type number

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 StanceOverrideMode = {
-    Node = 1,
-    Sequence = 0
+    Sequence = 0,
+    Node = 1
 }
 ```
 :::

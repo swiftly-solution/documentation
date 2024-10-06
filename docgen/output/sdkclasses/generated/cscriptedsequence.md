@@ -75,6 +75,12 @@ Write: cscriptedsequence.MoveTo = value
 Read: cscriptedsequence.MoveToGait
 Write: cscriptedsequence.MoveToGait = value
 ```
+## HeldWeaponBehavior 
+```lua
+@type number
+Read: cscriptedsequence.HeldWeaponBehavior
+Write: cscriptedsequence.HeldWeaponBehavior = value
+```
 ## IsPlayingPreIdle 
 ```lua
 @type boolean
@@ -242,6 +248,12 @@ Write: cscriptedsequence.MoveInterpTime = value
 @type number
 Read: cscriptedsequence.AngRate
 Write: cscriptedsequence.AngRate = value
+```
+## WaitUntilMoveCompletesToStartAnimation 
+```lua
+@type boolean
+Read: cscriptedsequence.WaitUntilMoveCompletesToStartAnimation
+Write: cscriptedsequence.WaitUntilMoveCompletesToStartAnimation = value
 ```
 ## NotReadySequenceCount 
 ```lua

@@ -87,11 +87,10 @@ Read: permmodeldata_t.RemappingTableStarts
 @type table
 Read: permmodeldata_t.BoneFlexDrivers
 ```
-## ModelConfigList 
+## ModelConfigList (Read-Only)
 ```lua
 @type CModelConfigList
 Read: permmodeldata_t.ModelConfigList
-Write: permmodeldata_t.ModelConfigList = value
 ```
 ## BodyGroupsHiddenInTools (Read-Only)
 ```lua

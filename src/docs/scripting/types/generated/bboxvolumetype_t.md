@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 BBoxVolumeType_t = {
+    BBOX_VOLUME = 0,
     BBOX_DIMENSIONS = 1,
-    BBOX_MINS_MAXS = 2,
-    BBOX_VOLUME = 0
+    BBOX_MINS_MAXS = 2
 }
 ```
 :::

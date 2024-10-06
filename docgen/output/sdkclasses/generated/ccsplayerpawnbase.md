@@ -20,17 +20,15 @@ CCSPlayerPawnBase(ptr --[[ string ]])
 @type CTouchExpansionComponent
 Read: ccsplayerpawnbase.CTouchExpansionComponent
 ```
-## PingServices 
+## PingServices (Read-Only)
 ```lua
 @type CCSPlayer_PingServices
 Read: ccsplayerpawnbase.PingServices
-Write: ccsplayerpawnbase.PingServices = value
 ```
-## ViewModelServices 
+## ViewModelServices (Read-Only)
 ```lua
 @type CPlayer_ViewModelServices
 Read: ccsplayerpawnbase.ViewModelServices
-Write: ccsplayerpawnbase.ViewModelServices = value
 ```
 ## BlindUntilTime 
 ```lua

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 IKTargetSource = {
-    IKTARGETSOURCE_AnimgraphParameter = 1,
     IKTARGETSOURCE_Bone = 0,
+    IKTARGETSOURCE_AnimgraphParameter = 1,
     IKTARGETSOURCE_COUNT = 2
 }
 ```

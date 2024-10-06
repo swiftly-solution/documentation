@@ -11,11 +11,11 @@ category:
 @tab Lua
 ```lua
 EWaveform = {
-    Noise = 4,
-    Saw = 2,
     Sine = 0,
     Square = 1,
-    Triangle = 3
+    Saw = 2,
+    Triangle = 3,
+    Noise = 4
 }
 ```
 :::

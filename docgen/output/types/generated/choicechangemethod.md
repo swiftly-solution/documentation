@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 ChoiceChangeMethod = {
-    OnCycleEnd = 1,
     OnReset = 0,
+    OnCycleEnd = 1,
     OnResetOrCycleEnd = 2
 }
 ```

@@ -33,17 +33,17 @@ Write: cmaterialdrawdescriptor.TintColor = value
 Read: cmaterialdrawdescriptor.Alpha
 Write: cmaterialdrawdescriptor.Alpha = value
 ```
-## FirstMeshlet 
-```lua
-@type number
-Read: cmaterialdrawdescriptor.FirstMeshlet
-Write: cmaterialdrawdescriptor.FirstMeshlet = value
-```
 ## NumMeshlets 
 ```lua
 @type number
 Read: cmaterialdrawdescriptor.NumMeshlets
 Write: cmaterialdrawdescriptor.NumMeshlets = value
+```
+## FirstMeshlet 
+```lua
+@type number
+Read: cmaterialdrawdescriptor.FirstMeshlet
+Write: cmaterialdrawdescriptor.FirstMeshlet = value
 ```
 ## PrimitiveType 
 ```lua

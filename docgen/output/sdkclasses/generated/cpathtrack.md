@@ -15,23 +15,20 @@ category:
 CPathTrack(ptr --[[ string ]])
 ```
 # Properties
-## Pnext 
+## Pnext (Read-Only)
 ```lua
 @type CPathTrack
 Read: cpathtrack.Pnext
-Write: cpathtrack.Pnext = value
 ```
-## Pprevious 
+## Pprevious (Read-Only)
 ```lua
 @type CPathTrack
 Read: cpathtrack.Pprevious
-Write: cpathtrack.Pprevious = value
 ```
-## Paltpath 
+## Paltpath (Read-Only)
 ```lua
 @type CPathTrack
 Read: cpathtrack.Paltpath
-Write: cpathtrack.Paltpath = value
 ```
 ## Radius 
 ```lua

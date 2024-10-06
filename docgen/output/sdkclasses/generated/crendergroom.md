@@ -20,6 +20,11 @@ CRenderGroom(ptr --[[ string ]])
 @type table
 Read: crendergroom.Hairs
 ```
+## HairPositionOffsets (Read-Only)
+```lua
+@type table
+Read: crendergroom.HairPositionOffsets
+```
 ## SegmentsPerHairStrand 
 ```lua
 @type number
@@ -61,12 +66,6 @@ Write: crendergroom.AttachMeshIdx = value
 @type number
 Read: crendergroom.AttachMeshDrawCallIdx
 Write: crendergroom.AttachMeshDrawCallIdx = value
-```
-## SumOfAllHairLengths 
-```lua
-@type number
-Read: crendergroom.SumOfAllHairLengths
-Write: crendergroom.SumOfAllHairLengths = value
 ```
 ## EnableSimulation 
 ```lua

@@ -21,6 +21,11 @@ end)
 :::
 |        Key       | Data Type |
 | :--------------: | :-------: |
+|  `vote_option1`  |   `int`   |
+|  `vote_option2`  |   `int`   |
+|  `vote_option3`  |   `int`   |
+|  `vote_option4`  |   `int`   |
+|  `vote_option5`  |   `int`   |
+| `potentialVotes` |   `int`   |
 |    `yesVotes`    |   `int`   |
 |     `noVotes`    |   `int`   |
-| `potentialVotes` |   `int`   |

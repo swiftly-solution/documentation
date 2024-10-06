@@ -26,18 +26,6 @@ Read: cfuncshatterglass.ShatterGlassShards
 Read: cfuncshatterglass.PanelSize
 Write: cfuncshatterglass.PanelSize = value
 ```
-## PanelNormalWs 
-```lua
-@type Vector
-Read: cfuncshatterglass.PanelNormalWs
-Write: cfuncshatterglass.PanelNormalWs = value
-```
-## NumShardsEverCreated 
-```lua
-@type number
-Read: cfuncshatterglass.NumShardsEverCreated
-Write: cfuncshatterglass.NumShardsEverCreated = value
-```
 ## LastShatterSoundEmitTime 
 ```lua
 @type number
@@ -85,12 +73,6 @@ Write: cfuncshatterglass.BreakShardless = value
 @type boolean
 Read: cfuncshatterglass.Broken
 Write: cfuncshatterglass.Broken = value
-```
-## HasRateLimitedShards 
-```lua
-@type boolean
-Read: cfuncshatterglass.HasRateLimitedShards
-Write: cfuncshatterglass.HasRateLimitedShards = value
 ```
 ## GlassNavIgnore 
 ```lua
@@ -149,6 +131,11 @@ Read: cfuncshatterglass.InitialDamagePositions
 ```lua
 @type table
 Read: cfuncshatterglass.ExtraDamagePositions
+```
+## InitialPanelVertices (Read-Only)
+```lua
+@type table
+Read: cfuncshatterglass.InitialPanelVertices
 ```
 ## OnBroken (Read-Only)
 ```lua

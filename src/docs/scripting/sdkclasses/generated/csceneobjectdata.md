@@ -27,21 +27,6 @@ Write: csceneobjectdata.MinBounds = value
 Read: csceneobjectdata.MaxBounds
 Write: csceneobjectdata.MaxBounds = value
 ```
-## DrawCalls (Read-Only)
-```lua
-@type table
-Read: csceneobjectdata.DrawCalls
-```
-## DrawBounds (Read-Only)
-```lua
-@type table
-Read: csceneobjectdata.DrawBounds
-```
-## Meshlets (Read-Only)
-```lua
-@type table
-Read: csceneobjectdata.Meshlets
-```
 ## TintColor 
 ```lua
 @type Vector4D

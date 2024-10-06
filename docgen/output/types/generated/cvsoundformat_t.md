@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 CVSoundFormat_t = {
-    ADPCM = 3,
-    MP3 = 2,
     PCM16 = 0,
-    PCM8 = 1
+    PCM8 = 1,
+    MP3 = 2,
+    ADPCM = 3
 }
 ```
 :::

@@ -17,7 +17,7 @@ CNmBoneMask(ptr --[[ string ]])
 # Properties
 ## WeightInfo (Read-Only)
 ```lua
-@type CNmBoneMask
+@type uint8_t
 Read: cnmbonemask.WeightInfo
 ```
 ## Weights (Read-Only)

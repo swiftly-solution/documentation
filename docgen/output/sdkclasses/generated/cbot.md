@@ -15,17 +15,15 @@ category:
 CBot(ptr --[[ string ]])
 ```
 # Properties
-## Controller 
+## Controller (Read-Only)
 ```lua
 @type CCSPlayerController
 Read: cbot.Controller
-Write: cbot.Controller = value
 ```
-## Player 
+## Player (Read-Only)
 ```lua
 @type CCSPlayerPawn
 Read: cbot.Player
-Write: cbot.Player = value
 ```
 ## HasSpawned 
 ```lua

@@ -68,6 +68,12 @@ Write: csoundevententity.AttachmentName = value
 @type CEntityIOOutput
 Read: csoundevententity.OnSoundFinished
 ```
+## ClientCullRadius 
+```lua
+@type number
+Read: csoundevententity.ClientCullRadius
+Write: csoundevententity.ClientCullRadius = value
+```
 ## SoundName 
 ```lua
 @type string

@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 ValueRemapperMomentumType_t = {
-    MomentumType_Friction = 1,
     MomentumType_None = 0,
-    MomentumType_SpringAwayFromSnapValue = 3,
-    MomentumType_SpringTowardSnapValue = 2
+    MomentumType_Friction = 1,
+    MomentumType_SpringTowardSnapValue = 2,
+    MomentumType_SpringAwayFromSnapValue = 3
 }
 ```
 :::

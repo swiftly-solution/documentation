@@ -26,5 +26,5 @@ end)
 |   `oldteam`  |   `int`   |
 | `disconnect` | `boolean` |
 |   `silent`   | `boolean` |
-|    `name`    |  `string` |
 |    `isbot`   | `boolean` |
+|    `name`    |  `string` |

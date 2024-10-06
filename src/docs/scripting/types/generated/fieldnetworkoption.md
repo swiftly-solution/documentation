@@ -12,8 +12,8 @@ category:
 ```lua
 FieldNetworkOption = {
     Auto = 0,
-    ForceDisable = 2,
-    ForceEnable = 1
+    ForceEnable = 1,
+    ForceDisable = 2
 }
 ```
 :::

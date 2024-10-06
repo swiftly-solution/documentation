@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 ScriptedOnDeath_t = {
-    SS_ONDEATH_ANIMATED_DEATH = 2,
     SS_ONDEATH_NOT_APPLICABLE = -1,
+    SS_ONDEATH_UNDEFINED = 0,
     SS_ONDEATH_RAGDOLL = 1,
-    SS_ONDEATH_UNDEFINED = 0
+    SS_ONDEATH_ANIMATED_DEATH = 2
 }
 ```
 :::

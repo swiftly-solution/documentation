@@ -15,29 +15,25 @@ category:
 CGameSceneNode(ptr --[[ string ]])
 ```
 # Properties
-## Owner 
+## Owner (Read-Only)
 ```lua
 @type CEntityInstance
 Read: cgamescenenode.Owner
-Write: cgamescenenode.Owner = value
 ```
-## Parent 
+## Parent (Read-Only)
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.Parent
-Write: cgamescenenode.Parent = value
 ```
-## Child 
+## Child (Read-Only)
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.Child
-Write: cgamescenenode.Child = value
 ```
-## NextSibling 
+## NextSibling (Read-Only)
 ```lua
 @type CGameSceneNode
 Read: cgamescenenode.NextSibling
-Write: cgamescenenode.NextSibling = value
 ```
 ## Origin (Read-Only)
 ```lua
@@ -97,6 +93,60 @@ Write: cgamescenenode.Dormant = value
 @type boolean
 Read: cgamescenenode.ForceParentToBeNetworked
 Write: cgamescenenode.ForceParentToBeNetworked = value
+```
+## DirtyHierarchy 
+```lua
+@type bitfield:1
+Read: cgamescenenode.DirtyHierarchy
+Write: cgamescenenode.DirtyHierarchy = value
+```
+## DirtyBoneMergeInfo 
+```lua
+@type bitfield:1
+Read: cgamescenenode.DirtyBoneMergeInfo
+Write: cgamescenenode.DirtyBoneMergeInfo = value
+```
+## NetworkedPositionChanged 
+```lua
+@type bitfield:1
+Read: cgamescenenode.NetworkedPositionChanged
+Write: cgamescenenode.NetworkedPositionChanged = value
+```
+## NetworkedAnglesChanged 
+```lua
+@type bitfield:1
+Read: cgamescenenode.NetworkedAnglesChanged
+Write: cgamescenenode.NetworkedAnglesChanged = value
+```
+## NetworkedScaleChanged 
+```lua
+@type bitfield:1
+Read: cgamescenenode.NetworkedScaleChanged
+Write: cgamescenenode.NetworkedScaleChanged = value
+```
+## WillBeCallingPostDataUpdate 
+```lua
+@type bitfield:1
+Read: cgamescenenode.WillBeCallingPostDataUpdate
+Write: cgamescenenode.WillBeCallingPostDataUpdate = value
+```
+## BoneMergeFlex 
+```lua
+@type bitfield:1
+Read: cgamescenenode.BoneMergeFlex
+Write: cgamescenenode.BoneMergeFlex = value
+```
+## LatchAbsOrigin 
+```lua
+@type bitfield:2
+Read: cgamescenenode.LatchAbsOrigin
+Write: cgamescenenode.LatchAbsOrigin = value
+```
+## DirtyBoneMergeBoneToRoot 
+```lua
+@type bitfield:1
+Read: cgamescenenode.DirtyBoneMergeBoneToRoot
+Write: cgamescenenode.DirtyBoneMergeBoneToRoot = value
 ```
 ## HierarchicalDepth 
 ```lua

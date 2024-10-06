@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 ParticleDetailLevel_t = {
-    PARTICLEDETAIL_HIGH = 2,
     PARTICLEDETAIL_LOW = 0,
     PARTICLEDETAIL_MEDIUM = 1,
+    PARTICLEDETAIL_HIGH = 2,
     PARTICLEDETAIL_ULTRA = 3
 }
 ```

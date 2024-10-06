@@ -15,11 +15,6 @@ category:
 PhysicsRagdollPose_t(ptr --[[ string ]])
 ```
 # Properties
-## __pChainEntity (Read-Only)
-```lua
-@type CNetworkVarChainer
-Read: physicsragdollpose_t.__pChainEntity
-```
 ## Owner (Read-Only)
 ```lua
 @type CBaseEntity

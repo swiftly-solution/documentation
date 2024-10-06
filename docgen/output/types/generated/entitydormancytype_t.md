@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 EntityDormancyType_t = {
-    ENTITY_DORMANT = 1,
     ENTITY_NOT_DORMANT = 0,
+    ENTITY_DORMANT = 1,
     ENTITY_SUSPENDED = 2
 }
 ```

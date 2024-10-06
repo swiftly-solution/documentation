@@ -27,11 +27,6 @@ Write: cbaseconstraint.Name = value
 Read: cbaseconstraint.UpVector
 Write: cbaseconstraint.UpVector = value
 ```
-## Slaves (Read-Only)
-```lua
-@type table
-Read: cbaseconstraint.Slaves
-```
 ## Targets (Read-Only)
 ```lua
 @type table

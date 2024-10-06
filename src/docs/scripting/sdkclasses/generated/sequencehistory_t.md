@@ -15,6 +15,12 @@ category:
 SequenceHistory_t(ptr --[[ string ]])
 ```
 # Properties
+## Sequence 
+```lua
+@type number
+Read: sequencehistory_t.Sequence
+Write: sequencehistory_t.Sequence = value
+```
 ## SeqStartTime 
 ```lua
 @type number

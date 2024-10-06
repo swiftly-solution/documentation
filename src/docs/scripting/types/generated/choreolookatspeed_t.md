@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 ChoreoLookAtSpeed_t = {
-    eFast = 2,
     eInvalid = -1,
+    eSlow = 0,
     eMedium = 1,
-    eSlow = 0
+    eFast = 2
 }
 ```
 :::

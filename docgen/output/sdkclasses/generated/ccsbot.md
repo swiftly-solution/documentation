@@ -320,11 +320,10 @@ Write: ccsbot.NoiseTravelDistance = value
 Read: ccsbot.NoiseTimestamp
 Write: ccsbot.NoiseTimestamp = value
 ```
-## NoiseSource 
+## NoiseSource (Read-Only)
 ```lua
 @type CCSPlayerPawn
 Read: ccsbot.NoiseSource
-Write: ccsbot.NoiseSource = value
 ```
 ## NoiseBendTimer (Read-Only)
 ```lua
@@ -403,10 +402,11 @@ Write: ccsbot.LookAtSpotClearIfClose = value
 Read: ccsbot.LookAtSpotAttack
 Write: ccsbot.LookAtSpotAttack = value
 ```
-## LookAtDesc (Read-Only)
+## LookAtDesc 
 ```lua
 @type string
 Read: ccsbot.LookAtDesc
+Write: ccsbot.LookAtDesc = value
 ```
 ## PeripheralTimestamp 
 ```lua

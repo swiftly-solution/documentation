@@ -27,6 +27,12 @@ Write: csceneeventinfo.Layer = value
 Read: csceneeventinfo.Priority
 Write: csceneeventinfo.Priority = value
 ```
+## Sequence 
+```lua
+@type number
+Read: csceneeventinfo.Sequence
+Write: csceneeventinfo.Sequence = value
+```
 ## Weight 
 ```lua
 @type number

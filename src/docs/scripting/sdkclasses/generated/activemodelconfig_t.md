@@ -26,11 +26,6 @@ Read: activemodelconfig_t.Handle
 Read: activemodelconfig_t.Name
 Write: activemodelconfig_t.Name = value
 ```
-## AssociatedEntities (Read-Only)
-```lua
-@type table
-Read: activemodelconfig_t.AssociatedEntities
-```
 ## AssociatedEntityNames (Read-Only)
 ```lua
 @type table

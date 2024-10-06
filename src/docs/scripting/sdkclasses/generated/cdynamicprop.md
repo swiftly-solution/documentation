@@ -21,6 +21,12 @@ CDynamicProp(ptr --[[ string ]])
 Read: cdynamicprop.CreateNavObstacle
 Write: cdynamicprop.CreateNavObstacle = value
 ```
+## NavObstacleUpdatesOverridden 
+```lua
+@type boolean
+Read: cdynamicprop.NavObstacleUpdatesOverridden
+Write: cdynamicprop.NavObstacleUpdatesOverridden = value
+```
 ## UseHitboxesForRenderBox 
 ```lua
 @type boolean

@@ -12,8 +12,8 @@ category:
 ```lua
 ObserverInterpState_t = {
     OBSERVER_INTERP_NONE = 0,
-    OBSERVER_INTERP_SETTLING = 2,
-    OBSERVER_INTERP_TRAVELING = 1
+    OBSERVER_INTERP_TRAVELING = 1,
+    OBSERVER_INTERP_SETTLING = 2
 }
 ```
 :::

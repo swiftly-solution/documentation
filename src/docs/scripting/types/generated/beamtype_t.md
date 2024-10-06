@@ -11,13 +11,13 @@ category:
 @tab Lua
 ```lua
 BeamType_t = {
+    BEAM_INVALID = 0,
+    BEAM_POINTS = 1,
     BEAM_ENTPOINT = 2,
     BEAM_ENTS = 3,
     BEAM_HOSE = 4,
-    BEAM_INVALID = 0,
-    BEAM_LASER = 6,
-    BEAM_POINTS = 1,
-    BEAM_SPLINE = 5
+    BEAM_SPLINE = 5,
+    BEAM_LASER = 6
 }
 ```
 :::

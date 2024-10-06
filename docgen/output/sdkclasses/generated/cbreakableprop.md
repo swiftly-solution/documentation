@@ -83,6 +83,24 @@ Write: cbreakableprop.PerformanceMode = value
 Read: cbreakableprop.PreventDamageBeforeTime
 Write: cbreakableprop.PreventDamageBeforeTime = value
 ```
+## BreakableContentsType 
+```lua
+@type number
+Read: cbreakableprop.BreakableContentsType
+Write: cbreakableprop.BreakableContentsType = value
+```
+## StrBreakableContentsPropGroupOverride 
+```lua
+@type string
+Read: cbreakableprop.StrBreakableContentsPropGroupOverride
+Write: cbreakableprop.StrBreakableContentsPropGroupOverride = value
+```
+## StrBreakableContentsParticleOverride 
+```lua
+@type string
+Read: cbreakableprop.StrBreakableContentsParticleOverride
+Write: cbreakableprop.StrBreakableContentsParticleOverride = value
+```
 ## HasBreakPiecesOrCommands 
 ```lua
 @type boolean

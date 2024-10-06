@@ -32,11 +32,10 @@ Write: cskycamera.SkyboxSlotToken = value
 Read: cskycamera.UseAngles
 Write: cskycamera.UseAngles = value
 ```
-## Next 
+## Next (Read-Only)
 ```lua
 @type CSkyCamera
 Read: cskycamera.Next
-Write: cskycamera.Next = value
 ```
 ## Parent (Read-Only)
 ```lua

@@ -41,6 +41,24 @@ Read: cstateupdatedata.Actions
 @type AnimStateID
 Read: cstateupdatedata.StateID
 ```
+## IsStartState 
+```lua
+@type bitfield:1
+Read: cstateupdatedata.IsStartState
+Write: cstateupdatedata.IsStartState = value
+```
+## IsEndState 
+```lua
+@type bitfield:1
+Read: cstateupdatedata.IsEndState
+Write: cstateupdatedata.IsEndState = value
+```
+## IsPassthrough 
+```lua
+@type bitfield:1
+Read: cstateupdatedata.IsPassthrough
+Write: cstateupdatedata.IsPassthrough = value
+```
 # Functions
 ## ToPtr
 ```lua

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 BlurFilterType_t = {
-    BLURFILTER_BOX = 1,
-    BLURFILTER_GAUSSIAN = 0
+    BLURFILTER_GAUSSIAN = 0,
+    BLURFILTER_BOX = 1
 }
 ```
 :::

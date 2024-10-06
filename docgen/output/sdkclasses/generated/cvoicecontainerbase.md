@@ -15,16 +15,10 @@ category:
 CVoiceContainerBase(ptr --[[ string ]])
 ```
 # Properties
-## HideAnalyzers 
+## EnvelopeAnalyzer (Read-Only)
 ```lua
-@type boolean
-Read: cvoicecontainerbase.HideAnalyzers
-Write: cvoicecontainerbase.HideAnalyzers = value
-```
-## AnalysisContainers (Read-Only)
-```lua
-@type table
-Read: cvoicecontainerbase.AnalysisContainers
+@type CVoiceContainerAnalysisBase
+Read: cvoicecontainerbase.EnvelopeAnalyzer
 ```
 # Functions
 ## ToPtr

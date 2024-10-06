@@ -12,8 +12,8 @@ category:
 ```lua
 ViewFadeMode_t = {
     VIEW_FADE_CONSTANT_COLOR = 0,
-    VIEW_FADE_MOD2X = 2,
-    VIEW_FADE_MODULATE = 1
+    VIEW_FADE_MODULATE = 1,
+    VIEW_FADE_MOD2X = 2
 }
 ```
 :::

@@ -33,6 +33,24 @@ Write: rnshapedesc_t.SurfacePropertyIndex = value
 Read: rnshapedesc_t.UserFriendlyName
 Write: rnshapedesc_t.UserFriendlyName = value
 ```
+## UserFriendlyNameSealed 
+```lua
+@type boolean
+Read: rnshapedesc_t.UserFriendlyNameSealed
+Write: rnshapedesc_t.UserFriendlyNameSealed = value
+```
+## UserFriendlyNameLong 
+```lua
+@type boolean
+Read: rnshapedesc_t.UserFriendlyNameLong
+Write: rnshapedesc_t.UserFriendlyNameLong = value
+```
+## ToolMaterialHash 
+```lua
+@type number
+Read: rnshapedesc_t.ToolMaterialHash
+Write: rnshapedesc_t.ToolMaterialHash = value
+```
 # Functions
 ## ToPtr
 ```lua

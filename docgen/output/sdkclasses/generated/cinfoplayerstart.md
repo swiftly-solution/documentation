@@ -21,6 +21,12 @@ CInfoPlayerStart(ptr --[[ string ]])
 Read: cinfoplayerstart.Disabled
 Write: cinfoplayerstart.Disabled = value
 ```
+## IsMaster 
+```lua
+@type boolean
+Read: cinfoplayerstart.IsMaster
+Write: cinfoplayerstart.IsMaster = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CPointEntity

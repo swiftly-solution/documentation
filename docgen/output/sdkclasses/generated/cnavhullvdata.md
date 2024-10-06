@@ -81,6 +81,18 @@ Write: cnavhullvdata.AgentMaxJumpUpDist = value
 Read: cnavhullvdata.AgentBorderErosion
 Write: cnavhullvdata.AgentBorderErosion = value
 ```
+## FlowMapGenerationEnabled 
+```lua
+@type boolean
+Read: cnavhullvdata.FlowMapGenerationEnabled
+Write: cnavhullvdata.FlowMapGenerationEnabled = value
+```
+## FlowMapNodeMaxRadius 
+```lua
+@type number
+Read: cnavhullvdata.FlowMapNodeMaxRadius
+Write: cnavhullvdata.FlowMapNodeMaxRadius = value
+```
 # Functions
 ## ToPtr
 ```lua

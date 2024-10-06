@@ -20,12 +20,6 @@ CChicken(ptr --[[ string ]])
 @type CAttributeContainer
 Read: cchicken.AttributeManager
 ```
-## ActivityFinishedTag 
-```lua
-@type number
-Read: cchicken.ActivityFinishedTag
-Write: cchicken.ActivityFinishedTag = value
-```
 ## UpdateTimer (Read-Only)
 ```lua
 @type CountdownTimer
@@ -147,26 +141,10 @@ Write: cchicken.LastJumpTime = value
 Read: cchicken.InJump
 Write: cchicken.InJump = value
 ```
-## IsWaitingForLeader 
-```lua
-@type boolean
-Read: cchicken.IsWaitingForLeader
-Write: cchicken.IsWaitingForLeader = value
-```
 ## RepathTimer (Read-Only)
 ```lua
 @type CountdownTimer
 Read: cchicken.RepathTimer
-```
-## InhibitDoorTimer (Read-Only)
-```lua
-@type CountdownTimer
-Read: cchicken.InhibitDoorTimer
-```
-## InhibitObstacleAvoidanceTimer (Read-Only)
-```lua
-@type CountdownTimer
-Read: cchicken.InhibitObstacleAvoidanceTimer
 ```
 ## PathGoal 
 ```lua
@@ -184,12 +162,6 @@ Write: cchicken.ActiveFollowStartTime = value
 ```lua
 @type CountdownTimer
 Read: cchicken.FollowMinuteTimer
-```
-## LastEggPoopPosition 
-```lua
-@type Vector
-Read: cchicken.LastEggPoopPosition
-Write: cchicken.LastEggPoopPosition = value
 ```
 ## BlockDirectionTimer (Read-Only)
 ```lua

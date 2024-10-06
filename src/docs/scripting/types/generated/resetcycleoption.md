@@ -12,9 +12,9 @@ category:
 ```lua
 ResetCycleOption = {
     Beginning = 0,
-    FixedValue = 3,
-    InverseSourceCycle = 2,
     SameCycleAsSource = 1,
+    InverseSourceCycle = 2,
+    FixedValue = 3,
     SameTimeAsSource = 4
 }
 ```

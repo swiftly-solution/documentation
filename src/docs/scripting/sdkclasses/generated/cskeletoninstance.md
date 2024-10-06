@@ -38,6 +38,18 @@ Write: cskeletoninstance.UseParentRenderBounds = value
 Read: cskeletoninstance.DisableSolidCollisionsForHierarchy
 Write: cskeletoninstance.DisableSolidCollisionsForHierarchy = value
 ```
+## DirtyMotionType 
+```lua
+@type bitfield:1
+Read: cskeletoninstance.DirtyMotionType
+Write: cskeletoninstance.DirtyMotionType = value
+```
+## IsGeneratingLatchedParentSpaceState 
+```lua
+@type bitfield:1
+Read: cskeletoninstance.IsGeneratingLatchedParentSpaceState
+Write: cskeletoninstance.IsGeneratingLatchedParentSpaceState = value
+```
 ## MaterialGroup 
 ```lua
 @type number

@@ -45,11 +45,10 @@ Write: ctriggerpush.UsePathSimple = value
 Read: ctriggerpush.PathSimpleName
 Write: ctriggerpush.PathSimpleName = value
 ```
-## PathSimple 
+## PathSimple (Read-Only)
 ```lua
 @type CPathSimple
 Read: ctriggerpush.PathSimple
-Write: ctriggerpush.PathSimple = value
 ```
 ## SplinePushType 
 ```lua

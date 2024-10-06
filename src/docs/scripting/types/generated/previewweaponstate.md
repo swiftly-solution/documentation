@@ -11,12 +11,12 @@ category:
 @tab Lua
 ```lua
 PreviewWeaponState = {
-    DEPLOYED = 2,
     DROPPED = 0,
     HOLSTERED = 1,
-    ICON = 5,
+    DEPLOYED = 2,
+    PLANTED = 3,
     INSPECT = 4,
-    PLANTED = 3
+    ICON = 5
 }
 ```
 :::

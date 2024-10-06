@@ -264,6 +264,12 @@ Write: cparticlefloatinput.NotchedOutputOutside = value
 Read: cparticlefloatinput.NotchedOutputInside
 Write: cparticlefloatinput.NotchedOutputInside = value
 ```
+## RoundType 
+```lua
+@type number
+Read: cparticlefloatinput.RoundType
+Write: cparticlefloatinput.RoundType = value
+```
 ## BiasType 
 ```lua
 @type number

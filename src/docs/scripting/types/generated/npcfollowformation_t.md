@@ -11,11 +11,11 @@ category:
 @tab Lua
 ```lua
 NPCFollowFormation_t = {
-    CloseCircle = 0,
     Default = -1,
+    CloseCircle = 0,
+    WideCircle = 1,
     MediumCircle = 5,
-    Sidekick = 6,
-    WideCircle = 1
+    Sidekick = 6
 }
 ```
 :::

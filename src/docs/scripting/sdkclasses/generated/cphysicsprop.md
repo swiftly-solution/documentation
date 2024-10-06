@@ -200,6 +200,29 @@ Write: cphysicsprop.AcceptDamageFromHeldObjects = value
 Read: cphysicsprop.EnableUseOutput
 Write: cphysicsprop.EnableUseOutput = value
 ```
+## CrateType (Read-Only)
+```lua
+@type uint32_t
+Read: cphysicsprop.CrateType
+```
+## StrItemClass 
+```lua
+@type table
+Read: cphysicsprop.StrItemClass
+Write: cphysicsprop.StrItemClass = value
+```
+## ItemCount 
+```lua
+@type table
+Read: cphysicsprop.ItemCount
+Write: cphysicsprop.ItemCount = value
+```
+## RemovableForAmmoBalancing 
+```lua
+@type boolean
+Read: cphysicsprop.RemovableForAmmoBalancing
+Write: cphysicsprop.RemovableForAmmoBalancing = value
+```
 ## Awake 
 ```lua
 @type boolean

@@ -12,9 +12,10 @@ category:
 ```lua
 PlayBackMode_t = {
     Random = 0,
-    RandomAvoidLast = 2,
     RandomNoRepeats = 1,
-    Sequential = 3
+    RandomAvoidLast = 2,
+    Sequential = 3,
+    RandomWeights = 4
 }
 ```
 :::

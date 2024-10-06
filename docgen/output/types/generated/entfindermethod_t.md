@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 EntFinderMethod_t = {
-    ENT_FIND_METHOD_FARTHEST = 1,
     ENT_FIND_METHOD_NEAREST = 0,
+    ENT_FIND_METHOD_FARTHEST = 1,
     ENT_FIND_METHOD_RANDOM = 2
 }
 ```

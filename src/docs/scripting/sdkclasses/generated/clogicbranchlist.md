@@ -21,11 +21,6 @@ CLogicBranchList(ptr --[[ string ]])
 Read: clogicbranchlist.LogicBranchNames
 Write: clogicbranchlist.LogicBranchNames = value
 ```
-## LastState (Read-Only)
-```lua
-@type CLogicBranchList
-Read: clogicbranchlist.LastState
-```
 ## OnAllTrue (Read-Only)
 ```lua
 @type CEntityIOOutput

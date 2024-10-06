@@ -15,11 +15,10 @@ category:
 CBaseEntity(ptr --[[ string ]])
 ```
 # Properties
-## CBodyComponent 
+## CBodyComponent (Read-Only)
 ```lua
 @type CBodyComponent
 Read: cbaseentity.CBodyComponent
-Write: cbaseentity.CBodyComponent = value
 ```
 ## NetworkTransmitComponent (Read-Only)
 ```lua
@@ -48,6 +47,12 @@ Write: cbaseentity.LastThinkTick = value
 @type boolean
 Read: cbaseentity.DisabledContextThinks
 Write: cbaseentity.DisabledContextThinks = value
+```
+## IsSteadyState 
+```lua
+@type CTypedBitVec<64>
+Read: cbaseentity.IsSteadyState
+Write: cbaseentity.IsSteadyState = value
 ```
 ## LastNetworkChange 
 ```lua
@@ -102,11 +107,11 @@ Write: cbaseentity.TakesDamage = value
 Read: cbaseentity.TakeDamageFlags
 Write: cbaseentity.TakeDamageFlags = value
 ```
-## IsPlatform 
+## PlatformType 
 ```lua
-@type boolean
-Read: cbaseentity.IsPlatform
-Write: cbaseentity.IsPlatform = value
+@type number
+Read: cbaseentity.PlatformType
+Write: cbaseentity.PlatformType = value
 ```
 ## MoveCollide 
 ```lua
@@ -291,11 +296,10 @@ Write: cbaseentity.BaseVelocity = value
 Read: cbaseentity.PushEnumCount
 Write: cbaseentity.PushEnumCount = value
 ```
-## Collision 
+## Collision (Read-Only)
 ```lua
 @type CCollisionProperty
 Read: cbaseentity.Collision
-Write: cbaseentity.Collision = value
 ```
 ## EffectEntity (Read-Only)
 ```lua

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 FootLockSubVisualization = {
-    FOOTLOCKSUBVISUALIZATION_IKSolve = 1,
-    FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis = 0
+    FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis = 0,
+    FOOTLOCKSUBVISUALIZATION_IKSolve = 1
 }
 ```
 :::

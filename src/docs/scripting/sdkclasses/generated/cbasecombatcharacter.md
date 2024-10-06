@@ -21,17 +21,6 @@ CBaseCombatCharacter(ptr --[[ string ]])
 Read: cbasecombatcharacter.ForceServerRagdoll
 Write: cbasecombatcharacter.ForceServerRagdoll = value
 ```
-## MyWearables (Read-Only)
-```lua
-@type table
-Read: cbasecombatcharacter.MyWearables
-```
-## FieldOfView 
-```lua
-@type number
-Read: cbasecombatcharacter.FieldOfView
-Write: cbasecombatcharacter.FieldOfView = value
-```
 ## ImpactEnergyScale 
 ```lua
 @type number
@@ -55,6 +44,11 @@ Write: cbasecombatcharacter.ApplyStressDamage = value
 @type number
 Read: cbasecombatcharacter.DamageCount
 Write: cbasecombatcharacter.DamageCount = value
+```
+## VecRelationships (Read-Only)
+```lua
+@type table
+Read: cbasecombatcharacter.VecRelationships
 ```
 ## StrRelationships 
 ```lua

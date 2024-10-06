@@ -12,9 +12,9 @@ category:
 ```lua
 NmTransitionRuleCondition_t = {
     AnyAllowed = 0,
-    Blocked = 3,
+    FullyAllowed = 1,
     ConditionallyAllowed = 2,
-    FullyAllowed = 1
+    Blocked = 3
 }
 ```
 :::

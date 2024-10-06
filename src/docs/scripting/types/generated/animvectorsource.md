@@ -11,20 +11,20 @@ category:
 @tab Lua
 ```lua
 AnimVectorSource = {
-    Acceleration = 5,
-    FacingDirection = 1,
-    GoalPosition = 11,
-    LookDirection = 2,
-    LookTarget = 8,
-    LookTarget_WorldSpace = 9,
-    ManualTarget_WorldSpace = 13,
     MoveDirection = 0,
-    RootMotionVelocity = 12,
-    SlopeNormal = 6,
-    SlopeNormal_WorldSpace = 7,
+    FacingPosition = 1,
+    LookDirection = 2,
     VectorParameter = 3,
     WayPointDirection = 4,
-    WayPointPosition = 10
+    Acceleration = 5,
+    SlopeNormal = 6,
+    SlopeNormal_WorldSpace = 7,
+    LookTarget = 8,
+    LookTarget_WorldSpace = 9,
+    WayPointPosition = 10,
+    GoalPosition = 11,
+    RootMotionVelocity = 12,
+    ManualTarget_WorldSpace = 13
 }
 ```
 :::

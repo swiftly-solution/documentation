@@ -21,12 +21,6 @@ CPhysBox(ptr --[[ string ]])
 Read: cphysbox.DamageType
 Write: cphysbox.DamageType = value
 ```
-## MassScale 
-```lua
-@type number
-Read: cphysbox.MassScale
-Write: cphysbox.MassScale = value
-```
 ## DamageToEnableMotion 
 ```lua
 @type number

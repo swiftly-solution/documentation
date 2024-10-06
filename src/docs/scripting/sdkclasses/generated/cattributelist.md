@@ -20,11 +20,10 @@ CAttributeList(ptr --[[ string ]])
 @type table
 Read: cattributelist.Attributes
 ```
-## Manager 
+## Manager (Read-Only)
 ```lua
 @type CAttributeManager
 Read: cattributelist.Manager
-Write: cattributelist.Manager = value
 ```
 # Functions
 ## SetOrAddAttributeValueByName

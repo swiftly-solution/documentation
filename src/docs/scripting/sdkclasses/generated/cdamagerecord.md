@@ -59,6 +59,12 @@ Write: cdamagerecord.DamagerXuid = value
 Read: cdamagerecord.RecipientXuid
 Write: cdamagerecord.RecipientXuid = value
 ```
+## BulletsDamage 
+```lua
+@type number
+Read: cdamagerecord.BulletsDamage
+Write: cdamagerecord.BulletsDamage = value
+```
 ## Damage 
 ```lua
 @type number

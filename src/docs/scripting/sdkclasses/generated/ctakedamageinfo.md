@@ -51,6 +51,12 @@ Write: ctakedamageinfo.Damage = value
 Read: ctakedamageinfo.TotalledDamage
 Write: ctakedamageinfo.TotalledDamage = value
 ```
+## TotalledDamageAbsorbed 
+```lua
+@type number
+Read: ctakedamageinfo.TotalledDamageAbsorbed
+Write: ctakedamageinfo.TotalledDamageAbsorbed = value
+```
 ## BitsDamageType 
 ```lua
 @type number
@@ -86,6 +92,12 @@ Write: ctakedamageinfo.ShouldBleed = value
 @type boolean
 Read: ctakedamageinfo.ShouldSpark
 Write: ctakedamageinfo.ShouldSpark = value
+```
+## DamageAbsorbed 
+```lua
+@type number
+Read: ctakedamageinfo.DamageAbsorbed
+Write: ctakedamageinfo.DamageAbsorbed = value
 ```
 ## DamageFlags 
 ```lua

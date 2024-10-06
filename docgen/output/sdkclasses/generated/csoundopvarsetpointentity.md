@@ -85,6 +85,12 @@ Write: csoundopvarsetpointentity.ValSetOnDisable = value
 Read: csoundopvarsetpointentity.SetValueOnDisable
 Write: csoundopvarsetpointentity.SetValueOnDisable = value
 ```
+## Reloading 
+```lua
+@type boolean
+Read: csoundopvarsetpointentity.Reloading
+Write: csoundopvarsetpointentity.Reloading = value
+```
 ## SimulationMode 
 ```lua
 @type number

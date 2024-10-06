@@ -11,9 +11,9 @@ category:
 @tab Lua
 ```lua
 TrainVelocityType_t = {
-    TrainVelocity_EaseInEaseOut = 2,
     TrainVelocity_Instantaneous = 0,
-    TrainVelocity_LinearBlend = 1
+    TrainVelocity_LinearBlend = 1,
+    TrainVelocity_EaseInEaseOut = 2
 }
 ```
 :::

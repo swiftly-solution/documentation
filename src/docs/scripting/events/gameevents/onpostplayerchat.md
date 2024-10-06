@@ -23,5 +23,5 @@ end)
 | :--------: | :-------: |
 | `teamonly` | `boolean` |
 |  `userid`  |   `int`   |
-| `playerid` |   `int`   |
 |   `text`   |  `string` |
+| `playerid` |   `int`   |

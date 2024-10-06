@@ -51,11 +51,46 @@ Write: ccsweaponbase.PlayerFireEvent = value
 Read: ccsweaponbase.PlayerFireEventAttackType
 Write: ccsweaponbase.PlayerFireEventAttackType = value
 ```
+## SeqIdle 
+```lua
+@type number
+Read: ccsweaponbase.SeqIdle
+Write: ccsweaponbase.SeqIdle = value
+```
+## SeqFirePrimary 
+```lua
+@type number
+Read: ccsweaponbase.SeqFirePrimary
+Write: ccsweaponbase.SeqFirePrimary = value
+```
+## SeqFireSecondary 
+```lua
+@type number
+Read: ccsweaponbase.SeqFireSecondary
+Write: ccsweaponbase.SeqFireSecondary = value
+```
+## ThirdPersonFireSequences (Read-Only)
+```lua
+@type table
+Read: ccsweaponbase.ThirdPersonFireSequences
+```
+## CurrentThirdPersonSequence 
+```lua
+@type number
+Read: ccsweaponbase.CurrentThirdPersonSequence
+Write: ccsweaponbase.CurrentThirdPersonSequence = value
+```
 ## SilencerBoneIndex 
 ```lua
 @type number
 Read: ccsweaponbase.SilencerBoneIndex
 Write: ccsweaponbase.SilencerBoneIndex = value
+```
+## ThirdPersonSequences 
+```lua
+@type table
+Read: ccsweaponbase.ThirdPersonSequences
+Write: ccsweaponbase.ThirdPersonSequences = value
 ```
 ## PlayerAmmoStockOnPickup 
 ```lua

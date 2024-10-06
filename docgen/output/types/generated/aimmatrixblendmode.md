@@ -11,10 +11,10 @@ category:
 @tab Lua
 ```lua
 AimMatrixBlendMode = {
+    AimMatrixBlendMode_None = 0,
     AimMatrixBlendMode_Additive = 1,
-    AimMatrixBlendMode_BoneMask = 3,
     AimMatrixBlendMode_ModelSpaceAdditive = 2,
-    AimMatrixBlendMode_None = 0
+    AimMatrixBlendMode_BoneMask = 3
 }
 ```
 :::

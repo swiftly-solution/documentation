@@ -81,11 +81,10 @@ Read: rnhull_t.FacePlanes
 Read: rnhull_t.Flags
 Write: rnhull_t.Flags = value
 ```
-## RegionSVM 
+## RegionSVM (Read-Only)
 ```lua
 @type CRegionSVM
 Read: rnhull_t.RegionSVM
-Write: rnhull_t.RegionSVM = value
 ```
 # Functions
 ## ToPtr

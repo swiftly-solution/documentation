@@ -20,6 +20,12 @@ CCycleControlClipUpdateNode(ptr --[[ string ]])
 @type table
 Read: ccyclecontrolclipupdatenode.Tags
 ```
+## Sequence 
+```lua
+@type number
+Read: ccyclecontrolclipupdatenode.Sequence
+Write: ccyclecontrolclipupdatenode.Sequence = value
+```
 ## Duration 
 ```lua
 @type number

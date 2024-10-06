@@ -45,11 +45,6 @@ Write: cinfooffscreenpanoramatexture.LayoutFileName = value
 Read: cinfooffscreenpanoramatexture.RenderAttrName
 Write: cinfooffscreenpanoramatexture.RenderAttrName = value
 ```
-## TargetEntities (Read-Only)
-```lua
-@type table
-Read: cinfooffscreenpanoramatexture.TargetEntities
-```
 ## TargetChangeCount 
 ```lua
 @type number

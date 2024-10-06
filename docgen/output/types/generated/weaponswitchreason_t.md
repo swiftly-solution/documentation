@@ -13,8 +13,8 @@ category:
 WeaponSwitchReason_t = {
     eDrawn = 0,
     eEquipped = 1,
-    eUserInitiatedSwitchHands = 3,
-    eUserInitiatedSwitchToLast = 2
+    eUserInitiatedSwitchToLast = 2,
+    eUserInitiatedSwitchHands = 3
 }
 ```
 :::

@@ -20,6 +20,12 @@ CCachedPose(ptr --[[ string ]])
 @type table
 Read: ccachedpose.MorphWeights
 ```
+## Sequence 
+```lua
+@type number
+Read: ccachedpose.Sequence
+Write: ccachedpose.Sequence = value
+```
 ## Cycle 
 ```lua
 @type number

@@ -15,17 +15,17 @@ category:
 CNmEvent(ptr --[[ string ]])
 ```
 # Properties
-## StartTime 
+## StartTimeSeconds 
 ```lua
 @type number
-Read: cnmevent.StartTime
-Write: cnmevent.StartTime = value
+Read: cnmevent.StartTimeSeconds
+Write: cnmevent.StartTimeSeconds = value
 ```
-## Duration 
+## DurationSeconds 
 ```lua
 @type number
-Read: cnmevent.Duration
-Write: cnmevent.Duration = value
+Read: cnmevent.DurationSeconds
+Write: cnmevent.DurationSeconds = value
 ```
 # Functions
 ## ToPtr

@@ -57,6 +57,18 @@ Write: cphyssurfacepropertiesphysics.SoftContactDampingRatio = value
 Read: cphyssurfacepropertiesphysics.WheelDrag
 Write: cphyssurfacepropertiesphysics.WheelDrag = value
 ```
+## HeatConductivity 
+```lua
+@type number
+Read: cphyssurfacepropertiesphysics.HeatConductivity
+Write: cphyssurfacepropertiesphysics.HeatConductivity = value
+```
+## Flashpoint 
+```lua
+@type number
+Read: cphyssurfacepropertiesphysics.Flashpoint
+Write: cphyssurfacepropertiesphysics.Flashpoint = value
+```
 # Functions
 ## ToPtr
 ```lua

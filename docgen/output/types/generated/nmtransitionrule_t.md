@@ -12,8 +12,8 @@ category:
 ```lua
 NmTransitionRule_t = {
     AllowTransition = 0,
-    BlockTransition = 2,
-    ConditionallyAllowTransition = 1
+    ConditionallyAllowTransition = 1,
+    BlockTransition = 2
 }
 ```
 :::

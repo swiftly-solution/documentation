@@ -40,10 +40,20 @@ Read: caimcameraupdatenode.ParameterPelvisOffset
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterUseIK
 ```
+## ParameterCameraOnly (Read-Only)
+```lua
+@type CAnimParamHandle
+Read: caimcameraupdatenode.ParameterCameraOnly
+```
 ## ParameterWeaponDepenetrationDistance (Read-Only)
 ```lua
 @type CAnimParamHandle
 Read: caimcameraupdatenode.ParameterWeaponDepenetrationDistance
+```
+## ParameterWeaponDepenetrationDelta (Read-Only)
+```lua
+@type CAnimParamHandle
+Read: caimcameraupdatenode.ParameterWeaponDepenetrationDelta
 ```
 ## ParameterCameraClearanceDistance (Read-Only)
 ```lua

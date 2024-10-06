@@ -27,6 +27,18 @@ Write: ctransitionupdatedata.SrcStateIndex = value
 Read: ctransitionupdatedata.DestStateIndex
 Write: ctransitionupdatedata.DestStateIndex = value
 ```
+## HandshakeMaskToDisableFirst 
+```lua
+@type bitfield:7
+Read: ctransitionupdatedata.HandshakeMaskToDisableFirst
+Write: ctransitionupdatedata.HandshakeMaskToDisableFirst = value
+```
+## Disabled 
+```lua
+@type bitfield:1
+Read: ctransitionupdatedata.Disabled
+Write: ctransitionupdatedata.Disabled = value
+```
 # Functions
 ## ToPtr
 ```lua

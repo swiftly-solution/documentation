@@ -20,6 +20,11 @@ CSoundOpvarSetAutoRoomEntity(ptr --[[ string ]])
 @type table
 Read: csoundopvarsetautoroomentity.TraceResults
 ```
+## DoorwayPairs (Read-Only)
+```lua
+@type table
+Read: csoundopvarsetautoroomentity.DoorwayPairs
+```
 ## Size 
 ```lua
 @type number

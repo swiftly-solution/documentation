@@ -27,6 +27,24 @@ Write: cclientalphaproperty.RenderFX = value
 Read: cclientalphaproperty.RenderMode
 Write: cclientalphaproperty.RenderMode = value
 ```
+## AlphaOverride 
+```lua
+@type bitfield:1
+Read: cclientalphaproperty.AlphaOverride
+Write: cclientalphaproperty.AlphaOverride = value
+```
+## ShadowAlphaOverride 
+```lua
+@type bitfield:1
+Read: cclientalphaproperty.ShadowAlphaOverride
+Write: cclientalphaproperty.ShadowAlphaOverride = value
+```
+## Reserved 
+```lua
+@type bitfield:6
+Read: cclientalphaproperty.Reserved
+Write: cclientalphaproperty.Reserved = value
+```
 ## Alpha 
 ```lua
 @type number

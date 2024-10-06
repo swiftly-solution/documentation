@@ -15,59 +15,50 @@ category:
 CBasePlayerPawn(ptr --[[ string ]])
 ```
 # Properties
-## WeaponServices 
+## WeaponServices (Read-Only)
 ```lua
 @type CPlayer_WeaponServices
 Read: cbaseplayerpawn.WeaponServices
-Write: cbaseplayerpawn.WeaponServices = value
 ```
-## ItemServices 
+## ItemServices (Read-Only)
 ```lua
 @type CPlayer_ItemServices
 Read: cbaseplayerpawn.ItemServices
-Write: cbaseplayerpawn.ItemServices = value
 ```
-## AutoaimServices 
+## AutoaimServices (Read-Only)
 ```lua
 @type CPlayer_AutoaimServices
 Read: cbaseplayerpawn.AutoaimServices
-Write: cbaseplayerpawn.AutoaimServices = value
 ```
-## ObserverServices 
+## ObserverServices (Read-Only)
 ```lua
 @type CPlayer_ObserverServices
 Read: cbaseplayerpawn.ObserverServices
-Write: cbaseplayerpawn.ObserverServices = value
 ```
-## WaterServices 
+## WaterServices (Read-Only)
 ```lua
 @type CPlayer_WaterServices
 Read: cbaseplayerpawn.WaterServices
-Write: cbaseplayerpawn.WaterServices = value
 ```
-## UseServices 
+## UseServices (Read-Only)
 ```lua
 @type CPlayer_UseServices
 Read: cbaseplayerpawn.UseServices
-Write: cbaseplayerpawn.UseServices = value
 ```
-## FlashlightServices 
+## FlashlightServices (Read-Only)
 ```lua
 @type CPlayer_FlashlightServices
 Read: cbaseplayerpawn.FlashlightServices
-Write: cbaseplayerpawn.FlashlightServices = value
 ```
-## CameraServices 
+## CameraServices (Read-Only)
 ```lua
 @type CPlayer_CameraServices
 Read: cbaseplayerpawn.CameraServices
-Write: cbaseplayerpawn.CameraServices = value
 ```
-## MovementServices 
+## MovementServices (Read-Only)
 ```lua
 @type CPlayer_MovementServices
 Read: cbaseplayerpawn.MovementServices
-Write: cbaseplayerpawn.MovementServices = value
 ```
 ## ServerViewAngleChanges (Read-Only)
 ```lua
@@ -127,11 +118,10 @@ Write: cbaseplayerpawn.NextSuicideTime = value
 Read: cbaseplayerpawn.InitHUD
 Write: cbaseplayerpawn.InitHUD = value
 ```
-## Expresser 
+## Expresser (Read-Only)
 ```lua
 @type CAI_Expresser
 Read: cbaseplayerpawn.Expresser
-Write: cbaseplayerpawn.Expresser = value
 ```
 ## Controller (Read-Only)
 ```lua

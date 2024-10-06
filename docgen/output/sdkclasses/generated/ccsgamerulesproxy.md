@@ -15,11 +15,10 @@ category:
 CCSGameRulesProxy(ptr --[[ string ]])
 ```
 # Properties
-## GameRules 
+## GameRules (Read-Only)
 ```lua
 @type CCSGameRules
 Read: ccsgamerulesproxy.GameRules
-Write: ccsgamerulesproxy.GameRules = value
 ```
 ## Parent (Read-Only)
 ```lua

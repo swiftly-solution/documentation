@@ -56,29 +56,25 @@ Write: centityidentity.DataObjectTypes = value
 @type ChangeAccessorFieldPathIndex_t
 Read: centityidentity.PathIndex
 ```
-## Prev 
+## Prev (Read-Only)
 ```lua
 @type CEntityIdentity
 Read: centityidentity.Prev
-Write: centityidentity.Prev = value
 ```
-## Next 
+## Next (Read-Only)
 ```lua
 @type CEntityIdentity
 Read: centityidentity.Next
-Write: centityidentity.Next = value
 ```
-## PrevByClass 
+## PrevByClass (Read-Only)
 ```lua
 @type CEntityIdentity
 Read: centityidentity.PrevByClass
-Write: centityidentity.PrevByClass = value
 ```
-## NextByClass 
+## NextByClass (Read-Only)
 ```lua
 @type CEntityIdentity
 Read: centityidentity.NextByClass
-Write: centityidentity.NextByClass = value
 ```
 # Functions
 ## ToPtr

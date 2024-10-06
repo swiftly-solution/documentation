@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 SnapshotIndexType_t = {
-    SNAPSHOT_INDEX_DIRECT = 1,
-    SNAPSHOT_INDEX_INCREMENT = 0
+    SNAPSHOT_INDEX_INCREMENT = 0,
+    SNAPSHOT_INDEX_DIRECT = 1
 }
 ```
 :::

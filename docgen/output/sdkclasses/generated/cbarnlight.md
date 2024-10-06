@@ -103,11 +103,6 @@ Read: cbarnlight.QueuedLightStyleStrings
 @type table
 Read: cbarnlight.LightStyleEvents
 ```
-## LightStyleTargets (Read-Only)
-```lua
-@type table
-Read: cbarnlight.LightStyleTargets
-```
 ## StyleEvent (Read-Only)
 ```lua
 @type table
@@ -251,6 +246,12 @@ Write: cbarnlight.FogShadows = value
 Read: cbarnlight.FogScale
 Write: cbarnlight.FogScale = value
 ```
+## FogMixedShadows 
+```lua
+@type boolean
+Read: cbarnlight.FogMixedShadows
+Write: cbarnlight.FogMixedShadows = value
+```
 ## FadeSizeStart 
 ```lua
 @type number
@@ -311,11 +312,130 @@ Write: cbarnlight.PrecomputedOBBAngles = value
 Read: cbarnlight.PrecomputedOBBExtent
 Write: cbarnlight.PrecomputedOBBExtent = value
 ```
+## PrecomputedSubFrusta 
+```lua
+@type number
+Read: cbarnlight.PrecomputedSubFrusta
+Write: cbarnlight.PrecomputedSubFrusta = value
+```
+## PrecomputedOBBOrigin0 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin0
+Write: cbarnlight.PrecomputedOBBOrigin0 = value
+```
+## PrecomputedOBBAngles0 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles0
+Write: cbarnlight.PrecomputedOBBAngles0 = value
+```
+## PrecomputedOBBExtent0 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent0
+Write: cbarnlight.PrecomputedOBBExtent0 = value
+```
+## PrecomputedOBBOrigin1 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin1
+Write: cbarnlight.PrecomputedOBBOrigin1 = value
+```
+## PrecomputedOBBAngles1 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles1
+Write: cbarnlight.PrecomputedOBBAngles1 = value
+```
+## PrecomputedOBBExtent1 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent1
+Write: cbarnlight.PrecomputedOBBExtent1 = value
+```
+## PrecomputedOBBOrigin2 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin2
+Write: cbarnlight.PrecomputedOBBOrigin2 = value
+```
+## PrecomputedOBBAngles2 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles2
+Write: cbarnlight.PrecomputedOBBAngles2 = value
+```
+## PrecomputedOBBExtent2 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent2
+Write: cbarnlight.PrecomputedOBBExtent2 = value
+```
+## PrecomputedOBBOrigin3 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin3
+Write: cbarnlight.PrecomputedOBBOrigin3 = value
+```
+## PrecomputedOBBAngles3 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles3
+Write: cbarnlight.PrecomputedOBBAngles3 = value
+```
+## PrecomputedOBBExtent3 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent3
+Write: cbarnlight.PrecomputedOBBExtent3 = value
+```
+## PrecomputedOBBOrigin4 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin4
+Write: cbarnlight.PrecomputedOBBOrigin4 = value
+```
+## PrecomputedOBBAngles4 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles4
+Write: cbarnlight.PrecomputedOBBAngles4 = value
+```
+## PrecomputedOBBExtent4 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent4
+Write: cbarnlight.PrecomputedOBBExtent4 = value
+```
+## PrecomputedOBBOrigin5 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBOrigin5
+Write: cbarnlight.PrecomputedOBBOrigin5 = value
+```
+## PrecomputedOBBAngles5 
+```lua
+@type QAngle
+Read: cbarnlight.PrecomputedOBBAngles5
+Write: cbarnlight.PrecomputedOBBAngles5 = value
+```
+## PrecomputedOBBExtent5 
+```lua
+@type Vector
+Read: cbarnlight.PrecomputedOBBExtent5
+Write: cbarnlight.PrecomputedOBBExtent5 = value
+```
 ## PvsModifyEntity 
 ```lua
 @type boolean
 Read: cbarnlight.PvsModifyEntity
 Write: cbarnlight.PvsModifyEntity = value
+```
+## VisClusters (Read-Only)
+```lua
+@type table
+Read: cbarnlight.VisClusters
 ```
 ## Parent (Read-Only)
 ```lua

@@ -12,9 +12,9 @@ category:
 ```lua
 NmFootPhase_t = {
     LeftFootDown = 0,
-    LeftFootPassing = 3,
+    RightFootPassing = 1,
     RightFootDown = 2,
-    RightFootPassing = 1
+    LeftFootPassing = 3
 }
 ```
 :::

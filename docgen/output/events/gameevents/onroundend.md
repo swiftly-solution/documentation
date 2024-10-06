@@ -19,9 +19,12 @@ end)
 ```
 
 :::
-|    Key    | Data Type |
-| :-------: | :-------: |
-|  `winner` |   `int`   |
-|  `reason` |   `int`   |
-| `message` |  `string` |
-|   `time`  |  `float`  |
+|       Key      | Data Type |
+| :------------: | :-------: |
+|    `winner`    |   `int`   |
+|    `reason`    |   `int`   |
+|    `message`   |  `string` |
+|    `legacy`    |   `int`   |
+| `player_count` |   `int`   |
+|    `nomusic`   |   `int`   |
+|     `time`     |  `float`  |

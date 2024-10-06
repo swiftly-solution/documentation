@@ -23,6 +23,6 @@ end)
 | :---------: | :-------: |
 |   `issue`   |  `string` |
 |   `param1`  |  `string` |
-|  `votedata` |  `string` |
 |    `team`   |   `int`   |
 | `initiator` |   `int`   |
+|  `votedata` |  `string` |

@@ -25,16 +25,6 @@ Read: cgamechoreoservices.Owner
 @type CScriptedSequence
 Read: cgamechoreoservices.ScriptedSequence
 ```
-## ScriptState (Read-Only)
-```lua
-@type IChoreoServices
-Read: cgamechoreoservices.ScriptState
-```
-## ChoreoState (Read-Only)
-```lua
-@type IChoreoServices
-Read: cgamechoreoservices.ChoreoState
-```
 ## TimeStartedState 
 ```lua
 @type number

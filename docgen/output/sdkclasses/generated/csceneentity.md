@@ -252,11 +252,6 @@ Write: csceneentity.BreakOnNonIdle = value
 Read: csceneentity.SceneFinished
 Write: csceneentity.SceneFinished = value
 ```
-## ActorList (Read-Only)
-```lua
-@type table
-Read: csceneentity.ActorList
-```
 ## SceneFlushCounter 
 ```lua
 @type number

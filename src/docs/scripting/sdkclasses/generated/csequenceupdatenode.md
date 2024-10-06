@@ -15,6 +15,18 @@ category:
 CSequenceUpdateNode(ptr --[[ string ]])
 ```
 # Properties
+## Sequence 
+```lua
+@type number
+Read: csequenceupdatenode.Sequence
+Write: csequenceupdatenode.Sequence = value
+```
+## Duration 
+```lua
+@type number
+Read: csequenceupdatenode.Duration
+Write: csequenceupdatenode.Duration = value
+```
 ## ParamSpans (Read-Only)
 ```lua
 @type CParamSpanUpdater
@@ -25,27 +37,9 @@ Read: csequenceupdatenode.ParamSpans
 @type table
 Read: csequenceupdatenode.Tags
 ```
-## PlaybackSpeed 
-```lua
-@type number
-Read: csequenceupdatenode.PlaybackSpeed
-Write: csequenceupdatenode.PlaybackSpeed = value
-```
-## Duration 
-```lua
-@type number
-Read: csequenceupdatenode.Duration
-Write: csequenceupdatenode.Duration = value
-```
-## Loop 
-```lua
-@type boolean
-Read: csequenceupdatenode.Loop
-Write: csequenceupdatenode.Loop = value
-```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+@type CSequenceUpdateNodeBase
 Read: csequenceupdatenode.Parent
 ```
 # Functions

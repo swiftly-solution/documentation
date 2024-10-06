@@ -15,41 +15,35 @@ category:
 CCSPlayerPawn(ptr --[[ string ]])
 ```
 # Properties
-## BulletServices 
+## BulletServices (Read-Only)
 ```lua
 @type CCSPlayer_BulletServices
 Read: ccsplayerpawn.BulletServices
-Write: ccsplayerpawn.BulletServices = value
 ```
-## HostageServices 
+## HostageServices (Read-Only)
 ```lua
 @type CCSPlayer_HostageServices
 Read: ccsplayerpawn.HostageServices
-Write: ccsplayerpawn.HostageServices = value
 ```
-## BuyServices 
+## BuyServices (Read-Only)
 ```lua
 @type CCSPlayer_BuyServices
 Read: ccsplayerpawn.BuyServices
-Write: ccsplayerpawn.BuyServices = value
 ```
-## ActionTrackingServices 
+## ActionTrackingServices (Read-Only)
 ```lua
 @type CCSPlayer_ActionTrackingServices
 Read: ccsplayerpawn.ActionTrackingServices
-Write: ccsplayerpawn.ActionTrackingServices = value
 ```
-## RadioServices 
+## RadioServices (Read-Only)
 ```lua
 @type CCSPlayer_RadioServices
 Read: ccsplayerpawn.RadioServices
-Write: ccsplayerpawn.RadioServices = value
 ```
-## DamageReactServices 
+## DamageReactServices (Read-Only)
 ```lua
 @type CCSPlayer_DamageReactServices
 Read: ccsplayerpawn.DamageReactServices
-Write: ccsplayerpawn.DamageReactServices = value
 ```
 ## CharacterDefIndex 
 ```lua
@@ -528,11 +522,10 @@ Write: ccsplayerpawn.LastHitBox = value
 Read: ccsplayerpawn.LastHealth
 Write: ccsplayerpawn.LastHealth = value
 ```
-## Bot 
+## Bot (Read-Only)
 ```lua
 @type CCSBot
 Read: ccsplayerpawn.Bot
-Write: ccsplayerpawn.Bot = value
 ```
 ## BotAllowActive 
 ```lua

@@ -11,8 +11,8 @@ category:
 @tab Lua
 ```lua
 StandardLightingAttenuationStyle_t = {
-    LIGHT_STYLE_NEW = 1,
-    LIGHT_STYLE_OLD = 0
+    LIGHT_STYLE_OLD = 0,
+    LIGHT_STYLE_NEW = 1
 }
 ```
 :::

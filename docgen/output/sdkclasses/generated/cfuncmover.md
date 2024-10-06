@@ -15,6 +15,12 @@ category:
 CFuncMover(ptr --[[ string ]])
 ```
 # Properties
+## CreateMovableNavMesh 
+```lua
+@type boolean
+Read: cfuncmover.CreateMovableNavMesh
+Write: cfuncmover.CreateMovableNavMesh = value
+```
 ## PathName 
 ```lua
 @type string
@@ -34,7 +40,7 @@ Write: cfuncmover.PathNodeStart = value
 ```
 ## MoveType (Read-Only)
 ```lua
-@type CFuncMover
+@type uint32_t
 Read: cfuncmover.MoveType
 ```
 ## IsReversing 
@@ -109,11 +115,23 @@ Write: cfuncmover.IsMoving = value
 Read: cfuncmover.TimeToReachMaxSpeed
 Write: cfuncmover.TimeToReachMaxSpeed = value
 ```
+## DistanceToReachMaxSpeed 
+```lua
+@type number
+Read: cfuncmover.DistanceToReachMaxSpeed
+Write: cfuncmover.DistanceToReachMaxSpeed = value
+```
 ## TimeToReachZeroSpeed 
 ```lua
 @type number
 Read: cfuncmover.TimeToReachZeroSpeed
 Write: cfuncmover.TimeToReachZeroSpeed = value
+```
+## DistanceToReachZeroSpeed 
+```lua
+@type number
+Read: cfuncmover.DistanceToReachZeroSpeed
+Write: cfuncmover.DistanceToReachZeroSpeed = value
 ```
 ## TimeMovementStart 
 ```lua
@@ -138,35 +156,81 @@ Read: cfuncmover.StopAtNode
 Read: cfuncmover.PathLocationToBeginStop
 Write: cfuncmover.PathLocationToBeginStop = value
 ```
-## MatchPathNodeUp 
+## StartForwardSound 
+```lua
+@type string
+Read: cfuncmover.StartForwardSound
+Write: cfuncmover.StartForwardSound = value
+```
+## LoopForwardSound 
+```lua
+@type string
+Read: cfuncmover.LoopForwardSound
+Write: cfuncmover.LoopForwardSound = value
+```
+## StopForwardSound 
+```lua
+@type string
+Read: cfuncmover.StopForwardSound
+Write: cfuncmover.StopForwardSound = value
+```
+## StartReverseSound 
+```lua
+@type string
+Read: cfuncmover.StartReverseSound
+Write: cfuncmover.StartReverseSound = value
+```
+## LoopReverseSound 
+```lua
+@type string
+Read: cfuncmover.LoopReverseSound
+Write: cfuncmover.LoopReverseSound = value
+```
+## StopReverseSound 
+```lua
+@type string
+Read: cfuncmover.StopReverseSound
+Write: cfuncmover.StopReverseSound = value
+```
+## ArriveAtDestinationSound 
+```lua
+@type string
+Read: cfuncmover.ArriveAtDestinationSound
+Write: cfuncmover.ArriveAtDestinationSound = value
+```
+## OnMovementEnd (Read-Only)
+```lua
+@type CEntityIOOutput
+Read: cfuncmover.OnMovementEnd
+```
+## StartAtEnd 
 ```lua
 @type boolean
-Read: cfuncmover.MatchPathNodeUp
-Write: cfuncmover.MatchPathNodeUp = value
+Read: cfuncmover.StartAtEnd
+Write: cfuncmover.StartAtEnd = value
 ```
-## FacePlayer 
+## OrientationUpdate (Read-Only)
 ```lua
-@type boolean
-Read: cfuncmover.FacePlayer
-Write: cfuncmover.FacePlayer = value
+@type uint32_t
+Read: cfuncmover.OrientationUpdate
 ```
-## TimeStartRoll 
-```lua
-@type number
-Read: cfuncmover.TimeStartRoll
-Write: cfuncmover.TimeStartRoll = value
-```
-## OriginalUp 
-```lua
-@type Vector
-Read: cfuncmover.OriginalUp
-Write: cfuncmover.OriginalUp = value
-```
-## TimeToRollToNewUp 
+## TimeStartOrientationChange 
 ```lua
 @type number
-Read: cfuncmover.TimeToRollToNewUp
-Write: cfuncmover.TimeToRollToNewUp = value
+Read: cfuncmover.TimeStartOrientationChange
+Write: cfuncmover.TimeStartOrientationChange = value
+```
+## TimeToBlendToNewOrientation 
+```lua
+@type number
+Read: cfuncmover.TimeToBlendToNewOrientation
+Write: cfuncmover.TimeToBlendToNewOrientation = value
+```
+## DurationBlendToNewOrientationRan 
+```lua
+@type number
+Read: cfuncmover.DurationBlendToNewOrientationRan
+Write: cfuncmover.DurationBlendToNewOrientationRan = value
 ```
 ## Parent (Read-Only)
 ```lua

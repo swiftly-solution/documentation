@@ -41,6 +41,17 @@ Read: cnmgraphdefinition.ChildGraphSlots
 @type table
 Read: cnmgraphdefinition.ExternalGraphSlots
 ```
+## NodePaths (Read-Only)
+```lua
+@type table
+Read: cnmgraphdefinition.NodePaths
+```
+## RuntimeVersionID 
+```lua
+@type V_uuid_t
+Read: cnmgraphdefinition.RuntimeVersionID
+Write: cnmgraphdefinition.RuntimeVersionID = value
+```
 # Functions
 ## ToPtr
 ```lua

@@ -48,6 +48,12 @@ Write: cleanmatrixupdatenode.VerticalAxis = value
 Read: cleanmatrixupdatenode.HorizontalAxis
 Write: cleanmatrixupdatenode.HorizontalAxis = value
 ```
+## Sequence 
+```lua
+@type number
+Read: cleanmatrixupdatenode.Sequence
+Write: cleanmatrixupdatenode.Sequence = value
+```
 ## MaxValue 
 ```lua
 @type number

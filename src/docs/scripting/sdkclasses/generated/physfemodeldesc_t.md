@@ -177,6 +177,21 @@ Read: physfemodeldesc_t.Rods
 @type table
 Read: physfemodeldesc_t.Twists
 ```
+## HingeLimits (Read-Only)
+```lua
+@type table
+Read: physfemodeldesc_t.HingeLimits
+```
+## AntiTunnelProbes (Read-Only)
+```lua
+@type table
+Read: physfemodeldesc_t.AntiTunnelProbes
+```
+## AntiTunnelTargetNodes (Read-Only)
+```lua
+@type table
+Read: physfemodeldesc_t.AntiTunnelTargetNodes
+```
 ## AxialEdges (Read-Only)
 ```lua
 @type table
@@ -383,6 +398,11 @@ Write: physfemodeldesc_t.ExtraGoalIterations = value
 Read: physfemodeldesc_t.ExtraIterations
 Write: physfemodeldesc_t.ExtraIterations = value
 ```
+## SDFRigids (Read-Only)
+```lua
+@type table
+Read: physfemodeldesc_t.SDFRigids
+```
 ## BoxRigids (Read-Only)
 ```lua
 @type table
@@ -543,6 +563,12 @@ Write: physfemodeldesc_t.DefaultVolumetricSolveAmount = value
 @type number
 Read: physfemodeldesc_t.MotionSmoothCDT
 Write: physfemodeldesc_t.MotionSmoothCDT = value
+```
+## LocalDrag1 
+```lua
+@type number
+Read: physfemodeldesc_t.LocalDrag1
+Write: physfemodeldesc_t.LocalDrag1 = value
 ```
 ## RodVelocitySmoothIterations 
 ```lua

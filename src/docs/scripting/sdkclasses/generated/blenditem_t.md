@@ -25,6 +25,12 @@ Read: blenditem_t.Tags
 @type CAnimUpdateNodeRef
 Read: blenditem_t.Child
 ```
+## Sequence 
+```lua
+@type number
+Read: blenditem_t.Sequence
+Write: blenditem_t.Sequence = value
+```
 ## Pos 
 ```lua
 @type Vector2D

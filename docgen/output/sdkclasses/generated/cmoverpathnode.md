@@ -38,6 +38,16 @@ Write: cmoverpathnode.ParentPathUniqueID = value
 @type CEntityIOOutput
 Read: cmoverpathnode.OnPassThrough
 ```
+## OnPassThroughForward (Read-Only)
+```lua
+@type CEntityIOOutput
+Read: cmoverpathnode.OnPassThroughForward
+```
+## OnPassThroughReverse (Read-Only)
+```lua
+@type CEntityIOOutput
+Read: cmoverpathnode.OnPassThroughReverse
+```
 ## Mover (Read-Only)
 ```lua
 @type CPathMover

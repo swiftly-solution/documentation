@@ -51,6 +51,17 @@ Write: cgamescriptedmovedata.Dst = value
 Read: cgamescriptedmovedata.Current
 Write: cgamescriptedmovedata.Current = value
 ```
+## DestEntity (Read-Only)
+```lua
+@type CBaseEntity
+Read: cgamescriptedmovedata.DestEntity
+```
+## LockedSpeed 
+```lua
+@type number
+Read: cgamescriptedmovedata.LockedSpeed
+Write: cgamescriptedmovedata.LockedSpeed = value
+```
 ## AngRate 
 ```lua
 @type number
@@ -89,7 +100,7 @@ Write: cgamescriptedmovedata.IgnoreRotation = value
 ```
 ## Type 
 ```lua
-@type number
+@type Scripteduint8_t
 Read: cgamescriptedmovedata.Type
 Write: cgamescriptedmovedata.Type = value
 ```

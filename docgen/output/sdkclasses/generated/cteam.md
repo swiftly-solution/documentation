@@ -15,16 +15,6 @@ category:
 CTeam(ptr --[[ string ]])
 ```
 # Properties
-## PlayerControllers (Read-Only)
-```lua
-@type table
-Read: cteam.PlayerControllers
-```
-## Players (Read-Only)
-```lua
-@type table
-Read: cteam.Players
-```
 ## Score 
 ```lua
 @type number

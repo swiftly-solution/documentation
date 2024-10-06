@@ -27,12 +27,6 @@ Write: shard_model_desc_t.ModelID = value
 Read: shard_model_desc_t.Solid
 Write: shard_model_desc_t.Solid = value
 ```
-## ShatterPanelMode 
-```lua
-@type number
-Read: shard_model_desc_t.ShatterPanelMode
-Write: shard_model_desc_t.ShatterPanelMode = value
-```
 ## PanelSize 
 ```lua
 @type Vector2D
@@ -55,6 +49,11 @@ Write: shard_model_desc_t.StressPositionB = value
 ```lua
 @type table
 Read: shard_model_desc_t.PanelVertices
+```
+## InitialPanelVertices (Read-Only)
+```lua
+@type table
+Read: shard_model_desc_t.InitialPanelVertices
 ```
 ## GlassHalfThickness 
 ```lua

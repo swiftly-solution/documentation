@@ -15,15 +15,17 @@ category:
 ResponseFollowup(ptr --[[ string ]])
 ```
 # Properties
-## Followup_concept (Read-Only)
+## Followup_concept 
 ```lua
 @type string
 Read: responsefollowup.Followup_concept
+Write: responsefollowup.Followup_concept = value
 ```
-## Followup_contexts (Read-Only)
+## Followup_contexts 
 ```lua
 @type string
 Read: responsefollowup.Followup_contexts
+Write: responsefollowup.Followup_contexts = value
 ```
 ## Followup_delay 
 ```lua
@@ -31,20 +33,23 @@ Read: responsefollowup.Followup_contexts
 Read: responsefollowup.Followup_delay
 Write: responsefollowup.Followup_delay = value
 ```
-## Followup_target (Read-Only)
+## Followup_target 
 ```lua
 @type string
 Read: responsefollowup.Followup_target
+Write: responsefollowup.Followup_target = value
 ```
-## Followup_entityiotarget (Read-Only)
+## Followup_entityiotarget 
 ```lua
 @type string
 Read: responsefollowup.Followup_entityiotarget
+Write: responsefollowup.Followup_entityiotarget = value
 ```
-## Followup_entityioinput (Read-Only)
+## Followup_entityioinput 
 ```lua
 @type string
 Read: responsefollowup.Followup_entityioinput
+Write: responsefollowup.Followup_entityioinput = value
 ```
 ## Followup_entityiodelay 
 ```lua
