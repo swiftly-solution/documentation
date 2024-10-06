@@ -32,8 +32,8 @@
             "oldteam": "int",
             "disconnect": "boolean",
             "silent": "boolean",
-            "name": "string",
-            "isbot": "boolean"
+            "isbot": "boolean",
+            "name": "string"
         },
         "additional": {}
     },
@@ -50,8 +50,8 @@
             "oldteam": "int",
             "disconnect": "boolean",
             "silent": "boolean",
-            "name": "string",
-            "isbot": "boolean"
+            "isbot": "boolean",
+            "name": "string"
         },
         "additional": {}
     },
@@ -65,8 +65,8 @@
         "params": {
             "teamonly": "boolean",
             "userid": "int",
-            "playerid": "int",
-            "text": "string"
+            "text": "string",
+            "playerid": "int"
         },
         "additional": {}
     },
@@ -80,8 +80,8 @@
         "params": {
             "teamonly": "boolean",
             "userid": "int",
-            "playerid": "int",
-            "text": "string"
+            "text": "string",
+            "playerid": "int"
         },
         "additional": {}
     },
@@ -374,6 +374,9 @@
             "winner": "int",
             "reason": "int",
             "message": "string",
+            "legacy": "int",
+            "player_count": "int",
+            "nomusic": "int",
             "time": "float"
         },
         "additional": {}
@@ -389,6 +392,9 @@
             "winner": "int",
             "reason": "int",
             "message": "string",
+            "legacy": "int",
+            "player_count": "int",
+            "nomusic": "int",
             "time": "float"
         },
         "additional": {}
@@ -742,7 +748,6 @@
         },
         "params": {
             "userid": "int",
-            "hint_entindex": "int",
             "hint_name": "string",
             "hint_replace_key": "string",
             "hint_target": "int",
@@ -757,10 +762,12 @@
             "hint_range": "float",
             "hint_flags": "int",
             "hint_binding": "string",
+            "hint_gamepad_binding": "string",
             "hint_allow_nodraw_target": "boolean",
             "hint_nooffscreen": "boolean",
             "hint_forcecaption": "boolean",
             "hint_local_player_only": "boolean",
+            "hint_entindex": "int",
             "hint_start_sound": "string",
             "hint_layoutfile": "string",
             "hint_vr_panel_type": "int",
@@ -780,7 +787,6 @@
         },
         "params": {
             "userid": "int",
-            "hint_entindex": "int",
             "hint_name": "string",
             "hint_replace_key": "string",
             "hint_target": "int",
@@ -795,10 +801,12 @@
             "hint_range": "float",
             "hint_flags": "int",
             "hint_binding": "string",
+            "hint_gamepad_binding": "string",
             "hint_allow_nodraw_target": "boolean",
             "hint_nooffscreen": "boolean",
             "hint_forcecaption": "boolean",
             "hint_local_player_only": "boolean",
+            "hint_entindex": "int",
             "hint_start_sound": "string",
             "hint_layoutfile": "string",
             "hint_vr_panel_type": "int",
@@ -965,9 +973,9 @@
         "params": {
             "issue": "string",
             "param1": "string",
-            "votedata": "string",
             "team": "int",
-            "initiator": "int"
+            "initiator": "int",
+            "votedata": "string"
         },
         "additional": {}
     },
@@ -981,9 +989,9 @@
         "params": {
             "issue": "string",
             "param1": "string",
-            "votedata": "string",
             "team": "int",
-            "initiator": "int"
+            "initiator": "int",
+            "votedata": "string"
         },
         "additional": {}
     },
@@ -995,9 +1003,14 @@
             "lua": "void"
         },
         "params": {
+            "vote_option1": "int",
+            "vote_option2": "int",
+            "vote_option3": "int",
+            "vote_option4": "int",
+            "vote_option5": "int",
+            "potentialVotes": "int",
             "yesVotes": "int",
-            "noVotes": "int",
-            "potentialVotes": "int"
+            "noVotes": "int"
         },
         "additional": {}
     },
@@ -1009,9 +1022,14 @@
             "lua": "void"
         },
         "params": {
+            "vote_option1": "int",
+            "vote_option2": "int",
+            "vote_option3": "int",
+            "vote_option4": "int",
+            "vote_option5": "int",
+            "potentialVotes": "int",
             "yesVotes": "int",
-            "noVotes": "int",
-            "potentialVotes": "int"
+            "noVotes": "int"
         },
         "additional": {}
     },
@@ -1350,7 +1368,27 @@
         },
         "params": {
             "userid": "int",
-            "attacker": "int"
+            "attacker": "int",
+            "assister": "int",
+            "assistedflash": "boolean",
+            "weapon": "string",
+            "weapon_itemid": "string",
+            "weapon_fauxitemid": "string",
+            "weapon_originalowner_xuid": "string",
+            "headshot": "boolean",
+            "dominated": "int",
+            "revenge": "int",
+            "wipe": "int",
+            "penetrated": "int",
+            "noreplay": "boolean",
+            "noscope": "boolean",
+            "thrusmoke": "boolean",
+            "attackerblind": "boolean",
+            "distance": "float",
+            "dmg_health": "int",
+            "dmg_armor": "int",
+            "hitgroup": "int",
+            "attackerinair": "boolean"
         },
         "additional": {}
     },
@@ -1363,7 +1401,27 @@
         },
         "params": {
             "userid": "int",
-            "attacker": "int"
+            "attacker": "int",
+            "assister": "int",
+            "assistedflash": "boolean",
+            "weapon": "string",
+            "weapon_itemid": "string",
+            "weapon_fauxitemid": "string",
+            "weapon_originalowner_xuid": "string",
+            "headshot": "boolean",
+            "dominated": "int",
+            "revenge": "int",
+            "wipe": "int",
+            "penetrated": "int",
+            "noreplay": "boolean",
+            "noscope": "boolean",
+            "thrusmoke": "boolean",
+            "attackerblind": "boolean",
+            "distance": "float",
+            "dmg_health": "int",
+            "dmg_armor": "int",
+            "hitgroup": "int",
+            "attackerinair": "boolean"
         },
         "additional": {}
     },
@@ -1423,7 +1481,12 @@
         "params": {
             "userid": "int",
             "attacker": "int",
-            "health": "int"
+            "health": "int",
+            "armor": "int",
+            "weapon": "string",
+            "dmg_health": "int",
+            "dmg_armor": "int",
+            "hitgroup": "int"
         },
         "additional": {}
     },
@@ -1437,7 +1500,12 @@
         "params": {
             "userid": "int",
             "attacker": "int",
-            "health": "int"
+            "health": "int",
+            "armor": "int",
+            "weapon": "string",
+            "dmg_health": "int",
+            "dmg_armor": "int",
+            "hitgroup": "int"
         },
         "additional": {}
     },
