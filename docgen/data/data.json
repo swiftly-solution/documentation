@@ -9202,6 +9202,120 @@
                 "additional": {
                     "lua": "The callback has the following arguments:\n```lua\ncb(status --[[ number ]], body --[[ string ]], headers --[[ table ]], err --[[ string ]])\n```"
                 }
+            },
+            "listen": {
+                "title": "HTTP Server",
+                "template": "function-syntax",
+                "description": "Creates a HTTP Server.",
+                "variable": {
+                    "lua": "http:Listen"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "ip_addr": "string",
+                    "port": "number",
+                    "callback": "function"
+                },
+                "additional": {
+                    "lua": "The callback has the following arguments:\n```lua\ncb(req --[[ HTTPRequest ]], res --[[ HTTPResponse ]])\n```"
+                }
+            },
+            "request": {
+                "title": "HTTPRequest",
+                "description": "A HTTP Request is an object which stores informations about the request made by the client.",
+                "template": "class-syntax",
+                "languages": [
+                    "lua"
+                ],
+                "constructor": {},
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "writable": false
+                    },
+                    "method": {
+                        "type": "string",
+                        "writable": false
+                    },
+                    "body": {
+                        "type": "string",
+                        "writable": false
+                    },
+                    "files": {
+                        "type": "table",
+                        "writable": false
+                    },
+                    "headers": {
+                        "type": "table",
+                        "writable": false
+                    },
+                    "params": {
+                        "type": "table",
+                        "writable": false
+                    }
+                },
+                "functions": {},
+                "additional": {}
+            },
+            "response": {
+                "title": "HTTPResponse",
+                "description": "A HTTP Response is an object which stores informations about what the server should return to the client request.",
+                "template": "class-syntax",
+                "languages": [
+                    "lua"
+                ],
+                "constructor": {},
+                "properties": {},
+                "functions": {
+                    "WriteBody": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "content": "string"
+                        }
+                    },
+                    "GetHeaders": {
+                        "return": {
+                            "lua": "table"
+                        },
+                        "params": {}
+                    },
+                    "GetHeader": {
+                        "return": {
+                            "lua": "string"
+                        },
+                        "params": {
+                            "key": "string"
+                        }
+                    },
+                    "SetHeader": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "key": "string",
+                            "params": "string"
+                        }
+                    },
+                    "Send": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "response_code": "number"
+                        }
+                    },
+                    "IsCompleted": {
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {}
+                    }
+                },
+                "additional": {}
             }
         }
     },
