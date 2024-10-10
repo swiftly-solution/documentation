@@ -99489,103 +99489,55 @@
             },
             "weapon": {
                 "title": "Weapon",
-                "description": "A list of API functions for weapon.",
-                "iscategory": true,
-                "order": 3,
-                "icon": "gun",
-                "data": {
-                    "cbaseplayerweapon": {
-                        "title": "CBasePlayerWeapon",
-                        "template": "function-syntax",
-                        "description": "Returns the CBasePlayerWeapon for the specified weapons.",
-                        "variable": {
-                            "lua": "weapon:CBasePlayerWeapon"
-                        },
+                "description": "A weapon is an object which stores informations about a player's weapon.",
+                "template": "class-syntax",
+                "languages": [
+                    "lua"
+                ],
+                "constructor": {
+                    "playerid": "number",
+                    "ptr": "string"
+                },
+                "properties": {},
+                "functions": {
+                    "CBasePlayerWeapon": {
                         "return": {
                             "lua": "CBasePlayerWeapon"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     },
-                    "ccsweaponbase": {
-                        "title": "CCSWeaponBase",
-                        "template": "function-syntax",
-                        "description": "Returns the CCSWeaponBase for the specified weapons.",
-                        "variable": {
-                            "lua": "weapon:CCSWeaponBase"
-                        },
+                    "CCSWeaponBase": {
                         "return": {
                             "lua": "CCSWeaponBase"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     },
-                    "cbaseplayerweaponvdata": {
-                        "title": "CBasePlayerWeaponVData",
-                        "template": "function-syntax",
-                        "description": "Returns the CBasePlayerWeaponVData for the specified weapons.",
-                        "variable": {
-                            "lua": "weapon:CBasePlayerWeaponVData"
-                        },
+                    "CBasePlayerWeaponVData": {
                         "return": {
                             "lua": "CBasePlayerWeaponVData"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     },
-                    "ccsweaponbasevdata": {
-                        "title": "CCSWeaponBaseVData",
-                        "template": "function-syntax",
-                        "description": "Returns the CCSWeaponBaseVData for the specified weapons.",
-                        "variable": {
-                            "lua": "weapon:CCSWeaponBaseVData"
-                        },
-                        "return": {
-                            "lua": "CCSWeaponBaseVData"
-                        },
-                        "params": {},
-                        "additional": {}
-                    },
-                    "setdefaultattributes": {
-                        "title": "SetDefaultAttributes",
-                        "template": "function-syntax",
-                        "description": "Sets the default attributes to the weapon based on it's specifications.",
-                        "variable": {
-                            "lua": "weapon:SetDefaultAttributes"
-                        },
+                    "SetDefaultAttributes": {
                         "return": {
                             "lua": "void"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     },
-                    "remove": {
-                        "title": "Remove",
-                        "template": "function-syntax",
-                        "description": "Removes the weapon from the server.",
-                        "variable": {
-                            "lua": "weapon:Remove"
-                        },
+                    "Remove": {
                         "return": {
                             "lua": "void"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     },
-                    "drop": {
-                        "title": "Drop",
-                        "template": "function-syntax",
-                        "description": "Drops the weapons from the player.",
-                        "variable": {
-                            "lua": "weapon:Drop"
-                        },
+                    "Drop": {
                         "return": {
                             "lua": "void"
                         },
-                        "params": {},
-                        "additional": {}
+                        "params": {}
                     }
-                }
+                },
+                "additional": {}
             }
         }
     }
