@@ -10014,6 +10014,34 @@
                 },
                 "additional": {}
             },
+            "allocate": {
+                "title": "Allocate",
+                "template": "function-syntax",
+                "description": "Allocates memory based on the specified size.",
+                "variable": {
+                    "lua": "memory:Allocate"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "size": "number"
+                },
+                "additional": {}
+            },
+            "deallocate": {
+                "title": "Deallocate",
+                "template": "function-syntax",
+                "description": "Deallocates the memory stored.",
+                "variable": {
+                    "lua": "memory:Deallocate"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {},
+                "additional": {}
+            },
             "clear": {
                 "title": "Clear",
                 "template": "function-syntax",
