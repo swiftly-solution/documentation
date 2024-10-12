@@ -11307,12 +11307,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -11359,10 +11354,6 @@
             "UseFramesAsInput": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11427,10 +11418,6 @@
             "Parameterization": {
                 "type": "CNmParameterizedBlendNode::Parameterization_t",
                 "writable": false
-            },
-            "Parent": {
-                "type": "CNmParameterizedBlendNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11471,10 +11458,6 @@
             "AllowLooping": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11615,10 +11598,6 @@
             "BlendWeightValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoneMaskValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11647,12 +11626,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmBoneMaskValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -11695,10 +11669,6 @@
             "BlendTimeSeconds": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoneMaskValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11727,12 +11697,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -11759,12 +11724,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -11799,10 +11759,6 @@
             "Mode": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11839,10 +11795,6 @@
             "Mode": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11879,10 +11831,6 @@
             "Mode": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -11983,10 +11931,6 @@
             "Mode": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmTargetValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12023,10 +11967,6 @@
             "Mode": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12059,10 +11999,6 @@
             "ChildGraphIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12167,10 +12103,6 @@
             "DataSlotIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12199,12 +12131,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12235,10 +12162,6 @@
             "Value": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12271,10 +12194,6 @@
             "Value": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12303,12 +12222,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12338,10 +12252,6 @@
         "properties": {
             "Value": {
                 "type": "CNmTarget",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmTargetValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -12375,10 +12285,6 @@
             "Value": {
                 "type": "Vector",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12407,12 +12313,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12439,12 +12340,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12471,12 +12367,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12503,12 +12394,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmTargetValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12535,12 +12421,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12571,10 +12452,6 @@
             "SourceStateNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12607,10 +12484,6 @@
             "SourceStateNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12643,10 +12516,6 @@
             "SourceStateNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12675,12 +12544,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmSpeedScaleBaseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12743,12 +12607,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -12779,10 +12638,6 @@
             "BoneWeight": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoneMaskValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12815,10 +12670,6 @@
             "InputValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12855,10 +12706,6 @@
             "Operation": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12895,10 +12742,6 @@
             "ClampRange": {
                 "type": "Range_t",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12947,10 +12790,6 @@
             "ComparisonValue": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -12983,10 +12822,6 @@
             "InputValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13035,10 +12870,6 @@
             "UseStartValue": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13087,10 +12918,6 @@
             "ValueB": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13131,10 +12958,6 @@
             "IsInclusiveCheck": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13174,10 +12997,6 @@
             },
             "OutputRange": {
                 "type": "CNmFloatRemapNode::RemapRange_t",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -13255,10 +13074,6 @@
             "EasingOp": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13299,10 +13114,6 @@
             "FalseValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13331,12 +13142,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -13411,10 +13217,6 @@
             "EventConditionRules": {
                 "type": "CNmBitFlags",
                 "writable": false
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13450,10 +13252,6 @@
             },
             "EventConditionRules": {
                 "type": "CNmBitFlags",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -13494,10 +13292,6 @@
             },
             "EventConditionRules": {
                 "type": "CNmBitFlags",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -13754,10 +13548,6 @@
             "Comparison": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13826,10 +13616,6 @@
             "EventConditionRules": {
                 "type": "CNmBitFlags",
                 "writable": false
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13865,10 +13651,6 @@
             },
             "EventConditionRules": {
                 "type": "CNmBitFlags",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -13906,10 +13688,6 @@
             "EventConditionRules": {
                 "type": "CNmBitFlags",
                 "writable": false
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13946,10 +13724,6 @@
             "DefaultValue": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -13978,12 +13752,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -14041,10 +13810,6 @@
             "InputValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14081,10 +13846,6 @@
             "OnlySampleBaseRootMotion": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14245,10 +14006,6 @@
             "InputValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14277,12 +14034,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -14360,10 +14112,6 @@
             },
             "SamplingMode": {
                 "type": "uint8_t",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
                 "writable": false
             }
         },
@@ -14473,10 +14221,6 @@
             "AllowLooping": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14541,10 +14285,6 @@
             "ParameterNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14577,10 +14317,6 @@
             "ParameterNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14613,10 +14349,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14645,12 +14377,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmGraphNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -14677,12 +14404,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -14845,10 +14567,6 @@
             "OverrideFlags": {
                 "type": "CNmBitFlags",
                 "writable": false
-            },
-            "Parent": {
-                "type": "CNmPassthroughNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -14909,12 +14627,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -14985,10 +14698,6 @@
             "DefaultInputValue": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPassthroughNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15017,12 +14726,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmSpeedScaleBaseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -15061,10 +14765,6 @@
             "TransitionDurationSeconds": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15100,10 +14800,6 @@
             },
             "EventConditionRules": {
                 "type": "CNmBitFlags",
-                "writable": false
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
                 "writable": false
             }
         },
@@ -15169,10 +14865,6 @@
             "DefaultStateIndex": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15301,10 +14993,6 @@
             "IsOffState": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15377,10 +15065,6 @@
             "SyncEventIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15565,10 +15249,6 @@
             "IsWorldSpaceTarget": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15609,10 +15289,6 @@
             "TranslationOffset": {
                 "type": "Vector",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmTargetValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15649,10 +15325,6 @@
             "IsWorldSpaceTarget": {
                 "type": "boolean",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15681,12 +15353,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -15789,10 +15456,6 @@
             "TargetUpdateAngleThresholdRadians": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15868,10 +15531,6 @@
             "Operator": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -15948,10 +15607,6 @@
             "RuleCondition": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16024,10 +15679,6 @@
             "RootMotionBlend": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16056,12 +15707,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmGraphNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -16104,10 +15750,6 @@
             "InputValueZNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16144,10 +15786,6 @@
             "DesiredInfo": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16180,10 +15818,6 @@
             "InputValueNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16212,12 +15846,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmValueNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -16244,12 +15873,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmSpeedScaleBaseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -16276,12 +15900,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmParameterizedBlendNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -16312,10 +15931,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoneMaskValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16348,10 +15963,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmBoolValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16384,10 +15995,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmFloatValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16420,10 +16027,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmIDValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16456,10 +16059,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmTargetValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16492,10 +16091,6 @@
             "ChildNodeIdx": {
                 "type": "number",
                 "writable": true
-            },
-            "Parent": {
-                "type": "CNmVectorValueNode::CDefinition",
-                "writable": false
             }
         },
         "functions": {
@@ -16524,12 +16119,7 @@
         "constructor": {
             "ptr": "string"
         },
-        "properties": {
-            "Parent": {
-                "type": "CNmPoseNode::CDefinition",
-                "writable": false
-            }
-        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -17189,6 +16779,46 @@
                 "writable": true
             },
             "ProviderType": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "ToPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            },
+            "IsValid": {
+                "return": {
+                    "lua": "bool"
+                },
+                "params": {}
+            }
+        },
+        "additional": {}
+    },
+    "cattributemanager::cached_attribute_float_t": {
+        "title": "CAttributeManager::cached_attribute_float_t",
+        "description": "",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "ptr": "string"
+        },
+        "properties": {
+            "In": {
+                "type": "number",
+                "writable": true
+            },
+            "AttribHook": {
+                "type": "string",
+                "writable": true
+            },
+            "Out": {
                 "type": "number",
                 "writable": true
             }
