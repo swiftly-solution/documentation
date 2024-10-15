@@ -93877,6 +93877,76 @@
                         },
                         "params": {},
                         "additional": {}
+                    },
+                    "switch": {
+                        "title": "Switch",
+                        "template": "function-syntax",
+                        "description": "Allows for a switch-like behavior in Lua, matching a value against a set of cases. It supports functions or direct values for each case and includes a default fallback.",
+                        "variable": {
+                            "lua": "switch"
+                        },
+                        "return": {
+                            "lua": "any"
+                        },
+                        "params": {
+                            "key": "string",
+                            "switch_table": "table"
+                        },
+                        "additional": {
+                            "lua": "#### Example\n```lua\nlocal result = switch(\"hello\", {\n    hello = function() return \"world\" end,\n    goodbye = \"farewell\",\n    default = function() return \"unknown\" end\n})\nprint(result) -- Output: world\n```"
+                        }
+                    },
+                    "tablemap": {
+                        "title": "Table Map",
+                        "template": "function-syntax",
+                        "description": "Maps a given function to each element in a table, returning a new table with the transformed values.",
+                        "variable": {
+                            "lua": "table.map"
+                        },
+                        "return": {
+                            "lua": "table"
+                        },
+                        "params": {
+                            "tbl": "table",
+                            "callback": "function"
+                        },
+                        "additional": {
+                            "lua": "The callback has the following arguments:\n```lua\n--- @return boolean\ncb(element --[[ any ]])\n```"
+                        }
+                    },
+                    "tablefilter": {
+                        "title": "Table Filter",
+                        "template": "function-syntax",
+                        "description": "Filters elements of a table based on a provided predicate function, returning a new table with elements that satisfy the condition.",
+                        "variable": {
+                            "lua": "table.filter"
+                        },
+                        "return": {
+                            "lua": "table"
+                        },
+                        "params": {
+                            "tbl": "table",
+                            "callback": "function"
+                        },
+                        "additional": {
+                            "lua": "The callback has the following arguments:\n```lua\n--- @return boolean\ncb(element --[[ any ]])\n```"
+                        }
+                    },
+                    "tablecontains": {
+                        "title": "Table Contains",
+                        "template": "function-syntax",
+                        "description": "Checks if a table contains a specific value.",
+                        "variable": {
+                            "lua": "table.contains"
+                        },
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "tbl": "table",
+                            "element": "any"
+                        },
+                        "additional": {}
                     }
                 }
             }
