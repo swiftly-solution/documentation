@@ -53746,8 +53746,9 @@
                                     "lua": "void"
                                 },
                                 "params": {
-                                    "value": "Vector",
-                                    "angle": "QAngle"
+                                    "position": "Vector",
+                                    "angle": "QAngle",
+                                    "velocity": "Vector"
                                 }
                             },
                             "ToPtr": {
