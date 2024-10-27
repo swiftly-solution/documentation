@@ -189,17 +189,18 @@ const ProcessTemplate = (data) => {
 }
 
 const ProcessData = async (data, subfolder) => {
-    for (const key of Object.keys(data)) {
+    for (var key of Object.keys(data)) {
+        const fl = key.replace(new RegExp(":", "g"), "_")
         if (data[key].iscategory) {
             generatedFiles++;
-            mkdirSync(`output/${subfolder}${key}`, { recursive: true });
-            if (!existsSync(`output/${subfolder}${key}/README.md`)) writeFileSync(`output/${subfolder}${key}/README.md`, `---\ntitle: ${data[key].title}\nicon: ${data[key].icon}\norder: ${data[key].order}\nindex: false\ncategory:\n  - Guide\n---\n\n<Catalog />`);
-            ProcessData(data[key].data, `${subfolder}${key}/`)
+            mkdirSync(`output/${subfolder}${fl}`, { recursive: true });
+            if (!existsSync(`output/${subfolder}${fl}/README.md`)) writeFileSync(`output/${subfolder}${fl}/README.md`, `---\ntitle: ${data[key].title}\nicon: ${data[key].icon}\norder: ${data[key].order}\nindex: false\ncategory:\n  - Guide\n---\n\n<Catalog />`);
+            ProcessData(data[key].data, `${subfolder}${fl}/`)
         } else {
             let processedData = ProcessTemplate(data[key])
             if (processedData == "") continue;
 
-            writeFileSync(`output/${subfolder}${key}.md`,
+            writeFileSync(`output/${subfolder}${fl}.md`,
                 `---\ntitle: ${data[key].title}\nindex: true\norder: ${data[key].template == "getting-started" ? 1 : 2}\ncategory:\n  - Guide\n---\n\n# ${data[key].title}\n${processedData}`
             )
             generatedFiles++;
