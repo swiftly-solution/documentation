@@ -1397,6 +1397,20 @@
                         },
                         "additional": {}
                     },
+                    "onplayerpostthink": {
+                        "title": "OnPlayerPostThink",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when the hook CCSPlayerPawnBase_PostThink is being called.",
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "playerid": "number"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution of a User Message?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
                     "onusermessagesend": {
                         "title": "OnUserMessageSend",
                         "template": "core-event-syntax",
