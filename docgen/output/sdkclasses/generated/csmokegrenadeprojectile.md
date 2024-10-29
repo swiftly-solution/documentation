@@ -50,6 +50,18 @@ Write: csmokegrenadeprojectile.SmokeDetonationPos = value
 @type table
 Read: csmokegrenadeprojectile.VoxelFrameData
 ```
+## VoxelFrameDataSize 
+```lua
+@type number
+Read: csmokegrenadeprojectile.VoxelFrameDataSize
+Write: csmokegrenadeprojectile.VoxelFrameDataSize = value
+```
+## VoxelUpdate 
+```lua
+@type number
+Read: csmokegrenadeprojectile.VoxelUpdate
+Write: csmokegrenadeprojectile.VoxelUpdate = value
+```
 ## LastBounce 
 ```lua
 @type number

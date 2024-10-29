@@ -25,6 +25,48 @@ Read: cbasemodelentity.CRenderComponent
 @type CHitboxComponent
 Read: cbasemodelentity.CHitboxComponent
 ```
+## DestructiblePartInitialStateDestructed0 
+```lua
+@type number
+Read: cbasemodelentity.DestructiblePartInitialStateDestructed0
+Write: cbasemodelentity.DestructiblePartInitialStateDestructed0 = value
+```
+## DestructiblePartInitialStateDestructed1 
+```lua
+@type number
+Read: cbasemodelentity.DestructiblePartInitialStateDestructed1
+Write: cbasemodelentity.DestructiblePartInitialStateDestructed1 = value
+```
+## DestructiblePartInitialStateDestructed2 
+```lua
+@type number
+Read: cbasemodelentity.DestructiblePartInitialStateDestructed2
+Write: cbasemodelentity.DestructiblePartInitialStateDestructed2 = value
+```
+## DestructiblePartInitialStateDestructed3 
+```lua
+@type number
+Read: cbasemodelentity.DestructiblePartInitialStateDestructed3
+Write: cbasemodelentity.DestructiblePartInitialStateDestructed3 = value
+```
+## DestructiblePartInitialStateDestructed4 
+```lua
+@type number
+Read: cbasemodelentity.DestructiblePartInitialStateDestructed4
+Write: cbasemodelentity.DestructiblePartInitialStateDestructed4 = value
+```
+## LastHitDestructiblePartIndex 
+```lua
+@type number
+Read: cbasemodelentity.LastHitDestructiblePartIndex
+Write: cbasemodelentity.LastHitDestructiblePartIndex = value
+```
+## LastHitGroup 
+```lua
+@type number
+Read: cbasemodelentity.LastHitGroup
+Write: cbasemodelentity.LastHitGroup = value
+```
 ## DissolveStartTime 
 ```lua
 @type number

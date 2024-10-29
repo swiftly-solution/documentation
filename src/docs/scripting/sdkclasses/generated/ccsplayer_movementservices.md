@@ -15,12 +15,6 @@ category:
 CCSPlayer_MovementServices(ptr --[[ string ]])
 ```
 # Properties
-## MaxFallVelocity 
-```lua
-@type number
-Read: ccsplayer_movementservices.MaxFallVelocity
-Write: ccsplayer_movementservices.MaxFallVelocity = value
-```
 ## LadderNormal 
 ```lua
 @type Vector
@@ -195,18 +189,6 @@ Write: ccsplayer_movementservices.OldJumpPressed = value
 Read: ccsplayer_movementservices.JumpPressedTime
 Write: ccsplayer_movementservices.JumpPressedTime = value
 ```
-## JumpUntil 
-```lua
-@type number
-Read: ccsplayer_movementservices.JumpUntil
-Write: ccsplayer_movementservices.JumpUntil = value
-```
-## JumpVel 
-```lua
-@type number
-Read: ccsplayer_movementservices.JumpVel
-Write: ccsplayer_movementservices.JumpVel = value
-```
 ## StashGrenadeParameterWhen 
 ```lua
 @type number
@@ -254,6 +236,18 @@ Write: ccsplayer_movementservices.MaxJumpHeightThisJump = value
 @type number
 Read: ccsplayer_movementservices.MaxJumpHeightLastJump
 Write: ccsplayer_movementservices.MaxJumpHeightLastJump = value
+```
+## StaminaAtJumpStart 
+```lua
+@type number
+Read: ccsplayer_movementservices.StaminaAtJumpStart
+Write: ccsplayer_movementservices.StaminaAtJumpStart = value
+```
+## AccumulatedJumpError 
+```lua
+@type number
+Read: ccsplayer_movementservices.AccumulatedJumpError
+Write: ccsplayer_movementservices.AccumulatedJumpError = value
 ```
 ## Parent (Read-Only)
 ```lua

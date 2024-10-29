@@ -24190,6 +24190,10 @@
                                 "type": "boolean",
                                 "writable": true
                             },
+                            "LastDestructiblePartDestroyedAnimgraphSetTick": {
+                                "type": "number",
+                                "writable": true
+                            },
                             "Parent": {
                                 "type": "CBaseModelEntity",
                                 "writable": false
@@ -25974,9 +25978,17 @@
                                 "type": "number",
                                 "writable": true
                             },
-                            "Kills": {
+                            "RecentKillQueue": {
                                 "type": "table",
-                                "writable": false
+                                "writable": true
+                            },
+                            "FirstKill": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "KillCount": {
+                                "type": "number",
+                                "writable": true
                             },
                             "MvpNoMusic": {
                                 "type": "boolean",
@@ -26138,6 +26150,10 @@
                             "ptr": "string"
                         },
                         "properties": {
+                            "DamageListServer": {
+                                "type": "table",
+                                "writable": false
+                            },
                             "SendUpdate": {
                                 "type": "number",
                                 "writable": true
@@ -26443,6 +26459,38 @@
                         },
                         "additional": {}
                     },
+                    "ccsplayer_damagereactservices": {
+                        "title": "CCSPlayer_DamageReactServices",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Parent": {
+                                "type": "CPlayerPawnComponent",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
                     "ccsplayer_glowservices": {
                         "title": "CCSPlayer_GlowServices",
                         "description": "",
@@ -26570,10 +26618,6 @@
                             "ptr": "string"
                         },
                         "properties": {
-                            "MaxFallVelocity": {
-                                "type": "number",
-                                "writable": true
-                            },
                             "LadderNormal": {
                                 "type": "Vector",
                                 "writable": true
@@ -26690,14 +26734,6 @@
                                 "type": "number",
                                 "writable": true
                             },
-                            "JumpUntil": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "JumpVel": {
-                                "type": "number",
-                                "writable": true
-                            },
                             "StashGrenadeParameterWhen": {
                                 "type": "number",
                                 "writable": true
@@ -26727,6 +26763,14 @@
                                 "writable": true
                             },
                             "MaxJumpHeightLastJump": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "StaminaAtJumpStart": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "AccumulatedJumpError": {
                                 "type": "number",
                                 "writable": true
                             },
@@ -28081,6 +28125,185 @@
                             },
                             "DecalMaterialIndex": {
                                 "type": "number",
+                                "writable": true
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cdestructiblepartruntimedata": {
+                        "title": "CDestructiblePartRuntimeData",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "HealthRemaining": {
+                                "type": "number",
+                                "writable": true
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cdestructiblepartruntimedatavector": {
+                        "title": "CDestructiblePartRuntimeDataVector",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "DestructiblePartsRuntimeData": {
+                                "type": "table",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cdestructiblepartssystemdata": {
+                        "title": "CDestructiblePartsSystemData",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {},
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cdestructiblepartssystemdata_hitgroupinfoandpartdata": {
+                        "title": "CDestructiblePartsSystemData_HitGroupInfoAndPartData",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Name": {
+                                "type": "string",
+                                "writable": true
+                            },
+                            "DestructiblePartsData": {
+                                "type": "table",
+                                "writable": false
+                            },
+                            "DisableHitGroupWhenDestroyed": {
+                                "type": "boolean",
+                                "writable": true
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cdestructiblepartssystemdata_partdata": {
+                        "title": "CDestructiblePartsSystemData_PartData",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Name": {
+                                "type": "string",
+                                "writable": true
+                            },
+                            "BodyGroupValue": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "Health": {
+                                "type": "CSkillInt",
+                                "writable": false
+                            },
+                            "DamagePassthroughType": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "KillNPCOnDestruction": {
+                                "type": "boolean",
                                 "writable": true
                             }
                         },
@@ -31472,6 +31695,54 @@
                             },
                             "Parent": {
                                 "type": "CEntityComponent",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cragdollmanager": {
+                        "title": "CRagdollManager",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "CurrentMaxRagdollCount": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "MaxRagdollCount": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "SaveImportant": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "CanTakeDamage": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "Parent": {
+                                "type": "CBaseEntity",
                                 "writable": false
                             }
                         },
@@ -35893,6 +36164,10 @@
                             },
                             "ForceCurrentWorldTransform": {
                                 "type": "boolean",
+                                "writable": true
+                            },
+                            "HealthToGrant": {
+                                "type": "number",
                                 "writable": true
                             }
                         },
@@ -53145,10 +53420,6 @@
                                 "type": "number",
                                 "writable": true
                             },
-                            "LastHitGroup": {
-                                "type": "number",
-                                "writable": true
-                            },
                             "ApplyStressDamage": {
                                 "type": "boolean",
                                 "writable": true
@@ -53760,9 +54031,8 @@
                                     "lua": "void"
                                 },
                                 "params": {
-                                    "position": "Vector",
-                                    "angle": "QAngle",
-                                    "velocity": "Vector"
+                                    "value": "Vector",
+                                    "angle": "QAngle"
                                 }
                             },
                             "ToPtr": {
@@ -54145,6 +54415,34 @@
                             "CHitboxComponent": {
                                 "type": "CHitboxComponent",
                                 "writable": false
+                            },
+                            "DestructiblePartInitialStateDestructed0": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "DestructiblePartInitialStateDestructed1": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "DestructiblePartInitialStateDestructed2": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "DestructiblePartInitialStateDestructed3": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "DestructiblePartInitialStateDestructed4": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "LastHitDestructiblePartIndex": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "LastHitGroup": {
+                                "type": "number",
+                                "writable": true
                             },
                             "DissolveStartTime": {
                                 "type": "number",
@@ -58587,38 +58885,6 @@
                         },
                         "additional": {}
                     },
-                    "ccsplayer_damagereactservices": {
-                        "title": "CCSPlayer_DamageReactServices",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "Parent": {
-                                "type": "CPlayerPawnComponent",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
                     "ccsplayer_radioservices": {
                         "title": "CCSPlayer_RadioServices",
                         "description": "",
@@ -59035,6 +59301,10 @@
                                 "writable": true
                             },
                             "NextPrevOwnerTouchTime": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "NextPrevOwnerUseTime": {
                                 "type": "number",
                                 "writable": true
                             },
@@ -76282,50 +76552,6 @@
                         },
                         "additional": {}
                     },
-                    "cragdollmanager": {
-                        "title": "CRagdollManager",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "CurrentMaxRagdollCount": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "MaxRagdollCount": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "SaveImportant": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "Parent": {
-                                "type": "CBaseEntity",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
                     "cragdollprop": {
                         "title": "CRagdollProp",
                         "description": "",
@@ -78604,6 +78830,14 @@
                             "VoxelFrameData": {
                                 "type": "table",
                                 "writable": false
+                            },
+                            "VoxelFrameDataSize": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "VoxelUpdate": {
+                                "type": "number",
+                                "writable": true
                             },
                             "LastBounce": {
                                 "type": "number",
@@ -90464,6 +90698,14 @@
                             "k_EContributionScoreFlag_Default": 0,
                             "k_EContributionScoreFlag_Objective": 1,
                             "k_EContributionScoreFlag_Bullets": 2
+                        }
+                    },
+                    "edestructiblepartdamagepassthroughtype": {
+                        "title": "EDestructiblePartDamagePassThroughType",
+                        "template": "types-syntax",
+                        "values": {
+                            "Normal": 0,
+                            "Absorb": 1
                         }
                     },
                     "einbuttonstate": {

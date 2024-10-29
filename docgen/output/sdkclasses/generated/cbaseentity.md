@@ -510,7 +510,7 @@ cbaseentity:GetVData()
 ## Teleport
 ```lua
 @returns void
-cbaseentity:Teleport(position --[[ Vector ]], angle --[[ QAngle ]], velocity --[[ Vector ]])
+cbaseentity:Teleport(value --[[ Vector ]], angle --[[ QAngle ]])
 ```
 ## ToPtr
 ```lua

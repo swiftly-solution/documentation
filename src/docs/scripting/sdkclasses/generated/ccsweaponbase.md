@@ -319,6 +319,12 @@ Write: ccsweaponbase.NextOwnerTouchTime = value
 Read: ccsweaponbase.NextPrevOwnerTouchTime
 Write: ccsweaponbase.NextPrevOwnerTouchTime = value
 ```
+## NextPrevOwnerUseTime 
+```lua
+@type number
+Read: ccsweaponbase.NextPrevOwnerUseTime
+Write: ccsweaponbase.NextPrevOwnerUseTime = value
+```
 ## PrevOwner (Read-Only)
 ```lua
 @type CCSPlayerPawn

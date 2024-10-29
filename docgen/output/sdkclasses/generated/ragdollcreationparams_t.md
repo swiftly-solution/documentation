@@ -33,6 +33,12 @@ Write: ragdollcreationparams_t.ForceBone = value
 Read: ragdollcreationparams_t.ForceCurrentWorldTransform
 Write: ragdollcreationparams_t.ForceCurrentWorldTransform = value
 ```
+## HealthToGrant 
+```lua
+@type number
+Read: ragdollcreationparams_t.HealthToGrant
+Write: ragdollcreationparams_t.HealthToGrant = value
+```
 # Functions
 ## ToPtr
 ```lua

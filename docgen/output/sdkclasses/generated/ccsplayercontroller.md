@@ -397,10 +397,23 @@ Write: ccsplayercontroller.RoundScore = value
 Read: ccsplayercontroller.RoundsWon
 Write: ccsplayercontroller.RoundsWon = value
 ```
-## Kills (Read-Only)
+## RecentKillQueue 
 ```lua
 @type table
-Read: ccsplayercontroller.Kills
+Read: ccsplayercontroller.RecentKillQueue
+Write: ccsplayercontroller.RecentKillQueue = value
+```
+## FirstKill 
+```lua
+@type number
+Read: ccsplayercontroller.FirstKill
+Write: ccsplayercontroller.FirstKill = value
+```
+## KillCount 
+```lua
+@type number
+Read: ccsplayercontroller.KillCount
+Write: ccsplayercontroller.KillCount = value
 ```
 ## MvpNoMusic 
 ```lua

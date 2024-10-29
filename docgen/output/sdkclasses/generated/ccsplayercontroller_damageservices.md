@@ -15,6 +15,11 @@ category:
 CCSPlayerController_DamageServices(ptr --[[ string ]])
 ```
 # Properties
+## DamageListServer (Read-Only)
+```lua
+@type table
+Read: ccsplayercontroller_damageservices.DamageListServer
+```
 ## SendUpdate 
 ```lua
 @type number

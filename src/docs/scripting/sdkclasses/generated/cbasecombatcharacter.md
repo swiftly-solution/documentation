@@ -27,12 +27,6 @@ Write: cbasecombatcharacter.ForceServerRagdoll = value
 Read: cbasecombatcharacter.ImpactEnergyScale
 Write: cbasecombatcharacter.ImpactEnergyScale = value
 ```
-## LastHitGroup 
-```lua
-@type number
-Read: cbasecombatcharacter.LastHitGroup
-Write: cbasecombatcharacter.LastHitGroup = value
-```
 ## ApplyStressDamage 
 ```lua
 @type boolean

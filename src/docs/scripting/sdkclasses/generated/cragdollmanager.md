@@ -33,6 +33,12 @@ Write: cragdollmanager.MaxRagdollCount = value
 Read: cragdollmanager.SaveImportant
 Write: cragdollmanager.SaveImportant = value
 ```
+## CanTakeDamage 
+```lua
+@type boolean
+Read: cragdollmanager.CanTakeDamage
+Write: cragdollmanager.CanTakeDamage = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CBaseEntity

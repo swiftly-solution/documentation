@@ -73,6 +73,12 @@ Read: cbaseanimgraph.RagdollPose
 Read: cbaseanimgraph.RagdollClientSide
 Write: cbaseanimgraph.RagdollClientSide = value
 ```
+## LastDestructiblePartDestroyedAnimgraphSetTick 
+```lua
+@type number
+Read: cbaseanimgraph.LastDestructiblePartDestroyedAnimgraphSetTick
+Write: cbaseanimgraph.LastDestructiblePartDestroyedAnimgraphSetTick = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CBaseModelEntity
