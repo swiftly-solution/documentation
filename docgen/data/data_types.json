@@ -1436,6 +1436,14 @@
             "k_EContributionScoreFlag_Bullets": 2
         }
     },
+    "edestructiblepartdamagepassthroughtype": {
+        "title": "EDestructiblePartDamagePassThroughType",
+        "template": "types-syntax",
+        "values": {
+            "Normal": 0,
+            "Absorb": 1
+        }
+    },
     "einbuttonstate": {
         "title": "EInButtonState",
         "template": "types-syntax",
