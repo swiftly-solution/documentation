@@ -10839,6 +10839,19 @@
                 },
                 "additional": {}
             },
+            "getip": {
+                "title": "GetIP",
+                "template": "function-syntax",
+                "description": "Returns the server's IP Address.",
+                "variable": {
+                    "lua": "server:GetIP"
+                },
+                "return": {
+                    "lua": "string"
+                },
+                "params": {},
+                "additional": {}
+            },
             "getmap": {
                 "title": "GetMap",
                 "template": "function-syntax",
