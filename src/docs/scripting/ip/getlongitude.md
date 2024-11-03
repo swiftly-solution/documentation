@@ -1,12 +1,12 @@
 ---
-title: GetTimezone
+title: GetLongitude
 index: true
 order: 2
 category:
   - Guide
 ---
 
-# GetTimezone
+# GetLongitude
 Returns the longitude from which this ip originates.
 ::: tabs
 @tab Lua

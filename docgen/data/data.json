@@ -9541,7 +9541,7 @@
                 "additional": {}
             },
             "getlongitude": {
-                "title": "GetTimezone",
+                "title": "GetLongitude",
                 "template": "function-syntax",
                 "description": "Returns the longitude from which this ip originates.",
                 "variable": {
