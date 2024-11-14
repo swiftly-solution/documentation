@@ -357,6 +357,17 @@
             "CaptureSelectedBones": 1
         }
     },
+    "eikendeffectorrotationfixupmode": {
+        "title": "EIKEndEffectorRotationFixUpMode",
+        "template": "types-syntax",
+        "values": {
+            "None": 0,
+            "MatchTargetOrientation": 1,
+            "LookAtTargetForward": 2,
+            "MaintainParentOrientation": 3,
+            "Count": 4
+        }
+    },
     "facingmode": {
         "title": "FacingMode",
         "template": "types-syntax",
