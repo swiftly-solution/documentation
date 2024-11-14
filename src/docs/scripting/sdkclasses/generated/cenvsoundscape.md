@@ -26,12 +26,6 @@ Read: cenvsoundscape.OnPlay
 Read: cenvsoundscape.Radius
 Write: cenvsoundscape.Radius = value
 ```
-## SoundscapeName 
-```lua
-@type string
-Read: cenvsoundscape.SoundscapeName
-Write: cenvsoundscape.SoundscapeName = value
-```
 ## SoundEventName 
 ```lua
 @type string
@@ -56,12 +50,6 @@ Write: cenvsoundscape.SoundscapeIndex = value
 Read: cenvsoundscape.SoundscapeEntityListId
 Write: cenvsoundscape.SoundscapeEntityListId = value
 ```
-## SoundEventHash 
-```lua
-@type number
-Read: cenvsoundscape.SoundEventHash
-Write: cenvsoundscape.SoundEventHash = value
-```
 ## PositionNames 
 ```lua
 @type table
@@ -79,9 +67,21 @@ Read: cenvsoundscape.ProxySoundscape
 Read: cenvsoundscape.Disabled
 Write: cenvsoundscape.Disabled = value
 ```
+## SoundscapeName 
+```lua
+@type string
+Read: cenvsoundscape.SoundscapeName
+Write: cenvsoundscape.SoundscapeName = value
+```
+## SoundEventHash 
+```lua
+@type number
+Read: cenvsoundscape.SoundEventHash
+Write: cenvsoundscape.SoundEventHash = value
+```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyEntity
+@type CBaseEntity
 Read: cenvsoundscape.Parent
 ```
 # Functions

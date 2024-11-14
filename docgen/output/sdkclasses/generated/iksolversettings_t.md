@@ -27,6 +27,12 @@ Write: iksolversettings_t.SolverType = value
 Read: iksolversettings_t.NumIterations
 Write: iksolversettings_t.NumIterations = value
 ```
+## EndEffectorRotationFixUpMode 
+```lua
+@type number
+Read: iksolversettings_t.EndEffectorRotationFixUpMode
+Write: iksolversettings_t.EndEffectorRotationFixUpMode = value
+```
 # Functions
 ## ToPtr
 ```lua

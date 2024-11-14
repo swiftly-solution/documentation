@@ -63,6 +63,12 @@ Write: cmapinfo.HostageCount = value
 Read: cmapinfo.FadePlayerVisibilityFarZ
 Write: cmapinfo.FadePlayerVisibilityFarZ = value
 ```
+## RainTraceToSkyEnabled 
+```lua
+@type boolean
+Read: cmapinfo.RainTraceToSkyEnabled
+Write: cmapinfo.RainTraceToSkyEnabled = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CPointEntity

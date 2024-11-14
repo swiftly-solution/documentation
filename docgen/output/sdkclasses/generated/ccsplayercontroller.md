@@ -528,6 +528,12 @@ Write: ccsplayercontroller.SuspiciousHitCount = value
 Read: ccsplayercontroller.NonSuspiciousHitStreak
 Write: ccsplayercontroller.NonSuspiciousHitStreak = value
 ```
+## FireBulletsSeedSynchronized 
+```lua
+@type boolean
+Read: ccsplayercontroller.FireBulletsSeedSynchronized
+Write: ccsplayercontroller.FireBulletsSeedSynchronized = value
+```
 ## Parent (Read-Only)
 ```lua
 @type CBasePlayerController

@@ -20,12 +20,6 @@ SolveIKChainPoseOpFixedSettings_t(ptr --[[ string ]])
 @type table
 Read: solveikchainposeopfixedsettings_t.ChainsToSolveData
 ```
-## MatchTargetOrientation 
-```lua
-@type boolean
-Read: solveikchainposeopfixedsettings_t.MatchTargetOrientation
-Write: solveikchainposeopfixedsettings_t.MatchTargetOrientation = value
-```
 # Functions
 ## ToPtr
 ```lua

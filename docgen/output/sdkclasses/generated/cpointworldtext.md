@@ -27,6 +27,12 @@ Write: cpointworldtext.MessageText = value
 Read: cpointworldtext.FontName
 Write: cpointworldtext.FontName = value
 ```
+## BackgroundMaterialName 
+```lua
+@type string
+Read: cpointworldtext.BackgroundMaterialName
+Write: cpointworldtext.BackgroundMaterialName = value
+```
 ## Enabled 
 ```lua
 @type boolean
@@ -56,6 +62,30 @@ Write: cpointworldtext.FontSize = value
 @type number
 Read: cpointworldtext.DepthOffset
 Write: cpointworldtext.DepthOffset = value
+```
+## DrawBackground 
+```lua
+@type boolean
+Read: cpointworldtext.DrawBackground
+Write: cpointworldtext.DrawBackground = value
+```
+## BackgroundBorderWidth 
+```lua
+@type number
+Read: cpointworldtext.BackgroundBorderWidth
+Write: cpointworldtext.BackgroundBorderWidth = value
+```
+## BackgroundBorderHeight 
+```lua
+@type number
+Read: cpointworldtext.BackgroundBorderHeight
+Write: cpointworldtext.BackgroundBorderHeight = value
+```
+## BackgroundWorldToUV 
+```lua
+@type number
+Read: cpointworldtext.BackgroundWorldToUV
+Write: cpointworldtext.BackgroundWorldToUV = value
 ```
 ## Color 
 ```lua

@@ -21710,6 +21710,10 @@
                             "NumIterations": {
                                 "type": "number",
                                 "writable": true
+                            },
+                            "EndEffectorRotationFixUpMode": {
+                                "type": "number",
+                                "writable": true
                             }
                         },
                         "functions": {
@@ -22246,10 +22250,6 @@
                             "ChainsToSolveData": {
                                 "type": "table",
                                 "writable": false
-                            },
-                            "MatchTargetOrientation": {
-                                "type": "boolean",
-                                "writable": true
                             }
                         },
                         "functions": {
@@ -26079,6 +26079,10 @@
                                 "type": "number",
                                 "writable": true
                             },
+                            "FireBulletsSeedSynchronized": {
+                                "type": "boolean",
+                                "writable": true
+                            },
                             "Parent": {
                                 "type": "CBasePlayerController",
                                 "writable": false
@@ -26163,10 +26167,6 @@
                             "ptr": "string"
                         },
                         "properties": {
-                            "DamageListServer": {
-                                "type": "table",
-                                "writable": false
-                            },
                             "SendUpdate": {
                                 "type": "number",
                                 "writable": true
@@ -28515,6 +28515,246 @@
                         },
                         "additional": {}
                     },
+                    "cenvsoundscape": {
+                        "title": "CEnvSoundscape",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "OnPlay": {
+                                "type": "CEntityIOOutput",
+                                "writable": false
+                            },
+                            "Radius": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "SoundEventName": {
+                                "type": "string",
+                                "writable": true
+                            },
+                            "OverrideWithEvent": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "SoundscapeIndex": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "SoundscapeEntityListId": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "PositionNames": {
+                                "type": "table",
+                                "writable": true
+                            },
+                            "ProxySoundscape": {
+                                "type": "CEnvSoundscape",
+                                "writable": false
+                            },
+                            "Disabled": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "SoundscapeName": {
+                                "type": "string",
+                                "writable": true
+                            },
+                            "SoundEventHash": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "Parent": {
+                                "type": "CBaseEntity",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cenvsoundscapealias_snd_soundscape": {
+                        "title": "CEnvSoundscapeAlias_snd_soundscape",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Parent": {
+                                "type": "CEnvSoundscape",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cenvsoundscapeproxy": {
+                        "title": "CEnvSoundscapeProxy",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "MainSoundscapeName": {
+                                "type": "string",
+                                "writable": true
+                            },
+                            "Parent": {
+                                "type": "CEnvSoundscape",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cenvsoundscapeproxyalias_snd_soundscape_proxy": {
+                        "title": "CEnvSoundscapeProxyAlias_snd_soundscape_proxy",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Parent": {
+                                "type": "CEnvSoundscapeProxy",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cenvsoundscapetriggerable": {
+                        "title": "CEnvSoundscapeTriggerable",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Parent": {
+                                "type": "CEnvSoundscape",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cenvsoundscapetriggerablealias_snd_soundscape_triggerable": {
+                        "title": "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "Parent": {
+                                "type": "CEnvSoundscapeTriggerable",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
                     "cfireoverlay": {
                         "title": "CFireOverlay",
                         "description": "",
@@ -30169,6 +30409,74 @@
                         "properties": {
                             "Parent": {
                                 "type": "CServerOnlyEntity",
+                                "writable": false
+                            }
+                        },
+                        "functions": {
+                            "ToPtr": {
+                                "return": {
+                                    "lua": "string"
+                                },
+                                "params": {}
+                            },
+                            "IsValid": {
+                                "return": {
+                                    "lua": "bool"
+                                },
+                                "params": {}
+                            }
+                        },
+                        "additional": {}
+                    },
+                    "cmapinfo": {
+                        "title": "CMapInfo",
+                        "description": "",
+                        "template": "class-syntax",
+                        "languages": [
+                            "lua"
+                        ],
+                        "constructor": {
+                            "ptr": "string"
+                        },
+                        "properties": {
+                            "BuyingStatus": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "BombRadius": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "PetPopulation": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "UseNormalSpawnsForDM": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "DisableAutoGeneratedDMSpawns": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "BotMaxVisionDistance": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "HostageCount": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "FadePlayerVisibilityFarZ": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "RainTraceToSkyEnabled": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "Parent": {
+                                "type": "CPointEntity",
                                 "writable": false
                             }
                         },
@@ -62862,246 +63170,6 @@
                         },
                         "additional": {}
                     },
-                    "cenvsoundscape": {
-                        "title": "CEnvSoundscape",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "OnPlay": {
-                                "type": "CEntityIOOutput",
-                                "writable": false
-                            },
-                            "Radius": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "SoundscapeName": {
-                                "type": "string",
-                                "writable": true
-                            },
-                            "SoundEventName": {
-                                "type": "string",
-                                "writable": true
-                            },
-                            "OverrideWithEvent": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "SoundscapeIndex": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "SoundscapeEntityListId": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "SoundEventHash": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "PositionNames": {
-                                "type": "table",
-                                "writable": true
-                            },
-                            "ProxySoundscape": {
-                                "type": "CEnvSoundscape",
-                                "writable": false
-                            },
-                            "Disabled": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "Parent": {
-                                "type": "CServerOnlyEntity",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
-                    "cenvsoundscapealias_snd_soundscape": {
-                        "title": "CEnvSoundscapeAlias_snd_soundscape",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "Parent": {
-                                "type": "CEnvSoundscape",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
-                    "cenvsoundscapeproxy": {
-                        "title": "CEnvSoundscapeProxy",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "MainSoundscapeName": {
-                                "type": "string",
-                                "writable": true
-                            },
-                            "Parent": {
-                                "type": "CEnvSoundscape",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
-                    "cenvsoundscapeproxyalias_snd_soundscape_proxy": {
-                        "title": "CEnvSoundscapeProxyAlias_snd_soundscape_proxy",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "Parent": {
-                                "type": "CEnvSoundscapeProxy",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
-                    "cenvsoundscapetriggerable": {
-                        "title": "CEnvSoundscapeTriggerable",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "Parent": {
-                                "type": "CEnvSoundscape",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
-                    "cenvsoundscapetriggerablealias_snd_soundscape_triggerable": {
-                        "title": "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "Parent": {
-                                "type": "CEnvSoundscapeTriggerable",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
                     "cenvspark": {
                         "title": "CEnvSpark",
                         "description": "",
@@ -70689,70 +70757,6 @@
                         },
                         "additional": {}
                     },
-                    "cmapinfo": {
-                        "title": "CMapInfo",
-                        "description": "",
-                        "template": "class-syntax",
-                        "languages": [
-                            "lua"
-                        ],
-                        "constructor": {
-                            "ptr": "string"
-                        },
-                        "properties": {
-                            "BuyingStatus": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "BombRadius": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "PetPopulation": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "UseNormalSpawnsForDM": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "DisableAutoGeneratedDMSpawns": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "BotMaxVisionDistance": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "HostageCount": {
-                                "type": "number",
-                                "writable": true
-                            },
-                            "FadePlayerVisibilityFarZ": {
-                                "type": "boolean",
-                                "writable": true
-                            },
-                            "Parent": {
-                                "type": "CPointEntity",
-                                "writable": false
-                            }
-                        },
-                        "functions": {
-                            "ToPtr": {
-                                "return": {
-                                    "lua": "string"
-                                },
-                                "params": {}
-                            },
-                            "IsValid": {
-                                "return": {
-                                    "lua": "bool"
-                                },
-                                "params": {}
-                            }
-                        },
-                        "additional": {}
-                    },
                     "cmapvetopickcontroller": {
                         "title": "CMapVetoPickController",
                         "description": "",
@@ -75984,6 +75988,10 @@
                                 "type": "string",
                                 "writable": true
                             },
+                            "BackgroundMaterialName": {
+                                "type": "string",
+                                "writable": true
+                            },
                             "Enabled": {
                                 "type": "boolean",
                                 "writable": true
@@ -76001,6 +76009,22 @@
                                 "writable": true
                             },
                             "DepthOffset": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "DrawBackground": {
+                                "type": "boolean",
+                                "writable": true
+                            },
+                            "BackgroundBorderWidth": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "BackgroundBorderHeight": {
+                                "type": "number",
+                                "writable": true
+                            },
+                            "BackgroundWorldToUV": {
                                 "type": "number",
                                 "writable": true
                             },
@@ -89632,6 +89656,17 @@
                         "values": {
                             "CaptureAllBones": 0,
                             "CaptureSelectedBones": 1
+                        }
+                    },
+                    "eikendeffectorrotationfixupmode": {
+                        "title": "EIKEndEffectorRotationFixUpMode",
+                        "template": "types-syntax",
+                        "values": {
+                            "None": 0,
+                            "MatchTargetOrientation": 1,
+                            "LookAtTargetForward": 2,
+                            "MaintainParentOrientation": 3,
+                            "Count": 4
                         }
                     },
                     "facingmode": {
