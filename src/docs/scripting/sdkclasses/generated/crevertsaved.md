@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRevertSaved(ptr --[[ string ]])
+CRevertSaved(ptr)
 ```
 # Properties
 ## LoadTime 
 ```lua
-@type number
+--- @type number
 Read: crevertsaved.LoadTime
 Write: crevertsaved.LoadTime = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: crevertsaved.Duration
 Write: crevertsaved.Duration = value
 ```
 ## HoldTime 
 ```lua
-@type number
+--- @type number
 Read: crevertsaved.HoldTime
 Write: crevertsaved.HoldTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelPointEntity
+--- @type CModelPointEntity
 Read: crevertsaved.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavLinkMovementVData(ptr --[[ string ]])
+CNavLinkMovementVData(ptr)
 ```
 # Properties
 ## IsInterpolated 
 ```lua
-@type boolean
+--- @type boolean
 Read: cnavlinkmovementvdata.IsInterpolated
 Write: cnavlinkmovementvdata.IsInterpolated = value
 ```
 ## RecommendedDistance 
 ```lua
-@type number
+--- @type number
 Read: cnavlinkmovementvdata.RecommendedDistance
 Write: cnavlinkmovementvdata.RecommendedDistance = value
 ```
 ## AnimgraphVars (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnavlinkmovementvdata.AnimgraphVars
 ```
 # Functions

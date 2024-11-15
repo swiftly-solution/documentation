@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FakeEntityDerivedA_tAPI(ptr --[[ string ]])
+FakeEntityDerivedA_tAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

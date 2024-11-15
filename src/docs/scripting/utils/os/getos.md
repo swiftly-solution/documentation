@@ -11,7 +11,7 @@ Returns the current OS.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 GetOS()
 ```
 

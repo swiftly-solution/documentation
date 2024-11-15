@@ -11,8 +11,9 @@ Decodes a JSON string into a table.
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-json.decode(str --[[ string ]])
+--- @param str string
+--- @return table
+json.decode(str)
 ```
 
 :::

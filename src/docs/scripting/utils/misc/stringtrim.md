@@ -11,8 +11,9 @@ Trims a string.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-string.trim(str --[[ string ]])
+--- @param str string
+--- @return string
+string.trim(str)
 ```
 
 :::

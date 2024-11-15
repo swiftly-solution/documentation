@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerGranulator(ptr --[[ string ]])
+CVoiceContainerGranulator(ptr)
 ```
 # Properties
 ## GrainLength 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainergranulator.GrainLength
 Write: cvoicecontainergranulator.GrainLength = value
 ```
 ## GrainCrossfadeAmount 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainergranulator.GrainCrossfadeAmount
 Write: cvoicecontainergranulator.GrainCrossfadeAmount = value
 ```
 ## StartJitter 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainergranulator.StartJitter
 Write: cvoicecontainergranulator.StartJitter = value
 ```
 ## PlaybackJitter 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainergranulator.PlaybackJitter
 Write: cvoicecontainergranulator.PlaybackJitter = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainergranulator.Parent
 ```
 # Functions

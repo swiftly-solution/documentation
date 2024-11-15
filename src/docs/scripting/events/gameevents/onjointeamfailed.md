@@ -11,8 +11,9 @@ This event is triggered when jointeam_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnJointeamFailed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnJointeamFailed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

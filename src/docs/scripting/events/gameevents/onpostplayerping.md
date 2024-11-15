@@ -11,8 +11,9 @@ This event is triggered after player_ping is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerPing", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerPing", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

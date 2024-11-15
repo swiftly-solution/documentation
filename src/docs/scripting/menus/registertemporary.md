@@ -11,8 +11,12 @@ Registers a temporary menu by a specific ID.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-menus:RegisterTemporary(id --[[ string ]], title --[[ string ]], color --[[ string ]], options --[[ table ]])
+--- @param id string
+--- @param title string
+--- @param color string
+--- @param options table
+--- @return nil
+menus:RegisterTemporary(id, title, color, options)
 ```
 > [!info]
 > The color needs to be a hex string by the model RRGGBB.

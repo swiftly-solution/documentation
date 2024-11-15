@@ -11,8 +11,9 @@ This event is triggered after player_connect is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerConnect", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerConnect", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

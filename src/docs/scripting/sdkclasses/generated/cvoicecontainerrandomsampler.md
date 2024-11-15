@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerRandomSampler(ptr --[[ string ]])
+CVoiceContainerRandomSampler(ptr)
 ```
 # Properties
 ## Amplitude 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrandomsampler.Amplitude
 Write: cvoicecontainerrandomsampler.Amplitude = value
 ```
 ## AmplitudeJitter 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrandomsampler.AmplitudeJitter
 Write: cvoicecontainerrandomsampler.AmplitudeJitter = value
 ```
 ## TimeJitter 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrandomsampler.TimeJitter
 Write: cvoicecontainerrandomsampler.TimeJitter = value
 ```
 ## MaxLength 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrandomsampler.MaxLength
 Write: cvoicecontainerrandomsampler.MaxLength = value
 ```
 ## NumDelayVariations 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrandomsampler.NumDelayVariations
 Write: cvoicecontainerrandomsampler.NumDelayVariations = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerrandomsampler.Parent
 ```
 # Functions

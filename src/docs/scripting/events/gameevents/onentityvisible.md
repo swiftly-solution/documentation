@@ -11,8 +11,9 @@ This event is triggered when entity_visible is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEntityVisible", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEntityVisible", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

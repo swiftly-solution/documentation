@@ -11,8 +11,9 @@ This event is triggered after endmatch_mapvote_selecting_map is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostEndmatchMapvoteSelectingMap", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostEndmatchMapvoteSelectingMap", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

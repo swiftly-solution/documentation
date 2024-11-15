@@ -11,8 +11,9 @@ This event is triggered after ammo_refill is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostAmmoRefill", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostAmmoRefill", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

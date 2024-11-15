@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PointDefinition_t(ptr --[[ string ]])
+PointDefinition_t(ptr)
 ```
 # Properties
 ## ControlPoint 
 ```lua
-@type number
+--- @type number
 Read: pointdefinition_t.ControlPoint
 Write: pointdefinition_t.ControlPoint = value
 ```
 ## LocalCoords 
 ```lua
-@type boolean
+--- @type boolean
 Read: pointdefinition_t.LocalCoords
 Write: pointdefinition_t.LocalCoords = value
 ```
 ## Offset 
 ```lua
-@type Vector
+--- @type Vector
 Read: pointdefinition_t.Offset
 Write: pointdefinition_t.Offset = value
 ```

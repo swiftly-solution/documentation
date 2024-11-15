@@ -11,8 +11,9 @@ This event is triggered after defuser_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDefuserPickup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDefuserPickup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

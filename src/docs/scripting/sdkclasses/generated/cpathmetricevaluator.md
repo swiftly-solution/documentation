@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathMetricEvaluator(ptr --[[ string ]])
+CPathMetricEvaluator(ptr)
 ```
 # Properties
 ## PathTimeSamples (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cpathmetricevaluator.PathTimeSamples
 ```
 ## Distance 
 ```lua
-@type number
+--- @type number
 Read: cpathmetricevaluator.Distance
 Write: cpathmetricevaluator.Distance = value
 ```
 ## ExtrapolateMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpathmetricevaluator.ExtrapolateMovement
 Write: cpathmetricevaluator.ExtrapolateMovement = value
 ```
 ## MinExtrapolationSpeed 
 ```lua
-@type number
+--- @type number
 Read: cpathmetricevaluator.MinExtrapolationSpeed
 Write: cpathmetricevaluator.MinExtrapolationSpeed = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cpathmetricevaluator.Parent
 ```
 # Functions

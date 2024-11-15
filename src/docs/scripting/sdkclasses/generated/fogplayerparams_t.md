@@ -12,89 +12,89 @@ category:
 @tab Lua
 # Constructor
 ```lua
-fogplayerparams_t(ptr --[[ string ]])
+fogplayerparams_t(ptr)
 ```
 # Properties
 ## Ctrl (Read-Only)
 ```lua
-@type CFogController
+--- @type CFogController
 Read: fogplayerparams_t.Ctrl
 ```
 ## TransitionTime 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.TransitionTime
 Write: fogplayerparams_t.TransitionTime = value
 ```
 ## OldColor 
 ```lua
-@type Color
+--- @type Color
 Read: fogplayerparams_t.OldColor
 Write: fogplayerparams_t.OldColor = value
 ```
 ## OldStart 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.OldStart
 Write: fogplayerparams_t.OldStart = value
 ```
 ## OldEnd 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.OldEnd
 Write: fogplayerparams_t.OldEnd = value
 ```
 ## OldMaxDensity 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.OldMaxDensity
 Write: fogplayerparams_t.OldMaxDensity = value
 ```
 ## OldHDRColorScale 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.OldHDRColorScale
 Write: fogplayerparams_t.OldHDRColorScale = value
 ```
 ## OldFarZ 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.OldFarZ
 Write: fogplayerparams_t.OldFarZ = value
 ```
 ## NewColor 
 ```lua
-@type Color
+--- @type Color
 Read: fogplayerparams_t.NewColor
 Write: fogplayerparams_t.NewColor = value
 ```
 ## NewStart 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.NewStart
 Write: fogplayerparams_t.NewStart = value
 ```
 ## NewEnd 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.NewEnd
 Write: fogplayerparams_t.NewEnd = value
 ```
 ## NewMaxDensity 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.NewMaxDensity
 Write: fogplayerparams_t.NewMaxDensity = value
 ```
 ## NewHDRColorScale 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.NewHDRColorScale
 Write: fogplayerparams_t.NewHDRColorScale = value
 ```
 ## NewFarZ 
 ```lua
-@type number
+--- @type number
 Read: fogplayerparams_t.NewFarZ
 Write: fogplayerparams_t.NewFarZ = value
 ```

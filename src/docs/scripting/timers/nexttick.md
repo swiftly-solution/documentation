@@ -11,8 +11,9 @@ Executes the callback the next tick.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-NextTick(callback --[[ function ]])
+--- @param callback function
+--- @return nil
+NextTick(callback)
 ```
 
 :::

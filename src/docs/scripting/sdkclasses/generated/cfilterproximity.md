@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFilterProximity(ptr --[[ string ]])
+CFilterProximity(ptr)
 ```
 # Properties
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cfilterproximity.Radius
 Write: cfilterproximity.Radius = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cfilterproximity.Parent
 ```
 # Functions

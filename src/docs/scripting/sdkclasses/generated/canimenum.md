@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimEnum(ptr --[[ string ]])
+CAnimEnum(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: canimenum.Value
 Write: canimenum.Value = value
 ```

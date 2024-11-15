@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IEconItemInterface(ptr --[[ string ]])
+IEconItemInterface(ptr)
 ```
 # Properties
 There are no properties available for this class.

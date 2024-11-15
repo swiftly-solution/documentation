@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvViewPunch(ptr --[[ string ]])
+CEnvViewPunch(ptr)
 ```
 # Properties
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cenvviewpunch.Radius
 Write: cenvviewpunch.Radius = value
 ```
 ## ViewPunch 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cenvviewpunch.ViewPunch
 Write: cenvviewpunch.ViewPunch = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvviewpunch.Parent
 ```
 # Functions

@@ -11,7 +11,7 @@ Returns the SteamID64 of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 player:GetSteamID()
 ```
 

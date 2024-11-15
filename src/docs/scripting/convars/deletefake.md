@@ -11,8 +11,9 @@ Deletes a fake convar.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-convar:DeleteFake(name --[[ string ]])
+--- @param name string
+--- @return nil
+convar:DeleteFake(name)
 ```
 
 :::

@@ -11,8 +11,10 @@ Sets the convar value of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetConvar(convar --[[ string ]], value --[[ string ]])
+--- @param convar string
+--- @param value string
+--- @return nil
+player:SetConvar(convar, value)
 ```
 
 :::

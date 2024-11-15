@@ -11,8 +11,9 @@ Set the boolean value to the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:SetBool(value --[[ boolean ]])
+--- @param value boolean
+--- @return nil
+memory:SetBool(value)
 ```
 
 :::

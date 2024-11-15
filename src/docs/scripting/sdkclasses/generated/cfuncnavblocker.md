@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncNavBlocker(ptr --[[ string ]])
+CFuncNavBlocker(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncnavblocker.Disabled
 Write: cfuncnavblocker.Disabled = value
 ```
 ## BlockedTeamNumber 
 ```lua
-@type number
+--- @type number
 Read: cfuncnavblocker.BlockedTeamNumber
 Write: cfuncnavblocker.BlockedTeamNumber = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncnavblocker.Parent
 ```
 # Functions

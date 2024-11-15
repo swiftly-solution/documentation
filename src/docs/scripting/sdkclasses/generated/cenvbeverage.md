@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvBeverage(ptr --[[ string ]])
+CEnvBeverage(ptr)
 ```
 # Properties
 ## CanInDispenser 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvbeverage.CanInDispenser
 Write: cenvbeverage.CanInDispenser = value
 ```
 ## BeverageType 
 ```lua
-@type number
+--- @type number
 Read: cenvbeverage.BeverageType
 Write: cenvbeverage.BeverageType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvbeverage.Parent
 ```
 # Functions

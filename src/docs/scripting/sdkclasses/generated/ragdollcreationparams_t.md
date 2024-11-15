@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RagdollCreationParams_t(ptr --[[ string ]])
+RagdollCreationParams_t(ptr)
 ```
 # Properties
 ## Force 
 ```lua
-@type Vector
+--- @type Vector
 Read: ragdollcreationparams_t.Force
 Write: ragdollcreationparams_t.Force = value
 ```
 ## ForceBone 
 ```lua
-@type number
+--- @type number
 Read: ragdollcreationparams_t.ForceBone
 Write: ragdollcreationparams_t.ForceBone = value
 ```
 ## ForceCurrentWorldTransform 
 ```lua
-@type boolean
+--- @type boolean
 Read: ragdollcreationparams_t.ForceCurrentWorldTransform
 Write: ragdollcreationparams_t.ForceCurrentWorldTransform = value
 ```
 ## HealthToGrant 
 ```lua
-@type number
+--- @type number
 Read: ragdollcreationparams_t.HealthToGrant
 Write: ragdollcreationparams_t.HealthToGrant = value
 ```

@@ -11,8 +11,10 @@ Set the string value to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetString(key --[[ string ]], value --[[ string ]])
+--- @param key string
+--- @param value string
+--- @return nil
+event:SetString(key, value)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after warmup_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostWarmupEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostWarmupEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

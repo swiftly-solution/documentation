@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlace(ptr --[[ string ]])
+CCSPlace(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: ccsplace.Name
 Write: ccsplace.Name = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyModelEntity
+--- @type CServerOnlyModelEntity
 Read: ccsplace.Parent
 ```
 # Functions

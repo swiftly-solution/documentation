@@ -11,8 +11,10 @@ Set the string value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookString(index --[[ number ]], value --[[ string ]])
+--- @param index number
+--- @param value string
+--- @return nil
+event:SetHookString(index, value)
 ```
 
 :::

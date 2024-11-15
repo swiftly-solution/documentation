@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicalEntity(ptr --[[ string ]])
+CLogicalEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyEntity
+--- @type CServerOnlyEntity
 Read: clogicalentity.Parent
 ```
 # Functions

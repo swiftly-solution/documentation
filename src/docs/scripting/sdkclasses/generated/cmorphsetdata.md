@@ -12,44 +12,44 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMorphSetData(ptr --[[ string ]])
+CMorphSetData(ptr)
 ```
 # Properties
 ## Width 
 ```lua
-@type number
+--- @type number
 Read: cmorphsetdata.Width
 Write: cmorphsetdata.Width = value
 ```
 ## Height 
 ```lua
-@type number
+--- @type number
 Read: cmorphsetdata.Height
 Write: cmorphsetdata.Height = value
 ```
 ## BundleTypes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphsetdata.BundleTypes
 ```
 ## MorphDatas (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphsetdata.MorphDatas
 ```
 ## FlexDesc (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphsetdata.FlexDesc
 ```
 ## FlexControllers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphsetdata.FlexControllers
 ```
 ## FlexRules (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphsetdata.FlexRules
 ```
 # Functions

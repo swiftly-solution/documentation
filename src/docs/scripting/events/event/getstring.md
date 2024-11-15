@@ -11,8 +11,9 @@ Returns the string value of a key from a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-event:GetString(key --[[ string ]])
+--- @param key string
+--- @return string
+event:GetString(key)
 ```
 
 :::

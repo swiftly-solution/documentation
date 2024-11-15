@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerTeleport(ptr --[[ string ]])
+CTriggerTeleport(ptr)
 ```
 # Properties
 ## Landmark 
 ```lua
-@type string
+--- @type string
 Read: ctriggerteleport.Landmark
 Write: ctriggerteleport.Landmark = value
 ```
 ## UseLandmarkAngles 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerteleport.UseLandmarkAngles
 Write: ctriggerteleport.UseLandmarkAngles = value
 ```
 ## MirrorPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerteleport.MirrorPlayer
 Write: ctriggerteleport.MirrorPlayer = value
 ```
 ## CheckDestIfClearForPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerteleport.CheckDestIfClearForPlayer
 Write: ctriggerteleport.CheckDestIfClearForPlayer = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerteleport.Parent
 ```
 # Functions

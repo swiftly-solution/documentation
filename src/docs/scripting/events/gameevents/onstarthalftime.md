@@ -11,8 +11,9 @@ This event is triggered when start_halftime is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnStartHalftime", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnStartHalftime", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,165 +12,165 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CChicken(ptr --[[ string ]])
+CChicken(ptr)
 ```
 # Properties
 ## AttributeManager (Read-Only)
 ```lua
-@type CAttributeContainer
+--- @type CAttributeContainer
 Read: cchicken.AttributeManager
 ```
 ## UpdateTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.UpdateTimer
 ```
 ## StuckAnchor 
 ```lua
-@type Vector
+--- @type Vector
 Read: cchicken.StuckAnchor
 Write: cchicken.StuckAnchor = value
 ```
 ## StuckTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.StuckTimer
 ```
 ## CollisionStuckTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.CollisionStuckTimer
 ```
 ## IsOnGround 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchicken.IsOnGround
 Write: cchicken.IsOnGround = value
 ```
 ## FallVelocity 
 ```lua
-@type Vector
+--- @type Vector
 Read: cchicken.FallVelocity
 Write: cchicken.FallVelocity = value
 ```
 ## DesiredActivity 
 ```lua
-@type number
+--- @type number
 Read: cchicken.DesiredActivity
 Write: cchicken.DesiredActivity = value
 ```
 ## CurrentActivity 
 ```lua
-@type number
+--- @type number
 Read: cchicken.CurrentActivity
 Write: cchicken.CurrentActivity = value
 ```
 ## ActivityTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.ActivityTimer
 ```
 ## TurnRate 
 ```lua
-@type number
+--- @type number
 Read: cchicken.TurnRate
 Write: cchicken.TurnRate = value
 ```
 ## FleeFrom (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cchicken.FleeFrom
 ```
 ## MoveRateThrottleTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.MoveRateThrottleTimer
 ```
 ## StartleTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.StartleTimer
 ```
 ## VocalizeTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.VocalizeTimer
 ```
 ## WhenZombified 
 ```lua
-@type number
+--- @type number
 Read: cchicken.WhenZombified
 Write: cchicken.WhenZombified = value
 ```
 ## JumpedThisFrame 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchicken.JumpedThisFrame
 Write: cchicken.JumpedThisFrame = value
 ```
 ## Leader (Read-Only)
 ```lua
-@type CCSPlayerPawn
+--- @type CCSPlayerPawn
 Read: cchicken.Leader
 ```
 ## ReuseTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.ReuseTimer
 ```
 ## HasBeenUsed 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchicken.HasBeenUsed
 Write: cchicken.HasBeenUsed = value
 ```
 ## JumpTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.JumpTimer
 ```
 ## LastJumpTime 
 ```lua
-@type number
+--- @type number
 Read: cchicken.LastJumpTime
 Write: cchicken.LastJumpTime = value
 ```
 ## InJump 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchicken.InJump
 Write: cchicken.InJump = value
 ```
 ## RepathTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.RepathTimer
 ```
 ## PathGoal 
 ```lua
-@type Vector
+--- @type Vector
 Read: cchicken.PathGoal
 Write: cchicken.PathGoal = value
 ```
 ## ActiveFollowStartTime 
 ```lua
-@type number
+--- @type number
 Read: cchicken.ActiveFollowStartTime
 Write: cchicken.ActiveFollowStartTime = value
 ```
 ## FollowMinuteTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.FollowMinuteTimer
 ```
 ## BlockDirectionTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cchicken.BlockDirectionTimer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CDynamicProp
+--- @type CDynamicProp
 Read: cchicken.Parent
 ```
 # Functions

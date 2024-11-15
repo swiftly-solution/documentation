@@ -12,53 +12,53 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointPush(ptr --[[ string ]])
+CPointPush(ptr)
 ```
 # Properties
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointpush.Enabled
 Write: cpointpush.Enabled = value
 ```
 ## Magnitude 
 ```lua
-@type number
+--- @type number
 Read: cpointpush.Magnitude
 Write: cpointpush.Magnitude = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cpointpush.Radius
 Write: cpointpush.Radius = value
 ```
 ## InnerRadius 
 ```lua
-@type number
+--- @type number
 Read: cpointpush.InnerRadius
 Write: cpointpush.InnerRadius = value
 ```
 ## ConeOfInfluence 
 ```lua
-@type number
+--- @type number
 Read: cpointpush.ConeOfInfluence
 Write: cpointpush.ConeOfInfluence = value
 ```
 ## FilterName 
 ```lua
-@type string
+--- @type string
 Read: cpointpush.FilterName
 Write: cpointpush.FilterName = value
 ```
 ## Filter (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cpointpush.Filter
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointpush.Parent
 ```
 # Functions

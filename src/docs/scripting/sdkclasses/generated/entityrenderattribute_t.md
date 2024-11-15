@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EntityRenderAttribute_t(ptr --[[ string ]])
+EntityRenderAttribute_t(ptr)
 ```
 # Properties
 ## ID 
 ```lua
-@type number
+--- @type number
 Read: entityrenderattribute_t.ID
 Write: entityrenderattribute_t.ID = value
 ```
 ## Values 
 ```lua
-@type Vector4D
+--- @type Vector4D
 Read: entityrenderattribute_t.Values
 Write: entityrenderattribute_t.Values = value
 ```

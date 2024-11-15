@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDampedValueComponentUpdater(ptr --[[ string ]])
+CDampedValueComponentUpdater(ptr)
 ```
 # Properties
 ## Items (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdampedvaluecomponentupdater.Items
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: cdampedvaluecomponentupdater.Parent
 ```
 # Functions

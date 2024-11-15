@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWeaponGlock(ptr --[[ string ]])
+CWeaponGlock(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cweaponglock.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CExampleSchemaVData_Monomorphic(ptr --[[ string ]])
+CExampleSchemaVData_Monomorphic(ptr)
 ```
 # Properties
 ## Example1 
 ```lua
-@type number
+--- @type number
 Read: cexampleschemavdata_monomorphic.Example1
 Write: cexampleschemavdata_monomorphic.Example1 = value
 ```
 ## Example2 
 ```lua
-@type number
+--- @type number
 Read: cexampleschemavdata_monomorphic.Example2
 Write: cexampleschemavdata_monomorphic.Example2 = value
 ```

@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqPoseSetting(ptr --[[ string ]])
+CSeqPoseSetting(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: cseqposesetting.Value
 Write: cseqposesetting.Value = value
 ```
 ## X 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqposesetting.X
 Write: cseqposesetting.X = value
 ```
 ## Y 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqposesetting.Y
 Write: cseqposesetting.Y = value
 ```
 ## Z 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqposesetting.Z
 Write: cseqposesetting.Z = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: cseqposesetting.Type
 Write: cseqposesetting.Type = value
 ```

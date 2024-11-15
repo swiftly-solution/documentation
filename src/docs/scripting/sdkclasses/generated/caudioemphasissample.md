@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAudioEmphasisSample(ptr --[[ string ]])
+CAudioEmphasisSample(ptr)
 ```
 # Properties
 ## Time 
 ```lua
-@type number
+--- @type number
 Read: caudioemphasissample.Time
 Write: caudioemphasissample.Time = value
 ```
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: caudioemphasissample.Value
 Write: caudioemphasissample.Value = value
 ```

@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerActiveWeaponDetect(ptr --[[ string ]])
+CTriggerActiveWeaponDetect(ptr)
 ```
 # Properties
 ## OnTouchedActiveWeapon (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggeractiveweapondetect.OnTouchedActiveWeapon
 ```
 ## WeaponClassName 
 ```lua
-@type string
+--- @type string
 Read: ctriggeractiveweapondetect.WeaponClassName
 Write: ctriggeractiveweapondetect.WeaponClassName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggeractiveweapondetect.Parent
 ```
 # Functions

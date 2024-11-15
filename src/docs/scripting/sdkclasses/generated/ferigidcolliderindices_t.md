@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeRigidColliderIndices_t(ptr --[[ string ]])
+FeRigidColliderIndices_t(ptr)
 ```
 # Properties
 ## TaperedCapsuleRigidIndex 
 ```lua
-@type number
+--- @type number
 Read: ferigidcolliderindices_t.TaperedCapsuleRigidIndex
 Write: ferigidcolliderindices_t.TaperedCapsuleRigidIndex = value
 ```
 ## SphereRigidIndex 
 ```lua
-@type number
+--- @type number
 Read: ferigidcolliderindices_t.SphereRigidIndex
 Write: ferigidcolliderindices_t.SphereRigidIndex = value
 ```
 ## BoxRigidIndex 
 ```lua
-@type number
+--- @type number
 Read: ferigidcolliderindices_t.BoxRigidIndex
 Write: ferigidcolliderindices_t.BoxRigidIndex = value
 ```
 ## SDFRigidIndex 
 ```lua
-@type number
+--- @type number
 Read: ferigidcolliderindices_t.SDFRigidIndex
 Write: ferigidcolliderindices_t.SDFRigidIndex = value
 ```
 ## CollisionPlaneIndex 
 ```lua
-@type number
+--- @type number
 Read: ferigidcolliderindices_t.CollisionPlaneIndex
 Write: ferigidcolliderindices_t.CollisionPlaneIndex = value
 ```

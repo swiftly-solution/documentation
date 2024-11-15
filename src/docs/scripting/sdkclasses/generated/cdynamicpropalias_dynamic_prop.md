@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDynamicPropAlias_dynamic_prop(ptr --[[ string ]])
+CDynamicPropAlias_dynamic_prop(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CDynamicProp
+--- @type CDynamicProp
 Read: cdynamicpropalias_dynamic_prop.Parent
 ```
 # Functions

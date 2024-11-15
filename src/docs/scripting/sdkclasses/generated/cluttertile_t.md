@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ClutterTile_t(ptr --[[ string ]])
+ClutterTile_t(ptr)
 ```
 # Properties
 ## FirstInstance 
 ```lua
-@type number
+--- @type number
 Read: cluttertile_t.FirstInstance
 Write: cluttertile_t.FirstInstance = value
 ```
 ## LastInstance 
 ```lua
-@type number
+--- @type number
 Read: cluttertile_t.LastInstance
 Write: cluttertile_t.LastInstance = value
 ```
 ## BoundsWs (Read-Only)
 ```lua
-@type AABB_t
+--- @type AABB_t
 Read: cluttertile_t.BoundsWs
 ```
 # Functions

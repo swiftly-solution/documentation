@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FilterTeam(ptr --[[ string ]])
+FilterTeam(ptr)
 ```
 # Properties
 ## FilterTeam 
 ```lua
-@type number
+--- @type number
 Read: filterteam.FilterTeam
 Write: filterteam.FilterTeam = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: filterteam.Parent
 ```
 # Functions

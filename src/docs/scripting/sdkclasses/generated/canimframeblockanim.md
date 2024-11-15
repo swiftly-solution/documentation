@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimFrameBlockAnim(ptr --[[ string ]])
+CAnimFrameBlockAnim(ptr)
 ```
 # Properties
 ## StartFrame 
 ```lua
-@type number
+--- @type number
 Read: canimframeblockanim.StartFrame
 Write: canimframeblockanim.StartFrame = value
 ```
 ## EndFrame 
 ```lua
-@type number
+--- @type number
 Read: canimframeblockanim.EndFrame
 Write: canimframeblockanim.EndFrame = value
 ```
 ## SegmentIndexArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimframeblockanim.SegmentIndexArray
 ```
 # Functions

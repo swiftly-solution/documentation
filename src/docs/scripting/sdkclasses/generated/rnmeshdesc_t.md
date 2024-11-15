@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnMeshDesc_t(ptr --[[ string ]])
+RnMeshDesc_t(ptr)
 ```
 # Properties
 ## Mesh (Read-Only)
 ```lua
-@type RnMesh_t
+--- @type RnMesh_t
 Read: rnmeshdesc_t.Mesh
 ```
 ## Parent (Read-Only)
 ```lua
-@type RnShapeDesc_t
+--- @type RnShapeDesc_t
 Read: rnmeshdesc_t.Parent
 ```
 # Functions

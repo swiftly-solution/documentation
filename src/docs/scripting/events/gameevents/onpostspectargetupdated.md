@@ -11,8 +11,9 @@ This event is triggered after spec_target_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSpecTargetUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSpecTargetUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

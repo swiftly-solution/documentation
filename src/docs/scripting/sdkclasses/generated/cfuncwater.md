@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncWater(ptr --[[ string ]])
+CFuncWater(ptr)
 ```
 # Properties
 ## BuoyancyHelper (Read-Only)
 ```lua
-@type CBuoyancyHelper
+--- @type CBuoyancyHelper
 Read: cfuncwater.BuoyancyHelper
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncwater.Parent
 ```
 # Functions

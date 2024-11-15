@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-NmSyncTrackTimeRange_t(ptr --[[ string ]])
+NmSyncTrackTimeRange_t(ptr)
 ```
 # Properties
 ## StartTime (Read-Only)
 ```lua
-@type NmSyncTrackTime_t
+--- @type NmSyncTrackTime_t
 Read: nmsynctracktimerange_t.StartTime
 ```
 ## EndTime (Read-Only)
 ```lua
-@type NmSyncTrackTime_t
+--- @type NmSyncTrackTime_t
 Read: nmsynctracktimerange_t.EndTime
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when seasoncoin_levelup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSeasoncoinLevelup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSeasoncoinLevelup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

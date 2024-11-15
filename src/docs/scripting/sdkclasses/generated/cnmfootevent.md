@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmFootEvent(ptr --[[ string ]])
+CNmFootEvent(ptr)
 ```
 # Properties
 ## Phase 
 ```lua
-@type number
+--- @type number
 Read: cnmfootevent.Phase
 Write: cnmfootevent.Phase = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmfootevent.Parent
 ```
 # Functions

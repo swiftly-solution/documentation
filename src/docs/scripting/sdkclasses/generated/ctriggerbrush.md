@@ -12,39 +12,39 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerBrush(ptr --[[ string ]])
+CTriggerBrush(ptr)
 ```
 # Properties
 ## OnStartTouch (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerbrush.OnStartTouch
 ```
 ## OnEndTouch (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerbrush.OnEndTouch
 ```
 ## OnUse (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerbrush.OnUse
 ```
 ## InputFilter 
 ```lua
-@type number
+--- @type number
 Read: ctriggerbrush.InputFilter
 Write: ctriggerbrush.InputFilter = value
 ```
 ## DontMessageParent 
 ```lua
-@type number
+--- @type number
 Read: ctriggerbrush.DontMessageParent
 Write: ctriggerbrush.DontMessageParent = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: ctriggerbrush.Parent
 ```
 # Functions

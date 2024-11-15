@@ -11,8 +11,9 @@ Accesses the VTable at the specified offset from `offsets.json`.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:AccessVTableFromOffset(offsetName --[[ string ]])
+--- @param offsetName string
+--- @return nil
+memory:AccessVTableFromOffset(offsetName)
 ```
 
 :::

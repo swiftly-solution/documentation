@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRulePointEntity(ptr --[[ string ]])
+CRulePointEntity(ptr)
 ```
 # Properties
 ## Score 
 ```lua
-@type number
+--- @type number
 Read: crulepointentity.Score
 Write: crulepointentity.Score = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CRuleEntity
+--- @type CRuleEntity
 Read: crulepointentity.Parent
 ```
 # Functions

@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSpark(ptr --[[ string ]])
+CEnvSpark(ptr)
 ```
 # Properties
 ## Delay 
 ```lua
-@type number
+--- @type number
 Read: cenvspark.Delay
 Write: cenvspark.Delay = value
 ```
 ## Magnitude 
 ```lua
-@type number
+--- @type number
 Read: cenvspark.Magnitude
 Write: cenvspark.Magnitude = value
 ```
 ## TrailLength 
 ```lua
-@type number
+--- @type number
 Read: cenvspark.TrailLength
 Write: cenvspark.TrailLength = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: cenvspark.Type
 Write: cenvspark.Type = value
 ```
 ## OnSpark (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvspark.OnSpark
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvspark.Parent
 ```
 # Functions

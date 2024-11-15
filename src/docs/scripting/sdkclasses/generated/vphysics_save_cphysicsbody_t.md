@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-vphysics_save_cphysicsbody_t(ptr --[[ string ]])
+vphysics_save_cphysicsbody_t(ptr)
 ```
 # Properties
 ## OldPointer 
 ```lua
-@type number
+--- @type number
 Read: vphysics_save_cphysicsbody_t.OldPointer
 Write: vphysics_save_cphysicsbody_t.OldPointer = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type RnBodyDesc_t
+--- @type RnBodyDesc_t
 Read: vphysics_save_cphysicsbody_t.Parent
 ```
 # Functions

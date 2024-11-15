@@ -11,8 +11,10 @@ Calls a specific hook.
 ::: tabs
 @tab Lua
 ```lua
-@returns Any* any
-CallHook(hookHandle --[[ HookHandle ]], ... --[[ Any* any ]])
+--- @param hookHandle number HookHandle
+--- @param ... any
+--- @return Any* any
+CallHook(hookHandle, ...)
 ```
 
 :::

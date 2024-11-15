@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGameModeRules(ptr --[[ string ]])
+CCSGameModeRules(ptr)
 ```
 # Properties
 ## __pChainEntity (Read-Only)
 ```lua
-@type CNetworkVarChainer
+--- @type CNetworkVarChainer
 Read: ccsgamemoderules.__pChainEntity
 ```
 # Functions

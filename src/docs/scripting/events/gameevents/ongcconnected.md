@@ -11,8 +11,9 @@ This event is triggered when gc_connected is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGcConnected", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGcConnected", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,10 @@ Adds a new event handler for the specified event.
 ::: tabs
 @tab Lua
 ```lua
-@returns EventHandler
-AddEventHandler(eventName --[[ string ]], callback --[[ function ]])
+--- @param eventName string
+--- @param callback function
+--- @return number EventHandler
+AddEventHandler(eventName, callback)
 ```
 The callback has the following arguments:
 ```lua

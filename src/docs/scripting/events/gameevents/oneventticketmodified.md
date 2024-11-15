@@ -11,8 +11,9 @@ This event is triggered when event_ticket_modified is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEventTicketModified", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEventTicketModified", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

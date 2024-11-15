@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDrawCullingData(ptr --[[ string ]])
+CDrawCullingData(ptr)
 ```
 # Properties
 ## ConeApex 
 ```lua
-@type Vector
+--- @type Vector
 Read: cdrawcullingdata.ConeApex
 Write: cdrawcullingdata.ConeApex = value
 ```
 ## ConeAxis 
 ```lua
-@type table
+--- @type table
 Read: cdrawcullingdata.ConeAxis
 Write: cdrawcullingdata.ConeAxis = value
 ```
 ## ConeCutoff 
 ```lua
-@type number
+--- @type number
 Read: cdrawcullingdata.ConeCutoff
 Write: cdrawcullingdata.ConeCutoff = value
 ```

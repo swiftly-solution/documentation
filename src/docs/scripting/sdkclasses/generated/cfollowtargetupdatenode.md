@@ -12,27 +12,27 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFollowTargetUpdateNode(ptr --[[ string ]])
+CFollowTargetUpdateNode(ptr)
 ```
 # Properties
 ## OpFixedData (Read-Only)
 ```lua
-@type FollowTargetOpFixedSettings_t
+--- @type FollowTargetOpFixedSettings_t
 Read: cfollowtargetupdatenode.OpFixedData
 ```
 ## ParameterPosition (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cfollowtargetupdatenode.ParameterPosition
 ```
 ## ParameterOrientation (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cfollowtargetupdatenode.ParameterOrientation
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cfollowtargetupdatenode.Parent
 ```
 # Functions

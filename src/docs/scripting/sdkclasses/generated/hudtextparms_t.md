@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-hudtextparms_t(ptr --[[ string ]])
+hudtextparms_t(ptr)
 ```
 # Properties
 ## Color1 
 ```lua
-@type Color
+--- @type Color
 Read: hudtextparms_t.Color1
 Write: hudtextparms_t.Color1 = value
 ```
 ## Color2 
 ```lua
-@type Color
+--- @type Color
 Read: hudtextparms_t.Color2
 Write: hudtextparms_t.Color2 = value
 ```
 ## Effect 
 ```lua
-@type number
+--- @type number
 Read: hudtextparms_t.Effect
 Write: hudtextparms_t.Effect = value
 ```
 ## Channel 
 ```lua
-@type number
+--- @type number
 Read: hudtextparms_t.Channel
 Write: hudtextparms_t.Channel = value
 ```
 ## X 
 ```lua
-@type number
+--- @type number
 Read: hudtextparms_t.X
 Write: hudtextparms_t.X = value
 ```
 ## Y 
 ```lua
-@type number
+--- @type number
 Read: hudtextparms_t.Y
 Write: hudtextparms_t.Y = value
 ```

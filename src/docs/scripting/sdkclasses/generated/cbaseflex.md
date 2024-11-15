@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseFlex(ptr --[[ string ]])
+CBaseFlex(ptr)
 ```
 # Properties
 ## FlexWeight (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbaseflex.FlexWeight
 ```
 ## LookTargetPosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbaseflex.LookTargetPosition
 Write: cbaseflex.LookTargetPosition = value
 ```
 ## Blinktoggle 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseflex.Blinktoggle
 Write: cbaseflex.Blinktoggle = value
 ```
 ## AllowResponsesEndTime 
 ```lua
-@type number
+--- @type number
 Read: cbaseflex.AllowResponsesEndTime
 Write: cbaseflex.AllowResponsesEndTime = value
 ```
 ## LastFlexAnimationTime 
 ```lua
-@type number
+--- @type number
 Read: cbaseflex.LastFlexAnimationTime
 Write: cbaseflex.LastFlexAnimationTime = value
 ```
 ## NextSceneEventId (Read-Only)
 ```lua
-@type SceneEventId_t
+--- @type SceneEventId_t
 Read: cbaseflex.NextSceneEventId
 ```
 ## UpdateLayerPriorities 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseflex.UpdateLayerPriorities
 Write: cbaseflex.UpdateLayerPriorities = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: cbaseflex.Parent
 ```
 # Functions

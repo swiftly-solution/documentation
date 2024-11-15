@@ -11,8 +11,9 @@ This event is triggered when tournament_reward is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTournamentReward", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTournamentReward", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,7 +11,7 @@ Returns the number of players from the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 playermanager:GetPlayerCount()
 ```
 

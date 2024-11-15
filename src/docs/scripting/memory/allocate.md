@@ -11,8 +11,9 @@ Allocates memory based on the specified size.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:Allocate(size --[[ number ]])
+--- @param size number
+--- @return nil
+memory:Allocate(size)
 ```
 
 :::

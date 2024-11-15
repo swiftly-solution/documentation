@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFogTrigger(ptr --[[ string ]])
+CFogTrigger(ptr)
 ```
 # Properties
 ## Fog (Read-Only)
 ```lua
-@type fogparams_t
+--- @type fogparams_t
 Read: cfogtrigger.Fog
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cfogtrigger.Parent
 ```
 # Functions

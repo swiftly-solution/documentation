@@ -11,8 +11,9 @@ This event is triggered when round_end_upload_stats is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundEndUploadStats", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundEndUploadStats", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

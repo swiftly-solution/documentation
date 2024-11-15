@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CShower(ptr --[[ string ]])
+CShower(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CModelPointEntity
+--- @type CModelPointEntity
 Read: cshower.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRemapFloat(ptr --[[ string ]])
+CRemapFloat(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type table
+--- @type table
 Read: cremapfloat.Value
 Write: cremapfloat.Value = value
 ```

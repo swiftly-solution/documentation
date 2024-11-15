@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysTorque(ptr --[[ string ]])
+CPhysTorque(ptr)
 ```
 # Properties
 ## Axis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphystorque.Axis
 Write: cphystorque.Axis = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysForce
+--- @type CPhysForce
 Read: cphystorque.Parent
 ```
 # Functions

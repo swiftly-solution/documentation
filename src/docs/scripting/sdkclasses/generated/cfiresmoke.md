@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFireSmoke(ptr --[[ string ]])
+CFireSmoke(ptr)
 ```
 # Properties
 ## FlameModelIndex 
 ```lua
-@type number
+--- @type number
 Read: cfiresmoke.FlameModelIndex
 Write: cfiresmoke.FlameModelIndex = value
 ```
 ## FlameFromAboveModelIndex 
 ```lua
-@type number
+--- @type number
 Read: cfiresmoke.FlameFromAboveModelIndex
 Write: cfiresmoke.FlameFromAboveModelIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFire
+--- @type CBaseFire
 Read: cfiresmoke.Parent
 ```
 # Functions

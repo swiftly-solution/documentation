@@ -11,8 +11,10 @@ Writes a specific text in the plugin's log file.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-logger:Write(log_type --[[ LogType_t ]], text --[[ string ]])
+--- @param log_type number LogType_t
+--- @param text string
+--- @return nil
+logger:Write(log_type, text)
 ```
 
 :::

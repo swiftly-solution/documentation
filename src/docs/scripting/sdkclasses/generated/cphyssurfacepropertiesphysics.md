@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysSurfacePropertiesPhysics(ptr --[[ string ]])
+CPhysSurfacePropertiesPhysics(ptr)
 ```
 # Properties
 ## Friction 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.Friction
 Write: cphyssurfacepropertiesphysics.Friction = value
 ```
 ## Elasticity 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.Elasticity
 Write: cphyssurfacepropertiesphysics.Elasticity = value
 ```
 ## Density 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.Density
 Write: cphyssurfacepropertiesphysics.Density = value
 ```
 ## Thickness 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.Thickness
 Write: cphyssurfacepropertiesphysics.Thickness = value
 ```
 ## SoftContactFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.SoftContactFrequency
 Write: cphyssurfacepropertiesphysics.SoftContactFrequency = value
 ```
 ## SoftContactDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.SoftContactDampingRatio
 Write: cphyssurfacepropertiesphysics.SoftContactDampingRatio = value
 ```
 ## WheelDrag 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.WheelDrag
 Write: cphyssurfacepropertiesphysics.WheelDrag = value
 ```
 ## HeatConductivity 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.HeatConductivity
 Write: cphyssurfacepropertiesphysics.HeatConductivity = value
 ```
 ## Flashpoint 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfacepropertiesphysics.Flashpoint
 Write: cphyssurfacepropertiesphysics.Flashpoint = value
 ```

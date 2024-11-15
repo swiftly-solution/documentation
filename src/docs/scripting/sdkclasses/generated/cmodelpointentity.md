@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelPointEntity(ptr --[[ string ]])
+CModelPointEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cmodelpointentity.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventServerPollNetworking_t(ptr --[[ string ]])
+EventServerPollNetworking_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventSimulate_t
+--- @type EventSimulate_t
 Read: eventserverpollnetworking_t.Parent
 ```
 # Functions

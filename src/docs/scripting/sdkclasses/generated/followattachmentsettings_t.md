@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FollowAttachmentSettings_t(ptr --[[ string ]])
+FollowAttachmentSettings_t(ptr)
 ```
 # Properties
 ## Attachment (Read-Only)
 ```lua
-@type CAnimAttachment
+--- @type CAnimAttachment
 Read: followattachmentsettings_t.Attachment
 ```
 ## BoneIndex 
 ```lua
-@type number
+--- @type number
 Read: followattachmentsettings_t.BoneIndex
 Write: followattachmentsettings_t.BoneIndex = value
 ```
 ## MatchTranslation 
 ```lua
-@type boolean
+--- @type boolean
 Read: followattachmentsettings_t.MatchTranslation
 Write: followattachmentsettings_t.MatchTranslation = value
 ```
 ## MatchRotation 
 ```lua
-@type boolean
+--- @type boolean
 Read: followattachmentsettings_t.MatchRotation
 Write: followattachmentsettings_t.MatchRotation = value
 ```

@@ -11,8 +11,9 @@ This event is triggered after gameinstructor_draw is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostGameinstructorDraw", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostGameinstructorDraw", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

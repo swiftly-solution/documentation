@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimTagBase(ptr --[[ string ]])
+CAnimTagBase(ptr)
 ```
 # Properties
 ## Comment 
 ```lua
-@type string
+--- @type string
 Read: canimtagbase.Comment
 Write: canimtagbase.Comment = value
 ```
 ## TagID (Read-Only)
 ```lua
-@type AnimTagID
+--- @type AnimTagID
 Read: canimtagbase.TagID
 ```
 ## IsReferenced 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimtagbase.IsReferenced
 Write: canimtagbase.IsReferenced = value
 ```

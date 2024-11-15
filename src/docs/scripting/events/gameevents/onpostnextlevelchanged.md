@@ -11,8 +11,9 @@ This event is triggered after nextlevel_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostNextlevelChanged", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostNextlevelChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

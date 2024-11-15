@@ -12,56 +12,56 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootCycleDefinition(ptr --[[ string ]])
+CFootCycleDefinition(ptr)
 ```
 # Properties
 ## StancePositionMS 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfootcycledefinition.StancePositionMS
 Write: cfootcycledefinition.StancePositionMS = value
 ```
 ## MidpointPositionMS 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfootcycledefinition.MidpointPositionMS
 Write: cfootcycledefinition.MidpointPositionMS = value
 ```
 ## StanceDirectionMS 
 ```lua
-@type number
+--- @type number
 Read: cfootcycledefinition.StanceDirectionMS
 Write: cfootcycledefinition.StanceDirectionMS = value
 ```
 ## ToStrideStartPos 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfootcycledefinition.ToStrideStartPos
 Write: cfootcycledefinition.ToStrideStartPos = value
 ```
 ## StanceCycle (Read-Only)
 ```lua
-@type CAnimCycle
+--- @type CAnimCycle
 Read: cfootcycledefinition.StanceCycle
 ```
 ## FootLiftCycle (Read-Only)
 ```lua
-@type CFootCycle
+--- @type CFootCycle
 Read: cfootcycledefinition.FootLiftCycle
 ```
 ## FootOffCycle (Read-Only)
 ```lua
-@type CFootCycle
+--- @type CFootCycle
 Read: cfootcycledefinition.FootOffCycle
 ```
 ## FootStrikeCycle (Read-Only)
 ```lua
-@type CFootCycle
+--- @type CFootCycle
 Read: cfootcycledefinition.FootStrikeCycle
 ```
 ## FootLandCycle (Read-Only)
 ```lua
-@type CFootCycle
+--- @type CFootCycle
 Read: cfootcycledefinition.FootLandCycle
 ```
 # Functions

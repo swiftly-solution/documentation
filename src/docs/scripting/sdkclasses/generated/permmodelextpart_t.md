@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PermModelExtPart_t(ptr --[[ string ]])
+PermModelExtPart_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: permmodelextpart_t.Name
 Write: permmodelextpart_t.Name = value
 ```
 ## Parent 
 ```lua
-@type number
+--- @type number
 Read: permmodelextpart_t.Parent
 Write: permmodelextpart_t.Parent = value
 ```

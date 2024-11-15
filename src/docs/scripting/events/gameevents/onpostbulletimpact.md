@@ -11,8 +11,9 @@ This event is triggered after bullet_impact is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBulletImpact", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBulletImpact", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

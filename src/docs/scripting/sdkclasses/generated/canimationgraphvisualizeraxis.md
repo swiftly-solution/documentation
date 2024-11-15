@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimationGraphVisualizerAxis(ptr --[[ string ]])
+CAnimationGraphVisualizerAxis(ptr)
 ```
 # Properties
 ## AxisSize 
 ```lua
-@type number
+--- @type number
 Read: canimationgraphvisualizeraxis.AxisSize
 Write: canimationgraphvisualizeraxis.AxisSize = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimationGraphVisualizerPrimitiveBase
+--- @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizeraxis.Parent
 ```
 # Functions

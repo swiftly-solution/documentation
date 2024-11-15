@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSpriteOriented(ptr --[[ string ]])
+CSpriteOriented(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSprite
+--- @type CSprite
 Read: cspriteoriented.Parent
 ```
 # Functions

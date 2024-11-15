@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientProcessInput_t(ptr --[[ string ]])
+EventClientProcessInput_t(ptr)
 ```
 # Properties
 ## LoopState (Read-Only)
 ```lua
-@type EngineLoopState_t
+--- @type EngineLoopState_t
 Read: eventclientprocessinput_t.LoopState
 ```
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientprocessinput_t.RealTime
 Write: eventclientprocessinput_t.RealTime = value
 ```
 ## TickInterval 
 ```lua
-@type number
+--- @type number
 Read: eventclientprocessinput_t.TickInterval
 Write: eventclientprocessinput_t.TickInterval = value
 ```
 ## TickStartTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientprocessinput_t.TickStartTime
 Write: eventclientprocessinput_t.TickStartTime = value
 ```

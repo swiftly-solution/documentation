@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAI_ChangeHintGroup(ptr --[[ string ]])
+CAI_ChangeHintGroup(ptr)
 ```
 # Properties
 ## SearchType 
 ```lua
-@type number
+--- @type number
 Read: cai_changehintgroup.SearchType
 Write: cai_changehintgroup.SearchType = value
 ```
 ## StrSearchName 
 ```lua
-@type string
+--- @type string
 Read: cai_changehintgroup.StrSearchName
 Write: cai_changehintgroup.StrSearchName = value
 ```
 ## StrNewHintGroup 
 ```lua
-@type string
+--- @type string
 Read: cai_changehintgroup.StrNewHintGroup
 Write: cai_changehintgroup.StrNewHintGroup = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cai_changehintgroup.Radius
 Write: cai_changehintgroup.Radius = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cai_changehintgroup.Parent
 ```
 # Functions

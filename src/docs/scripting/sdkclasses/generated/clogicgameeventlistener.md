@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicGameEventListener(ptr --[[ string ]])
+CLogicGameEventListener(ptr)
 ```
 # Properties
 ## OnEventFired (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicgameeventlistener.OnEventFired
 ```
 ## GameEventName 
 ```lua
-@type string
+--- @type string
 Read: clogicgameeventlistener.GameEventName
 Write: clogicgameeventlistener.GameEventName = value
 ```
 ## GameEventItem 
 ```lua
-@type string
+--- @type string
 Read: clogicgameeventlistener.GameEventItem
 Write: clogicgameeventlistener.GameEventItem = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicgameeventlistener.Enabled
 Write: clogicgameeventlistener.Enabled = value
 ```
 ## StartDisabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicgameeventlistener.StartDisabled
 Write: clogicgameeventlistener.StartDisabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicgameeventlistener.Parent
 ```
 # Functions

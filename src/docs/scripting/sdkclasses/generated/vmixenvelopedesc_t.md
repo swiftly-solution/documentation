@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixEnvelopeDesc_t(ptr --[[ string ]])
+VMixEnvelopeDesc_t(ptr)
 ```
 # Properties
 ## AttackTimeMS 
 ```lua
-@type number
+--- @type number
 Read: vmixenvelopedesc_t.AttackTimeMS
 Write: vmixenvelopedesc_t.AttackTimeMS = value
 ```
 ## HoldTimeMS 
 ```lua
-@type number
+--- @type number
 Read: vmixenvelopedesc_t.HoldTimeMS
 Write: vmixenvelopedesc_t.HoldTimeMS = value
 ```
 ## ReleaseTimeMS 
 ```lua
-@type number
+--- @type number
 Read: vmixenvelopedesc_t.ReleaseTimeMS
 Write: vmixenvelopedesc_t.ReleaseTimeMS = value
 ```

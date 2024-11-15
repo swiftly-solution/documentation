@@ -11,8 +11,10 @@ Executes a callback after the specified delay.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-SetTimeout(delay --[[ number ]], callback --[[ function ]])
+--- @param delay number
+--- @param callback function
+--- @return nil
+SetTimeout(delay, callback)
 ```
 
 :::

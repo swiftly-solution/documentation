@@ -12,87 +12,87 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysConstraint(ptr --[[ string ]])
+CPhysConstraint(ptr)
 ```
 # Properties
 ## NameAttach1 
 ```lua
-@type string
+--- @type string
 Read: cphysconstraint.NameAttach1
 Write: cphysconstraint.NameAttach1 = value
 ```
 ## NameAttach2 
 ```lua
-@type string
+--- @type string
 Read: cphysconstraint.NameAttach2
 Write: cphysconstraint.NameAttach2 = value
 ```
 ## Attach1 (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysconstraint.Attach1
 ```
 ## Attach2 (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysconstraint.Attach2
 ```
 ## NameAttachment1 
 ```lua
-@type string
+--- @type string
 Read: cphysconstraint.NameAttachment1
 Write: cphysconstraint.NameAttachment1 = value
 ```
 ## NameAttachment2 
 ```lua
-@type string
+--- @type string
 Read: cphysconstraint.NameAttachment2
 Write: cphysconstraint.NameAttachment2 = value
 ```
 ## BreakSound 
 ```lua
-@type string
+--- @type string
 Read: cphysconstraint.BreakSound
 Write: cphysconstraint.BreakSound = value
 ```
 ## ForceLimit 
 ```lua
-@type number
+--- @type number
 Read: cphysconstraint.ForceLimit
 Write: cphysconstraint.ForceLimit = value
 ```
 ## TorqueLimit 
 ```lua
-@type number
+--- @type number
 Read: cphysconstraint.TorqueLimit
 Write: cphysconstraint.TorqueLimit = value
 ```
 ## TeleportTick 
 ```lua
-@type number
+--- @type number
 Read: cphysconstraint.TeleportTick
 Write: cphysconstraint.TeleportTick = value
 ```
 ## MinTeleportDistance 
 ```lua
-@type number
+--- @type number
 Read: cphysconstraint.MinTeleportDistance
 Write: cphysconstraint.MinTeleportDistance = value
 ```
 ## SnapObjectPositions 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysconstraint.SnapObjectPositions
 Write: cphysconstraint.SnapObjectPositions = value
 ```
 ## OnBreak (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cphysconstraint.OnBreak
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cphysconstraint.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PhysicsRagdollPose_t(ptr --[[ string ]])
+PhysicsRagdollPose_t(ptr)
 ```
 # Properties
 ## Owner (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: physicsragdollpose_t.Owner
 ```
 # Functions

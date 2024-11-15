@@ -31,8 +31,18 @@ const languagePrettyNames = {
 }
 
 const GenerateLuaType = (param) => {
-    if (param == "any") return "Any* any"
+    if (param == "any") return "any";
+    else if(param == "void") return "nil";
+    else if(param.includes("/")) return param.split("/").map((p) => p.trim()).join("|");
+    else if(
+        data.types.data.generated.data[param.toLowerCase()] != undefined ||
+        data.types.data.core.data[param.toLowerCase()] != undefined
+    ) return `number ${param}`
     else return param;
+}
+
+const GenerateType = (param, lang) => {
+    if(lang == "lua") return GenerateLuaType(param);
 }
 
 const ProcessParameters = (params, language) => {
@@ -46,10 +56,28 @@ const ProcessParameters = (params, language) => {
         }
 
         if (forlang == language) {
-            if (language == "lua") returnParams.push(`${name} --[[ ${GenerateLuaType(params[paramkey])} ]]`)
+            if (language == "lua") returnParams.push(`${name}`)
         }
     }
     return returnParams.join(", ");
+}
+
+const GenerateFunctionParameters = (params, language) => {
+    const returnParams = [];
+    for (const paramkey of Object.keys(params)) {
+        let forlang = language;
+        let name = paramkey
+        if (paramkey.includes("/")) {
+            forlang = paramkey.split("/")[0];
+            name = paramkey.split("/")[1];
+        }
+
+        if (forlang == language) {
+            if (language == "lua") returnParams.push(`--- @param ${name} ${GenerateLuaType(params[paramkey])}`)
+        }
+    }
+    if(returnParams.length == 0) return "";
+    else return `\n${returnParams.join("\n")}`
 }
 
 const GenerateFunctionSyntax = (data) => {
@@ -59,7 +87,7 @@ const GenerateFunctionSyntax = (data) => {
     const tabs = []
 
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n@returns ${data.return[lang]}\n${data.variable[lang]}(${ProcessParameters(data.params, lang)})\n\`\`\`\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}${GenerateFunctionParameters(data.params, lang)}\n--- @return ${GenerateType(data.return[lang], lang)}\n${data.variable[lang]}(${ProcessParameters(data.params, lang)})\n\`\`\`\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`
@@ -82,7 +110,15 @@ const GenerateEventParameters = (paramsData, lang) => {
     if (Object.keys(paramsData).length == 0) return "";
 
     if (lang == "lua") {
-        return ", " + Object.keys(paramsData).map((key) => `${key} --[[ ${paramsData[key]} ]]`).join(', ')
+        return ", " + Object.keys(paramsData).join(', ')
+    }
+}
+
+const GenerateEventParamTypes = (paramsData, lang) => {
+    if (Object.keys(paramsData).length == 0) return "";
+
+    if (lang == "lua") {
+        return `\n${Object.keys(paramsData).map((key) => `--- @param ${key} ${paramsData[key]}`).join('\n')}`
     }
 }
 
@@ -92,7 +128,7 @@ const GenerateCoreEventSyntax = (data) => {
 
     const tabs = []
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n@event returns ${data.return[lang]}\nAddEventHandler("${data.title}", function(event --[[ Event ]]${GenerateEventParameters(data.params, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event${GenerateEventParamTypes(data.params, lang)}\n--- @return number EventResult\n--- @event returns ${GenerateType(data.return[lang], lang)} Via event:SetReturn\nAddEventHandler("${data.title}", function(event${GenerateEventParameters(data.params, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`
@@ -104,7 +140,7 @@ const GenerateGameEventSyntax = (data) => {
 
     const tabs = []
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n@event returns ${data.return[lang]}\nAddEventHandler("${data.title}", function(event --[[ Event ]])\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event\n--- @return number EventResult\nAddEventHandler("${data.title}", function(event)\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`
@@ -133,7 +169,7 @@ const GenerateClassProperties = (classname, data, lang) => {
     const properties = []
 
     for (const key of Object.keys(data)) {
-        properties.push(`## ${key} ${data[key].writable ? "" : "(Read-Only)"}\n\`\`\`${lang}\n@type ${data[key].type}\nRead: ${classname}.${key}${data[key].writable ? `\nWrite: ${classname}.${key} = value` : ""}\n\`\`\``)
+        properties.push(`## ${key} ${data[key].writable ? "" : "(Read-Only)"}\n\`\`\`${lang}\n--- @type ${data[key].type}\nRead: ${classname}.${key}${data[key].writable ? `\nWrite: ${classname}.${key} = value` : ""}\n\`\`\``)
     }
 
     return properties.join("\n")

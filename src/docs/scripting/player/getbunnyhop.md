@@ -11,7 +11,7 @@ Returns if the player can bunnyhop.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 player:GetBunnyhop()
 ```
 

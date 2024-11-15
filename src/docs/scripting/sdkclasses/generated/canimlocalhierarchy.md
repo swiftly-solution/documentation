@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimLocalHierarchy(ptr --[[ string ]])
+CAnimLocalHierarchy(ptr)
 ```
 # Properties
 ## StartFrame 
 ```lua
-@type number
+--- @type number
 Read: canimlocalhierarchy.StartFrame
 Write: canimlocalhierarchy.StartFrame = value
 ```
 ## PeakFrame 
 ```lua
-@type number
+--- @type number
 Read: canimlocalhierarchy.PeakFrame
 Write: canimlocalhierarchy.PeakFrame = value
 ```
 ## TailFrame 
 ```lua
-@type number
+--- @type number
 Read: canimlocalhierarchy.TailFrame
 Write: canimlocalhierarchy.TailFrame = value
 ```
 ## EndFrame 
 ```lua
-@type number
+--- @type number
 Read: canimlocalhierarchy.EndFrame
 Write: canimlocalhierarchy.EndFrame = value
 ```

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointGiveAmmo(ptr --[[ string ]])
+CPointGiveAmmo(ptr)
 ```
 # Properties
 ## Activator (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointgiveammo.Activator
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointgiveammo.Parent
 ```
 # Functions

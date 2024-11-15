@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeSimdRodConstraintAnim_t(ptr --[[ string ]])
+FeSimdRodConstraintAnim_t(ptr)
 ```
 # Properties
 ## 4Weight0 
 ```lua
-@type number
+--- @type number
 Read: fesimdrodconstraintanim_t.4Weight0
 Write: fesimdrodconstraintanim_t.4Weight0 = value
 ```
 ## 4RelaxationFactor 
 ```lua
-@type number
+--- @type number
 Read: fesimdrodconstraintanim_t.4RelaxationFactor
 Write: fesimdrodconstraintanim_t.4RelaxationFactor = value
 ```

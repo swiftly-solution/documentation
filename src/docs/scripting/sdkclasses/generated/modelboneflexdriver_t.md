@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ModelBoneFlexDriver_t(ptr --[[ string ]])
+ModelBoneFlexDriver_t(ptr)
 ```
 # Properties
 ## BoneName 
 ```lua
-@type string
+--- @type string
 Read: modelboneflexdriver_t.BoneName
 Write: modelboneflexdriver_t.BoneName = value
 ```
 ## BoneNameToken 
 ```lua
-@type number
+--- @type number
 Read: modelboneflexdriver_t.BoneNameToken
 Write: modelboneflexdriver_t.BoneNameToken = value
 ```
 ## Controls (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: modelboneflexdriver_t.Controls
 ```
 # Functions

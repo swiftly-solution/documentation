@@ -11,8 +11,10 @@ Set the number value to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetInt(key --[[ string ]], value --[[ number ]])
+--- @param key string
+--- @param value number
+--- @return nil
+event:SetInt(key, value)
 ```
 
 :::

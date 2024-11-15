@@ -11,8 +11,9 @@ This event is triggered after dm_bonus_weapon_start is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDmBonusWeaponStart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDmBonusWeaponStart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerSwitch(ptr --[[ string ]])
+CVoiceContainerSwitch(ptr)
 ```
 # Properties
 ## SoundsToPlay (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cvoicecontainerswitch.SoundsToPlay
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerswitch.Parent
 ```
 # Functions

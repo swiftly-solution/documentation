@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWeaponTaser(ptr --[[ string ]])
+CWeaponTaser(ptr)
 ```
 # Properties
 ## FireTime 
 ```lua
-@type number
+--- @type number
 Read: cweapontaser.FireTime
 Write: cweapontaser.FireTime = value
 ```
 ## LastAttackTick 
 ```lua
-@type number
+--- @type number
 Read: cweapontaser.LastAttackTick
 Write: cweapontaser.LastAttackTick = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cweapontaser.Parent
 ```
 # Functions

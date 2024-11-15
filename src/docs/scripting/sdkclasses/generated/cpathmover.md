@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathMover(ptr --[[ string ]])
+CPathMover(ptr)
 ```
 # Properties
 ## PathLength 
 ```lua
-@type number
+--- @type number
 Read: cpathmover.PathLength
 Write: cpathmover.PathLength = value
 ```
 ## ClosedLoop 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpathmover.ClosedLoop
 Write: cpathmover.ClosedLoop = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpathmover.Parent
 ```
 # Functions

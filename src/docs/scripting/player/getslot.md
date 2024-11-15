@@ -11,7 +11,7 @@ Returns the slot of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 player:GetSlot()
 ```
 

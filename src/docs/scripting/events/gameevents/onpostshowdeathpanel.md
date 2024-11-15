@@ -11,8 +11,9 @@ This event is triggered after show_deathpanel is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostShowDeathpanel", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostShowDeathpanel", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

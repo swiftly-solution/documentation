@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventSphereEntity(ptr --[[ string ]])
+CSoundEventSphereEntity(ptr)
 ```
 # Properties
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: csoundeventsphereentity.Radius
 Write: csoundeventsphereentity.Radius = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundEventEntity
+--- @type CSoundEventEntity
 Read: csoundeventsphereentity.Parent
 ```
 # Functions

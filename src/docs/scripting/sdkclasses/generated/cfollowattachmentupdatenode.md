@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFollowAttachmentUpdateNode(ptr --[[ string ]])
+CFollowAttachmentUpdateNode(ptr)
 ```
 # Properties
 ## OpFixedData (Read-Only)
 ```lua
-@type FollowAttachmentSettings_t
+--- @type FollowAttachmentSettings_t
 Read: cfollowattachmentupdatenode.OpFixedData
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cfollowattachmentupdatenode.Parent
 ```
 # Functions

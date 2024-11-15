@@ -12,24 +12,24 @@ A QAngle is an object which stores coordinates regarding the angle.
 @tab Lua
 # Constructor
 ```lua
-QAngle(x --[[ number ]], y --[[ number ]], z --[[ number ]])
+QAngle(x, y, z)
 ```
 # Properties
 ## x 
 ```lua
-@type number
+--- @type number
 Read: qangle.x
 Write: qangle.x = value
 ```
 ## y 
 ```lua
-@type number
+--- @type number
 Read: qangle.y
 Write: qangle.y = value
 ```
 ## z 
 ```lua
-@type number
+--- @type number
 Read: qangle.z
 Write: qangle.z = value
 ```

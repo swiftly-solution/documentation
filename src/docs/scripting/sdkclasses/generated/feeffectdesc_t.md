@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeEffectDesc_t(ptr --[[ string ]])
+FeEffectDesc_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: feeffectdesc_t.Name
 Write: feeffectdesc_t.Name = value
 ```
 ## NameHash 
 ```lua
-@type number
+--- @type number
 Read: feeffectdesc_t.NameHash
 Write: feeffectdesc_t.NameHash = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: feeffectdesc_t.Type
 Write: feeffectdesc_t.Type = value
 ```

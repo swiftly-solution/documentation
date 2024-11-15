@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSClientPointScriptEntity(ptr --[[ string ]])
+CCSClientPointScriptEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSPointScriptEntity
+--- @type CCSPointScriptEntity
 Read: ccsclientpointscriptentity.Parent
 ```
 # Functions

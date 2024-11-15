@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmEvent(ptr --[[ string ]])
+CNmEvent(ptr)
 ```
 # Properties
 ## StartTimeSeconds 
 ```lua
-@type number
+--- @type number
 Read: cnmevent.StartTimeSeconds
 Write: cnmevent.StartTimeSeconds = value
 ```
 ## DurationSeconds 
 ```lua
-@type number
+--- @type number
 Read: cnmevent.DurationSeconds
 Write: cnmevent.DurationSeconds = value
 ```

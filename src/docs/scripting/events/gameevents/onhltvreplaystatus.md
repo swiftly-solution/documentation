@@ -11,8 +11,9 @@ This event is triggered when hltv_replay_status is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvReplayStatus", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvReplayStatus", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

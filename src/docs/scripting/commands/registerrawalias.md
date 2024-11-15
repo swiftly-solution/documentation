@@ -11,8 +11,10 @@ Registers a raw alias (without sw_ in console) for a command registered through 
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-commands:RegisterRawAlias(commandName --[[ string ]], alias --[[ string ]])
+--- @param commandName string
+--- @param alias string
+--- @return nil
+commands:RegisterRawAlias(commandName, alias)
 ```
 
 :::

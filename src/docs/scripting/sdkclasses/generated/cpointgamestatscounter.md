@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointGamestatsCounter(ptr --[[ string ]])
+CPointGamestatsCounter(ptr)
 ```
 # Properties
 ## StrStatisticName 
 ```lua
-@type string
+--- @type string
 Read: cpointgamestatscounter.StrStatisticName
 Write: cpointgamestatscounter.StrStatisticName = value
 ```
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointgamestatscounter.Disabled
 Write: cpointgamestatscounter.Disabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointgamestatscounter.Parent
 ```
 # Functions

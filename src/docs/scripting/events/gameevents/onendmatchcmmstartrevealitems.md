@@ -11,8 +11,9 @@ This event is triggered when endmatch_cmm_start_reveal_items is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEndmatchCmmStartRevealItems", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEndmatchCmmStartRevealItems", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollPropAlias_physics_prop_ragdoll(ptr --[[ string ]])
+CRagdollPropAlias_physics_prop_ragdoll(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CRagdollProp
+--- @type CRagdollProp
 Read: cragdollpropalias_physics_prop_ragdoll.Parent
 ```
 # Functions

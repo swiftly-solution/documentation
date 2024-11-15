@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRotButton(ptr --[[ string ]])
+CRotButton(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseButton
+--- @type CBaseButton
 Read: crotbutton.Parent
 ```
 # Functions

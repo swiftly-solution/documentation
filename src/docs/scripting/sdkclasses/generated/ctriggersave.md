@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerSave(ptr --[[ string ]])
+CTriggerSave(ptr)
 ```
 # Properties
 ## ForceNewLevelUnit 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggersave.ForceNewLevelUnit
 Write: ctriggersave.ForceNewLevelUnit = value
 ```
 ## DangerousTimer 
 ```lua
-@type number
+--- @type number
 Read: ctriggersave.DangerousTimer
 Write: ctriggersave.DangerousTimer = value
 ```
 ## MinHitPoints 
 ```lua
-@type number
+--- @type number
 Read: ctriggersave.MinHitPoints
 Write: ctriggersave.MinHitPoints = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggersave.Parent
 ```
 # Functions

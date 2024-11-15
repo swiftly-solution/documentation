@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityIOOutput(ptr --[[ string ]])
+CEntityIOOutput(ptr)
 ```
 # Properties
 There are no properties available for this class.

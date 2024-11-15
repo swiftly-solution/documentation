@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayer_WeaponServices(ptr --[[ string ]])
+CPlayer_WeaponServices(ptr)
 ```
 # Properties
 ## ActiveWeapon (Read-Only)
 ```lua
-@type CBasePlayerWeapon
+--- @type CBasePlayerWeapon
 Read: cplayer_weaponservices.ActiveWeapon
 ```
 ## LastWeapon (Read-Only)
 ```lua
-@type CBasePlayerWeapon
+--- @type CBasePlayerWeapon
 Read: cplayer_weaponservices.LastWeapon
 ```
 ## Ammo 
 ```lua
-@type table
+--- @type table
 Read: cplayer_weaponservices.Ammo
 Write: cplayer_weaponservices.Ammo = value
 ```
 ## PreventWeaponPickup 
 ```lua
-@type boolean
+--- @type boolean
 Read: cplayer_weaponservices.PreventWeaponPickup
 Write: cplayer_weaponservices.PreventWeaponPickup = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: cplayer_weaponservices.Parent
 ```
 # Functions

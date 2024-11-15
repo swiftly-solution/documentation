@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-TagSpan_t(ptr --[[ string ]])
+TagSpan_t(ptr)
 ```
 # Properties
 ## TagIndex 
 ```lua
-@type number
+--- @type number
 Read: tagspan_t.TagIndex
 Write: tagspan_t.TagIndex = value
 ```
 ## StartCycle 
 ```lua
-@type number
+--- @type number
 Read: tagspan_t.StartCycle
 Write: tagspan_t.StartCycle = value
 ```
 ## EndCycle 
 ```lua
-@type number
+--- @type number
 Read: tagspan_t.EndCycle
 Write: tagspan_t.EndCycle = value
 ```

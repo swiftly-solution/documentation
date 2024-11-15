@@ -11,7 +11,7 @@ Returns the current plugin name.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 GetCurrentPluginName()
 ```
 

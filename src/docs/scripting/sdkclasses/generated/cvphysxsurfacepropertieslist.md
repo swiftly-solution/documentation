@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVPhysXSurfacePropertiesList(ptr --[[ string ]])
+CVPhysXSurfacePropertiesList(ptr)
 ```
 # Properties
 ## SurfacePropertiesList (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cvphysxsurfacepropertieslist.SurfacePropertiesList
 ```
 # Functions

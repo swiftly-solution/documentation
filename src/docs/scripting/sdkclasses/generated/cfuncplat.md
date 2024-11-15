@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncPlat(ptr --[[ string ]])
+CFuncPlat(ptr)
 ```
 # Properties
 ## Noise 
 ```lua
-@type string
+--- @type string
 Read: cfuncplat.Noise
 Write: cfuncplat.Noise = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBasePlatTrain
+--- @type CBasePlatTrain
 Read: cfuncplat.Parent
 ```
 # Functions

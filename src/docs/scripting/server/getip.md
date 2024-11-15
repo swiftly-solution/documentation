@@ -11,7 +11,7 @@ Returns the server's IP Address.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 server:GetIP()
 ```
 

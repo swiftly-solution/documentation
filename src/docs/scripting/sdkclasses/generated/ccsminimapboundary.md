@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSMinimapBoundary(ptr --[[ string ]])
+CCSMinimapBoundary(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsminimapboundary.Parent
 ```
 # Functions

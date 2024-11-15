@@ -11,7 +11,7 @@ Returns the player's CBasePlayerPawn.
 ::: tabs
 @tab Lua
 ```lua
-@returns CBasePlayerPawn
+--- @return CBasePlayerPawn
 player:CBasePlayerPawn()
 ```
 

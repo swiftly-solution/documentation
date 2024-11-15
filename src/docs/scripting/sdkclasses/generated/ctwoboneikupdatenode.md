@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTwoBoneIKUpdateNode(ptr --[[ string ]])
+CTwoBoneIKUpdateNode(ptr)
 ```
 # Properties
 ## OpFixedData (Read-Only)
 ```lua
-@type TwoBoneIKSettings_t
+--- @type TwoBoneIKSettings_t
 Read: ctwoboneikupdatenode.OpFixedData
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: ctwoboneikupdatenode.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CExampleSchemaVData_PolymorphicBase(ptr --[[ string ]])
+CExampleSchemaVData_PolymorphicBase(ptr)
 ```
 # Properties
 ## Base 
 ```lua
-@type number
+--- @type number
 Read: cexampleschemavdata_polymorphicbase.Base
 Write: cexampleschemavdata_polymorphicbase.Base = value
 ```

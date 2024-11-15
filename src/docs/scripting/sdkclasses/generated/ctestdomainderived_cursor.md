@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTestDomainDerived_Cursor(ptr --[[ string ]])
+CTestDomainDerived_Cursor(ptr)
 ```
 # Properties
 ## CursorValueA 
 ```lua
-@type number
+--- @type number
 Read: ctestdomainderived_cursor.CursorValueA
 Write: ctestdomainderived_cursor.CursorValueA = value
 ```
 ## CursorValueB 
 ```lua
-@type number
+--- @type number
 Read: ctestdomainderived_cursor.CursorValueB
 Write: ctestdomainderived_cursor.CursorValueB = value
 ```

@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerVolume(ptr --[[ string ]])
+CTriggerVolume(ptr)
 ```
 # Properties
 ## FilterName 
 ```lua
-@type string
+--- @type string
 Read: ctriggervolume.FilterName
 Write: ctriggervolume.FilterName = value
 ```
 ## Filter (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: ctriggervolume.Filter
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: ctriggervolume.Parent
 ```
 # Functions

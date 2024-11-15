@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IGapHost_Cursor(ptr --[[ string ]])
+IGapHost_Cursor(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type IGapHost_ExecLog
+--- @type IGapHost_ExecLog
 Read: igaphost_cursor.Parent
 ```
 # Functions

@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBlood(ptr --[[ string ]])
+CBlood(ptr)
 ```
 # Properties
 ## SprayAngles 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cblood.SprayAngles
 Write: cblood.SprayAngles = value
 ```
 ## SprayDir 
 ```lua
-@type Vector
+--- @type Vector
 Read: cblood.SprayDir
 Write: cblood.SprayDir = value
 ```
 ## Amount 
 ```lua
-@type number
+--- @type number
 Read: cblood.Amount
 Write: cblood.Amount = value
 ```
 ## Color 
 ```lua
-@type number
+--- @type number
 Read: cblood.Color
 Write: cblood.Color = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cblood.Parent
 ```
 # Functions

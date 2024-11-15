@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimEventListenerBase(ptr --[[ string ]])
+CAnimEventListenerBase(ptr)
 ```
 # Properties
 There are no properties available for this class.

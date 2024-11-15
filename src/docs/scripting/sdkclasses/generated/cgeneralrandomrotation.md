@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGeneralRandomRotation(ptr --[[ string ]])
+CGeneralRandomRotation(ptr)
 ```
 # Properties
 ## FieldOutput (Read-Only)
 ```lua
-@type ParticleAttributeIndex_t
+--- @type ParticleAttributeIndex_t
 Read: cgeneralrandomrotation.FieldOutput
 ```
 ## Degrees 
 ```lua
-@type number
+--- @type number
 Read: cgeneralrandomrotation.Degrees
 Write: cgeneralrandomrotation.Degrees = value
 ```
 ## DegreesMin 
 ```lua
-@type number
+--- @type number
 Read: cgeneralrandomrotation.DegreesMin
 Write: cgeneralrandomrotation.DegreesMin = value
 ```
 ## DegreesMax 
 ```lua
-@type number
+--- @type number
 Read: cgeneralrandomrotation.DegreesMax
 Write: cgeneralrandomrotation.DegreesMax = value
 ```
 ## RotationRandExponent 
 ```lua
-@type number
+--- @type number
 Read: cgeneralrandomrotation.RotationRandExponent
 Write: cgeneralrandomrotation.RotationRandExponent = value
 ```
 ## RandomlyFlipDirection 
 ```lua
-@type boolean
+--- @type boolean
 Read: cgeneralrandomrotation.RandomlyFlipDirection
 Write: cgeneralrandomrotation.RandomlyFlipDirection = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunctionInitializer
+--- @type CParticleFunctionInitializer
 Read: cgeneralrandomrotation.Parent
 ```
 # Functions

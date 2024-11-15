@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CovMatrix3(ptr --[[ string ]])
+CovMatrix3(ptr)
 ```
 # Properties
 ## Diag 
 ```lua
-@type Vector
+--- @type Vector
 Read: covmatrix3.Diag
 Write: covmatrix3.Diag = value
 ```
 ## XY 
 ```lua
-@type number
+--- @type number
 Read: covmatrix3.XY
 Write: covmatrix3.XY = value
 ```
 ## XZ 
 ```lua
-@type number
+--- @type number
 Read: covmatrix3.XZ
 Write: covmatrix3.XZ = value
 ```
 ## YZ 
 ```lua
-@type number
+--- @type number
 Read: covmatrix3.YZ
 Write: covmatrix3.YZ = value
 ```

@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CompositeMaterialInputContainer_t(ptr --[[ string ]])
+CompositeMaterialInputContainer_t(ptr)
 ```
 # Properties
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: compositematerialinputcontainer_t.Enabled
 Write: compositematerialinputcontainer_t.Enabled = value
 ```
 ## CompositeMaterialInputContainerSourceType 
 ```lua
-@type number
+--- @type number
 Read: compositematerialinputcontainer_t.CompositeMaterialInputContainerSourceType
 Write: compositematerialinputcontainer_t.CompositeMaterialInputContainerSourceType = value
 ```
 ## StrAttrName 
 ```lua
-@type string
+--- @type string
 Read: compositematerialinputcontainer_t.StrAttrName
 Write: compositematerialinputcontainer_t.StrAttrName = value
 ```
 ## StrAlias 
 ```lua
-@type string
+--- @type string
 Read: compositematerialinputcontainer_t.StrAlias
 Write: compositematerialinputcontainer_t.StrAlias = value
 ```
 ## LooseVariables (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialinputcontainer_t.LooseVariables
 ```
 ## StrAttrNameForVar 
 ```lua
-@type string
+--- @type string
 Read: compositematerialinputcontainer_t.StrAttrNameForVar
 Write: compositematerialinputcontainer_t.StrAttrNameForVar = value
 ```
 ## ExposeExternally 
 ```lua
-@type boolean
+--- @type boolean
 Read: compositematerialinputcontainer_t.ExposeExternally
 Write: compositematerialinputcontainer_t.ExposeExternally = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CResponseCriteriaSet(ptr --[[ string ]])
+CResponseCriteriaSet(ptr)
 ```
 # Properties
 ## NumPrefixedContexts 
 ```lua
-@type number
+--- @type number
 Read: cresponsecriteriaset.NumPrefixedContexts
 Write: cresponsecriteriaset.NumPrefixedContexts = value
 ```
 ## OverrideOnAppend 
 ```lua
-@type boolean
+--- @type boolean
 Read: cresponsecriteriaset.OverrideOnAppend
 Write: cresponsecriteriaset.OverrideOnAppend = value
 ```

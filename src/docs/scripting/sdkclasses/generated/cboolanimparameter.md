@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBoolAnimParameter(ptr --[[ string ]])
+CBoolAnimParameter(ptr)
 ```
 # Properties
 ## DefaultValue 
 ```lua
-@type boolean
+--- @type boolean
 Read: cboolanimparameter.DefaultValue
 Write: cboolanimparameter.DefaultValue = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CConcreteAnimParameter
+--- @type CConcreteAnimParameter
 Read: cboolanimparameter.Parent
 ```
 # Functions

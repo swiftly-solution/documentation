@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTablet(ptr --[[ string ]])
+CTablet(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: ctablet.Parent
 ```
 # Functions

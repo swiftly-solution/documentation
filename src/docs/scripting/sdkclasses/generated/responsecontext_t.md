@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ResponseContext_t(ptr --[[ string ]])
+ResponseContext_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: responsecontext_t.Name
 Write: responsecontext_t.Name = value
 ```
 ## Value 
 ```lua
-@type string
+--- @type string
 Read: responsecontext_t.Value
 Write: responsecontext_t.Value = value
 ```
 ## ExpirationTime 
 ```lua
-@type number
+--- @type number
 Read: responsecontext_t.ExpirationTime
 Write: responsecontext_t.ExpirationTime = value
 ```

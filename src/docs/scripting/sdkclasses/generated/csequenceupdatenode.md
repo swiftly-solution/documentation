@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSequenceUpdateNode(ptr --[[ string ]])
+CSequenceUpdateNode(ptr)
 ```
 # Properties
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: csequenceupdatenode.Sequence
 Write: csequenceupdatenode.Sequence = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: csequenceupdatenode.Duration
 Write: csequenceupdatenode.Duration = value
 ```
 ## ParamSpans (Read-Only)
 ```lua
-@type CParamSpanUpdater
+--- @type CParamSpanUpdater
 Read: csequenceupdatenode.ParamSpans
 ```
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csequenceupdatenode.Tags
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSequenceUpdateNodeBase
+--- @type CSequenceUpdateNodeBase
 Read: csequenceupdatenode.Parent
 ```
 # Functions

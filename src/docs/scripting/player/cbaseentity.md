@@ -11,7 +11,7 @@ Returns the player's CBaseEntity based of CCSPlayerPawn.
 ::: tabs
 @tab Lua
 ```lua
-@returns CBaseEntity
+--- @return CBaseEntity
 player:CBaseEntity()
 ```
 

@@ -11,7 +11,7 @@ Returns a list of the commands registered by all the plugins.
 ::: tabs
 @tab Lua
 ```lua
-@returns table
+--- @return table
 commands:GetAllCommands()
 ```
 

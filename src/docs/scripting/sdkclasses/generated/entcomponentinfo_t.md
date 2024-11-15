@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EntComponentInfo_t(ptr --[[ string ]])
+EntComponentInfo_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: entcomponentinfo_t.Name
 Write: entcomponentinfo_t.Name = value
 ```
 ## CPPClassname 
 ```lua
-@type string
+--- @type string
 Read: entcomponentinfo_t.CPPClassname
 Write: entcomponentinfo_t.CPPClassname = value
 ```
 ## NetworkDataReferencedDescription 
 ```lua
-@type string
+--- @type string
 Read: entcomponentinfo_t.NetworkDataReferencedDescription
 Write: entcomponentinfo_t.NetworkDataReferencedDescription = value
 ```
 ## NetworkDataReferencedPtrPropDescription 
 ```lua
-@type string
+--- @type string
 Read: entcomponentinfo_t.NetworkDataReferencedPtrPropDescription
 Write: entcomponentinfo_t.NetworkDataReferencedPtrPropDescription = value
 ```
 ## RuntimeIndex 
 ```lua
-@type number
+--- @type number
 Read: entcomponentinfo_t.RuntimeIndex
 Write: entcomponentinfo_t.RuntimeIndex = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: entcomponentinfo_t.Flags
 Write: entcomponentinfo_t.Flags = value
 ```
 ## BaseClassComponentHelper (Read-Only)
 ```lua
-@type CEntityComponentHelper
+--- @type CEntityComponentHelper
 Read: entcomponentinfo_t.BaseClassComponentHelper
 ```
 # Functions

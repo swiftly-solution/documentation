@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootStride(ptr --[[ string ]])
+CFootStride(ptr)
 ```
 # Properties
 ## Definition (Read-Only)
 ```lua
-@type CFootCycleDefinition
+--- @type CFootCycleDefinition
 Read: cfootstride.Definition
 ```
 ## Trajectories (Read-Only)
 ```lua
-@type CFootTrajectories
+--- @type CFootTrajectories
 Read: cfootstride.Trajectories
 ```
 # Functions

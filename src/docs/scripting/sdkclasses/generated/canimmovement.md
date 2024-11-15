@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimMovement(ptr --[[ string ]])
+CAnimMovement(ptr)
 ```
 # Properties
 ## 0 
 ```lua
-@type number
+--- @type number
 Read: canimmovement.0
 Write: canimmovement.0 = value
 ```
 ## 1 
 ```lua
-@type number
+--- @type number
 Read: canimmovement.1
 Write: canimmovement.1 = value
 ```
 ## Endframe 
 ```lua
-@type number
+--- @type number
 Read: canimmovement.Endframe
 Write: canimmovement.Endframe = value
 ```
 ## Motionflags 
 ```lua
-@type number
+--- @type number
 Read: canimmovement.Motionflags
 Write: canimmovement.Motionflags = value
 ```
 ## Angle 
 ```lua
-@type number
+--- @type number
 Read: canimmovement.Angle
 Write: canimmovement.Angle = value
 ```
 ## Vector 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimmovement.Vector
 Write: canimmovement.Vector = value
 ```
 ## Position 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimmovement.Position
 Write: canimmovement.Position = value
 ```

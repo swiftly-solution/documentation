@@ -11,8 +11,9 @@ This event is triggered when player_ping_stop is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerPingStop", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerPingStop", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

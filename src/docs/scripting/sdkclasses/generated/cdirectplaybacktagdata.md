@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDirectPlaybackTagData(ptr --[[ string ]])
+CDirectPlaybackTagData(ptr)
 ```
 # Properties
 ## SequenceName 
 ```lua
-@type string
+--- @type string
 Read: cdirectplaybacktagdata.SequenceName
 Write: cdirectplaybacktagdata.SequenceName = value
 ```
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdirectplaybacktagdata.Tags
 ```
 # Functions

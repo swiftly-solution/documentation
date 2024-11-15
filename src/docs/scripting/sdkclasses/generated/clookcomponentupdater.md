@@ -12,53 +12,53 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLookComponentUpdater(ptr --[[ string ]])
+CLookComponentUpdater(ptr)
 ```
 # Properties
 ## LookHeading (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookHeading
 ```
 ## LookHeadingVelocity (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookHeadingVelocity
 ```
 ## LookPitch (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookPitch
 ```
 ## LookDistance (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookDistance
 ```
 ## LookDirection (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookDirection
 ```
 ## LookTarget (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookTarget
 ```
 ## LookTargetWorldSpace (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: clookcomponentupdater.LookTargetWorldSpace
 ```
 ## NetworkLookTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: clookcomponentupdater.NetworkLookTarget
 Write: clookcomponentupdater.NetworkLookTarget = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: clookcomponentupdater.Parent
 ```
 # Functions

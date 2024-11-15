@@ -11,8 +11,10 @@ Set the number unsigned 64-bit value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookUInt64(index --[[ number ]], value --[[ number ]])
+--- @param index number
+--- @param value number
+--- @return nil
+event:SetHookUInt64(index, value)
 ```
 
 :::

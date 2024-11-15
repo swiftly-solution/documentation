@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSObserverPawn(ptr --[[ string ]])
+CCSObserverPawn(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSPlayerPawnBase
+--- @type CCSPlayerPawnBase
 Read: ccsobserverpawn.Parent
 ```
 # Functions

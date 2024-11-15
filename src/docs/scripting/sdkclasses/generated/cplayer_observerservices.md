@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayer_ObserverServices(ptr --[[ string ]])
+CPlayer_ObserverServices(ptr)
 ```
 # Properties
 ## ObserverMode 
 ```lua
-@type number
+--- @type number
 Read: cplayer_observerservices.ObserverMode
 Write: cplayer_observerservices.ObserverMode = value
 ```
 ## ObserverTarget (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cplayer_observerservices.ObserverTarget
 ```
 ## ObserverLastMode 
 ```lua
-@type number
+--- @type number
 Read: cplayer_observerservices.ObserverLastMode
 Write: cplayer_observerservices.ObserverLastMode = value
 ```
 ## ForcedObserverMode 
 ```lua
-@type boolean
+--- @type boolean
 Read: cplayer_observerservices.ForcedObserverMode
 Write: cplayer_observerservices.ForcedObserverMode = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: cplayer_observerservices.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNetworkTransmitComponent(ptr --[[ string ]])
+CNetworkTransmitComponent(ptr)
 ```
 # Properties
 ## TransmitStateOwnedCounter 
 ```lua
-@type number
+--- @type number
 Read: cnetworktransmitcomponent.TransmitStateOwnedCounter
 Write: cnetworktransmitcomponent.TransmitStateOwnedCounter = value
 ```

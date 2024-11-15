@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlatTrigger(ptr --[[ string ]])
+CPlatTrigger(ptr)
 ```
 # Properties
 ## Platform (Read-Only)
 ```lua
-@type CFuncPlat
+--- @type CFuncPlat
 Read: cplattrigger.Platform
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cplattrigger.Parent
 ```
 # Functions

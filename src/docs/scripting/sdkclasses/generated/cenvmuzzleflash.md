@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvMuzzleFlash(ptr --[[ string ]])
+CEnvMuzzleFlash(ptr)
 ```
 # Properties
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: cenvmuzzleflash.Scale
 Write: cenvmuzzleflash.Scale = value
 ```
 ## ParentAttachment 
 ```lua
-@type string
+--- @type string
 Read: cenvmuzzleflash.ParentAttachment
 Write: cenvmuzzleflash.ParentAttachment = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvmuzzleflash.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_PreLayer(ptr --[[ string ]])
+CSSDSMsg_PreLayer(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSSDSMsg_LayerBase
+--- @type CSSDSMsg_LayerBase
 Read: cssdsmsg_prelayer.Parent
 ```
 # Functions

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EntOutput_t(ptr --[[ string ]])
+EntOutput_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

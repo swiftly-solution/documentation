@@ -11,8 +11,9 @@ This event is triggered when cs_round_final_beep is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnCsRoundFinalBeep", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnCsRoundFinalBeep", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

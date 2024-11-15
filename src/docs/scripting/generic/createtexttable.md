@@ -11,8 +11,9 @@ Returns a string table generated from provided arguments.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-CreateTextTable(data --[[ table ]])
+--- @param data table
+--- @return string
+CreateTextTable(data)
 ```
 
 :::

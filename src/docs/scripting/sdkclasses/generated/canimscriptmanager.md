@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimScriptManager(ptr --[[ string ]])
+CAnimScriptManager(ptr)
 ```
 # Properties
 ## ScriptInfo (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimscriptmanager.ScriptInfo
 ```
 # Functions

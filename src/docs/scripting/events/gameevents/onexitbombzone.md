@@ -11,8 +11,9 @@ This event is triggered when exit_bombzone is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnExitBombzone", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnExitBombzone", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

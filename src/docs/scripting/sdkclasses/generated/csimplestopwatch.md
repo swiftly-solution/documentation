@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSimpleStopwatch(ptr --[[ string ]])
+CSimpleStopwatch(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CStopwatchBase
+--- @type CStopwatchBase
 Read: csimplestopwatch.Parent
 ```
 # Functions

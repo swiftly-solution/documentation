@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SceneViewId_t(ptr --[[ string ]])
+SceneViewId_t(ptr)
 ```
 # Properties
 ## ViewId 
 ```lua
-@type number
+--- @type number
 Read: sceneviewid_t.ViewId
 Write: sceneviewid_t.ViewId = value
 ```
 ## FrameCount 
 ```lua
-@type number
+--- @type number
 Read: sceneviewid_t.FrameCount
 Write: sceneviewid_t.FrameCount = value
 ```

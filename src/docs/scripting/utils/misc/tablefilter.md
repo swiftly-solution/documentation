@@ -11,8 +11,10 @@ Filters elements of a table based on a provided predicate function, returning a 
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-table.filter(tbl --[[ table ]], callback --[[ function ]])
+--- @param tbl table
+--- @param callback function
+--- @return table
+table.filter(tbl, callback)
 ```
 The callback has the following arguments:
 ```lua

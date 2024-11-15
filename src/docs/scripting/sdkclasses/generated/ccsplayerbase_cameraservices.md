@@ -12,46 +12,46 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayerBase_CameraServices(ptr --[[ string ]])
+CCSPlayerBase_CameraServices(ptr)
 ```
 # Properties
 ## FOV 
 ```lua
-@type number
+--- @type number
 Read: ccsplayerbase_cameraservices.FOV
 Write: ccsplayerbase_cameraservices.FOV = value
 ```
 ## FOVStart 
 ```lua
-@type number
+--- @type number
 Read: ccsplayerbase_cameraservices.FOVStart
 Write: ccsplayerbase_cameraservices.FOVStart = value
 ```
 ## FOVTime 
 ```lua
-@type number
+--- @type number
 Read: ccsplayerbase_cameraservices.FOVTime
 Write: ccsplayerbase_cameraservices.FOVTime = value
 ```
 ## FOVRate 
 ```lua
-@type number
+--- @type number
 Read: ccsplayerbase_cameraservices.FOVRate
 Write: ccsplayerbase_cameraservices.FOVRate = value
 ```
 ## ZoomOwner (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayerbase_cameraservices.ZoomOwner
 ```
 ## LastFogTrigger (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayerbase_cameraservices.LastFogTrigger
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_CameraServices
+--- @type CPlayer_CameraServices
 Read: ccsplayerbase_cameraservices.Parent
 ```
 # Functions

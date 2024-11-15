@@ -11,8 +11,9 @@ This event is triggered when ugc_map_download_error is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnUgcMapDownloadError", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnUgcMapDownloadError", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

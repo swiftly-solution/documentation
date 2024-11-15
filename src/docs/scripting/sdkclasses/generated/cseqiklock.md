@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqIKLock(ptr --[[ string ]])
+CSeqIKLock(ptr)
 ```
 # Properties
 ## PosWeight 
 ```lua
-@type number
+--- @type number
 Read: cseqiklock.PosWeight
 Write: cseqiklock.PosWeight = value
 ```
 ## AngleWeight 
 ```lua
-@type number
+--- @type number
 Read: cseqiklock.AngleWeight
 Write: cseqiklock.AngleWeight = value
 ```
 ## LocalBone 
 ```lua
-@type number
+--- @type number
 Read: cseqiklock.LocalBone
 Write: cseqiklock.LocalBone = value
 ```
 ## BonesOrientedAlongPositiveX 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqiklock.BonesOrientedAlongPositiveX
 Write: cseqiklock.BonesOrientedAlongPositiveX = value
 ```

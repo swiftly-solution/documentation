@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CReplicationParameters(ptr --[[ string ]])
+CReplicationParameters(ptr)
 ```
 # Properties
 ## ReplicationMode 
 ```lua
-@type number
+--- @type number
 Read: creplicationparameters.ReplicationMode
 Write: creplicationparameters.ReplicationMode = value
 ```
 ## ScaleChildParticleRadii 
 ```lua
-@type boolean
+--- @type boolean
 Read: creplicationparameters.ScaleChildParticleRadii
 Write: creplicationparameters.ScaleChildParticleRadii = value
 ```
 ## MinRandomRadiusScale (Read-Only)
 ```lua
-@type CParticleCollectionFloatInput
+--- @type CParticleCollectionFloatInput
 Read: creplicationparameters.MinRandomRadiusScale
 ```
 ## MaxRandomRadiusScale (Read-Only)
 ```lua
-@type CParticleCollectionFloatInput
+--- @type CParticleCollectionFloatInput
 Read: creplicationparameters.MaxRandomRadiusScale
 ```
 ## ModellingScale (Read-Only)
 ```lua
-@type CParticleCollectionFloatInput
+--- @type CParticleCollectionFloatInput
 Read: creplicationparameters.ModellingScale
 ```
 # Functions

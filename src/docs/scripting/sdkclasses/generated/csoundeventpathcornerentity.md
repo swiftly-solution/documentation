@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventPathCornerEntity(ptr --[[ string ]])
+CSoundEventPathCornerEntity(ptr)
 ```
 # Properties
 ## PathCorner 
 ```lua
-@type string
+--- @type string
 Read: csoundeventpathcornerentity.PathCorner
 Write: csoundeventpathcornerentity.PathCorner = value
 ```
 ## CountMax 
 ```lua
-@type number
+--- @type number
 Read: csoundeventpathcornerentity.CountMax
 Write: csoundeventpathcornerentity.CountMax = value
 ```
 ## DistanceMax 
 ```lua
-@type number
+--- @type number
 Read: csoundeventpathcornerentity.DistanceMax
 Write: csoundeventpathcornerentity.DistanceMax = value
 ```
 ## DistMaxSqr 
 ```lua
-@type number
+--- @type number
 Read: csoundeventpathcornerentity.DistMaxSqr
 Write: csoundeventpathcornerentity.DistMaxSqr = value
 ```
 ## DotProductMax 
 ```lua
-@type number
+--- @type number
 Read: csoundeventpathcornerentity.DotProductMax
 Write: csoundeventpathcornerentity.DotProductMax = value
 ```
 ## Playing 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundeventpathcornerentity.Playing
 Write: csoundeventpathcornerentity.Playing = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundEventEntity
+--- @type CSoundEventEntity
 Read: csoundeventpathcornerentity.Parent
 ```
 # Functions

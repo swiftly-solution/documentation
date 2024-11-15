@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmZeroPoseTask(ptr --[[ string ]])
+CNmZeroPoseTask(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmTask
+--- @type CNmTask
 Read: cnmzeroposetask.Parent
 ```
 # Functions

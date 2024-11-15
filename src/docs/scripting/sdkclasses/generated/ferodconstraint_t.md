@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeRodConstraint_t(ptr --[[ string ]])
+FeRodConstraint_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: ferodconstraint_t.Node
 Write: ferodconstraint_t.Node = value
 ```
 ## MaxDist 
 ```lua
-@type number
+--- @type number
 Read: ferodconstraint_t.MaxDist
 Write: ferodconstraint_t.MaxDist = value
 ```
 ## MinDist 
 ```lua
-@type number
+--- @type number
 Read: ferodconstraint_t.MinDist
 Write: ferodconstraint_t.MinDist = value
 ```
 ## Weight0 
 ```lua
-@type number
+--- @type number
 Read: ferodconstraint_t.Weight0
 Write: ferodconstraint_t.Weight0 = value
 ```
 ## RelaxationFactor 
 ```lua
-@type number
+--- @type number
 Read: ferodconstraint_t.RelaxationFactor
 Write: ferodconstraint_t.RelaxationFactor = value
 ```

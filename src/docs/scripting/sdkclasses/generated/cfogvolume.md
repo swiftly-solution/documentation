@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFogVolume(ptr --[[ string ]])
+CFogVolume(ptr)
 ```
 # Properties
 ## FogName 
 ```lua
-@type string
+--- @type string
 Read: cfogvolume.FogName
 Write: cfogvolume.FogName = value
 ```
 ## PostProcessName 
 ```lua
-@type string
+--- @type string
 Read: cfogvolume.PostProcessName
 Write: cfogvolume.PostProcessName = value
 ```
 ## ColorCorrectionName 
 ```lua
-@type string
+--- @type string
 Read: cfogvolume.ColorCorrectionName
 Write: cfogvolume.ColorCorrectionName = value
 ```
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfogvolume.Disabled
 Write: cfogvolume.Disabled = value
 ```
 ## InFogVolumesList 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfogvolume.InFogVolumesList
 Write: cfogvolume.InFogVolumesList = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyModelEntity
+--- @type CServerOnlyModelEntity
 Read: cfogvolume.Parent
 ```
 # Functions

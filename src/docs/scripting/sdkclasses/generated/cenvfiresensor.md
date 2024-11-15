@@ -12,58 +12,58 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvFireSensor(ptr --[[ string ]])
+CEnvFireSensor(ptr)
 ```
 # Properties
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvfiresensor.Enabled
 Write: cenvfiresensor.Enabled = value
 ```
 ## HeatAtLevel 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvfiresensor.HeatAtLevel
 Write: cenvfiresensor.HeatAtLevel = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresensor.Radius
 Write: cenvfiresensor.Radius = value
 ```
 ## TargetLevel 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresensor.TargetLevel
 Write: cenvfiresensor.TargetLevel = value
 ```
 ## TargetTime 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresensor.TargetTime
 Write: cenvfiresensor.TargetTime = value
 ```
 ## LevelTime 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresensor.LevelTime
 Write: cenvfiresensor.LevelTime = value
 ```
 ## OnHeatLevelStart (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvfiresensor.OnHeatLevelStart
 ```
 ## OnHeatLevelEnd (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvfiresensor.OnHeatLevelEnd
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvfiresensor.Parent
 ```
 # Functions

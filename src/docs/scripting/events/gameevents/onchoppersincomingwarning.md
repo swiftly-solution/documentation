@@ -11,8 +11,9 @@ This event is triggered when choppers_incoming_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnChoppersIncomingWarning", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnChoppersIncomingWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

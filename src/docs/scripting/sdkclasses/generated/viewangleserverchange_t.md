@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ViewAngleServerChange_t(ptr --[[ string ]])
+ViewAngleServerChange_t(ptr)
 ```
 # Properties
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: viewangleserverchange_t.Type
 Write: viewangleserverchange_t.Type = value
 ```
 ## Angle 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: viewangleserverchange_t.Angle
 Write: viewangleserverchange_t.Angle = value
 ```
 ## Index 
 ```lua
-@type number
+--- @type number
 Read: viewangleserverchange_t.Index
 Write: viewangleserverchange_t.Index = value
 ```

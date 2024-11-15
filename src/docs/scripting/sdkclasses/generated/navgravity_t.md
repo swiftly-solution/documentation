@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-NavGravity_t(ptr --[[ string ]])
+NavGravity_t(ptr)
 ```
 # Properties
 ## Gravity 
 ```lua
-@type Vector
+--- @type Vector
 Read: navgravity_t.Gravity
 Write: navgravity_t.Gravity = value
 ```
 ## Default 
 ```lua
-@type boolean
+--- @type boolean
 Read: navgravity_t.Default
 Write: navgravity_t.Default = value
 ```

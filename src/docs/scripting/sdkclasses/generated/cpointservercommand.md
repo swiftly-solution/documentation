@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointServerCommand(ptr --[[ string ]])
+CPointServerCommand(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointservercommand.Parent
 ```
 # Functions

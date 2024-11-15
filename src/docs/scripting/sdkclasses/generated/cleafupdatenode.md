@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLeafUpdateNode(ptr --[[ string ]])
+CLeafUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: cleafupdatenode.Parent
 ```
 # Functions

@@ -12,69 +12,69 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CChoiceUpdateNode(ptr --[[ string ]])
+CChoiceUpdateNode(ptr)
 ```
 # Properties
 ## Children (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cchoiceupdatenode.Children
 ```
 ## Weights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cchoiceupdatenode.Weights
 ```
 ## BlendTimes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cchoiceupdatenode.BlendTimes
 ```
 ## ChoiceMethod 
 ```lua
-@type number
+--- @type number
 Read: cchoiceupdatenode.ChoiceMethod
 Write: cchoiceupdatenode.ChoiceMethod = value
 ```
 ## ChoiceChangeMethod 
 ```lua
-@type number
+--- @type number
 Read: cchoiceupdatenode.ChoiceChangeMethod
 Write: cchoiceupdatenode.ChoiceChangeMethod = value
 ```
 ## BlendMethod 
 ```lua
-@type number
+--- @type number
 Read: cchoiceupdatenode.BlendMethod
 Write: cchoiceupdatenode.BlendMethod = value
 ```
 ## BlendTime 
 ```lua
-@type number
+--- @type number
 Read: cchoiceupdatenode.BlendTime
 Write: cchoiceupdatenode.BlendTime = value
 ```
 ## CrossFade 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchoiceupdatenode.CrossFade
 Write: cchoiceupdatenode.CrossFade = value
 ```
 ## ResetChosen 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchoiceupdatenode.ResetChosen
 Write: cchoiceupdatenode.ResetChosen = value
 ```
 ## DontResetSameSelection 
 ```lua
-@type boolean
+--- @type boolean
 Read: cchoiceupdatenode.DontResetSameSelection
 Write: cchoiceupdatenode.DontResetSameSelection = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: cchoiceupdatenode.Parent
 ```
 # Functions

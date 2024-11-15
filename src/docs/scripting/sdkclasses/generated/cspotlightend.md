@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSpotlightEnd(ptr --[[ string ]])
+CSpotlightEnd(ptr)
 ```
 # Properties
 ## LightScale 
 ```lua
-@type number
+--- @type number
 Read: cspotlightend.LightScale
 Write: cspotlightend.LightScale = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cspotlightend.Radius
 Write: cspotlightend.Radius = value
 ```
 ## SpotlightDir 
 ```lua
-@type Vector
+--- @type Vector
 Read: cspotlightend.SpotlightDir
 Write: cspotlightend.SpotlightDir = value
 ```
 ## SpotlightOrg 
 ```lua
-@type Vector
+--- @type Vector
 Read: cspotlightend.SpotlightOrg
 Write: cspotlightend.SpotlightOrg = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cspotlightend.Parent
 ```
 # Functions

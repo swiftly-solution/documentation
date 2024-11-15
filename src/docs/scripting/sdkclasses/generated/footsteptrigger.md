@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FootStepTrigger(ptr --[[ string ]])
+FootStepTrigger(ptr)
 ```
 # Properties
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: footsteptrigger.Tags
 ```
 ## FootIndex 
 ```lua
-@type number
+--- @type number
 Read: footsteptrigger.FootIndex
 Write: footsteptrigger.FootIndex = value
 ```
 ## TriggerPhase 
 ```lua
-@type number
+--- @type number
 Read: footsteptrigger.TriggerPhase
 Write: footsteptrigger.TriggerPhase = value
 ```

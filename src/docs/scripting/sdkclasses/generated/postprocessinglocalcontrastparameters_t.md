@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PostProcessingLocalContrastParameters_t(ptr --[[ string ]])
+PostProcessingLocalContrastParameters_t(ptr)
 ```
 # Properties
 ## LocalContrastStrength 
 ```lua
-@type number
+--- @type number
 Read: postprocessinglocalcontrastparameters_t.LocalContrastStrength
 Write: postprocessinglocalcontrastparameters_t.LocalContrastStrength = value
 ```
 ## LocalContrastEdgeStrength 
 ```lua
-@type number
+--- @type number
 Read: postprocessinglocalcontrastparameters_t.LocalContrastEdgeStrength
 Write: postprocessinglocalcontrastparameters_t.LocalContrastEdgeStrength = value
 ```
 ## LocalContrastVignetteStart 
 ```lua
-@type number
+--- @type number
 Read: postprocessinglocalcontrastparameters_t.LocalContrastVignetteStart
 Write: postprocessinglocalcontrastparameters_t.LocalContrastVignetteStart = value
 ```
 ## LocalContrastVignetteEnd 
 ```lua
-@type number
+--- @type number
 Read: postprocessinglocalcontrastparameters_t.LocalContrastVignetteEnd
 Write: postprocessinglocalcontrastparameters_t.LocalContrastVignetteEnd = value
 ```
 ## LocalContrastVignetteBlur 
 ```lua
-@type number
+--- @type number
 Read: postprocessinglocalcontrastparameters_t.LocalContrastVignetteBlur
 Write: postprocessinglocalcontrastparameters_t.LocalContrastVignetteBlur = value
 ```

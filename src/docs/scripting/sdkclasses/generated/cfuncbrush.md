@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncBrush(ptr --[[ string ]])
+CFuncBrush(ptr)
 ```
 # Properties
 ## Solidity 
 ```lua
-@type number
+--- @type number
 Read: cfuncbrush.Solidity
 Write: cfuncbrush.Solidity = value
 ```
 ## Disabled 
 ```lua
-@type number
+--- @type number
 Read: cfuncbrush.Disabled
 Write: cfuncbrush.Disabled = value
 ```
 ## SolidBsp 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncbrush.SolidBsp
 Write: cfuncbrush.SolidBsp = value
 ```
 ## ExcludedClass 
 ```lua
-@type string
+--- @type string
 Read: cfuncbrush.ExcludedClass
 Write: cfuncbrush.ExcludedClass = value
 ```
 ## InvertExclusion 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncbrush.InvertExclusion
 Write: cfuncbrush.InvertExclusion = value
 ```
 ## ScriptedMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncbrush.ScriptedMovement
 Write: cfuncbrush.ScriptedMovement = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncbrush.Parent
 ```
 # Functions

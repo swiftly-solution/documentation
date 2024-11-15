@@ -11,8 +11,9 @@ Executes a command in the server console.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-server:Execute(command --[[ string ]])
+--- @param command string
+--- @return nil
+server:Execute(command)
 ```
 
 :::

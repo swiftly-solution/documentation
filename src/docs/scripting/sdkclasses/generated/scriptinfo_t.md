@@ -12,33 +12,33 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ScriptInfo_t(ptr --[[ string ]])
+ScriptInfo_t(ptr)
 ```
 # Properties
 ## Code 
 ```lua
-@type string
+--- @type string
 Read: scriptinfo_t.Code
 Write: scriptinfo_t.Code = value
 ```
 ## ParamsModified (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: scriptinfo_t.ParamsModified
 ```
 ## ProxyReadParams (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: scriptinfo_t.ProxyReadParams
 ```
 ## ProxyWriteParams (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: scriptinfo_t.ProxyWriteParams
 ```
 ## ScriptType 
 ```lua
-@type number
+--- @type number
 Read: scriptinfo_t.ScriptType
 Write: scriptinfo_t.ScriptType = value
 ```

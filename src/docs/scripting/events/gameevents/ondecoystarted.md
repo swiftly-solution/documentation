@@ -11,8 +11,9 @@ This event is triggered when decoy_started is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDecoyStarted", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDecoyStarted", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

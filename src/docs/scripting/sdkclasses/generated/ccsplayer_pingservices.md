@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_PingServices(ptr --[[ string ]])
+CCSPlayer_PingServices(ptr)
 ```
 # Properties
 ## PlayerPingTokens 
 ```lua
-@type table
+--- @type table
 Read: ccsplayer_pingservices.PlayerPingTokens
 Write: ccsplayer_pingservices.PlayerPingTokens = value
 ```
 ## PlayerPing (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayer_pingservices.PlayerPing
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_pingservices.Parent
 ```
 # Functions

@@ -11,8 +11,10 @@ Maps a given function to each element in a table, returning a new table with the
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-table.map(tbl --[[ table ]], callback --[[ function ]])
+--- @param tbl table
+--- @param callback function
+--- @return table
+table.map(tbl, callback)
 ```
 The callback has the following arguments:
 ```lua

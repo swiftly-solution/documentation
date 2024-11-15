@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimParameterBase(ptr --[[ string ]])
+CAnimParameterBase(ptr)
 ```
 # Properties
 ## Comment 
 ```lua
-@type string
+--- @type string
 Read: canimparameterbase.Comment
 Write: canimparameterbase.Comment = value
 ```
 ## Group 
 ```lua
-@type string
+--- @type string
 Read: canimparameterbase.Group
 Write: canimparameterbase.Group = value
 ```
 ## Id (Read-Only)
 ```lua
-@type AnimParamID
+--- @type AnimParamID
 Read: canimparameterbase.Id
 ```
 ## ComponentName 
 ```lua
-@type string
+--- @type string
 Read: canimparameterbase.ComponentName
 Write: canimparameterbase.ComponentName = value
 ```
 ## NetworkingRequested 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimparameterbase.NetworkingRequested
 Write: canimparameterbase.NetworkingRequested = value
 ```
 ## IsReferenced 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimparameterbase.IsReferenced
 Write: canimparameterbase.IsReferenced = value
 ```

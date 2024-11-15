@@ -11,8 +11,9 @@ This event is triggered when player_reset_vote is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerResetVote", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerResetVote", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

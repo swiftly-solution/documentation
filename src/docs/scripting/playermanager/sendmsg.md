@@ -11,8 +11,10 @@ Sends a message to all the online players.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-playermanager:SendMsg(msgType --[[ MessageType ]], text --[[ string ]])
+--- @param msgType number MessageType
+--- @param text string
+--- @return nil
+playermanager:SendMsg(msgType, text)
 ```
 
 

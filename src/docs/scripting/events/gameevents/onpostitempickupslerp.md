@@ -11,8 +11,9 @@ This event is triggered after item_pickup_slerp is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostItemPickupSlerp", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostItemPickupSlerp", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

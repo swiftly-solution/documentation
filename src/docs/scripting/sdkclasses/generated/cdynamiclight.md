@@ -12,66 +12,66 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDynamicLight(ptr --[[ string ]])
+CDynamicLight(ptr)
 ```
 # Properties
 ## ActualFlags 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.ActualFlags
 Write: cdynamiclight.ActualFlags = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.Flags
 Write: cdynamiclight.Flags = value
 ```
 ## LightStyle 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.LightStyle
 Write: cdynamiclight.LightStyle = value
 ```
 ## On 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdynamiclight.On
 Write: cdynamiclight.On = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.Radius
 Write: cdynamiclight.Radius = value
 ```
 ## Exponent 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.Exponent
 Write: cdynamiclight.Exponent = value
 ```
 ## InnerAngle 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.InnerAngle
 Write: cdynamiclight.InnerAngle = value
 ```
 ## OuterAngle 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.OuterAngle
 Write: cdynamiclight.OuterAngle = value
 ```
 ## SpotRadius 
 ```lua
-@type number
+--- @type number
 Read: cdynamiclight.SpotRadius
 Write: cdynamiclight.SpotRadius = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cdynamiclight.Parent
 ```
 # Functions

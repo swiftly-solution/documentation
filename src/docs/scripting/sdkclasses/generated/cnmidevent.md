@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmIDEvent(ptr --[[ string ]])
+CNmIDEvent(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmidevent.Parent
 ```
 # Functions

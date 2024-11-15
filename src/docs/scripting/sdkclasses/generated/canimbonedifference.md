@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimBoneDifference(ptr --[[ string ]])
+CAnimBoneDifference(ptr)
 ```
 # Properties
 ## PosError 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimbonedifference.PosError
 Write: canimbonedifference.PosError = value
 ```
 ## HasRotation 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimbonedifference.HasRotation
 Write: canimbonedifference.HasRotation = value
 ```
 ## HasMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimbonedifference.HasMovement
 Write: canimbonedifference.HasMovement = value
 ```

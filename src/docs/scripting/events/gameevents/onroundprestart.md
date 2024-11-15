@@ -11,8 +11,9 @@ This event is triggered when round_prestart is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundPrestart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundPrestart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

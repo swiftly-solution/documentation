@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleInput(ptr --[[ string ]])
+CParticleInput(ptr)
 ```
 # Properties
 There are no properties available for this class.

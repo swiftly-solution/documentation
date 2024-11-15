@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerSelector(ptr --[[ string ]])
+CVoiceContainerSelector(ptr)
 ```
 # Properties
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerselector.Mode
 Write: cvoicecontainerselector.Mode = value
 ```
 ## SoundsToPlay (Read-Only)
 ```lua
-@type CSoundContainerReferenceArray
+--- @type CSoundContainerReferenceArray
 Read: cvoicecontainerselector.SoundsToPlay
 ```
 ## ProbabilityWeights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cvoicecontainerselector.ProbabilityWeights
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerselector.Parent
 ```
 # Functions

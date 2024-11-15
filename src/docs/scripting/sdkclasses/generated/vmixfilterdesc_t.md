@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixFilterDesc_t(ptr --[[ string ]])
+VMixFilterDesc_t(ptr)
 ```
 # Properties
 ## FilterType 
 ```lua
-@type number
+--- @type number
 Read: vmixfilterdesc_t.FilterType
 Write: vmixfilterdesc_t.FilterType = value
 ```
 ## FilterSlope 
 ```lua
-@type number
+--- @type number
 Read: vmixfilterdesc_t.FilterSlope
 Write: vmixfilterdesc_t.FilterSlope = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: vmixfilterdesc_t.Enabled
 Write: vmixfilterdesc_t.Enabled = value
 ```
 ## FldbGain 
 ```lua
-@type number
+--- @type number
 Read: vmixfilterdesc_t.FldbGain
 Write: vmixfilterdesc_t.FldbGain = value
 ```
 ## CutoffFreq 
 ```lua
-@type number
+--- @type number
 Read: vmixfilterdesc_t.CutoffFreq
 Write: vmixfilterdesc_t.CutoffFreq = value
 ```
 ## Q 
 ```lua
-@type number
+--- @type number
 Read: vmixfilterdesc_t.Q
 Write: vmixfilterdesc_t.Q = value
 ```

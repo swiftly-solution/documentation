@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTonemapController2(ptr --[[ string ]])
+CTonemapController2(ptr)
 ```
 # Properties
 ## AutoExposureMin 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.AutoExposureMin
 Write: ctonemapcontroller2.AutoExposureMin = value
 ```
 ## AutoExposureMax 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.AutoExposureMax
 Write: ctonemapcontroller2.AutoExposureMax = value
 ```
 ## TonemapPercentTarget 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.TonemapPercentTarget
 Write: ctonemapcontroller2.TonemapPercentTarget = value
 ```
 ## TonemapPercentBrightPixels 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.TonemapPercentBrightPixels
 Write: ctonemapcontroller2.TonemapPercentBrightPixels = value
 ```
 ## TonemapMinAvgLum 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.TonemapMinAvgLum
 Write: ctonemapcontroller2.TonemapMinAvgLum = value
 ```
 ## ExposureAdaptationSpeedUp 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.ExposureAdaptationSpeedUp
 Write: ctonemapcontroller2.ExposureAdaptationSpeedUp = value
 ```
 ## ExposureAdaptationSpeedDown 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.ExposureAdaptationSpeedDown
 Write: ctonemapcontroller2.ExposureAdaptationSpeedDown = value
 ```
 ## TonemapEVSmoothingRange 
 ```lua
-@type number
+--- @type number
 Read: ctonemapcontroller2.TonemapEVSmoothingRange
 Write: ctonemapcontroller2.TonemapEVSmoothingRange = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ctonemapcontroller2.Parent
 ```
 # Functions

@@ -12,32 +12,32 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimSkeleton(ptr --[[ string ]])
+CAnimSkeleton(ptr)
 ```
 # Properties
 ## BoneNames (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimskeleton.BoneNames
 ```
 ## Parents (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimskeleton.Parents
 ```
 ## Feet (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimskeleton.Feet
 ```
 ## MorphNames (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimskeleton.MorphNames
 ```
 ## LodBoneCounts (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimskeleton.LodBoneCounts
 ```
 # Functions

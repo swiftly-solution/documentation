@@ -11,7 +11,7 @@ Checks if the pointer is null or not.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 memory:IsValid()
 ```
 

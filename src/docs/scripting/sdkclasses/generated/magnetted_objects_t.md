@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-magnetted_objects_t(ptr --[[ string ]])
+magnetted_objects_t(ptr)
 ```
 # Properties
 ## Entity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: magnetted_objects_t.Entity
 ```
 # Functions

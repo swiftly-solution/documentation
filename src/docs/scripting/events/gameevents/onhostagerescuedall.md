@@ -11,8 +11,9 @@ This event is triggered when hostage_rescued_all is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHostageRescuedAll", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHostageRescuedAll", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

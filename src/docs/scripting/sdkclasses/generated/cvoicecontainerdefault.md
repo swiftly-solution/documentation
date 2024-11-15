@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerDefault(ptr --[[ string ]])
+CVoiceContainerDefault(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerdefault.Parent
 ```
 # Functions

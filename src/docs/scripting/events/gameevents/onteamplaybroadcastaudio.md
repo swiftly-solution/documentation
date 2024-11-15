@@ -11,8 +11,9 @@ This event is triggered when teamplay_broadcast_audio is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTeamplayBroadcastAudio", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTeamplayBroadcastAudio", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

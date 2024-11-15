@@ -11,8 +11,9 @@ This event is triggered after smokegrenade_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSmokegrenadeDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSmokegrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

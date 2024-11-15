@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathAnimMotorUpdater(ptr --[[ string ]])
+CPathAnimMotorUpdater(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPathAnimMotorUpdaterBase
+--- @type CPathAnimMotorUpdaterBase
 Read: cpathanimmotorupdater.Parent
 ```
 # Functions

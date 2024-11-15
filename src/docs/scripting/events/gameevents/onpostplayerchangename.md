@@ -11,8 +11,9 @@ This event is triggered after player_changename is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerChangename", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerChangename", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

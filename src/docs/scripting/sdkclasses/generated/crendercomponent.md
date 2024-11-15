@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRenderComponent(ptr --[[ string ]])
+CRenderComponent(ptr)
 ```
 # Properties
 ## __pChainEntity (Read-Only)
 ```lua
-@type CNetworkVarChainer
+--- @type CNetworkVarChainer
 Read: crendercomponent.__pChainEntity
 ```
 ## IsRenderingWithViewModels 
 ```lua
-@type boolean
+--- @type boolean
 Read: crendercomponent.IsRenderingWithViewModels
 Write: crendercomponent.IsRenderingWithViewModels = value
 ```
 ## SplitscreenFlags 
 ```lua
-@type number
+--- @type number
 Read: crendercomponent.SplitscreenFlags
 Write: crendercomponent.SplitscreenFlags = value
 ```
 ## EnableRendering 
 ```lua
-@type boolean
+--- @type boolean
 Read: crendercomponent.EnableRendering
 Write: crendercomponent.EnableRendering = value
 ```
 ## InterpolationReadyToDraw 
 ```lua
-@type boolean
+--- @type boolean
 Read: crendercomponent.InterpolationReadyToDraw
 Write: crendercomponent.InterpolationReadyToDraw = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEntityComponent
+--- @type CEntityComponent
 Read: crendercomponent.Parent
 ```
 # Functions

@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CIntAnimParameter(ptr --[[ string ]])
+CIntAnimParameter(ptr)
 ```
 # Properties
 ## DefaultValue 
 ```lua
-@type number
+--- @type number
 Read: cintanimparameter.DefaultValue
 Write: cintanimparameter.DefaultValue = value
 ```
 ## MinValue 
 ```lua
-@type number
+--- @type number
 Read: cintanimparameter.MinValue
 Write: cintanimparameter.MinValue = value
 ```
 ## MaxValue 
 ```lua
-@type number
+--- @type number
 Read: cintanimparameter.MaxValue
 Write: cintanimparameter.MaxValue = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CConcreteAnimParameter
+--- @type CConcreteAnimParameter
 Read: cintanimparameter.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-StanceInfo_t(ptr --[[ string ]])
+StanceInfo_t(ptr)
 ```
 # Properties
 ## Position 
 ```lua
-@type Vector
+--- @type Vector
 Read: stanceinfo_t.Position
 Write: stanceinfo_t.Position = value
 ```
 ## Direction 
 ```lua
-@type number
+--- @type number
 Read: stanceinfo_t.Direction
 Write: stanceinfo_t.Direction = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFilterMassGreater(ptr --[[ string ]])
+CFilterMassGreater(ptr)
 ```
 # Properties
 ## FilterMass 
 ```lua
-@type number
+--- @type number
 Read: cfiltermassgreater.FilterMass
 Write: cfiltermassgreater.FilterMass = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cfiltermassgreater.Parent
 ```
 # Functions

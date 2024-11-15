@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimFoot(ptr --[[ string ]])
+CAnimFoot(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: canimfoot.Name
 Write: canimfoot.Name = value
 ```
 ## BallOffset 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimfoot.BallOffset
 Write: canimfoot.BallOffset = value
 ```
 ## HeelOffset 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimfoot.HeelOffset
 Write: canimfoot.HeelOffset = value
 ```
 ## AnkleBoneIndex 
 ```lua
-@type number
+--- @type number
 Read: canimfoot.AnkleBoneIndex
 Write: canimfoot.AnkleBoneIndex = value
 ```
 ## ToeBoneIndex 
 ```lua
-@type number
+--- @type number
 Read: canimfoot.ToeBoneIndex
 Write: canimfoot.ToeBoneIndex = value
 ```

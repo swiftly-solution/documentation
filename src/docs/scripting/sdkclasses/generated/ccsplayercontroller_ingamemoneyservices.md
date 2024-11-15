@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayerController_InGameMoneyServices(ptr --[[ string ]])
+CCSPlayerController_InGameMoneyServices(ptr)
 ```
 # Properties
 ## ReceivesMoneyNextRound 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayercontroller_ingamemoneyservices.ReceivesMoneyNextRound
 Write: ccsplayercontroller_ingamemoneyservices.ReceivesMoneyNextRound = value
 ```
 ## MoneyEarnedForNextRound 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_ingamemoneyservices.MoneyEarnedForNextRound
 Write: ccsplayercontroller_ingamemoneyservices.MoneyEarnedForNextRound = value
 ```
 ## Account 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_ingamemoneyservices.Account
 Write: ccsplayercontroller_ingamemoneyservices.Account = value
 ```
 ## StartAccount 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_ingamemoneyservices.StartAccount
 Write: ccsplayercontroller_ingamemoneyservices.StartAccount = value
 ```
 ## TotalCashSpent 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_ingamemoneyservices.TotalCashSpent
 Write: ccsplayercontroller_ingamemoneyservices.TotalCashSpent = value
 ```
 ## CashSpentThisRound 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_ingamemoneyservices.CashSpentThisRound
 Write: ccsplayercontroller_ingamemoneyservices.CashSpentThisRound = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerControllerComponent
+--- @type CPlayerControllerComponent
 Read: ccsplayercontroller_ingamemoneyservices.Parent
 ```
 # Functions

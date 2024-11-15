@@ -11,8 +11,9 @@ Set the number 64-bit value to the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:SetInt64(value --[[ number ]])
+--- @param value number
+--- @return nil
+memory:SetInt64(value)
 ```
 
 :::

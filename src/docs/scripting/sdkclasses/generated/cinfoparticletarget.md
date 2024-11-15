@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoParticleTarget(ptr --[[ string ]])
+CInfoParticleTarget(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfoparticletarget.Parent
 ```
 # Functions

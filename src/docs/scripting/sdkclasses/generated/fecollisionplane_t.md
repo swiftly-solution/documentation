@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeCollisionPlane_t(ptr --[[ string ]])
+FeCollisionPlane_t(ptr)
 ```
 # Properties
 ## CtrlParent 
 ```lua
-@type number
+--- @type number
 Read: fecollisionplane_t.CtrlParent
 Write: fecollisionplane_t.CtrlParent = value
 ```
 ## ChildNode 
 ```lua
-@type number
+--- @type number
 Read: fecollisionplane_t.ChildNode
 Write: fecollisionplane_t.ChildNode = value
 ```
 ## Plane (Read-Only)
 ```lua
-@type RnPlane_t
+--- @type RnPlane_t
 Read: fecollisionplane_t.Plane
 ```
 ## Strength 
 ```lua
-@type number
+--- @type number
 Read: fecollisionplane_t.Strength
 Write: fecollisionplane_t.Strength = value
 ```

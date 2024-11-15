@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRetakeGameRules(ptr --[[ string ]])
+CRetakeGameRules(ptr)
 ```
 # Properties
 ## MatchSeed 
 ```lua
-@type number
+--- @type number
 Read: cretakegamerules.MatchSeed
 Write: cretakegamerules.MatchSeed = value
 ```
 ## BlockersPresent 
 ```lua
-@type boolean
+--- @type boolean
 Read: cretakegamerules.BlockersPresent
 Write: cretakegamerules.BlockersPresent = value
 ```
 ## RoundInProgress 
 ```lua
-@type boolean
+--- @type boolean
 Read: cretakegamerules.RoundInProgress
 Write: cretakegamerules.RoundInProgress = value
 ```
 ## FirstSecondHalfRound 
 ```lua
-@type number
+--- @type number
 Read: cretakegamerules.FirstSecondHalfRound
 Write: cretakegamerules.FirstSecondHalfRound = value
 ```
 ## BombSite 
 ```lua
-@type number
+--- @type number
 Read: cretakegamerules.BombSite
 Write: cretakegamerules.BombSite = value
 ```

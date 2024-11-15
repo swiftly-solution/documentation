@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsPropRespawnable(ptr --[[ string ]])
+CPhysicsPropRespawnable(ptr)
 ```
 # Properties
 ## OriginalSpawnOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsproprespawnable.OriginalSpawnOrigin
 Write: cphysicsproprespawnable.OriginalSpawnOrigin = value
 ```
 ## OriginalSpawnAngles 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cphysicsproprespawnable.OriginalSpawnAngles
 Write: cphysicsproprespawnable.OriginalSpawnAngles = value
 ```
 ## OriginalMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsproprespawnable.OriginalMins
 Write: cphysicsproprespawnable.OriginalMins = value
 ```
 ## OriginalMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsproprespawnable.OriginalMaxs
 Write: cphysicsproprespawnable.OriginalMaxs = value
 ```
 ## RespawnDuration 
 ```lua
-@type number
+--- @type number
 Read: cphysicsproprespawnable.RespawnDuration
 Write: cphysicsproprespawnable.RespawnDuration = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysicsProp
+--- @type CPhysicsProp
 Read: cphysicsproprespawnable.Parent
 ```
 # Functions

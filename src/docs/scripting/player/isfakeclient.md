@@ -11,7 +11,7 @@ Checks if the player is a bot.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 player:IsFakeClient()
 ```
 

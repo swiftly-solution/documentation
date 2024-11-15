@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetAutoRoomEntity(ptr --[[ string ]])
+CSoundOpvarSetAutoRoomEntity(ptr)
 ```
 # Properties
 ## TraceResults (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csoundopvarsetautoroomentity.TraceResults
 ```
 ## DoorwayPairs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csoundopvarsetautoroomentity.DoorwayPairs
 ```
 ## Size 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetautoroomentity.Size
 Write: csoundopvarsetautoroomentity.Size = value
 ```
 ## HeightTolerance 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetautoroomentity.HeightTolerance
 Write: csoundopvarsetautoroomentity.HeightTolerance = value
 ```
 ## SizeSqr 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetautoroomentity.SizeSqr
 Write: csoundopvarsetautoroomentity.SizeSqr = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundOpvarSetPointEntity
+--- @type CSoundOpvarSetPointEntity
 Read: csoundopvarsetautoroomentity.Parent
 ```
 # Functions

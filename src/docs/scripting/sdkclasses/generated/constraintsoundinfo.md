@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ConstraintSoundInfo(ptr --[[ string ]])
+ConstraintSoundInfo(ptr)
 ```
 # Properties
 ## Sampler (Read-Only)
 ```lua
-@type VelocitySampler
+--- @type VelocitySampler
 Read: constraintsoundinfo.Sampler
 ```
 ## SoundProfile (Read-Only)
 ```lua
-@type SimpleConstraintSoundProfile
+--- @type SimpleConstraintSoundProfile
 Read: constraintsoundinfo.SoundProfile
 ```
 ## ForwardAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: constraintsoundinfo.ForwardAxis
 Write: constraintsoundinfo.ForwardAxis = value
 ```
 ## TravelSoundFwd 
 ```lua
-@type string
+--- @type string
 Read: constraintsoundinfo.TravelSoundFwd
 Write: constraintsoundinfo.TravelSoundFwd = value
 ```
 ## TravelSoundBack 
 ```lua
-@type string
+--- @type string
 Read: constraintsoundinfo.TravelSoundBack
 Write: constraintsoundinfo.TravelSoundBack = value
 ```
 ## ReversalSounds 
 ```lua
-@type table
+--- @type table
 Read: constraintsoundinfo.ReversalSounds
 Write: constraintsoundinfo.ReversalSounds = value
 ```
 ## PlayTravelSound 
 ```lua
-@type boolean
+--- @type boolean
 Read: constraintsoundinfo.PlayTravelSound
 Write: constraintsoundinfo.PlayTravelSound = value
 ```
 ## PlayReversalSound 
 ```lua
-@type boolean
+--- @type boolean
 Read: constraintsoundinfo.PlayReversalSound
 Write: constraintsoundinfo.PlayReversalSound = value
 ```

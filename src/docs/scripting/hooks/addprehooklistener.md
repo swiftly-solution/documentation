@@ -11,8 +11,10 @@ Adds a new hook listener before the hook is executed.
 ::: tabs
 @tab Lua
 ```lua
-@returns EventHandler
-AddPreHookListener(hookHandle --[[ HookHandle ]], callback --[[ function ]])
+--- @param hookHandle number HookHandle
+--- @param callback function
+--- @return number EventHandler
+AddPreHookListener(hookHandle, callback)
 ```
 The callback has the following arguments:
 ```lua

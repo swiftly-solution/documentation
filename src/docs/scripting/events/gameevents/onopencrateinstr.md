@@ -11,8 +11,9 @@ This event is triggered when open_crate_instr is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnOpenCrateInstr", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnOpenCrateInstr", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

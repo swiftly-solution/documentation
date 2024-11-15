@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseConstraint(ptr --[[ string ]])
+CBaseConstraint(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cbaseconstraint.Name
 Write: cbaseconstraint.Name = value
 ```
 ## UpVector 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbaseconstraint.UpVector
 Write: cbaseconstraint.UpVector = value
 ```
 ## Targets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbaseconstraint.Targets
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBoneConstraintBase
+--- @type CBoneConstraintBase
 Read: cbaseconstraint.Parent
 ```
 # Functions

@@ -12,63 +12,63 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootAdjustmentUpdateNode(ptr --[[ string ]])
+CFootAdjustmentUpdateNode(ptr)
 ```
 # Properties
 ## Clips (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfootadjustmentupdatenode.Clips
 ```
 ## BasePoseCacheHandle (Read-Only)
 ```lua
-@type CPoseHandle
+--- @type CPoseHandle
 Read: cfootadjustmentupdatenode.BasePoseCacheHandle
 ```
 ## FacingTarget (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cfootadjustmentupdatenode.FacingTarget
 ```
 ## TurnTimeMin 
 ```lua
-@type number
+--- @type number
 Read: cfootadjustmentupdatenode.TurnTimeMin
 Write: cfootadjustmentupdatenode.TurnTimeMin = value
 ```
 ## TurnTimeMax 
 ```lua
-@type number
+--- @type number
 Read: cfootadjustmentupdatenode.TurnTimeMax
 Write: cfootadjustmentupdatenode.TurnTimeMax = value
 ```
 ## StepHeightMax 
 ```lua
-@type number
+--- @type number
 Read: cfootadjustmentupdatenode.StepHeightMax
 Write: cfootadjustmentupdatenode.StepHeightMax = value
 ```
 ## StepHeightMaxAngle 
 ```lua
-@type number
+--- @type number
 Read: cfootadjustmentupdatenode.StepHeightMaxAngle
 Write: cfootadjustmentupdatenode.StepHeightMaxAngle = value
 ```
 ## ResetChild 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfootadjustmentupdatenode.ResetChild
 Write: cfootadjustmentupdatenode.ResetChild = value
 ```
 ## AnimationDriven 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfootadjustmentupdatenode.AnimationDriven
 Write: cfootadjustmentupdatenode.AnimationDriven = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cfootadjustmentupdatenode.Parent
 ```
 # Functions

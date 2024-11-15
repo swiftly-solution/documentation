@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerEnvelopeAnalyzer(ptr --[[ string ]])
+CVoiceContainerEnvelopeAnalyzer(ptr)
 ```
 # Properties
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerenvelopeanalyzer.Mode
 Write: cvoicecontainerenvelopeanalyzer.Mode = value
 ```
 ## Samples 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerenvelopeanalyzer.Samples
 Write: cvoicecontainerenvelopeanalyzer.Samples = value
 ```
 ## Threshold 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerenvelopeanalyzer.Threshold
 Write: cvoicecontainerenvelopeanalyzer.Threshold = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerAnalysisBase
+--- @type CVoiceContainerAnalysisBase
 Read: cvoicecontainerenvelopeanalyzer.Parent
 ```
 # Functions

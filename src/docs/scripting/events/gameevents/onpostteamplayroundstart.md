@@ -11,8 +11,9 @@ This event is triggered after teamplay_round_start is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostTeamplayRoundStart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostTeamplayRoundStart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

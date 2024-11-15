@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEnt(ptr --[[ string ]])
+CSoundEnt(ptr)
 ```
 # Properties
 ## FreeSound 
 ```lua
-@type number
+--- @type number
 Read: csoundent.FreeSound
 Write: csoundent.FreeSound = value
 ```
 ## ActiveSound 
 ```lua
-@type number
+--- @type number
 Read: csoundent.ActiveSound
 Write: csoundent.ActiveSound = value
 ```
 ## CLastActiveSounds 
 ```lua
-@type number
+--- @type number
 Read: csoundent.CLastActiveSounds
 Write: csoundent.CLastActiveSounds = value
 ```
 ## SoundPool (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csoundent.SoundPool
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: csoundent.Parent
 ```
 # Functions

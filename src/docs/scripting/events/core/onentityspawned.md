@@ -11,8 +11,11 @@ This game event is triggered when an entity is spawned on the server.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEntitySpawned", function(event --[[ Event ]], entityptr --[[ string ]])
+--- @param event Event
+--- @param entityptr string
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnEntitySpawned", function(event, entityptr)
     --[[ ... ]]
     return EventResult.Continue
 end)

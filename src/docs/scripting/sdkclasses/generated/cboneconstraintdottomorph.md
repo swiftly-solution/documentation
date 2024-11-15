@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBoneConstraintDotToMorph(ptr --[[ string ]])
+CBoneConstraintDotToMorph(ptr)
 ```
 # Properties
 ## BoneName 
 ```lua
-@type string
+--- @type string
 Read: cboneconstraintdottomorph.BoneName
 Write: cboneconstraintdottomorph.BoneName = value
 ```
 ## TargetBoneName 
 ```lua
-@type string
+--- @type string
 Read: cboneconstraintdottomorph.TargetBoneName
 Write: cboneconstraintdottomorph.TargetBoneName = value
 ```
 ## MorphChannelName 
 ```lua
-@type string
+--- @type string
 Read: cboneconstraintdottomorph.MorphChannelName
 Write: cboneconstraintdottomorph.MorphChannelName = value
 ```
 ## Remap 
 ```lua
-@type table
+--- @type table
 Read: cboneconstraintdottomorph.Remap
 Write: cboneconstraintdottomorph.Remap = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBoneConstraintBase
+--- @type CBoneConstraintBase
 Read: cboneconstraintdottomorph.Parent
 ```
 # Functions

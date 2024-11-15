@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeBuildBoxRigid_t(ptr --[[ string ]])
+FeBuildBoxRigid_t(ptr)
 ```
 # Properties
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: febuildboxrigid_t.Priority
 Write: febuildboxrigid_t.Priority = value
 ```
 ## VertexMapHash 
 ```lua
-@type number
+--- @type number
 Read: febuildboxrigid_t.VertexMapHash
 Write: febuildboxrigid_t.VertexMapHash = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type FeBoxRigid_t
+--- @type FeBoxRigid_t
 Read: febuildboxrigid_t.Parent
 ```
 # Functions

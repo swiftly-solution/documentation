@@ -11,8 +11,9 @@ Returns the memory value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns Memory
-event:GetHookPointer(index --[[ number ]])
+--- @param index number
+--- @return Memory
+event:GetHookPointer(index)
 ```
 
 :::

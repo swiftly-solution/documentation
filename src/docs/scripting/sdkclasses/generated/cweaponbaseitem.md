@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWeaponBaseItem(ptr --[[ string ]])
+CWeaponBaseItem(ptr)
 ```
 # Properties
 ## SequenceCompleteTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cweaponbaseitem.SequenceCompleteTimer
 ```
 ## Redraw 
 ```lua
-@type boolean
+--- @type boolean
 Read: cweaponbaseitem.Redraw
 Write: cweaponbaseitem.Redraw = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cweaponbaseitem.Parent
 ```
 # Functions

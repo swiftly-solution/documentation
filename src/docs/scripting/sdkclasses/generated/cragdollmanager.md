@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollManager(ptr --[[ string ]])
+CRagdollManager(ptr)
 ```
 # Properties
 ## CurrentMaxRagdollCount 
 ```lua
-@type number
+--- @type number
 Read: cragdollmanager.CurrentMaxRagdollCount
 Write: cragdollmanager.CurrentMaxRagdollCount = value
 ```
 ## MaxRagdollCount 
 ```lua
-@type number
+--- @type number
 Read: cragdollmanager.MaxRagdollCount
 Write: cragdollmanager.MaxRagdollCount = value
 ```
 ## SaveImportant 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollmanager.SaveImportant
 Write: cragdollmanager.SaveImportant = value
 ```
 ## CanTakeDamage 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollmanager.CanTakeDamage
 Write: cragdollmanager.CanTakeDamage = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cragdollmanager.Parent
 ```
 # Functions

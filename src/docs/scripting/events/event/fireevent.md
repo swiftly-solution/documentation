@@ -11,8 +11,9 @@ Fires a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:FireEvent(dontBroadcast --[[ boolean ]])
+--- @param dontBroadcast boolean
+--- @return nil
+event:FireEvent(dontBroadcast)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after instructor_start_lesson is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostInstructorStartLesson", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostInstructorStartLesson", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

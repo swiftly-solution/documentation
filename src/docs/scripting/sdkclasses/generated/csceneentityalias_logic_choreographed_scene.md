@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSceneEntityAlias_logic_choreographed_scene(ptr --[[ string ]])
+CSceneEntityAlias_logic_choreographed_scene(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSceneEntity
+--- @type CSceneEntity
 Read: csceneentityalias_logic_choreographed_scene.Parent
 ```
 # Functions

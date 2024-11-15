@@ -11,8 +11,9 @@ This event is triggered when hltv_title is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvTitle", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvTitle", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

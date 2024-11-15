@@ -11,8 +11,9 @@ Deletes a file
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-files:Delete(path --[[ string ]])
+--- @param path string
+--- @return nil
+files:Delete(path)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

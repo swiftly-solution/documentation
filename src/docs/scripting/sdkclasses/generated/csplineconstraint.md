@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSplineConstraint(ptr --[[ string ]])
+CSplineConstraint(ptr)
 ```
 # Properties
 ## AnchorOffsetRestore 
 ```lua
-@type Vector
+--- @type Vector
 Read: csplineconstraint.AnchorOffsetRestore
 Write: csplineconstraint.AnchorOffsetRestore = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: csplineconstraint.Parent
 ```
 # Functions

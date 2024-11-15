@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoTeleportDestination(ptr --[[ string ]])
+CInfoTeleportDestination(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfoteleportdestination.Parent
 ```
 # Functions

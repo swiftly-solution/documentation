@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PARTICLE_WORLD_HANDLE__(ptr --[[ string ]])
+PARTICLE_WORLD_HANDLE__(ptr)
 ```
 # Properties
 ## Unused 
 ```lua
-@type number
+--- @type number
 Read: particle_world_handle__.Unused
 Write: particle_world_handle__.Unused = value
 ```

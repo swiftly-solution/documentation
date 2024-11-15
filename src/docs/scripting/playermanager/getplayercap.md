@@ -11,7 +11,7 @@ Returns the player maximum capacity for the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 playermanager:GetPlayerCap()
 ```
 

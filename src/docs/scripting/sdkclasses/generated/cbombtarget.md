@@ -12,62 +12,62 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBombTarget(ptr --[[ string ]])
+CBombTarget(ptr)
 ```
 # Properties
 ## OnBombExplode (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbombtarget.OnBombExplode
 ```
 ## OnBombPlanted (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbombtarget.OnBombPlanted
 ```
 ## OnBombDefused (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbombtarget.OnBombDefused
 ```
 ## IsBombSiteB 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbombtarget.IsBombSiteB
 Write: cbombtarget.IsBombSiteB = value
 ```
 ## IsHeistBombTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbombtarget.IsHeistBombTarget
 Write: cbombtarget.IsHeistBombTarget = value
 ```
 ## BombPlantedHere 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbombtarget.BombPlantedHere
 Write: cbombtarget.BombPlantedHere = value
 ```
 ## MountTarget 
 ```lua
-@type string
+--- @type string
 Read: cbombtarget.MountTarget
 Write: cbombtarget.MountTarget = value
 ```
 ## InstructorHint (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbombtarget.InstructorHint
 ```
 ## BombSiteDesignation 
 ```lua
-@type number
+--- @type number
 Read: cbombtarget.BombSiteDesignation
 Write: cbombtarget.BombSiteDesignation = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cbombtarget.Parent
 ```
 # Functions

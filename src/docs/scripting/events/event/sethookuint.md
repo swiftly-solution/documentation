@@ -11,8 +11,10 @@ Set the number unsigned value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookUInt(index --[[ number ]], value --[[ number ]])
+--- @param index number
+--- @param value number
+--- @return nil
+event:SetHookUInt(index, value)
 ```
 
 :::

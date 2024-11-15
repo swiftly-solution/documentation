@@ -11,7 +11,7 @@ Deallocates the memory stored.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
+--- @return nil
 memory:Deallocate()
 ```
 

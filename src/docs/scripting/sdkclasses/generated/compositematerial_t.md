@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CompositeMaterial_t(ptr --[[ string ]])
+CompositeMaterial_t(ptr)
 ```
 # Properties
 ## GeneratedTextures (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerial_t.GeneratedTextures
 ```
 # Functions

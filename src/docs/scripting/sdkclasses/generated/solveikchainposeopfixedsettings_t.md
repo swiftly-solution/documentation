@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SolveIKChainPoseOpFixedSettings_t(ptr --[[ string ]])
+SolveIKChainPoseOpFixedSettings_t(ptr)
 ```
 # Properties
 ## ChainsToSolveData (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: solveikchainposeopfixedsettings_t.ChainsToSolveData
 ```
 # Functions

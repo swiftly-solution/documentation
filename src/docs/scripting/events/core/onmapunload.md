@@ -11,8 +11,11 @@ This game event is triggered when a map unloads.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnMapUnload", function(event --[[ Event ]], map --[[ string ]])
+--- @param event Event
+--- @param map string
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnMapUnload", function(event, map)
     --[[ ... ]]
     return EventResult.Continue
 end)

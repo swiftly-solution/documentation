@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeWorldCollisionParams_t(ptr --[[ string ]])
+FeWorldCollisionParams_t(ptr)
 ```
 # Properties
 ## WorldFriction 
 ```lua
-@type number
+--- @type number
 Read: feworldcollisionparams_t.WorldFriction
 Write: feworldcollisionparams_t.WorldFriction = value
 ```
 ## GroundFriction 
 ```lua
-@type number
+--- @type number
 Read: feworldcollisionparams_t.GroundFriction
 Write: feworldcollisionparams_t.GroundFriction = value
 ```
 ## ListBegin 
 ```lua
-@type number
+--- @type number
 Read: feworldcollisionparams_t.ListBegin
 Write: feworldcollisionparams_t.ListBegin = value
 ```
 ## ListEnd 
 ```lua
-@type number
+--- @type number
 Read: feworldcollisionparams_t.ListEnd
 Write: feworldcollisionparams_t.ListEnd = value
 ```

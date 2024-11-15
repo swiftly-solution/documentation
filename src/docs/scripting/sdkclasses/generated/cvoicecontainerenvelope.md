@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerEnvelope(ptr --[[ string ]])
+CVoiceContainerEnvelope(ptr)
 ```
 # Properties
 ## AnalysisContainer (Read-Only)
 ```lua
-@type CVoiceContainerAnalysisBase
+--- @type CVoiceContainerAnalysisBase
 Read: cvoicecontainerenvelope.AnalysisContainer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerenvelope.Parent
 ```
 # Functions

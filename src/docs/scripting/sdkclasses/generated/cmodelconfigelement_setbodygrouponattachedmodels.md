@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_SetBodygroupOnAttachedModels(ptr --[[ string ]])
+CModelConfigElement_SetBodygroupOnAttachedModels(ptr)
 ```
 # Properties
 ## GroupName 
 ```lua
-@type string
+--- @type string
 Read: cmodelconfigelement_setbodygrouponattachedmodels.GroupName
 Write: cmodelconfigelement_setbodygrouponattachedmodels.GroupName = value
 ```
 ## Choice 
 ```lua
-@type number
+--- @type number
 Read: cmodelconfigelement_setbodygrouponattachedmodels.Choice
 Write: cmodelconfigelement_setbodygrouponattachedmodels.Choice = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_setbodygrouponattachedmodels.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CScriptTriggerHurt(ptr --[[ string ]])
+CScriptTriggerHurt(ptr)
 ```
 # Properties
 ## Extent 
 ```lua
-@type Vector
+--- @type Vector
 Read: cscripttriggerhurt.Extent
 Write: cscripttriggerhurt.Extent = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CTriggerHurt
+--- @type CTriggerHurt
 Read: cscripttriggerhurt.Parent
 ```
 # Functions

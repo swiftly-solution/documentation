@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IPhysicsPlayerController(ptr --[[ string ]])
+IPhysicsPlayerController(ptr)
 ```
 # Properties
 There are no properties available for this class.

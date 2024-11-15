@@ -11,8 +11,9 @@ Creates a directory
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-files:CreateDirectory(path --[[ string ]])
+--- @param path string
+--- @return boolean
+files:CreateDirectory(path)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

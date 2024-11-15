@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CompositeMaterialMatchFilter_t(ptr --[[ string ]])
+CompositeMaterialMatchFilter_t(ptr)
 ```
 # Properties
 ## CompositeMaterialMatchFilterType 
 ```lua
-@type number
+--- @type number
 Read: compositematerialmatchfilter_t.CompositeMaterialMatchFilterType
 Write: compositematerialmatchfilter_t.CompositeMaterialMatchFilterType = value
 ```
 ## StrMatchFilter 
 ```lua
-@type string
+--- @type string
 Read: compositematerialmatchfilter_t.StrMatchFilter
 Write: compositematerialmatchfilter_t.StrMatchFilter = value
 ```
 ## StrMatchValue 
 ```lua
-@type string
+--- @type string
 Read: compositematerialmatchfilter_t.StrMatchValue
 Write: compositematerialmatchfilter_t.StrMatchValue = value
 ```
 ## PassWhenTrue 
 ```lua
-@type boolean
+--- @type boolean
 Read: compositematerialmatchfilter_t.PassWhenTrue
 Write: compositematerialmatchfilter_t.PassWhenTrue = value
 ```

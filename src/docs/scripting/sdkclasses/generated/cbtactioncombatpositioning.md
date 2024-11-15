@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtActionCombatPositioning(ptr --[[ string ]])
+CBtActionCombatPositioning(ptr)
 ```
 # Properties
 ## SensorInputKey 
 ```lua
-@type string
+--- @type string
 Read: cbtactioncombatpositioning.SensorInputKey
 Write: cbtactioncombatpositioning.SensorInputKey = value
 ```
 ## IsAttackingKey 
 ```lua
-@type string
+--- @type string
 Read: cbtactioncombatpositioning.IsAttackingKey
 Write: cbtactioncombatpositioning.IsAttackingKey = value
 ```
 ## ActionTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtactioncombatpositioning.ActionTimer
 ```
 ## Crouching 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbtactioncombatpositioning.Crouching
 Write: cbtactioncombatpositioning.Crouching = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBtNode
+--- @type CBtNode
 Read: cbtactioncombatpositioning.Parent
 ```
 # Functions

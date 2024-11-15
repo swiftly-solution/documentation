@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCompositeMaterialEditorDoc(ptr --[[ string ]])
+CCompositeMaterialEditorDoc(ptr)
 ```
 # Properties
 ## Version 
 ```lua
-@type number
+--- @type number
 Read: ccompositematerialeditordoc.Version
 Write: ccompositematerialeditordoc.Version = value
 ```
 ## Points (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccompositematerialeditordoc.Points
 ```
 # Functions

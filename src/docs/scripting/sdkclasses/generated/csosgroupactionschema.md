@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionSchema(ptr --[[ string ]])
+CSosGroupActionSchema(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionschema.Name
 Write: csosgroupactionschema.Name = value
 ```
 ## ActionType 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionschema.ActionType
 Write: csosgroupactionschema.ActionType = value
 ```
 ## ActionInstanceType 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionschema.ActionInstanceType
 Write: csosgroupactionschema.ActionInstanceType = value
 ```

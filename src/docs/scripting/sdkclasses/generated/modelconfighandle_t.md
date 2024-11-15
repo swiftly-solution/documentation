@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ModelConfigHandle_t(ptr --[[ string ]])
+ModelConfigHandle_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: modelconfighandle_t.Value
 Write: modelconfighandle_t.Value = value
 ```

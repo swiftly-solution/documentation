@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTiltTwistConstraint(ptr --[[ string ]])
+CTiltTwistConstraint(ptr)
 ```
 # Properties
 ## TargetAxis 
 ```lua
-@type number
+--- @type number
 Read: ctilttwistconstraint.TargetAxis
 Write: ctilttwistconstraint.TargetAxis = value
 ```
 ## SlaveAxis 
 ```lua
-@type number
+--- @type number
 Read: ctilttwistconstraint.SlaveAxis
 Write: ctilttwistconstraint.SlaveAxis = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: ctilttwistconstraint.Parent
 ```
 # Functions

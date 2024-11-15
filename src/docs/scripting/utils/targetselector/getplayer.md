@@ -11,8 +11,9 @@ Returns the player object from playerid.
 ::: tabs
 @tab Lua
 ```lua
-@returns Player
-GetPlayer(playerid --[[ number ]])
+--- @param playerid number
+--- @return Player
+GetPlayer(playerid)
 ```
 
 :::

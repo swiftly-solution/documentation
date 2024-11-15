@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerOnce(ptr --[[ string ]])
+CTriggerOnce(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CTriggerMultiple
+--- @type CTriggerMultiple
 Read: ctriggeronce.Parent
 ```
 # Functions

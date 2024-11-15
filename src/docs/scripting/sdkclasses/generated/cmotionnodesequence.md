@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionNodeSequence(ptr --[[ string ]])
+CMotionNodeSequence(ptr)
 ```
 # Properties
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionnodesequence.Tags
 ```
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: cmotionnodesequence.Sequence
 Write: cmotionnodesequence.Sequence = value
 ```
 ## PlaybackSpeed 
 ```lua
-@type number
+--- @type number
 Read: cmotionnodesequence.PlaybackSpeed
 Write: cmotionnodesequence.PlaybackSpeed = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionNode
+--- @type CMotionNode
 Read: cmotionnodesequence.Parent
 ```
 # Functions

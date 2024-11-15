@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysFixed(ptr --[[ string ]])
+CPhysFixed(ptr)
 ```
 # Properties
 ## LinearFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphysfixed.LinearFrequency
 Write: cphysfixed.LinearFrequency = value
 ```
 ## LinearDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphysfixed.LinearDampingRatio
 Write: cphysfixed.LinearDampingRatio = value
 ```
 ## AngularFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphysfixed.AngularFrequency
 Write: cphysfixed.AngularFrequency = value
 ```
 ## AngularDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphysfixed.AngularDampingRatio
 Write: cphysfixed.AngularDampingRatio = value
 ```
 ## EnableLinearConstraint 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysfixed.EnableLinearConstraint
 Write: cphysfixed.EnableLinearConstraint = value
 ```
 ## EnableAngularConstraint 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysfixed.EnableAngularConstraint
 Write: cphysfixed.EnableAngularConstraint = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphysfixed.Parent
 ```
 # Functions

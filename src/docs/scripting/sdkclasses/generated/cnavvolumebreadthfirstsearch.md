@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeBreadthFirstSearch(ptr --[[ string ]])
+CNavVolumeBreadthFirstSearch(ptr)
 ```
 # Properties
 ## StartPos 
 ```lua
-@type Vector
+--- @type Vector
 Read: cnavvolumebreadthfirstsearch.StartPos
 Write: cnavvolumebreadthfirstsearch.StartPos = value
 ```
 ## SearchDist 
 ```lua
-@type number
+--- @type number
 Read: cnavvolumebreadthfirstsearch.SearchDist
 Write: cnavvolumebreadthfirstsearch.SearchDist = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNavVolumeCalculatedVector
+--- @type CNavVolumeCalculatedVector
 Read: cnavvolumebreadthfirstsearch.Parent
 ```
 # Functions

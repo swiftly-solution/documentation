@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWaterSplasher(ptr --[[ string ]])
+CWaterSplasher(ptr)
 ```
 # Properties
 There are no properties available for this class.

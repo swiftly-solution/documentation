@@ -11,8 +11,9 @@ This event is triggered when inspect_weapon is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnInspectWeapon", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnInspectWeapon", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

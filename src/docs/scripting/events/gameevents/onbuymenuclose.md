@@ -11,8 +11,9 @@ This event is triggered when buymenu_close is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBuymenuClose", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBuymenuClose", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

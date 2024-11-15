@@ -11,8 +11,9 @@ This event is triggered when player_avenged_teammate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerAvengedTeammate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerAvengedTeammate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicProximity(ptr --[[ string ]])
+CLogicProximity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: clogicproximity.Parent
 ```
 # Functions

@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CConstraintSlave(ptr --[[ string ]])
+CConstraintSlave(ptr)
 ```
 # Properties
 ## BasePosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstraintslave.BasePosition
 Write: cconstraintslave.BasePosition = value
 ```
 ## BoneHash 
 ```lua
-@type number
+--- @type number
 Read: cconstraintslave.BoneHash
 Write: cconstraintslave.BoneHash = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: cconstraintslave.Weight
 Write: cconstraintslave.Weight = value
 ```
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cconstraintslave.Name
 Write: cconstraintslave.Name = value
 ```

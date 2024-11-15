@@ -11,8 +11,9 @@ This event is triggered when hltv_changed_mode is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvChangedMode", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvChangedMode", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmTask(ptr --[[ string ]])
+CNmTask(ptr)
 ```
 # Properties
 There are no properties available for this class.

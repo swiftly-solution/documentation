@@ -11,8 +11,9 @@ This event is triggered when achievement_earned_local is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAchievementEarnedLocal", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAchievementEarnedLocal", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

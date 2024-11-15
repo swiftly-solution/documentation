@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateNodeStateData(ptr --[[ string ]])
+CStateNodeStateData(ptr)
 ```
 # Properties
 ## Child (Read-Only)
 ```lua
-@type CAnimUpdateNodeRef
+--- @type CAnimUpdateNodeRef
 Read: cstatenodestatedata.Child
 ```
 ## ExclusiveRootMotion 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstatenodestatedata.ExclusiveRootMotion
 Write: cstatenodestatedata.ExclusiveRootMotion = value
 ```
 ## ExclusiveRootMotionFirstFrame 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstatenodestatedata.ExclusiveRootMotionFirstFrame
 Write: cstatenodestatedata.ExclusiveRootMotionFirstFrame = value
 ```

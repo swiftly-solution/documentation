@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimGraphSettingsManager(ptr --[[ string ]])
+CAnimGraphSettingsManager(ptr)
 ```
 # Properties
 There are no properties available for this class.

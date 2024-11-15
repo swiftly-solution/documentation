@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AnimNodeID(ptr --[[ string ]])
+AnimNodeID(ptr)
 ```
 # Properties
 ## Id 
 ```lua
-@type number
+--- @type number
 Read: animnodeid.Id
 Write: animnodeid.Id = value
 ```

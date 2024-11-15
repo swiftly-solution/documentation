@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGameModeRules_Deathmatch(ptr --[[ string ]])
+CCSGameModeRules_Deathmatch(ptr)
 ```
 # Properties
 ## DMBonusStartTime 
 ```lua
-@type number
+--- @type number
 Read: ccsgamemoderules_deathmatch.DMBonusStartTime
 Write: ccsgamemoderules_deathmatch.DMBonusStartTime = value
 ```
 ## DMBonusTimeLength 
 ```lua
-@type number
+--- @type number
 Read: ccsgamemoderules_deathmatch.DMBonusTimeLength
 Write: ccsgamemoderules_deathmatch.DMBonusTimeLength = value
 ```
 ## DMBonusWeapon 
 ```lua
-@type string
+--- @type string
 Read: ccsgamemoderules_deathmatch.DMBonusWeapon
 Write: ccsgamemoderules_deathmatch.DMBonusWeapon = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSGameModeRules
+--- @type CCSGameModeRules
 Read: ccsgamemoderules_deathmatch.Parent
 ```
 # Functions

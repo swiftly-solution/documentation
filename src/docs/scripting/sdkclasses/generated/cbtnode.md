@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtNode(ptr --[[ string ]])
+CBtNode(ptr)
 ```
 # Properties
 There are no properties available for this class.

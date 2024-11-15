@@ -11,8 +11,9 @@ This event is triggered after item_purchase is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostItemPurchase", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostItemPurchase", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

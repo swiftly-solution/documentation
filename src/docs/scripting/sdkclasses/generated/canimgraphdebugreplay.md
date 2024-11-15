@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimGraphDebugReplay(ptr --[[ string ]])
+CAnimGraphDebugReplay(ptr)
 ```
 # Properties
 ## AnimGraphFileName 
 ```lua
-@type string
+--- @type string
 Read: canimgraphdebugreplay.AnimGraphFileName
 Write: canimgraphdebugreplay.AnimGraphFileName = value
 ```
 ## StartIndex 
 ```lua
-@type number
+--- @type number
 Read: canimgraphdebugreplay.StartIndex
 Write: canimgraphdebugreplay.StartIndex = value
 ```
 ## WriteIndex 
 ```lua
-@type number
+--- @type number
 Read: canimgraphdebugreplay.WriteIndex
 Write: canimgraphdebugreplay.WriteIndex = value
 ```
 ## FrameCount 
 ```lua
-@type number
+--- @type number
 Read: canimgraphdebugreplay.FrameCount
 Write: canimgraphdebugreplay.FrameCount = value
 ```

@@ -11,8 +11,10 @@ Set the float value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookFloat(index --[[ number ]], value --[[ number ]])
+--- @param index number
+--- @param value number
+--- @return nil
+event:SetHookFloat(index, value)
 ```
 
 :::

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootTrajectories(ptr --[[ string ]])
+CFootTrajectories(ptr)
 ```
 # Properties
 ## Trajectories (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfoottrajectories.Trajectories
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItem_Healthshot(ptr --[[ string ]])
+CItem_Healthshot(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CWeaponBaseItem
+--- @type CWeaponBaseItem
 Read: citem_healthshot.Parent
 ```
 # Functions

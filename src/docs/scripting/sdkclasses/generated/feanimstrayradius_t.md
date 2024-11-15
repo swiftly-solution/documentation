@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeAnimStrayRadius_t(ptr --[[ string ]])
+FeAnimStrayRadius_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: feanimstrayradius_t.Node
 Write: feanimstrayradius_t.Node = value
 ```
 ## MaxDist 
 ```lua
-@type number
+--- @type number
 Read: feanimstrayradius_t.MaxDist
 Write: feanimstrayradius_t.MaxDist = value
 ```
 ## RelaxationFactor 
 ```lua
-@type number
+--- @type number
 Read: feanimstrayradius_t.RelaxationFactor
 Write: feanimstrayradius_t.RelaxationFactor = value
 ```

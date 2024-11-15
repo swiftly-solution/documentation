@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VsInputSignatureElement_t(ptr --[[ string ]])
+VsInputSignatureElement_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: vsinputsignatureelement_t.Name
 Write: vsinputsignatureelement_t.Name = value
 ```
 ## Semantic 
 ```lua
-@type string
+--- @type string
 Read: vsinputsignatureelement_t.Semantic
 Write: vsinputsignatureelement_t.Semantic = value
 ```
 ## D3DSemanticName 
 ```lua
-@type string
+--- @type string
 Read: vsinputsignatureelement_t.D3DSemanticName
 Write: vsinputsignatureelement_t.D3DSemanticName = value
 ```
 ## D3DSemanticIndex 
 ```lua
-@type number
+--- @type number
 Read: vsinputsignatureelement_t.D3DSemanticIndex
 Write: vsinputsignatureelement_t.D3DSemanticIndex = value
 ```

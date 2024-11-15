@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleFunctionOperator(ptr --[[ string ]])
+CParticleFunctionOperator(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunction
+--- @type CParticleFunction
 Read: cparticlefunctionoperator.Parent
 ```
 # Functions

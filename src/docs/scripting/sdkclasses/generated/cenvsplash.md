@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSplash(ptr --[[ string ]])
+CEnvSplash(ptr)
 ```
 # Properties
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: cenvsplash.Scale
 Write: cenvsplash.Scale = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvsplash.Parent
 ```
 # Functions

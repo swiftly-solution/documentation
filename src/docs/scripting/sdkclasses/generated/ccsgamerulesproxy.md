@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGameRulesProxy(ptr --[[ string ]])
+CCSGameRulesProxy(ptr)
 ```
 # Properties
 ## GameRules (Read-Only)
 ```lua
-@type CCSGameRules
+--- @type CCSGameRules
 Read: ccsgamerulesproxy.GameRules
 ```
 ## Parent (Read-Only)
 ```lua
-@type CGameRulesProxy
+--- @type CGameRulesProxy
 Read: ccsgamerulesproxy.Parent
 ```
 # Functions

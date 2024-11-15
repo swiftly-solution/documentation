@@ -20,7 +20,7 @@ There are no properties available for this class.
 ## WriteBody
 ```lua
 @returns void
-httpresponse:WriteBody(content --[[ string ]])
+httpresponse:WriteBody(content)
 ```
 ## GetHeaders
 ```lua
@@ -30,17 +30,17 @@ httpresponse:GetHeaders()
 ## GetHeader
 ```lua
 @returns string
-httpresponse:GetHeader(key --[[ string ]])
+httpresponse:GetHeader(key)
 ```
 ## SetHeader
 ```lua
 @returns void
-httpresponse:SetHeader(key --[[ string ]], params --[[ string ]])
+httpresponse:SetHeader(key, params)
 ```
 ## Send
 ```lua
 @returns void
-httpresponse:Send(response_code --[[ number ]])
+httpresponse:Send(response_code)
 ```
 ## IsCompleted
 ```lua

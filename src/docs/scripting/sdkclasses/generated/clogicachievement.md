@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicAchievement(ptr --[[ string ]])
+CLogicAchievement(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicachievement.Disabled
 Write: clogicachievement.Disabled = value
 ```
 ## AchievementEventID 
 ```lua
-@type string
+--- @type string
 Read: clogicachievement.AchievementEventID
 Write: clogicachievement.AchievementEventID = value
 ```
 ## OnFired (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicachievement.OnFired
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicachievement.Parent
 ```
 # Functions

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncMoverAPI(ptr --[[ string ]])
+CFuncMoverAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

@@ -12,43 +12,43 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmGraphDefinition(ptr --[[ string ]])
+CNmGraphDefinition(ptr)
 ```
 # Properties
 ## PersistentNodeIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmgraphdefinition.PersistentNodeIndices
 ```
 ## RootNodeIdx 
 ```lua
-@type number
+--- @type number
 Read: cnmgraphdefinition.RootNodeIdx
 Write: cnmgraphdefinition.RootNodeIdx = value
 ```
 ## VirtualParameterNodeIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmgraphdefinition.VirtualParameterNodeIndices
 ```
 ## ChildGraphSlots (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmgraphdefinition.ChildGraphSlots
 ```
 ## ExternalGraphSlots (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmgraphdefinition.ExternalGraphSlots
 ```
 ## NodePaths (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmgraphdefinition.NodePaths
 ```
 ## RuntimeVersionID 
 ```lua
-@type V_uuid_t
+--- @type V_uuid_t
 Read: cnmgraphdefinition.RuntimeVersionID
 Write: cnmgraphdefinition.RuntimeVersionID = value
 ```

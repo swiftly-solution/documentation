@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNetworkOriginQuantizedVector(ptr --[[ string ]])
+CNetworkOriginQuantizedVector(ptr)
 ```
 # Properties
 ## X 
 ```lua
-@type number
+--- @type number
 Read: cnetworkoriginquantizedvector.X
 Write: cnetworkoriginquantizedvector.X = value
 ```
 ## Y 
 ```lua
-@type number
+--- @type number
 Read: cnetworkoriginquantizedvector.Y
 Write: cnetworkoriginquantizedvector.Y = value
 ```
 ## Z 
 ```lua
-@type number
+--- @type number
 Read: cnetworkoriginquantizedvector.Z
 Write: cnetworkoriginquantizedvector.Z = value
 ```

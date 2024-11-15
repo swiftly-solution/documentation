@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyComponentSkeletonInstance(ptr --[[ string ]])
+CBodyComponentSkeletonInstance(ptr)
 ```
 # Properties
 ## SkeletonInstance (Read-Only)
 ```lua
-@type CSkeletonInstance
+--- @type CSkeletonInstance
 Read: cbodycomponentskeletoninstance.SkeletonInstance
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBodyComponent
+--- @type CBodyComponent
 Read: cbodycomponentskeletoninstance.Parent
 ```
 # Functions

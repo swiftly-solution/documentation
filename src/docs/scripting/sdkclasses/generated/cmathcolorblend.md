@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMathColorBlend(ptr --[[ string ]])
+CMathColorBlend(ptr)
 ```
 # Properties
 ## InMin 
 ```lua
-@type number
+--- @type number
 Read: cmathcolorblend.InMin
 Write: cmathcolorblend.InMin = value
 ```
 ## InMax 
 ```lua
-@type number
+--- @type number
 Read: cmathcolorblend.InMax
 Write: cmathcolorblend.InMax = value
 ```
 ## OutColor1 
 ```lua
-@type Color
+--- @type Color
 Read: cmathcolorblend.OutColor1
 Write: cmathcolorblend.OutColor1 = value
 ```
 ## OutColor2 
 ```lua
-@type Color
+--- @type Color
 Read: cmathcolorblend.OutColor2
 Write: cmathcolorblend.OutColor2 = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cmathcolorblend.Parent
 ```
 # Functions

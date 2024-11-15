@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeCtrlOsOffset_t(ptr --[[ string ]])
+FeCtrlOsOffset_t(ptr)
 ```
 # Properties
 ## CtrlParent 
 ```lua
-@type number
+--- @type number
 Read: fectrlosoffset_t.CtrlParent
 Write: fectrlosoffset_t.CtrlParent = value
 ```
 ## CtrlChild 
 ```lua
-@type number
+--- @type number
 Read: fectrlosoffset_t.CtrlChild
 Write: fectrlosoffset_t.CtrlChild = value
 ```

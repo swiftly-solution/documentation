@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SignatureOutflow_Continue(ptr --[[ string ]])
+SignatureOutflow_Continue(ptr)
 ```
 # Properties
 There are no properties available for this class.

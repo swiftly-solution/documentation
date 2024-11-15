@@ -11,8 +11,9 @@ This event is triggered when enter_rescue_zone is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEnterRescueZone", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEnterRescueZone", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

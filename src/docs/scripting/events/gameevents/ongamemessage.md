@@ -11,8 +11,9 @@ This event is triggered when game_message is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGameMessage", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGameMessage", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ Returns the convar value.
 ::: tabs
 @tab Lua
 ```lua
-@returns string / number / boolean
-convar:Get(name --[[ string ]])
+--- @param name string
+--- @return string|number|boolean
+convar:Get(name)
 ```
 
 :::

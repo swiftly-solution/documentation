@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_BuyServices(ptr --[[ string ]])
+CCSPlayer_BuyServices(ptr)
 ```
 # Properties
 ## SellbackPurchaseEntries (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccsplayer_buyservices.SellbackPurchaseEntries
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_buyservices.Parent
 ```
 # Functions

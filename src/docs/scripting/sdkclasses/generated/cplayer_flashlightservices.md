@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayer_FlashlightServices(ptr --[[ string ]])
+CPlayer_FlashlightServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: cplayer_flashlightservices.Parent
 ```
 # Functions

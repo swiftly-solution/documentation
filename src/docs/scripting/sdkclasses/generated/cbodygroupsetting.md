@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyGroupSetting(ptr --[[ string ]])
+CBodyGroupSetting(ptr)
 ```
 # Properties
 ## BodyGroupName 
 ```lua
-@type string
+--- @type string
 Read: cbodygroupsetting.BodyGroupName
 Write: cbodygroupsetting.BodyGroupName = value
 ```
 ## BodyGroupOption 
 ```lua
-@type number
+--- @type number
 Read: cbodygroupsetting.BodyGroupOption
 Write: cbodygroupsetting.BodyGroupOption = value
 ```

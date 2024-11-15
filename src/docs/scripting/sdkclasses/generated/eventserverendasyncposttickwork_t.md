@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventServerEndAsyncPostTickWork_t(ptr --[[ string ]])
+EventServerEndAsyncPostTickWork_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

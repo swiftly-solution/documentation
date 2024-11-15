@@ -11,8 +11,9 @@ This event is triggered after cs_prev_next_spectator is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsPrevNextSpectator", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsPrevNextSpectator", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

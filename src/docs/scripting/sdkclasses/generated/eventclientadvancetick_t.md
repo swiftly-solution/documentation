@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientAdvanceTick_t(ptr --[[ string ]])
+EventClientAdvanceTick_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventAdvanceTick_t
+--- @type EventAdvanceTick_t
 Read: eventclientadvancetick_t.Parent
 ```
 # Functions

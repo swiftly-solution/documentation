@@ -11,8 +11,9 @@ This event is triggered after hltv_chase is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHltvChase", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHltvChase", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

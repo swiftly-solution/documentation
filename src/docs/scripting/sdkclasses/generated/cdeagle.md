@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDEagle(ptr --[[ string ]])
+CDEagle(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cdeagle.Parent
 ```
 # Functions

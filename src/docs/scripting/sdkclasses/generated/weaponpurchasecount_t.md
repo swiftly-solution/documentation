@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WeaponPurchaseCount_t(ptr --[[ string ]])
+WeaponPurchaseCount_t(ptr)
 ```
 # Properties
 ## ItemDefIndex 
 ```lua
-@type number
+--- @type number
 Read: weaponpurchasecount_t.ItemDefIndex
 Write: weaponpurchasecount_t.ItemDefIndex = value
 ```
 ## Count 
 ```lua
-@type number
+--- @type number
 Read: weaponpurchasecount_t.Count
 Write: weaponpurchasecount_t.Count = value
 ```

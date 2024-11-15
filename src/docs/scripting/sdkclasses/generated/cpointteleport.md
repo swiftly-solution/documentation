@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointTeleport(ptr --[[ string ]])
+CPointTeleport(ptr)
 ```
 # Properties
 ## SaveOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpointteleport.SaveOrigin
 Write: cpointteleport.SaveOrigin = value
 ```
 ## SaveAngles 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpointteleport.SaveAngles
 Write: cpointteleport.SaveAngles = value
 ```
 ## TeleportParentedEntities 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointteleport.TeleportParentedEntities
 Write: cpointteleport.TeleportParentedEntities = value
 ```
 ## TeleportUseCurrentAngle 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointteleport.TeleportUseCurrentAngle
 Write: cpointteleport.TeleportUseCurrentAngle = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyPointEntity
+--- @type CServerOnlyPointEntity
 Read: cpointteleport.Parent
 ```
 # Functions

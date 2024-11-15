@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionSetSoundeventParameterSchema(ptr --[[ string ]])
+CSosGroupActionSetSoundeventParameterSchema(ptr)
 ```
 # Properties
 ## MaxCount 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionsetsoundeventparameterschema.MaxCount
 Write: csosgroupactionsetsoundeventparameterschema.MaxCount = value
 ```
 ## MinValue 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionsetsoundeventparameterschema.MinValue
 Write: csosgroupactionsetsoundeventparameterschema.MinValue = value
 ```
 ## MaxValue 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionsetsoundeventparameterschema.MaxValue
 Write: csosgroupactionsetsoundeventparameterschema.MaxValue = value
 ```
 ## OpvarName 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsetsoundeventparameterschema.OpvarName
 Write: csosgroupactionsetsoundeventparameterschema.OpvarName = value
 ```
 ## SortType 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionsetsoundeventparameterschema.SortType
 Write: csosgroupactionsetsoundeventparameterschema.SortType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupActionSchema
+--- @type CSosGroupActionSchema
 Read: csosgroupactionsetsoundeventparameterschema.Parent
 ```
 # Functions

@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFogController(ptr --[[ string ]])
+CFogController(ptr)
 ```
 # Properties
 ## Fog (Read-Only)
 ```lua
-@type fogparams_t
+--- @type fogparams_t
 Read: cfogcontroller.Fog
 ```
 ## UseAngles 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfogcontroller.UseAngles
 Write: cfogcontroller.UseAngles = value
 ```
 ## ChangedVariables 
 ```lua
-@type number
+--- @type number
 Read: cfogcontroller.ChangedVariables
 Write: cfogcontroller.ChangedVariables = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfogcontroller.Parent
 ```
 # Functions

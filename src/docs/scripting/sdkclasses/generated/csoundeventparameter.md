@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventParameter(ptr --[[ string ]])
+CSoundEventParameter(ptr)
 ```
 # Properties
 ## ParamName 
 ```lua
-@type string
+--- @type string
 Read: csoundeventparameter.ParamName
 Write: csoundeventparameter.ParamName = value
 ```
 ## FloatValue 
 ```lua
-@type number
+--- @type number
 Read: csoundeventparameter.FloatValue
 Write: csoundeventparameter.FloatValue = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csoundeventparameter.Parent
 ```
 # Functions

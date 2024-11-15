@@ -11,8 +11,9 @@ Sets the chat tag of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetChatTag(tag --[[ string ]])
+--- @param tag string
+--- @return nil
+player:SetChatTag(tag)
 ```
 
 :::

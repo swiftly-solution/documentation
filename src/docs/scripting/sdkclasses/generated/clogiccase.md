@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicCase(ptr --[[ string ]])
+CLogicCase(ptr)
 ```
 # Properties
 ## Case 
 ```lua
-@type table
+--- @type table
 Read: clogiccase.Case
 Write: clogiccase.Case = value
 ```
 ## ShuffleCases 
 ```lua
-@type number
+--- @type number
 Read: clogiccase.ShuffleCases
 Write: clogiccase.ShuffleCases = value
 ```
 ## LastShuffleCase 
 ```lua
-@type number
+--- @type number
 Read: clogiccase.LastShuffleCase
 Write: clogiccase.LastShuffleCase = value
 ```
 ## UchShuffleCaseMap 
 ```lua
-@type table
+--- @type table
 Read: clogiccase.UchShuffleCaseMap
 Write: clogiccase.UchShuffleCaseMap = value
 ```
 ## OnCase (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: clogiccase.OnCase
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogiccase.Parent
 ```
 # Functions

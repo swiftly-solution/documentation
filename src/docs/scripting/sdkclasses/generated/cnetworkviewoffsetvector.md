@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNetworkViewOffsetVector(ptr --[[ string ]])
+CNetworkViewOffsetVector(ptr)
 ```
 # Properties
 ## X 
 ```lua
-@type number
+--- @type number
 Read: cnetworkviewoffsetvector.X
 Write: cnetworkviewoffsetvector.X = value
 ```
 ## Y 
 ```lua
-@type number
+--- @type number
 Read: cnetworkviewoffsetvector.Y
 Write: cnetworkviewoffsetvector.Y = value
 ```
 ## Z 
 ```lua
-@type number
+--- @type number
 Read: cnetworkviewoffsetvector.Z
 Write: cnetworkviewoffsetvector.Z = value
 ```

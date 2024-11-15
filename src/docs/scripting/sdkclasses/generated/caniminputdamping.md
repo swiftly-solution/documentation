@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimInputDamping(ptr --[[ string ]])
+CAnimInputDamping(ptr)
 ```
 # Properties
 ## SpeedFunction 
 ```lua
-@type number
+--- @type number
 Read: caniminputdamping.SpeedFunction
 Write: caniminputdamping.SpeedFunction = value
 ```
 ## SpeedScale 
 ```lua
-@type number
+--- @type number
 Read: caniminputdamping.SpeedScale
 Write: caniminputdamping.SpeedScale = value
 ```

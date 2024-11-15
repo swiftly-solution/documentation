@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSoundscapeAlias_snd_soundscape(ptr --[[ string ]])
+CEnvSoundscapeAlias_snd_soundscape(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CEnvSoundscape
+--- @type CEnvSoundscape
 Read: cenvsoundscapealias_snd_soundscape.Parent
 ```
 # Functions

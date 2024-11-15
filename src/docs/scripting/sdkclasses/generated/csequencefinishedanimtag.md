@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSequenceFinishedAnimTag(ptr --[[ string ]])
+CSequenceFinishedAnimTag(ptr)
 ```
 # Properties
 ## SequenceName 
 ```lua
-@type string
+--- @type string
 Read: csequencefinishedanimtag.SequenceName
 Write: csequencefinishedanimtag.SequenceName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: csequencefinishedanimtag.Parent
 ```
 # Functions

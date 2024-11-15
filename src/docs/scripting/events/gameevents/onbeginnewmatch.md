@@ -11,8 +11,9 @@ This event is triggered when begin_new_match is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBeginNewMatch", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBeginNewMatch", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

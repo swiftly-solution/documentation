@@ -11,7 +11,7 @@ Generates an UUID v4.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 uuid()
 ```
 

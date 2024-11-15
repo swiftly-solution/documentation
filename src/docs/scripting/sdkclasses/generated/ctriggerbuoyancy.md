@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerBuoyancy(ptr --[[ string ]])
+CTriggerBuoyancy(ptr)
 ```
 # Properties
 ## BuoyancyHelper (Read-Only)
 ```lua
-@type CBuoyancyHelper
+--- @type CBuoyancyHelper
 Read: ctriggerbuoyancy.BuoyancyHelper
 ```
 ## FluidDensity 
 ```lua
-@type number
+--- @type number
 Read: ctriggerbuoyancy.FluidDensity
 Write: ctriggerbuoyancy.FluidDensity = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerbuoyancy.Parent
 ```
 # Functions

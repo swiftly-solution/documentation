@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSpriteAlias_env_glow(ptr --[[ string ]])
+CSpriteAlias_env_glow(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSprite
+--- @type CSprite
 Read: cspritealias_env_glow.Parent
 ```
 # Functions

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientAdvanceNonRenderedFrame_t(ptr --[[ string ]])
+EventClientAdvanceNonRenderedFrame_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

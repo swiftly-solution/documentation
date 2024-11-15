@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_LayerBase(ptr --[[ string ]])
+CSSDSMsg_LayerBase(ptr)
 ```
 # Properties
 ## ViewId (Read-Only)
 ```lua
-@type SceneViewId_t
+--- @type SceneViewId_t
 Read: cssdsmsg_layerbase.ViewId
 ```
 ## ViewName 
 ```lua
-@type string
+--- @type string
 Read: cssdsmsg_layerbase.ViewName
 Write: cssdsmsg_layerbase.ViewName = value
 ```
 ## LayerIndex 
 ```lua
-@type number
+--- @type number
 Read: cssdsmsg_layerbase.LayerIndex
 Write: cssdsmsg_layerbase.LayerIndex = value
 ```
 ## LayerId 
 ```lua
-@type number
+--- @type number
 Read: cssdsmsg_layerbase.LayerId
 Write: cssdsmsg_layerbase.LayerId = value
 ```
 ## LayerName 
 ```lua
-@type string
+--- @type string
 Read: cssdsmsg_layerbase.LayerName
 Write: cssdsmsg_layerbase.LayerName = value
 ```
 ## DisplayText 
 ```lua
-@type string
+--- @type string
 Read: cssdsmsg_layerbase.DisplayText
 Write: cssdsmsg_layerbase.DisplayText = value
 ```

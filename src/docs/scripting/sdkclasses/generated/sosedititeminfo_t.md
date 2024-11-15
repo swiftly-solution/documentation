@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SosEditItemInfo_t(ptr --[[ string ]])
+SosEditItemInfo_t(ptr)
 ```
 # Properties
 ## ItemType 
 ```lua
-@type number
+--- @type number
 Read: sosedititeminfo_t.ItemType
 Write: sosedititeminfo_t.ItemType = value
 ```
 ## ItemName 
 ```lua
-@type string
+--- @type string
 Read: sosedititeminfo_t.ItemName
 Write: sosedititeminfo_t.ItemName = value
 ```
 ## ItemTypeName 
 ```lua
-@type string
+--- @type string
 Read: sosedititeminfo_t.ItemTypeName
 Write: sosedititeminfo_t.ItemTypeName = value
 ```
 ## ItemKVString 
 ```lua
-@type string
+--- @type string
 Read: sosedititeminfo_t.ItemKVString
 Write: sosedititeminfo_t.ItemKVString = value
 ```
 ## ItemPos 
 ```lua
-@type Vector2D
+--- @type Vector2D
 Read: sosedititeminfo_t.ItemPos
 Write: sosedititeminfo_t.ItemPos = value
 ```

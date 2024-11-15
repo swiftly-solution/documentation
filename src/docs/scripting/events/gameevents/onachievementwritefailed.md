@@ -11,8 +11,9 @@ This event is triggered when achievement_write_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAchievementWriteFailed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAchievementWriteFailed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CUnaryUpdateNode(ptr --[[ string ]])
+CUnaryUpdateNode(ptr)
 ```
 # Properties
 ## ChildNode (Read-Only)
 ```lua
-@type CAnimUpdateNodeRef
+--- @type CAnimUpdateNodeRef
 Read: cunaryupdatenode.ChildNode
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: cunaryupdatenode.Parent
 ```
 # Functions

@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDestructiblePartsSystemData_PartData(ptr --[[ string ]])
+CDestructiblePartsSystemData_PartData(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cdestructiblepartssystemdata_partdata.Name
 Write: cdestructiblepartssystemdata_partdata.Name = value
 ```
 ## BodyGroupValue 
 ```lua
-@type number
+--- @type number
 Read: cdestructiblepartssystemdata_partdata.BodyGroupValue
 Write: cdestructiblepartssystemdata_partdata.BodyGroupValue = value
 ```
 ## Health (Read-Only)
 ```lua
-@type CSkillInt
+--- @type CSkillInt
 Read: cdestructiblepartssystemdata_partdata.Health
 ```
 ## DamagePassthroughType 
 ```lua
-@type number
+--- @type number
 Read: cdestructiblepartssystemdata_partdata.DamagePassthroughType
 Write: cdestructiblepartssystemdata_partdata.DamagePassthroughType = value
 ```
 ## KillNPCOnDestruction 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdestructiblepartssystemdata_partdata.KillNPCOnDestruction
 Write: cdestructiblepartssystemdata_partdata.KillNPCOnDestruction = value
 ```

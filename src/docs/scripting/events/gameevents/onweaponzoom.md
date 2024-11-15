@@ -11,8 +11,9 @@ This event is triggered when weapon_zoom is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnWeaponZoom", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnWeaponZoom", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

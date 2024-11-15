@@ -12,46 +12,46 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AnimationSnapshotBase_t(ptr --[[ string ]])
+AnimationSnapshotBase_t(ptr)
 ```
 # Properties
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: animationsnapshotbase_t.RealTime
 Write: animationsnapshotbase_t.RealTime = value
 ```
 ## BonesInWorldSpace 
 ```lua
-@type boolean
+--- @type boolean
 Read: animationsnapshotbase_t.BonesInWorldSpace
 Write: animationsnapshotbase_t.BonesInWorldSpace = value
 ```
 ## BoneSetupMask (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationsnapshotbase_t.BoneSetupMask
 ```
 ## FlexControllers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationsnapshotbase_t.FlexControllers
 ```
 ## SnapshotType 
 ```lua
-@type number
+--- @type number
 Read: animationsnapshotbase_t.SnapshotType
 Write: animationsnapshotbase_t.SnapshotType = value
 ```
 ## HasDecodeDump 
 ```lua
-@type boolean
+--- @type boolean
 Read: animationsnapshotbase_t.HasDecodeDump
 Write: animationsnapshotbase_t.HasDecodeDump = value
 ```
 ## DecodeDump (Read-Only)
 ```lua
-@type AnimationDecodeDebugDumpElement_t
+--- @type AnimationDecodeDebugDumpElement_t
 Read: animationsnapshotbase_t.DecodeDump
 ```
 # Functions

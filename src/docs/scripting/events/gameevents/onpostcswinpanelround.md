@@ -11,8 +11,9 @@ This event is triggered after cs_win_panel_round is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsWinPanelRound", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsWinPanelRound", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

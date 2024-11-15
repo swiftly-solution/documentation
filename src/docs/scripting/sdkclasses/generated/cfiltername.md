@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFilterName(ptr --[[ string ]])
+CFilterName(ptr)
 ```
 # Properties
 ## FilterName 
 ```lua
-@type string
+--- @type string
 Read: cfiltername.FilterName
 Write: cfiltername.FilterName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cfiltername.Parent
 ```
 # Functions

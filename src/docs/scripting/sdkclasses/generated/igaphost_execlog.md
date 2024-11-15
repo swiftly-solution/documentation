@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IGapHost_ExecLog(ptr --[[ string ]])
+IGapHost_ExecLog(ptr)
 ```
 # Properties
 There are no properties available for this class.

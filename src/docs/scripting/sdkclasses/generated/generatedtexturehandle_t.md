@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-GeneratedTextureHandle_t(ptr --[[ string ]])
+GeneratedTextureHandle_t(ptr)
 ```
 # Properties
 ## StrBitmapName 
 ```lua
-@type string
+--- @type string
 Read: generatedtexturehandle_t.StrBitmapName
 Write: generatedtexturehandle_t.StrBitmapName = value
 ```

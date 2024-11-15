@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlexOp(ptr --[[ string ]])
+CFlexOp(ptr)
 ```
 # Properties
 ## OpCode 
 ```lua
-@type number
+--- @type number
 Read: cflexop.OpCode
 Write: cflexop.OpCode = value
 ```
 ## Data 
 ```lua
-@type number
+--- @type number
 Read: cflexop.Data
 Write: cflexop.Data = value
 ```

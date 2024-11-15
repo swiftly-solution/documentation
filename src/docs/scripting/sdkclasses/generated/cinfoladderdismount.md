@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoLadderDismount(ptr --[[ string ]])
+CInfoLadderDismount(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cinfoladderdismount.Parent
 ```
 # Functions

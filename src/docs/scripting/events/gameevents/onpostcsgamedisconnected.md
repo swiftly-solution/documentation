@@ -11,8 +11,9 @@ This event is triggered after cs_game_disconnected is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsGameDisconnected", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsGameDisconnected", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

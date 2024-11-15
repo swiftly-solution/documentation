@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntitySubclassVDataBase(ptr --[[ string ]])
+CEntitySubclassVDataBase(ptr)
 ```
 # Properties
 There are no properties available for this class.

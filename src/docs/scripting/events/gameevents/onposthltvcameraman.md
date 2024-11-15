@@ -11,8 +11,9 @@ This event is triggered after hltv_cameraman is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHltvCameraman", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHltvCameraman", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

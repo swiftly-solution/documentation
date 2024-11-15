@@ -11,8 +11,9 @@ This event is triggered when server_pre_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnServerPreShutdown", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnServerPreShutdown", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

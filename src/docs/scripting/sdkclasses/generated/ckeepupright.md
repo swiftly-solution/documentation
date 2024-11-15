@@ -12,53 +12,53 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CKeepUpright(ptr --[[ string ]])
+CKeepUpright(ptr)
 ```
 # Properties
 ## WorldGoalAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: ckeepupright.WorldGoalAxis
 Write: ckeepupright.WorldGoalAxis = value
 ```
 ## LocalTestAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: ckeepupright.LocalTestAxis
 Write: ckeepupright.LocalTestAxis = value
 ```
 ## NameAttach 
 ```lua
-@type string
+--- @type string
 Read: ckeepupright.NameAttach
 Write: ckeepupright.NameAttach = value
 ```
 ## AttachedObject (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ckeepupright.AttachedObject
 ```
 ## AngularLimit 
 ```lua
-@type number
+--- @type number
 Read: ckeepupright.AngularLimit
 Write: ckeepupright.AngularLimit = value
 ```
 ## Active 
 ```lua
-@type boolean
+--- @type boolean
 Read: ckeepupright.Active
 Write: ckeepupright.Active = value
 ```
 ## DampAllRotation 
 ```lua
-@type boolean
+--- @type boolean
 Read: ckeepupright.DampAllRotation
 Write: ckeepupright.DampAllRotation = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: ckeepupright.Parent
 ```
 # Functions

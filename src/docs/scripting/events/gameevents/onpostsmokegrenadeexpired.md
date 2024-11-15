@@ -11,8 +11,9 @@ This event is triggered after smokegrenade_expired is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSmokegrenadeExpired", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSmokegrenadeExpired", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

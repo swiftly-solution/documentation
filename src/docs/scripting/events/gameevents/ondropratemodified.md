@@ -11,8 +11,9 @@ This event is triggered when drop_rate_modified is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDropRateModified", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDropRateModified", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

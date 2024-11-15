@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CToggleComponentActionUpdater(ptr --[[ string ]])
+CToggleComponentActionUpdater(ptr)
 ```
 # Properties
 ## ComponentID (Read-Only)
 ```lua
-@type AnimComponentID
+--- @type AnimComponentID
 Read: ctogglecomponentactionupdater.ComponentID
 ```
 ## SetEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctogglecomponentactionupdater.SetEnabled
 Write: ctogglecomponentactionupdater.SetEnabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimActionUpdater
+--- @type CAnimActionUpdater
 Read: ctogglecomponentactionupdater.Parent
 ```
 # Functions

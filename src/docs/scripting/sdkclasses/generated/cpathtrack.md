@@ -12,62 +12,62 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathTrack(ptr --[[ string ]])
+CPathTrack(ptr)
 ```
 # Properties
 ## Pnext (Read-Only)
 ```lua
-@type CPathTrack
+--- @type CPathTrack
 Read: cpathtrack.Pnext
 ```
 ## Pprevious (Read-Only)
 ```lua
-@type CPathTrack
+--- @type CPathTrack
 Read: cpathtrack.Pprevious
 ```
 ## Paltpath (Read-Only)
 ```lua
-@type CPathTrack
+--- @type CPathTrack
 Read: cpathtrack.Paltpath
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cpathtrack.Radius
 Write: cpathtrack.Radius = value
 ```
 ## Length 
 ```lua
-@type number
+--- @type number
 Read: cpathtrack.Length
 Write: cpathtrack.Length = value
 ```
 ## AltName 
 ```lua
-@type string
+--- @type string
 Read: cpathtrack.AltName
 Write: cpathtrack.AltName = value
 ```
 ## IterVal 
 ```lua
-@type number
+--- @type number
 Read: cpathtrack.IterVal
 Write: cpathtrack.IterVal = value
 ```
 ## OrientationType 
 ```lua
-@type number
+--- @type number
 Read: cpathtrack.OrientationType
 Write: cpathtrack.OrientationType = value
 ```
 ## OnPass (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cpathtrack.OnPass
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpathtrack.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeVector(ptr --[[ string ]])
+CNavVolumeVector(ptr)
 ```
 # Properties
 ## HasBeenPreFiltered 
 ```lua
-@type boolean
+--- @type boolean
 Read: cnavvolumevector.HasBeenPreFiltered
 Write: cnavvolumevector.HasBeenPreFiltered = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNavVolume
+--- @type CNavVolume
 Read: cnavvolumevector.Parent
 ```
 # Functions

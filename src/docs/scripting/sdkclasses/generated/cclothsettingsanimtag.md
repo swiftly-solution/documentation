@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CClothSettingsAnimTag(ptr --[[ string ]])
+CClothSettingsAnimTag(ptr)
 ```
 # Properties
 ## Stiffness 
 ```lua
-@type number
+--- @type number
 Read: cclothsettingsanimtag.Stiffness
 Write: cclothsettingsanimtag.Stiffness = value
 ```
 ## EaseIn 
 ```lua
-@type number
+--- @type number
 Read: cclothsettingsanimtag.EaseIn
 Write: cclothsettingsanimtag.EaseIn = value
 ```
 ## EaseOut 
 ```lua
-@type number
+--- @type number
 Read: cclothsettingsanimtag.EaseOut
 Write: cclothsettingsanimtag.EaseOut = value
 ```
 ## VertexSet 
 ```lua
-@type string
+--- @type string
 Read: cclothsettingsanimtag.VertexSet
 Write: cclothsettingsanimtag.VertexSet = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cclothsettingsanimtag.Parent
 ```
 # Functions

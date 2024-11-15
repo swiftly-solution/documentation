@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseEntityAPI(ptr --[[ string ]])
+CBaseEntityAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

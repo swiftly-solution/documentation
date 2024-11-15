@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqBoneMaskList(ptr --[[ string ]])
+CSeqBoneMaskList(ptr)
 ```
 # Properties
 ## LocalBoneArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqbonemasklist.LocalBoneArray
 ```
 ## BoneWeightArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqbonemasklist.BoneWeightArray
 ```
 ## DefaultMorphCtrlWeight 
 ```lua
-@type number
+--- @type number
 Read: cseqbonemasklist.DefaultMorphCtrlWeight
 Write: cseqbonemasklist.DefaultMorphCtrlWeight = value
 ```

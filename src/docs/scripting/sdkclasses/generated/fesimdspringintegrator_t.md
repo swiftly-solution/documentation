@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeSimdSpringIntegrator_t(ptr --[[ string ]])
+FeSimdSpringIntegrator_t(ptr)
 ```
 # Properties
 ## SpringRestLength 
 ```lua
-@type number
+--- @type number
 Read: fesimdspringintegrator_t.SpringRestLength
 Write: fesimdspringintegrator_t.SpringRestLength = value
 ```
 ## SpringConstant 
 ```lua
-@type number
+--- @type number
 Read: fesimdspringintegrator_t.SpringConstant
 Write: fesimdspringintegrator_t.SpringConstant = value
 ```
 ## SpringDamping 
 ```lua
-@type number
+--- @type number
 Read: fesimdspringintegrator_t.SpringDamping
 Write: fesimdspringintegrator_t.SpringDamping = value
 ```
 ## NodeWeight0 
 ```lua
-@type number
+--- @type number
 Read: fesimdspringintegrator_t.NodeWeight0
 Write: fesimdspringintegrator_t.NodeWeight0 = value
 ```

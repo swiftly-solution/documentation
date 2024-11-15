@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSequenceUpdateNodeBase(ptr --[[ string ]])
+CSequenceUpdateNodeBase(ptr)
 ```
 # Properties
 ## PlaybackSpeed 
 ```lua
-@type number
+--- @type number
 Read: csequenceupdatenodebase.PlaybackSpeed
 Write: csequenceupdatenodebase.PlaybackSpeed = value
 ```
 ## Loop 
 ```lua
-@type boolean
+--- @type boolean
 Read: csequenceupdatenodebase.Loop
 Write: csequenceupdatenodebase.Loop = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: csequenceupdatenodebase.Parent
 ```
 # Functions

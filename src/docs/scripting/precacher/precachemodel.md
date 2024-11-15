@@ -11,8 +11,9 @@ Adds a model to precache.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-precacher:PrecacheModel(model --[[ string ]])
+--- @param model string
+--- @return nil
+precacher:PrecacheModel(model)
 ```
 
 :::

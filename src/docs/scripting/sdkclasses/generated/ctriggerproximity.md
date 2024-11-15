@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerProximity(ptr --[[ string ]])
+CTriggerProximity(ptr)
 ```
 # Properties
 ## MeasureTarget (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ctriggerproximity.MeasureTarget
 ```
 ## MeasureTarget1 
 ```lua
-@type string
+--- @type string
 Read: ctriggerproximity.MeasureTarget1
 Write: ctriggerproximity.MeasureTarget1 = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: ctriggerproximity.Radius
 Write: ctriggerproximity.Radius = value
 ```
 ## Touchers 
 ```lua
-@type number
+--- @type number
 Read: ctriggerproximity.Touchers
 Write: ctriggerproximity.Touchers = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerproximity.Parent
 ```
 # Functions

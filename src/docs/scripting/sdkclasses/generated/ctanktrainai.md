@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTankTrainAI(ptr --[[ string ]])
+CTankTrainAI(ptr)
 ```
 # Properties
 ## Train (Read-Only)
 ```lua
-@type CFuncTrackTrain
+--- @type CFuncTrackTrain
 Read: ctanktrainai.Train
 ```
 ## TargetEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ctanktrainai.TargetEntity
 ```
 ## SoundPlaying 
 ```lua
-@type number
+--- @type number
 Read: ctanktrainai.SoundPlaying
 Write: ctanktrainai.SoundPlaying = value
 ```
 ## StartSoundName 
 ```lua
-@type string
+--- @type string
 Read: ctanktrainai.StartSoundName
 Write: ctanktrainai.StartSoundName = value
 ```
 ## EngineSoundName 
 ```lua
-@type string
+--- @type string
 Read: ctanktrainai.EngineSoundName
 Write: ctanktrainai.EngineSoundName = value
 ```
 ## MovementSoundName 
 ```lua
-@type string
+--- @type string
 Read: ctanktrainai.MovementSoundName
 Write: ctanktrainai.MovementSoundName = value
 ```
 ## TargetEntityName 
 ```lua
-@type string
+--- @type string
 Read: ctanktrainai.TargetEntityName
 Write: ctanktrainai.TargetEntityName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: ctanktrainai.Parent
 ```
 # Functions

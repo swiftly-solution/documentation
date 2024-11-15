@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerDetectBulletFire(ptr --[[ string ]])
+CTriggerDetectBulletFire(ptr)
 ```
 # Properties
 ## PlayerFireOnly 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerdetectbulletfire.PlayerFireOnly
 Write: ctriggerdetectbulletfire.PlayerFireOnly = value
 ```
 ## OnDetectedBulletFire (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerdetectbulletfire.OnDetectedBulletFire
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerdetectbulletfire.Parent
 ```
 # Functions

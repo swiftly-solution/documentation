@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRectLight(ptr --[[ string ]])
+CRectLight(ptr)
 ```
 # Properties
 ## ShowLight 
 ```lua
-@type boolean
+--- @type boolean
 Read: crectlight.ShowLight
 Write: crectlight.ShowLight = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBarnLight
+--- @type CBarnLight
 Read: crectlight.Parent
 ```
 # Functions

@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnShapeDesc_t(ptr --[[ string ]])
+RnShapeDesc_t(ptr)
 ```
 # Properties
 ## CollisionAttributeIndex 
 ```lua
-@type number
+--- @type number
 Read: rnshapedesc_t.CollisionAttributeIndex
 Write: rnshapedesc_t.CollisionAttributeIndex = value
 ```
 ## SurfacePropertyIndex 
 ```lua
-@type number
+--- @type number
 Read: rnshapedesc_t.SurfacePropertyIndex
 Write: rnshapedesc_t.SurfacePropertyIndex = value
 ```
 ## UserFriendlyName 
 ```lua
-@type string
+--- @type string
 Read: rnshapedesc_t.UserFriendlyName
 Write: rnshapedesc_t.UserFriendlyName = value
 ```
 ## UserFriendlyNameSealed 
 ```lua
-@type boolean
+--- @type boolean
 Read: rnshapedesc_t.UserFriendlyNameSealed
 Write: rnshapedesc_t.UserFriendlyNameSealed = value
 ```
 ## UserFriendlyNameLong 
 ```lua
-@type boolean
+--- @type boolean
 Read: rnshapedesc_t.UserFriendlyNameLong
 Write: rnshapedesc_t.UserFriendlyNameLong = value
 ```
 ## ToolMaterialHash 
 ```lua
-@type number
+--- @type number
 Read: rnshapedesc_t.ToolMaterialHash
 Write: rnshapedesc_t.ToolMaterialHash = value
 ```

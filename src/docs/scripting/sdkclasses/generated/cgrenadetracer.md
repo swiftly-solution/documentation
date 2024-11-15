@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGrenadeTracer(ptr --[[ string ]])
+CGrenadeTracer(ptr)
 ```
 # Properties
 ## TracerDuration 
 ```lua
-@type number
+--- @type number
 Read: cgrenadetracer.TracerDuration
 Write: cgrenadetracer.TracerDuration = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: cgrenadetracer.Type
 Write: cgrenadetracer.Type = value
 ```

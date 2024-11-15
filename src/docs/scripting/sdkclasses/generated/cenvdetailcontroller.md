@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvDetailController(ptr --[[ string ]])
+CEnvDetailController(ptr)
 ```
 # Properties
 ## FadeStartDist 
 ```lua
-@type number
+--- @type number
 Read: cenvdetailcontroller.FadeStartDist
 Write: cenvdetailcontroller.FadeStartDist = value
 ```
 ## FadeEndDist 
 ```lua
-@type number
+--- @type number
 Read: cenvdetailcontroller.FadeEndDist
 Write: cenvdetailcontroller.FadeEndDist = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvdetailcontroller.Parent
 ```
 # Functions

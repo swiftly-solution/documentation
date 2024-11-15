@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCredits(ptr --[[ string ]])
+CCredits(ptr)
 ```
 # Properties
 ## OnCreditsDone (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ccredits.OnCreditsDone
 ```
 ## RolledOutroCredits 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccredits.RolledOutroCredits
 Write: ccredits.RolledOutroCredits = value
 ```
 ## LogoLength 
 ```lua
-@type number
+--- @type number
 Read: ccredits.LogoLength
 Write: ccredits.LogoLength = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: ccredits.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMarkupVolumeTagged_NavGame(ptr --[[ string ]])
+CMarkupVolumeTagged_NavGame(ptr)
 ```
 # Properties
 ## FloodFillAttribute 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmarkupvolumetagged_navgame.FloodFillAttribute
 Write: cmarkupvolumetagged_navgame.FloodFillAttribute = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMarkupVolumeWithRef
+--- @type CMarkupVolumeWithRef
 Read: cmarkupvolumetagged_navgame.Parent
 ```
 # Functions

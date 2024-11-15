@@ -11,8 +11,9 @@ This event is triggered after item_remove is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostItemRemove", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostItemRemove", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

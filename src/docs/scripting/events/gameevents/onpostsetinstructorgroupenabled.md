@@ -11,8 +11,9 @@ This event is triggered after set_instructor_group_enabled is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSetInstructorGroupEnabled", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSetInstructorGroupEnabled", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

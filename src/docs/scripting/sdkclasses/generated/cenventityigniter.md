@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvEntityIgniter(ptr --[[ string ]])
+CEnvEntityIgniter(ptr)
 ```
 # Properties
 ## Lifetime 
 ```lua
-@type number
+--- @type number
 Read: cenventityigniter.Lifetime
 Write: cenventityigniter.Lifetime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenventityigniter.Parent
 ```
 # Functions

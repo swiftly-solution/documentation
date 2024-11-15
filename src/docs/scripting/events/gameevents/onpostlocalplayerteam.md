@@ -11,8 +11,9 @@ This event is triggered after local_player_team is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostLocalPlayerTeam", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostLocalPlayerTeam", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnFace_t(ptr --[[ string ]])
+RnFace_t(ptr)
 ```
 # Properties
 ## Edge 
 ```lua
-@type number
+--- @type number
 Read: rnface_t.Edge
 Write: rnface_t.Edge = value
 ```

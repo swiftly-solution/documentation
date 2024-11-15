@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRangeInt(ptr --[[ string ]])
+CRangeInt(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type table
+--- @type table
 Read: crangeint.Value
 Write: crangeint.Value = value
 ```

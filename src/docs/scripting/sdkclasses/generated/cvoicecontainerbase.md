@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerBase(ptr --[[ string ]])
+CVoiceContainerBase(ptr)
 ```
 # Properties
 ## EnvelopeAnalyzer (Read-Only)
 ```lua
-@type CVoiceContainerAnalysisBase
+--- @type CVoiceContainerAnalysisBase
 Read: cvoicecontainerbase.EnvelopeAnalyzer
 ```
 # Functions

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHandle(ptr --[[ string ]])
+CHandle(ptr)
 ```
 # Properties
 There are no properties available for this class.
@@ -25,7 +25,7 @@ chandle:GetPtr()
 ## SetPtr
 ```lua
 @returns void
-chandle:SetPtr(ptr --[[ string ]])
+chandle:SetPtr(ptr)
 ```
 ## GetHandlePtr
 ```lua

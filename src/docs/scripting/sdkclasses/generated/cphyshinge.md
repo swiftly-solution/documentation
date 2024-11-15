@@ -12,114 +12,114 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysHinge(ptr --[[ string ]])
+CPhysHinge(ptr)
 ```
 # Properties
 ## SoundInfo (Read-Only)
 ```lua
-@type ConstraintSoundInfo
+--- @type ConstraintSoundInfo
 Read: cphyshinge.SoundInfo
 ```
 ## NotifyMinLimitReached (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cphyshinge.NotifyMinLimitReached
 ```
 ## NotifyMaxLimitReached (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cphyshinge.NotifyMaxLimitReached
 ```
 ## AtMinLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyshinge.AtMinLimit
 Write: cphyshinge.AtMinLimit = value
 ```
 ## AtMaxLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyshinge.AtMaxLimit
 Write: cphyshinge.AtMaxLimit = value
 ```
 ## Hinge (Read-Only)
 ```lua
-@type constraint_hingeparams_t
+--- @type constraint_hingeparams_t
 Read: cphyshinge.Hinge
 ```
 ## HingeFriction 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.HingeFriction
 Write: cphyshinge.HingeFriction = value
 ```
 ## SystemLoadScale 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.SystemLoadScale
 Write: cphyshinge.SystemLoadScale = value
 ```
 ## IsAxisLocal 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyshinge.IsAxisLocal
 Write: cphyshinge.IsAxisLocal = value
 ```
 ## MinRotation 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.MinRotation
 Write: cphyshinge.MinRotation = value
 ```
 ## MaxRotation 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.MaxRotation
 Write: cphyshinge.MaxRotation = value
 ```
 ## InitialRotation 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.InitialRotation
 Write: cphyshinge.InitialRotation = value
 ```
 ## MotorFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.MotorFrequency
 Write: cphyshinge.MotorFrequency = value
 ```
 ## MotorDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.MotorDampingRatio
 Write: cphyshinge.MotorDampingRatio = value
 ```
 ## AngleSpeed 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.AngleSpeed
 Write: cphyshinge.AngleSpeed = value
 ```
 ## AngleSpeedThreshold 
 ```lua
-@type number
+--- @type number
 Read: cphyshinge.AngleSpeedThreshold
 Write: cphyshinge.AngleSpeedThreshold = value
 ```
 ## OnStartMoving (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cphyshinge.OnStartMoving
 ```
 ## OnStopMoving (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cphyshinge.OnStopMoving
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphyshinge.Parent
 ```
 # Functions

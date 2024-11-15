@@ -12,32 +12,32 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicPlayerProxy(ptr --[[ string ]])
+CLogicPlayerProxy(ptr)
 ```
 # Properties
 ## Player (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: clogicplayerproxy.Player
 ```
 ## PlayerHasAmmo (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerHasAmmo
 ```
 ## PlayerHasNoAmmo (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerHasNoAmmo
 ```
 ## PlayerDied (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicplayerproxy.PlayerDied
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicplayerproxy.Parent
 ```
 # Functions

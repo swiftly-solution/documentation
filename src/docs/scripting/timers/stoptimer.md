@@ -11,8 +11,9 @@ Stops the timer.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-StopTimer(timerid --[[ TimerHandle ]])
+--- @param timerid number TimerHandle
+--- @return nil
+StopTimer(timerid)
 ```
 
 :::

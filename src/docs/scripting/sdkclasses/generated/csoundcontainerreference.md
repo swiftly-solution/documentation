@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundContainerReference(ptr --[[ string ]])
+CSoundContainerReference(ptr)
 ```
 # Properties
 ## UseReference 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundcontainerreference.UseReference
 Write: csoundcontainerreference.UseReference = value
 ```
 ## Sound (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: csoundcontainerreference.Sound
 ```
 # Functions

@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnumAnimParameter(ptr --[[ string ]])
+CEnumAnimParameter(ptr)
 ```
 # Properties
 ## DefaultValue 
 ```lua
-@type number
+--- @type number
 Read: cenumanimparameter.DefaultValue
 Write: cenumanimparameter.DefaultValue = value
 ```
 ## EnumOptions (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cenumanimparameter.EnumOptions
 ```
 ## EnumReferenced (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cenumanimparameter.EnumReferenced
 ```
 ## Parent (Read-Only)
 ```lua
-@type CConcreteAnimParameter
+--- @type CConcreteAnimParameter
 Read: cenumanimparameter.Parent
 ```
 # Functions

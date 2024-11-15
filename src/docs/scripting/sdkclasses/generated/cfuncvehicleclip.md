@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncVehicleClip(ptr --[[ string ]])
+CFuncVehicleClip(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncvehicleclip.Parent
 ```
 # Functions

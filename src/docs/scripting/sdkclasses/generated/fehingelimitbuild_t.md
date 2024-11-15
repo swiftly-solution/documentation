@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeHingeLimitBuild_t(ptr --[[ string ]])
+FeHingeLimitBuild_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: fehingelimitbuild_t.Node
 Write: fehingelimitbuild_t.Node = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: fehingelimitbuild_t.Flags
 Write: fehingelimitbuild_t.Flags = value
 ```
 ## LimitCW 
 ```lua
-@type number
+--- @type number
 Read: fehingelimitbuild_t.LimitCW
 Write: fehingelimitbuild_t.LimitCW = value
 ```
 ## LimitCCW 
 ```lua
-@type number
+--- @type number
 Read: fehingelimitbuild_t.LimitCCW
 Write: fehingelimitbuild_t.LimitCCW = value
 ```

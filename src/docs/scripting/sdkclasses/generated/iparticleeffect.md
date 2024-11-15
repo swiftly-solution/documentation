@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IParticleEffect(ptr --[[ string ]])
+IParticleEffect(ptr)
 ```
 # Properties
 There are no properties available for this class.

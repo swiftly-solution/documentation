@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTrackAuto(ptr --[[ string ]])
+CFuncTrackAuto(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CFuncTrackChange
+--- @type CFuncTrackChange
 Read: cfunctrackauto.Parent
 ```
 # Functions

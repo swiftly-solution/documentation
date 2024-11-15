@@ -11,8 +11,9 @@ This event is triggered when add_player_sonar_icon is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAddPlayerSonarIcon", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAddPlayerSonarIcon", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

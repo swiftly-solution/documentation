@@ -11,8 +11,10 @@ Registers a new command through Swiftly Commands.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-commands:Register(commandName --[[ string ]], callback --[[ function ]])
+--- @param commandName string
+--- @param callback function
+--- @return nil
+commands:Register(commandName, callback)
 ```
 The callback has the following arguments:
 ```lua

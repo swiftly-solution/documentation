@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathSimpleAPI(ptr --[[ string ]])
+CPathSimpleAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

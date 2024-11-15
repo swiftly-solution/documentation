@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmLegacyEvent(ptr --[[ string ]])
+CNmLegacyEvent(ptr)
 ```
 # Properties
 ## AnimEventClassName 
 ```lua
-@type string
+--- @type string
 Read: cnmlegacyevent.AnimEventClassName
 Write: cnmlegacyevent.AnimEventClassName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmlegacyevent.Parent
 ```
 # Functions

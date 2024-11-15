@@ -11,8 +11,9 @@ This event is triggered when silencer_detach is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSilencerDetach", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSilencerDetach", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

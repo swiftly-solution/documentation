@@ -11,7 +11,7 @@ Removes all the weapons of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
+--- @return nil
 weaponmanager:RemoveWeapons()
 ```
 

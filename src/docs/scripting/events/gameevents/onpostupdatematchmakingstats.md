@@ -11,8 +11,9 @@ This event is triggered after update_matchmaking_stats is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostUpdateMatchmakingStats", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostUpdateMatchmakingStats", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

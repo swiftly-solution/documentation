@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ParamSpan_t(ptr --[[ string ]])
+ParamSpan_t(ptr)
 ```
 # Properties
 ## Samples (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: paramspan_t.Samples
 ```
 ## Param (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: paramspan_t.Param
 ```
 ## ParamType 
 ```lua
-@type number
+--- @type number
 Read: paramspan_t.ParamType
 Write: paramspan_t.ParamType = value
 ```
 ## StartCycle 
 ```lua
-@type number
+--- @type number
 Read: paramspan_t.StartCycle
 Write: paramspan_t.StartCycle = value
 ```
 ## EndCycle 
 ```lua
-@type number
+--- @type number
 Read: paramspan_t.EndCycle
 Write: paramspan_t.EndCycle = value
 ```

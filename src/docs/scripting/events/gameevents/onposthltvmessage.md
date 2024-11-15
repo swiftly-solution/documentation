@@ -11,8 +11,9 @@ This event is triggered after hltv_message is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHltvMessage", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHltvMessage", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

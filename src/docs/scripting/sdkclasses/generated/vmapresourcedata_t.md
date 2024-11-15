@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMapResourceData_t(ptr --[[ string ]])
+VMapResourceData_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

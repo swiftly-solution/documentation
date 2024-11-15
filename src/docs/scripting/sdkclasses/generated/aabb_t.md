@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AABB_t(ptr --[[ string ]])
+AABB_t(ptr)
 ```
 # Properties
 ## MinBounds 
 ```lua
-@type Vector
+--- @type Vector
 Read: aabb_t.MinBounds
 Write: aabb_t.MinBounds = value
 ```
 ## MaxBounds 
 ```lua
-@type Vector
+--- @type Vector
 Read: aabb_t.MaxBounds
 Write: aabb_t.MaxBounds = value
 ```

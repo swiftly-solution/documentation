@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoDeathmatchSpawn(ptr --[[ string ]])
+CInfoDeathmatchSpawn(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type SpawnPoint
+--- @type SpawnPoint
 Read: cinfodeathmatchspawn.Parent
 ```
 # Functions

@@ -12,63 +12,63 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLeanMatrixUpdateNode(ptr --[[ string ]])
+CLeanMatrixUpdateNode(ptr)
 ```
 # Properties
 ## Poses (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cleanmatrixupdatenode.Poses
 ```
 ## Damping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cleanmatrixupdatenode.Damping
 ```
 ## BlendSource 
 ```lua
-@type number
+--- @type number
 Read: cleanmatrixupdatenode.BlendSource
 Write: cleanmatrixupdatenode.BlendSource = value
 ```
 ## ParamIndex (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cleanmatrixupdatenode.ParamIndex
 ```
 ## VerticalAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cleanmatrixupdatenode.VerticalAxis
 Write: cleanmatrixupdatenode.VerticalAxis = value
 ```
 ## HorizontalAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cleanmatrixupdatenode.HorizontalAxis
 Write: cleanmatrixupdatenode.HorizontalAxis = value
 ```
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: cleanmatrixupdatenode.Sequence
 Write: cleanmatrixupdatenode.Sequence = value
 ```
 ## MaxValue 
 ```lua
-@type number
+--- @type number
 Read: cleanmatrixupdatenode.MaxValue
 Write: cleanmatrixupdatenode.MaxValue = value
 ```
 ## SequenceMaxFrame 
 ```lua
-@type number
+--- @type number
 Read: cleanmatrixupdatenode.SequenceMaxFrame
 Write: cleanmatrixupdatenode.SequenceMaxFrame = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: cleanmatrixupdatenode.Parent
 ```
 # Functions

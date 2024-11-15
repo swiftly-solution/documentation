@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ISkeletonAnimationController(ptr --[[ string ]])
+ISkeletonAnimationController(ptr)
 ```
 # Properties
 There are no properties available for this class.

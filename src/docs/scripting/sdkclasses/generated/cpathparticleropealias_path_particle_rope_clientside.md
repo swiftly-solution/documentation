@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathParticleRopeAlias_path_particle_rope_clientside(ptr --[[ string ]])
+CPathParticleRopeAlias_path_particle_rope_clientside(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPathParticleRope
+--- @type CPathParticleRope
 Read: cpathparticleropealias_path_particle_rope_clientside.Parent
 ```
 # Functions

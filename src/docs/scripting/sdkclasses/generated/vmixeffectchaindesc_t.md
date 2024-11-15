@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixEffectChainDesc_t(ptr --[[ string ]])
+VMixEffectChainDesc_t(ptr)
 ```
 # Properties
 ## CrossfadeTime 
 ```lua
-@type number
+--- @type number
 Read: vmixeffectchaindesc_t.CrossfadeTime
 Write: vmixeffectchaindesc_t.CrossfadeTime = value
 ```

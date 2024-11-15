@@ -11,8 +11,9 @@ Reloads the configuration for the specified key.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-config:Reload(key --[[ string ]])
+--- @param key string
+--- @return nil
+config:Reload(key)
 ```
 
 :::

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_EndFrame(ptr --[[ string ]])
+CSSDSMsg_EndFrame(ptr)
 ```
 # Properties
 ## Views (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cssdsmsg_endframe.Views
 ```
 # Functions

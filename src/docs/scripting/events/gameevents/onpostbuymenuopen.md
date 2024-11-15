@@ -11,8 +11,9 @@ This event is triggered after buymenu_open is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBuymenuOpen", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBuymenuOpen", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ Removes the specified event handler.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-RemoveEventHandler(eventHandler --[[ EventHandler ]])
+--- @param eventHandler number EventHandler
+--- @return nil
+RemoveEventHandler(eventHandler)
 ```
 
 :::

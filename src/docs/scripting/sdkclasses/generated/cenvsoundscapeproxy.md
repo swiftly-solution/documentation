@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSoundscapeProxy(ptr --[[ string ]])
+CEnvSoundscapeProxy(ptr)
 ```
 # Properties
 ## MainSoundscapeName 
 ```lua
-@type string
+--- @type string
 Read: cenvsoundscapeproxy.MainSoundscapeName
 Write: cenvsoundscapeproxy.MainSoundscapeName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEnvSoundscape
+--- @type CEnvSoundscape
 Read: cenvsoundscapeproxy.Parent
 ```
 # Functions

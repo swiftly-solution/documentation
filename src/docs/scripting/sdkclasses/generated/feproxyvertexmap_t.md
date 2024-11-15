@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeProxyVertexMap_t(ptr --[[ string ]])
+FeProxyVertexMap_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: feproxyvertexmap_t.Name
 Write: feproxyvertexmap_t.Name = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: feproxyvertexmap_t.Weight
 Write: feproxyvertexmap_t.Weight = value
 ```

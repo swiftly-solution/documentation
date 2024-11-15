@@ -11,8 +11,9 @@ This event is triggered when player_disconnect is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerDisconnect", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerDisconnect", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

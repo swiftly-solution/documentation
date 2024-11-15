@@ -11,8 +11,11 @@ This game event is triggered when a client disconnects.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnClientDisconnect", function(event --[[ Event ]], playerid --[[ number ]])
+--- @param event Event
+--- @param playerid number
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnClientDisconnect", function(event, playerid)
     --[[ ... ]]
     return EventResult.Continue
 end)

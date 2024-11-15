@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FuseFunctionIndex_t(ptr --[[ string ]])
+FuseFunctionIndex_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: fusefunctionindex_t.Value
 Write: fusefunctionindex_t.Value = value
 ```

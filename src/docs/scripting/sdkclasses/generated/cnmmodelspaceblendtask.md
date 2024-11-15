@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmModelSpaceBlendTask(ptr --[[ string ]])
+CNmModelSpaceBlendTask(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmBlendTaskBase
+--- @type CNmBlendTaskBase
 Read: cnmmodelspaceblendtask.Parent
 ```
 # Functions

@@ -11,8 +11,10 @@ Set the float value to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetFloat(key --[[ string ]], value --[[ number ]])
+--- @param key string
+--- @param value number
+--- @return nil
+event:SetFloat(key, value)
 ```
 
 :::

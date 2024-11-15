@@ -12,39 +12,39 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBuoyancyHelper(ptr --[[ string ]])
+CBuoyancyHelper(ptr)
 ```
 # Properties
 ## FluidType 
 ```lua
-@type number
+--- @type number
 Read: cbuoyancyhelper.FluidType
 Write: cbuoyancyhelper.FluidType = value
 ```
 ## FluidDensity 
 ```lua
-@type number
+--- @type number
 Read: cbuoyancyhelper.FluidDensity
 Write: cbuoyancyhelper.FluidDensity = value
 ```
 ## FractionOfWheelSubmergedForWheelFriction (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbuoyancyhelper.FractionOfWheelSubmergedForWheelFriction
 ```
 ## WheelFrictionScales (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbuoyancyhelper.WheelFrictionScales
 ```
 ## FractionOfWheelSubmergedForWheelDrag (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbuoyancyhelper.FractionOfWheelSubmergedForWheelDrag
 ```
 ## WheelDrag (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbuoyancyhelper.WheelDrag
 ```
 # Functions

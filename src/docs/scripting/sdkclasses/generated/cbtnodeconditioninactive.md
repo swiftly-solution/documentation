@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtNodeConditionInactive(ptr --[[ string ]])
+CBtNodeConditionInactive(ptr)
 ```
 # Properties
 ## RoundStartThresholdSeconds 
 ```lua
-@type number
+--- @type number
 Read: cbtnodeconditioninactive.RoundStartThresholdSeconds
 Write: cbtnodeconditioninactive.RoundStartThresholdSeconds = value
 ```
 ## SensorInactivityThresholdSeconds 
 ```lua
-@type number
+--- @type number
 Read: cbtnodeconditioninactive.SensorInactivityThresholdSeconds
 Write: cbtnodeconditioninactive.SensorInactivityThresholdSeconds = value
 ```
 ## SensorInactivityTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtnodeconditioninactive.SensorInactivityTimer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBtNodeCondition
+--- @type CBtNodeCondition
 Read: cbtnodeconditioninactive.Parent
 ```
 # Functions

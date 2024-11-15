@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleFunctionRenderer(ptr --[[ string ]])
+CParticleFunctionRenderer(ptr)
 ```
 # Properties
 ## VisibilityInputs (Read-Only)
 ```lua
-@type CParticleVisibilityInputs
+--- @type CParticleVisibilityInputs
 Read: cparticlefunctionrenderer.VisibilityInputs
 ```
 ## CannotBeRefracted 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlefunctionrenderer.CannotBeRefracted
 Write: cparticlefunctionrenderer.CannotBeRefracted = value
 ```
 ## SkipRenderingOnMobile 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlefunctionrenderer.SkipRenderingOnMobile
 Write: cparticlefunctionrenderer.SkipRenderingOnMobile = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunction
+--- @type CParticleFunction
 Read: cparticlefunctionrenderer.Parent
 ```
 # Functions

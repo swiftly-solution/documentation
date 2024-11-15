@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnCapsule_t(ptr --[[ string ]])
+RnCapsule_t(ptr)
 ```
 # Properties
 ## Center 
 ```lua
-@type table
+--- @type table
 Read: rncapsule_t.Center
 Write: rncapsule_t.Center = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: rncapsule_t.Radius
 Write: rncapsule_t.Radius = value
 ```

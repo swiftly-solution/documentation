@@ -11,8 +11,9 @@ Returns the continent from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ip:GetContinent(ip --[[ string ]])
+--- @param ip string
+--- @return string
+ip:GetContinent(ip)
 ```
 
 :::

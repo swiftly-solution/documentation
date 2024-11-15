@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSingleFrameUpdateNode(ptr --[[ string ]])
+CSingleFrameUpdateNode(ptr)
 ```
 # Properties
 ## PoseCacheHandle (Read-Only)
 ```lua
-@type CPoseHandle
+--- @type CPoseHandle
 Read: csingleframeupdatenode.PoseCacheHandle
 ```
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: csingleframeupdatenode.Sequence
 Write: csingleframeupdatenode.Sequence = value
 ```
 ## Cycle 
 ```lua
-@type number
+--- @type number
 Read: csingleframeupdatenode.Cycle
 Write: csingleframeupdatenode.Cycle = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: csingleframeupdatenode.Parent
 ```
 # Functions

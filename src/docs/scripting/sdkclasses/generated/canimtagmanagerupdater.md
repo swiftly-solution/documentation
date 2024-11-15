@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimTagManagerUpdater(ptr --[[ string ]])
+CAnimTagManagerUpdater(ptr)
 ```
 # Properties
 There are no properties available for this class.

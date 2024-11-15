@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-dynpitchvol_t(ptr --[[ string ]])
+dynpitchvol_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type dynpitchvol_base_t
+--- @type dynpitchvol_base_t
 Read: dynpitchvol_t.Parent
 ```
 # Functions

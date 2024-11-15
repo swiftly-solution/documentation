@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBumpMine(ptr --[[ string ]])
+CBumpMine(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cbumpmine.Parent
 ```
 # Functions

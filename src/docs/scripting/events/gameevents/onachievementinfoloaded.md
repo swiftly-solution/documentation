@@ -11,8 +11,9 @@ This event is triggered when achievement_info_loaded is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAchievementInfoLoaded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAchievementInfoLoaded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

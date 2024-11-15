@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEmptyEntityInstance(ptr --[[ string ]])
+CEmptyEntityInstance(ptr)
 ```
 # Properties
 There are no properties available for this class.

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDestructiblePartsSystemData(ptr --[[ string ]])
+CDestructiblePartsSystemData(ptr)
 ```
 # Properties
 There are no properties available for this class.

@@ -12,50 +12,50 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateUpdateData(ptr --[[ string ]])
+CStateUpdateData(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cstateupdatedata.Name
 Write: cstateupdatedata.Name = value
 ```
 ## Script (Read-Only)
 ```lua
-@type AnimScriptHandle
+--- @type AnimScriptHandle
 Read: cstateupdatedata.Script
 ```
 ## TransitionIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstateupdatedata.TransitionIndices
 ```
 ## Actions (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstateupdatedata.Actions
 ```
 ## StateID (Read-Only)
 ```lua
-@type AnimStateID
+--- @type AnimStateID
 Read: cstateupdatedata.StateID
 ```
 ## IsStartState 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstateupdatedata.IsStartState
 Write: cstateupdatedata.IsStartState = value
 ```
 ## IsEndState 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstateupdatedata.IsEndState
 Write: cstateupdatedata.IsEndState = value
 ```
 ## IsPassthrough 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstateupdatedata.IsPassthrough
 Write: cstateupdatedata.IsPassthrough = value
 ```

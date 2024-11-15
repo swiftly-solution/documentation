@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixSubgraphSwitchDesc_t(ptr --[[ string ]])
+VMixSubgraphSwitchDesc_t(ptr)
 ```
 # Properties
 ## InterpolationMode 
 ```lua
-@type number
+--- @type number
 Read: vmixsubgraphswitchdesc_t.InterpolationMode
 Write: vmixsubgraphswitchdesc_t.InterpolationMode = value
 ```
 ## OnlyTailsOnFadeOut 
 ```lua
-@type boolean
+--- @type boolean
 Read: vmixsubgraphswitchdesc_t.OnlyTailsOnFadeOut
 Write: vmixsubgraphswitchdesc_t.OnlyTailsOnFadeOut = value
 ```
 ## InterpolationTime 
 ```lua
-@type number
+--- @type number
 Read: vmixsubgraphswitchdesc_t.InterpolationTime
 Write: vmixsubgraphswitchdesc_t.InterpolationTime = value
 ```

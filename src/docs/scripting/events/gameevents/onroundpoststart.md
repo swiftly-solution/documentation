@@ -11,8 +11,9 @@ This event is triggered when round_poststart is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundPoststart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundPoststart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

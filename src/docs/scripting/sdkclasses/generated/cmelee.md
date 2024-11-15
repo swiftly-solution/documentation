@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMelee(ptr --[[ string ]])
+CMelee(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cmelee.Parent
 ```
 # Functions

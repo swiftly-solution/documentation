@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStopAtGoalUpdateNode(ptr --[[ string ]])
+CStopAtGoalUpdateNode(ptr)
 ```
 # Properties
 ## OuterRadius 
 ```lua
-@type number
+--- @type number
 Read: cstopatgoalupdatenode.OuterRadius
 Write: cstopatgoalupdatenode.OuterRadius = value
 ```
 ## InnerRadius 
 ```lua
-@type number
+--- @type number
 Read: cstopatgoalupdatenode.InnerRadius
 Write: cstopatgoalupdatenode.InnerRadius = value
 ```
 ## MaxScale 
 ```lua
-@type number
+--- @type number
 Read: cstopatgoalupdatenode.MaxScale
 Write: cstopatgoalupdatenode.MaxScale = value
 ```
 ## MinScale 
 ```lua
-@type number
+--- @type number
 Read: cstopatgoalupdatenode.MinScale
 Write: cstopatgoalupdatenode.MinScale = value
 ```
 ## Damping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cstopatgoalupdatenode.Damping
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cstopatgoalupdatenode.Parent
 ```
 # Functions

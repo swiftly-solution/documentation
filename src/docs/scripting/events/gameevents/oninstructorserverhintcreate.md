@@ -11,8 +11,9 @@ This event is triggered when instructor_server_hint_create is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnInstructorServerHintCreate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnInstructorServerHintCreate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

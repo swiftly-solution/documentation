@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncVPhysicsClip(ptr --[[ string ]])
+CFuncVPhysicsClip(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncvphysicsclip.Disabled
 Write: cfuncvphysicsclip.Disabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncvphysicsclip.Parent
 ```
 # Functions

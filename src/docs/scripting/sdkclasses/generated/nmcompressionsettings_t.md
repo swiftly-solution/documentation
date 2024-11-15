@@ -12,44 +12,44 @@ category:
 @tab Lua
 # Constructor
 ```lua
-NmCompressionSettings_t(ptr --[[ string ]])
+NmCompressionSettings_t(ptr)
 ```
 # Properties
 ## TranslationRangeX (Read-Only)
 ```lua
-@type NmCompressionSettings_t::QuantizationRange_t
+--- @type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeX
 ```
 ## TranslationRangeY (Read-Only)
 ```lua
-@type NmCompressionSettings_t::QuantizationRange_t
+--- @type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeY
 ```
 ## TranslationRangeZ (Read-Only)
 ```lua
-@type NmCompressionSettings_t::QuantizationRange_t
+--- @type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.TranslationRangeZ
 ```
 ## ScaleRange (Read-Only)
 ```lua
-@type NmCompressionSettings_t::QuantizationRange_t
+--- @type NmCompressionSettings_t::QuantizationRange_t
 Read: nmcompressionsettings_t.ScaleRange
 ```
 ## IsRotationStatic 
 ```lua
-@type boolean
+--- @type boolean
 Read: nmcompressionsettings_t.IsRotationStatic
 Write: nmcompressionsettings_t.IsRotationStatic = value
 ```
 ## IsTranslationStatic 
 ```lua
-@type boolean
+--- @type boolean
 Read: nmcompressionsettings_t.IsTranslationStatic
 Write: nmcompressionsettings_t.IsTranslationStatic = value
 ```
 ## IsScaleStatic 
 ```lua
-@type boolean
+--- @type boolean
 Read: nmcompressionsettings_t.IsScaleStatic
 Write: nmcompressionsettings_t.IsScaleStatic = value
 ```

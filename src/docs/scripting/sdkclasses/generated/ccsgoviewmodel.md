@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGOViewModel(ptr --[[ string ]])
+CCSGOViewModel(ptr)
 ```
 # Properties
 ## ShouldIgnoreOffsetAndAccuracy 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy
 Write: ccsgoviewmodel.ShouldIgnoreOffsetAndAccuracy = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPredictedViewModel
+--- @type CPredictedViewModel
 Read: ccsgoviewmodel.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqTransition(ptr --[[ string ]])
+CSeqTransition(ptr)
 ```
 # Properties
 ## FadeInTime 
 ```lua
-@type number
+--- @type number
 Read: cseqtransition.FadeInTime
 Write: cseqtransition.FadeInTime = value
 ```
 ## FadeOutTime 
 ```lua
-@type number
+--- @type number
 Read: cseqtransition.FadeOutTime
 Write: cseqtransition.FadeOutTime = value
 ```

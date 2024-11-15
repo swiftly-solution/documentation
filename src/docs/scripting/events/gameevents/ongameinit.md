@@ -11,8 +11,9 @@ This event is triggered when game_init is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGameInit", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGameInit", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

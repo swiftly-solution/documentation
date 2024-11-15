@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventPostDataUpdate_t(ptr --[[ string ]])
+EventPostDataUpdate_t(ptr)
 ```
 # Properties
 ## Count 
 ```lua
-@type number
+--- @type number
 Read: eventpostdataupdate_t.Count
 Write: eventpostdataupdate_t.Count = value
 ```

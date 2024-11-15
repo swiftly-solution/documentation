@@ -11,8 +11,9 @@ This event is triggered when enter_buyzone is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEnterBuyzone", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEnterBuyzone", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

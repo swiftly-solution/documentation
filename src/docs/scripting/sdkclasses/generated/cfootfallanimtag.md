@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootFallAnimTag(ptr --[[ string ]])
+CFootFallAnimTag(ptr)
 ```
 # Properties
 ## Foot 
 ```lua
-@type number
+--- @type number
 Read: cfootfallanimtag.Foot
 Write: cfootfallanimtag.Foot = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cfootfallanimtag.Parent
 ```
 # Functions

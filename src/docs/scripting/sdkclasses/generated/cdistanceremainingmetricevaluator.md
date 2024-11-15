@@ -12,54 +12,54 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDistanceRemainingMetricEvaluator(ptr --[[ string ]])
+CDistanceRemainingMetricEvaluator(ptr)
 ```
 # Properties
 ## MaxDistance 
 ```lua
-@type number
+--- @type number
 Read: cdistanceremainingmetricevaluator.MaxDistance
 Write: cdistanceremainingmetricevaluator.MaxDistance = value
 ```
 ## MinDistance 
 ```lua
-@type number
+--- @type number
 Read: cdistanceremainingmetricevaluator.MinDistance
 Write: cdistanceremainingmetricevaluator.MinDistance = value
 ```
 ## StartGoalFilterDistance 
 ```lua
-@type number
+--- @type number
 Read: cdistanceremainingmetricevaluator.StartGoalFilterDistance
 Write: cdistanceremainingmetricevaluator.StartGoalFilterDistance = value
 ```
 ## MaxGoalOvershootScale 
 ```lua
-@type number
+--- @type number
 Read: cdistanceremainingmetricevaluator.MaxGoalOvershootScale
 Write: cdistanceremainingmetricevaluator.MaxGoalOvershootScale = value
 ```
 ## FilterFixedMinDistance 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdistanceremainingmetricevaluator.FilterFixedMinDistance
 Write: cdistanceremainingmetricevaluator.FilterFixedMinDistance = value
 ```
 ## FilterGoalDistance 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdistanceremainingmetricevaluator.FilterGoalDistance
 Write: cdistanceremainingmetricevaluator.FilterGoalDistance = value
 ```
 ## FilterGoalOvershoot 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdistanceremainingmetricevaluator.FilterGoalOvershoot
 Write: cdistanceremainingmetricevaluator.FilterGoalOvershoot = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cdistanceremainingmetricevaluator.Parent
 ```
 # Functions

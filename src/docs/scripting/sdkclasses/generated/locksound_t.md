@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-locksound_t(ptr --[[ string ]])
+locksound_t(ptr)
 ```
 # Properties
 ## LockedSound 
 ```lua
-@type string
+--- @type string
 Read: locksound_t.LockedSound
 Write: locksound_t.LockedSound = value
 ```
 ## UnlockedSound 
 ```lua
-@type string
+--- @type string
 Read: locksound_t.UnlockedSound
 Write: locksound_t.UnlockedSound = value
 ```
 ## FlwaitSound 
 ```lua
-@type number
+--- @type number
 Read: locksound_t.FlwaitSound
 Write: locksound_t.FlwaitSound = value
 ```

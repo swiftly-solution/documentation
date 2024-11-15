@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeMarkupVolume(ptr --[[ string ]])
+CNavVolumeMarkupVolume(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNavVolume
+--- @type CNavVolume
 Read: cnavvolumemarkupvolume.Parent
 ```
 # Functions

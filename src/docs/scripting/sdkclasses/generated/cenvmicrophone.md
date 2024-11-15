@@ -12,109 +12,109 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvMicrophone(ptr --[[ string ]])
+CEnvMicrophone(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvmicrophone.Disabled
 Write: cenvmicrophone.Disabled = value
 ```
 ## MeasureTarget (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvmicrophone.MeasureTarget
 ```
 ## SoundType 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.SoundType
 Write: cenvmicrophone.SoundType = value
 ```
 ## SoundFlags 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.SoundFlags
 Write: cenvmicrophone.SoundFlags = value
 ```
 ## Sensitivity 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.Sensitivity
 Write: cenvmicrophone.Sensitivity = value
 ```
 ## SmoothFactor 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.SmoothFactor
 Write: cenvmicrophone.SmoothFactor = value
 ```
 ## MaxRange 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.MaxRange
 Write: cenvmicrophone.MaxRange = value
 ```
 ## SpeakerName 
 ```lua
-@type string
+--- @type string
 Read: cenvmicrophone.SpeakerName
 Write: cenvmicrophone.SpeakerName = value
 ```
 ## Speaker (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvmicrophone.Speaker
 ```
 ## AvoidFeedback 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvmicrophone.AvoidFeedback
 Write: cenvmicrophone.AvoidFeedback = value
 ```
 ## SpeakerDSPPreset 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.SpeakerDSPPreset
 Write: cenvmicrophone.SpeakerDSPPreset = value
 ```
 ## ListenFilter 
 ```lua
-@type string
+--- @type string
 Read: cenvmicrophone.ListenFilter
 Write: cenvmicrophone.ListenFilter = value
 ```
 ## ListenFilter1 (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cenvmicrophone.ListenFilter1
 ```
 ## OnRoutedSound (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvmicrophone.OnRoutedSound
 ```
 ## OnHeardSound (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvmicrophone.OnHeardSound
 ```
 ## LastSound 
 ```lua
-@type string
+--- @type string
 Read: cenvmicrophone.LastSound
 Write: cenvmicrophone.LastSound = value
 ```
 ## LastRoutedFrame 
 ```lua
-@type number
+--- @type number
 Read: cenvmicrophone.LastRoutedFrame
 Write: cenvmicrophone.LastRoutedFrame = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvmicrophone.Parent
 ```
 # Functions

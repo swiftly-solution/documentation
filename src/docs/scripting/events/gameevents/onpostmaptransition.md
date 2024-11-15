@@ -11,8 +11,9 @@ This event is triggered after map_transition is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostMapTransition", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostMapTransition", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

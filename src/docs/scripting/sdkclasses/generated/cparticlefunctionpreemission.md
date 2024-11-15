@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleFunctionPreEmission(ptr --[[ string ]])
+CParticleFunctionPreEmission(ptr)
 ```
 # Properties
 ## RunOnce 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlefunctionpreemission.RunOnce
 Write: cparticlefunctionpreemission.RunOnce = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunctionOperator
+--- @type CParticleFunctionOperator
 Read: cparticlefunctionpreemission.Parent
 ```
 # Functions

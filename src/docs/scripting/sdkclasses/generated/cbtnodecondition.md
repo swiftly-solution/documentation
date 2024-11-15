@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtNodeCondition(ptr --[[ string ]])
+CBtNodeCondition(ptr)
 ```
 # Properties
 ## Negated 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbtnodecondition.Negated
 Write: cbtnodecondition.Negated = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBtNodeDecorator
+--- @type CBtNodeDecorator
 Read: cbtnodecondition.Parent
 ```
 # Functions

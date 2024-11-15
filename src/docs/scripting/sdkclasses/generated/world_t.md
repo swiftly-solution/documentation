@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-World_t(ptr --[[ string ]])
+World_t(ptr)
 ```
 # Properties
 ## BuilderParams (Read-Only)
 ```lua
-@type WorldBuilderParams_t
+--- @type WorldBuilderParams_t
 Read: world_t.BuilderParams
 ```
 ## WorldNodes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: world_t.WorldNodes
 ```
 ## WorldLightingInfo (Read-Only)
 ```lua
-@type BakedLightingInfo_t
+--- @type BakedLightingInfo_t
 Read: world_t.WorldLightingInfo
 ```
 # Functions

@@ -11,8 +11,10 @@ Adds the flags to the convar.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-convar:AddFlags(name --[[ string ]], flags --[[ number ]])
+--- @param name string
+--- @param flags number
+--- @return nil
+convar:AddFlags(name, flags)
 ```
 
 :::

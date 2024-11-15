@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeWeightedNode_t(ptr --[[ string ]])
+FeWeightedNode_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type number
+--- @type number
 Read: feweightednode_t.Node
 Write: feweightednode_t.Node = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: feweightednode_t.Weight
 Write: feweightednode_t.Weight = value
 ```

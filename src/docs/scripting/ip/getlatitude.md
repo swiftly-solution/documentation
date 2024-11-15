@@ -11,8 +11,9 @@ Returns the latitude from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-ip:GetLatitude(ip --[[ string ]])
+--- @param ip string
+--- @return number
+ip:GetLatitude(ip)
 ```
 
 :::

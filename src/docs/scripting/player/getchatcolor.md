@@ -11,7 +11,7 @@ Returns the chat color of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 player:GetChatColor()
 ```
 

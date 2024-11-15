@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_BulletServices(ptr --[[ string ]])
+CCSPlayer_BulletServices(ptr)
 ```
 # Properties
 ## TotalHitsOnServer 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_bulletservices.TotalHitsOnServer
 Write: ccsplayer_bulletservices.TotalHitsOnServer = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_bulletservices.Parent
 ```
 # Functions

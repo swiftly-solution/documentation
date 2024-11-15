@@ -11,7 +11,7 @@ Returns the current time on the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 server:GetCurrentTime()
 ```
 

@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemDogtags(ptr --[[ string ]])
+CItemDogtags(ptr)
 ```
 # Properties
 ## OwningPlayer (Read-Only)
 ```lua
-@type CCSPlayerPawn
+--- @type CCSPlayerPawn
 Read: citemdogtags.OwningPlayer
 ```
 ## KillingPlayer (Read-Only)
 ```lua
-@type CCSPlayerPawn
+--- @type CCSPlayerPawn
 Read: citemdogtags.KillingPlayer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CItem
+--- @type CItem
 Read: citemdogtags.Parent
 ```
 # Functions

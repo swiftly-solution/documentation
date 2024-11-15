@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CScriptNavBlocker(ptr --[[ string ]])
+CScriptNavBlocker(ptr)
 ```
 # Properties
 ## Extent 
 ```lua
-@type Vector
+--- @type Vector
 Read: cscriptnavblocker.Extent
 Write: cscriptnavblocker.Extent = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncNavBlocker
+--- @type CFuncNavBlocker
 Read: cscriptnavblocker.Parent
 ```
 # Functions

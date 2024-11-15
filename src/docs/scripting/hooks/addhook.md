@@ -11,8 +11,11 @@ Creates a function hook.
 ::: tabs
 @tab Lua
 ```lua
-@returns HookHandle
-AddHook(memory --[[ Memory ]], args_list --[[ string ]], return_type --[[ string ]])
+--- @param memory Memory
+--- @param args_list string
+--- @param return_type string
+--- @return number HookHandle
+AddHook(memory, args_list, return_type)
 ```
 Below will be listed a table for all the data types for args list and return type:
 

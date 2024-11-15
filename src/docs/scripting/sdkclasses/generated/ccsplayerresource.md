@@ -12,72 +12,72 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayerResource(ptr --[[ string ]])
+CCSPlayerResource(ptr)
 ```
 # Properties
 ## HostageAlive 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.HostageAlive
 Write: ccsplayerresource.HostageAlive = value
 ```
 ## IsHostageFollowingSomeone 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.IsHostageFollowingSomeone
 Write: ccsplayerresource.IsHostageFollowingSomeone = value
 ```
 ## HostageEntityIDs 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.HostageEntityIDs
 Write: ccsplayerresource.HostageEntityIDs = value
 ```
 ## BombsiteCenterA 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccsplayerresource.BombsiteCenterA
 Write: ccsplayerresource.BombsiteCenterA = value
 ```
 ## BombsiteCenterB 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccsplayerresource.BombsiteCenterB
 Write: ccsplayerresource.BombsiteCenterB = value
 ```
 ## HostageRescueX 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.HostageRescueX
 Write: ccsplayerresource.HostageRescueX = value
 ```
 ## HostageRescueY 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.HostageRescueY
 Write: ccsplayerresource.HostageRescueY = value
 ```
 ## HostageRescueZ 
 ```lua
-@type table
+--- @type table
 Read: ccsplayerresource.HostageRescueZ
 Write: ccsplayerresource.HostageRescueZ = value
 ```
 ## EndMatchNextMapAllVoted 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayerresource.EndMatchNextMapAllVoted
 Write: ccsplayerresource.EndMatchNextMapAllVoted = value
 ```
 ## FoundGoalPositions 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayerresource.FoundGoalPositions
 Write: ccsplayerresource.FoundGoalPositions = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayerresource.Parent
 ```
 # Functions

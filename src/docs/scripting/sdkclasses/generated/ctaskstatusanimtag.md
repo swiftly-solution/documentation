@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTaskStatusAnimTag(ptr --[[ string ]])
+CTaskStatusAnimTag(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: ctaskstatusanimtag.Parent
 ```
 # Functions

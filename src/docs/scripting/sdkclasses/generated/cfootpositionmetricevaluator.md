@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootPositionMetricEvaluator(ptr --[[ string ]])
+CFootPositionMetricEvaluator(ptr)
 ```
 # Properties
 ## FootIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfootpositionmetricevaluator.FootIndices
 ```
 ## IgnoreSlope 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfootpositionmetricevaluator.IgnoreSlope
 Write: cfootpositionmetricevaluator.IgnoreSlope = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cfootpositionmetricevaluator.Parent
 ```
 # Functions

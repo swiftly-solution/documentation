@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ParamSpanSample_t(ptr --[[ string ]])
+ParamSpanSample_t(ptr)
 ```
 # Properties
 ## Cycle 
 ```lua
-@type number
+--- @type number
 Read: paramspansample_t.Cycle
 Write: paramspansample_t.Cycle = value
 ```

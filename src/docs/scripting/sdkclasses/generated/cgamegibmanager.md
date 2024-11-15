@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGameGibManager(ptr --[[ string ]])
+CGameGibManager(ptr)
 ```
 # Properties
 ## AllowNewGibs 
 ```lua
-@type boolean
+--- @type boolean
 Read: cgamegibmanager.AllowNewGibs
 Write: cgamegibmanager.AllowNewGibs = value
 ```
 ## CurrentMaxPieces 
 ```lua
-@type number
+--- @type number
 Read: cgamegibmanager.CurrentMaxPieces
 Write: cgamegibmanager.CurrentMaxPieces = value
 ```
 ## MaxPieces 
 ```lua
-@type number
+--- @type number
 Read: cgamegibmanager.MaxPieces
 Write: cgamegibmanager.MaxPieces = value
 ```
 ## LastFrame 
 ```lua
-@type number
+--- @type number
 Read: cgamegibmanager.LastFrame
 Write: cgamegibmanager.LastFrame = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cgamegibmanager.Parent
 ```
 # Functions

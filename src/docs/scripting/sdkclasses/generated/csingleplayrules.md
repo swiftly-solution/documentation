@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSingleplayRules(ptr --[[ string ]])
+CSingleplayRules(ptr)
 ```
 # Properties
 ## SinglePlayerGameEnding 
 ```lua
-@type boolean
+--- @type boolean
 Read: csingleplayrules.SinglePlayerGameEnding
 Write: csingleplayrules.SinglePlayerGameEnding = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CGameRules
+--- @type CGameRules
 Read: csingleplayrules.Parent
 ```
 # Functions

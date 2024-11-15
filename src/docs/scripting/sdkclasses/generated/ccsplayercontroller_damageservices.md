@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayerController_DamageServices(ptr --[[ string ]])
+CCSPlayerController_DamageServices(ptr)
 ```
 # Properties
 ## SendUpdate 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_damageservices.SendUpdate
 Write: ccsplayercontroller_damageservices.SendUpdate = value
 ```
 ## DamageList (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccsplayercontroller_damageservices.DamageList
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerControllerComponent
+--- @type CPlayerControllerComponent
 Read: ccsplayercontroller_damageservices.Parent
 ```
 # Functions

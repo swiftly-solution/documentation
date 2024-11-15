@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMovementHandshakeAnimTag(ptr --[[ string ]])
+CMovementHandshakeAnimTag(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CHandshakeAnimTagBase
+--- @type CHandshakeAnimTagBase
 Read: cmovementhandshakeanimtag.Parent
 ```
 # Functions

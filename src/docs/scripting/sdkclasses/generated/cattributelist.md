@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAttributeList(ptr --[[ string ]])
+CAttributeList(ptr)
 ```
 # Properties
 ## Attributes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cattributelist.Attributes
 ```
 ## Manager (Read-Only)
 ```lua
-@type CAttributeManager
+--- @type CAttributeManager
 Read: cattributelist.Manager
 ```
 # Functions
 ## SetOrAddAttributeValueByName
 ```lua
 @returns void
-cattributelist:SetOrAddAttributeValueByName(str --[[ string ]], value --[[ number ]])
+cattributelist:SetOrAddAttributeValueByName(str, value)
 ```
 ## ToPtr
 ```lua

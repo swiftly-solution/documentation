@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotorController(ptr --[[ string ]])
+CMotorController(ptr)
 ```
 # Properties
 ## Speed 
 ```lua
-@type number
+--- @type number
 Read: cmotorcontroller.Speed
 Write: cmotorcontroller.Speed = value
 ```
 ## MaxTorque 
 ```lua
-@type number
+--- @type number
 Read: cmotorcontroller.MaxTorque
 Write: cmotorcontroller.MaxTorque = value
 ```
 ## Axis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cmotorcontroller.Axis
 Write: cmotorcontroller.Axis = value
 ```
 ## InertiaFactor 
 ```lua
-@type number
+--- @type number
 Read: cmotorcontroller.InertiaFactor
 Write: cmotorcontroller.InertiaFactor = value
 ```

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-NmPercent_t(ptr --[[ string ]])
+NmPercent_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: nmpercent_t.Value
 Write: nmpercent_t.Value = value
 ```

@@ -11,8 +11,10 @@ Removes the flags from the convar.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-convar:RemoveFlags(name --[[ string ]], flags --[[ number ]])
+--- @param name string
+--- @param flags number
+--- @return nil
+convar:RemoveFlags(name, flags)
 ```
 
 :::

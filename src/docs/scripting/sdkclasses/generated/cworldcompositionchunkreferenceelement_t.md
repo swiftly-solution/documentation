@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWorldCompositionChunkReferenceElement_t(ptr --[[ string ]])
+CWorldCompositionChunkReferenceElement_t(ptr)
 ```
 # Properties
 ## StrMapToLoad 
 ```lua
-@type string
+--- @type string
 Read: cworldcompositionchunkreferenceelement_t.StrMapToLoad
 Write: cworldcompositionchunkreferenceelement_t.StrMapToLoad = value
 ```
 ## StrLandmarkName 
 ```lua
-@type string
+--- @type string
 Read: cworldcompositionchunkreferenceelement_t.StrLandmarkName
 Write: cworldcompositionchunkreferenceelement_t.StrLandmarkName = value
 ```

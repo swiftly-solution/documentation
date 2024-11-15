@@ -11,8 +11,9 @@ This event is triggered after bomb_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBombPickup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBombPickup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

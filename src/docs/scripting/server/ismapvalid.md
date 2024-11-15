@@ -11,8 +11,9 @@ Returns the current map name.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-server:IsMapValid(map --[[ string ]])
+--- @param map string
+--- @return boolean
+server:IsMapValid(map)
 ```
 
 :::

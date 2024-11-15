@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PermEntityLumpData_t(ptr --[[ string ]])
+PermEntityLumpData_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: permentitylumpdata_t.Name
 Write: permentitylumpdata_t.Name = value
 ```

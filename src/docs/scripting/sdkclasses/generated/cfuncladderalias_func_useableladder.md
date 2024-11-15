@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncLadderAlias_func_useableladder(ptr --[[ string ]])
+CFuncLadderAlias_func_useableladder(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CFuncLadder
+--- @type CFuncLadder
 Read: cfuncladderalias_func_useableladder.Parent
 ```
 # Functions

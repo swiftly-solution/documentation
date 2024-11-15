@@ -11,7 +11,7 @@ Returns the tick count on the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 server:GetTickCount()
 ```
 

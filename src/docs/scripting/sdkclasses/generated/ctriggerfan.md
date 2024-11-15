@@ -12,83 +12,83 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerFan(ptr --[[ string ]])
+CTriggerFan(ptr)
 ```
 # Properties
 ## FanOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctriggerfan.FanOrigin
 Write: ctriggerfan.FanOrigin = value
 ```
 ## FanEnd 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctriggerfan.FanEnd
 Write: ctriggerfan.FanEnd = value
 ```
 ## Noise 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctriggerfan.Noise
 Write: ctriggerfan.Noise = value
 ```
 ## Force 
 ```lua
-@type number
+--- @type number
 Read: ctriggerfan.Force
 Write: ctriggerfan.Force = value
 ```
 ## RopeForceScale 
 ```lua
-@type number
+--- @type number
 Read: ctriggerfan.RopeForceScale
 Write: ctriggerfan.RopeForceScale = value
 ```
 ## PlayerForce 
 ```lua
-@type number
+--- @type number
 Read: ctriggerfan.PlayerForce
 Write: ctriggerfan.PlayerForce = value
 ```
 ## RampTime 
 ```lua
-@type number
+--- @type number
 Read: ctriggerfan.RampTime
 Write: ctriggerfan.RampTime = value
 ```
 ## Falloff 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerfan.Falloff
 Write: ctriggerfan.Falloff = value
 ```
 ## PushPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerfan.PushPlayer
 Write: ctriggerfan.PushPlayer = value
 ```
 ## RampDown 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerfan.RampDown
 Write: ctriggerfan.RampDown = value
 ```
 ## AddNoise 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerfan.AddNoise
 Write: ctriggerfan.AddNoise = value
 ```
 ## RampTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: ctriggerfan.RampTimer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerfan.Parent
 ```
 # Functions

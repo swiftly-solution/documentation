@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimScriptComponentUpdater(ptr --[[ string ]])
+CAnimScriptComponentUpdater(ptr)
 ```
 # Properties
 ## Script (Read-Only)
 ```lua
-@type AnimScriptHandle
+--- @type AnimScriptHandle
 Read: canimscriptcomponentupdater.Script
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: canimscriptcomponentupdater.Parent
 ```
 # Functions

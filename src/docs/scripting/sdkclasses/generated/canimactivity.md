@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimActivity(ptr --[[ string ]])
+CAnimActivity(ptr)
 ```
 # Properties
 ## Activity 
 ```lua
-@type number
+--- @type number
 Read: canimactivity.Activity
 Write: canimactivity.Activity = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: canimactivity.Flags
 Write: canimactivity.Flags = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: canimactivity.Weight
 Write: canimactivity.Weight = value
 ```

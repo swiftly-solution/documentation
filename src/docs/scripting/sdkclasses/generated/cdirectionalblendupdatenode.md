@@ -12,58 +12,58 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDirectionalBlendUpdateNode(ptr --[[ string ]])
+CDirectionalBlendUpdateNode(ptr)
 ```
 # Properties
 ## Sequences 
 ```lua
-@type table
+--- @type table
 Read: cdirectionalblendupdatenode.Sequences
 Write: cdirectionalblendupdatenode.Sequences = value
 ```
 ## Damping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cdirectionalblendupdatenode.Damping
 ```
 ## BlendValueSource 
 ```lua
-@type number
+--- @type number
 Read: cdirectionalblendupdatenode.BlendValueSource
 Write: cdirectionalblendupdatenode.BlendValueSource = value
 ```
 ## ParamIndex (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cdirectionalblendupdatenode.ParamIndex
 ```
 ## PlaybackSpeed 
 ```lua
-@type number
+--- @type number
 Read: cdirectionalblendupdatenode.PlaybackSpeed
 Write: cdirectionalblendupdatenode.PlaybackSpeed = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: cdirectionalblendupdatenode.Duration
 Write: cdirectionalblendupdatenode.Duration = value
 ```
 ## Loop 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdirectionalblendupdatenode.Loop
 Write: cdirectionalblendupdatenode.Loop = value
 ```
 ## LockBlendOnReset 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdirectionalblendupdatenode.LockBlendOnReset
 Write: cdirectionalblendupdatenode.LockBlendOnReset = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: cdirectionalblendupdatenode.Parent
 ```
 # Functions

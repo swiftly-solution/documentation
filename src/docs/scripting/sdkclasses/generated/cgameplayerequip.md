@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGamePlayerEquip(ptr --[[ string ]])
+CGamePlayerEquip(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CRulePointEntity
+--- @type CRulePointEntity
 Read: cgameplayerequip.Parent
 ```
 # Functions

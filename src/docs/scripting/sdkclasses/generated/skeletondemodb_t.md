@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SkeletonDemoDb_t(ptr --[[ string ]])
+SkeletonDemoDb_t(ptr)
 ```
 # Properties
 ## AnimCaptures (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: skeletondemodb_t.AnimCaptures
 ```
 ## CameraTrack (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: skeletondemodb_t.CameraTrack
 ```
 ## RecordingTime 
 ```lua
-@type number
+--- @type number
 Read: skeletondemodb_t.RecordingTime
 Write: skeletondemodb_t.RecordingTime = value
 ```

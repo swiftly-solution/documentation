@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeNodeIntegrator_t(ptr --[[ string ]])
+FeNodeIntegrator_t(ptr)
 ```
 # Properties
 ## PointDamping 
 ```lua
-@type number
+--- @type number
 Read: fenodeintegrator_t.PointDamping
 Write: fenodeintegrator_t.PointDamping = value
 ```
 ## AnimationForceAttraction 
 ```lua
-@type number
+--- @type number
 Read: fenodeintegrator_t.AnimationForceAttraction
 Write: fenodeintegrator_t.AnimationForceAttraction = value
 ```
 ## AnimationVertexAttraction 
 ```lua
-@type number
+--- @type number
 Read: fenodeintegrator_t.AnimationVertexAttraction
 Write: fenodeintegrator_t.AnimationVertexAttraction = value
 ```
 ## Gravity 
 ```lua
-@type number
+--- @type number
 Read: fenodeintegrator_t.Gravity
 Write: fenodeintegrator_t.Gravity = value
 ```

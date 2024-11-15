@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncInteractionLayerClip(ptr --[[ string ]])
+CFuncInteractionLayerClip(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncinteractionlayerclip.Disabled
 Write: cfuncinteractionlayerclip.Disabled = value
 ```
 ## InteractsAs 
 ```lua
-@type string
+--- @type string
 Read: cfuncinteractionlayerclip.InteractsAs
 Write: cfuncinteractionlayerclip.InteractsAs = value
 ```
 ## InteractsWith 
 ```lua
-@type string
+--- @type string
 Read: cfuncinteractionlayerclip.InteractsWith
 Write: cfuncinteractionlayerclip.InteractsWith = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncinteractionlayerclip.Parent
 ```
 # Functions

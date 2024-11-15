@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimEventQueueListener(ptr --[[ string ]])
+CAnimEventQueueListener(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CAnimEventListenerBase
+--- @type CAnimEventListenerBase
 Read: canimeventqueuelistener.Parent
 ```
 # Functions

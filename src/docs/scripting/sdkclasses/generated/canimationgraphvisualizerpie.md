@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimationGraphVisualizerPie(ptr --[[ string ]])
+CAnimationGraphVisualizerPie(ptr)
 ```
 # Properties
 ## WsCenter 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimationgraphvisualizerpie.WsCenter
 Write: canimationgraphvisualizerpie.WsCenter = value
 ```
 ## WsStart 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimationgraphvisualizerpie.WsStart
 Write: canimationgraphvisualizerpie.WsStart = value
 ```
 ## WsEnd 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimationgraphvisualizerpie.WsEnd
 Write: canimationgraphvisualizerpie.WsEnd = value
 ```
 ## Color 
 ```lua
-@type Color
+--- @type Color
 Read: canimationgraphvisualizerpie.Color
 Write: canimationgraphvisualizerpie.Color = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimationGraphVisualizerPrimitiveBase
+--- @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizerpie.Parent
 ```
 # Functions

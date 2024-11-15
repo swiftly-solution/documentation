@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRopeOverlapHit(ptr --[[ string ]])
+CRopeOverlapHit(ptr)
 ```
 # Properties
 ## OverlappingLinks (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cropeoverlaphit.OverlappingLinks
 ```
 # Functions

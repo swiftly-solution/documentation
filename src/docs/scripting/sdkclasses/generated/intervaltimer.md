@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IntervalTimer(ptr --[[ string ]])
+IntervalTimer(ptr)
 ```
 # Properties
 ## Timestamp 
 ```lua
-@type number
+--- @type number
 Read: intervaltimer.Timestamp
 Write: intervaltimer.Timestamp = value
 ```
 ## WorldGroupId 
 ```lua
-@type number
+--- @type number
 Read: intervaltimer.WorldGroupId
 Write: intervaltimer.WorldGroupId = value
 ```

@@ -11,8 +11,9 @@ This event is triggered after clientside_lesson_closed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostClientsideLessonClosed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostClientsideLessonClosed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

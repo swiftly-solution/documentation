@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicalButton(ptr --[[ string ]])
+CPhysicalButton(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseButton
+--- @type CBaseButton
 Read: cphysicalbutton.Parent
 ```
 # Functions

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyComponentBaseAnimGraph(ptr --[[ string ]])
+CBodyComponentBaseAnimGraph(ptr)
 ```
 # Properties
 ## AnimationController (Read-Only)
 ```lua
-@type CBaseAnimGraphController
+--- @type CBaseAnimGraphController
 Read: cbodycomponentbaseanimgraph.AnimationController
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBodyComponentSkeletonInstance
+--- @type CBodyComponentSkeletonInstance
 Read: cbodycomponentbaseanimgraph.Parent
 ```
 # Functions

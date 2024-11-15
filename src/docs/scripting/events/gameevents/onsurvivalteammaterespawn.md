@@ -11,8 +11,9 @@ This event is triggered when survival_teammate_respawn is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSurvivalTeammateRespawn", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSurvivalTeammateRespawn", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

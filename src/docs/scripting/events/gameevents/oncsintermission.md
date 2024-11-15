@@ -11,8 +11,9 @@ This event is triggered when cs_intermission is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnCsIntermission", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnCsIntermission", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

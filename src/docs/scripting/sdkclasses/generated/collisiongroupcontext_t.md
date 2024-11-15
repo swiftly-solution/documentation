@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CollisionGroupContext_t(ptr --[[ string ]])
+CollisionGroupContext_t(ptr)
 ```
 # Properties
 ## CollisionGroupNumber 
 ```lua
-@type number
+--- @type number
 Read: collisiongroupcontext_t.CollisionGroupNumber
 Write: collisiongroupcontext_t.CollisionGroupNumber = value
 ```

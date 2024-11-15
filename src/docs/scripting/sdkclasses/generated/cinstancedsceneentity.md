@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInstancedSceneEntity(ptr --[[ string ]])
+CInstancedSceneEntity(ptr)
 ```
 # Properties
 ## Owner (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cinstancedsceneentity.Owner
 ```
 ## HadOwner 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinstancedsceneentity.HadOwner
 Write: cinstancedsceneentity.HadOwner = value
 ```
 ## PostSpeakDelay 
 ```lua
-@type number
+--- @type number
 Read: cinstancedsceneentity.PostSpeakDelay
 Write: cinstancedsceneentity.PostSpeakDelay = value
 ```
 ## PreDelay 
 ```lua
-@type number
+--- @type number
 Read: cinstancedsceneentity.PreDelay
 Write: cinstancedsceneentity.PreDelay = value
 ```
 ## IsBackground 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinstancedsceneentity.IsBackground
 Write: cinstancedsceneentity.IsBackground = value
 ```
 ## RemoveOnCompletion 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinstancedsceneentity.RemoveOnCompletion
 Write: cinstancedsceneentity.RemoveOnCompletion = value
 ```
 ## Target (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cinstancedsceneentity.Target
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSceneEntity
+--- @type CSceneEntity
 Read: cinstancedsceneentity.Parent
 ```
 # Functions

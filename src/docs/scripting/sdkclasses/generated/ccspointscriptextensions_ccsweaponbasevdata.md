@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPointScriptExtensions_CCSWeaponBaseVData(ptr --[[ string ]])
+CCSPointScriptExtensions_CCSWeaponBaseVData(ptr)
 ```
 # Properties
 There are no properties available for this class.

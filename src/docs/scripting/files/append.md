@@ -11,8 +11,11 @@ Appends the content to a file
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-files:Append(path --[[ string ]], content --[[ string ]], hasdate --[[ boolean ]])
+--- @param path string
+--- @param content string
+--- @param hasdate boolean
+--- @return nil
+files:Append(path, content, hasdate)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

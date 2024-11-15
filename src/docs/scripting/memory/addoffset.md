@@ -11,8 +11,9 @@ Adds an offset to the pointer which is being hold.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:AddOffset(offset --[[ number ]])
+--- @param offset number
+--- @return nil
+memory:AddOffset(offset)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after entity_killed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostEntityKilled", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostEntityKilled", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

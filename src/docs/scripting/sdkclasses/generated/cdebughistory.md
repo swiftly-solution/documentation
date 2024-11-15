@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDebugHistory(ptr --[[ string ]])
+CDebugHistory(ptr)
 ```
 # Properties
 ## NpcEvents 
 ```lua
-@type number
+--- @type number
 Read: cdebughistory.NpcEvents
 Write: cdebughistory.NpcEvents = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cdebughistory.Parent
 ```
 # Functions

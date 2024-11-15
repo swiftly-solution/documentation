@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSpinUpdateBase(ptr --[[ string ]])
+CSpinUpdateBase(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunctionOperator
+--- @type CParticleFunctionOperator
 Read: cspinupdatebase.Parent
 ```
 # Functions

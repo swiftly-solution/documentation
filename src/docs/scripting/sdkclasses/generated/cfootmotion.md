@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootMotion(ptr --[[ string ]])
+CFootMotion(ptr)
 ```
 # Properties
 ## Strides (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfootmotion.Strides
 ```
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cfootmotion.Name
 Write: cfootmotion.Name = value
 ```
 ## Additive 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfootmotion.Additive
 Write: cfootmotion.Additive = value
 ```

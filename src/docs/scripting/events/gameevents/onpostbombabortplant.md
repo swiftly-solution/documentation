@@ -11,8 +11,9 @@ This event is triggered after bomb_abortplant is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBombAbortplant", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBombAbortplant", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

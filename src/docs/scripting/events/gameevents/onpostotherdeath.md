@@ -11,8 +11,9 @@ This event is triggered after other_death is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostOtherDeath", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostOtherDeath", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

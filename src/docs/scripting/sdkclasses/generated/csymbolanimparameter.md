@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSymbolAnimParameter(ptr --[[ string ]])
+CSymbolAnimParameter(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CConcreteAnimParameter
+--- @type CConcreteAnimParameter
 Read: csymbolanimparameter.Parent
 ```
 # Functions

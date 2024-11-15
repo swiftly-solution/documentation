@@ -12,80 +12,80 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMoverUpdateNode(ptr --[[ string ]])
+CMoverUpdateNode(ptr)
 ```
 # Properties
 ## Damping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cmoverupdatenode.Damping
 ```
 ## FacingTarget 
 ```lua
-@type number
+--- @type number
 Read: cmoverupdatenode.FacingTarget
 Write: cmoverupdatenode.FacingTarget = value
 ```
 ## MoveVecParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cmoverupdatenode.MoveVecParam
 ```
 ## MoveHeadingParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cmoverupdatenode.MoveHeadingParam
 ```
 ## TurnToFaceParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cmoverupdatenode.TurnToFaceParam
 ```
 ## TurnToFaceOffset 
 ```lua
-@type number
+--- @type number
 Read: cmoverupdatenode.TurnToFaceOffset
 Write: cmoverupdatenode.TurnToFaceOffset = value
 ```
 ## TurnToFaceLimit 
 ```lua
-@type number
+--- @type number
 Read: cmoverupdatenode.TurnToFaceLimit
 Write: cmoverupdatenode.TurnToFaceLimit = value
 ```
 ## Additive 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmoverupdatenode.Additive
 Write: cmoverupdatenode.Additive = value
 ```
 ## ApplyMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmoverupdatenode.ApplyMovement
 Write: cmoverupdatenode.ApplyMovement = value
 ```
 ## OrientMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmoverupdatenode.OrientMovement
 Write: cmoverupdatenode.OrientMovement = value
 ```
 ## ApplyRotation 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmoverupdatenode.ApplyRotation
 Write: cmoverupdatenode.ApplyRotation = value
 ```
 ## LimitOnly 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmoverupdatenode.LimitOnly
 Write: cmoverupdatenode.LimitOnly = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cmoverupdatenode.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when nav_generate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnNavGenerate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnNavGenerate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

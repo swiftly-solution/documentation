@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EntityKeyValueData_t(ptr --[[ string ]])
+EntityKeyValueData_t(ptr)
 ```
 # Properties
 ## Connections (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: entitykeyvaluedata_t.Connections
 ```
 # Functions

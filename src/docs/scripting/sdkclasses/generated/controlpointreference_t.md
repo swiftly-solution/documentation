@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ControlPointReference_t(ptr --[[ string ]])
+ControlPointReference_t(ptr)
 ```
 # Properties
 ## ControlPointNameString 
 ```lua
-@type number
+--- @type number
 Read: controlpointreference_t.ControlPointNameString
 Write: controlpointreference_t.ControlPointNameString = value
 ```
 ## OffsetFromControlPoint 
 ```lua
-@type Vector
+--- @type Vector
 Read: controlpointreference_t.OffsetFromControlPoint
 Write: controlpointreference_t.OffsetFromControlPoint = value
 ```
 ## OffsetInLocalSpace 
 ```lua
-@type boolean
+--- @type boolean
 Read: controlpointreference_t.OffsetInLocalSpace
 Write: controlpointreference_t.OffsetInLocalSpace = value
 ```

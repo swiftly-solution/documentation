@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventAppShutdown_t(ptr --[[ string ]])
+EventAppShutdown_t(ptr)
 ```
 # Properties
 ## Dummy0 
 ```lua
-@type number
+--- @type number
 Read: eventappshutdown_t.Dummy0
 Write: eventappshutdown_t.Dummy0 = value
 ```

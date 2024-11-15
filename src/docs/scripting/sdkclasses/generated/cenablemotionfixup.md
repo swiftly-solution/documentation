@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnableMotionFixup(ptr --[[ string ]])
+CEnableMotionFixup(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenablemotionfixup.Parent
 ```
 # Functions

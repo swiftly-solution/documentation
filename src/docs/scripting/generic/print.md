@@ -11,8 +11,9 @@ Prints values provided in the function.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-print(... --[[ Any* any ]])
+--- @param ... any
+--- @return nil
+print(...)
 ```
 
 

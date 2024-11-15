@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimDataChannelDesc(ptr --[[ string ]])
+CAnimDataChannelDesc(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: canimdatachanneldesc.Flags
 Write: canimdatachanneldesc.Flags = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: canimdatachanneldesc.Type
 Write: canimdatachanneldesc.Type = value
 ```
 ## ElementIndexArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimdatachanneldesc.ElementIndexArray
 ```
 ## ElementMaskArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimdatachanneldesc.ElementMaskArray
 ```
 # Functions

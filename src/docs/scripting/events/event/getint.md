@@ -11,8 +11,9 @@ Returns the number value of a key from a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-event:GetInt(key --[[ string ]])
+--- @param key string
+--- @return number
+event:GetInt(key)
 ```
 
 :::

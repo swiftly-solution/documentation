@@ -12,71 +12,71 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysSlideConstraint(ptr --[[ string ]])
+CPhysSlideConstraint(ptr)
 ```
 # Properties
 ## AxisEnd 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysslideconstraint.AxisEnd
 Write: cphysslideconstraint.AxisEnd = value
 ```
 ## SlideFriction 
 ```lua
-@type number
+--- @type number
 Read: cphysslideconstraint.SlideFriction
 Write: cphysslideconstraint.SlideFriction = value
 ```
 ## SystemLoadScale 
 ```lua
-@type number
+--- @type number
 Read: cphysslideconstraint.SystemLoadScale
 Write: cphysslideconstraint.SystemLoadScale = value
 ```
 ## InitialOffset 
 ```lua
-@type number
+--- @type number
 Read: cphysslideconstraint.InitialOffset
 Write: cphysslideconstraint.InitialOffset = value
 ```
 ## EnableLinearConstraint 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysslideconstraint.EnableLinearConstraint
 Write: cphysslideconstraint.EnableLinearConstraint = value
 ```
 ## EnableAngularConstraint 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysslideconstraint.EnableAngularConstraint
 Write: cphysslideconstraint.EnableAngularConstraint = value
 ```
 ## MotorFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphysslideconstraint.MotorFrequency
 Write: cphysslideconstraint.MotorFrequency = value
 ```
 ## MotorDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphysslideconstraint.MotorDampingRatio
 Write: cphysslideconstraint.MotorDampingRatio = value
 ```
 ## UseEntityPivot 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysslideconstraint.UseEntityPivot
 Write: cphysslideconstraint.UseEntityPivot = value
 ```
 ## SoundInfo (Read-Only)
 ```lua
-@type ConstraintSoundInfo
+--- @type ConstraintSoundInfo
 Read: cphysslideconstraint.SoundInfo
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphysslideconstraint.Parent
 ```
 # Functions

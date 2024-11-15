@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicAutosave(ptr --[[ string ]])
+CLogicAutosave(ptr)
 ```
 # Properties
 ## ForceNewLevelUnit 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicautosave.ForceNewLevelUnit
 Write: clogicautosave.ForceNewLevelUnit = value
 ```
 ## MinHitPoints 
 ```lua
-@type number
+--- @type number
 Read: clogicautosave.MinHitPoints
 Write: clogicautosave.MinHitPoints = value
 ```
 ## MinHitPointsToCommit 
 ```lua
-@type number
+--- @type number
 Read: clogicautosave.MinHitPointsToCommit
 Write: clogicautosave.MinHitPointsToCommit = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicautosave.Parent
 ```
 # Functions

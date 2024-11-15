@@ -11,7 +11,7 @@ Checks if the player is at the first spawn.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 player:IsFirstSpawn()
 ```
 

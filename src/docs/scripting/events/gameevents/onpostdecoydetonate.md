@@ -11,8 +11,9 @@ This event is triggered after decoy_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDecoyDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDecoyDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

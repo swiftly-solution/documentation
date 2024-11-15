@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSolveIKChainUpdateNode(ptr --[[ string ]])
+CSolveIKChainUpdateNode(ptr)
 ```
 # Properties
 ## TargetHandles (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csolveikchainupdatenode.TargetHandles
 ```
 ## OpFixedData (Read-Only)
 ```lua
-@type SolveIKChainPoseOpFixedSettings_t
+--- @type SolveIKChainPoseOpFixedSettings_t
 Read: csolveikchainupdatenode.OpFixedData
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: csolveikchainupdatenode.Parent
 ```
 # Functions

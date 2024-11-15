@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnSoftbodyParticle_t(ptr --[[ string ]])
+RnSoftbodyParticle_t(ptr)
 ```
 # Properties
 ## MassInv 
 ```lua
-@type number
+--- @type number
 Read: rnsoftbodyparticle_t.MassInv
 Write: rnsoftbodyparticle_t.MassInv = value
 ```

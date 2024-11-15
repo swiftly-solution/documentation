@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTripWireFireProjectile(ptr --[[ string ]])
+CTripWireFireProjectile(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseGrenade
+--- @type CBaseGrenade
 Read: ctripwirefireprojectile.Parent
 ```
 # Functions

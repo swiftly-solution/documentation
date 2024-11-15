@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnSoftbodyCapsule_t(ptr --[[ string ]])
+RnSoftbodyCapsule_t(ptr)
 ```
 # Properties
 ## Center 
 ```lua
-@type table
+--- @type table
 Read: rnsoftbodycapsule_t.Center
 Write: rnsoftbodycapsule_t.Center = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: rnsoftbodycapsule_t.Radius
 Write: rnsoftbodycapsule_t.Radius = value
 ```
 ## Particle 
 ```lua
-@type table
+--- @type table
 Read: rnsoftbodycapsule_t.Particle
 Write: rnsoftbodycapsule_t.Particle = value
 ```

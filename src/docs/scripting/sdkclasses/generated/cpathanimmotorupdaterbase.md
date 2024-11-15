@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathAnimMotorUpdaterBase(ptr --[[ string ]])
+CPathAnimMotorUpdaterBase(ptr)
 ```
 # Properties
 ## LockToPath 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpathanimmotorupdaterbase.LockToPath
 Write: cpathanimmotorupdaterbase.LockToPath = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimMotorUpdaterBase
+--- @type CAnimMotorUpdaterBase
 Read: cpathanimmotorupdaterbase.Parent
 ```
 # Functions

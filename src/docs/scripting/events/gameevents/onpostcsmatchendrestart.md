@@ -11,8 +11,9 @@ This event is triggered after cs_match_end_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsMatchEndRestart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsMatchEndRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoInstructorHintTarget(ptr --[[ string ]])
+CInfoInstructorHintTarget(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfoinstructorhinttarget.Parent
 ```
 # Functions

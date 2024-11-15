@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGamePlayerZone(ptr --[[ string ]])
+CGamePlayerZone(ptr)
 ```
 # Properties
 ## OnPlayerInZone (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cgameplayerzone.OnPlayerInZone
 ```
 ## OnPlayerOutZone (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cgameplayerzone.OnPlayerOutZone
 ```
 ## Parent (Read-Only)
 ```lua
-@type CRuleBrushEntity
+--- @type CRuleBrushEntity
 Read: cgameplayerzone.Parent
 ```
 # Functions

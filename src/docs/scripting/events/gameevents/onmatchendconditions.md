@@ -11,8 +11,9 @@ This event is triggered when match_end_conditions is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnMatchEndConditions", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnMatchEndConditions", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

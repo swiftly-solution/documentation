@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPrecipitationVData(ptr --[[ string ]])
+CPrecipitationVData(ptr)
 ```
 # Properties
 ## InnerDistance 
 ```lua
-@type number
+--- @type number
 Read: cprecipitationvdata.InnerDistance
 Write: cprecipitationvdata.InnerDistance = value
 ```
 ## AttachType 
 ```lua
-@type number
+--- @type number
 Read: cprecipitationvdata.AttachType
 Write: cprecipitationvdata.AttachType = value
 ```
 ## BatchSameVolumeType 
 ```lua
-@type boolean
+--- @type boolean
 Read: cprecipitationvdata.BatchSameVolumeType
 Write: cprecipitationvdata.BatchSameVolumeType = value
 ```
 ## RTEnvCP 
 ```lua
-@type number
+--- @type number
 Read: cprecipitationvdata.RTEnvCP
 Write: cprecipitationvdata.RTEnvCP = value
 ```
 ## RTEnvCPComponent 
 ```lua
-@type number
+--- @type number
 Read: cprecipitationvdata.RTEnvCPComponent
 Write: cprecipitationvdata.RTEnvCPComponent = value
 ```
 ## Modifier 
 ```lua
-@type string
+--- @type string
 Read: cprecipitationvdata.Modifier
 Write: cprecipitationvdata.Modifier = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEntitySubclassVDataBase
+--- @type CEntitySubclassVDataBase
 Read: cprecipitationvdata.Parent
 ```
 # Functions

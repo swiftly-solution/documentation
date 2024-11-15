@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsPropOverride(ptr --[[ string ]])
+CPhysicsPropOverride(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPhysicsProp
+--- @type CPhysicsProp
 Read: cphysicspropoverride.Parent
 ```
 # Functions

@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-constraint_axislimit_t(ptr --[[ string ]])
+constraint_axislimit_t(ptr)
 ```
 # Properties
 ## MinRotation 
 ```lua
-@type number
+--- @type number
 Read: constraint_axislimit_t.MinRotation
 Write: constraint_axislimit_t.MinRotation = value
 ```
 ## MaxRotation 
 ```lua
-@type number
+--- @type number
 Read: constraint_axislimit_t.MaxRotation
 Write: constraint_axislimit_t.MaxRotation = value
 ```
 ## MotorTargetAngSpeed 
 ```lua
-@type number
+--- @type number
 Read: constraint_axislimit_t.MotorTargetAngSpeed
 Write: constraint_axislimit_t.MotorTargetAngSpeed = value
 ```
 ## MotorMaxTorque 
 ```lua
-@type number
+--- @type number
 Read: constraint_axislimit_t.MotorMaxTorque
 Write: constraint_axislimit_t.MotorMaxTorque = value
 ```

@@ -11,8 +11,12 @@ This game event is triggered when a client sends a command.
 ::: tabs
 @tab Lua
 ```lua
-@event returns boolean
-AddEventHandler("OnClientCommand", function(event --[[ Event ]], playerid --[[ number ]], command --[[ string ]])
+--- @param event Event
+--- @param playerid number
+--- @param command string
+--- @return number EventResult
+--- @event returns boolean Via event:SetReturn
+AddEventHandler("OnClientCommand", function(event, playerid, command)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered after write_profile_data is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostWriteProfileData", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostWriteProfileData", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleFunctionInitializer(ptr --[[ string ]])
+CParticleFunctionInitializer(ptr)
 ```
 # Properties
 ## AssociatedEmitterIndex 
 ```lua
-@type number
+--- @type number
 Read: cparticlefunctioninitializer.AssociatedEmitterIndex
 Write: cparticlefunctioninitializer.AssociatedEmitterIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunction
+--- @type CParticleFunction
 Read: cparticlefunctioninitializer.Parent
 ```
 # Functions

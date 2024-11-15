@@ -20,8 +20,10 @@ Returns the translation for the specified key.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-FetchTranslation(key --[[ string ]], playerid --[[ number/nil ]])
+--- @param key string
+--- @param playerid number|nil
+--- @return string
+FetchTranslation(key, playerid)
 ```
 
 :::

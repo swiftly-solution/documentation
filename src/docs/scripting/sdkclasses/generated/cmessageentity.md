@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMessageEntity(ptr --[[ string ]])
+CMessageEntity(ptr)
 ```
 # Properties
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cmessageentity.Radius
 Write: cmessageentity.Radius = value
 ```
 ## MessageText 
 ```lua
-@type string
+--- @type string
 Read: cmessageentity.MessageText
 Write: cmessageentity.MessageText = value
 ```
 ## DrawText 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmessageentity.DrawText
 Write: cmessageentity.DrawText = value
 ```
 ## DeveloperOnly 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmessageentity.DeveloperOnly
 Write: cmessageentity.DeveloperOnly = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmessageentity.Enabled
 Write: cmessageentity.Enabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cmessageentity.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventProfileStorageAvailable_t(ptr --[[ string ]])
+EventProfileStorageAvailable_t(ptr)
 ```
 # Properties
 ## SplitScreenSlot 
 ```lua
-@type number
+--- @type number
 Read: eventprofilestorageavailable_t.SplitScreenSlot
 Write: eventprofilestorageavailable_t.SplitScreenSlot = value
 ```

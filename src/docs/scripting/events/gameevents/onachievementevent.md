@@ -11,8 +11,9 @@ This event is triggered when achievement_event is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAchievementEvent", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAchievementEvent", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

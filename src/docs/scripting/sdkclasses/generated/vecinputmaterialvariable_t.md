@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VecInputMaterialVariable_t(ptr --[[ string ]])
+VecInputMaterialVariable_t(ptr)
 ```
 # Properties
 ## StrVariable 
 ```lua
-@type string
+--- @type string
 Read: vecinputmaterialvariable_t.StrVariable
 Write: vecinputmaterialvariable_t.StrVariable = value
 ```

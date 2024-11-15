@@ -11,7 +11,7 @@ Returns the number 64-bit value at the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 memory:GetInt64()
 ```
 

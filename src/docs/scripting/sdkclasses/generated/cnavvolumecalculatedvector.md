@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeCalculatedVector(ptr --[[ string ]])
+CNavVolumeCalculatedVector(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNavVolume
+--- @type CNavVolume
 Read: cnavvolumecalculatedvector.Parent
 ```
 # Functions

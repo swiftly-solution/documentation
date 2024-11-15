@@ -11,8 +11,10 @@ Set the boolean value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookBoolean(index --[[ number ]], value --[[ boolean ]])
+--- @param index number
+--- @param value boolean
+--- @return nil
+event:SetHookBoolean(index, value)
 ```
 
 :::

@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SequenceHistory_t(ptr --[[ string ]])
+SequenceHistory_t(ptr)
 ```
 # Properties
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.Sequence
 Write: sequencehistory_t.Sequence = value
 ```
 ## SeqStartTime 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.SeqStartTime
 Write: sequencehistory_t.SeqStartTime = value
 ```
 ## SeqFixedCycle 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.SeqFixedCycle
 Write: sequencehistory_t.SeqFixedCycle = value
 ```
 ## SeqLoopMode 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.SeqLoopMode
 Write: sequencehistory_t.SeqLoopMode = value
 ```
 ## PlaybackRate 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.PlaybackRate
 Write: sequencehistory_t.PlaybackRate = value
 ```
 ## CyclesPerSecond 
 ```lua
-@type number
+--- @type number
 Read: sequencehistory_t.CyclesPerSecond
 Write: sequencehistory_t.CyclesPerSecond = value
 ```

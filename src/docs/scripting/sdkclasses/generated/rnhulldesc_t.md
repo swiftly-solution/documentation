@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnHullDesc_t(ptr --[[ string ]])
+RnHullDesc_t(ptr)
 ```
 # Properties
 ## Hull (Read-Only)
 ```lua
-@type Rnuint32_t
+--- @type Rnuint32_t
 Read: rnhulldesc_t.Hull
 ```
 ## Parent (Read-Only)
 ```lua
-@type RnShapeDesc_t
+--- @type RnShapeDesc_t
 Read: rnhulldesc_t.Parent
 ```
 # Functions

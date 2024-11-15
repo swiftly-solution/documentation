@@ -11,8 +11,9 @@ Returns the timezone of the country from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ip:GetTimezone(ip --[[ string ]])
+--- @param ip string
+--- @return string
+ip:GetTimezone(ip)
 ```
 
 :::

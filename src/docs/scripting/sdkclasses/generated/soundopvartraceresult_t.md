@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SoundOpvarTraceResult_t(ptr --[[ string ]])
+SoundOpvarTraceResult_t(ptr)
 ```
 # Properties
 ## Pos 
 ```lua
-@type Vector
+--- @type Vector
 Read: soundopvartraceresult_t.Pos
 Write: soundopvartraceresult_t.Pos = value
 ```
 ## DidHit 
 ```lua
-@type boolean
+--- @type boolean
 Read: soundopvartraceresult_t.DidHit
 Write: soundopvartraceresult_t.DidHit = value
 ```
 ## DistSqrToCenter 
 ```lua
-@type number
+--- @type number
 Read: soundopvartraceresult_t.DistSqrToCenter
 Write: soundopvartraceresult_t.DistSqrToCenter = value
 ```

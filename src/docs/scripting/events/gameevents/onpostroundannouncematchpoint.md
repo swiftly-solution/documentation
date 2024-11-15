@@ -11,8 +11,9 @@ This event is triggered after round_announce_match_point is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundAnnounceMatchPoint", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundAnnounceMatchPoint", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

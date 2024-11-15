@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FunctionInfo_t(ptr --[[ string ]])
+FunctionInfo_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: functioninfo_t.Name
 Write: functioninfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type number
+--- @type number
 Read: functioninfo_t.NameToken
 Write: functioninfo_t.NameToken = value
 ```
 ## ParamCount 
 ```lua
-@type number
+--- @type number
 Read: functioninfo_t.ParamCount
 Write: functioninfo_t.ParamCount = value
 ```
 ## Index (Read-Only)
 ```lua
-@type FuseFunctionIndex_t
+--- @type FuseFunctionIndex_t
 Read: functioninfo_t.Index
 ```
 ## IsPure 
 ```lua
-@type boolean
+--- @type boolean
 Read: functioninfo_t.IsPure
 Write: functioninfo_t.IsPure = value
 ```

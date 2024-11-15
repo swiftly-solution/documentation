@@ -11,8 +11,9 @@ This event is triggered when instructor_close_lesson is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnInstructorCloseLesson", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnInstructorCloseLesson", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

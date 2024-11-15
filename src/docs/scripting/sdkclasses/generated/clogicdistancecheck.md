@@ -12,51 +12,51 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicDistanceCheck(ptr --[[ string ]])
+CLogicDistanceCheck(ptr)
 ```
 # Properties
 ## EntityA 
 ```lua
-@type string
+--- @type string
 Read: clogicdistancecheck.EntityA
 Write: clogicdistancecheck.EntityA = value
 ```
 ## EntityB 
 ```lua
-@type string
+--- @type string
 Read: clogicdistancecheck.EntityB
 Write: clogicdistancecheck.EntityB = value
 ```
 ## Zone1Distance 
 ```lua
-@type number
+--- @type number
 Read: clogicdistancecheck.Zone1Distance
 Write: clogicdistancecheck.Zone1Distance = value
 ```
 ## Zone2Distance 
 ```lua
-@type number
+--- @type number
 Read: clogicdistancecheck.Zone2Distance
 Write: clogicdistancecheck.Zone2Distance = value
 ```
 ## InZone1 (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicdistancecheck.InZone1
 ```
 ## InZone2 (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicdistancecheck.InZone2
 ```
 ## InZone3 (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicdistancecheck.InZone3
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicdistancecheck.Parent
 ```
 # Functions

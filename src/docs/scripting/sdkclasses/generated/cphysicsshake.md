@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsShake(ptr --[[ string ]])
+CPhysicsShake(ptr)
 ```
 # Properties
 ## Force 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsshake.Force
 Write: cphysicsshake.Force = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMorphData(ptr --[[ string ]])
+CMorphData(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cmorphdata.Name
 Write: cmorphdata.Name = value
 ```
 ## MorphRectDatas (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphdata.MorphRectDatas
 ```
 # Functions

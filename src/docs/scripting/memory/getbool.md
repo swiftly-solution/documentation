@@ -11,7 +11,7 @@ Returns the boolean value at the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 memory:SetBool()
 ```
 

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeBuildTaperedCapsuleRigid_t(ptr --[[ string ]])
+FeBuildTaperedCapsuleRigid_t(ptr)
 ```
 # Properties
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: febuildtaperedcapsulerigid_t.Priority
 Write: febuildtaperedcapsulerigid_t.Priority = value
 ```
 ## VertexMapHash 
 ```lua
-@type number
+--- @type number
 Read: febuildtaperedcapsulerigid_t.VertexMapHash
 Write: febuildtaperedcapsulerigid_t.VertexMapHash = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type FeTaperedCapsuleRigid_t
+--- @type FeTaperedCapsuleRigid_t
 Read: febuildtaperedcapsulerigid_t.Parent
 ```
 # Functions

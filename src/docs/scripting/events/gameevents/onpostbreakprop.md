@@ -11,8 +11,9 @@ This event is triggered after break_prop is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBreakProp", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBreakProp", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

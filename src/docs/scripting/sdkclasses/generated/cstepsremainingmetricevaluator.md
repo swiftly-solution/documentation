@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStepsRemainingMetricEvaluator(ptr --[[ string ]])
+CStepsRemainingMetricEvaluator(ptr)
 ```
 # Properties
 ## FootIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstepsremainingmetricevaluator.FootIndices
 ```
 ## MinStepsRemaining 
 ```lua
-@type number
+--- @type number
 Read: cstepsremainingmetricevaluator.MinStepsRemaining
 Write: cstepsremainingmetricevaluator.MinStepsRemaining = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cstepsremainingmetricevaluator.Parent
 ```
 # Functions

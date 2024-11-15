@@ -11,7 +11,7 @@ Returns the pointer which is being hold by the class.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 memory:GetPtr()
 ```
 

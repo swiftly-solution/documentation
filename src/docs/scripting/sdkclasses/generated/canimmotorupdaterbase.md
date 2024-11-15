@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimMotorUpdaterBase(ptr --[[ string ]])
+CAnimMotorUpdaterBase(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: canimmotorupdaterbase.Name
 Write: canimmotorupdaterbase.Name = value
 ```
 ## Default 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimmotorupdaterbase.Default
 Write: canimmotorupdaterbase.Default = value
 ```

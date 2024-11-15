@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvCubemapBox(ptr --[[ string ]])
+CEnvCubemapBox(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CEnvCubemap
+--- @type CEnvCubemap
 Read: cenvcubemapbox.Parent
 ```
 # Functions

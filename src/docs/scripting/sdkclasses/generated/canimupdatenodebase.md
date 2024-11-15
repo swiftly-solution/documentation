@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimUpdateNodeBase(ptr --[[ string ]])
+CAnimUpdateNodeBase(ptr)
 ```
 # Properties
 ## NodePath (Read-Only)
 ```lua
-@type CAnimNodePath
+--- @type CAnimNodePath
 Read: canimupdatenodebase.NodePath
 ```
 ## NetworkMode 
 ```lua
-@type number
+--- @type number
 Read: canimupdatenodebase.NetworkMode
 Write: canimupdatenodebase.NetworkMode = value
 ```
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: canimupdatenodebase.Name
 Write: canimupdatenodebase.Name = value
 ```

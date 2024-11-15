@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionGraphUpdateNode(ptr --[[ string ]])
+CMotionGraphUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: cmotiongraphupdatenode.Parent
 ```
 # Functions

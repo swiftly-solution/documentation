@@ -11,8 +11,9 @@ This event is triggered when nav_blocked is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnNavBlocked", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnNavBlocked", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

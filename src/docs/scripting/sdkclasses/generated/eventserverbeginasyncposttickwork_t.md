@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventServerBeginAsyncPostTickWork_t(ptr --[[ string ]])
+EventServerBeginAsyncPostTickWork_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventPostAdvanceTick_t
+--- @type EventPostAdvanceTick_t
 Read: eventserverbeginasyncposttickwork_t.Parent
 ```
 # Functions

@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityComponentHelper(ptr --[[ string ]])
+CEntityComponentHelper(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: centitycomponenthelper.Flags
 Write: centitycomponenthelper.Flags = value
 ```
 ## Info (Read-Only)
 ```lua
-@type EntComponentInfo_t
+--- @type EntComponentInfo_t
 Read: centitycomponenthelper.Info
 ```
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: centitycomponenthelper.Priority
 Write: centitycomponenthelper.Priority = value
 ```
 ## Next (Read-Only)
 ```lua
-@type CEntityComponentHelper
+--- @type CEntityComponentHelper
 Read: centitycomponenthelper.Next
 ```
 # Functions

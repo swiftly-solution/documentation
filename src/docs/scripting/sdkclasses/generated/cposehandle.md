@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPoseHandle(ptr --[[ string ]])
+CPoseHandle(ptr)
 ```
 # Properties
 ## Index 
 ```lua
-@type number
+--- @type number
 Read: cposehandle.Index
 Write: cposehandle.Index = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: cposehandle.Type
 Write: cposehandle.Type = value
 ```

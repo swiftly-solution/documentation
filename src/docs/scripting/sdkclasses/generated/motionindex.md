@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MotionIndex(ptr --[[ string ]])
+MotionIndex(ptr)
 ```
 # Properties
 ## Group 
 ```lua
-@type number
+--- @type number
 Read: motionindex.Group
 Write: motionindex.Group = value
 ```
 ## Motion 
 ```lua
-@type number
+--- @type number
 Read: motionindex.Motion
 Write: motionindex.Motion = value
 ```

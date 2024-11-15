@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WorldBuilderParams_t(ptr --[[ string ]])
+WorldBuilderParams_t(ptr)
 ```
 # Properties
 ## MinDrawVolumeSize 
 ```lua
-@type number
+--- @type number
 Read: worldbuilderparams_t.MinDrawVolumeSize
 Write: worldbuilderparams_t.MinDrawVolumeSize = value
 ```
 ## BuildBakedLighting 
 ```lua
-@type boolean
+--- @type boolean
 Read: worldbuilderparams_t.BuildBakedLighting
 Write: worldbuilderparams_t.BuildBakedLighting = value
 ```
 ## BakedLightingInfo (Read-Only)
 ```lua
-@type BakedLightingInfo_t
+--- @type BakedLightingInfo_t
 Read: worldbuilderparams_t.BakedLightingInfo
 ```
 ## CompileTimestamp 
 ```lua
-@type number
+--- @type number
 Read: worldbuilderparams_t.CompileTimestamp
 Write: worldbuilderparams_t.CompileTimestamp = value
 ```
 ## CompileFingerprint 
 ```lua
-@type number
+--- @type number
 Read: worldbuilderparams_t.CompileFingerprint
 Write: worldbuilderparams_t.CompileFingerprint = value
 ```

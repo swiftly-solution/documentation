@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FourCovMatrices3(ptr --[[ string ]])
+FourCovMatrices3(ptr)
 ```
 # Properties
 ## XY 
 ```lua
-@type number
+--- @type number
 Read: fourcovmatrices3.XY
 Write: fourcovmatrices3.XY = value
 ```
 ## XZ 
 ```lua
-@type number
+--- @type number
 Read: fourcovmatrices3.XZ
 Write: fourcovmatrices3.XZ = value
 ```
 ## YZ 
 ```lua
-@type number
+--- @type number
 Read: fourcovmatrices3.YZ
 Write: fourcovmatrices3.YZ = value
 ```

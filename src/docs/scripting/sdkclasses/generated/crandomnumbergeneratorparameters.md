@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRandomNumberGeneratorParameters(ptr --[[ string ]])
+CRandomNumberGeneratorParameters(ptr)
 ```
 # Properties
 ## DistributeEvenly 
 ```lua
-@type boolean
+--- @type boolean
 Read: crandomnumbergeneratorparameters.DistributeEvenly
 Write: crandomnumbergeneratorparameters.DistributeEvenly = value
 ```
 ## Seed 
 ```lua
-@type number
+--- @type number
 Read: crandomnumbergeneratorparameters.Seed
 Write: crandomnumbergeneratorparameters.Seed = value
 ```

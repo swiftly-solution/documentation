@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionLimitSchema(ptr --[[ string ]])
+CSosGroupActionLimitSchema(ptr)
 ```
 # Properties
 ## MaxCount 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionlimitschema.MaxCount
 Write: csosgroupactionlimitschema.MaxCount = value
 ```
 ## StopType 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionlimitschema.StopType
 Write: csosgroupactionlimitschema.StopType = value
 ```
 ## SortType 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactionlimitschema.SortType
 Write: csosgroupactionlimitschema.SortType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupActionSchema
+--- @type CSosGroupActionSchema
 Read: csosgroupactionlimitschema.Parent
 ```
 # Functions

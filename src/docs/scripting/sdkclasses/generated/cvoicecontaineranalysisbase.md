@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerAnalysisBase(ptr --[[ string ]])
+CVoiceContainerAnalysisBase(ptr)
 ```
 # Properties
 ## RegenerateCurveOnCompile 
 ```lua
-@type boolean
+--- @type boolean
 Read: cvoicecontaineranalysisbase.RegenerateCurveOnCompile
 Write: cvoicecontaineranalysisbase.RegenerateCurveOnCompile = value
 ```

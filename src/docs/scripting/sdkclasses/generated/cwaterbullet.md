@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWaterBullet(ptr --[[ string ]])
+CWaterBullet(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: cwaterbullet.Parent
 ```
 # Functions

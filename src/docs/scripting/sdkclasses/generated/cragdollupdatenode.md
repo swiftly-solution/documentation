@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollUpdateNode(ptr --[[ string ]])
+CRagdollUpdateNode(ptr)
 ```
 # Properties
 ## WeightListIndex 
 ```lua
-@type number
+--- @type number
 Read: cragdollupdatenode.WeightListIndex
 Write: cragdollupdatenode.WeightListIndex = value
 ```
 ## PoseControlMethod 
 ```lua
-@type number
+--- @type number
 Read: cragdollupdatenode.PoseControlMethod
 Write: cragdollupdatenode.PoseControlMethod = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cragdollupdatenode.Parent
 ```
 # Functions

@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeBoxRigid_t(ptr --[[ string ]])
+FeBoxRigid_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type number
+--- @type number
 Read: feboxrigid_t.Node
 Write: feboxrigid_t.Node = value
 ```
 ## CollisionMask 
 ```lua
-@type number
+--- @type number
 Read: feboxrigid_t.CollisionMask
 Write: feboxrigid_t.CollisionMask = value
 ```
 ## Size 
 ```lua
-@type Vector
+--- @type Vector
 Read: feboxrigid_t.Size
 Write: feboxrigid_t.Size = value
 ```
 ## VertexMapIndex 
 ```lua
-@type number
+--- @type number
 Read: feboxrigid_t.VertexMapIndex
 Write: feboxrigid_t.VertexMapIndex = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: feboxrigid_t.Flags
 Write: feboxrigid_t.Flags = value
 ```

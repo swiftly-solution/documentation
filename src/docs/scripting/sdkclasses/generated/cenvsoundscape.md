@@ -12,76 +12,76 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSoundscape(ptr --[[ string ]])
+CEnvSoundscape(ptr)
 ```
 # Properties
 ## OnPlay (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvsoundscape.OnPlay
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cenvsoundscape.Radius
 Write: cenvsoundscape.Radius = value
 ```
 ## SoundEventName 
 ```lua
-@type string
+--- @type string
 Read: cenvsoundscape.SoundEventName
 Write: cenvsoundscape.SoundEventName = value
 ```
 ## OverrideWithEvent 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvsoundscape.OverrideWithEvent
 Write: cenvsoundscape.OverrideWithEvent = value
 ```
 ## SoundscapeIndex 
 ```lua
-@type number
+--- @type number
 Read: cenvsoundscape.SoundscapeIndex
 Write: cenvsoundscape.SoundscapeIndex = value
 ```
 ## SoundscapeEntityListId 
 ```lua
-@type number
+--- @type number
 Read: cenvsoundscape.SoundscapeEntityListId
 Write: cenvsoundscape.SoundscapeEntityListId = value
 ```
 ## PositionNames 
 ```lua
-@type table
+--- @type table
 Read: cenvsoundscape.PositionNames
 Write: cenvsoundscape.PositionNames = value
 ```
 ## ProxySoundscape (Read-Only)
 ```lua
-@type CEnvSoundscape
+--- @type CEnvSoundscape
 Read: cenvsoundscape.ProxySoundscape
 ```
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvsoundscape.Disabled
 Write: cenvsoundscape.Disabled = value
 ```
 ## SoundscapeName 
 ```lua
-@type string
+--- @type string
 Read: cenvsoundscape.SoundscapeName
 Write: cenvsoundscape.SoundscapeName = value
 ```
 ## SoundEventHash 
 ```lua
-@type number
+--- @type number
 Read: cenvsoundscape.SoundEventHash
 Write: cenvsoundscape.SoundEventHash = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvsoundscape.Parent
 ```
 # Functions

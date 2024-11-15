@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionSoundeventCountSchema(ptr --[[ string ]])
+CSosGroupActionSoundeventCountSchema(ptr)
 ```
 # Properties
 ## ExcludeStoppedSounds 
 ```lua
-@type boolean
+--- @type boolean
 Read: csosgroupactionsoundeventcountschema.ExcludeStoppedSounds
 Write: csosgroupactionsoundeventcountschema.ExcludeStoppedSounds = value
 ```
 ## StrCountKeyName 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsoundeventcountschema.StrCountKeyName
 Write: csosgroupactionsoundeventcountschema.StrCountKeyName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupActionSchema
+--- @type CSosGroupActionSchema
 Read: csosgroupactionsoundeventcountschema.Parent
 ```
 # Functions

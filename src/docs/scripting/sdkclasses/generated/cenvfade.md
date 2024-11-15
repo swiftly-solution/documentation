@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvFade(ptr --[[ string ]])
+CEnvFade(ptr)
 ```
 # Properties
 ## FadeColor 
 ```lua
-@type Color
+--- @type Color
 Read: cenvfade.FadeColor
 Write: cenvfade.FadeColor = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: cenvfade.Duration
 Write: cenvfade.Duration = value
 ```
 ## HoldDuration 
 ```lua
-@type number
+--- @type number
 Read: cenvfade.HoldDuration
 Write: cenvfade.HoldDuration = value
 ```
 ## OnBeginFade (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvfade.OnBeginFade
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cenvfade.Parent
 ```
 # Functions

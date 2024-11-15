@@ -11,8 +11,9 @@ This event is triggered when repost_xbox_achievements is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRepostXboxAchievements", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRepostXboxAchievements", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered after map_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostMapShutdown", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostMapShutdown", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

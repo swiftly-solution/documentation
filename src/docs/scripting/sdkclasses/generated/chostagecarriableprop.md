@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHostageCarriableProp(ptr --[[ string ]])
+CHostageCarriableProp(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: chostagecarriableprop.Parent
 ```
 # Functions

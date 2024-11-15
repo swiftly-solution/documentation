@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-BlendItem_t(ptr --[[ string ]])
+BlendItem_t(ptr)
 ```
 # Properties
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: blenditem_t.Tags
 ```
 ## Child (Read-Only)
 ```lua
-@type CAnimUpdateNodeRef
+--- @type CAnimUpdateNodeRef
 Read: blenditem_t.Child
 ```
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: blenditem_t.Sequence
 Write: blenditem_t.Sequence = value
 ```
 ## Pos 
 ```lua
-@type Vector2D
+--- @type Vector2D
 Read: blenditem_t.Pos
 Write: blenditem_t.Pos = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: blenditem_t.Duration
 Write: blenditem_t.Duration = value
 ```
 ## UseCustomDuration 
 ```lua
-@type boolean
+--- @type boolean
 Read: blenditem_t.UseCustomDuration
 Write: blenditem_t.UseCustomDuration = value
 ```

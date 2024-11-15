@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IKBoneNameAndIndex_t(ptr --[[ string ]])
+IKBoneNameAndIndex_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: ikbonenameandindex_t.Name
 Write: ikbonenameandindex_t.Name = value
 ```

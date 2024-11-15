@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VPhysXRange_t(ptr --[[ string ]])
+VPhysXRange_t(ptr)
 ```
 # Properties
 ## Min 
 ```lua
-@type number
+--- @type number
 Read: vphysxrange_t.Min
 Write: vphysxrange_t.Min = value
 ```
 ## Max 
 ```lua
-@type number
+--- @type number
 Read: vphysxrange_t.Max
 Write: vphysxrange_t.Max = value
 ```

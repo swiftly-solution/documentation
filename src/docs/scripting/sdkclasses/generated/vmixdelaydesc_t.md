@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixDelayDesc_t(ptr --[[ string ]])
+VMixDelayDesc_t(ptr)
 ```
 # Properties
 ## FeedbackFilter (Read-Only)
 ```lua
-@type VMixFilterDesc_t
+--- @type VMixFilterDesc_t
 Read: vmixdelaydesc_t.FeedbackFilter
 ```
 ## EnableFilter 
 ```lua
-@type boolean
+--- @type boolean
 Read: vmixdelaydesc_t.EnableFilter
 Write: vmixdelaydesc_t.EnableFilter = value
 ```
 ## Delay 
 ```lua
-@type number
+--- @type number
 Read: vmixdelaydesc_t.Delay
 Write: vmixdelaydesc_t.Delay = value
 ```
 ## DirectGain 
 ```lua
-@type number
+--- @type number
 Read: vmixdelaydesc_t.DirectGain
 Write: vmixdelaydesc_t.DirectGain = value
 ```
 ## DelayGain 
 ```lua
-@type number
+--- @type number
 Read: vmixdelaydesc_t.DelayGain
 Write: vmixdelaydesc_t.DelayGain = value
 ```
 ## FeedbackGain 
 ```lua
-@type number
+--- @type number
 Read: vmixdelaydesc_t.FeedbackGain
 Write: vmixdelaydesc_t.FeedbackGain = value
 ```
 ## Width 
 ```lua
-@type number
+--- @type number
 Read: vmixdelaydesc_t.Width
 Write: vmixdelaydesc_t.Width = value
 ```

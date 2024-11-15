@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSSprite(ptr --[[ string ]])
+CCSSprite(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSprite
+--- @type CSprite
 Read: ccssprite.Parent
 ```
 # Functions

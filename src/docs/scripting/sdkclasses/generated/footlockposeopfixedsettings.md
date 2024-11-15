@@ -12,112 +12,112 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FootLockPoseOpFixedSettings(ptr --[[ string ]])
+FootLockPoseOpFixedSettings(ptr)
 ```
 # Properties
 ## FootInfo (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: footlockposeopfixedsettings.FootInfo
 ```
 ## HipDampingSettings (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: footlockposeopfixedsettings.HipDampingSettings
 ```
 ## HipBoneIndex 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.HipBoneIndex
 Write: footlockposeopfixedsettings.HipBoneIndex = value
 ```
 ## IkSolverType 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.IkSolverType
 Write: footlockposeopfixedsettings.IkSolverType = value
 ```
 ## ApplyTilt 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.ApplyTilt
 Write: footlockposeopfixedsettings.ApplyTilt = value
 ```
 ## ApplyHipDrop 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.ApplyHipDrop
 Write: footlockposeopfixedsettings.ApplyHipDrop = value
 ```
 ## AlwaysUseFallbackHinge 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.AlwaysUseFallbackHinge
 Write: footlockposeopfixedsettings.AlwaysUseFallbackHinge = value
 ```
 ## ApplyFootRotationLimits 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.ApplyFootRotationLimits
 Write: footlockposeopfixedsettings.ApplyFootRotationLimits = value
 ```
 ## ApplyLegTwistLimits 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.ApplyLegTwistLimits
 Write: footlockposeopfixedsettings.ApplyLegTwistLimits = value
 ```
 ## MaxFootHeight 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.MaxFootHeight
 Write: footlockposeopfixedsettings.MaxFootHeight = value
 ```
 ## ExtensionScale 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.ExtensionScale
 Write: footlockposeopfixedsettings.ExtensionScale = value
 ```
 ## MaxLegTwist 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.MaxLegTwist
 Write: footlockposeopfixedsettings.MaxLegTwist = value
 ```
 ## EnableLockBreaking 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.EnableLockBreaking
 Write: footlockposeopfixedsettings.EnableLockBreaking = value
 ```
 ## LockBreakTolerance 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.LockBreakTolerance
 Write: footlockposeopfixedsettings.LockBreakTolerance = value
 ```
 ## LockBlendTime 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.LockBlendTime
 Write: footlockposeopfixedsettings.LockBlendTime = value
 ```
 ## EnableStretching 
 ```lua
-@type boolean
+--- @type boolean
 Read: footlockposeopfixedsettings.EnableStretching
 Write: footlockposeopfixedsettings.EnableStretching = value
 ```
 ## MaxStretchAmount 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.MaxStretchAmount
 Write: footlockposeopfixedsettings.MaxStretchAmount = value
 ```
 ## StretchExtensionScale 
 ```lua
-@type number
+--- @type number
 Read: footlockposeopfixedsettings.StretchExtensionScale
 Write: footlockposeopfixedsettings.StretchExtensionScale = value
 ```

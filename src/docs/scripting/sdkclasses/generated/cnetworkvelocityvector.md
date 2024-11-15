@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNetworkVelocityVector(ptr --[[ string ]])
+CNetworkVelocityVector(ptr)
 ```
 # Properties
 ## X 
 ```lua
-@type number
+--- @type number
 Read: cnetworkvelocityvector.X
 Write: cnetworkvelocityvector.X = value
 ```
 ## Y 
 ```lua
-@type number
+--- @type number
 Read: cnetworkvelocityvector.Y
 Write: cnetworkvelocityvector.Y = value
 ```
 ## Z 
 ```lua
-@type number
+--- @type number
 Read: cnetworkvelocityvector.Z
 Write: cnetworkvelocityvector.Z = value
 ```

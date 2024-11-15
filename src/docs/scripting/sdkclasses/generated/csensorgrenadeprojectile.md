@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSensorGrenadeProjectile(ptr --[[ string ]])
+CSensorGrenadeProjectile(ptr)
 ```
 # Properties
 ## ExpireTime 
 ```lua
-@type number
+--- @type number
 Read: csensorgrenadeprojectile.ExpireTime
 Write: csensorgrenadeprojectile.ExpireTime = value
 ```
 ## NextDetectPlayerSound 
 ```lua
-@type number
+--- @type number
 Read: csensorgrenadeprojectile.NextDetectPlayerSound
 Write: csensorgrenadeprojectile.NextDetectPlayerSound = value
 ```
 ## DisplayGrenade (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csensorgrenadeprojectile.DisplayGrenade
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenadeProjectile
+--- @type CBaseCSGrenadeProjectile
 Read: csensorgrenadeprojectile.Parent
 ```
 # Functions

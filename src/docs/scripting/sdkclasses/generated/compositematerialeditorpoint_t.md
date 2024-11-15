@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CompositeMaterialEditorPoint_t(ptr --[[ string ]])
+CompositeMaterialEditorPoint_t(ptr)
 ```
 # Properties
 ## SequenceIndex 
 ```lua
-@type number
+--- @type number
 Read: compositematerialeditorpoint_t.SequenceIndex
 Write: compositematerialeditorpoint_t.SequenceIndex = value
 ```
 ## Cycle 
 ```lua
-@type number
+--- @type number
 Read: compositematerialeditorpoint_t.Cycle
 Write: compositematerialeditorpoint_t.Cycle = value
 ```
 ## EnableChildModel 
 ```lua
-@type boolean
+--- @type boolean
 Read: compositematerialeditorpoint_t.EnableChildModel
 Write: compositematerialeditorpoint_t.EnableChildModel = value
 ```
 ## CompositeMaterialAssemblyProcedures (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialeditorpoint_t.CompositeMaterialAssemblyProcedures
 ```
 ## CompositeMaterials (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialeditorpoint_t.CompositeMaterials
 ```
 # Functions

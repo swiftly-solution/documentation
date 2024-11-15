@@ -11,8 +11,9 @@ Returns the float value of a key from a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-event:GetFloat(key --[[ string ]])
+--- @param key string
+--- @return number
+event:GetFloat(key)
 ```
 
 :::

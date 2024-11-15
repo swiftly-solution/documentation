@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLightEntity(ptr --[[ string ]])
+CLightEntity(ptr)
 ```
 # Properties
 ## CLightComponent (Read-Only)
 ```lua
-@type CLightComponent
+--- @type CLightComponent
 Read: clightentity.CLightComponent
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: clightentity.Parent
 ```
 # Functions

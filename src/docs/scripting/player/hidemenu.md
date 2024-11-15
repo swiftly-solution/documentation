@@ -11,7 +11,7 @@ Hides the player menu.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
+--- @return nil
 player:HideMenu()
 ```
 

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeEdgeDesc_t(ptr --[[ string ]])
+FeEdgeDesc_t(ptr)
 ```
 # Properties
 ## Edge 
 ```lua
-@type table
+--- @type table
 Read: feedgedesc_t.Edge
 Write: feedgedesc_t.Edge = value
 ```
 ## VirtElem 
 ```lua
-@type table
+--- @type table
 Read: feedgedesc_t.VirtElem
 Write: feedgedesc_t.VirtElem = value
 ```

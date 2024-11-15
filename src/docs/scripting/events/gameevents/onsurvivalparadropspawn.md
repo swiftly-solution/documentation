@@ -11,8 +11,9 @@ This event is triggered when survival_paradrop_spawn is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSurvivalParadropSpawn", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSurvivalParadropSpawn", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

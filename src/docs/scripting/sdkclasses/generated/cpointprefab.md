@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointPrefab(ptr --[[ string ]])
+CPointPrefab(ptr)
 ```
 # Properties
 ## TargetMapName 
 ```lua
-@type string
+--- @type string
 Read: cpointprefab.TargetMapName
 Write: cpointprefab.TargetMapName = value
 ```
 ## ForceWorldGroupID 
 ```lua
-@type string
+--- @type string
 Read: cpointprefab.ForceWorldGroupID
 Write: cpointprefab.ForceWorldGroupID = value
 ```
 ## AssociatedRelayTargetName 
 ```lua
-@type string
+--- @type string
 Read: cpointprefab.AssociatedRelayTargetName
 Write: cpointprefab.AssociatedRelayTargetName = value
 ```
 ## FixupNames 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointprefab.FixupNames
 Write: cpointprefab.FixupNames = value
 ```
 ## LoadDynamic 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointprefab.LoadDynamic
 Write: cpointprefab.LoadDynamic = value
 ```
 ## AssociatedRelayEntity (Read-Only)
 ```lua
-@type CPointPrefab
+--- @type CPointPrefab
 Read: cpointprefab.AssociatedRelayEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyPointEntity
+--- @type CServerOnlyPointEntity
 Read: cpointprefab.Parent
 ```
 # Functions

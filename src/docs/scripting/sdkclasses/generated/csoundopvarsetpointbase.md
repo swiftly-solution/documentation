@@ -12,65 +12,65 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetPointBase(ptr --[[ string ]])
+CSoundOpvarSetPointBase(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundopvarsetpointbase.Disabled
 Write: csoundopvarsetpointbase.Disabled = value
 ```
 ## Source (Read-Only)
 ```lua
-@type CEntityInstance
+--- @type CEntityInstance
 Read: csoundopvarsetpointbase.Source
 ```
 ## SourceEntityName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetpointbase.SourceEntityName
 Write: csoundopvarsetpointbase.SourceEntityName = value
 ```
 ## LastPosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundopvarsetpointbase.LastPosition
 Write: csoundopvarsetpointbase.LastPosition = value
 ```
 ## StackName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetpointbase.StackName
 Write: csoundopvarsetpointbase.StackName = value
 ```
 ## OperatorName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetpointbase.OperatorName
 Write: csoundopvarsetpointbase.OperatorName = value
 ```
 ## OpvarName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetpointbase.OpvarName
 Write: csoundopvarsetpointbase.OpvarName = value
 ```
 ## OpvarIndex 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetpointbase.OpvarIndex
 Write: csoundopvarsetpointbase.OpvarIndex = value
 ```
 ## UseAutoCompare 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundopvarsetpointbase.UseAutoCompare
 Write: csoundopvarsetpointbase.UseAutoCompare = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csoundopvarsetpointbase.Parent
 ```
 # Functions

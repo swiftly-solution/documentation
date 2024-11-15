@@ -11,8 +11,9 @@ This event is triggered after bomb_abortdefuse is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBombAbortdefuse", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBombAbortdefuse", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered after sfuievent is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSfuievent", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSfuievent", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

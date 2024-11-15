@@ -11,8 +11,9 @@ Removes the specified hook listener.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-RemoveHookListener(eventHandler --[[ EventHandler ]])
+--- @param eventHandler number EventHandler
+--- @return nil
+RemoveHookListener(eventHandler)
 ```
 
 :::

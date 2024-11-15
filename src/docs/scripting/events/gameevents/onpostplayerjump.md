@@ -11,8 +11,9 @@ This event is triggered after player_jump is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerJump", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerJump", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

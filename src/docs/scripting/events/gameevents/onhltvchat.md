@@ -11,8 +11,9 @@ This event is triggered when hltv_chat is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvChat", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvChat", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

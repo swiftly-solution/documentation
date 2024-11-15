@@ -12,82 +12,82 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncMoveLinear(ptr --[[ string ]])
+CFuncMoveLinear(ptr)
 ```
 # Properties
 ## AuthoredPosition 
 ```lua
-@type number
+--- @type number
 Read: cfuncmovelinear.AuthoredPosition
 Write: cfuncmovelinear.AuthoredPosition = value
 ```
 ## MoveEntitySpace 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cfuncmovelinear.MoveEntitySpace
 Write: cfuncmovelinear.MoveEntitySpace = value
 ```
 ## MoveDirParentSpace 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfuncmovelinear.MoveDirParentSpace
 Write: cfuncmovelinear.MoveDirParentSpace = value
 ```
 ## SoundStart 
 ```lua
-@type string
+--- @type string
 Read: cfuncmovelinear.SoundStart
 Write: cfuncmovelinear.SoundStart = value
 ```
 ## SoundStop 
 ```lua
-@type string
+--- @type string
 Read: cfuncmovelinear.SoundStop
 Write: cfuncmovelinear.SoundStop = value
 ```
 ## CurrentSound 
 ```lua
-@type string
+--- @type string
 Read: cfuncmovelinear.CurrentSound
 Write: cfuncmovelinear.CurrentSound = value
 ```
 ## BlockDamage 
 ```lua
-@type number
+--- @type number
 Read: cfuncmovelinear.BlockDamage
 Write: cfuncmovelinear.BlockDamage = value
 ```
 ## StartPosition 
 ```lua
-@type number
+--- @type number
 Read: cfuncmovelinear.StartPosition
 Write: cfuncmovelinear.StartPosition = value
 ```
 ## OnFullyOpen (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cfuncmovelinear.OnFullyOpen
 ```
 ## OnFullyClosed (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cfuncmovelinear.OnFullyClosed
 ```
 ## CreateMovableNavMesh 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmovelinear.CreateMovableNavMesh
 Write: cfuncmovelinear.CreateMovableNavMesh = value
 ```
 ## CreateNavObstacle 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmovelinear.CreateNavObstacle
 Write: cfuncmovelinear.CreateNavObstacle = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseToggle
+--- @type CBaseToggle
 Read: cfuncmovelinear.Parent
 ```
 # Functions

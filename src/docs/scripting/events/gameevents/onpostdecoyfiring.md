@@ -11,8 +11,9 @@ This event is triggered after decoy_firing is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDecoyFiring", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDecoyFiring", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

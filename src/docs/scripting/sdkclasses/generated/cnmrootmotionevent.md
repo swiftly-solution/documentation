@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmRootMotionEvent(ptr --[[ string ]])
+CNmRootMotionEvent(ptr)
 ```
 # Properties
 ## BlendTimeSeconds 
 ```lua
-@type number
+--- @type number
 Read: cnmrootmotionevent.BlendTimeSeconds
 Write: cnmrootmotionevent.BlendTimeSeconds = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmrootmotionevent.Parent
 ```
 # Functions

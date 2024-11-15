@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VPhysXConstraint2_t(ptr --[[ string ]])
+VPhysXConstraint2_t(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: vphysxconstraint2_t.Flags
 Write: vphysxconstraint2_t.Flags = value
 ```
 ## Parent 
 ```lua
-@type number
+--- @type number
 Read: vphysxconstraint2_t.Parent
 Write: vphysxconstraint2_t.Parent = value
 ```
 ## Child 
 ```lua
-@type number
+--- @type number
 Read: vphysxconstraint2_t.Child
 Write: vphysxconstraint2_t.Child = value
 ```
 ## Params (Read-Only)
 ```lua
-@type VPhysXConstraintParams_t
+--- @type VPhysXConstraintParams_t
 Read: vphysxconstraint2_t.Params
 ```
 # Functions

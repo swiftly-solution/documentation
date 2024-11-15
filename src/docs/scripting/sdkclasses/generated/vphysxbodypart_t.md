@@ -12,65 +12,65 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VPhysXBodyPart_t(ptr --[[ string ]])
+VPhysXBodyPart_t(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.Flags
 Write: vphysxbodypart_t.Flags = value
 ```
 ## Mass 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.Mass
 Write: vphysxbodypart_t.Mass = value
 ```
 ## RnShape (Read-Only)
 ```lua
-@type VPhysics2ShapeDef_t
+--- @type VPhysics2ShapeDef_t
 Read: vphysxbodypart_t.RnShape
 ```
 ## CollisionAttributeIndex 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.CollisionAttributeIndex
 Write: vphysxbodypart_t.CollisionAttributeIndex = value
 ```
 ## Reserved 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.Reserved
 Write: vphysxbodypart_t.Reserved = value
 ```
 ## InertiaScale 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.InertiaScale
 Write: vphysxbodypart_t.InertiaScale = value
 ```
 ## LinearDamping 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.LinearDamping
 Write: vphysxbodypart_t.LinearDamping = value
 ```
 ## AngularDamping 
 ```lua
-@type number
+--- @type number
 Read: vphysxbodypart_t.AngularDamping
 Write: vphysxbodypart_t.AngularDamping = value
 ```
 ## OverrideMassCenter 
 ```lua
-@type boolean
+--- @type boolean
 Read: vphysxbodypart_t.OverrideMassCenter
 Write: vphysxbodypart_t.OverrideMassCenter = value
 ```
 ## MassCenterOverride 
 ```lua
-@type Vector
+--- @type Vector
 Read: vphysxbodypart_t.MassCenterOverride
 Write: vphysxbodypart_t.MassCenterOverride = value
 ```

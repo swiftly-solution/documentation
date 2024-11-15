@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmSyncTrack(ptr --[[ string ]])
+CNmSyncTrack(ptr)
 ```
 # Properties
 ## StartEventOffset 
 ```lua
-@type number
+--- @type number
 Read: cnmsynctrack.StartEventOffset
 Write: cnmsynctrack.StartEventOffset = value
 ```

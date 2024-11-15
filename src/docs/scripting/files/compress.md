@@ -11,8 +11,10 @@ Compresses a file.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-files:Compress(path --[[ string ]], output --[[ string ]])
+--- @param path string
+--- @param output string
+--- @return boolean
+files:Compress(path, output)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

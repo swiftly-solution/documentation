@@ -11,8 +11,9 @@ This event is triggered after item_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostItemPickup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostItemPickup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

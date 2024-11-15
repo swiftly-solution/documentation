@@ -11,8 +11,9 @@ Returns the variable value of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns Any* any
-player:GetVar(key --[[ string ]])
+--- @param key string
+--- @return Any* any
+player:GetVar(key)
 ```
 
 :::

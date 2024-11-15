@@ -12,46 +12,46 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysForce(ptr --[[ string ]])
+CPhysForce(ptr)
 ```
 # Properties
 ## NameAttach 
 ```lua
-@type string
+--- @type string
 Read: cphysforce.NameAttach
 Write: cphysforce.NameAttach = value
 ```
 ## Force 
 ```lua
-@type number
+--- @type number
 Read: cphysforce.Force
 Write: cphysforce.Force = value
 ```
 ## ForceTime 
 ```lua
-@type number
+--- @type number
 Read: cphysforce.ForceTime
 Write: cphysforce.ForceTime = value
 ```
 ## AttachedObject (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysforce.AttachedObject
 ```
 ## WasRestored 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysforce.WasRestored
 Write: cphysforce.WasRestored = value
 ```
 ## Integrator (Read-Only)
 ```lua
-@type CConstantForceController
+--- @type CConstantForceController
 Read: cphysforce.Integrator
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cphysforce.Parent
 ```
 # Functions

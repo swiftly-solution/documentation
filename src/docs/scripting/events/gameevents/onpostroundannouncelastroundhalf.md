@@ -11,8 +11,9 @@ This event is triggered after round_announce_last_round_half is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundAnnounceLastRoundHalf", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundAnnounceLastRoundHalf", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,87 +12,87 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTimerEntity(ptr --[[ string ]])
+CTimerEntity(ptr)
 ```
 # Properties
 ## OnTimer (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctimerentity.OnTimer
 ```
 ## OnTimerHigh (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctimerentity.OnTimerHigh
 ```
 ## OnTimerLow (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctimerentity.OnTimerLow
 ```
 ## Disabled 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.Disabled
 Write: ctimerentity.Disabled = value
 ```
 ## InitialDelay 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.InitialDelay
 Write: ctimerentity.InitialDelay = value
 ```
 ## RefireTime 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.RefireTime
 Write: ctimerentity.RefireTime = value
 ```
 ## UpDownState 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimerentity.UpDownState
 Write: ctimerentity.UpDownState = value
 ```
 ## UseRandomTime 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.UseRandomTime
 Write: ctimerentity.UseRandomTime = value
 ```
 ## PauseAfterFiring 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimerentity.PauseAfterFiring
 Write: ctimerentity.PauseAfterFiring = value
 ```
 ## LowerRandomBound 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.LowerRandomBound
 Write: ctimerentity.LowerRandomBound = value
 ```
 ## UpperRandomBound 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.UpperRandomBound
 Write: ctimerentity.UpperRandomBound = value
 ```
 ## RemainingTime 
 ```lua
-@type number
+--- @type number
 Read: ctimerentity.RemainingTime
 Write: ctimerentity.RemainingTime = value
 ```
 ## Paused 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimerentity.Paused
 Write: ctimerentity.Paused = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: ctimerentity.Parent
 ```
 # Functions

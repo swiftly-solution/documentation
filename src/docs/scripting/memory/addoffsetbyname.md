@@ -11,8 +11,9 @@ Adds an offset to the pointer which is being hold by the name provided from `off
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:AddOffsetByName(offsetName --[[ string ]])
+--- @param offsetName string
+--- @return nil
+memory:AddOffsetByName(offsetName)
 ```
 
 :::

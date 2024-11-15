@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlashbangProjectile(ptr --[[ string ]])
+CFlashbangProjectile(ptr)
 ```
 # Properties
 ## TimeToDetonate 
 ```lua
-@type number
+--- @type number
 Read: cflashbangprojectile.TimeToDetonate
 Write: cflashbangprojectile.TimeToDetonate = value
 ```
 ## NumOpponentsHit 
 ```lua
-@type number
+--- @type number
 Read: cflashbangprojectile.NumOpponentsHit
 Write: cflashbangprojectile.NumOpponentsHit = value
 ```
 ## NumTeammatesHit 
 ```lua
-@type number
+--- @type number
 Read: cflashbangprojectile.NumTeammatesHit
 Write: cflashbangprojectile.NumTeammatesHit = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenadeProjectile
+--- @type CBaseCSGrenadeProjectile
 Read: cflashbangprojectile.Parent
 ```
 # Functions

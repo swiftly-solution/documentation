@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSolveIKTargetHandle_t(ptr --[[ string ]])
+CSolveIKTargetHandle_t(ptr)
 ```
 # Properties
 ## PositionHandle (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: csolveiktargethandle_t.PositionHandle
 ```
 ## OrientationHandle (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: csolveiktargethandle_t.OrientationHandle
 ```
 # Functions

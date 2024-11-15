@@ -12,50 +12,50 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointEntityFinder(ptr --[[ string ]])
+CPointEntityFinder(ptr)
 ```
 # Properties
 ## Entity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointentityfinder.Entity
 ```
 ## FilterName 
 ```lua
-@type string
+--- @type string
 Read: cpointentityfinder.FilterName
 Write: cpointentityfinder.FilterName = value
 ```
 ## Filter (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cpointentityfinder.Filter
 ```
 ## RefName 
 ```lua
-@type string
+--- @type string
 Read: cpointentityfinder.RefName
 Write: cpointentityfinder.RefName = value
 ```
 ## Reference (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointentityfinder.Reference
 ```
 ## FindMethod 
 ```lua
-@type number
+--- @type number
 Read: cpointentityfinder.FindMethod
 Write: cpointentityfinder.FindMethod = value
 ```
 ## OnFoundEntity (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cpointentityfinder.OnFoundEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointentityfinder.Parent
 ```
 # Functions

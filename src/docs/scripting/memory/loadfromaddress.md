@@ -11,8 +11,9 @@ Loads the memory from a provided address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:LoadFromAddress(address --[[ string ]])
+--- @param address string
+--- @return nil
+memory:LoadFromAddress(address)
 ```
 
 :::

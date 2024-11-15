@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvHudHint(ptr --[[ string ]])
+CEnvHudHint(ptr)
 ```
 # Properties
 ## Message 
 ```lua
-@type string
+--- @type string
 Read: cenvhudhint.Message
 Write: cenvhudhint.Message = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvhudhint.Parent
 ```
 # Functions

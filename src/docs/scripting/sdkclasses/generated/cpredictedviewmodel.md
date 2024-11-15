@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPredictedViewModel(ptr --[[ string ]])
+CPredictedViewModel(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseViewModel
+--- @type CBaseViewModel
 Read: cpredictedviewmodel.Parent
 ```
 # Functions

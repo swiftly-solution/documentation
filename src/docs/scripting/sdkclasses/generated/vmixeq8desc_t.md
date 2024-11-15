@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixEQ8Desc_t(ptr --[[ string ]])
+VMixEQ8Desc_t(ptr)
 ```
 # Properties
 ## Stages (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vmixeq8desc_t.Stages
 ```
 # Functions

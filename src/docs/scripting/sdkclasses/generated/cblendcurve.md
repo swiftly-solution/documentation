@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBlendCurve(ptr --[[ string ]])
+CBlendCurve(ptr)
 ```
 # Properties
 ## ControlPoint1 
 ```lua
-@type number
+--- @type number
 Read: cblendcurve.ControlPoint1
 Write: cblendcurve.ControlPoint1 = value
 ```
 ## ControlPoint2 
 ```lua
-@type number
+--- @type number
 Read: cblendcurve.ControlPoint2
 Write: cblendcurve.ControlPoint2 = value
 ```

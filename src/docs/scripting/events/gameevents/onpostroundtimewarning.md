@@ -11,8 +11,9 @@ This event is triggered after round_time_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundTimeWarning", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundTimeWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered after achievement_earned is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostAchievementEarned", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostAchievementEarned", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyGroupAnimTag(ptr --[[ string ]])
+CBodyGroupAnimTag(ptr)
 ```
 # Properties
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: cbodygroupanimtag.Priority
 Write: cbodygroupanimtag.Priority = value
 ```
 ## BodyGroupSettings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbodygroupanimtag.BodyGroupSettings
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cbodygroupanimtag.Parent
 ```
 # Functions

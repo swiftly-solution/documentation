@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVirtualAnimParameter(ptr --[[ string ]])
+CVirtualAnimParameter(ptr)
 ```
 # Properties
 ## ExpressionString 
 ```lua
-@type string
+--- @type string
 Read: cvirtualanimparameter.ExpressionString
 Write: cvirtualanimparameter.ExpressionString = value
 ```
 ## ParamType 
 ```lua
-@type number
+--- @type number
 Read: cvirtualanimparameter.ParamType
 Write: cvirtualanimparameter.ParamType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimParameterBase
+--- @type CAnimParameterBase
 Read: cvirtualanimparameter.Parent
 ```
 # Functions

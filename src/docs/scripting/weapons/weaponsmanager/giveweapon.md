@@ -11,8 +11,9 @@ Gives the specified weapon to player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-weaponmanager:GiveWeapon(weapon_name --[[ string ]])
+--- @param weapon_name string
+--- @return nil
+weaponmanager:GiveWeapon(weapon_name)
 ```
 
 :::

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAudioPhonemeTag(ptr --[[ string ]])
+CAudioPhonemeTag(ptr)
 ```
 # Properties
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: caudiophonemetag.StartTime
 Write: caudiophonemetag.StartTime = value
 ```
 ## EndTime 
 ```lua
-@type number
+--- @type number
 Read: caudiophonemetag.EndTime
 Write: caudiophonemetag.EndTime = value
 ```
 ## PhonemeCode 
 ```lua
-@type number
+--- @type number
 Read: caudiophonemetag.PhonemeCode
 Write: caudiophonemetag.PhonemeCode = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CKnife(ptr --[[ string ]])
+CKnife(ptr)
 ```
 # Properties
 ## FirstAttack 
 ```lua
-@type boolean
+--- @type boolean
 Read: cknife.FirstAttack
 Write: cknife.FirstAttack = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cknife.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundStackSave(ptr --[[ string ]])
+CSoundStackSave(ptr)
 ```
 # Properties
 ## StackName 
 ```lua
-@type string
+--- @type string
 Read: csoundstacksave.StackName
 Write: csoundstacksave.StackName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: csoundstacksave.Parent
 ```
 # Functions

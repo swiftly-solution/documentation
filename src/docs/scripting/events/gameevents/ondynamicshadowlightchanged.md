@@ -11,8 +11,9 @@ This event is triggered when dynamic_shadow_light_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDynamicShadowLightChanged", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDynamicShadowLightChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

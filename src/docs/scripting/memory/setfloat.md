@@ -11,8 +11,9 @@ Set the float value to the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:SetFloat(value --[[ number ]])
+--- @param value number
+--- @return nil
+memory:SetFloat(value)
 ```
 
 :::

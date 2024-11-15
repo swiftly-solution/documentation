@@ -11,8 +11,9 @@ Returns all the `CEntityInstance` for all the entities available with the specif
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-FindEntitiesByClassname(className --[[ string ]])
+--- @param className string
+--- @return table
+FindEntitiesByClassname(className)
 ```
 
 :::

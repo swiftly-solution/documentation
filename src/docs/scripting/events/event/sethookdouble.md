@@ -11,8 +11,10 @@ Set the double value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookDouble(index --[[ number ]], value --[[ number ]])
+--- @param index number
+--- @param value number
+--- @return nil
+event:SetHookDouble(index, value)
 ```
 
 :::

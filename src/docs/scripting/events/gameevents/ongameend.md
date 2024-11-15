@@ -11,8 +11,9 @@ This event is triggered when game_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGameEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGameEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ Sets the return value of a hook.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookReturn(value --[[ Any* any ]])
+--- @param value any
+--- @return nil
+event:SetHookReturn(value)
 ```
 
 :::

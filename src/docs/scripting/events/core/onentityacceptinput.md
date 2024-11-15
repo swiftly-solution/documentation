@@ -11,8 +11,16 @@ This game event is triggered when an entity receives an input.
 ::: tabs
 @tab Lua
 ```lua
-@event returns boolean
-AddEventHandler("OnEntityAcceptInput", function(event --[[ Event ]], entityptr --[[ string ]], inputname --[[ string ]], activatorptr --[[ string ]], callerptr --[[ string ]], value --[[ string ]], outputID --[[ number ]])
+--- @param event Event
+--- @param entityptr string
+--- @param inputname string
+--- @param activatorptr string
+--- @param callerptr string
+--- @param value string
+--- @param outputID number
+--- @return number EventResult
+--- @event returns boolean Via event:SetReturn
+AddEventHandler("OnEntityAcceptInput", function(event, entityptr, inputname, activatorptr, callerptr, value, outputID)
     --[[ ... ]]
     return EventResult.Continue
 end)

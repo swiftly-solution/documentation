@@ -12,108 +12,108 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvVolumetricFogVolume(ptr --[[ string ]])
+CEnvVolumetricFogVolume(ptr)
 ```
 # Properties
 ## Active 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.Active
 Write: cenvvolumetricfogvolume.Active = value
 ```
 ## BoxMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: cenvvolumetricfogvolume.BoxMins
 Write: cenvvolumetricfogvolume.BoxMins = value
 ```
 ## BoxMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: cenvvolumetricfogvolume.BoxMaxs
 Write: cenvvolumetricfogvolume.BoxMaxs = value
 ```
 ## StartDisabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.StartDisabled
 Write: cenvvolumetricfogvolume.StartDisabled = value
 ```
 ## Strength 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.Strength
 Write: cenvvolumetricfogvolume.Strength = value
 ```
 ## FalloffShape 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.FalloffShape
 Write: cenvvolumetricfogvolume.FalloffShape = value
 ```
 ## FalloffExponent 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.FalloffExponent
 Write: cenvvolumetricfogvolume.FalloffExponent = value
 ```
 ## HeightFogDepth 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.HeightFogDepth
 Write: cenvvolumetricfogvolume.HeightFogDepth = value
 ```
 ## HeightFogEdgeWidth 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.HeightFogEdgeWidth
 Write: cenvvolumetricfogvolume.HeightFogEdgeWidth = value
 ```
 ## IndirectLightStrength 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.IndirectLightStrength
 Write: cenvvolumetricfogvolume.IndirectLightStrength = value
 ```
 ## SunLightStrength 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.SunLightStrength
 Write: cenvvolumetricfogvolume.SunLightStrength = value
 ```
 ## NoiseStrength 
 ```lua
-@type number
+--- @type number
 Read: cenvvolumetricfogvolume.NoiseStrength
 Write: cenvvolumetricfogvolume.NoiseStrength = value
 ```
 ## OverrideIndirectLightStrength 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.OverrideIndirectLightStrength
 Write: cenvvolumetricfogvolume.OverrideIndirectLightStrength = value
 ```
 ## OverrideSunLightStrength 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.OverrideSunLightStrength
 Write: cenvvolumetricfogvolume.OverrideSunLightStrength = value
 ```
 ## OverrideNoiseStrength 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.OverrideNoiseStrength
 Write: cenvvolumetricfogvolume.OverrideNoiseStrength = value
 ```
 ## AllowLPVIndirect 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvvolumetricfogvolume.AllowLPVIndirect
 Write: cenvvolumetricfogvolume.AllowLPVIndirect = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvvolumetricfogvolume.Parent
 ```
 # Functions

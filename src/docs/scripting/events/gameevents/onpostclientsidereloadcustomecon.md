@@ -11,8 +11,9 @@ This event is triggered after clientside_reload_custom_econ is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostClientsideReloadCustomEcon", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostClientsideReloadCustomEcon", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

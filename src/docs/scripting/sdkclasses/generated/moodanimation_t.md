@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MoodAnimation_t(ptr --[[ string ]])
+MoodAnimation_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: moodanimation_t.Name
 Write: moodanimation_t.Name = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: moodanimation_t.Weight
 Write: moodanimation_t.Weight = value
 ```

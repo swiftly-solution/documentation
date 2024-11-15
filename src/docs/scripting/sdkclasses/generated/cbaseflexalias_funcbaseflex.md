@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseFlexAlias_funCBaseFlex(ptr --[[ string ]])
+CBaseFlexAlias_funCBaseFlex(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseFlex
+--- @type CBaseFlex
 Read: cbaseflexalias_funcbaseflex.Parent
 ```
 # Functions

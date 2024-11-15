@@ -11,7 +11,7 @@ Returns the player's CCSPlayerPawn.
 ::: tabs
 @tab Lua
 ```lua
-@returns CCSPlayerPawn
+--- @return CCSPlayerPawn
 player:CCSPlayerPawn()
 ```
 

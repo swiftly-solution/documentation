@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayerControllerComponent(ptr --[[ string ]])
+CPlayerControllerComponent(ptr)
 ```
 # Properties
 ## __pChainEntity (Read-Only)
 ```lua
-@type CNetworkVarChainer
+--- @type CNetworkVarChainer
 Read: cplayercontrollercomponent.__pChainEntity
 ```
 # Functions

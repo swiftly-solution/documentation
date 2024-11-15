@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerSoundscape(ptr --[[ string ]])
+CTriggerSoundscape(ptr)
 ```
 # Properties
 ## Soundscape (Read-Only)
 ```lua
-@type CEnvSoundscapeTriggerable
+--- @type CEnvSoundscapeTriggerable
 Read: ctriggersoundscape.Soundscape
 ```
 ## SoundscapeName 
 ```lua
-@type string
+--- @type string
 Read: ctriggersoundscape.SoundscapeName
 Write: ctriggersoundscape.SoundscapeName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggersoundscape.Parent
 ```
 # Functions

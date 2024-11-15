@@ -11,7 +11,7 @@ Returns the current UNIX time in milliseconds.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 GetTime()
 ```
 

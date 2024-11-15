@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimKeyData(ptr --[[ string ]])
+CAnimKeyData(ptr)
 ```
 # Properties
 ## BoneArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimkeydata.BoneArray
 ```
 ## UserArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimkeydata.UserArray
 ```
 ## ChannelElements 
 ```lua
-@type number
+--- @type number
 Read: canimkeydata.ChannelElements
 Write: canimkeydata.ChannelElements = value
 ```
 ## DataChannelArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimkeydata.DataChannelArray
 ```
 # Functions

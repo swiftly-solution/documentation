@@ -12,33 +12,33 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicBranchList(ptr --[[ string ]])
+CLogicBranchList(ptr)
 ```
 # Properties
 ## LogicBranchNames 
 ```lua
-@type table
+--- @type table
 Read: clogicbranchlist.LogicBranchNames
 Write: clogicbranchlist.LogicBranchNames = value
 ```
 ## OnAllTrue (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicbranchlist.OnAllTrue
 ```
 ## OnAllFalse (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicbranchlist.OnAllFalse
 ```
 ## OnMixed (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicbranchlist.OnMixed
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicbranchlist.Parent
 ```
 # Functions

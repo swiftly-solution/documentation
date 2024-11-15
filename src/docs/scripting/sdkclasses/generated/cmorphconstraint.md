@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMorphConstraint(ptr --[[ string ]])
+CMorphConstraint(ptr)
 ```
 # Properties
 ## TargetMorph 
 ```lua
-@type string
+--- @type string
 Read: cmorphconstraint.TargetMorph
 Write: cmorphconstraint.TargetMorph = value
 ```
 ## SlaveChannel 
 ```lua
-@type number
+--- @type number
 Read: cmorphconstraint.SlaveChannel
 Write: cmorphconstraint.SlaveChannel = value
 ```
 ## Min 
 ```lua
-@type number
+--- @type number
 Read: cmorphconstraint.Min
 Write: cmorphconstraint.Min = value
 ```
 ## Max 
 ```lua
-@type number
+--- @type number
 Read: cmorphconstraint.Max
 Write: cmorphconstraint.Max = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: cmorphconstraint.Parent
 ```
 # Functions

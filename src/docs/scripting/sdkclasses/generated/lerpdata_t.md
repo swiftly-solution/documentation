@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-lerpdata_t(ptr --[[ string ]])
+lerpdata_t(ptr)
 ```
 # Properties
 ## Ent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: lerpdata_t.Ent
 ```
 ## MoveType 
 ```lua
-@type number
+--- @type number
 Read: lerpdata_t.MoveType
 Write: lerpdata_t.MoveType = value
 ```
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: lerpdata_t.StartTime
 Write: lerpdata_t.StartTime = value
 ```
 ## StartOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: lerpdata_t.StartOrigin
 Write: lerpdata_t.StartOrigin = value
 ```
 ## FXIndex (Read-Only)
 ```lua
-@type ParticleIndex_t
+--- @type ParticleIndex_t
 Read: lerpdata_t.FXIndex
 ```
 # Functions

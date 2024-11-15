@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysThruster(ptr --[[ string ]])
+CPhysThruster(ptr)
 ```
 # Properties
 ## LocalOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysthruster.LocalOrigin
 Write: cphysthruster.LocalOrigin = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysForce
+--- @type CPhysForce
 Read: cphysthruster.Parent
 ```
 # Functions

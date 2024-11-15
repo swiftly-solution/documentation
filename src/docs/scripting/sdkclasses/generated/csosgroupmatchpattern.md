@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupMatchPattern(ptr --[[ string ]])
+CSosGroupMatchPattern(ptr)
 ```
 # Properties
 ## MatchSoundEventName 
 ```lua
-@type string
+--- @type string
 Read: csosgroupmatchpattern.MatchSoundEventName
 Write: csosgroupmatchpattern.MatchSoundEventName = value
 ```
 ## MatchSoundEventSubString 
 ```lua
-@type string
+--- @type string
 Read: csosgroupmatchpattern.MatchSoundEventSubString
 Write: csosgroupmatchpattern.MatchSoundEventSubString = value
 ```
 ## EntIndex 
 ```lua
-@type number
+--- @type number
 Read: csosgroupmatchpattern.EntIndex
 Write: csosgroupmatchpattern.EntIndex = value
 ```
 ## Opvar 
 ```lua
-@type number
+--- @type number
 Read: csosgroupmatchpattern.Opvar
 Write: csosgroupmatchpattern.Opvar = value
 ```
 ## OpvarString 
 ```lua
-@type string
+--- @type string
 Read: csosgroupmatchpattern.OpvarString
 Write: csosgroupmatchpattern.OpvarString = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupBranchPattern
+--- @type CSosGroupBranchPattern
 Read: csosgroupmatchpattern.Parent
 ```
 # Functions

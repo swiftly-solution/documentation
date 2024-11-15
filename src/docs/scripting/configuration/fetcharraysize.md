@@ -11,8 +11,9 @@ Returns the array size of a config value.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-config:FetchArraySize(key --[[ string ]])
+--- @param key string
+--- @return number
+config:FetchArraySize(key)
 ```
 > [!info]
 > If the key is invalid or the key is not an array key, it returns 0.

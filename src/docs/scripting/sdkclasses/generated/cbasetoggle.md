@@ -12,107 +12,107 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseToggle(ptr --[[ string ]])
+CBaseToggle(ptr)
 ```
 # Properties
 ## Toggle_state 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.Toggle_state
 Write: cbasetoggle.Toggle_state = value
 ```
 ## MoveDistance 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.MoveDistance
 Write: cbasetoggle.MoveDistance = value
 ```
 ## Wait 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.Wait
 Write: cbasetoggle.Wait = value
 ```
 ## Lip 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.Lip
 Write: cbasetoggle.Lip = value
 ```
 ## AlwaysFireBlockedOutputs 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasetoggle.AlwaysFireBlockedOutputs
 Write: cbasetoggle.AlwaysFireBlockedOutputs = value
 ```
 ## Position1 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbasetoggle.Position1
 Write: cbasetoggle.Position1 = value
 ```
 ## Position2 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbasetoggle.Position2
 Write: cbasetoggle.Position2 = value
 ```
 ## MoveAng 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cbasetoggle.MoveAng
 Write: cbasetoggle.MoveAng = value
 ```
 ## Angle1 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cbasetoggle.Angle1
 Write: cbasetoggle.Angle1 = value
 ```
 ## Angle2 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cbasetoggle.Angle2
 Write: cbasetoggle.Angle2 = value
 ```
 ## Height 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.Height
 Write: cbasetoggle.Height = value
 ```
 ## Activator (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbasetoggle.Activator
 ```
 ## FinalDest 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbasetoggle.FinalDest
 Write: cbasetoggle.FinalDest = value
 ```
 ## FinalAngle 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cbasetoggle.FinalAngle
 Write: cbasetoggle.FinalAngle = value
 ```
 ## MovementType 
 ```lua
-@type number
+--- @type number
 Read: cbasetoggle.MovementType
 Write: cbasetoggle.MovementType = value
 ```
 ## Master 
 ```lua
-@type string
+--- @type string
 Read: cbasetoggle.Master
 Write: cbasetoggle.Master = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cbasetoggle.Parent
 ```
 # Functions

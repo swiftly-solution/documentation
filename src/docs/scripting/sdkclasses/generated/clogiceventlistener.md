@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicEventListener(ptr --[[ string ]])
+CLogicEventListener(ptr)
 ```
 # Properties
 ## StrEventName 
 ```lua
-@type string
+--- @type string
 Read: clogiceventlistener.StrEventName
 Write: clogiceventlistener.StrEventName = value
 ```
 ## IsEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogiceventlistener.IsEnabled
 Write: clogiceventlistener.IsEnabled = value
 ```
 ## Team 
 ```lua
-@type number
+--- @type number
 Read: clogiceventlistener.Team
 Write: clogiceventlistener.Team = value
 ```
 ## OnEventFired (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogiceventlistener.OnEventFired
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogiceventlistener.Parent
 ```
 # Functions

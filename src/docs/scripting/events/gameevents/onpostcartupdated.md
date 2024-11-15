@@ -11,8 +11,9 @@ This event is triggered after cart_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCartUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCartUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,18 +12,18 @@ A vector is an object which stores coordinates.
 @tab Lua
 # Constructor
 ```lua
-Vector2D(x --[[ number ]], y --[[ number ]])
+Vector2D(x, y)
 ```
 # Properties
 ## x 
 ```lua
-@type number
+--- @type number
 Read: vector2d.x
 Write: vector2d.x = value
 ```
 ## y 
 ```lua
-@type number
+--- @type number
 Read: vector2d.y
 Write: vector2d.y = value
 ```

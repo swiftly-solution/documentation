@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqSynthAnimDesc(ptr --[[ string ]])
+CSeqSynthAnimDesc(ptr)
 ```
 # Properties
 ## Flags (Read-Only)
 ```lua
-@type CSeqSeqDescFlag
+--- @type CSeqSeqDescFlag
 Read: cseqsynthanimdesc.Flags
 ```
 ## Transition (Read-Only)
 ```lua
-@type CSeqTransition
+--- @type CSeqTransition
 Read: cseqsynthanimdesc.Transition
 ```
 ## LocalBaseReference 
 ```lua
-@type number
+--- @type number
 Read: cseqsynthanimdesc.LocalBaseReference
 Write: cseqsynthanimdesc.LocalBaseReference = value
 ```
 ## LocalBoneMask 
 ```lua
-@type number
+--- @type number
 Read: cseqsynthanimdesc.LocalBoneMask
 Write: cseqsynthanimdesc.LocalBoneMask = value
 ```
 ## ActivityArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqsynthanimdesc.ActivityArray
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootstepControl(ptr --[[ string ]])
+CFootstepControl(ptr)
 ```
 # Properties
 ## Source 
 ```lua
-@type string
+--- @type string
 Read: cfootstepcontrol.Source
 Write: cfootstepcontrol.Source = value
 ```
 ## Destination 
 ```lua
-@type string
+--- @type string
 Read: cfootstepcontrol.Destination
 Write: cfootstepcontrol.Destination = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cfootstepcontrol.Parent
 ```
 # Functions

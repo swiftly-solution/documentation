@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityInstance(ptr --[[ string ]])
+CEntityInstance(ptr)
 ```
 # Properties
 ## PrivateVScripts 
 ```lua
-@type string
+--- @type string
 Read: centityinstance.PrivateVScripts
 Write: centityinstance.PrivateVScripts = value
 ```
 ## Entity (Read-Only)
 ```lua
-@type CEntityIdentity
+--- @type CEntityIdentity
 Read: centityinstance.Entity
 ```
 ## CScriptComponent (Read-Only)
 ```lua
-@type CScriptComponent
+--- @type CScriptComponent
 Read: centityinstance.CScriptComponent
 ```
 ## VisibleinPVS 
 ```lua
-@type boolean
+--- @type boolean
 Read: centityinstance.VisibleinPVS
 Write: centityinstance.VisibleinPVS = value
 ```

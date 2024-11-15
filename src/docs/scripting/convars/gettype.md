@@ -11,8 +11,9 @@ Returns the convar type.
 ::: tabs
 @tab Lua
 ```lua
-@returns EConVarType
-convar:GetType(name --[[ string ]])
+--- @param name string
+--- @return number EConVarType
+convar:GetType(name)
 ```
 
 :::

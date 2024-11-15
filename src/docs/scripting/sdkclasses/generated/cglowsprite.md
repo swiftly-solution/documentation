@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGlowSprite(ptr --[[ string ]])
+CGlowSprite(ptr)
 ```
 # Properties
 ## Color 
 ```lua
-@type Vector
+--- @type Vector
 Read: cglowsprite.Color
 Write: cglowsprite.Color = value
 ```
 ## HorzSize 
 ```lua
-@type number
+--- @type number
 Read: cglowsprite.HorzSize
 Write: cglowsprite.HorzSize = value
 ```
 ## VertSize 
 ```lua
-@type number
+--- @type number
 Read: cglowsprite.VertSize
 Write: cglowsprite.VertSize = value
 ```

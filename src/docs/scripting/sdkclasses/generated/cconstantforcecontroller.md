@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CConstantForceController(ptr --[[ string ]])
+CConstantForceController(ptr)
 ```
 # Properties
 ## Linear 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstantforcecontroller.Linear
 Write: cconstantforcecontroller.Linear = value
 ```
 ## Angular 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstantforcecontroller.Angular
 Write: cconstantforcecontroller.Angular = value
 ```
 ## LinearSave 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstantforcecontroller.LinearSave
 Write: cconstantforcecontroller.LinearSave = value
 ```
 ## AngularSave 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstantforcecontroller.AngularSave
 Write: cconstantforcecontroller.AngularSave = value
 ```

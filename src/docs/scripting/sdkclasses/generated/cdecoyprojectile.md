@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDecoyProjectile(ptr --[[ string ]])
+CDecoyProjectile(ptr)
 ```
 # Properties
 ## DecoyShotTick 
 ```lua
-@type number
+--- @type number
 Read: cdecoyprojectile.DecoyShotTick
 Write: cdecoyprojectile.DecoyShotTick = value
 ```
 ## ShotsRemaining 
 ```lua
-@type number
+--- @type number
 Read: cdecoyprojectile.ShotsRemaining
 Write: cdecoyprojectile.ShotsRemaining = value
 ```
 ## ExpireTime 
 ```lua
-@type number
+--- @type number
 Read: cdecoyprojectile.ExpireTime
 Write: cdecoyprojectile.ExpireTime = value
 ```
 ## DecoyWeaponDefIndex 
 ```lua
-@type number
+--- @type number
 Read: cdecoyprojectile.DecoyWeaponDefIndex
 Write: cdecoyprojectile.DecoyWeaponDefIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenadeProjectile
+--- @type CBaseCSGrenadeProjectile
 Read: cdecoyprojectile.Parent
 ```
 # Functions

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CProductQuantizer(ptr --[[ string ]])
+CProductQuantizer(ptr)
 ```
 # Properties
 ## SubQuantizers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cproductquantizer.SubQuantizers
 ```
 ## Dimensions 
 ```lua
-@type number
+--- @type number
 Read: cproductquantizer.Dimensions
 Write: cproductquantizer.Dimensions = value
 ```

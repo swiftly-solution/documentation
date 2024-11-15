@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqPoseParamDesc(ptr --[[ string ]])
+CSeqPoseParamDesc(ptr)
 ```
 # Properties
 ## Start 
 ```lua
-@type number
+--- @type number
 Read: cseqposeparamdesc.Start
 Write: cseqposeparamdesc.Start = value
 ```
 ## End 
 ```lua
-@type number
+--- @type number
 Read: cseqposeparamdesc.End
 Write: cseqposeparamdesc.End = value
 ```
 ## Loop 
 ```lua
-@type number
+--- @type number
 Read: cseqposeparamdesc.Loop
 Write: cseqposeparamdesc.Loop = value
 ```
 ## Looping 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqposeparamdesc.Looping
 Write: cseqposeparamdesc.Looping = value
 ```

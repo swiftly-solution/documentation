@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTargetWarpUpdateNode(ptr --[[ string ]])
+CTargetWarpUpdateNode(ptr)
 ```
 # Properties
 ## PositionParameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ctargetwarpupdatenode.PositionParameter
 ```
 ## FacePositionParameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ctargetwarpupdatenode.FacePositionParameter
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: ctargetwarpupdatenode.Parent
 ```
 # Functions

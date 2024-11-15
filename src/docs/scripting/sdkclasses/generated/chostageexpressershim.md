@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHostageExpresserShim(ptr --[[ string ]])
+CHostageExpresserShim(ptr)
 ```
 # Properties
 ## Expresser (Read-Only)
 ```lua
-@type CAI_Expresser
+--- @type CAI_Expresser
 Read: chostageexpressershim.Expresser
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseCombatCharacter
+--- @type CBaseCombatCharacter
 Read: chostageexpressershim.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionTimeBlockLimitSchema(ptr --[[ string ]])
+CSosGroupActionTimeBlockLimitSchema(ptr)
 ```
 # Properties
 ## MaxCount 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactiontimeblocklimitschema.MaxCount
 Write: csosgroupactiontimeblocklimitschema.MaxCount = value
 ```
 ## MaxDuration 
 ```lua
-@type number
+--- @type number
 Read: csosgroupactiontimeblocklimitschema.MaxDuration
 Write: csosgroupactiontimeblocklimitschema.MaxDuration = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupActionSchema
+--- @type CSosGroupActionSchema
 Read: csosgroupactiontimeblocklimitschema.Parent
 ```
 # Functions

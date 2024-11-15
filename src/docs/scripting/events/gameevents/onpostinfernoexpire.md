@@ -11,8 +11,9 @@ This event is triggered after inferno_expire is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostInfernoExpire", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostInfernoExpire", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

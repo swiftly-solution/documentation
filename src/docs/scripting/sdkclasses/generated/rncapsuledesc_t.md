@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnCapsuleDesc_t(ptr --[[ string ]])
+RnCapsuleDesc_t(ptr)
 ```
 # Properties
 ## Capsule (Read-Only)
 ```lua
-@type RnCapsule_t
+--- @type RnCapsule_t
 Read: rncapsuledesc_t.Capsule
 ```
 ## Parent (Read-Only)
 ```lua
-@type RnShapeDesc_t
+--- @type RnShapeDesc_t
 Read: rncapsuledesc_t.Parent
 ```
 # Functions

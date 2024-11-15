@@ -11,8 +11,9 @@ This event is triggered after nav_generate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostNavGenerate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostNavGenerate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

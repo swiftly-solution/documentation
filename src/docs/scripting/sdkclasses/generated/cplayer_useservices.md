@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayer_UseServices(ptr --[[ string ]])
+CPlayer_UseServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: cplayer_useservices.Parent
 ```
 # Functions

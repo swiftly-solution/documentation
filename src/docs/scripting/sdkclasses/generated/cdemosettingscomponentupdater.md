@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDemoSettingsComponentUpdater(ptr --[[ string ]])
+CDemoSettingsComponentUpdater(ptr)
 ```
 # Properties
 ## Settings (Read-Only)
 ```lua
-@type CAnimDemoCaptureSettings
+--- @type CAnimDemoCaptureSettings
 Read: cdemosettingscomponentupdater.Settings
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: cdemosettingscomponentupdater.Parent
 ```
 # Functions

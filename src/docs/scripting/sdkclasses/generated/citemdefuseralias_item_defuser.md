@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemDefuserAlias_item_defuser(ptr --[[ string ]])
+CItemDefuserAlias_item_defuser(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CItemDefuser
+--- @type CItemDefuser
 Read: citemdefuseralias_item_defuser.Parent
 ```
 # Functions

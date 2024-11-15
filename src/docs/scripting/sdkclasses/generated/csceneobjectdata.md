@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSceneObjectData(ptr --[[ string ]])
+CSceneObjectData(ptr)
 ```
 # Properties
 ## MinBounds 
 ```lua
-@type Vector
+--- @type Vector
 Read: csceneobjectdata.MinBounds
 Write: csceneobjectdata.MinBounds = value
 ```
 ## MaxBounds 
 ```lua
-@type Vector
+--- @type Vector
 Read: csceneobjectdata.MaxBounds
 Write: csceneobjectdata.MaxBounds = value
 ```
 ## TintColor 
 ```lua
-@type Vector4D
+--- @type Vector4D
 Read: csceneobjectdata.TintColor
 Write: csceneobjectdata.TintColor = value
 ```

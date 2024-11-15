@@ -11,8 +11,9 @@ This event is triggered after exit_buyzone is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostExitBuyzone", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostExitBuyzone", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

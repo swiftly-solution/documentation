@@ -11,7 +11,7 @@ Returns the return value of a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns any
+--- @return any
 event:GetReturn()
 ```
 

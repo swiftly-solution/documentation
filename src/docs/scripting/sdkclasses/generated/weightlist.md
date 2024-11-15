@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WeightList(ptr --[[ string ]])
+WeightList(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: weightlist.Name
 Write: weightlist.Name = value
 ```
 ## Weights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: weightlist.Weights
 ```
 # Functions

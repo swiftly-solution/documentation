@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysLength(ptr --[[ string ]])
+CPhysLength(ptr)
 ```
 # Properties
 ## Offset 
 ```lua
-@type table
+--- @type table
 Read: cphyslength.Offset
 Write: cphyslength.Offset = value
 ```
 ## Attach 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphyslength.Attach
 Write: cphyslength.Attach = value
 ```
 ## AddLength 
 ```lua
-@type number
+--- @type number
 Read: cphyslength.AddLength
 Write: cphyslength.AddLength = value
 ```
 ## MinLength 
 ```lua
-@type number
+--- @type number
 Read: cphyslength.MinLength
 Write: cphyslength.MinLength = value
 ```
 ## TotalLength 
 ```lua
-@type number
+--- @type number
 Read: cphyslength.TotalLength
 Write: cphyslength.TotalLength = value
 ```
 ## EnableCollision 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyslength.EnableCollision
 Write: cphyslength.EnableCollision = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphyslength.Parent
 ```
 # Functions

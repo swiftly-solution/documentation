@@ -11,8 +11,10 @@ This game event is triggered when the plugin stops.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPluginStop", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnPluginStop", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

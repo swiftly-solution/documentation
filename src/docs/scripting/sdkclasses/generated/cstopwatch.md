@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStopwatch(ptr --[[ string ]])
+CStopwatch(ptr)
 ```
 # Properties
 ## Interval 
 ```lua
-@type number
+--- @type number
 Read: cstopwatch.Interval
 Write: cstopwatch.Interval = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CStopwatchBase
+--- @type CStopwatchBase
 Read: cstopwatch.Parent
 ```
 # Functions

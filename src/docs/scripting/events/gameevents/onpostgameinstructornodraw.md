@@ -11,8 +11,9 @@ This event is triggered after gameinstructor_nodraw is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostGameinstructorNodraw", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostGameinstructorNodraw", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

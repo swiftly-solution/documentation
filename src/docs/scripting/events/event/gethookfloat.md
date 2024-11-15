@@ -11,8 +11,9 @@ Returns the float value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-event:GetHookFloat(index --[[ number ]])
+--- @param index number
+--- @return number
+event:GetHookFloat(index)
 ```
 
 :::

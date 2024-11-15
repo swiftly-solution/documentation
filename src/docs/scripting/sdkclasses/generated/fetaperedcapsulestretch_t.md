@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeTaperedCapsuleStretch_t(ptr --[[ string ]])
+FeTaperedCapsuleStretch_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: fetaperedcapsulestretch_t.Node
 Write: fetaperedcapsulestretch_t.Node = value
 ```
 ## CollisionMask 
 ```lua
-@type number
+--- @type number
 Read: fetaperedcapsulestretch_t.CollisionMask
 Write: fetaperedcapsulestretch_t.CollisionMask = value
 ```
 ## Dummy 
 ```lua
-@type number
+--- @type number
 Read: fetaperedcapsulestretch_t.Dummy
 Write: fetaperedcapsulestretch_t.Dummy = value
 ```
 ## Radius 
 ```lua
-@type table
+--- @type table
 Read: fetaperedcapsulestretch_t.Radius
 Write: fetaperedcapsulestretch_t.Radius = value
 ```

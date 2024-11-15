@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixPannerDesc_t(ptr --[[ string ]])
+VMixPannerDesc_t(ptr)
 ```
 # Properties
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: vmixpannerdesc_t.Type
 Write: vmixpannerdesc_t.Type = value
 ```
 ## Strength 
 ```lua
-@type number
+--- @type number
 Read: vmixpannerdesc_t.Strength
 Write: vmixpannerdesc_t.Strength = value
 ```

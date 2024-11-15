@@ -12,57 +12,57 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGO_TeamPreviewCharacterPosition(ptr --[[ string ]])
+CCSGO_TeamPreviewCharacterPosition(ptr)
 ```
 # Properties
 ## Variant 
 ```lua
-@type number
+--- @type number
 Read: ccsgo_teampreviewcharacterposition.Variant
 Write: ccsgo_teampreviewcharacterposition.Variant = value
 ```
 ## Random 
 ```lua
-@type number
+--- @type number
 Read: ccsgo_teampreviewcharacterposition.Random
 Write: ccsgo_teampreviewcharacterposition.Random = value
 ```
 ## Ordinal 
 ```lua
-@type number
+--- @type number
 Read: ccsgo_teampreviewcharacterposition.Ordinal
 Write: ccsgo_teampreviewcharacterposition.Ordinal = value
 ```
 ## WeaponName 
 ```lua
-@type string
+--- @type string
 Read: ccsgo_teampreviewcharacterposition.WeaponName
 Write: ccsgo_teampreviewcharacterposition.WeaponName = value
 ```
 ## Xuid 
 ```lua
-@type number
+--- @type number
 Read: ccsgo_teampreviewcharacterposition.Xuid
 Write: ccsgo_teampreviewcharacterposition.Xuid = value
 ```
 ## AgentItem (Read-Only)
 ```lua
-@type CEconItemView
+--- @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.AgentItem
 ```
 ## GlovesItem (Read-Only)
 ```lua
-@type CEconItemView
+--- @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.GlovesItem
 ```
 ## WeaponItem (Read-Only)
 ```lua
-@type CEconItemView
+--- @type CEconItemView
 Read: ccsgo_teampreviewcharacterposition.WeaponItem
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsgo_teampreviewcharacterposition.Parent
 ```
 # Functions

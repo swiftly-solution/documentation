@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimCycle(ptr --[[ string ]])
+CAnimCycle(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCycleBase
+--- @type CCycleBase
 Read: canimcycle.Parent
 ```
 # Functions

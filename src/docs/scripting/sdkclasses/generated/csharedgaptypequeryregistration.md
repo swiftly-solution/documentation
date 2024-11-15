@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSharedGapTypeQueryRegistration(ptr --[[ string ]])
+CSharedGapTypeQueryRegistration(ptr)
 ```
 # Properties
 There are no properties available for this class.

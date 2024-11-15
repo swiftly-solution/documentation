@@ -11,8 +11,9 @@ This event is triggered after weapon_fire_on_empty is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostWeaponFireOnEmpty", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostWeaponFireOnEmpty", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

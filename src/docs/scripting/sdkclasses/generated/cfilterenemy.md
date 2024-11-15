@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFilterEnemy(ptr --[[ string ]])
+CFilterEnemy(ptr)
 ```
 # Properties
 ## EnemyName 
 ```lua
-@type string
+--- @type string
 Read: cfilterenemy.EnemyName
 Write: cfilterenemy.EnemyName = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cfilterenemy.Radius
 Write: cfilterenemy.Radius = value
 ```
 ## OuterRadius 
 ```lua
-@type number
+--- @type number
 Read: cfilterenemy.OuterRadius
 Write: cfilterenemy.OuterRadius = value
 ```
 ## MaxSquadmatesPerEnemy 
 ```lua
-@type number
+--- @type number
 Read: cfilterenemy.MaxSquadmatesPerEnemy
 Write: cfilterenemy.MaxSquadmatesPerEnemy = value
 ```
 ## PlayerName 
 ```lua
-@type string
+--- @type string
 Read: cfilterenemy.PlayerName
 Write: cfilterenemy.PlayerName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cfilterenemy.Parent
 ```
 # Functions

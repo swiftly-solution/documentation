@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleCollectionRendererVecInput(ptr --[[ string ]])
+CParticleCollectionRendererVecInput(ptr)
 ```
 # Properties
 There are no properties available for this class.

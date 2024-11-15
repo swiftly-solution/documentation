@@ -11,8 +11,9 @@ This event is triggered after drone_cargo_detached is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDroneCargoDetached", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDroneCargoDetached", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

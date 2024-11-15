@@ -11,8 +11,9 @@ This event is triggered after vote_passed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostVotePassed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostVotePassed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

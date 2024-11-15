@@ -11,8 +11,10 @@ Checks if a convar has the flags.
 ::: tabs
 @tab Lua
 ```lua
-@returns bool
-convar:HasFlags(name --[[ string ]], flags --[[ number ]])
+--- @param name string
+--- @param flags number
+--- @return bool
+convar:HasFlags(name, flags)
 ```
 
 :::

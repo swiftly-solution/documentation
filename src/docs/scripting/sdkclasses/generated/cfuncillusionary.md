@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncIllusionary(ptr --[[ string ]])
+CFuncIllusionary(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncillusionary.Parent
 ```
 # Functions

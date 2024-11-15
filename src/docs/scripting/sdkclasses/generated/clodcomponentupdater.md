@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLODComponentUpdater(ptr --[[ string ]])
+CLODComponentUpdater(ptr)
 ```
 # Properties
 ## ServerLOD 
 ```lua
-@type number
+--- @type number
 Read: clodcomponentupdater.ServerLOD
 Write: clodcomponentupdater.ServerLOD = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: clodcomponentupdater.Parent
 ```
 # Functions

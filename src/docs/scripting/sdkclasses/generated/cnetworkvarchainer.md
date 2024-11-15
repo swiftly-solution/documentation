@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNetworkVarChainer(ptr --[[ string ]])
+CNetworkVarChainer(ptr)
 ```
 # Properties
 ## PathIndex (Read-Only)
 ```lua
-@type ChangeAccessorFieldPathIndex_t
+--- @type ChangeAccessorFieldPathIndex_t
 Read: cnetworkvarchainer.PathIndex
 ```
 # Functions

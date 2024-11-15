@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGO_TeamSelectCounterTerroristPosition(ptr --[[ string ]])
+CCSGO_TeamSelectCounterTerroristPosition(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSGO_TeamSelectCharacterPosition
+--- @type CCSGO_TeamSelectCharacterPosition
 Read: ccsgo_teamselectcounterterroristposition.Parent
 ```
 # Functions

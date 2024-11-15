@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerShapedNoise(ptr --[[ string ]])
+CVoiceContainerShapedNoise(ptr)
 ```
 # Properties
 ## UseCurveForFrequency 
 ```lua
-@type boolean
+--- @type boolean
 Read: cvoicecontainershapednoise.UseCurveForFrequency
 Write: cvoicecontainershapednoise.UseCurveForFrequency = value
 ```
 ## Frequency 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainershapednoise.Frequency
 Write: cvoicecontainershapednoise.Frequency = value
 ```
 ## UseCurveForResonance 
 ```lua
-@type boolean
+--- @type boolean
 Read: cvoicecontainershapednoise.UseCurveForResonance
 Write: cvoicecontainershapednoise.UseCurveForResonance = value
 ```
 ## Resonance 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainershapednoise.Resonance
 Write: cvoicecontainershapednoise.Resonance = value
 ```
 ## UseCurveForAmplitude 
 ```lua
-@type boolean
+--- @type boolean
 Read: cvoicecontainershapednoise.UseCurveForAmplitude
 Write: cvoicecontainershapednoise.UseCurveForAmplitude = value
 ```
 ## GainInDecibels 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainershapednoise.GainInDecibels
 Write: cvoicecontainershapednoise.GainInDecibels = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainershapednoise.Parent
 ```
 # Functions

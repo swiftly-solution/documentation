@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_DamageReactServices(ptr --[[ string ]])
+CCSPlayer_DamageReactServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_damagereactservices.Parent
 ```
 # Functions

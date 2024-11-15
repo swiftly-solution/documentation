@@ -11,8 +11,9 @@ Returns the string value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-event:GetHookString(index --[[ number ]])
+--- @param index number
+--- @return string
+event:GetHookString(index)
 ```
 
 :::

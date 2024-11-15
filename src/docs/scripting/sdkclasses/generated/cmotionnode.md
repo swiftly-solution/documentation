@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionNode(ptr --[[ string ]])
+CMotionNode(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cmotionnode.Name
 Write: cmotionnode.Name = value
 ```
 ## Id (Read-Only)
 ```lua
-@type AnimNodeID
+--- @type AnimNodeID
 Read: cmotionnode.Id
 ```
 # Functions

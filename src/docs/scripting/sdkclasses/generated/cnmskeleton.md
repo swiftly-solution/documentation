@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmSkeleton(ptr --[[ string ]])
+CNmSkeleton(ptr)
 ```
 # Properties
 ## ParentIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmskeleton.ParentIndices
 ```
 ## NumBonesToSampleAtLowLOD 
 ```lua
-@type number
+--- @type number
 Read: cnmskeleton.NumBonesToSampleAtLowLOD
 Write: cnmskeleton.NumBonesToSampleAtLowLOD = value
 ```

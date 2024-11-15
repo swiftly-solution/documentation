@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoGameEventProxy(ptr --[[ string ]])
+CInfoGameEventProxy(ptr)
 ```
 # Properties
 ## EventName 
 ```lua
-@type string
+--- @type string
 Read: cinfogameeventproxy.EventName
 Write: cinfogameeventproxy.EventName = value
 ```
 ## Range 
 ```lua
-@type number
+--- @type number
 Read: cinfogameeventproxy.Range
 Write: cinfogameeventproxy.Range = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfogameeventproxy.Parent
 ```
 # Functions

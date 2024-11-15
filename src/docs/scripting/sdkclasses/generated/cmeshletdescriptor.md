@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMeshletDescriptor(ptr --[[ string ]])
+CMeshletDescriptor(ptr)
 ```
 # Properties
 ## CullingData (Read-Only)
 ```lua
-@type CDrawCullingData
+--- @type CDrawCullingData
 Read: cmeshletdescriptor.CullingData
 ```
 # Functions

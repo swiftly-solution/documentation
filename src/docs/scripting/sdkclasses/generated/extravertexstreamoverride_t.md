@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ExtraVertexStreamOverride_t(ptr --[[ string ]])
+ExtraVertexStreamOverride_t(ptr)
 ```
 # Properties
 ## SubSceneObject 
 ```lua
-@type number
+--- @type number
 Read: extravertexstreamoverride_t.SubSceneObject
 Write: extravertexstreamoverride_t.SubSceneObject = value
 ```
 ## DrawCallIndex 
 ```lua
-@type number
+--- @type number
 Read: extravertexstreamoverride_t.DrawCallIndex
 Write: extravertexstreamoverride_t.DrawCallIndex = value
 ```
 ## AdditionalMeshDrawPrimitiveFlags 
 ```lua
-@type number
+--- @type number
 Read: extravertexstreamoverride_t.AdditionalMeshDrawPrimitiveFlags
 Write: extravertexstreamoverride_t.AdditionalMeshDrawPrimitiveFlags = value
 ```
 ## ExtraBufferBinding (Read-Only)
 ```lua
-@type CRenderBufferBinding
+--- @type CRenderBufferBinding
 Read: extravertexstreamoverride_t.ExtraBufferBinding
 ```
 ## Parent (Read-Only)
 ```lua
-@type BaseSceneObjectOverride_t
+--- @type BaseSceneObjectOverride_t
 Read: extravertexstreamoverride_t.Parent
 ```
 # Functions

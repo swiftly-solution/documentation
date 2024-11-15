@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollMagnet(ptr --[[ string ]])
+CRagdollMagnet(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollmagnet.Disabled
 Write: cragdollmagnet.Disabled = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cragdollmagnet.Radius
 Write: cragdollmagnet.Radius = value
 ```
 ## Force 
 ```lua
-@type number
+--- @type number
 Read: cragdollmagnet.Force
 Write: cragdollmagnet.Force = value
 ```
 ## Axis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cragdollmagnet.Axis
 Write: cragdollmagnet.Axis = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cragdollmagnet.Parent
 ```
 # Functions

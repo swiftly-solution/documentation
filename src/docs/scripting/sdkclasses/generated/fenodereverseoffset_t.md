@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeNodeReverseOffset_t(ptr --[[ string ]])
+FeNodeReverseOffset_t(ptr)
 ```
 # Properties
 ## Offset 
 ```lua
-@type Vector
+--- @type Vector
 Read: fenodereverseoffset_t.Offset
 Write: fenodereverseoffset_t.Offset = value
 ```
 ## BoneCtrl 
 ```lua
-@type number
+--- @type number
 Read: fenodereverseoffset_t.BoneCtrl
 Write: fenodereverseoffset_t.BoneCtrl = value
 ```
 ## TargetNode 
 ```lua
-@type number
+--- @type number
 Read: fenodereverseoffset_t.TargetNode
 Write: fenodereverseoffset_t.TargetNode = value
 ```

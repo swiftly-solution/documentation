@@ -12,58 +12,58 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosSoundEventGroupSchema(ptr --[[ string ]])
+CSosSoundEventGroupSchema(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: csossoundeventgroupschema.Name
 Write: csossoundeventgroupschema.Name = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: csossoundeventgroupschema.Type
 Write: csossoundeventgroupschema.Type = value
 ```
 ## IsBlocking 
 ```lua
-@type boolean
+--- @type boolean
 Read: csossoundeventgroupschema.IsBlocking
 Write: csossoundeventgroupschema.IsBlocking = value
 ```
 ## BlockMaxCount 
 ```lua
-@type number
+--- @type number
 Read: csossoundeventgroupschema.BlockMaxCount
 Write: csossoundeventgroupschema.BlockMaxCount = value
 ```
 ## InvertMatch 
 ```lua
-@type boolean
+--- @type boolean
 Read: csossoundeventgroupschema.InvertMatch
 Write: csossoundeventgroupschema.InvertMatch = value
 ```
 ## MatchPattern (Read-Only)
 ```lua
-@type CSosGroupMatchPattern
+--- @type CSosGroupMatchPattern
 Read: csossoundeventgroupschema.MatchPattern
 ```
 ## BranchPattern (Read-Only)
 ```lua
-@type CSosGroupBranchPattern
+--- @type CSosGroupBranchPattern
 Read: csossoundeventgroupschema.BranchPattern
 ```
 ## LifeSpanTime 
 ```lua
-@type number
+--- @type number
 Read: csossoundeventgroupschema.LifeSpanTime
 Write: csossoundeventgroupschema.LifeSpanTime = value
 ```
 ## Actions (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csossoundeventgroupschema.Actions
 ```
 # Functions

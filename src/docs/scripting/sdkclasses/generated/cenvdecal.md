@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvDecal(ptr --[[ string ]])
+CEnvDecal(ptr)
 ```
 # Properties
 ## Width 
 ```lua
-@type number
+--- @type number
 Read: cenvdecal.Width
 Write: cenvdecal.Width = value
 ```
 ## Height 
 ```lua
-@type number
+--- @type number
 Read: cenvdecal.Height
 Write: cenvdecal.Height = value
 ```
 ## Depth 
 ```lua
-@type number
+--- @type number
 Read: cenvdecal.Depth
 Write: cenvdecal.Depth = value
 ```
 ## RenderOrder 
 ```lua
-@type number
+--- @type number
 Read: cenvdecal.RenderOrder
 Write: cenvdecal.RenderOrder = value
 ```
 ## ProjectOnWorld 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvdecal.ProjectOnWorld
 Write: cenvdecal.ProjectOnWorld = value
 ```
 ## ProjectOnCharacters 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvdecal.ProjectOnCharacters
 Write: cenvdecal.ProjectOnCharacters = value
 ```
 ## ProjectOnWater 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvdecal.ProjectOnWater
 Write: cenvdecal.ProjectOnWater = value
 ```
 ## DepthSortBias 
 ```lua
-@type number
+--- @type number
 Read: cenvdecal.DepthSortBias
 Write: cenvdecal.DepthSortBias = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cenvdecal.Parent
 ```
 # Functions

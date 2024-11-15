@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSequenceTagSpans(ptr --[[ string ]])
+CSequenceTagSpans(ptr)
 ```
 # Properties
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csequencetagspans.Tags
 ```
 # Functions

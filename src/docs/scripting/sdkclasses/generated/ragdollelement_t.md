@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ragdollelement_t(ptr --[[ string ]])
+ragdollelement_t(ptr)
 ```
 # Properties
 ## OriginParentSpace 
 ```lua
-@type Vector
+--- @type Vector
 Read: ragdollelement_t.OriginParentSpace
 Write: ragdollelement_t.OriginParentSpace = value
 ```
 ## ParentIndex 
 ```lua
-@type number
+--- @type number
 Read: ragdollelement_t.ParentIndex
 Write: ragdollelement_t.ParentIndex = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: ragdollelement_t.Radius
 Write: ragdollelement_t.Radius = value
 ```

@@ -12,95 +12,95 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseCSGrenade(ptr --[[ string ]])
+CBaseCSGrenade(ptr)
 ```
 # Properties
 ## Redraw 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.Redraw
 Write: cbasecsgrenade.Redraw = value
 ```
 ## IsHeldByPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.IsHeldByPlayer
 Write: cbasecsgrenade.IsHeldByPlayer = value
 ```
 ## PinPulled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.PinPulled
 Write: cbasecsgrenade.PinPulled = value
 ```
 ## JumpThrow 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.JumpThrow
 Write: cbasecsgrenade.JumpThrow = value
 ```
 ## ThrowAnimating 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.ThrowAnimating
 Write: cbasecsgrenade.ThrowAnimating = value
 ```
 ## ThrowTime 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.ThrowTime
 Write: cbasecsgrenade.ThrowTime = value
 ```
 ## ThrowStrength 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.ThrowStrength
 Write: cbasecsgrenade.ThrowStrength = value
 ```
 ## ThrowStrengthApproach 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.ThrowStrengthApproach
 Write: cbasecsgrenade.ThrowStrengthApproach = value
 ```
 ## DropTime 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.DropTime
 Write: cbasecsgrenade.DropTime = value
 ```
 ## PinPullTime 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.PinPullTime
 Write: cbasecsgrenade.PinPullTime = value
 ```
 ## JustPulledPin 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasecsgrenade.JustPulledPin
 Write: cbasecsgrenade.JustPulledPin = value
 ```
 ## NextHoldTick 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.NextHoldTick
 Write: cbasecsgrenade.NextHoldTick = value
 ```
 ## NextHoldFrac 
 ```lua
-@type number
+--- @type number
 Read: cbasecsgrenade.NextHoldFrac
 Write: cbasecsgrenade.NextHoldFrac = value
 ```
 ## SwitchToWeaponAfterThrow (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cbasecsgrenade.SwitchToWeaponAfterThrow
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cbasecsgrenade.Parent
 ```
 # Functions

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmTransitionEvent(ptr --[[ string ]])
+CNmTransitionEvent(ptr)
 ```
 # Properties
 ## Rule 
 ```lua
-@type number
+--- @type number
 Read: cnmtransitionevent.Rule
 Write: cnmtransitionevent.Rule = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmtransitionevent.Parent
 ```
 # Functions

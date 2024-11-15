@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventFrameBoundary_t(ptr --[[ string ]])
+EventFrameBoundary_t(ptr)
 ```
 # Properties
 ## FrameTime 
 ```lua
-@type number
+--- @type number
 Read: eventframeboundary_t.FrameTime
 Write: eventframeboundary_t.FrameTime = value
 ```

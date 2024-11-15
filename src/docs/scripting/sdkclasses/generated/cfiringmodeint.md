@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFiringModeInt(ptr --[[ string ]])
+CFiringModeInt(ptr)
 ```
 # Properties
 ## Values 
 ```lua
-@type table
+--- @type table
 Read: cfiringmodeint.Values
 Write: cfiringmodeint.Values = value
 ```

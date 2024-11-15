@@ -11,8 +11,10 @@ Allows for a switch-like behavior in Lua, matching a value against a set of case
 ::: tabs
 @tab Lua
 ```lua
-@returns any
-switch(key --[[ string ]], switch_table --[[ table ]])
+--- @param key string
+--- @param switch_table table
+--- @return any
+switch(key, switch_table)
 ```
 #### Example
 ```lua

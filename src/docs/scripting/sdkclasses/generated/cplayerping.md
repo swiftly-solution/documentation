@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayerPing(ptr --[[ string ]])
+CPlayerPing(ptr)
 ```
 # Properties
 ## Player (Read-Only)
 ```lua
-@type CCSPlayerPawn
+--- @type CCSPlayerPawn
 Read: cplayerping.Player
 ```
 ## PingedEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cplayerping.PingedEntity
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: cplayerping.Type
 Write: cplayerping.Type = value
 ```
 ## Urgent 
 ```lua
-@type boolean
+--- @type boolean
 Read: cplayerping.Urgent
 Write: cplayerping.Urgent = value
 ```
 ## PlaceName 
 ```lua
-@type string
+--- @type string
 Read: cplayerping.PlaceName
 Write: cplayerping.PlaceName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cplayerping.Parent
 ```
 # Functions

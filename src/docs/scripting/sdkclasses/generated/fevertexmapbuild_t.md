@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeVertexMapBuild_t(ptr --[[ string ]])
+FeVertexMapBuild_t(ptr)
 ```
 # Properties
 ## VertexMapName 
 ```lua
-@type string
+--- @type string
 Read: fevertexmapbuild_t.VertexMapName
 Write: fevertexmapbuild_t.VertexMapName = value
 ```
 ## NameHash 
 ```lua
-@type number
+--- @type number
 Read: fevertexmapbuild_t.NameHash
 Write: fevertexmapbuild_t.NameHash = value
 ```
 ## Color 
 ```lua
-@type Color
+--- @type Color
 Read: fevertexmapbuild_t.Color
 Write: fevertexmapbuild_t.Color = value
 ```
 ## VolumetricSolveStrength 
 ```lua
-@type number
+--- @type number
 Read: fevertexmapbuild_t.VolumetricSolveStrength
 Write: fevertexmapbuild_t.VolumetricSolveStrength = value
 ```
 ## ScaleSourceNode 
 ```lua
-@type number
+--- @type number
 Read: fevertexmapbuild_t.ScaleSourceNode
 Write: fevertexmapbuild_t.ScaleSourceNode = value
 ```
 ## Weights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: fevertexmapbuild_t.Weights
 ```
 # Functions

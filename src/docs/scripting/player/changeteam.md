@@ -11,8 +11,9 @@ Changes the player's team.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:ChangeTeam(team --[[ Team ]])
+--- @param team number Team
+--- @return nil
+player:ChangeTeam(team)
 ```
 
 :::

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAimConstraint(ptr --[[ string ]])
+CAimConstraint(ptr)
 ```
 # Properties
 ## UpType 
 ```lua
-@type number
+--- @type number
 Read: caimconstraint.UpType
 Write: caimconstraint.UpType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: caimconstraint.Parent
 ```
 # Functions

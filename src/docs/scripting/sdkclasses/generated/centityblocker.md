@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityBlocker(ptr --[[ string ]])
+CEntityBlocker(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: centityblocker.Parent
 ```
 # Functions

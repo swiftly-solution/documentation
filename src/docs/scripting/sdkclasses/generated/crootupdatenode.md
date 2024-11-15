@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRootUpdateNode(ptr --[[ string ]])
+CRootUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: crootupdatenode.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when read_game_titledata is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnReadGameTitledata", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnReadGameTitledata", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

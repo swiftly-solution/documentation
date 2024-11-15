@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSkyboxReference(ptr --[[ string ]])
+CSkyboxReference(ptr)
 ```
 # Properties
 ## WorldGroupId 
 ```lua
-@type number
+--- @type number
 Read: cskyboxreference.WorldGroupId
 Write: cskyboxreference.WorldGroupId = value
 ```
 ## SkyCamera (Read-Only)
 ```lua
-@type CSkyCamera
+--- @type CSkyCamera
 Read: cskyboxreference.SkyCamera
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cskyboxreference.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CResponseQueue(ptr --[[ string ]])
+CResponseQueue(ptr)
 ```
 # Properties
 ## ExpresserTargets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cresponsequeue.ExpresserTargets
 ```
 # Functions

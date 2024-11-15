@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerLoopTrigger(ptr --[[ string ]])
+CVoiceContainerLoopTrigger(ptr)
 ```
 # Properties
 ## Sound (Read-Only)
 ```lua
-@type CSoundContainerReference
+--- @type CSoundContainerReference
 Read: cvoicecontainerlooptrigger.Sound
 ```
 ## RetriggerTimeMin 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerlooptrigger.RetriggerTimeMin
 Write: cvoicecontainerlooptrigger.RetriggerTimeMin = value
 ```
 ## RetriggerTimeMax 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerlooptrigger.RetriggerTimeMax
 Write: cvoicecontainerlooptrigger.RetriggerTimeMax = value
 ```
 ## FadeTime 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerlooptrigger.FadeTime
 Write: cvoicecontainerlooptrigger.FadeTime = value
 ```
 ## CrossFade 
 ```lua
-@type boolean
+--- @type boolean
 Read: cvoicecontainerlooptrigger.CrossFade
 Write: cvoicecontainerlooptrigger.CrossFade = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerlooptrigger.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when bomb_begindefuse is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBombBegindefuse", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBombBegindefuse", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

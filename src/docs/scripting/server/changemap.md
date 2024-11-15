@@ -11,8 +11,10 @@ Change the map in the specified one.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-server:ChangeMap(map --[[ string ]], workshop --[[ boolean ]])
+--- @param map string
+--- @param workshop boolean
+--- @return nil
+server:ChangeMap(map, workshop)
 ```
 
 :::

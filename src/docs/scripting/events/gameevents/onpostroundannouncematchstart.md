@@ -11,8 +11,9 @@ This event is triggered after round_announce_match_start is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundAnnounceMatchStart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundAnnounceMatchStart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSlowDownOnSlopesUpdateNode(ptr --[[ string ]])
+CSlowDownOnSlopesUpdateNode(ptr)
 ```
 # Properties
 ## SlowDownStrength 
 ```lua
-@type number
+--- @type number
 Read: cslowdownonslopesupdatenode.SlowDownStrength
 Write: cslowdownonslopesupdatenode.SlowDownStrength = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cslowdownonslopesupdatenode.Parent
 ```
 # Functions

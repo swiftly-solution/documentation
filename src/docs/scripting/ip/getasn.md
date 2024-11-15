@@ -11,8 +11,9 @@ Returns the Autonomous System Number (ASN) from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ip:GetASN(ip --[[ string ]])
+--- @param ip string
+--- @return string
+ip:GetASN(ip)
 ```
 
 :::

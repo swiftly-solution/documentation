@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHandleDummy(ptr --[[ string ]])
+CHandleDummy(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: chandledummy.Parent
 ```
 # Functions

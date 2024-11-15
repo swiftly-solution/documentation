@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetOBBWindEntity(ptr --[[ string ]])
+CSoundOpvarSetOBBWindEntity(ptr)
 ```
 # Properties
 ## Mins 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundopvarsetobbwindentity.Mins
 Write: csoundopvarsetobbwindentity.Mins = value
 ```
 ## Maxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundopvarsetobbwindentity.Maxs
 Write: csoundopvarsetobbwindentity.Maxs = value
 ```
 ## DistanceMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundopvarsetobbwindentity.DistanceMins
 Write: csoundopvarsetobbwindentity.DistanceMins = value
 ```
 ## DistanceMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundopvarsetobbwindentity.DistanceMaxs
 Write: csoundopvarsetobbwindentity.DistanceMaxs = value
 ```
 ## WindMin 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetobbwindentity.WindMin
 Write: csoundopvarsetobbwindentity.WindMin = value
 ```
 ## WindMax 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetobbwindentity.WindMax
 Write: csoundopvarsetobbwindentity.WindMax = value
 ```
 ## WindMapMin 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetobbwindentity.WindMapMin
 Write: csoundopvarsetobbwindentity.WindMapMin = value
 ```
 ## WindMapMax 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetobbwindentity.WindMapMax
 Write: csoundopvarsetobbwindentity.WindMapMax = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundOpvarSetPointBase
+--- @type CSoundOpvarSetPointBase
 Read: csoundopvarsetobbwindentity.Parent
 ```
 # Functions

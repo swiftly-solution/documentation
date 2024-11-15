@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfig(ptr --[[ string ]])
+CModelConfig(ptr)
 ```
 # Properties
 ## ConfigName 
 ```lua
-@type string
+--- @type string
 Read: cmodelconfig.ConfigName
 Write: cmodelconfig.ConfigName = value
 ```
 ## Elements (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfig.Elements
 ```
 ## TopLevel 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmodelconfig.TopLevel
 Write: cmodelconfig.TopLevel = value
 ```

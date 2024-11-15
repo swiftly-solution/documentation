@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFeIndexedJiggleBone(ptr --[[ string ]])
+CFeIndexedJiggleBone(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type number
+--- @type number
 Read: cfeindexedjigglebone.Node
 Write: cfeindexedjigglebone.Node = value
 ```
 ## JiggleParent 
 ```lua
-@type number
+--- @type number
 Read: cfeindexedjigglebone.JiggleParent
 Write: cfeindexedjigglebone.JiggleParent = value
 ```
 ## JiggleBone (Read-Only)
 ```lua
-@type CFeJiggleBone
+--- @type CFeJiggleBone
 Read: cfeindexedjigglebone.JiggleBone
 ```
 # Functions

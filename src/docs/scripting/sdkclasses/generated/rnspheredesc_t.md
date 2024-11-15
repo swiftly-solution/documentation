@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnSphereDesc_t(ptr --[[ string ]])
+RnSphereDesc_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type RnShapeDesc_t
+--- @type RnShapeDesc_t
 Read: rnspheredesc_t.Parent
 ```
 # Functions

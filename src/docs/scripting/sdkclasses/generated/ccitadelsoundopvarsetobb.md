@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCitadelSoundOpvarSetOBB(ptr --[[ string ]])
+CCitadelSoundOpvarSetOBB(ptr)
 ```
 # Properties
 ## StackName 
 ```lua
-@type string
+--- @type string
 Read: ccitadelsoundopvarsetobb.StackName
 Write: ccitadelsoundopvarsetobb.StackName = value
 ```
 ## OperatorName 
 ```lua
-@type string
+--- @type string
 Read: ccitadelsoundopvarsetobb.OperatorName
 Write: ccitadelsoundopvarsetobb.OperatorName = value
 ```
 ## OpvarName 
 ```lua
-@type string
+--- @type string
 Read: ccitadelsoundopvarsetobb.OpvarName
 Write: ccitadelsoundopvarsetobb.OpvarName = value
 ```
 ## DistanceInnerMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccitadelsoundopvarsetobb.DistanceInnerMins
 Write: ccitadelsoundopvarsetobb.DistanceInnerMins = value
 ```
 ## DistanceInnerMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccitadelsoundopvarsetobb.DistanceInnerMaxs
 Write: ccitadelsoundopvarsetobb.DistanceInnerMaxs = value
 ```
 ## DistanceOuterMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccitadelsoundopvarsetobb.DistanceOuterMins
 Write: ccitadelsoundopvarsetobb.DistanceOuterMins = value
 ```
 ## DistanceOuterMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccitadelsoundopvarsetobb.DistanceOuterMaxs
 Write: ccitadelsoundopvarsetobb.DistanceOuterMaxs = value
 ```
 ## AABBDirection 
 ```lua
-@type number
+--- @type number
 Read: ccitadelsoundopvarsetobb.AABBDirection
 Write: ccitadelsoundopvarsetobb.AABBDirection = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccitadelsoundopvarsetobb.Parent
 ```
 # Functions

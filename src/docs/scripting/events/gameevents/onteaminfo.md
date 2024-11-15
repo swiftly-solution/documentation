@@ -11,8 +11,9 @@ This event is triggered when team_info is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTeamInfo", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTeamInfo", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

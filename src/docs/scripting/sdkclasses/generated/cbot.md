@@ -12,82 +12,82 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBot(ptr --[[ string ]])
+CBot(ptr)
 ```
 # Properties
 ## Controller (Read-Only)
 ```lua
-@type CCSPlayerController
+--- @type CCSPlayerController
 Read: cbot.Controller
 ```
 ## Player (Read-Only)
 ```lua
-@type CCSPlayerPawn
+--- @type CCSPlayerPawn
 Read: cbot.Player
 ```
 ## HasSpawned 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbot.HasSpawned
 Write: cbot.HasSpawned = value
 ```
 ## Id 
 ```lua
-@type number
+--- @type number
 Read: cbot.Id
 Write: cbot.Id = value
 ```
 ## IsRunning 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbot.IsRunning
 Write: cbot.IsRunning = value
 ```
 ## IsCrouching 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbot.IsCrouching
 Write: cbot.IsCrouching = value
 ```
 ## ForwardSpeed 
 ```lua
-@type number
+--- @type number
 Read: cbot.ForwardSpeed
 Write: cbot.ForwardSpeed = value
 ```
 ## LeftSpeed 
 ```lua
-@type number
+--- @type number
 Read: cbot.LeftSpeed
 Write: cbot.LeftSpeed = value
 ```
 ## VerticalSpeed 
 ```lua
-@type number
+--- @type number
 Read: cbot.VerticalSpeed
 Write: cbot.VerticalSpeed = value
 ```
 ## ButtonFlags 
 ```lua
-@type number
+--- @type number
 Read: cbot.ButtonFlags
 Write: cbot.ButtonFlags = value
 ```
 ## JumpTimestamp 
 ```lua
-@type number
+--- @type number
 Read: cbot.JumpTimestamp
 Write: cbot.JumpTimestamp = value
 ```
 ## ViewForward 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbot.ViewForward
 Write: cbot.ViewForward = value
 ```
 ## PostureStackIndex 
 ```lua
-@type number
+--- @type number
 Read: cbot.PostureStackIndex
 Write: cbot.PostureStackIndex = value
 ```

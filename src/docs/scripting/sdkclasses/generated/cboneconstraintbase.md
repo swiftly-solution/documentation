@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBoneConstraintBase(ptr --[[ string ]])
+CBoneConstraintBase(ptr)
 ```
 # Properties
 There are no properties available for this class.

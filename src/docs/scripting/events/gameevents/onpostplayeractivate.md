@@ -11,8 +11,9 @@ This event is triggered after player_activate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerActivate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerActivate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

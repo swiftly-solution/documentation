@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAudioSentence(ptr --[[ string ]])
+CAudioSentence(ptr)
 ```
 # Properties
 ## ShouldVoiceDuck 
 ```lua
-@type boolean
+--- @type boolean
 Read: caudiosentence.ShouldVoiceDuck
 Write: caudiosentence.ShouldVoiceDuck = value
 ```
 ## RunTimePhonemes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: caudiosentence.RunTimePhonemes
 ```
 ## EmphasisSamples (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: caudiosentence.EmphasisSamples
 ```
 ## MorphData (Read-Only)
 ```lua
-@type CAudioMorphData
+--- @type CAudioMorphData
 Read: caudiosentence.MorphData
 ```
 # Functions

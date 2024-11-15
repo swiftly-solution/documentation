@@ -11,8 +11,9 @@ Unregisters an alias for a command registered through Swiftly Commands.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-commands:UnregisterAlias(alias --[[ string ]])
+--- @param alias string
+--- @return nil
+commands:UnregisterAlias(alias)
 ```
 
 :::

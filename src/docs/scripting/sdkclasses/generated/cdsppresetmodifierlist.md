@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDspPresetModifierList(ptr --[[ string ]])
+CDspPresetModifierList(ptr)
 ```
 # Properties
 ## DspName 
 ```lua
-@type string
+--- @type string
 Read: cdsppresetmodifierlist.DspName
 Write: cdsppresetmodifierlist.DspName = value
 ```
 ## Modifiers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdsppresetmodifierlist.Modifiers
 ```
 # Functions

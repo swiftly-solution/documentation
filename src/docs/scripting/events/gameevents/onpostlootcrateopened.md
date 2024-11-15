@@ -11,8 +11,9 @@ This event is triggered after loot_crate_opened is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostLootCrateOpened", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostLootCrateOpened", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

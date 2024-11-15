@@ -12,78 +12,78 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysWheelConstraint(ptr --[[ string ]])
+CPhysWheelConstraint(ptr)
 ```
 # Properties
 ## SuspensionFrequency 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.SuspensionFrequency
 Write: cphyswheelconstraint.SuspensionFrequency = value
 ```
 ## SuspensionDampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.SuspensionDampingRatio
 Write: cphyswheelconstraint.SuspensionDampingRatio = value
 ```
 ## SuspensionHeightOffset 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.SuspensionHeightOffset
 Write: cphyswheelconstraint.SuspensionHeightOffset = value
 ```
 ## EnableSuspensionLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyswheelconstraint.EnableSuspensionLimit
 Write: cphyswheelconstraint.EnableSuspensionLimit = value
 ```
 ## MinSuspensionOffset 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.MinSuspensionOffset
 Write: cphyswheelconstraint.MinSuspensionOffset = value
 ```
 ## MaxSuspensionOffset 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.MaxSuspensionOffset
 Write: cphyswheelconstraint.MaxSuspensionOffset = value
 ```
 ## EnableSteeringLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyswheelconstraint.EnableSteeringLimit
 Write: cphyswheelconstraint.EnableSteeringLimit = value
 ```
 ## MinSteeringAngle 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.MinSteeringAngle
 Write: cphyswheelconstraint.MinSteeringAngle = value
 ```
 ## MaxSteeringAngle 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.MaxSteeringAngle
 Write: cphyswheelconstraint.MaxSteeringAngle = value
 ```
 ## SteeringAxisFriction 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.SteeringAxisFriction
 Write: cphyswheelconstraint.SteeringAxisFriction = value
 ```
 ## SpinAxisFriction 
 ```lua
-@type number
+--- @type number
 Read: cphyswheelconstraint.SpinAxisFriction
 Write: cphyswheelconstraint.SpinAxisFriction = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphyswheelconstraint.Parent
 ```
 # Functions

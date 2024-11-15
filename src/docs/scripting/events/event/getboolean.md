@@ -11,8 +11,9 @@ Returns the boolean value of a key from a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-event:GetBool(key --[[ string ]])
+--- @param key string
+--- @return boolean
+event:GetBool(key)
 ```
 
 :::

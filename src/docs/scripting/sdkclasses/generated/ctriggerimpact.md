@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerImpact(ptr --[[ string ]])
+CTriggerImpact(ptr)
 ```
 # Properties
 ## Magnitude 
 ```lua
-@type number
+--- @type number
 Read: ctriggerimpact.Magnitude
 Write: ctriggerimpact.Magnitude = value
 ```
 ## Noise 
 ```lua
-@type number
+--- @type number
 Read: ctriggerimpact.Noise
 Write: ctriggerimpact.Noise = value
 ```
 ## Viewkick 
 ```lua
-@type number
+--- @type number
 Read: ctriggerimpact.Viewkick
 Write: ctriggerimpact.Viewkick = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CTriggerMultiple
+--- @type CTriggerMultiple
 Read: ctriggerimpact.Parent
 ```
 # Functions

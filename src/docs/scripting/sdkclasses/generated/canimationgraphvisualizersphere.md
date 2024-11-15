@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimationGraphVisualizerSphere(ptr --[[ string ]])
+CAnimationGraphVisualizerSphere(ptr)
 ```
 # Properties
 ## WsPosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: canimationgraphvisualizersphere.WsPosition
 Write: canimationgraphvisualizersphere.WsPosition = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: canimationgraphvisualizersphere.Radius
 Write: canimationgraphvisualizersphere.Radius = value
 ```
 ## Color 
 ```lua
-@type Color
+--- @type Color
 Read: canimationgraphvisualizersphere.Color
 Write: canimationgraphvisualizersphere.Color = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimationGraphVisualizerPrimitiveBase
+--- @type CAnimationGraphVisualizerPrimitiveBase
 Read: canimationgraphvisualizersphere.Parent
 ```
 # Functions

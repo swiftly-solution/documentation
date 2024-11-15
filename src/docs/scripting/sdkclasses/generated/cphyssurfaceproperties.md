@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysSurfaceProperties(ptr --[[ string ]])
+CPhysSurfaceProperties(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cphyssurfaceproperties.Name
 Write: cphyssurfaceproperties.Name = value
 ```
 ## NameHash 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfaceproperties.NameHash
 Write: cphyssurfaceproperties.NameHash = value
 ```
 ## BaseNameHash 
 ```lua
-@type number
+--- @type number
 Read: cphyssurfaceproperties.BaseNameHash
 Write: cphyssurfaceproperties.BaseNameHash = value
 ```
 ## Hidden 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphyssurfaceproperties.Hidden
 Write: cphyssurfaceproperties.Hidden = value
 ```
 ## Description 
 ```lua
-@type string
+--- @type string
 Read: cphyssurfaceproperties.Description
 Write: cphyssurfaceproperties.Description = value
 ```
 ## Physics (Read-Only)
 ```lua
-@type CPhysSurfacePropertiesPhysics
+--- @type CPhysSurfacePropertiesPhysics
 Read: cphyssurfaceproperties.Physics
 ```
 ## AudioSounds (Read-Only)
 ```lua
-@type CPhysSurfacePropertiesSoundNames
+--- @type CPhysSurfacePropertiesSoundNames
 Read: cphyssurfaceproperties.AudioSounds
 ```
 ## AudioParams (Read-Only)
 ```lua
-@type CPhysSurfacePropertiesAudio
+--- @type CPhysSurfacePropertiesAudio
 Read: cphyssurfaceproperties.AudioParams
 ```
 # Functions

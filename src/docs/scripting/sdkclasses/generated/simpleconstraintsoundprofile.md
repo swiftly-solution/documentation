@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SimpleConstraintSoundProfile(ptr --[[ string ]])
+SimpleConstraintSoundProfile(ptr)
 ```
 # Properties
 ## KeyPoints 
 ```lua
-@type table
+--- @type table
 Read: simpleconstraintsoundprofile.KeyPoints
 Write: simpleconstraintsoundprofile.KeyPoints = value
 ```
 ## ReversalSoundThresholds 
 ```lua
-@type table
+--- @type table
 Read: simpleconstraintsoundprofile.ReversalSoundThresholds
 Write: simpleconstraintsoundprofile.ReversalSoundThresholds = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CScriptComponent(ptr --[[ string ]])
+CScriptComponent(ptr)
 ```
 # Properties
 ## ScriptClassName 
 ```lua
-@type string
+--- @type string
 Read: cscriptcomponent.ScriptClassName
 Write: cscriptcomponent.ScriptClassName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEntityComponent
+--- @type CEntityComponent
 Read: cscriptcomponent.Parent
 ```
 # Functions

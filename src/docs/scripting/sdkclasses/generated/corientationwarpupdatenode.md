@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-COrientationWarpUpdateNode(ptr --[[ string ]])
+COrientationWarpUpdateNode(ptr)
 ```
 # Properties
 ## FacingPositionParameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: corientationwarpupdatenode.FacingPositionParameter
 ```
 ## TurnDamping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: corientationwarpupdatenode.TurnDamping
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: corientationwarpupdatenode.Parent
 ```
 # Functions

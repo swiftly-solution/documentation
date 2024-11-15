@@ -11,8 +11,12 @@ Updates the state of a specific field.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-StateUpdate(ptr --[[ string ]], classname --[[ string ]], field --[[ string ]], isStruct --[[ boolean ]])
+--- @param ptr string
+--- @param classname string
+--- @param field string
+--- @param isStruct boolean
+--- @return nil
+StateUpdate(ptr, classname, field, isStruct)
 ```
 
 :::

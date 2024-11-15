@@ -12,45 +12,45 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayerInputAnimMotorUpdater(ptr --[[ string ]])
+CPlayerInputAnimMotorUpdater(ptr)
 ```
 # Properties
 ## SampleTimes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cplayerinputanimmotorupdater.SampleTimes
 ```
 ## SpringConstant 
 ```lua
-@type number
+--- @type number
 Read: cplayerinputanimmotorupdater.SpringConstant
 Write: cplayerinputanimmotorupdater.SpringConstant = value
 ```
 ## AnticipationDistance 
 ```lua
-@type number
+--- @type number
 Read: cplayerinputanimmotorupdater.AnticipationDistance
 Write: cplayerinputanimmotorupdater.AnticipationDistance = value
 ```
 ## AnticipationPosParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cplayerinputanimmotorupdater.AnticipationPosParam
 ```
 ## AnticipationHeadingParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cplayerinputanimmotorupdater.AnticipationHeadingParam
 ```
 ## UseAcceleration 
 ```lua
-@type boolean
+--- @type boolean
 Read: cplayerinputanimmotorupdater.UseAcceleration
 Write: cplayerinputanimmotorupdater.UseAcceleration = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimMotorUpdaterBase
+--- @type CAnimMotorUpdaterBase
 Read: cplayerinputanimmotorupdater.Parent
 ```
 # Functions

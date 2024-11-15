@@ -11,8 +11,9 @@ Returns if the configuration key exists.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-config:Exists(key --[[ string ]])
+--- @param key string
+--- @return boolean
+config:Exists(key)
 ```
 
 :::

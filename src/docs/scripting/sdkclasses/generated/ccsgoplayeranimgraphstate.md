@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGOPlayerAnimGraphState(ptr --[[ string ]])
+CCSGOPlayerAnimGraphState(ptr)
 ```
 # Properties
 There are no properties available for this class.

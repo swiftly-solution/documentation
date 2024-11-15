@@ -11,8 +11,9 @@ This event is triggered after vote_options is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostVoteOptions", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostVoteOptions", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

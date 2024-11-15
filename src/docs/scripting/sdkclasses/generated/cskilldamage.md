@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSkillDamage(ptr --[[ string ]])
+CSkillDamage(ptr)
 ```
 # Properties
 ## Damage (Read-Only)
 ```lua
-@type CSkillFloat
+--- @type CSkillFloat
 Read: cskilldamage.Damage
 ```
 ## NPCDamageScalarVsNPC 
 ```lua
-@type number
+--- @type number
 Read: cskilldamage.NPCDamageScalarVsNPC
 Write: cskilldamage.NPCDamageScalarVsNPC = value
 ```
 ## PhysicsForceDamage 
 ```lua
-@type number
+--- @type number
 Read: cskilldamage.PhysicsForceDamage
 Write: cskilldamage.PhysicsForceDamage = value
 ```

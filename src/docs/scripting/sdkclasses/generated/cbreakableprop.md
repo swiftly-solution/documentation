@@ -12,197 +12,197 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBreakableProp(ptr --[[ string ]])
+CBreakableProp(ptr)
 ```
 # Properties
 ## CPropDataComponent (Read-Only)
 ```lua
-@type CPropDataComponent
+--- @type CPropDataComponent
 Read: cbreakableprop.CPropDataComponent
 ```
 ## OnBreak (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbreakableprop.OnBreak
 ```
 ## OnTakeDamage (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbreakableprop.OnTakeDamage
 ```
 ## ImpactEnergyScale 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.ImpactEnergyScale
 Write: cbreakableprop.ImpactEnergyScale = value
 ```
 ## MinHealthDmg 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.MinHealthDmg
 Write: cbreakableprop.MinHealthDmg = value
 ```
 ## PreferredCarryAngles 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cbreakableprop.PreferredCarryAngles
 Write: cbreakableprop.PreferredCarryAngles = value
 ```
 ## PressureDelay 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.PressureDelay
 Write: cbreakableprop.PressureDelay = value
 ```
 ## DefBurstScale 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.DefBurstScale
 Write: cbreakableprop.DefBurstScale = value
 ```
 ## DefBurstOffset 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbreakableprop.DefBurstOffset
 Write: cbreakableprop.DefBurstOffset = value
 ```
 ## Breaker (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbreakableprop.Breaker
 ```
 ## PerformanceMode 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.PerformanceMode
 Write: cbreakableprop.PerformanceMode = value
 ```
 ## PreventDamageBeforeTime 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.PreventDamageBeforeTime
 Write: cbreakableprop.PreventDamageBeforeTime = value
 ```
 ## BreakableContentsType 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.BreakableContentsType
 Write: cbreakableprop.BreakableContentsType = value
 ```
 ## StrBreakableContentsPropGroupOverride 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.StrBreakableContentsPropGroupOverride
 Write: cbreakableprop.StrBreakableContentsPropGroupOverride = value
 ```
 ## StrBreakableContentsParticleOverride 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.StrBreakableContentsParticleOverride
 Write: cbreakableprop.StrBreakableContentsParticleOverride = value
 ```
 ## HasBreakPiecesOrCommands 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbreakableprop.HasBreakPiecesOrCommands
 Write: cbreakableprop.HasBreakPiecesOrCommands = value
 ```
 ## ExplodeDamage 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.ExplodeDamage
 Write: cbreakableprop.ExplodeDamage = value
 ```
 ## ExplodeRadius 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.ExplodeRadius
 Write: cbreakableprop.ExplodeRadius = value
 ```
 ## ExplosionDelay 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.ExplosionDelay
 Write: cbreakableprop.ExplosionDelay = value
 ```
 ## ExplosionBuildupSound 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.ExplosionBuildupSound
 Write: cbreakableprop.ExplosionBuildupSound = value
 ```
 ## ExplosionCustomEffect 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.ExplosionCustomEffect
 Write: cbreakableprop.ExplosionCustomEffect = value
 ```
 ## ExplosionCustomSound 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.ExplosionCustomSound
 Write: cbreakableprop.ExplosionCustomSound = value
 ```
 ## ExplosionModifier 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.ExplosionModifier
 Write: cbreakableprop.ExplosionModifier = value
 ```
 ## PhysicsAttacker (Read-Only)
 ```lua
-@type CBasePlayerPawn
+--- @type CBasePlayerPawn
 Read: cbreakableprop.PhysicsAttacker
 ```
 ## LastPhysicsInfluenceTime 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.LastPhysicsInfluenceTime
 Write: cbreakableprop.LastPhysicsInfluenceTime = value
 ```
 ## OriginalBlockLOS 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbreakableprop.OriginalBlockLOS
 Write: cbreakableprop.OriginalBlockLOS = value
 ```
 ## DefaultFadeScale 
 ```lua
-@type number
+--- @type number
 Read: cbreakableprop.DefaultFadeScale
 Write: cbreakableprop.DefaultFadeScale = value
 ```
 ## LastAttacker (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbreakableprop.LastAttacker
 ```
 ## FlareEnt (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbreakableprop.FlareEnt
 ```
 ## UsePuntSound 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbreakableprop.UsePuntSound
 Write: cbreakableprop.UsePuntSound = value
 ```
 ## PuntSound 
 ```lua
-@type string
+--- @type string
 Read: cbreakableprop.PuntSound
 Write: cbreakableprop.PuntSound = value
 ```
 ## NoGhostCollision 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbreakableprop.NoGhostCollision
 Write: cbreakableprop.NoGhostCollision = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseProp
+--- @type CBaseProp
 Read: cbreakableprop.Parent
 ```
 # Functions

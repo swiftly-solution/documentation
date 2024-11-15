@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeSphere(ptr --[[ string ]])
+CNavVolumeSphere(ptr)
 ```
 # Properties
 ## Center 
 ```lua
-@type Vector
+--- @type Vector
 Read: cnavvolumesphere.Center
 Write: cnavvolumesphere.Center = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cnavvolumesphere.Radius
 Write: cnavvolumesphere.Radius = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNavVolume
+--- @type CNavVolume
 Read: cnavvolumesphere.Parent
 ```
 # Functions

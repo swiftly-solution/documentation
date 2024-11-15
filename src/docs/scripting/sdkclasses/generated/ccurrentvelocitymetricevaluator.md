@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCurrentVelocityMetricEvaluator(ptr --[[ string ]])
+CCurrentVelocityMetricEvaluator(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: ccurrentvelocitymetricevaluator.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerDecayingSineWave(ptr --[[ string ]])
+CVoiceContainerDecayingSineWave(ptr)
 ```
 # Properties
 ## Frequency 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerdecayingsinewave.Frequency
 Write: cvoicecontainerdecayingsinewave.Frequency = value
 ```
 ## DecayTime 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerdecayingsinewave.DecayTime
 Write: cvoicecontainerdecayingsinewave.DecayTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerdecayingsinewave.Parent
 ```
 # Functions

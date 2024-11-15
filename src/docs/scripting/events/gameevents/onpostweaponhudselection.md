@@ -11,8 +11,9 @@ This event is triggered after weaponhud_selection is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostWeaponhudSelection", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostWeaponhudSelection", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

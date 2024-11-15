@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTestBlendContainer(ptr --[[ string ]])
+CTestBlendContainer(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: ctestblendcontainer.Parent
 ```
 # Functions

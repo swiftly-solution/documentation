@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootstepTableHandle(ptr --[[ string ]])
+CFootstepTableHandle(ptr)
 ```
 # Properties
 There are no properties available for this class.

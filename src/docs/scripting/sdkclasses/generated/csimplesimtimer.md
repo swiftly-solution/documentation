@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSimpleSimTimer(ptr --[[ string ]])
+CSimpleSimTimer(ptr)
 ```
 # Properties
 ## Next 
 ```lua
-@type number
+--- @type number
 Read: csimplesimtimer.Next
 Write: csimplesimtimer.Next = value
 ```
 ## WorldGroupId 
 ```lua
-@type number
+--- @type number
 Read: csimplesimtimer.WorldGroupId
 Write: csimplesimtimer.WorldGroupId = value
 ```

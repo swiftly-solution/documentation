@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCheckTransmitInfo(ptr --[[ string ]])
+CCheckTransmitInfo(ptr)
 ```
 # Properties
 There are no properties available for this class.
@@ -30,7 +30,7 @@ cchecktransmitinfo:GetEntities()
 ## SetEntities
 ```lua
 @returns void
-cchecktransmitinfo:SetEntities(value --[[ table ]])
+cchecktransmitinfo:SetEntities(value)
 ```
 
 :::

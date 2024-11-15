@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_ViewTargetList(ptr --[[ string ]])
+CSSDSMsg_ViewTargetList(ptr)
 ```
 # Properties
 ## ViewId (Read-Only)
 ```lua
-@type SceneViewId_t
+--- @type SceneViewId_t
 Read: cssdsmsg_viewtargetlist.ViewId
 ```
 ## ViewName 
 ```lua
-@type string
+--- @type string
 Read: cssdsmsg_viewtargetlist.ViewName
 Write: cssdsmsg_viewtargetlist.ViewName = value
 ```
 ## Targets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cssdsmsg_viewtargetlist.Targets
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPairedSequenceComponentUpdater(ptr --[[ string ]])
+CPairedSequenceComponentUpdater(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: cpairedsequencecomponentupdater.Parent
 ```
 # Functions

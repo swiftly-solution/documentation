@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientSceneSystemThreadStateChange_t(ptr --[[ string ]])
+EventClientSceneSystemThreadStateChange_t(ptr)
 ```
 # Properties
 ## ThreadsActive 
 ```lua
-@type boolean
+--- @type boolean
 Read: eventclientscenesystemthreadstatechange_t.ThreadsActive
 Write: eventclientscenesystemthreadstatechange_t.ThreadsActive = value
 ```

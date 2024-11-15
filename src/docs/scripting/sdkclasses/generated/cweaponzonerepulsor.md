@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWeaponZoneRepulsor(ptr --[[ string ]])
+CWeaponZoneRepulsor(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cweaponzonerepulsor.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeQuad_t(ptr --[[ string ]])
+FeQuad_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: fequad_t.Node
 Write: fequad_t.Node = value
 ```
 ## Slack 
 ```lua
-@type number
+--- @type number
 Read: fequad_t.Slack
 Write: fequad_t.Slack = value
 ```
 ## Shape 
 ```lua
-@type table
+--- @type table
 Read: fequad_t.Shape
 Write: fequad_t.Shape = value
 ```

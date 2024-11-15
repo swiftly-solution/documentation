@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundAreaEntityOrientedBox(ptr --[[ string ]])
+CSoundAreaEntityOrientedBox(ptr)
 ```
 # Properties
 ## Min 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundareaentityorientedbox.Min
 Write: csoundareaentityorientedbox.Min = value
 ```
 ## Max 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundareaentityorientedbox.Max
 Write: csoundareaentityorientedbox.Max = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundAreaEntityBase
+--- @type CSoundAreaEntityBase
 Read: csoundareaentityorientedbox.Parent
 ```
 # Functions

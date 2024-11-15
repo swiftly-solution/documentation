@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmOverlayBlendTask(ptr --[[ string ]])
+CNmOverlayBlendTask(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmBlendTaskBase
+--- @type CNmBlendTaskBase
 Read: cnmoverlayblendtask.Parent
 ```
 # Functions

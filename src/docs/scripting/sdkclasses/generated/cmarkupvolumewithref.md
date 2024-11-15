@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMarkupVolumeWithRef(ptr --[[ string ]])
+CMarkupVolumeWithRef(ptr)
 ```
 # Properties
 ## UseRef 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmarkupvolumewithref.UseRef
 Write: cmarkupvolumewithref.UseRef = value
 ```
 ## RefPos 
 ```lua
-@type Vector
+--- @type Vector
 Read: cmarkupvolumewithref.RefPos
 Write: cmarkupvolumewithref.RefPos = value
 ```
 ## RefDot 
 ```lua
-@type number
+--- @type number
 Read: cmarkupvolumewithref.RefDot
 Write: cmarkupvolumewithref.RefDot = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMarkupVolumeTagged
+--- @type CMarkupVolumeTagged
 Read: cmarkupvolumewithref.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ Returns the path of a plugin.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-GetPluginPath(plugin_name --[[ string ]])
+--- @param plugin_name string
+--- @return string
+GetPluginPath(plugin_name)
 ```
 
 :::

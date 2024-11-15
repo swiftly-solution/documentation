@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsPropMultiplayer(ptr --[[ string ]])
+CPhysicsPropMultiplayer(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPhysicsProp
+--- @type CPhysicsProp
 Read: cphysicspropmultiplayer.Parent
 ```
 # Functions

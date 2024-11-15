@@ -12,65 +12,65 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncMonitor(ptr --[[ string ]])
+CFuncMonitor(ptr)
 ```
 # Properties
 ## TargetCamera 
 ```lua
-@type string
+--- @type string
 Read: cfuncmonitor.TargetCamera
 Write: cfuncmonitor.TargetCamera = value
 ```
 ## ResolutionEnum 
 ```lua
-@type number
+--- @type number
 Read: cfuncmonitor.ResolutionEnum
 Write: cfuncmonitor.ResolutionEnum = value
 ```
 ## RenderShadows 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmonitor.RenderShadows
 Write: cfuncmonitor.RenderShadows = value
 ```
 ## UseUniqueColorTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmonitor.UseUniqueColorTarget
 Write: cfuncmonitor.UseUniqueColorTarget = value
 ```
 ## BrushModelName 
 ```lua
-@type string
+--- @type string
 Read: cfuncmonitor.BrushModelName
 Write: cfuncmonitor.BrushModelName = value
 ```
 ## TargetCamera1 (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfuncmonitor.TargetCamera1
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmonitor.Enabled
 Write: cfuncmonitor.Enabled = value
 ```
 ## Draw3DSkybox 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmonitor.Draw3DSkybox
 Write: cfuncmonitor.Draw3DSkybox = value
 ```
 ## StartEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncmonitor.StartEnabled
 Write: cfuncmonitor.StartEnabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncBrush
+--- @type CFuncBrush
 Read: cfuncmonitor.Parent
 ```
 # Functions

@@ -12,88 +12,88 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFollowPathUpdateNode(ptr --[[ string ]])
+CFollowPathUpdateNode(ptr)
 ```
 # Properties
 ## BlendOutTime 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.BlendOutTime
 Write: cfollowpathupdatenode.BlendOutTime = value
 ```
 ## BlockNonPathMovement 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfollowpathupdatenode.BlockNonPathMovement
 Write: cfollowpathupdatenode.BlockNonPathMovement = value
 ```
 ## StopFeetAtGoal 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfollowpathupdatenode.StopFeetAtGoal
 Write: cfollowpathupdatenode.StopFeetAtGoal = value
 ```
 ## ScaleSpeed 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfollowpathupdatenode.ScaleSpeed
 Write: cfollowpathupdatenode.ScaleSpeed = value
 ```
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.Scale
 Write: cfollowpathupdatenode.Scale = value
 ```
 ## MinAngle 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.MinAngle
 Write: cfollowpathupdatenode.MinAngle = value
 ```
 ## MaxAngle 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.MaxAngle
 Write: cfollowpathupdatenode.MaxAngle = value
 ```
 ## SpeedScaleBlending 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.SpeedScaleBlending
 Write: cfollowpathupdatenode.SpeedScaleBlending = value
 ```
 ## TurnDamping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cfollowpathupdatenode.TurnDamping
 ```
 ## FacingTarget 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.FacingTarget
 Write: cfollowpathupdatenode.FacingTarget = value
 ```
 ## Param (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cfollowpathupdatenode.Param
 ```
 ## TurnToFaceOffset 
 ```lua
-@type number
+--- @type number
 Read: cfollowpathupdatenode.TurnToFaceOffset
 Write: cfollowpathupdatenode.TurnToFaceOffset = value
 ```
 ## TurnToFace 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfollowpathupdatenode.TurnToFace
 Write: cfollowpathupdatenode.TurnToFace = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cfollowpathupdatenode.Parent
 ```
 # Functions

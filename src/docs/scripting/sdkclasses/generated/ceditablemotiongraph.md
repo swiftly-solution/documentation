@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEditableMotionGraph(ptr --[[ string ]])
+CEditableMotionGraph(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CMotionGraph
+--- @type CMotionGraph
 Read: ceditablemotiongraph.Parent
 ```
 # Functions

@@ -11,7 +11,7 @@ Returns if the database is connected or not.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 db:IsConnected()
 ```
 

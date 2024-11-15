@@ -11,8 +11,9 @@ Sets the chat tag color of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetChatTagColor(color --[[ string ]])
+--- @param color string
+--- @return nil
+player:SetChatTagColor(color)
 ```
 
 :::

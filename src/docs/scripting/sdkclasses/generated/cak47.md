@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAK47(ptr --[[ string ]])
+CAK47(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cak47.Parent
 ```
 # Functions

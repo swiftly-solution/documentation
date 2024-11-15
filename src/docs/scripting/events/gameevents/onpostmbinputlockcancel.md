@@ -11,8 +11,9 @@ This event is triggered after mb_input_lock_cancel is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostMbInputLockCancel", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostMbInputLockCancel", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

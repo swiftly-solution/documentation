@@ -11,8 +11,9 @@ Returns the convar value of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-player:GetConvar(convar --[[ string ]])
+--- @param convar string
+--- @return string
+player:GetConvar(convar)
 ```
 
 :::

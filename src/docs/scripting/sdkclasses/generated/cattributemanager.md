@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAttributeManager(ptr --[[ string ]])
+CAttributeManager(ptr)
 ```
 # Properties
 ## ReapplyProvisionParity 
 ```lua
-@type number
+--- @type number
 Read: cattributemanager.ReapplyProvisionParity
 Write: cattributemanager.ReapplyProvisionParity = value
 ```
 ## Outer (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cattributemanager.Outer
 ```
 ## PreventLoopback 
 ```lua
-@type boolean
+--- @type boolean
 Read: cattributemanager.PreventLoopback
 Write: cattributemanager.PreventLoopback = value
 ```
 ## ProviderType 
 ```lua
-@type number
+--- @type number
 Read: cattributemanager.ProviderType
 Write: cattributemanager.ProviderType = value
 ```

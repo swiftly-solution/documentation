@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtActionParachutePositioning(ptr --[[ string ]])
+CBtActionParachutePositioning(ptr)
 ```
 # Properties
 ## ActionTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtactionparachutepositioning.ActionTimer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBtNode
+--- @type CBtNode
 Read: cbtactionparachutepositioning.Parent
 ```
 # Functions

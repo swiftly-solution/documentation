@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimDecoder(ptr --[[ string ]])
+CAnimDecoder(ptr)
 ```
 # Properties
 ## Version 
 ```lua
-@type number
+--- @type number
 Read: canimdecoder.Version
 Write: canimdecoder.Version = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: canimdecoder.Type
 Write: canimdecoder.Type = value
 ```

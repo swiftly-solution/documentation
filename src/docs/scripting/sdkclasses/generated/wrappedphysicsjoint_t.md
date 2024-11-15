@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WrappedPhysicsJoint_t(ptr --[[ string ]])
+WrappedPhysicsJoint_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

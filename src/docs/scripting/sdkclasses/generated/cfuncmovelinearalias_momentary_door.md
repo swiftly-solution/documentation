@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncMoveLinearAlias_momentary_door(ptr --[[ string ]])
+CFuncMoveLinearAlias_momentary_door(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CFuncMoveLinear
+--- @type CFuncMoveLinear
 Read: cfuncmovelinearalias_momentary_door.Parent
 ```
 # Functions

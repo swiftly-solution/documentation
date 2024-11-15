@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEconWearable(ptr --[[ string ]])
+CEconWearable(ptr)
 ```
 # Properties
 ## ForceSkin 
 ```lua
-@type number
+--- @type number
 Read: ceconwearable.ForceSkin
 Write: ceconwearable.ForceSkin = value
 ```
 ## AlwaysAllow 
 ```lua
-@type boolean
+--- @type boolean
 Read: ceconwearable.AlwaysAllow
 Write: ceconwearable.AlwaysAllow = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEconEntity
+--- @type CEconEntity
 Read: ceconwearable.Parent
 ```
 # Functions

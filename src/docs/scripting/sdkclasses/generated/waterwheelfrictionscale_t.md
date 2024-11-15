@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WaterWheelFrictionScale_t(ptr --[[ string ]])
+WaterWheelFrictionScale_t(ptr)
 ```
 # Properties
 ## FractionOfWheelSubmerged 
 ```lua
-@type number
+--- @type number
 Read: waterwheelfrictionscale_t.FractionOfWheelSubmerged
 Write: waterwheelfrictionscale_t.FractionOfWheelSubmerged = value
 ```
 ## FrictionScale 
 ```lua
-@type number
+--- @type number
 Read: waterwheelfrictionscale_t.FrictionScale
 Write: waterwheelfrictionscale_t.FrictionScale = value
 ```

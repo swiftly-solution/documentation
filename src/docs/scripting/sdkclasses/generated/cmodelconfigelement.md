@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement(ptr --[[ string ]])
+CModelConfigElement(ptr)
 ```
 # Properties
 ## ElementName 
 ```lua
-@type string
+--- @type string
 Read: cmodelconfigelement.ElementName
 Write: cmodelconfigelement.ElementName = value
 ```
 ## NestedElements (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfigelement.NestedElements
 ```
 # Functions

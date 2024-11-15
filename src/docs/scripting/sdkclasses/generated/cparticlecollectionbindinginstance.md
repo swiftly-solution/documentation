@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleCollectionBindingInstance(ptr --[[ string ]])
+CParticleCollectionBindingInstance(ptr)
 ```
 # Properties
 There are no properties available for this class.

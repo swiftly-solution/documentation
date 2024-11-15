@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathHelperUpdateNode(ptr --[[ string ]])
+CPathHelperUpdateNode(ptr)
 ```
 # Properties
 ## StoppingRadius 
 ```lua
-@type number
+--- @type number
 Read: cpathhelperupdatenode.StoppingRadius
 Write: cpathhelperupdatenode.StoppingRadius = value
 ```
 ## StoppingSpeedScale 
 ```lua
-@type number
+--- @type number
 Read: cpathhelperupdatenode.StoppingSpeedScale
 Write: cpathhelperupdatenode.StoppingSpeedScale = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cpathhelperupdatenode.Parent
 ```
 # Functions

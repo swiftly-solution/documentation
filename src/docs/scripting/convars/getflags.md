@@ -11,8 +11,9 @@ Returns the convar flags.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-convar:GetFlags(name --[[ string ]])
+--- @param name string
+--- @return number
+convar:GetFlags(name)
 ```
 
 :::

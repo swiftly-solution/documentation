@@ -11,8 +11,10 @@ Loads the memory from the provided signature.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:LoadFromSignature(library --[[ string ]], signature --[[ string ]])
+--- @param library string
+--- @param signature string
+--- @return nil
+memory:LoadFromSignature(library, signature)
 ```
 
 :::

@@ -11,8 +11,9 @@ Fires a game event to a client.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:FireEventToClient(playerid --[[ number ]])
+--- @param playerid number
+--- @return nil
+event:FireEventToClient(playerid)
 ```
 
 :::

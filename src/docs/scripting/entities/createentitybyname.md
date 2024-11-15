@@ -11,8 +11,9 @@ Creates an entity by the provided class name.
 ::: tabs
 @tab Lua
 ```lua
-@returns CEntityInstance
-CreateEntityByName(className --[[ string ]])
+--- @param className string
+--- @return CEntityInstance
+CreateEntityByName(className)
 ```
 To see a complete list of class names and the specific entity class, see the following link: [https://cs2.poggu.me/dumped-data/entity-list](https://cs2.poggu.me/dumped-data/entity-list).
 

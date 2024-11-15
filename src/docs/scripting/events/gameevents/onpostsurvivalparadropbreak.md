@@ -11,8 +11,9 @@ This event is triggered after survival_paradrop_break is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSurvivalParadropBreak", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSurvivalParadropBreak", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

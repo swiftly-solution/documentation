@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRenderBufferBinding(ptr --[[ string ]])
+CRenderBufferBinding(ptr)
 ```
 # Properties
 ## Buffer 
 ```lua
-@type number
+--- @type number
 Read: crenderbufferbinding.Buffer
 Write: crenderbufferbinding.Buffer = value
 ```
 ## BindOffsetBytes 
 ```lua
-@type number
+--- @type number
 Read: crenderbufferbinding.BindOffsetBytes
 Write: crenderbufferbinding.BindOffsetBytes = value
 ```

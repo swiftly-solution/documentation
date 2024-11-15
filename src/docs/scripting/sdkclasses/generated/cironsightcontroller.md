@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CIronSightController(ptr --[[ string ]])
+CIronSightController(ptr)
 ```
 # Properties
 ## IronSightAvailable 
 ```lua
-@type boolean
+--- @type boolean
 Read: cironsightcontroller.IronSightAvailable
 Write: cironsightcontroller.IronSightAvailable = value
 ```
 ## IronSightAmount 
 ```lua
-@type number
+--- @type number
 Read: cironsightcontroller.IronSightAmount
 Write: cironsightcontroller.IronSightAmount = value
 ```
 ## IronSightAmountGained 
 ```lua
-@type number
+--- @type number
 Read: cironsightcontroller.IronSightAmountGained
 Write: cironsightcontroller.IronSightAmountGained = value
 ```
 ## IronSightAmountBiased 
 ```lua
-@type number
+--- @type number
 Read: cironsightcontroller.IronSightAmountBiased
 Write: cironsightcontroller.IronSightAmountBiased = value
 ```

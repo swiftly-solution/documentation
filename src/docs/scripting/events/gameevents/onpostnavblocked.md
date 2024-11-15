@@ -11,8 +11,9 @@ This event is triggered after nav_blocked is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostNavBlocked", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostNavBlocked", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

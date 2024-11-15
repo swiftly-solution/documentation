@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSimpleMarkupVolumeTagged(ptr --[[ string ]])
+CSimpleMarkupVolumeTagged(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CMarkupVolumeTagged
+--- @type CMarkupVolumeTagged
 Read: csimplemarkupvolumetagged.Parent
 ```
 # Functions

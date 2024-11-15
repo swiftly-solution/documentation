@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PredictedDamageTag_t(ptr --[[ string ]])
+PredictedDamageTag_t(ptr)
 ```
 # Properties
 ## TagTick 
 ```lua
-@type number
+--- @type number
 Read: predicteddamagetag_t.TagTick
 Write: predicteddamagetag_t.TagTick = value
 ```
 ## FlinchModSmall 
 ```lua
-@type number
+--- @type number
 Read: predicteddamagetag_t.FlinchModSmall
 Write: predicteddamagetag_t.FlinchModSmall = value
 ```
 ## FlinchModLarge 
 ```lua
-@type number
+--- @type number
 Read: predicteddamagetag_t.FlinchModLarge
 Write: predicteddamagetag_t.FlinchModLarge = value
 ```
 ## FriendlyFireDamageReductionRatio 
 ```lua
-@type number
+--- @type number
 Read: predicteddamagetag_t.FriendlyFireDamageReductionRatio
 Write: predicteddamagetag_t.FriendlyFireDamageReductionRatio = value
 ```

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MaterialParamTexture_t(ptr --[[ string ]])
+MaterialParamTexture_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type MaterialParam_t
+--- @type MaterialParam_t
 Read: materialparamtexture_t.Parent
 ```
 # Functions

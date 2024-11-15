@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGameRulesProxy(ptr --[[ string ]])
+CGameRulesProxy(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cgamerulesproxy.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemHeavyAssaultSuit(ptr --[[ string ]])
+CItemHeavyAssaultSuit(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CItemAssaultSuit
+--- @type CItemAssaultSuit
 Read: citemheavyassaultsuit.Parent
 ```
 # Functions

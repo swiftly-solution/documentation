@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimUpdateSharedData(ptr --[[ string ]])
+CAnimUpdateSharedData(ptr)
 ```
 # Properties
 ## Settings (Read-Only)
 ```lua
-@type CAnimGraphSettingsManager
+--- @type CAnimGraphSettingsManager
 Read: canimupdateshareddata.Settings
 ```
 ## RootNodePath (Read-Only)
 ```lua
-@type CAnimNodePath
+--- @type CAnimNodePath
 Read: canimupdateshareddata.RootNodePath
 ```
 # Functions

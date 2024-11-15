@@ -11,8 +11,9 @@ Drops the client from the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:Drop(reason --[[ DisconnectReason ]])
+--- @param reason number DisconnectReason
+--- @return nil
+player:Drop(reason)
 ```
 
 :::

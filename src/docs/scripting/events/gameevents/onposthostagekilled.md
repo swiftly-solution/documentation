@@ -11,8 +11,9 @@ This event is triggered after hostage_killed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHostageKilled", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHostageKilled", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

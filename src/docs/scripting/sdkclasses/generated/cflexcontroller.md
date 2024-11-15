@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlexController(ptr --[[ string ]])
+CFlexController(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cflexcontroller.Name
 Write: cflexcontroller.Name = value
 ```
 ## Type 
 ```lua
-@type string
+--- @type string
 Read: cflexcontroller.Type
 Write: cflexcontroller.Type = value
 ```
 ## Min 
 ```lua
-@type number
+--- @type number
 Read: cflexcontroller.Min
 Write: cflexcontroller.Min = value
 ```
 ## Max 
 ```lua
-@type number
+--- @type number
 Read: cflexcontroller.Max
 Write: cflexcontroller.Max = value
 ```

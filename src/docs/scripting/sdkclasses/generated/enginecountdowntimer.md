@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EngineCountdownTimer(ptr --[[ string ]])
+EngineCountdownTimer(ptr)
 ```
 # Properties
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: enginecountdowntimer.Duration
 Write: enginecountdowntimer.Duration = value
 ```
 ## Timestamp 
 ```lua
-@type number
+--- @type number
 Read: enginecountdowntimer.Timestamp
 Write: enginecountdowntimer.Timestamp = value
 ```
 ## Timescale 
 ```lua
-@type number
+--- @type number
 Read: enginecountdowntimer.Timescale
 Write: enginecountdowntimer.Timescale = value
 ```

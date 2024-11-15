@@ -11,8 +11,9 @@ Returns the double value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-event:GetHookDouble(index --[[ number ]])
+--- @param index number
+--- @return number
+event:GetHookDouble(index)
 ```
 
 :::

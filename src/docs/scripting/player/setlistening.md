@@ -11,8 +11,10 @@ Sets the listening override of a specific player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetListening(id --[[ number ]], override --[[ ListenOverride ]])
+--- @param id number
+--- @param override number ListenOverride
+--- @return nil
+player:SetListening(id, override)
 ```
 
 :::

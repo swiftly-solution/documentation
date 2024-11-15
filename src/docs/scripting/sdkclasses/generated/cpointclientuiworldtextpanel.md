@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointClientUIWorldTextPanel(ptr --[[ string ]])
+CPointClientUIWorldTextPanel(ptr)
 ```
 # Properties
 ## MessageText 
 ```lua
-@type string
+--- @type string
 Read: cpointclientuiworldtextpanel.MessageText
 Write: cpointclientuiworldtextpanel.MessageText = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointClientUIWorldPanel
+--- @type CPointClientUIWorldPanel
 Read: cpointclientuiworldtextpanel.Parent
 ```
 # Functions

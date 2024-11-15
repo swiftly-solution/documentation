@@ -11,8 +11,9 @@ This event is triggered after guardian_wave_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostGuardianWaveRestart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostGuardianWaveRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

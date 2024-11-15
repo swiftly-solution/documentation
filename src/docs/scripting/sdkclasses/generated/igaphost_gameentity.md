@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IGapHost_GameEntity(ptr --[[ string ]])
+IGapHost_GameEntity(ptr)
 ```
 # Properties
 There are no properties available for this class.

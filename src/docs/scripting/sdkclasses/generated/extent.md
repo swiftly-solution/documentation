@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-Extent(ptr --[[ string ]])
+Extent(ptr)
 ```
 # Properties
 ## Lo 
 ```lua
-@type Vector
+--- @type Vector
 Read: extent.Lo
 Write: extent.Lo = value
 ```
 ## Hi 
 ```lua
-@type Vector
+--- @type Vector
 Read: extent.Hi
 Write: extent.Hi = value
 ```

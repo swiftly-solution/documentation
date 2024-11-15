@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_Command(ptr --[[ string ]])
+CModelConfigElement_Command(ptr)
 ```
 # Properties
 ## Command 
 ```lua
-@type string
+--- @type string
 Read: cmodelconfigelement_command.Command
 Write: cmodelconfigelement_command.Command = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_command.Parent
 ```
 # Functions

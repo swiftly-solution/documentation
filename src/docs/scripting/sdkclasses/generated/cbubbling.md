@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBubbling(ptr --[[ string ]])
+CBubbling(ptr)
 ```
 # Properties
 ## Density 
 ```lua
-@type number
+--- @type number
 Read: cbubbling.Density
 Write: cbubbling.Density = value
 ```
 ## Frequency 
 ```lua
-@type number
+--- @type number
 Read: cbubbling.Frequency
 Write: cbubbling.Frequency = value
 ```
 ## State 
 ```lua
-@type number
+--- @type number
 Read: cbubbling.State
 Write: cbubbling.State = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cbubbling.Parent
 ```
 # Functions

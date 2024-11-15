@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ModelBoneFlexDriverControl_t(ptr --[[ string ]])
+ModelBoneFlexDriverControl_t(ptr)
 ```
 # Properties
 ## BoneComponent 
 ```lua
-@type number
+--- @type number
 Read: modelboneflexdrivercontrol_t.BoneComponent
 Write: modelboneflexdrivercontrol_t.BoneComponent = value
 ```
 ## FlexController 
 ```lua
-@type string
+--- @type string
 Read: modelboneflexdrivercontrol_t.FlexController
 Write: modelboneflexdrivercontrol_t.FlexController = value
 ```
 ## FlexControllerToken 
 ```lua
-@type number
+--- @type number
 Read: modelboneflexdrivercontrol_t.FlexControllerToken
 Write: modelboneflexdrivercontrol_t.FlexControllerToken = value
 ```
 ## Min 
 ```lua
-@type number
+--- @type number
 Read: modelboneflexdrivercontrol_t.Min
 Write: modelboneflexdrivercontrol_t.Min = value
 ```
 ## Max 
 ```lua
-@type number
+--- @type number
 Read: modelboneflexdrivercontrol_t.Max
 Write: modelboneflexdrivercontrol_t.Max = value
 ```

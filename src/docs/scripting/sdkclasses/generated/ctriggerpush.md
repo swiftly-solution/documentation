@@ -12,53 +12,53 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerPush(ptr --[[ string ]])
+CTriggerPush(ptr)
 ```
 # Properties
 ## PushEntitySpace 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: ctriggerpush.PushEntitySpace
 Write: ctriggerpush.PushEntitySpace = value
 ```
 ## PushDirEntitySpace 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctriggerpush.PushDirEntitySpace
 Write: ctriggerpush.PushDirEntitySpace = value
 ```
 ## TriggerOnStartTouch 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerpush.TriggerOnStartTouch
 Write: ctriggerpush.TriggerOnStartTouch = value
 ```
 ## UsePathSimple 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctriggerpush.UsePathSimple
 Write: ctriggerpush.UsePathSimple = value
 ```
 ## PathSimpleName 
 ```lua
-@type string
+--- @type string
 Read: ctriggerpush.PathSimpleName
 Write: ctriggerpush.PathSimpleName = value
 ```
 ## PathSimple (Read-Only)
 ```lua
-@type CPathSimple
+--- @type CPathSimple
 Read: ctriggerpush.PathSimple
 ```
 ## SplinePushType 
 ```lua
-@type number
+--- @type number
 Read: ctriggerpush.SplinePushType
 Write: ctriggerpush.SplinePushType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerpush.Parent
 ```
 # Functions

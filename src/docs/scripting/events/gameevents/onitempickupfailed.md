@@ -11,8 +11,9 @@ This event is triggered when item_pickup_failed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnItemPickupFailed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnItemPickupFailed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

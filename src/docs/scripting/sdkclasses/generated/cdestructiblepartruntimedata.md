@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDestructiblePartRuntimeData(ptr --[[ string ]])
+CDestructiblePartRuntimeData(ptr)
 ```
 # Properties
 ## HealthRemaining 
 ```lua
-@type number
+--- @type number
 Read: cdestructiblepartruntimedata.HealthRemaining
 Write: cdestructiblepartruntimedata.HealthRemaining = value
 ```

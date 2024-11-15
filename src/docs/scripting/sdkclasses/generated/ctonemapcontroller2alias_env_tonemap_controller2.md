@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTonemapController2Alias_env_tonemap_controller2(ptr --[[ string ]])
+CTonemapController2Alias_env_tonemap_controller2(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CTonemapController2
+--- @type CTonemapController2
 Read: ctonemapcontroller2alias_env_tonemap_controller2.Parent
 ```
 # Functions

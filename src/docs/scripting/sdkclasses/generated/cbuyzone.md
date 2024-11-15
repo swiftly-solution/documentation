@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBuyZone(ptr --[[ string ]])
+CBuyZone(ptr)
 ```
 # Properties
 ## LegacyTeamNum 
 ```lua
-@type number
+--- @type number
 Read: cbuyzone.LegacyTeamNum
 Write: cbuyzone.LegacyTeamNum = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cbuyzone.Parent
 ```
 # Functions

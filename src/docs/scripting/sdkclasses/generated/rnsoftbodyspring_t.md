@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnSoftbodySpring_t(ptr --[[ string ]])
+RnSoftbodySpring_t(ptr)
 ```
 # Properties
 ## Particle 
 ```lua
-@type table
+--- @type table
 Read: rnsoftbodyspring_t.Particle
 Write: rnsoftbodyspring_t.Particle = value
 ```
 ## Length 
 ```lua
-@type number
+--- @type number
 Read: rnsoftbodyspring_t.Length
 Write: rnsoftbodyspring_t.Length = value
 ```

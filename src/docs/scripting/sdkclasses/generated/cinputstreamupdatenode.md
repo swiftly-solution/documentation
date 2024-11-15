@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInputStreamUpdateNode(ptr --[[ string ]])
+CInputStreamUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: cinputstreamupdatenode.Parent
 ```
 # Functions

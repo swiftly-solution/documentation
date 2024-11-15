@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-COrnamentProp(ptr --[[ string ]])
+COrnamentProp(ptr)
 ```
 # Properties
 ## InitialOwner 
 ```lua
-@type string
+--- @type string
 Read: cornamentprop.InitialOwner
 Write: cornamentprop.InitialOwner = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CDynamicProp
+--- @type CDynamicProp
 Read: cornamentprop.Parent
 ```
 # Functions

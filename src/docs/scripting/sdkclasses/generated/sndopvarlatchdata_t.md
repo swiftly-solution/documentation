@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-sndopvarlatchdata_t(ptr --[[ string ]])
+sndopvarlatchdata_t(ptr)
 ```
 # Properties
 ## Stack 
 ```lua
-@type string
+--- @type string
 Read: sndopvarlatchdata_t.Stack
 Write: sndopvarlatchdata_t.Stack = value
 ```
 ## Operator 
 ```lua
-@type string
+--- @type string
 Read: sndopvarlatchdata_t.Operator
 Write: sndopvarlatchdata_t.Operator = value
 ```
 ## Opvar 
 ```lua
-@type string
+--- @type string
 Read: sndopvarlatchdata_t.Opvar
 Write: sndopvarlatchdata_t.Opvar = value
 ```
 ## Val 
 ```lua
-@type number
+--- @type number
 Read: sndopvarlatchdata_t.Val
 Write: sndopvarlatchdata_t.Val = value
 ```
 ## Pos 
 ```lua
-@type Vector
+--- @type Vector
 Read: sndopvarlatchdata_t.Pos
 Write: sndopvarlatchdata_t.Pos = value
 ```

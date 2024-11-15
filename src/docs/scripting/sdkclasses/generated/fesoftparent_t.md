@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeSoftParent_t(ptr --[[ string ]])
+FeSoftParent_t(ptr)
 ```
 # Properties
 ## Parent 
 ```lua
-@type number
+--- @type number
 Read: fesoftparent_t.Parent
 Write: fesoftparent_t.Parent = value
 ```
 ## Alpha 
 ```lua
-@type number
+--- @type number
 Read: fesoftparent_t.Alpha
 Write: fesoftparent_t.Alpha = value
 ```

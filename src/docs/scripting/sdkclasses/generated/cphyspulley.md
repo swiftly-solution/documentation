@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysPulley(ptr --[[ string ]])
+CPhysPulley(ptr)
 ```
 # Properties
 ## Position2 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphyspulley.Position2
 Write: cphyspulley.Position2 = value
 ```
 ## Offset 
 ```lua
-@type table
+--- @type table
 Read: cphyspulley.Offset
 Write: cphyspulley.Offset = value
 ```
 ## AddLength 
 ```lua
-@type number
+--- @type number
 Read: cphyspulley.AddLength
 Write: cphyspulley.AddLength = value
 ```
 ## GearRatio 
 ```lua
-@type number
+--- @type number
 Read: cphyspulley.GearRatio
 Write: cphyspulley.GearRatio = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphyspulley.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered after cs_pre_restart is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsPreRestart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsPreRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

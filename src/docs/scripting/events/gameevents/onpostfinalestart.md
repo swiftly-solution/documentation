@@ -11,8 +11,9 @@ This event is triggered after finale_start is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostFinaleStart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostFinaleStart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

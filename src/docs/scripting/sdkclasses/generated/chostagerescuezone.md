@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHostageRescueZone(ptr --[[ string ]])
+CHostageRescueZone(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CHostageRescueZoneShim
+--- @type CHostageRescueZoneShim
 Read: chostagerescuezone.Parent
 ```
 # Functions

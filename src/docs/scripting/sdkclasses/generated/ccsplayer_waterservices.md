@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_WaterServices(ptr --[[ string ]])
+CCSPlayer_WaterServices(ptr)
 ```
 # Properties
 ## NextDrownDamageTime 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_waterservices.NextDrownDamageTime
 Write: ccsplayer_waterservices.NextDrownDamageTime = value
 ```
 ## DrownDmgRate 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_waterservices.DrownDmgRate
 Write: ccsplayer_waterservices.DrownDmgRate = value
 ```
 ## AirFinishedTime 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_waterservices.AirFinishedTime
 Write: ccsplayer_waterservices.AirFinishedTime = value
 ```
 ## WaterJumpTime 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_waterservices.WaterJumpTime
 Write: ccsplayer_waterservices.WaterJumpTime = value
 ```
 ## WaterJumpVel 
 ```lua
-@type Vector
+--- @type Vector
 Read: ccsplayer_waterservices.WaterJumpVel
 Write: ccsplayer_waterservices.WaterJumpVel = value
 ```
 ## SwimSoundTime 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_waterservices.SwimSoundTime
 Write: ccsplayer_waterservices.SwimSoundTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_WaterServices
+--- @type CPlayer_WaterServices
 Read: ccsplayer_waterservices.Parent
 ```
 # Functions

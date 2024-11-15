@@ -11,7 +11,7 @@ Returns the return value of a hook.
 ::: tabs
 @tab Lua
 ```lua
-@returns any
+--- @return any
 event:GetHookReturn()
 ```
 

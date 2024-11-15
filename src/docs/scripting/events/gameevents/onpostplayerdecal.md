@@ -11,8 +11,9 @@ This event is triggered after player_decal is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerDecal", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerDecal", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

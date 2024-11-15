@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGOViewModel_GraphController(ptr --[[ string ]])
+CCSGOViewModel_GraphController(ptr)
 ```
 # Properties
 ## ReloadComplete 
 ```lua
-@type CAnimGraphTagOptionalRef
+--- @type CAnimGraphTagOptionalRef
 Read: ccsgoviewmodel_graphcontroller.ReloadComplete
 Write: ccsgoviewmodel_graphcontroller.ReloadComplete = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimGraphControllerBase
+--- @type CAnimGraphControllerBase
 Read: ccsgoviewmodel_graphcontroller.Parent
 ```
 # Functions

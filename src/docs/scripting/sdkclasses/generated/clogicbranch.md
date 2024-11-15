@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicBranch(ptr --[[ string ]])
+CLogicBranch(ptr)
 ```
 # Properties
 ## InValue 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicbranch.InValue
 Write: clogicbranch.InValue = value
 ```
 ## OnTrue (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicbranch.OnTrue
 ```
 ## OnFalse (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicbranch.OnFalse
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicbranch.Parent
 ```
 # Functions

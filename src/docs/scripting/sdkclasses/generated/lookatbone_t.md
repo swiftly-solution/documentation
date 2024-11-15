@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-LookAtBone_t(ptr --[[ string ]])
+LookAtBone_t(ptr)
 ```
 # Properties
 ## Index 
 ```lua
-@type number
+--- @type number
 Read: lookatbone_t.Index
 Write: lookatbone_t.Index = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: lookatbone_t.Weight
 Write: lookatbone_t.Weight = value
 ```

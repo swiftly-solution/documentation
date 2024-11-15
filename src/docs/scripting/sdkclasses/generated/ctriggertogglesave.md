@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerToggleSave(ptr --[[ string ]])
+CTriggerToggleSave(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggertogglesave.Parent
 ```
 # Functions

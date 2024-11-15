@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ServerAuthoritativeWeaponSlot_t(ptr --[[ string ]])
+ServerAuthoritativeWeaponSlot_t(ptr)
 ```
 # Properties
 ## Class 
 ```lua
-@type number
+--- @type number
 Read: serverauthoritativeweaponslot_t.Class
 Write: serverauthoritativeweaponslot_t.Class = value
 ```
 ## Slot 
 ```lua
-@type number
+--- @type number
 Read: serverauthoritativeweaponslot_t.Slot
 Write: serverauthoritativeweaponslot_t.Slot = value
 ```
 ## ItemDefIdx 
 ```lua
-@type number
+--- @type number
 Read: serverauthoritativeweaponslot_t.ItemDefIdx
 Write: serverauthoritativeweaponslot_t.ItemDefIdx = value
 ```

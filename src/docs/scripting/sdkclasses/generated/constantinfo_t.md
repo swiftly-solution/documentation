@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ConstantInfo_t(ptr --[[ string ]])
+ConstantInfo_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: constantinfo_t.Name
 Write: constantinfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type number
+--- @type number
 Read: constantinfo_t.NameToken
 Write: constantinfo_t.NameToken = value
 ```
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: constantinfo_t.Value
 Write: constantinfo_t.Value = value
 ```

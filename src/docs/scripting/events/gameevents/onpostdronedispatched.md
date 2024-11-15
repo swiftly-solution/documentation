@@ -11,8 +11,9 @@ This event is triggered after drone_dispatched is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDroneDispatched", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDroneDispatched", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

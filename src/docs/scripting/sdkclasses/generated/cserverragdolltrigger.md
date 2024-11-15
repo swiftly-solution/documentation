@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CServerRagdollTrigger(ptr --[[ string ]])
+CServerRagdollTrigger(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cserverragdolltrigger.Parent
 ```
 # Functions

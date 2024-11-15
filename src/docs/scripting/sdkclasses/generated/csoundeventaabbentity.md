@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventAABBEntity(ptr --[[ string ]])
+CSoundEventAABBEntity(ptr)
 ```
 # Properties
 ## Mins 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundeventaabbentity.Mins
 Write: csoundeventaabbentity.Mins = value
 ```
 ## Maxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundeventaabbentity.Maxs
 Write: csoundeventaabbentity.Maxs = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundEventEntity
+--- @type CSoundEventEntity
 Read: csoundeventaabbentity.Parent
 ```
 # Functions

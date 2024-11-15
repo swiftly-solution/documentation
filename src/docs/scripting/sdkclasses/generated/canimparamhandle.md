@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimParamHandle(ptr --[[ string ]])
+CAnimParamHandle(ptr)
 ```
 # Properties
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: canimparamhandle.Type
 Write: canimparamhandle.Type = value
 ```
 ## Index 
 ```lua
-@type number
+--- @type number
 Read: canimparamhandle.Index
 Write: canimparamhandle.Index = value
 ```

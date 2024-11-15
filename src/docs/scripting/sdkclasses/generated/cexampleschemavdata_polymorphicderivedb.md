@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CExampleSchemaVData_PolymorphicDerivedB(ptr --[[ string ]])
+CExampleSchemaVData_PolymorphicDerivedB(ptr)
 ```
 # Properties
 ## DerivedB 
 ```lua
-@type number
+--- @type number
 Read: cexampleschemavdata_polymorphicderivedb.DerivedB
 Write: cexampleschemavdata_polymorphicderivedb.DerivedB = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CExampleSchemaVData_PolymorphicBase
+--- @type CExampleSchemaVData_PolymorphicBase
 Read: cexampleschemavdata_polymorphicderivedb.Parent
 ```
 # Functions

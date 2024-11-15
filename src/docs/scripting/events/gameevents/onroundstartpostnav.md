@@ -11,8 +11,9 @@ This event is triggered when round_start_post_nav is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundStartPostNav", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundStartPostNav", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

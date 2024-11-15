@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEconItemAttribute(ptr --[[ string ]])
+CEconItemAttribute(ptr)
 ```
 # Properties
 ## AttributeDefinitionIndex 
 ```lua
-@type number
+--- @type number
 Read: ceconitemattribute.AttributeDefinitionIndex
 Write: ceconitemattribute.AttributeDefinitionIndex = value
 ```
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: ceconitemattribute.Value
 Write: ceconitemattribute.Value = value
 ```
 ## InitialValue 
 ```lua
-@type number
+--- @type number
 Read: ceconitemattribute.InitialValue
 Write: ceconitemattribute.InitialValue = value
 ```
 ## RefundableCurrency 
 ```lua
-@type number
+--- @type number
 Read: ceconitemattribute.RefundableCurrency
 Write: ceconitemattribute.RefundableCurrency = value
 ```
 ## SetBonus 
 ```lua
-@type boolean
+--- @type boolean
 Read: ceconitemattribute.SetBonus
 Write: ceconitemattribute.SetBonus = value
 ```

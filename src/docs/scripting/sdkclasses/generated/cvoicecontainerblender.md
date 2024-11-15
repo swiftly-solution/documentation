@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerBlender(ptr --[[ string ]])
+CVoiceContainerBlender(ptr)
 ```
 # Properties
 ## FirstSound (Read-Only)
 ```lua
-@type CSoundContainerReference
+--- @type CSoundContainerReference
 Read: cvoicecontainerblender.FirstSound
 ```
 ## SecondSound (Read-Only)
 ```lua
-@type CSoundContainerReference
+--- @type CSoundContainerReference
 Read: cvoicecontainerblender.SecondSound
 ```
 ## BlendFactor 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerblender.BlendFactor
 Write: cvoicecontainerblender.BlendFactor = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerblender.Parent
 ```
 # Functions

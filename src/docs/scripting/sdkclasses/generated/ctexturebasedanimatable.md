@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTextureBasedAnimatable(ptr --[[ string ]])
+CTextureBasedAnimatable(ptr)
 ```
 # Properties
 ## Loop 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctexturebasedanimatable.Loop
 Write: ctexturebasedanimatable.Loop = value
 ```
 ## FPS 
 ```lua
-@type number
+--- @type number
 Read: ctexturebasedanimatable.FPS
 Write: ctexturebasedanimatable.FPS = value
 ```
 ## AnimationBoundsMin 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctexturebasedanimatable.AnimationBoundsMin
 Write: ctexturebasedanimatable.AnimationBoundsMin = value
 ```
 ## AnimationBoundsMax 
 ```lua
-@type Vector
+--- @type Vector
 Read: ctexturebasedanimatable.AnimationBoundsMax
 Write: ctexturebasedanimatable.AnimationBoundsMax = value
 ```
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: ctexturebasedanimatable.StartTime
 Write: ctexturebasedanimatable.StartTime = value
 ```
 ## StartFrame 
 ```lua
-@type number
+--- @type number
 Read: ctexturebasedanimatable.StartFrame
 Write: ctexturebasedanimatable.StartFrame = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: ctexturebasedanimatable.Parent
 ```
 # Functions

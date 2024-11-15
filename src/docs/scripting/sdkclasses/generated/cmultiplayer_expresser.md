@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMultiplayer_Expresser(ptr --[[ string ]])
+CMultiplayer_Expresser(ptr)
 ```
 # Properties
 ## AllowMultipleScenes 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmultiplayer_expresser.AllowMultipleScenes
 Write: cmultiplayer_expresser.AllowMultipleScenes = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAI_ExpresserWithFollowup
+--- @type CAI_ExpresserWithFollowup
 Read: cmultiplayer_expresser.Parent
 ```
 # Functions

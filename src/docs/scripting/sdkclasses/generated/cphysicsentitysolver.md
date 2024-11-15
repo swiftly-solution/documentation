@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsEntitySolver(ptr --[[ string ]])
+CPhysicsEntitySolver(ptr)
 ```
 # Properties
 ## MovingEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysicsentitysolver.MovingEntity
 ```
 ## PhysicsBlocker (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysicsentitysolver.PhysicsBlocker
 ```
 ## SeparationDuration 
 ```lua
-@type number
+--- @type number
 Read: cphysicsentitysolver.SeparationDuration
 Write: cphysicsentitysolver.SeparationDuration = value
 ```
 ## CancelTime 
 ```lua
-@type number
+--- @type number
 Read: cphysicsentitysolver.CancelTime
 Write: cphysicsentitysolver.CancelTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cphysicsentitysolver.Parent
 ```
 # Functions

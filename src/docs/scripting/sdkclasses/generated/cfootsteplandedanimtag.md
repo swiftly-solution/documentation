@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootstepLandedAnimTag(ptr --[[ string ]])
+CFootstepLandedAnimTag(ptr)
 ```
 # Properties
 ## FootstepType 
 ```lua
-@type number
+--- @type number
 Read: cfootsteplandedanimtag.FootstepType
 Write: cfootsteplandedanimtag.FootstepType = value
 ```
 ## OverrideSoundName 
 ```lua
-@type string
+--- @type string
 Read: cfootsteplandedanimtag.OverrideSoundName
 Write: cfootsteplandedanimtag.OverrideSoundName = value
 ```
 ## DebugAnimSourceString 
 ```lua
-@type string
+--- @type string
 Read: cfootsteplandedanimtag.DebugAnimSourceString
 Write: cfootsteplandedanimtag.DebugAnimSourceString = value
 ```
 ## BoneName 
 ```lua
-@type string
+--- @type string
 Read: cfootsteplandedanimtag.BoneName
 Write: cfootsteplandedanimtag.BoneName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cfootsteplandedanimtag.Parent
 ```
 # Functions

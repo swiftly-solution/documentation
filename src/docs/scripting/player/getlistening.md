@@ -11,8 +11,9 @@ Returns the listening override of a specific player.
 ::: tabs
 @tab Lua
 ```lua
-@returns ListenOverride
-player:GetListening(id --[[ number ]])
+--- @param id number
+--- @return number ListenOverride
+player:GetListening(id)
 ```
 
 :::

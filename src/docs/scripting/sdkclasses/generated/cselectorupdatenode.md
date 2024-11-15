@@ -12,62 +12,62 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSelectorUpdateNode(ptr --[[ string ]])
+CSelectorUpdateNode(ptr)
 ```
 # Properties
 ## Children (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cselectorupdatenode.Children
 ```
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cselectorupdatenode.Tags
 ```
 ## BlendCurve (Read-Only)
 ```lua
-@type CBlendCurve
+--- @type CBlendCurve
 Read: cselectorupdatenode.BlendCurve
 ```
 ## Parameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cselectorupdatenode.Parameter
 ```
 ## TagIndex 
 ```lua
-@type number
+--- @type number
 Read: cselectorupdatenode.TagIndex
 Write: cselectorupdatenode.TagIndex = value
 ```
 ## TagBehavior 
 ```lua
-@type number
+--- @type number
 Read: cselectorupdatenode.TagBehavior
 Write: cselectorupdatenode.TagBehavior = value
 ```
 ## ResetOnChange 
 ```lua
-@type boolean
+--- @type boolean
 Read: cselectorupdatenode.ResetOnChange
 Write: cselectorupdatenode.ResetOnChange = value
 ```
 ## LockWhenWaning 
 ```lua
-@type boolean
+--- @type boolean
 Read: cselectorupdatenode.LockWhenWaning
 Write: cselectorupdatenode.LockWhenWaning = value
 ```
 ## SyncCyclesOnChange 
 ```lua
-@type boolean
+--- @type boolean
 Read: cselectorupdatenode.SyncCyclesOnChange
 Write: cselectorupdatenode.SyncCyclesOnChange = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: cselectorupdatenode.Parent
 ```
 # Functions

@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimStateMachineUpdater(ptr --[[ string ]])
+CAnimStateMachineUpdater(ptr)
 ```
 # Properties
 ## States (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimstatemachineupdater.States
 ```
 ## Transitions (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimstatemachineupdater.Transitions
 ```
 ## StartStateIndex 
 ```lua
-@type number
+--- @type number
 Read: canimstatemachineupdater.StartStateIndex
 Write: canimstatemachineupdater.StartStateIndex = value
 ```

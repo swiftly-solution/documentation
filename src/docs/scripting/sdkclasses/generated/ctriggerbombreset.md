@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerBombReset(ptr --[[ string ]])
+CTriggerBombReset(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerbombreset.Parent
 ```
 # Functions

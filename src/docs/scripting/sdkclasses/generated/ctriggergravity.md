@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerGravity(ptr --[[ string ]])
+CTriggerGravity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggergravity.Parent
 ```
 # Functions

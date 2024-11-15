@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlashbang(ptr --[[ string ]])
+CFlashbang(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenade
+--- @type CBaseCSGrenade
 Read: cflashbang.Parent
 ```
 # Functions

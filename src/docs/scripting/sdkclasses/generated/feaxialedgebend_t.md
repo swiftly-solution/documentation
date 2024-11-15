@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeAxialEdgeBend_t(ptr --[[ string ]])
+FeAxialEdgeBend_t(ptr)
 ```
 # Properties
 ## Te 
 ```lua
-@type number
+--- @type number
 Read: feaxialedgebend_t.Te
 Write: feaxialedgebend_t.Te = value
 ```
 ## Tv 
 ```lua
-@type number
+--- @type number
 Read: feaxialedgebend_t.Tv
 Write: feaxialedgebend_t.Tv = value
 ```
 ## Dist 
 ```lua
-@type number
+--- @type number
 Read: feaxialedgebend_t.Dist
 Write: feaxialedgebend_t.Dist = value
 ```
 ## Weight 
 ```lua
-@type table
+--- @type table
 Read: feaxialedgebend_t.Weight
 Write: feaxialedgebend_t.Weight = value
 ```
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: feaxialedgebend_t.Node
 Write: feaxialedgebend_t.Node = value
 ```

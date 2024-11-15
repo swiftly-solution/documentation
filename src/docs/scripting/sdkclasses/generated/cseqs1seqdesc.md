@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqS1SeqDesc(ptr --[[ string ]])
+CSeqS1SeqDesc(ptr)
 ```
 # Properties
 ## Flags (Read-Only)
 ```lua
-@type CSeqSeqDescFlag
+--- @type CSeqSeqDescFlag
 Read: cseqs1seqdesc.Flags
 ```
 ## Fetch (Read-Only)
 ```lua
-@type CSeqMultiFetch
+--- @type CSeqMultiFetch
 Read: cseqs1seqdesc.Fetch
 ```
 ## LocalWeightlist 
 ```lua
-@type number
+--- @type number
 Read: cseqs1seqdesc.LocalWeightlist
 Write: cseqs1seqdesc.LocalWeightlist = value
 ```
 ## AutoLayerArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqs1seqdesc.AutoLayerArray
 ```
 ## IKLockArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqs1seqdesc.IKLockArray
 ```
 ## Transition (Read-Only)
 ```lua
-@type CSeqTransition
+--- @type CSeqTransition
 Read: cseqs1seqdesc.Transition
 ```
 ## ActivityArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqs1seqdesc.ActivityArray
 ```
 ## FootMotion (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqs1seqdesc.FootMotion
 ```
 # Functions

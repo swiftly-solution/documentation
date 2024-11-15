@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CScriptUniformRandomStream(ptr --[[ string ]])
+CScriptUniformRandomStream(ptr)
 ```
 # Properties
 ## InitialSeed 
 ```lua
-@type number
+--- @type number
 Read: cscriptuniformrandomstream.InitialSeed
 Write: cscriptuniformrandomstream.InitialSeed = value
 ```

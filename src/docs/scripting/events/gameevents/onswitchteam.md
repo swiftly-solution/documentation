@@ -11,8 +11,9 @@ This event is triggered when switch_team is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSwitchTeam", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSwitchTeam", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ Sets the ability to bunnyhop to the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetBunnyhop(state --[[ boolean ]])
+--- @param state boolean
+--- @return nil
+player:SetBunnyhop(state)
 ```
 
 :::

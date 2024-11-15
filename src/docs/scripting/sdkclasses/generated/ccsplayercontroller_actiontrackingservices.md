@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayerController_ActionTrackingServices(ptr --[[ string ]])
+CCSPlayerController_ActionTrackingServices(ptr)
 ```
 # Properties
 ## PerRoundStats (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccsplayercontroller_actiontrackingservices.PerRoundStats
 ```
 ## MatchStats (Read-Only)
 ```lua
-@type CSMatchStats_t
+--- @type CSMatchStats_t
 Read: ccsplayercontroller_actiontrackingservices.MatchStats
 ```
 ## NumRoundKills 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_actiontrackingservices.NumRoundKills
 Write: ccsplayercontroller_actiontrackingservices.NumRoundKills = value
 ```
 ## NumRoundKillsHeadshots 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_actiontrackingservices.NumRoundKillsHeadshots
 Write: ccsplayercontroller_actiontrackingservices.NumRoundKillsHeadshots = value
 ```
 ## TotalRoundDamageDealt 
 ```lua
-@type number
+--- @type number
 Read: ccsplayercontroller_actiontrackingservices.TotalRoundDamageDealt
 Write: ccsplayercontroller_actiontrackingservices.TotalRoundDamageDealt = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerControllerComponent
+--- @type CPlayerControllerComponent
 Read: ccsplayercontroller_actiontrackingservices.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateActionUpdater(ptr --[[ string ]])
+CStateActionUpdater(ptr)
 ```
 # Properties
 ## Behavior 
 ```lua
-@type number
+--- @type number
 Read: cstateactionupdater.Behavior
 Write: cstateactionupdater.Behavior = value
 ```

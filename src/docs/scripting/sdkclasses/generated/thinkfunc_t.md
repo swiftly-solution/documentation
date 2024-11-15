@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-thinkfunc_t(ptr --[[ string ]])
+thinkfunc_t(ptr)
 ```
 # Properties
 ## Context 
 ```lua
-@type number
+--- @type number
 Read: thinkfunc_t.Context
 Write: thinkfunc_t.Context = value
 ```
 ## NextThinkTick 
 ```lua
-@type number
+--- @type number
 Read: thinkfunc_t.NextThinkTick
 Write: thinkfunc_t.NextThinkTick = value
 ```
 ## LastThinkTick 
 ```lua
-@type number
+--- @type number
 Read: thinkfunc_t.LastThinkTick
 Write: thinkfunc_t.LastThinkTick = value
 ```

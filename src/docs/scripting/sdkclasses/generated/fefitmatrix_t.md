@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeFitMatrix_t(ptr --[[ string ]])
+FeFitMatrix_t(ptr)
 ```
 # Properties
 ## Center 
 ```lua
-@type Vector
+--- @type Vector
 Read: fefitmatrix_t.Center
 Write: fefitmatrix_t.Center = value
 ```
 ## End 
 ```lua
-@type number
+--- @type number
 Read: fefitmatrix_t.End
 Write: fefitmatrix_t.End = value
 ```
 ## Node 
 ```lua
-@type number
+--- @type number
 Read: fefitmatrix_t.Node
 Write: fefitmatrix_t.Node = value
 ```
 ## BeginDynamic 
 ```lua
-@type number
+--- @type number
 Read: fefitmatrix_t.BeginDynamic
 Write: fefitmatrix_t.BeginDynamic = value
 ```

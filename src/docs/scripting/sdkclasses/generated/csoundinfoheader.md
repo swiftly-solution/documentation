@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundInfoHeader(ptr --[[ string ]])
+CSoundInfoHeader(ptr)
 ```
 # Properties
 There are no properties available for this class.

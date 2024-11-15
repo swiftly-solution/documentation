@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTankTargetChange(ptr --[[ string ]])
+CTankTargetChange(ptr)
 ```
 # Properties
 ## NewTargetName 
 ```lua
-@type string
+--- @type string
 Read: ctanktargetchange.NewTargetName
 Write: ctanktargetchange.NewTargetName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: ctanktargetchange.Parent
 ```
 # Functions

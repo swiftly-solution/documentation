@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SellbackPurchaseEntry_t(ptr --[[ string ]])
+SellbackPurchaseEntry_t(ptr)
 ```
 # Properties
 ## DefIdx 
 ```lua
-@type number
+--- @type number
 Read: sellbackpurchaseentry_t.DefIdx
 Write: sellbackpurchaseentry_t.DefIdx = value
 ```
 ## Cost 
 ```lua
-@type number
+--- @type number
 Read: sellbackpurchaseentry_t.Cost
 Write: sellbackpurchaseentry_t.Cost = value
 ```
 ## PrevArmor 
 ```lua
-@type number
+--- @type number
 Read: sellbackpurchaseentry_t.PrevArmor
 Write: sellbackpurchaseentry_t.PrevArmor = value
 ```
 ## PrevHelmet 
 ```lua
-@type boolean
+--- @type boolean
 Read: sellbackpurchaseentry_t.PrevHelmet
 Write: sellbackpurchaseentry_t.PrevHelmet = value
 ```
 ## Item (Read-Only)
 ```lua
-@type CEntityInstance
+--- @type CEntityInstance
 Read: sellbackpurchaseentry_t.Item
 ```
 # Functions

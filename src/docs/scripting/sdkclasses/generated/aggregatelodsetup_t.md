@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AggregateLODSetup_t(ptr --[[ string ]])
+AggregateLODSetup_t(ptr)
 ```
 # Properties
 ## LODOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: aggregatelodsetup_t.LODOrigin
 Write: aggregatelodsetup_t.LODOrigin = value
 ```
 ## MaxObjectScale 
 ```lua
-@type number
+--- @type number
 Read: aggregatelodsetup_t.MaxObjectScale
 Write: aggregatelodsetup_t.MaxObjectScale = value
 ```
 ## SwitchDistances (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: aggregatelodsetup_t.SwitchDistances
 ```
 # Functions

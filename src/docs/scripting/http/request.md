@@ -17,32 +17,32 @@ HTTPRequest()
 # Properties
 ## path (Read-Only)
 ```lua
-@type string
+--- @type string
 Read: httprequest.path
 ```
 ## method (Read-Only)
 ```lua
-@type string
+--- @type string
 Read: httprequest.method
 ```
 ## body (Read-Only)
 ```lua
-@type string
+--- @type string
 Read: httprequest.body
 ```
 ## files (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: httprequest.files
 ```
 ## headers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: httprequest.headers
 ```
 ## params (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: httprequest.params
 ```
 # Functions

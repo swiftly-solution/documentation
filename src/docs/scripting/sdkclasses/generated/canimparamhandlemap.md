@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimParamHandleMap(ptr --[[ string ]])
+CAnimParamHandleMap(ptr)
 ```
 # Properties
 There are no properties available for this class.

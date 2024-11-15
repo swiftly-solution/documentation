@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ParticleChildrenInfo_t(ptr --[[ string ]])
+ParticleChildrenInfo_t(ptr)
 ```
 # Properties
 ## Delay 
 ```lua
-@type number
+--- @type number
 Read: particlechildreninfo_t.Delay
 Write: particlechildreninfo_t.Delay = value
 ```
 ## EndCap 
 ```lua
-@type boolean
+--- @type boolean
 Read: particlechildreninfo_t.EndCap
 Write: particlechildreninfo_t.EndCap = value
 ```
 ## DisableChild 
 ```lua
-@type boolean
+--- @type boolean
 Read: particlechildreninfo_t.DisableChild
 Write: particlechildreninfo_t.DisableChild = value
 ```
 ## DetailLevel 
 ```lua
-@type number
+--- @type number
 Read: particlechildreninfo_t.DetailLevel
 Write: particlechildreninfo_t.DetailLevel = value
 ```

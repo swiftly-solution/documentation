@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPointScriptExtensions_observer(ptr --[[ string ]])
+CCSPointScriptExtensions_observer(ptr)
 ```
 # Properties
 There are no properties available for this class.

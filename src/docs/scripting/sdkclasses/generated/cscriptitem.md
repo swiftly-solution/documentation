@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CScriptItem(ptr --[[ string ]])
+CScriptItem(ptr)
 ```
 # Properties
 ## MoveTypeOverride 
 ```lua
-@type number
+--- @type number
 Read: cscriptitem.MoveTypeOverride
 Write: cscriptitem.MoveTypeOverride = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CItem
+--- @type CItem
 Read: cscriptitem.Parent
 ```
 # Functions

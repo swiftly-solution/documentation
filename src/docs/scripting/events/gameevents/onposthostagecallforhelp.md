@@ -11,8 +11,9 @@ This event is triggered after hostage_call_for_help is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHostageCallForHelp", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHostageCallForHelp", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

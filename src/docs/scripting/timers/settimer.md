@@ -11,8 +11,10 @@ Executes a callback at the specified interval.
 ::: tabs
 @tab Lua
 ```lua
-@returns TimerHandle
-SetTimer(delay --[[ number ]], callback --[[ function ]])
+--- @param delay number
+--- @param callback function
+--- @return number TimerHandle
+SetTimer(delay, callback)
 ```
 
 :::

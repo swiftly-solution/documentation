@@ -11,8 +11,9 @@ Returns if the path is a directory or not
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-files:IsDirectory(path --[[ string ]])
+--- @param path string
+--- @return boolean
+files:IsDirectory(path)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

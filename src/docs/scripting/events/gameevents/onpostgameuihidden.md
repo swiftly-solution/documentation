@@ -11,8 +11,9 @@ This event is triggered after gameui_hidden is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostGameuiHidden", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostGameuiHidden", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

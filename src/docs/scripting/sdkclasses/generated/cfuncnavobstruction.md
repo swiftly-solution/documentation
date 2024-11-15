@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncNavObstruction(ptr --[[ string ]])
+CFuncNavObstruction(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfuncnavobstruction.Disabled
 Write: cfuncnavobstruction.Disabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncnavobstruction.Parent
 ```
 # Functions

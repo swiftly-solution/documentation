@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPerParticleVecInput(ptr --[[ string ]])
+CPerParticleVecInput(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CParticleVecInput
+--- @type CParticleVecInput
 Read: cperparticlevecinput.Parent
 ```
 # Functions

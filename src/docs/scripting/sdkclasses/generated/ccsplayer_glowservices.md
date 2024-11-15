@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_GlowServices(ptr --[[ string ]])
+CCSPlayer_GlowServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_glowservices.Parent
 ```
 # Functions

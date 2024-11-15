@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncWallToggle(ptr --[[ string ]])
+CFuncWallToggle(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CFuncWall
+--- @type CFuncWall
 Read: cfuncwalltoggle.Parent
 ```
 # Functions

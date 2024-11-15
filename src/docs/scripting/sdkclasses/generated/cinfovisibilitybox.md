@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoVisibilityBox(ptr --[[ string ]])
+CInfoVisibilityBox(ptr)
 ```
 # Properties
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: cinfovisibilitybox.Mode
 Write: cinfovisibilitybox.Mode = value
 ```
 ## BoxSize 
 ```lua
-@type Vector
+--- @type Vector
 Read: cinfovisibilitybox.BoxSize
 Write: cinfovisibilitybox.BoxSize = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinfovisibilitybox.Enabled
 Write: cinfovisibilitybox.Enabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cinfovisibilitybox.Parent
 ```
 # Functions

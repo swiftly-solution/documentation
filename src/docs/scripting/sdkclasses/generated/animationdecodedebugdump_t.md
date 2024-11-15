@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AnimationDecodeDebugDump_t(ptr --[[ string ]])
+AnimationDecodeDebugDump_t(ptr)
 ```
 # Properties
 ## ProcessingType 
 ```lua
-@type number
+--- @type number
 Read: animationdecodedebugdump_t.ProcessingType
 Write: animationdecodedebugdump_t.ProcessingType = value
 ```
 ## Elems (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationdecodedebugdump_t.Elems
 ```
 # Functions

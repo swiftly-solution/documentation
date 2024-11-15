@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolume(ptr --[[ string ]])
+CNavVolume(ptr)
 ```
 # Properties
 There are no properties available for this class.

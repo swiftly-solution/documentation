@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SceneEventId_t(ptr --[[ string ]])
+SceneEventId_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: sceneeventid_t.Value
 Write: sceneeventid_t.Value = value
 ```

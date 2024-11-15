@@ -11,8 +11,9 @@ This event is triggered when player_radio is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerRadio", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerRadio", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

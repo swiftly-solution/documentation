@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-TimedEvent(ptr --[[ string ]])
+TimedEvent(ptr)
 ```
 # Properties
 ## TimeBetweenEvents 
 ```lua
-@type number
+--- @type number
 Read: timedevent.TimeBetweenEvents
 Write: timedevent.TimeBetweenEvents = value
 ```
 ## NextEvent 
 ```lua
-@type number
+--- @type number
 Read: timedevent.NextEvent
 Write: timedevent.NextEvent = value
 ```

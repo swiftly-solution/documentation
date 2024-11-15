@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RenderProjectedMaterial_t(ptr --[[ string ]])
+RenderProjectedMaterial_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

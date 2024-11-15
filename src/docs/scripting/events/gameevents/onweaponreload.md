@@ -11,8 +11,9 @@ This event is triggered when weapon_reload is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnWeaponReload", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnWeaponReload", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

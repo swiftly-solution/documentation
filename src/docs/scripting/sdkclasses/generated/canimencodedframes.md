@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimEncodedFrames(ptr --[[ string ]])
+CAnimEncodedFrames(ptr)
 ```
 # Properties
 ## Frames 
 ```lua
-@type number
+--- @type number
 Read: canimencodedframes.Frames
 Write: canimencodedframes.Frames = value
 ```
 ## FramesPerBlock 
 ```lua
-@type number
+--- @type number
 Read: canimencodedframes.FramesPerBlock
 Write: canimencodedframes.FramesPerBlock = value
 ```
 ## FrameblockArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimencodedframes.FrameblockArray
 ```
 ## UsageDifferences (Read-Only)
 ```lua
-@type CAnimEncodeDifference
+--- @type CAnimEncodeDifference
 Read: canimencodedframes.UsageDifferences
 ```
 # Functions

@@ -11,8 +11,9 @@ Returns the longitude from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-ip:GetLongitude(ip --[[ string ]])
+--- @param ip string
+--- @return number
+ip:GetLongitude(ip)
 ```
 
 :::

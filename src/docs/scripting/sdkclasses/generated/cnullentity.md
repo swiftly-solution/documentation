@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNullEntity(ptr --[[ string ]])
+CNullEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cnullentity.Parent
 ```
 # Functions

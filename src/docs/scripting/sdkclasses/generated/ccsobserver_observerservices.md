@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSObserver_ObserverServices(ptr --[[ string ]])
+CCSObserver_ObserverServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_ObserverServices
+--- @type CPlayer_ObserverServices
 Read: ccsobserver_observerservices.Parent
 ```
 # Functions

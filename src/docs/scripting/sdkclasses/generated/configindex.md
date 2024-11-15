@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ConfigIndex(ptr --[[ string ]])
+ConfigIndex(ptr)
 ```
 # Properties
 ## Group 
 ```lua
-@type number
+--- @type number
 Read: configindex.Group
 Write: configindex.Group = value
 ```
 ## Config 
 ```lua
-@type number
+--- @type number
 Read: configindex.Config
 Write: configindex.Config = value
 ```

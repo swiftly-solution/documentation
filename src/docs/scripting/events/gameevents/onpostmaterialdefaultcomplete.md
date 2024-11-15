@@ -11,8 +11,9 @@ This event is triggered after material_default_complete is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostMaterialDefaultComplete", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostMaterialDefaultComplete", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

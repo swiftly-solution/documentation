@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtNodeComposite(ptr --[[ string ]])
+CBtNodeComposite(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBtNode
+--- @type CBtNode
 Read: cbtnodecomposite.Parent
 ```
 # Functions

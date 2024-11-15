@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityComponent(ptr --[[ string ]])
+CEntityComponent(ptr)
 ```
 # Properties
 There are no properties available for this class.

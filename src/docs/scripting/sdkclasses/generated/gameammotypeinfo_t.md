@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-GameAmmoTypeInfo_t(ptr --[[ string ]])
+GameAmmoTypeInfo_t(ptr)
 ```
 # Properties
 ## BuySize 
 ```lua
-@type number
+--- @type number
 Read: gameammotypeinfo_t.BuySize
 Write: gameammotypeinfo_t.BuySize = value
 ```
 ## Cost 
 ```lua
-@type number
+--- @type number
 Read: gameammotypeinfo_t.Cost
 Write: gameammotypeinfo_t.Cost = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type AmmoTypeInfo_t
+--- @type AmmoTypeInfo_t
 Read: gameammotypeinfo_t.Parent
 ```
 # Functions

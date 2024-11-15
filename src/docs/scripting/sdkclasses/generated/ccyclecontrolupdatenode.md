@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCycleControlUpdateNode(ptr --[[ string ]])
+CCycleControlUpdateNode(ptr)
 ```
 # Properties
 ## ValueSource 
 ```lua
-@type number
+--- @type number
 Read: ccyclecontrolupdatenode.ValueSource
 Write: ccyclecontrolupdatenode.ValueSource = value
 ```
 ## ParamIndex (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ccyclecontrolupdatenode.ParamIndex
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: ccyclecontrolupdatenode.Parent
 ```
 # Functions

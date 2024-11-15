@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-Relationship_t(ptr --[[ string ]])
+Relationship_t(ptr)
 ```
 # Properties
 ## Disposition 
 ```lua
-@type number
+--- @type number
 Read: relationship_t.Disposition
 Write: relationship_t.Disposition = value
 ```
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: relationship_t.Priority
 Write: relationship_t.Priority = value
 ```

@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGameChoreoServices(ptr --[[ string ]])
+CGameChoreoServices(ptr)
 ```
 # Properties
 ## Owner (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: cgamechoreoservices.Owner
 ```
 ## ScriptedSequence (Read-Only)
 ```lua
-@type CScriptedSequence
+--- @type CScriptedSequence
 Read: cgamechoreoservices.ScriptedSequence
 ```
 ## TimeStartedState 
 ```lua
-@type number
+--- @type number
 Read: cgamechoreoservices.TimeStartedState
 Write: cgamechoreoservices.TimeStartedState = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type IChoreoServices
+--- @type IChoreoServices
 Read: cgamechoreoservices.Parent
 ```
 # Functions

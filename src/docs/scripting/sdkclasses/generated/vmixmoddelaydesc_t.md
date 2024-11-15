@@ -12,59 +12,59 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixModDelayDesc_t(ptr --[[ string ]])
+VMixModDelayDesc_t(ptr)
 ```
 # Properties
 ## FeedbackFilter (Read-Only)
 ```lua
-@type VMixFilterDesc_t
+--- @type VMixFilterDesc_t
 Read: vmixmoddelaydesc_t.FeedbackFilter
 ```
 ## PhaseInvert 
 ```lua
-@type boolean
+--- @type boolean
 Read: vmixmoddelaydesc_t.PhaseInvert
 Write: vmixmoddelaydesc_t.PhaseInvert = value
 ```
 ## GlideTime 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.GlideTime
 Write: vmixmoddelaydesc_t.GlideTime = value
 ```
 ## Delay 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.Delay
 Write: vmixmoddelaydesc_t.Delay = value
 ```
 ## OutputGain 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.OutputGain
 Write: vmixmoddelaydesc_t.OutputGain = value
 ```
 ## FeedbackGain 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.FeedbackGain
 Write: vmixmoddelaydesc_t.FeedbackGain = value
 ```
 ## ModRate 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.ModRate
 Write: vmixmoddelaydesc_t.ModRate = value
 ```
 ## ModDepth 
 ```lua
-@type number
+--- @type number
 Read: vmixmoddelaydesc_t.ModDepth
 Write: vmixmoddelaydesc_t.ModDepth = value
 ```
 ## ApplyAntialiasing 
 ```lua
-@type boolean
+--- @type boolean
 Read: vmixmoddelaydesc_t.ApplyAntialiasing
 Write: vmixmoddelaydesc_t.ApplyAntialiasing = value
 ```

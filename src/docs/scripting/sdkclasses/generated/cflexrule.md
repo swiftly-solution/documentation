@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlexRule(ptr --[[ string ]])
+CFlexRule(ptr)
 ```
 # Properties
 ## Flex 
 ```lua
-@type number
+--- @type number
 Read: cflexrule.Flex
 Write: cflexrule.Flex = value
 ```
 ## FlexOps (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cflexrule.FlexOps
 ```
 # Functions

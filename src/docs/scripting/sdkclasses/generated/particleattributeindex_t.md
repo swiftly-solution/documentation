@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ParticleAttributeIndex_t(ptr --[[ string ]])
+ParticleAttributeIndex_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: particleattributeindex_t.Value
 Write: particleattributeindex_t.Value = value
 ```

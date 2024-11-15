@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointVelocitySensor(ptr --[[ string ]])
+CPointVelocitySensor(ptr)
 ```
 # Properties
 ## TargetEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointvelocitysensor.TargetEntity
 ```
 ## Axis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpointvelocitysensor.Axis
 Write: cpointvelocitysensor.Axis = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointvelocitysensor.Enabled
 Write: cpointvelocitysensor.Enabled = value
 ```
 ## PrevVelocity 
 ```lua
-@type number
+--- @type number
 Read: cpointvelocitysensor.PrevVelocity
 Write: cpointvelocitysensor.PrevVelocity = value
 ```
 ## AvgInterval 
 ```lua
-@type number
+--- @type number
 Read: cpointvelocitysensor.AvgInterval
 Write: cpointvelocitysensor.AvgInterval = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointvelocitysensor.Parent
 ```
 # Functions

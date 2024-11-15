@@ -11,8 +11,9 @@ This event is triggered when molotov_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnMolotovDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnMolotovDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

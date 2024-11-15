@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ChangeAccessorFieldPathIndex_t(ptr --[[ string ]])
+ChangeAccessorFieldPathIndex_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: changeaccessorfieldpathindex_t.Value
 Write: changeaccessorfieldpathindex_t.Value = value
 ```

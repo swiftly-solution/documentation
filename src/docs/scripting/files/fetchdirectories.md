@@ -11,8 +11,9 @@ Returns a list of all the directories in a directory.
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-files:FetchDirectories(path --[[ string ]])
+--- @param path string
+--- @return table
+files:FetchDirectories(path)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IKSolverSettings_t(ptr --[[ string ]])
+IKSolverSettings_t(ptr)
 ```
 # Properties
 ## SolverType 
 ```lua
-@type number
+--- @type number
 Read: iksolversettings_t.SolverType
 Write: iksolversettings_t.SolverType = value
 ```
 ## NumIterations 
 ```lua
-@type number
+--- @type number
 Read: iksolversettings_t.NumIterations
 Write: iksolversettings_t.NumIterations = value
 ```
 ## EndEffectorRotationFixUpMode 
 ```lua
-@type number
+--- @type number
 Read: iksolversettings_t.EndEffectorRotationFixUpMode
 Write: iksolversettings_t.EndEffectorRotationFixUpMode = value
 ```

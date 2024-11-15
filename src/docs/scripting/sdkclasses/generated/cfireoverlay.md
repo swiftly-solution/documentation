@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFireOverlay(ptr --[[ string ]])
+CFireOverlay(ptr)
 ```
 # Properties
 ## BaseColors 
 ```lua
-@type table
+--- @type table
 Read: cfireoverlay.BaseColors
 Write: cfireoverlay.BaseColors = value
 ```
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: cfireoverlay.Scale
 Write: cfireoverlay.Scale = value
 ```
 ## GUID 
 ```lua
-@type number
+--- @type number
 Read: cfireoverlay.GUID
 Write: cfireoverlay.GUID = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CGlowOverlay
+--- @type CGlowOverlay
 Read: cfireoverlay.Parent
 ```
 # Functions

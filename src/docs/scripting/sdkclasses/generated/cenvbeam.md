@@ -12,118 +12,118 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvBeam(ptr --[[ string ]])
+CEnvBeam(ptr)
 ```
 # Properties
 ## Active 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.Active
 Write: cenvbeam.Active = value
 ```
 ## StartEntity 
 ```lua
-@type string
+--- @type string
 Read: cenvbeam.StartEntity
 Write: cenvbeam.StartEntity = value
 ```
 ## EndEntity 
 ```lua
-@type string
+--- @type string
 Read: cenvbeam.EndEntity
 Write: cenvbeam.EndEntity = value
 ```
 ## Life 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.Life
 Write: cenvbeam.Life = value
 ```
 ## BoltWidth 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.BoltWidth
 Write: cenvbeam.BoltWidth = value
 ```
 ## NoiseAmplitude 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.NoiseAmplitude
 Write: cenvbeam.NoiseAmplitude = value
 ```
 ## Speed 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.Speed
 Write: cenvbeam.Speed = value
 ```
 ## Restrike 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.Restrike
 Write: cenvbeam.Restrike = value
 ```
 ## SpriteName 
 ```lua
-@type string
+--- @type string
 Read: cenvbeam.SpriteName
 Write: cenvbeam.SpriteName = value
 ```
 ## FrameStart 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.FrameStart
 Write: cenvbeam.FrameStart = value
 ```
 ## EndPointWorld 
 ```lua
-@type Vector
+--- @type Vector
 Read: cenvbeam.EndPointWorld
 Write: cenvbeam.EndPointWorld = value
 ```
 ## EndPointRelative 
 ```lua
-@type Vector
+--- @type Vector
 Read: cenvbeam.EndPointRelative
 Write: cenvbeam.EndPointRelative = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.Radius
 Write: cenvbeam.Radius = value
 ```
 ## TouchType 
 ```lua
-@type number
+--- @type number
 Read: cenvbeam.TouchType
 Write: cenvbeam.TouchType = value
 ```
 ## FilterName 
 ```lua
-@type string
+--- @type string
 Read: cenvbeam.FilterName
 Write: cenvbeam.FilterName = value
 ```
 ## Filter (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvbeam.Filter
 ```
 ## Decal 
 ```lua
-@type string
+--- @type string
 Read: cenvbeam.Decal
 Write: cenvbeam.Decal = value
 ```
 ## OnTouchedByEntity (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cenvbeam.OnTouchedByEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBeam
+--- @type CBeam
 Read: cenvbeam.Parent
 ```
 # Functions

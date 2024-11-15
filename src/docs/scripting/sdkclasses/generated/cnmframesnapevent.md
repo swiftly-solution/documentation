@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmFrameSnapEvent(ptr --[[ string ]])
+CNmFrameSnapEvent(ptr)
 ```
 # Properties
 ## FrameSnapMode 
 ```lua
-@type number
+--- @type number
 Read: cnmframesnapevent.FrameSnapMode
 Write: cnmframesnapevent.FrameSnapMode = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmframesnapevent.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStaticPoseCacheBuilder(ptr --[[ string ]])
+CStaticPoseCacheBuilder(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CStaticPoseCache
+--- @type CStaticPoseCache
 Read: cstaticposecachebuilder.Parent
 ```
 # Functions

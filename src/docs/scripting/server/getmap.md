@@ -11,7 +11,7 @@ Returns the current map name.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 server:GetMap()
 ```
 

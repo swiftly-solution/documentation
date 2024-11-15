@@ -11,8 +11,9 @@ This event is triggered after team_score is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostTeamScore", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostTeamScore", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSAdditionalPerRoundStats_t(ptr --[[ string ]])
+CSAdditionalPerRoundStats_t(ptr)
 ```
 # Properties
 ## NumChickensKilled 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.NumChickensKilled
 Write: csadditionalperroundstats_t.NumChickensKilled = value
 ```
 ## KillsWhileBlind 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.KillsWhileBlind
 Write: csadditionalperroundstats_t.KillsWhileBlind = value
 ```
 ## BombCarrierkills 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.BombCarrierkills
 Write: csadditionalperroundstats_t.BombCarrierkills = value
 ```
 ## BurnDamageInflicted 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.BurnDamageInflicted
 Write: csadditionalperroundstats_t.BurnDamageInflicted = value
 ```
 ## BlastDamageInflicted 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.BlastDamageInflicted
 Write: csadditionalperroundstats_t.BlastDamageInflicted = value
 ```
 ## Dinks 
 ```lua
-@type number
+--- @type number
 Read: csadditionalperroundstats_t.Dinks
 Write: csadditionalperroundstats_t.Dinks = value
 ```

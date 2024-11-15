@@ -11,8 +11,9 @@ This event is triggered when team_intro_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTeamIntroEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTeamIntroEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

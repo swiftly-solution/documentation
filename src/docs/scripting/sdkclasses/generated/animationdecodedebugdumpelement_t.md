@@ -12,39 +12,39 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AnimationDecodeDebugDumpElement_t(ptr --[[ string ]])
+AnimationDecodeDebugDumpElement_t(ptr)
 ```
 # Properties
 ## EntityIndex 
 ```lua
-@type number
+--- @type number
 Read: animationdecodedebugdumpelement_t.EntityIndex
 Write: animationdecodedebugdumpelement_t.EntityIndex = value
 ```
 ## ModelName 
 ```lua
-@type string
+--- @type string
 Read: animationdecodedebugdumpelement_t.ModelName
 Write: animationdecodedebugdumpelement_t.ModelName = value
 ```
 ## PoseParams (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationdecodedebugdumpelement_t.PoseParams
 ```
 ## DecodeOps (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationdecodedebugdumpelement_t.DecodeOps
 ```
 ## InternalOps (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationdecodedebugdumpelement_t.InternalOps
 ```
 ## DecodedAnims (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: animationdecodedebugdumpelement_t.DecodedAnims
 ```
 # Functions

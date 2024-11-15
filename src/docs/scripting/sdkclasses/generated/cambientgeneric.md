@@ -12,70 +12,70 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAmbientGeneric(ptr --[[ string ]])
+CAmbientGeneric(ptr)
 ```
 # Properties
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cambientgeneric.Radius
 Write: cambientgeneric.Radius = value
 ```
 ## MaxRadius 
 ```lua
-@type number
+--- @type number
 Read: cambientgeneric.MaxRadius
 Write: cambientgeneric.MaxRadius = value
 ```
 ## SoundLevel 
 ```lua
-@type number
+--- @type number
 Read: cambientgeneric.SoundLevel
 Write: cambientgeneric.SoundLevel = value
 ```
 ## Dpv (Read-Only)
 ```lua
-@type dynpitchvol_t
+--- @type dynpitchvol_t
 Read: cambientgeneric.Dpv
 ```
 ## Active 
 ```lua
-@type boolean
+--- @type boolean
 Read: cambientgeneric.Active
 Write: cambientgeneric.Active = value
 ```
 ## Looping 
 ```lua
-@type boolean
+--- @type boolean
 Read: cambientgeneric.Looping
 Write: cambientgeneric.Looping = value
 ```
 ## Sound 
 ```lua
-@type string
+--- @type string
 Read: cambientgeneric.Sound
 Write: cambientgeneric.Sound = value
 ```
 ## SourceEntName 
 ```lua
-@type string
+--- @type string
 Read: cambientgeneric.SourceEntName
 Write: cambientgeneric.SourceEntName = value
 ```
 ## SoundSource (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cambientgeneric.SoundSource
 ```
 ## SoundSourceEntIndex 
 ```lua
-@type number
+--- @type number
 Read: cambientgeneric.SoundSourceEntIndex
 Write: cambientgeneric.SoundSourceEntIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cambientgeneric.Parent
 ```
 # Functions

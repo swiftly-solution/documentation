@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmTargetWarpEvent(ptr --[[ string ]])
+CNmTargetWarpEvent(ptr)
 ```
 # Properties
 ## Rule 
 ```lua
-@type number
+--- @type number
 Read: cnmtargetwarpevent.Rule
 Write: cnmtargetwarpevent.Rule = value
 ```
 ## Algorithm 
 ```lua
-@type number
+--- @type number
 Read: cnmtargetwarpevent.Algorithm
 Write: cnmtargetwarpevent.Algorithm = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmtargetwarpevent.Parent
 ```
 # Functions

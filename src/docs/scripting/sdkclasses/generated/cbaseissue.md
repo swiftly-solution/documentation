@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseIssue(ptr --[[ string ]])
+CBaseIssue(ptr)
 ```
 # Properties
 ## TypeString 
 ```lua
-@type string
+--- @type string
 Read: cbaseissue.TypeString
 Write: cbaseissue.TypeString = value
 ```
 ## DetailsString 
 ```lua
-@type string
+--- @type string
 Read: cbaseissue.DetailsString
 Write: cbaseissue.DetailsString = value
 ```
 ## NumYesVotes 
 ```lua
-@type number
+--- @type number
 Read: cbaseissue.NumYesVotes
 Write: cbaseissue.NumYesVotes = value
 ```
 ## NumNoVotes 
 ```lua
-@type number
+--- @type number
 Read: cbaseissue.NumNoVotes
 Write: cbaseissue.NumNoVotes = value
 ```
 ## NumPotentialVotes 
 ```lua
-@type number
+--- @type number
 Read: cbaseissue.NumPotentialVotes
 Write: cbaseissue.NumPotentialVotes = value
 ```

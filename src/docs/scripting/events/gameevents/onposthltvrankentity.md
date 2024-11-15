@@ -11,8 +11,9 @@ This event is triggered after hltv_rank_entity is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHltvRankEntity", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHltvRankEntity", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

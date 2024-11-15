@@ -11,8 +11,9 @@ This event is triggered when inferno_extinguish is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnInfernoExtinguish", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnInfernoExtinguish", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

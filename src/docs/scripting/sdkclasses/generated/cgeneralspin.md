@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGeneralSpin(ptr --[[ string ]])
+CGeneralSpin(ptr)
 ```
 # Properties
 ## SpinRateDegrees 
 ```lua
-@type number
+--- @type number
 Read: cgeneralspin.SpinRateDegrees
 Write: cgeneralspin.SpinRateDegrees = value
 ```
 ## SpinRateMinDegrees 
 ```lua
-@type number
+--- @type number
 Read: cgeneralspin.SpinRateMinDegrees
 Write: cgeneralspin.SpinRateMinDegrees = value
 ```
 ## SpinRateStopTime 
 ```lua
-@type number
+--- @type number
 Read: cgeneralspin.SpinRateStopTime
 Write: cgeneralspin.SpinRateStopTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunctionOperator
+--- @type CParticleFunctionOperator
 Read: cgeneralspin.Parent
 ```
 # Functions

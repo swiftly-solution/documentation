@@ -12,7 +12,7 @@ A user message is a wrapper for protobuf messages.
 @tab Lua
 # Constructor
 ```lua
-UserMessage(message --[[ string ]])
+UserMessage(message)
 ```
 # Properties
 There are no properties available for this class.
@@ -35,387 +35,387 @@ usermessage:GetMessageID()
 ## HasField
 ```lua
 @returns boolean
-usermessage:HasField(fieldName --[[ string ]])
+usermessage:HasField(fieldName)
 ```
 ## GetInt32
 ```lua
 @returns number
-usermessage:GetInt32(fieldName --[[ string ]])
+usermessage:GetInt32(fieldName)
 ```
 ## SetInt32
 ```lua
 @returns void
-usermessage:SetInt32(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetInt32(fieldName, value)
 ```
 ## GetRepeatedInt32
 ```lua
 @returns number
-usermessage:GetRepeatedInt32(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedInt32(fieldName, index)
 ```
 ## SetRepeatedInt32
 ```lua
 @returns void
-usermessage:SetRepeatedInt32(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedInt32(fieldName, index, value)
 ```
 ## AddInt32
 ```lua
 @returns void
-usermessage:AddInt32(fieldName --[[ string ]], index --[[ number ]])
+usermessage:AddInt32(fieldName, index)
 ```
 ## GetInt64
 ```lua
 @returns number
-usermessage:GetInt64(fieldName --[[ string ]])
+usermessage:GetInt64(fieldName)
 ```
 ## SetInt64
 ```lua
 @returns void
-usermessage:SetInt64(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetInt64(fieldName, value)
 ```
 ## GetRepeatedInt64
 ```lua
 @returns number
-usermessage:GetRepeatedInt64(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedInt64(fieldName, index)
 ```
 ## SetRepeatedInt64
 ```lua
 @returns void
-usermessage:SetRepeatedInt64(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedInt64(fieldName, index, value)
 ```
 ## AddInt64
 ```lua
 @returns void
-usermessage:AddInt64(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddInt64(fieldName, value)
 ```
 ## GetUInt32
 ```lua
 @returns number
-usermessage:GetUInt32(fieldName --[[ string ]])
+usermessage:GetUInt32(fieldName)
 ```
 ## SetUInt32
 ```lua
 @returns void
-usermessage:SetUInt32(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetUInt32(fieldName, value)
 ```
 ## GetRepeatedUInt32
 ```lua
 @returns number
-usermessage:GetRepeatedUInt32(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedUInt32(fieldName, index)
 ```
 ## SetRepeatedUInt32
 ```lua
 @returns void
-usermessage:SetRepeatedUInt32(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedUInt32(fieldName, index, value)
 ```
 ## AddUInt32
 ```lua
 @returns number
-usermessage:AddUInt32(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddUInt32(fieldName, value)
 ```
 ## GetUInt64
 ```lua
 @returns number
-usermessage:GetUInt64(fieldName --[[ string ]])
+usermessage:GetUInt64(fieldName)
 ```
 ## SetUInt64
 ```lua
 @returns void
-usermessage:SetUInt64(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetUInt64(fieldName, value)
 ```
 ## GetRepeatedUInt64
 ```lua
 @returns number
-usermessage:GetRepeatedUInt64(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedUInt64(fieldName, index)
 ```
 ## SetRepeatedUInt64
 ```lua
 @returns void
-usermessage:SetRepeatedUInt64(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedUInt64(fieldName, index, value)
 ```
 ## AddUInt64
 ```lua
 @returns void
-usermessage:AddUInt64(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddUInt64(fieldName, value)
 ```
 ## GetInt64OrUnsigned
 ```lua
 @returns number
-usermessage:GetInt64OrUnsigned(fieldName --[[ string ]])
+usermessage:GetInt64OrUnsigned(fieldName)
 ```
 ## SetInt64OrUnsigned
 ```lua
 @returns void
-usermessage:SetInt64OrUnsigned(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetInt64OrUnsigned(fieldName, value)
 ```
 ## GetRepeatedInt64OrUnsigned
 ```lua
 @returns number
-usermessage:GetRepeatedInt64OrUnsigned(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedInt64OrUnsigned(fieldName, index)
 ```
 ## SetRepeatedInt64OrUnsigned
 ```lua
 @returns void
-usermessage:SetRepeatedInt64OrUnsigned(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedInt64OrUnsigned(fieldName, index, value)
 ```
 ## AddInt64OrUnsigned
 ```lua
 @returns number
-usermessage:AddInt64OrUnsigned(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddInt64OrUnsigned(fieldName, value)
 ```
 ## GetBool
 ```lua
 @returns boolean
-usermessage:GetBool(fieldName --[[ string ]])
+usermessage:GetBool(fieldName)
 ```
 ## SetBool
 ```lua
 @returns void
-usermessage:SetBool(fieldName --[[ string ]], value --[[ boolean ]])
+usermessage:SetBool(fieldName, value)
 ```
 ## GetRepeatedBool
 ```lua
 @returns boolean
-usermessage:GetRepeatedBool(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedBool(fieldName, index)
 ```
 ## SetRepeatedBool
 ```lua
 @returns void
-usermessage:SetRepeatedBool(fieldName --[[ string ]], index --[[ number ]], value --[[ boolean ]])
+usermessage:SetRepeatedBool(fieldName, index, value)
 ```
 ## AddBool
 ```lua
 @returns void
-usermessage:AddBool(fieldName --[[ string ]], value --[[ boolean ]])
+usermessage:AddBool(fieldName, value)
 ```
 ## GetFloat
 ```lua
 @returns number
-usermessage:GetFloat(fieldName --[[ string ]])
+usermessage:GetFloat(fieldName)
 ```
 ## SetFloat
 ```lua
 @returns void
-usermessage:SetFloat(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetFloat(fieldName, value)
 ```
 ## GetRepeatedFloat
 ```lua
 @returns number
-usermessage:GetRepeatedFloat(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedFloat(fieldName, index)
 ```
 ## SetRepeatedFloat
 ```lua
 @returns void
-usermessage:SetRepeatedFloat(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedFloat(fieldName, index, value)
 ```
 ## AddFloat
 ```lua
 @returns void
-usermessage:AddFloat(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddFloat(fieldName, value)
 ```
 ## GetDouble
 ```lua
 @returns number
-usermessage:GetDouble(fieldName --[[ string ]])
+usermessage:GetDouble(fieldName)
 ```
 ## SetDouble
 ```lua
 @returns void
-usermessage:SetDouble(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetDouble(fieldName, value)
 ```
 ## GetRepeatedDouble
 ```lua
 @returns number
-usermessage:GetRepeatedDouble(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedDouble(fieldName, index)
 ```
 ## SetRepeatedDouble
 ```lua
 @returns void
-usermessage:SetRepeatedDouble(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedDouble(fieldName, index, value)
 ```
 ## AddDouble
 ```lua
 @returns number
-usermessage:AddDouble(fieldName --[[ string ]])
+usermessage:AddDouble(fieldName)
 ```
 ## GetFloatOrDouble
 ```lua
 @returns number
-usermessage:GetFloatOrDouble(fieldName --[[ string ]])
+usermessage:GetFloatOrDouble(fieldName)
 ```
 ## SetFloatOrDouble
 ```lua
 @returns void
-usermessage:SetFloatOrDouble(fieldName --[[ string ]], value --[[ number ]])
+usermessage:SetFloatOrDouble(fieldName, value)
 ```
 ## GetRepeatedFloatOrDouble
 ```lua
 @returns number
-usermessage:GetRepeatedFloatOrDouble(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedFloatOrDouble(fieldName, index)
 ```
 ## SetRepeatedFloatOrDouble
 ```lua
 @returns void
-usermessage:SetRepeatedFloatOrDouble(fieldName --[[ string ]], index --[[ number ]], value --[[ number ]])
+usermessage:SetRepeatedFloatOrDouble(fieldName, index, value)
 ```
 ## AddFloatOrDouble
 ```lua
 @returns number
-usermessage:AddFloatOrDouble(fieldName --[[ string ]], value --[[ number ]])
+usermessage:AddFloatOrDouble(fieldName, value)
 ```
 ## GetString
 ```lua
 @returns string
-usermessage:GetString(fieldName --[[ string ]])
+usermessage:GetString(fieldName)
 ```
 ## SetString
 ```lua
 @returns void
-usermessage:SetString(fieldName --[[ string ]], value --[[ string ]])
+usermessage:SetString(fieldName, value)
 ```
 ## GetRepeatedString
 ```lua
 @returns string
-usermessage:GetRepeatedString(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedString(fieldName, index)
 ```
 ## SetRepeatedString
 ```lua
 @returns void
-usermessage:SetRepeatedString(fieldName --[[ string ]], index --[[ number ]], value --[[ string ]])
+usermessage:SetRepeatedString(fieldName, index, value)
 ```
 ## AddString
 ```lua
 @returns void
-usermessage:AddString(fieldName --[[ string ]], value --[[ string ]])
+usermessage:AddString(fieldName, value)
 ```
 ## GetColor
 ```lua
 @returns Color
-usermessage:GetColor(fieldName --[[ string ]])
+usermessage:GetColor(fieldName)
 ```
 ## SetColor
 ```lua
 @returns void
-usermessage:SetColor(fieldName --[[ string ]], value --[[ Color ]])
+usermessage:SetColor(fieldName, value)
 ```
 ## GetRepeatedColor
 ```lua
 @returns Color
-usermessage:GetRepeatedColor(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedColor(fieldName, index)
 ```
 ## SetRepeatedColor
 ```lua
 @returns void
-usermessage:SetRepeatedColor(fieldName --[[ string ]], index --[[ number ]], value --[[ Color ]])
+usermessage:SetRepeatedColor(fieldName, index, value)
 ```
 ## AddColor
 ```lua
 @returns void
-usermessage:AddColor(fieldName --[[ string ]], value --[[ Color ]])
+usermessage:AddColor(fieldName, value)
 ```
 ## GetVector2D
 ```lua
 @returns Vector2D
-usermessage:GetVector2D(fieldName --[[ string ]])
+usermessage:GetVector2D(fieldName)
 ```
 ## SetVector2D
 ```lua
 @returns void
-usermessage:SetVector2D(fieldName --[[ string ]], value --[[ Vector2D ]])
+usermessage:SetVector2D(fieldName, value)
 ```
 ## GetRepeatedVector2D
 ```lua
 @returns Vector2D
-usermessage:GetRepeatedVector2D(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedVector2D(fieldName, index)
 ```
 ## SetRepeatedVector2D
 ```lua
 @returns void
-usermessage:SetRepeatedVector2D(fieldName --[[ string ]], index --[[ number ]], value --[[ Vector2D ]])
+usermessage:SetRepeatedVector2D(fieldName, index, value)
 ```
 ## AddVector2D
 ```lua
 @returns void
-usermessage:AddVector2D(fieldName --[[ string ]], value --[[ Vector2D ]])
+usermessage:AddVector2D(fieldName, value)
 ```
 ## GetVector
 ```lua
 @returns Vector
-usermessage:GetVector(fieldName --[[ string ]])
+usermessage:GetVector(fieldName)
 ```
 ## SetVector
 ```lua
 @returns void
-usermessage:SetVector(fieldName --[[ string ]], value --[[ Vector ]])
+usermessage:SetVector(fieldName, value)
 ```
 ## GetRepeatedVector
 ```lua
 @returns Vector
-usermessage:GetRepeatedVector(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedVector(fieldName, index)
 ```
 ## SetRepeatedVector
 ```lua
 @returns void
-usermessage:SetRepeatedVector(fieldName --[[ string ]], index --[[ number ]], value --[[ Vector ]])
+usermessage:SetRepeatedVector(fieldName, index, value)
 ```
 ## AddVector
 ```lua
 @returns void
-usermessage:AddVector(fieldName --[[ string ]], value --[[ Vector ]])
+usermessage:AddVector(fieldName, value)
 ```
 ## GetQAngle
 ```lua
 @returns QAngle
-usermessage:GetQAngle(fieldName --[[ string ]])
+usermessage:GetQAngle(fieldName)
 ```
 ## SetQAngle
 ```lua
 @returns number
-usermessage:SetQAngle(fieldName --[[ string ]], value --[[ QAngle ]])
+usermessage:SetQAngle(fieldName, value)
 ```
 ## GetRepeatedQAngle
 ```lua
 @returns QAngle
-usermessage:GetRepeatedQAngle(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedQAngle(fieldName, index)
 ```
 ## SetRepeatedQAngle
 ```lua
 @returns void
-usermessage:SetRepeatedQAngle(fieldName --[[ string ]], index --[[ number ]], value --[[ QAngle ]])
+usermessage:SetRepeatedQAngle(fieldName, index, value)
 ```
 ## AddQAngle
 ```lua
 @returns void
-usermessage:AddQAngle(fieldName --[[ string ]], value --[[ QAngle ]])
+usermessage:AddQAngle(fieldName, value)
 ```
 ## RemoveRepeatedFieldValue
 ```lua
 @returns void
-usermessage:RemoveRepeatedFieldValue(fieldName --[[ string ]], index --[[ number ]])
+usermessage:RemoveRepeatedFieldValue(fieldName, index)
 ```
 ## GetRepeatedFieldCount
 ```lua
 @returns number
-usermessage:GetRepeatedFieldCount(fieldName --[[ string ]])
+usermessage:GetRepeatedFieldCount(fieldName)
 ```
 ## GetMessage
 ```lua
 @returns UserMessage
-usermessage:GetMessage(fieldName --[[ string ]])
+usermessage:GetMessage(fieldName)
 ```
 ## GetRepeatedMessage
 ```lua
 @returns UserMessage
-usermessage:GetRepeatedMessage(fieldName --[[ string ]], index --[[ number ]])
+usermessage:GetRepeatedMessage(fieldName, index)
 ```
 ## AddMessage
 ```lua
 @returns UserMessage
-usermessage:AddMessage(fieldName --[[ string ]])
+usermessage:AddMessage(fieldName)
 ```
 ## SendToPlayer
 ```lua
 @returns void
-usermessage:SendToPlayer(playerid --[[ number ]])
+usermessage:SendToPlayer(playerid)
 ```
 ## SendToAllPlayers
 ```lua
@@ -425,12 +425,12 @@ usermessage:SendToAllPlayers()
 ## AddClient
 ```lua
 @returns void
-usermessage:AddClient(playerid --[[ number ]])
+usermessage:AddClient(playerid)
 ```
 ## RemoveClient
 ```lua
 @returns void
-usermessage:RemoveClient(playerid --[[ number ]])
+usermessage:RemoveClient(playerid)
 ```
 ## ClearClients
 ```lua

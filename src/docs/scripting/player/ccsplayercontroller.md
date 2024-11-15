@@ -11,7 +11,7 @@ Returns the player's CCSPlayerController.
 ::: tabs
 @tab Lua
 ```lua
-@returns CCSPlayerController
+--- @return CCSPlayerController
 player:CCSPlayerController()
 ```
 

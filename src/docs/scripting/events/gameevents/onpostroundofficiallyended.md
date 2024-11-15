@@ -11,8 +11,9 @@ This event is triggered after round_officially_ended is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundOfficiallyEnded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundOfficiallyEnded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

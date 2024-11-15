@@ -11,8 +11,10 @@ Returns the players which could be selected using the target.
 ::: tabs
 @tab Lua
 ```lua
-@returns table of Player
-FindPlayersByTarget(target --[[ string ]], matchbots --[[ boolean ]])
+--- @param target string
+--- @param matchbots boolean
+--- @return table of Player
+FindPlayersByTarget(target, matchbots)
 ```
 #### Target Options
 The supported target options are the following:

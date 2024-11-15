@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimationGraphVisualizerPrimitiveBase(ptr --[[ string ]])
+CAnimationGraphVisualizerPrimitiveBase(ptr)
 ```
 # Properties
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: canimationgraphvisualizerprimitivebase.Type
 Write: canimationgraphvisualizerprimitivebase.Type = value
 ```
 ## OwningAnimNodePaths (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimationgraphvisualizerprimitivebase.OwningAnimNodePaths
 ```
 ## OwningAnimNodePathCount 
 ```lua
-@type number
+--- @type number
 Read: canimationgraphvisualizerprimitivebase.OwningAnimNodePathCount
 Write: canimationgraphvisualizerprimitivebase.OwningAnimNodePathCount = value
 ```

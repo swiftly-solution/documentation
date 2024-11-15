@@ -12,49 +12,49 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VPhysXCollisionAttributes_t(ptr --[[ string ]])
+VPhysXCollisionAttributes_t(ptr)
 ```
 # Properties
 ## CollisionGroup 
 ```lua
-@type number
+--- @type number
 Read: vphysxcollisionattributes_t.CollisionGroup
 Write: vphysxcollisionattributes_t.CollisionGroup = value
 ```
 ## InteractAs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractAs
 ```
 ## InteractWith (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractWith
 ```
 ## InteractExclude (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractExclude
 ```
 ## CollisionGroupString 
 ```lua
-@type string
+--- @type string
 Read: vphysxcollisionattributes_t.CollisionGroupString
 Write: vphysxcollisionattributes_t.CollisionGroupString = value
 ```
 ## InteractAsStrings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractAsStrings
 ```
 ## InteractWithStrings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractWithStrings
 ```
 ## InteractExcludeStrings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysxcollisionattributes_t.InteractExcludeStrings
 ```
 # Functions

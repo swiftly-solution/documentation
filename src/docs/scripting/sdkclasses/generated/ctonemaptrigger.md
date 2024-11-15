@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTonemapTrigger(ptr --[[ string ]])
+CTonemapTrigger(ptr)
 ```
 # Properties
 ## TonemapControllerName 
 ```lua
-@type string
+--- @type string
 Read: ctonemaptrigger.TonemapControllerName
 Write: ctonemaptrigger.TonemapControllerName = value
 ```
 ## TonemapController (Read-Only)
 ```lua
-@type CEntityInstance
+--- @type CEntityInstance
 Read: ctonemaptrigger.TonemapController
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctonemaptrigger.Parent
 ```
 # Functions

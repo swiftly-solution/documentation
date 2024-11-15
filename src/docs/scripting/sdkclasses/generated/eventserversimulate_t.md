@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventServerSimulate_t(ptr --[[ string ]])
+EventServerSimulate_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventSimulate_t
+--- @type EventSimulate_t
 Read: eventserversimulate_t.Parent
 ```
 # Functions

@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSkyCamera(ptr --[[ string ]])
+CSkyCamera(ptr)
 ```
 # Properties
 ## SkyboxData (Read-Only)
 ```lua
-@type sky3dparams_t
+--- @type sky3dparams_t
 Read: cskycamera.SkyboxData
 ```
 ## SkyboxSlotToken 
 ```lua
-@type number
+--- @type number
 Read: cskycamera.SkyboxSlotToken
 Write: cskycamera.SkyboxSlotToken = value
 ```
 ## UseAngles 
 ```lua
-@type boolean
+--- @type boolean
 Read: cskycamera.UseAngles
 Write: cskycamera.UseAngles = value
 ```
 ## Next (Read-Only)
 ```lua
-@type CSkyCamera
+--- @type CSkyCamera
 Read: cskycamera.Next
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cskycamera.Parent
 ```
 # Functions

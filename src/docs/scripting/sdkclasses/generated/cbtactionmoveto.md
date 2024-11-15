@@ -12,93 +12,93 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtActionMoveTo(ptr --[[ string ]])
+CBtActionMoveTo(ptr)
 ```
 # Properties
 ## DestinationInputKey 
 ```lua
-@type string
+--- @type string
 Read: cbtactionmoveto.DestinationInputKey
 Write: cbtactionmoveto.DestinationInputKey = value
 ```
 ## HidingSpotInputKey 
 ```lua
-@type string
+--- @type string
 Read: cbtactionmoveto.HidingSpotInputKey
 Write: cbtactionmoveto.HidingSpotInputKey = value
 ```
 ## ThreatInputKey 
 ```lua
-@type string
+--- @type string
 Read: cbtactionmoveto.ThreatInputKey
 Write: cbtactionmoveto.ThreatInputKey = value
 ```
 ## Destination 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbtactionmoveto.Destination
 Write: cbtactionmoveto.Destination = value
 ```
 ## AutoLookAdjust 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbtactionmoveto.AutoLookAdjust
 Write: cbtactionmoveto.AutoLookAdjust = value
 ```
 ## ComputePath 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbtactionmoveto.ComputePath
 Write: cbtactionmoveto.ComputePath = value
 ```
 ## DamagingAreasPenaltyCost 
 ```lua
-@type number
+--- @type number
 Read: cbtactionmoveto.DamagingAreasPenaltyCost
 Write: cbtactionmoveto.DamagingAreasPenaltyCost = value
 ```
 ## CheckApproximateCornersTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtactionmoveto.CheckApproximateCornersTimer
 ```
 ## CheckHighPriorityItem (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtactionmoveto.CheckHighPriorityItem
 ```
 ## RepathTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cbtactionmoveto.RepathTimer
 ```
 ## ArrivalEpsilon 
 ```lua
-@type number
+--- @type number
 Read: cbtactionmoveto.ArrivalEpsilon
 Write: cbtactionmoveto.ArrivalEpsilon = value
 ```
 ## AdditionalArrivalEpsilon2D 
 ```lua
-@type number
+--- @type number
 Read: cbtactionmoveto.AdditionalArrivalEpsilon2D
 Write: cbtactionmoveto.AdditionalArrivalEpsilon2D = value
 ```
 ## HidingSpotCheckDistanceThreshold 
 ```lua
-@type number
+--- @type number
 Read: cbtactionmoveto.HidingSpotCheckDistanceThreshold
 Write: cbtactionmoveto.HidingSpotCheckDistanceThreshold = value
 ```
 ## NearestAreaDistanceThreshold 
 ```lua
-@type number
+--- @type number
 Read: cbtactionmoveto.NearestAreaDistanceThreshold
 Write: cbtactionmoveto.NearestAreaDistanceThreshold = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBtNode
+--- @type CBtNode
 Read: cbtactionmoveto.Parent
 ```
 # Functions

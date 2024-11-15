@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMessage(ptr --[[ string ]])
+CMessage(ptr)
 ```
 # Properties
 ## Message 
 ```lua
-@type string
+--- @type string
 Read: cmessage.Message
 Write: cmessage.Message = value
 ```
 ## MessageVolume 
 ```lua
-@type number
+--- @type number
 Read: cmessage.MessageVolume
 Write: cmessage.MessageVolume = value
 ```
 ## MessageAttenuation 
 ```lua
-@type number
+--- @type number
 Read: cmessage.MessageAttenuation
 Write: cmessage.MessageAttenuation = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cmessage.Radius
 Write: cmessage.Radius = value
 ```
 ## Noise 
 ```lua
-@type string
+--- @type string
 Read: cmessage.Noise
 Write: cmessage.Noise = value
 ```
 ## OnShowMessage (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmessage.OnShowMessage
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cmessage.Parent
 ```
 # Functions

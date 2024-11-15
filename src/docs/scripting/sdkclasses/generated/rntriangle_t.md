@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnTriangle_t(ptr --[[ string ]])
+RnTriangle_t(ptr)
 ```
 # Properties
 ## Index 
 ```lua
-@type table
+--- @type table
 Read: rntriangle_t.Index
 Write: rntriangle_t.Index = value
 ```

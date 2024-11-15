@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ResponseParams(ptr --[[ string ]])
+ResponseParams(ptr)
 ```
 # Properties
 ## Odds 
 ```lua
-@type number
+--- @type number
 Read: responseparams.Odds
 Write: responseparams.Odds = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: responseparams.Flags
 Write: responseparams.Flags = value
 ```
 ## Followup (Read-Only)
 ```lua
-@type ResponseFollowup
+--- @type ResponseFollowup
 Read: responseparams.Followup
 ```
 # Functions

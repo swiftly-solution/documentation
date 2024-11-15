@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventServerProcessNetworking_t(ptr --[[ string ]])
+EventServerProcessNetworking_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventSimulate_t
+--- @type EventSimulate_t
 Read: eventserverprocessnetworking_t.Parent
 ```
 # Functions

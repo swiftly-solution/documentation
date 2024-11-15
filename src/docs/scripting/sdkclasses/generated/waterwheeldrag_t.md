@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WaterWheelDrag_t(ptr --[[ string ]])
+WaterWheelDrag_t(ptr)
 ```
 # Properties
 ## FractionOfWheelSubmerged 
 ```lua
-@type number
+--- @type number
 Read: waterwheeldrag_t.FractionOfWheelSubmerged
 Write: waterwheeldrag_t.FractionOfWheelSubmerged = value
 ```
 ## WheelDrag 
 ```lua
-@type number
+--- @type number
 Read: waterwheeldrag_t.WheelDrag
 Write: waterwheeldrag_t.WheelDrag = value
 ```

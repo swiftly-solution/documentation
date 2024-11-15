@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_UseServices(ptr --[[ string ]])
+CCSPlayer_UseServices(ptr)
 ```
 # Properties
 ## LastKnownUseEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayer_useservices.LastKnownUseEntity
 ```
 ## LastUseTimeStamp 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_useservices.LastUseTimeStamp
 Write: ccsplayer_useservices.LastUseTimeStamp = value
 ```
 ## TimeLastUsedWindow 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_useservices.TimeLastUsedWindow
 Write: ccsplayer_useservices.TimeLastUsedWindow = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_UseServices
+--- @type CPlayer_UseServices
 Read: ccsplayer_useservices.Parent
 ```
 # Functions

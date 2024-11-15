@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_SetMaterialGroupOnAttachedModels(ptr --[[ string ]])
+CModelConfigElement_SetMaterialGroupOnAttachedModels(ptr)
 ```
 # Properties
 ## MaterialGroupName 
 ```lua
-@type string
+--- @type string
 Read: cmodelconfigelement_setmaterialgrouponattachedmodels.MaterialGroupName
 Write: cmodelconfigelement_setmaterialgrouponattachedmodels.MaterialGroupName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_setmaterialgrouponattachedmodels.Parent
 ```
 # Functions

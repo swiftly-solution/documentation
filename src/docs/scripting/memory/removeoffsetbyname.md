@@ -11,8 +11,9 @@ Removes an offset to the pointer which is being hold by the name provided from `
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:RemoveOffsetByName(offsetName --[[ string ]])
+--- @param offsetName string
+--- @return nil
+memory:RemoveOffsetByName(offsetName)
 ```
 
 :::

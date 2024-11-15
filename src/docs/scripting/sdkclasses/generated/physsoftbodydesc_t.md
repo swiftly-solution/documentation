@@ -12,32 +12,32 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PhysSoftbodyDesc_t(ptr --[[ string ]])
+PhysSoftbodyDesc_t(ptr)
 ```
 # Properties
 ## ParticleBoneHash (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: physsoftbodydesc_t.ParticleBoneHash
 ```
 ## Particles (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: physsoftbodydesc_t.Particles
 ```
 ## Springs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: physsoftbodydesc_t.Springs
 ```
 ## Capsules (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: physsoftbodydesc_t.Capsules
 ```
 ## ParticleBoneName (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: physsoftbodydesc_t.ParticleBoneName
 ```
 # Functions

@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSeqScaleSet(ptr --[[ string ]])
+CSeqScaleSet(ptr)
 ```
 # Properties
 ## RootOffset 
 ```lua
-@type boolean
+--- @type boolean
 Read: cseqscaleset.RootOffset
 Write: cseqscaleset.RootOffset = value
 ```
 ## RootOffset1 
 ```lua
-@type Vector
+--- @type Vector
 Read: cseqscaleset.RootOffset1
 Write: cseqscaleset.RootOffset1 = value
 ```
 ## LocalBoneArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqscaleset.LocalBoneArray
 ```
 ## BoneScaleArray (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cseqscaleset.BoneScaleArray
 ```
 # Functions

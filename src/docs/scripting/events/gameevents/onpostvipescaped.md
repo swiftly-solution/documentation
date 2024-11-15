@@ -11,8 +11,9 @@ This event is triggered after vip_escaped is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostVipEscaped", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostVipEscaped", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

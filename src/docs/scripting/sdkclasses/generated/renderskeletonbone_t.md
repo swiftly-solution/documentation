@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RenderSkeletonBone_t(ptr --[[ string ]])
+RenderSkeletonBone_t(ptr)
 ```
 # Properties
 ## BoneName 
 ```lua
-@type string
+--- @type string
 Read: renderskeletonbone_t.BoneName
 Write: renderskeletonbone_t.BoneName = value
 ```
 ## ParentName 
 ```lua
-@type string
+--- @type string
 Read: renderskeletonbone_t.ParentName
 Write: renderskeletonbone_t.ParentName = value
 ```
 ## Bbox (Read-Only)
 ```lua
-@type SkeletonBoneBounds_t
+--- @type SkeletonBoneBounds_t
 Read: renderskeletonbone_t.Bbox
 ```
 ## SphereRadius 
 ```lua
-@type number
+--- @type number
 Read: renderskeletonbone_t.SphereRadius
 Write: renderskeletonbone_t.SphereRadius = value
 ```

@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosGroupActionSoundeventPrioritySchema(ptr --[[ string ]])
+CSosGroupActionSoundeventPrioritySchema(ptr)
 ```
 # Properties
 ## PriorityValue 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsoundeventpriorityschema.PriorityValue
 Write: csosgroupactionsoundeventpriorityschema.PriorityValue = value
 ```
 ## PriorityVolumeScalar 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsoundeventpriorityschema.PriorityVolumeScalar
 Write: csosgroupactionsoundeventpriorityschema.PriorityVolumeScalar = value
 ```
 ## PriorityContributeButDontRead 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsoundeventpriorityschema.PriorityContributeButDontRead
 Write: csosgroupactionsoundeventpriorityschema.PriorityContributeButDontRead = value
 ```
 ## PriorityReadButDontContribute 
 ```lua
-@type string
+--- @type string
 Read: csosgroupactionsoundeventpriorityschema.PriorityReadButDontContribute
 Write: csosgroupactionsoundeventpriorityschema.PriorityReadButDontContribute = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSosGroupActionSchema
+--- @type CSosGroupActionSchema
 Read: csosgroupactionsoundeventpriorityschema.Parent
 ```
 # Functions

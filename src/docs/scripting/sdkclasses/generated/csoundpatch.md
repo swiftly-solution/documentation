@@ -12,75 +12,75 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundPatch(ptr --[[ string ]])
+CSoundPatch(ptr)
 ```
 # Properties
 ## Pitch (Read-Only)
 ```lua
-@type CSoundEnvelope
+--- @type CSoundEnvelope
 Read: csoundpatch.Pitch
 ```
 ## Volume (Read-Only)
 ```lua
-@type CSoundEnvelope
+--- @type CSoundEnvelope
 Read: csoundpatch.Volume
 ```
 ## ShutdownTime 
 ```lua
-@type number
+--- @type number
 Read: csoundpatch.ShutdownTime
 Write: csoundpatch.ShutdownTime = value
 ```
 ## LastTime 
 ```lua
-@type number
+--- @type number
 Read: csoundpatch.LastTime
 Write: csoundpatch.LastTime = value
 ```
 ## SoundScriptName 
 ```lua
-@type string
+--- @type string
 Read: csoundpatch.SoundScriptName
 Write: csoundpatch.SoundScriptName = value
 ```
 ## SoundEntityIndex 
 ```lua
-@type number
+--- @type number
 Read: csoundpatch.SoundEntityIndex
 Write: csoundpatch.SoundEntityIndex = value
 ```
 ## SoundOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundpatch.SoundOrigin
 Write: csoundpatch.SoundOrigin = value
 ```
 ## IsPlaying 
 ```lua
-@type number
+--- @type number
 Read: csoundpatch.IsPlaying
 Write: csoundpatch.IsPlaying = value
 ```
 ## Filter (Read-Only)
 ```lua
-@type CCopyRecipientFilter
+--- @type CCopyRecipientFilter
 Read: csoundpatch.Filter
 ```
 ## CloseCaptionDuration 
 ```lua
-@type number
+--- @type number
 Read: csoundpatch.CloseCaptionDuration
 Write: csoundpatch.CloseCaptionDuration = value
 ```
 ## UpdatedSoundOrigin 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundpatch.UpdatedSoundOrigin
 Write: csoundpatch.UpdatedSoundOrigin = value
 ```
 ## ClassName 
 ```lua
-@type string
+--- @type string
 Read: csoundpatch.ClassName
 Write: csoundpatch.ClassName = value
 ```

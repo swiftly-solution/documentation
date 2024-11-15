@@ -11,8 +11,11 @@ Writes the content to a file
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-files:Write(path --[[ string ]], content --[[ string ]], hasdate --[[ boolean ]])
+--- @param path string
+--- @param content string
+--- @param hasdate boolean
+--- @return nil
+files:Write(path, content, hasdate)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CExpressionActionUpdater(ptr --[[ string ]])
+CExpressionActionUpdater(ptr)
 ```
 # Properties
 ## Param (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cexpressionactionupdater.Param
 ```
 ## ParamType 
 ```lua
-@type number
+--- @type number
 Read: cexpressionactionupdater.ParamType
 Write: cexpressionactionupdater.ParamType = value
 ```
 ## Script (Read-Only)
 ```lua
-@type AnimScriptHandle
+--- @type AnimScriptHandle
 Read: cexpressionactionupdater.Script
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimActionUpdater
+--- @type CAnimActionUpdater
 Read: cexpressionactionupdater.Parent
 ```
 # Functions

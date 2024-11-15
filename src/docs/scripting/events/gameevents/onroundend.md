@@ -11,8 +11,9 @@ This event is triggered when round_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

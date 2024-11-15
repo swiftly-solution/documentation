@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWayPointHelperUpdateNode(ptr --[[ string ]])
+CWayPointHelperUpdateNode(ptr)
 ```
 # Properties
 ## StartCycle 
 ```lua
-@type number
+--- @type number
 Read: cwaypointhelperupdatenode.StartCycle
 Write: cwaypointhelperupdatenode.StartCycle = value
 ```
 ## EndCycle 
 ```lua
-@type number
+--- @type number
 Read: cwaypointhelperupdatenode.EndCycle
 Write: cwaypointhelperupdatenode.EndCycle = value
 ```
 ## OnlyGoals 
 ```lua
-@type boolean
+--- @type boolean
 Read: cwaypointhelperupdatenode.OnlyGoals
 Write: cwaypointhelperupdatenode.OnlyGoals = value
 ```
 ## PreventOvershoot 
 ```lua
-@type boolean
+--- @type boolean
 Read: cwaypointhelperupdatenode.PreventOvershoot
 Write: cwaypointhelperupdatenode.PreventOvershoot = value
 ```
 ## PreventUndershoot 
 ```lua
-@type boolean
+--- @type boolean
 Read: cwaypointhelperupdatenode.PreventUndershoot
 Write: cwaypointhelperupdatenode.PreventUndershoot = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cwaypointhelperupdatenode.Parent
 ```
 # Functions

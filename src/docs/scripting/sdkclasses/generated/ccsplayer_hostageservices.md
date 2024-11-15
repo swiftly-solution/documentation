@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_HostageServices(ptr --[[ string ]])
+CCSPlayer_HostageServices(ptr)
 ```
 # Properties
 ## CarriedHostage (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayer_hostageservices.CarriedHostage
 ```
 ## CarriedHostageProp (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccsplayer_hostageservices.CarriedHostageProp
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_hostageservices.Parent
 ```
 # Functions

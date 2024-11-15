@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSkeletonAnimationController(ptr --[[ string ]])
+CSkeletonAnimationController(ptr)
 ```
 # Properties
 ## SkeletonInstance (Read-Only)
 ```lua
-@type CSkeletonInstance
+--- @type CSkeletonInstance
 Read: cskeletonanimationcontroller.SkeletonInstance
 ```
 ## Parent (Read-Only)
 ```lua
-@type ISkeletonAnimationController
+--- @type ISkeletonAnimationController
 Read: cskeletonanimationcontroller.Parent
 ```
 # Functions

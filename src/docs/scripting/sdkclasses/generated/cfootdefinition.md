@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootDefinition(ptr --[[ string ]])
+CFootDefinition(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cfootdefinition.Name
 Write: cfootdefinition.Name = value
 ```
 ## AnkleBoneName 
 ```lua
-@type string
+--- @type string
 Read: cfootdefinition.AnkleBoneName
 Write: cfootdefinition.AnkleBoneName = value
 ```
 ## ToeBoneName 
 ```lua
-@type string
+--- @type string
 Read: cfootdefinition.ToeBoneName
 Write: cfootdefinition.ToeBoneName = value
 ```
 ## BallOffset 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfootdefinition.BallOffset
 Write: cfootdefinition.BallOffset = value
 ```
 ## HeelOffset 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfootdefinition.HeelOffset
 Write: cfootdefinition.HeelOffset = value
 ```
 ## FootLength 
 ```lua
-@type number
+--- @type number
 Read: cfootdefinition.FootLength
 Write: cfootdefinition.FootLength = value
 ```
 ## BindPoseDirectionMS 
 ```lua
-@type number
+--- @type number
 Read: cfootdefinition.BindPoseDirectionMS
 Write: cfootdefinition.BindPoseDirectionMS = value
 ```
 ## TraceHeight 
 ```lua
-@type number
+--- @type number
 Read: cfootdefinition.TraceHeight
 Write: cfootdefinition.TraceHeight = value
 ```
 ## TraceRadius 
 ```lua
-@type number
+--- @type number
 Read: cfootdefinition.TraceRadius
 Write: cfootdefinition.TraceRadius = value
 ```

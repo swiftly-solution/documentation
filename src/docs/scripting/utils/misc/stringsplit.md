@@ -11,8 +11,10 @@ Splits a string into a table of strings.
 ::: tabs
 @tab Lua
 ```lua
-@returns table
-string.split(str --[[ string ]], delimiter --[[ string ]])
+--- @param str string
+--- @param delimiter string
+--- @return table
+string.split(str, delimiter)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after buytime_ended is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostBuytimeEnded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostBuytimeEnded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

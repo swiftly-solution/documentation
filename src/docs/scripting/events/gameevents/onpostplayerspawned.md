@@ -11,8 +11,9 @@ This event is triggered after player_spawned is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerSpawned", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerSpawned", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

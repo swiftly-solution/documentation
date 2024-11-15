@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_RandomColor(ptr --[[ string ]])
+CModelConfigElement_RandomColor(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_randomcolor.Parent
 ```
 # Functions

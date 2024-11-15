@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncElectrifiedVolume(ptr --[[ string ]])
+CFuncElectrifiedVolume(ptr)
 ```
 # Properties
 ## EffectName 
 ```lua
-@type string
+--- @type string
 Read: cfuncelectrifiedvolume.EffectName
 Write: cfuncelectrifiedvolume.EffectName = value
 ```
 ## EffectInterpenetrateName 
 ```lua
-@type string
+--- @type string
 Read: cfuncelectrifiedvolume.EffectInterpenetrateName
 Write: cfuncelectrifiedvolume.EffectInterpenetrateName = value
 ```
 ## EffectZapName 
 ```lua
-@type string
+--- @type string
 Read: cfuncelectrifiedvolume.EffectZapName
 Write: cfuncelectrifiedvolume.EffectZapName = value
 ```
 ## EffectSource 
 ```lua
-@type string
+--- @type string
 Read: cfuncelectrifiedvolume.EffectSource
 Write: cfuncelectrifiedvolume.EffectSource = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncBrush
+--- @type CFuncBrush
 Read: cfuncelectrifiedvolume.Parent
 ```
 # Functions

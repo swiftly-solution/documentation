@@ -11,8 +11,9 @@ Returns the number unsigned value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
-event:GetHookUInt(index --[[ number ]])
+--- @param index number
+--- @return number
+event:GetHookUInt(index)
 ```
 
 :::

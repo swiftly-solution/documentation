@@ -11,8 +11,9 @@ This event is triggered when inventory_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnInventoryUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnInventoryUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

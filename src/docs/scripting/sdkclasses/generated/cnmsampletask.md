@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmSampleTask(ptr --[[ string ]])
+CNmSampleTask(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmTask
+--- @type CNmTask
 Read: cnmsampletask.Parent
 ```
 # Functions

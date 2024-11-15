@@ -11,8 +11,9 @@ This event is triggered when teamchange_pending is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTeamchangePending", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTeamchangePending", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

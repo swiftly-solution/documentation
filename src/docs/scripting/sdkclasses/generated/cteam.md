@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTeam(ptr --[[ string ]])
+CTeam(ptr)
 ```
 # Properties
 ## Score 
 ```lua
-@type number
+--- @type number
 Read: cteam.Score
 Write: cteam.Score = value
 ```
 ## Teamname 
 ```lua
-@type string
+--- @type string
 Read: cteam.Teamname
 Write: cteam.Teamname = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cteam.Parent
 ```
 # Functions

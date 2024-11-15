@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCycleControlClipUpdateNode(ptr --[[ string ]])
+CCycleControlClipUpdateNode(ptr)
 ```
 # Properties
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccyclecontrolclipupdatenode.Tags
 ```
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: ccyclecontrolclipupdatenode.Sequence
 Write: ccyclecontrolclipupdatenode.Sequence = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: ccyclecontrolclipupdatenode.Duration
 Write: ccyclecontrolclipupdatenode.Duration = value
 ```
 ## ValueSource 
 ```lua
-@type number
+--- @type number
 Read: ccyclecontrolclipupdatenode.ValueSource
 Write: ccyclecontrolclipupdatenode.ValueSource = value
 ```
 ## ParamIndex (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ccyclecontrolclipupdatenode.ParamIndex
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: ccyclecontrolclipupdatenode.Parent
 ```
 # Functions

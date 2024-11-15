@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBreachCharge(ptr --[[ string ]])
+CBreachCharge(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cbreachcharge.Parent
 ```
 # Functions

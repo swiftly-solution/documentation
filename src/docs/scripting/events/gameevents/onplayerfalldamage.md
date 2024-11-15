@@ -11,8 +11,9 @@ This event is triggered when player_falldamage is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerFalldamage", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerFalldamage", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

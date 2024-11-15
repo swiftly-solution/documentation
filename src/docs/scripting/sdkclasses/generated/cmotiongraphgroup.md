@@ -12,27 +12,27 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionGraphGroup(ptr --[[ string ]])
+CMotionGraphGroup(ptr)
 ```
 # Properties
 ## SearchDB (Read-Only)
 ```lua
-@type CMotionSearchDB
+--- @type CMotionSearchDB
 Read: cmotiongraphgroup.SearchDB
 ```
 ## MotionGraphConfigs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotiongraphgroup.MotionGraphConfigs
 ```
 ## SampleToConfig (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotiongraphgroup.SampleToConfig
 ```
 ## IsActiveScript (Read-Only)
 ```lua
-@type AnimScriptHandle
+--- @type AnimScriptHandle
 Read: cmotiongraphgroup.IsActiveScript
 ```
 # Functions

@@ -12,63 +12,63 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTrackChange(ptr --[[ string ]])
+CFuncTrackChange(ptr)
 ```
 # Properties
 ## TrackTop (Read-Only)
 ```lua
-@type CPathTrack
+--- @type CPathTrack
 Read: cfunctrackchange.TrackTop
 ```
 ## TrackBottom (Read-Only)
 ```lua
-@type CPathTrack
+--- @type CPathTrack
 Read: cfunctrackchange.TrackBottom
 ```
 ## Train (Read-Only)
 ```lua
-@type CFuncTrackTrain
+--- @type CFuncTrackTrain
 Read: cfunctrackchange.Train
 ```
 ## TrackTopName 
 ```lua
-@type string
+--- @type string
 Read: cfunctrackchange.TrackTopName
 Write: cfunctrackchange.TrackTopName = value
 ```
 ## TrackBottomName 
 ```lua
-@type string
+--- @type string
 Read: cfunctrackchange.TrackBottomName
 Write: cfunctrackchange.TrackBottomName = value
 ```
 ## TrainName 
 ```lua
-@type string
+--- @type string
 Read: cfunctrackchange.TrainName
 Write: cfunctrackchange.TrainName = value
 ```
 ## Code 
 ```lua
-@type number
+--- @type number
 Read: cfunctrackchange.Code
 Write: cfunctrackchange.Code = value
 ```
 ## TargetState 
 ```lua
-@type number
+--- @type number
 Read: cfunctrackchange.TargetState
 Write: cfunctrackchange.TargetState = value
 ```
 ## Use 
 ```lua
-@type number
+--- @type number
 Read: cfunctrackchange.Use
 Write: cfunctrackchange.Use = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncPlatRot
+--- @type CFuncPlatRot
 Read: cfunctrackchange.Parent
 ```
 # Functions

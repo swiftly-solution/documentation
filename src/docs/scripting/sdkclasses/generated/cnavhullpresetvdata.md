@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavHullPresetVData(ptr --[[ string ]])
+CNavHullPresetVData(ptr)
 ```
 # Properties
 ## NavHulls (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnavhullpresetvdata.NavHulls
 ```
 # Functions

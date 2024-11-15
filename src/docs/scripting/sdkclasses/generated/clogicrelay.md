@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicRelay(ptr --[[ string ]])
+CLogicRelay(ptr)
 ```
 # Properties
 ## OnTrigger (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicrelay.OnTrigger
 ```
 ## OnSpawn (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: clogicrelay.OnSpawn
 ```
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicrelay.Disabled
 Write: clogicrelay.Disabled = value
 ```
 ## WaitForRefire 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicrelay.WaitForRefire
 Write: clogicrelay.WaitForRefire = value
 ```
 ## TriggerOnce 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicrelay.TriggerOnce
 Write: clogicrelay.TriggerOnce = value
 ```
 ## FastRetrigger 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicrelay.FastRetrigger
 Write: clogicrelay.FastRetrigger = value
 ```
 ## PassthoughCaller 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicrelay.PassthoughCaller
 Write: clogicrelay.PassthoughCaller = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicrelay.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFeVertexMapBuildArray(ptr --[[ string ]])
+CFeVertexMapBuildArray(ptr)
 ```
 # Properties
 ## Array (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfevertexmapbuildarray.Array
 ```
 # Functions

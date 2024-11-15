@@ -11,8 +11,9 @@ This event is triggered after item_equip is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostItemEquip", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostItemEquip", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

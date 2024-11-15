@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmRootMotionData(ptr --[[ string ]])
+CNmRootMotionData(ptr)
 ```
 # Properties
 ## NumFrames 
 ```lua
-@type number
+--- @type number
 Read: cnmrootmotiondata.NumFrames
 Write: cnmrootmotiondata.NumFrames = value
 ```
 ## AverageLinearVelocity 
 ```lua
-@type number
+--- @type number
 Read: cnmrootmotiondata.AverageLinearVelocity
 Write: cnmrootmotiondata.AverageLinearVelocity = value
 ```
 ## AverageAngularVelocityRadians 
 ```lua
-@type number
+--- @type number
 Read: cnmrootmotiondata.AverageAngularVelocityRadians
 Write: cnmrootmotiondata.AverageAngularVelocityRadians = value
 ```

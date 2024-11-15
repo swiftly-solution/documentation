@@ -11,8 +11,11 @@ This game event is triggered when the hook CCSPlayerPawnBase_PostThink is being 
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerPostThink", function(event --[[ Event ]], playerid --[[ number ]])
+--- @param event Event
+--- @param playerid number
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnPlayerPostThink", function(event, playerid)
     --[[ ... ]]
     return EventResult.Continue
 end)

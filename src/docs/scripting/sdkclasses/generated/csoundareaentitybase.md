@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundAreaEntityBase(ptr --[[ string ]])
+CSoundAreaEntityBase(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundareaentitybase.Disabled
 Write: csoundareaentitybase.Disabled = value
 ```
 ## SoundAreaType 
 ```lua
-@type string
+--- @type string
 Read: csoundareaentitybase.SoundAreaType
 Write: csoundareaentitybase.SoundAreaType = value
 ```
 ## Pos 
 ```lua
-@type Vector
+--- @type Vector
 Read: csoundareaentitybase.Pos
 Write: csoundareaentitybase.Pos = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csoundareaentitybase.Parent
 ```
 # Functions

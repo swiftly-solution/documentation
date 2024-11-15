@@ -11,8 +11,9 @@ Calls the specified export.
 ::: tabs
 @tab Lua
 ```lua
-@returns Any* any
-exports["PLUGIN_NAME"]:EXPORT_NAME(... --[[ Any* any ]])
+--- @param ... any
+--- @return Any* any
+exports["PLUGIN_NAME"]:EXPORT_NAME(...)
 ```
 > [!warning]
 > Replace `PLUGIN_NAME` with the plugin name for the specific export.

@@ -11,8 +11,9 @@ This event is triggered after ugc_map_unsubscribed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostUgcMapUnsubscribed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostUgcMapUnsubscribed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

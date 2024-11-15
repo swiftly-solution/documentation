@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MaterialOverride_t(ptr --[[ string ]])
+MaterialOverride_t(ptr)
 ```
 # Properties
 ## SubSceneObject 
 ```lua
-@type number
+--- @type number
 Read: materialoverride_t.SubSceneObject
 Write: materialoverride_t.SubSceneObject = value
 ```
 ## DrawCallIndex 
 ```lua
-@type number
+--- @type number
 Read: materialoverride_t.DrawCallIndex
 Write: materialoverride_t.DrawCallIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type BaseSceneObjectOverride_t
+--- @type BaseSceneObjectOverride_t
 Read: materialoverride_t.Parent
 ```
 # Functions

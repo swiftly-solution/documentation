@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimSequenceParams(ptr --[[ string ]])
+CAnimSequenceParams(ptr)
 ```
 # Properties
 ## FadeInTime 
 ```lua
-@type number
+--- @type number
 Read: canimsequenceparams.FadeInTime
 Write: canimsequenceparams.FadeInTime = value
 ```
 ## FadeOutTime 
 ```lua
-@type number
+--- @type number
 Read: canimsequenceparams.FadeOutTime
 Write: canimsequenceparams.FadeOutTime = value
 ```

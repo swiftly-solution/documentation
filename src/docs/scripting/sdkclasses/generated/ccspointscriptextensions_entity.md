@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPointScriptExtensions_entity(ptr --[[ string ]])
+CCSPointScriptExtensions_entity(ptr)
 ```
 # Properties
 There are no properties available for this class.

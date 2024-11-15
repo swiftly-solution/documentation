@@ -11,8 +11,9 @@ This event is triggered when enable_restart_voting is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEnableRestartVoting", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEnableRestartVoting", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

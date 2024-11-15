@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollPropAttached(ptr --[[ string ]])
+CRagdollPropAttached(ptr)
 ```
 # Properties
 ## BoneIndexAttached 
 ```lua
-@type number
+--- @type number
 Read: cragdollpropattached.BoneIndexAttached
 Write: cragdollpropattached.BoneIndexAttached = value
 ```
 ## RagdollAttachedObjectIndex 
 ```lua
-@type number
+--- @type number
 Read: cragdollpropattached.RagdollAttachedObjectIndex
 Write: cragdollpropattached.RagdollAttachedObjectIndex = value
 ```
 ## AttachmentPointBoneSpace 
 ```lua
-@type Vector
+--- @type Vector
 Read: cragdollpropattached.AttachmentPointBoneSpace
 Write: cragdollpropattached.AttachmentPointBoneSpace = value
 ```
 ## AttachmentPointRagdollSpace 
 ```lua
-@type Vector
+--- @type Vector
 Read: cragdollpropattached.AttachmentPointRagdollSpace
 Write: cragdollpropattached.AttachmentPointRagdollSpace = value
 ```
 ## ShouldDetach 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollpropattached.ShouldDetach
 Write: cragdollpropattached.ShouldDetach = value
 ```
 ## ShouldDeleteAttachedActivationRecord 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollpropattached.ShouldDeleteAttachedActivationRecord
 Write: cragdollpropattached.ShouldDeleteAttachedActivationRecord = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CRagdollProp
+--- @type CRagdollProp
 Read: cragdollpropattached.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ Queries a convar from a player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:QueryConvar(convar_name --[[ string ]])
+--- @param convar_name string
+--- @return nil
+player:QueryConvar(convar_name)
 ```
 
 :::

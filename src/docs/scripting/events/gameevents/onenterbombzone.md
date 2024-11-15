@@ -11,8 +11,9 @@ This event is triggered when enter_bombzone is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnEnterBombzone", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnEnterBombzone", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

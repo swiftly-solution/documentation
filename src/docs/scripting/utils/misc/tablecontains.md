@@ -11,8 +11,10 @@ Checks if a table contains a specific value.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-table.contains(tbl --[[ table ]], element --[[ Any* any ]])
+--- @param tbl table
+--- @param element any
+--- @return boolean
+table.contains(tbl, element)
 ```
 
 :::

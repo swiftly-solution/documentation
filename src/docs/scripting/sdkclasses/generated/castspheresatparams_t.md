@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CastSphereSATParams_t(ptr --[[ string ]])
+CastSphereSATParams_t(ptr)
 ```
 # Properties
 ## RayStart 
 ```lua
-@type Vector
+--- @type Vector
 Read: castspheresatparams_t.RayStart
 Write: castspheresatparams_t.RayStart = value
 ```
 ## RayDelta 
 ```lua
-@type Vector
+--- @type Vector
 Read: castspheresatparams_t.RayDelta
 Write: castspheresatparams_t.RayDelta = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: castspheresatparams_t.Radius
 Write: castspheresatparams_t.Radius = value
 ```
 ## MaxFraction 
 ```lua
-@type number
+--- @type number
 Read: castspheresatparams_t.MaxFraction
 Write: castspheresatparams_t.MaxFraction = value
 ```
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: castspheresatparams_t.Scale
 Write: castspheresatparams_t.Scale = value
 ```
 ## Hull (Read-Only)
 ```lua
-@type Rnuint32_t
+--- @type Rnuint32_t
 Read: castspheresatparams_t.Hull
 ```
 # Functions

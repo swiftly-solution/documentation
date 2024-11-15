@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRenderSkeleton(ptr --[[ string ]])
+CRenderSkeleton(ptr)
 ```
 # Properties
 ## Bones (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: crenderskeleton.Bones
 ```
 ## BoneParents (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: crenderskeleton.BoneParents
 ```
 ## BoneWeightCount 
 ```lua
-@type number
+--- @type number
 Read: crenderskeleton.BoneWeightCount
 Write: crenderskeleton.BoneWeightCount = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavVolumeSphericalShell(ptr --[[ string ]])
+CNavVolumeSphericalShell(ptr)
 ```
 # Properties
 ## RadiusInner 
 ```lua
-@type number
+--- @type number
 Read: cnavvolumesphericalshell.RadiusInner
 Write: cnavvolumesphericalshell.RadiusInner = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CNavVolumeSphere
+--- @type CNavVolumeSphere
 Read: cnavvolumesphericalshell.Parent
 ```
 # Functions

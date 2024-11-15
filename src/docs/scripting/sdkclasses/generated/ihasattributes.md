@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IHasAttributes(ptr --[[ string ]])
+IHasAttributes(ptr)
 ```
 # Properties
 There are no properties available for this class.

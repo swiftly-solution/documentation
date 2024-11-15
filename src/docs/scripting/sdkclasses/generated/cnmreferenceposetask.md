@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmReferencePoseTask(ptr --[[ string ]])
+CNmReferencePoseTask(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmTask
+--- @type CNmTask
 Read: cnmreferenceposetask.Parent
 ```
 # Functions

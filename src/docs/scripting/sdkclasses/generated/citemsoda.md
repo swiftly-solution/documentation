@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemSoda(ptr --[[ string ]])
+CItemSoda(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: citemsoda.Parent
 ```
 # Functions

@@ -11,7 +11,7 @@ Returns the voice flags of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 player:GetVoiceFlags()
 ```
 

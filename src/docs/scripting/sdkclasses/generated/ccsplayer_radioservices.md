@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_RadioServices(ptr --[[ string ]])
+CCSPlayer_RadioServices(ptr)
 ```
 # Properties
 ## GotHostageTalkTimer 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_radioservices.GotHostageTalkTimer
 Write: ccsplayer_radioservices.GotHostageTalkTimer = value
 ```
 ## DefusingTalkTimer 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_radioservices.DefusingTalkTimer
 Write: ccsplayer_radioservices.DefusingTalkTimer = value
 ```
 ## C4PlantTalkTimer 
 ```lua
-@type number
+--- @type number
 Read: ccsplayer_radioservices.C4PlantTalkTimer
 Write: ccsplayer_radioservices.C4PlantTalkTimer = value
 ```
 ## RadioTokenSlots 
 ```lua
-@type table
+--- @type table
 Read: ccsplayer_radioservices.RadioTokenSlots
 Write: ccsplayer_radioservices.RadioTokenSlots = value
 ```
 ## IgnoreRadio 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayer_radioservices.IgnoreRadio
 Write: ccsplayer_radioservices.IgnoreRadio = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_radioservices.Parent
 ```
 # Functions

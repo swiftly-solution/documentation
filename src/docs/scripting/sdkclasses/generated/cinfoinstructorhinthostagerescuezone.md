@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoInstructorHintHostageRescueZone(ptr --[[ string ]])
+CInfoInstructorHintHostageRescueZone(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfoinstructorhinthostagerescuezone.Parent
 ```
 # Functions

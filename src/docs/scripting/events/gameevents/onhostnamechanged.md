@@ -11,8 +11,9 @@ This event is triggered when hostname_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHostnameChanged", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHostnameChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

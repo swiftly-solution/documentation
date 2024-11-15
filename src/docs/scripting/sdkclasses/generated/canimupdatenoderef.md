@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimUpdateNodeRef(ptr --[[ string ]])
+CAnimUpdateNodeRef(ptr)
 ```
 # Properties
 ## NodeIndex 
 ```lua
-@type number
+--- @type number
 Read: canimupdatenoderef.NodeIndex
 Write: canimupdatenoderef.NodeIndex = value
 ```

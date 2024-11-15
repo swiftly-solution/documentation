@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerMultiple(ptr --[[ string ]])
+CTriggerMultiple(ptr)
 ```
 # Properties
 ## OnTrigger (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggermultiple.OnTrigger
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggermultiple.Parent
 ```
 # Functions

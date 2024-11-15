@@ -11,8 +11,9 @@ Unregisters a command registered through Swiftly Commands.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-commands:Unregister(commandName --[[ string ]])
+--- @param commandName string
+--- @return nil
+commands:Unregister(commandName)
 ```
 
 :::

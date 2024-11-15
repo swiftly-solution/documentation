@@ -11,8 +11,9 @@ This event is triggered when grenade_thrown is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGrenadeThrown", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGrenadeThrown", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

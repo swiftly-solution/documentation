@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBreakableStageHelper(ptr --[[ string ]])
+CBreakableStageHelper(ptr)
 ```
 # Properties
 ## CurrentStage 
 ```lua
-@type number
+--- @type number
 Read: cbreakablestagehelper.CurrentStage
 Write: cbreakablestagehelper.CurrentStage = value
 ```
 ## StageCount 
 ```lua
-@type number
+--- @type number
 Read: cbreakablestagehelper.StageCount
 Write: cbreakablestagehelper.StageCount = value
 ```

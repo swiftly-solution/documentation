@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHitboxComponent(ptr --[[ string ]])
+CHitboxComponent(ptr)
 ```
 # Properties
 ## DisabledHitGroups 
 ```lua
-@type table
+--- @type table
 Read: chitboxcomponent.DisabledHitGroups
 Write: chitboxcomponent.DisabledHitGroups = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEntityComponent
+--- @type CEntityComponent
 Read: chitboxcomponent.Parent
 ```
 # Functions

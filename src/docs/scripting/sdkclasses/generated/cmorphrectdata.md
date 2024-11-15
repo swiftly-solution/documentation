@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMorphRectData(ptr --[[ string ]])
+CMorphRectData(ptr)
 ```
 # Properties
 ## XLeftDst 
 ```lua
-@type number
+--- @type number
 Read: cmorphrectdata.XLeftDst
 Write: cmorphrectdata.XLeftDst = value
 ```
 ## YTopDst 
 ```lua
-@type number
+--- @type number
 Read: cmorphrectdata.YTopDst
 Write: cmorphrectdata.YTopDst = value
 ```
 ## UWidthSrc 
 ```lua
-@type number
+--- @type number
 Read: cmorphrectdata.UWidthSrc
 Write: cmorphrectdata.UWidthSrc = value
 ```
 ## VHeightSrc 
 ```lua
-@type number
+--- @type number
 Read: cmorphrectdata.VHeightSrc
 Write: cmorphrectdata.VHeightSrc = value
 ```
 ## BundleDatas (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphrectdata.BundleDatas
 ```
 # Functions

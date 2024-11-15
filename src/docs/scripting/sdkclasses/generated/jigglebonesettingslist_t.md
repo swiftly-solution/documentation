@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-JiggleBoneSettingsList_t(ptr --[[ string ]])
+JiggleBoneSettingsList_t(ptr)
 ```
 # Properties
 ## BoneSettings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: jigglebonesettingslist_t.BoneSettings
 ```
 # Functions

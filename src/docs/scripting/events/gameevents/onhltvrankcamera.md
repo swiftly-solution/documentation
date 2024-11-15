@@ -11,8 +11,9 @@ This event is triggered when hltv_rank_camera is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvRankCamera", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvRankCamera", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

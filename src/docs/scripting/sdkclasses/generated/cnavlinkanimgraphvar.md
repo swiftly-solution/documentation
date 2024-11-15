@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNavLinkAnimgraphVar(ptr --[[ string ]])
+CNavLinkAnimgraphVar(ptr)
 ```
 # Properties
 ## AlignmentDegrees 
 ```lua
-@type number
+--- @type number
 Read: cnavlinkanimgraphvar.AlignmentDegrees
 Write: cnavlinkanimgraphvar.AlignmentDegrees = value
 ```

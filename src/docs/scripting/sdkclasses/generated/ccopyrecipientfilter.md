@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCopyRecipientFilter(ptr --[[ string ]])
+CCopyRecipientFilter(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: ccopyrecipientfilter.Flags
 Write: ccopyrecipientfilter.Flags = value
 ```
 ## Recipients (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccopyrecipientfilter.Recipients
 ```
 # Functions

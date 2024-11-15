@@ -11,8 +11,9 @@ This event is triggered when door_moving is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDoorMoving", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDoorMoving", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeTreeChildren_t(ptr --[[ string ]])
+FeTreeChildren_t(ptr)
 ```
 # Properties
 ## Child 
 ```lua
-@type table
+--- @type table
 Read: fetreechildren_t.Child
 Write: fetreechildren_t.Child = value
 ```

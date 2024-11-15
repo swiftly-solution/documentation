@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimScriptBase(ptr --[[ string ]])
+CAnimScriptBase(ptr)
 ```
 # Properties
 ## IsValid 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimscriptbase.IsValid
 Write: canimscriptbase.IsValid = value
 ```

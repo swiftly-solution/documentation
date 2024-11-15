@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeCtrlSoftOffset_t(ptr --[[ string ]])
+FeCtrlSoftOffset_t(ptr)
 ```
 # Properties
 ## CtrlParent 
 ```lua
-@type number
+--- @type number
 Read: fectrlsoftoffset_t.CtrlParent
 Write: fectrlsoftoffset_t.CtrlParent = value
 ```
 ## CtrlChild 
 ```lua
-@type number
+--- @type number
 Read: fectrlsoftoffset_t.CtrlChild
 Write: fectrlsoftoffset_t.CtrlChild = value
 ```
 ## Offset 
 ```lua
-@type Vector
+--- @type Vector
 Read: fectrlsoftoffset_t.Offset
 Write: fectrlsoftoffset_t.Offset = value
 ```
 ## Alpha 
 ```lua
-@type number
+--- @type number
 Read: fectrlsoftoffset_t.Alpha
 Write: fectrlsoftoffset_t.Alpha = value
 ```

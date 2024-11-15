@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBoneConstraintPoseSpaceBone(ptr --[[ string ]])
+CBoneConstraintPoseSpaceBone(ptr)
 ```
 # Properties
 ## InputList (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cboneconstraintposespacebone.InputList
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: cboneconstraintposespacebone.Parent
 ```
 # Functions

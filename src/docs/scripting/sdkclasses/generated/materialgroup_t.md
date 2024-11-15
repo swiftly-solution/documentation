@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MaterialGroup_t(ptr --[[ string ]])
+MaterialGroup_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: materialgroup_t.Name
 Write: materialgroup_t.Name = value
 ```

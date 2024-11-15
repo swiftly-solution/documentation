@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeSourceEdge_t(ptr --[[ string ]])
+FeSourceEdge_t(ptr)
 ```
 # Properties
 ## Node 
 ```lua
-@type table
+--- @type table
 Read: fesourceedge_t.Node
 Write: fesourceedge_t.Node = value
 ```

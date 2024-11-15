@@ -12,66 +12,66 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvInstructorVRHint(ptr --[[ string ]])
+CEnvInstructorVRHint(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cenvinstructorvrhint.Name
 Write: cenvinstructorvrhint.Name = value
 ```
 ## HintTargetEntity 
 ```lua
-@type string
+--- @type string
 Read: cenvinstructorvrhint.HintTargetEntity
 Write: cenvinstructorvrhint.HintTargetEntity = value
 ```
 ## Timeout 
 ```lua
-@type number
+--- @type number
 Read: cenvinstructorvrhint.Timeout
 Write: cenvinstructorvrhint.Timeout = value
 ```
 ## Caption 
 ```lua
-@type string
+--- @type string
 Read: cenvinstructorvrhint.Caption
 Write: cenvinstructorvrhint.Caption = value
 ```
 ## StartSound 
 ```lua
-@type string
+--- @type string
 Read: cenvinstructorvrhint.StartSound
 Write: cenvinstructorvrhint.StartSound = value
 ```
 ## LayoutFileType 
 ```lua
-@type number
+--- @type number
 Read: cenvinstructorvrhint.LayoutFileType
 Write: cenvinstructorvrhint.LayoutFileType = value
 ```
 ## CustomLayoutFile 
 ```lua
-@type string
+--- @type string
 Read: cenvinstructorvrhint.CustomLayoutFile
 Write: cenvinstructorvrhint.CustomLayoutFile = value
 ```
 ## AttachType 
 ```lua
-@type number
+--- @type number
 Read: cenvinstructorvrhint.AttachType
 Write: cenvinstructorvrhint.AttachType = value
 ```
 ## HeightOffset 
 ```lua
-@type number
+--- @type number
 Read: cenvinstructorvrhint.HeightOffset
 Write: cenvinstructorvrhint.HeightOffset = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvinstructorvrhint.Parent
 ```
 # Functions

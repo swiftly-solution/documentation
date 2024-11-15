@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyComponentPoint(ptr --[[ string ]])
+CBodyComponentPoint(ptr)
 ```
 # Properties
 ## SceneNode (Read-Only)
 ```lua
-@type CGameSceneNode
+--- @type CGameSceneNode
 Read: cbodycomponentpoint.SceneNode
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBodyComponent
+--- @type CBodyComponent
 Read: cbodycomponentpoint.Parent
 ```
 # Functions

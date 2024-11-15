@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootCycleMetricEvaluator(ptr --[[ string ]])
+CFootCycleMetricEvaluator(ptr)
 ```
 # Properties
 ## FootIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfootcyclemetricevaluator.FootIndices
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cfootcyclemetricevaluator.Parent
 ```
 # Functions

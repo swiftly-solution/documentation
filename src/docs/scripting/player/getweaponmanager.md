@@ -11,7 +11,7 @@ Returns the Weapon Manager for the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns WeaponManager
+--- @return WeaponManager
 player:GetWeaponManager()
 ```
 

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoSpawnGroupLandmark(ptr --[[ string ]])
+CInfoSpawnGroupLandmark(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfospawngrouplandmark.Parent
 ```
 # Functions

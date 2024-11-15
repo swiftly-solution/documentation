@@ -11,7 +11,7 @@ Returns if the event is a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 event:IsGameEvent()
 ```
 

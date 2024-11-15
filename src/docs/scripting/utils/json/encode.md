@@ -11,8 +11,10 @@ Encodes a value into a json string.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-json.encode(value --[[ Any* any ]], options --[[ table (optional) ]])
+--- @param value any
+--- @param options table (optional)
+--- @return string
+json.encode(value, options)
 ```
 #### Options
 The options table can have the following fields:

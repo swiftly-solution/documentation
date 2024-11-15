@@ -12,34 +12,34 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGameMoney(ptr --[[ string ]])
+CGameMoney(ptr)
 ```
 # Properties
 ## OnMoneySpent (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cgamemoney.OnMoneySpent
 ```
 ## OnMoneySpentFail (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cgamemoney.OnMoneySpentFail
 ```
 ## Money 
 ```lua
-@type number
+--- @type number
 Read: cgamemoney.Money
 Write: cgamemoney.Money = value
 ```
 ## StrAwardText 
 ```lua
-@type string
+--- @type string
 Read: cgamemoney.StrAwardText
 Write: cgamemoney.StrAwardText = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CRulePointEntity
+--- @type CRulePointEntity
 Read: cgamemoney.Parent
 ```
 # Functions

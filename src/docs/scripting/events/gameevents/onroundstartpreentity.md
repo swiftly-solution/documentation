@@ -11,8 +11,9 @@ This event is triggered when round_start_pre_entity is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundStartPreEntity", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundStartPreEntity", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

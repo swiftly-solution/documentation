@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_SetRenderColor(ptr --[[ string ]])
+CModelConfigElement_SetRenderColor(ptr)
 ```
 # Properties
 ## Color 
 ```lua
-@type Color
+--- @type Color
 Read: cmodelconfigelement_setrendercolor.Color
 Write: cmodelconfigelement_setrendercolor.Color = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_setrendercolor.Parent
 ```
 # Functions

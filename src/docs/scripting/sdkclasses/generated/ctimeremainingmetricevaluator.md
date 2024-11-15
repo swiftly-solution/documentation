@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTimeRemainingMetricEvaluator(ptr --[[ string ]])
+CTimeRemainingMetricEvaluator(ptr)
 ```
 # Properties
 ## MatchByTimeRemaining 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimeremainingmetricevaluator.MatchByTimeRemaining
 Write: ctimeremainingmetricevaluator.MatchByTimeRemaining = value
 ```
 ## MaxTimeRemaining 
 ```lua
-@type number
+--- @type number
 Read: ctimeremainingmetricevaluator.MaxTimeRemaining
 Write: ctimeremainingmetricevaluator.MaxTimeRemaining = value
 ```
 ## FilterByTimeRemaining 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimeremainingmetricevaluator.FilterByTimeRemaining
 Write: ctimeremainingmetricevaluator.FilterByTimeRemaining = value
 ```
 ## MinTimeRemaining 
 ```lua
-@type number
+--- @type number
 Read: ctimeremainingmetricevaluator.MinTimeRemaining
 Write: ctimeremainingmetricevaluator.MinTimeRemaining = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: ctimeremainingmetricevaluator.Parent
 ```
 # Functions

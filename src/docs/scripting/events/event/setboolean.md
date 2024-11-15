@@ -11,8 +11,10 @@ Set the boolean value to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetBool(key --[[ string ]], value --[[ boolean ]])
+--- @param key string
+--- @param value boolean
+--- @return nil
+event:SetBool(key, value)
 ```
 
 :::

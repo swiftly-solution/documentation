@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeFollowNode_t(ptr --[[ string ]])
+FeFollowNode_t(ptr)
 ```
 # Properties
 ## ParentNode 
 ```lua
-@type number
+--- @type number
 Read: fefollownode_t.ParentNode
 Write: fefollownode_t.ParentNode = value
 ```
 ## ChildNode 
 ```lua
-@type number
+--- @type number
 Read: fefollownode_t.ChildNode
 Write: fefollownode_t.ChildNode = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: fefollownode_t.Weight
 Write: fefollownode_t.Weight = value
 ```

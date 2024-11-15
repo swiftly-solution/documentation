@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRuleBrushEntity(ptr --[[ string ]])
+CRuleBrushEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CRuleEntity
+--- @type CRuleEntity
 Read: crulebrushentity.Parent
 ```
 # Functions

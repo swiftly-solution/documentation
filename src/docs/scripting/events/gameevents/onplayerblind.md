@@ -11,8 +11,9 @@ This event is triggered when player_blind is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerBlind", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerBlind", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

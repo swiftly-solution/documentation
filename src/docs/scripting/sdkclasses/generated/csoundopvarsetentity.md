@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetEntity(ptr --[[ string ]])
+CSoundOpvarSetEntity(ptr)
 ```
 # Properties
 ## StackName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetentity.StackName
 Write: csoundopvarsetentity.StackName = value
 ```
 ## OperatorName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetentity.OperatorName
 Write: csoundopvarsetentity.OperatorName = value
 ```
 ## OpvarName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetentity.OpvarName
 Write: csoundopvarsetentity.OpvarName = value
 ```
 ## OpvarType 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetentity.OpvarType
 Write: csoundopvarsetentity.OpvarType = value
 ```
 ## OpvarIndex 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetentity.OpvarIndex
 Write: csoundopvarsetentity.OpvarIndex = value
 ```
 ## OpvarValue 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetentity.OpvarValue
 Write: csoundopvarsetentity.OpvarValue = value
 ```
 ## OpvarValueString 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetentity.OpvarValueString
 Write: csoundopvarsetentity.OpvarValueString = value
 ```
 ## SetOnSpawn 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundopvarsetentity.SetOnSpawn
 Write: csoundopvarsetentity.SetOnSpawn = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csoundopvarsetentity.Parent
 ```
 # Functions

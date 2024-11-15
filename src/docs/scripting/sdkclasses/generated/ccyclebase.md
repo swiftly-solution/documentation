@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCycleBase(ptr --[[ string ]])
+CCycleBase(ptr)
 ```
 # Properties
 ## Cycle 
 ```lua
-@type number
+--- @type number
 Read: ccyclebase.Cycle
 Write: ccyclebase.Cycle = value
 ```

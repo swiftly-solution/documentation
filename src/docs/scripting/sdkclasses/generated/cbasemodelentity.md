@@ -12,214 +12,214 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseModelEntity(ptr --[[ string ]])
+CBaseModelEntity(ptr)
 ```
 # Properties
 ## CRenderComponent (Read-Only)
 ```lua
-@type CRenderComponent
+--- @type CRenderComponent
 Read: cbasemodelentity.CRenderComponent
 ```
 ## CHitboxComponent (Read-Only)
 ```lua
-@type CHitboxComponent
+--- @type CHitboxComponent
 Read: cbasemodelentity.CHitboxComponent
 ```
 ## DestructiblePartInitialStateDestructed0 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DestructiblePartInitialStateDestructed0
 Write: cbasemodelentity.DestructiblePartInitialStateDestructed0 = value
 ```
 ## DestructiblePartInitialStateDestructed1 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DestructiblePartInitialStateDestructed1
 Write: cbasemodelentity.DestructiblePartInitialStateDestructed1 = value
 ```
 ## DestructiblePartInitialStateDestructed2 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DestructiblePartInitialStateDestructed2
 Write: cbasemodelentity.DestructiblePartInitialStateDestructed2 = value
 ```
 ## DestructiblePartInitialStateDestructed3 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DestructiblePartInitialStateDestructed3
 Write: cbasemodelentity.DestructiblePartInitialStateDestructed3 = value
 ```
 ## DestructiblePartInitialStateDestructed4 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DestructiblePartInitialStateDestructed4
 Write: cbasemodelentity.DestructiblePartInitialStateDestructed4 = value
 ```
 ## LastHitDestructiblePartIndex 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.LastHitDestructiblePartIndex
 Write: cbasemodelentity.LastHitDestructiblePartIndex = value
 ```
 ## LastHitGroup 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.LastHitGroup
 Write: cbasemodelentity.LastHitGroup = value
 ```
 ## DissolveStartTime 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DissolveStartTime
 Write: cbasemodelentity.DissolveStartTime = value
 ```
 ## OnIgnite (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbasemodelentity.OnIgnite
 ```
 ## RenderMode 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.RenderMode
 Write: cbasemodelentity.RenderMode = value
 ```
 ## RenderFX 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.RenderFX
 Write: cbasemodelentity.RenderFX = value
 ```
 ## AllowFadeInView 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasemodelentity.AllowFadeInView
 Write: cbasemodelentity.AllowFadeInView = value
 ```
 ## Render 
 ```lua
-@type Color
+--- @type Color
 Read: cbasemodelentity.Render
 Write: cbasemodelentity.Render = value
 ```
 ## RenderAttributes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cbasemodelentity.RenderAttributes
 ```
 ## RenderToCubemaps 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasemodelentity.RenderToCubemaps
 Write: cbasemodelentity.RenderToCubemaps = value
 ```
 ## NoInterpolate 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasemodelentity.NoInterpolate
 Write: cbasemodelentity.NoInterpolate = value
 ```
 ## Collision (Read-Only)
 ```lua
-@type CCollisionProperty
+--- @type CCollisionProperty
 Read: cbasemodelentity.Collision
 ```
 ## Glow (Read-Only)
 ```lua
-@type CGlowProperty
+--- @type CGlowProperty
 Read: cbasemodelentity.Glow
 ```
 ## GlowBackfaceMult 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.GlowBackfaceMult
 Write: cbasemodelentity.GlowBackfaceMult = value
 ```
 ## FadeMinDist 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.FadeMinDist
 Write: cbasemodelentity.FadeMinDist = value
 ```
 ## FadeMaxDist 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.FadeMaxDist
 Write: cbasemodelentity.FadeMaxDist = value
 ```
 ## FadeScale 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.FadeScale
 Write: cbasemodelentity.FadeScale = value
 ```
 ## ShadowStrength 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.ShadowStrength
 Write: cbasemodelentity.ShadowStrength = value
 ```
 ## ObjectCulling 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.ObjectCulling
 Write: cbasemodelentity.ObjectCulling = value
 ```
 ## AddDecal 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.AddDecal
 Write: cbasemodelentity.AddDecal = value
 ```
 ## DecalPosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbasemodelentity.DecalPosition
 Write: cbasemodelentity.DecalPosition = value
 ```
 ## DecalForwardAxis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbasemodelentity.DecalForwardAxis
 Write: cbasemodelentity.DecalForwardAxis = value
 ```
 ## DecalHealBloodRate 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DecalHealBloodRate
 Write: cbasemodelentity.DecalHealBloodRate = value
 ```
 ## DecalHealHeightRate 
 ```lua
-@type number
+--- @type number
 Read: cbasemodelentity.DecalHealHeightRate
 Write: cbasemodelentity.DecalHealHeightRate = value
 ```
 ## ViewOffset (Read-Only)
 ```lua
-@type CNetworkViewOffsetVector
+--- @type CNetworkViewOffsetVector
 Read: cbasemodelentity.ViewOffset
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cbasemodelentity.Parent
 ```
 # Functions
 ## SetBodygroup
 ```lua
 @returns void
-cbasemodelentity:SetBodygroup(str --[[ string ]], val --[[ value ]])
+cbasemodelentity:SetBodygroup(str, val)
 ```
 ## SetModel
 ```lua
 @returns void
-cbasemodelentity:SetModel(model --[[ string ]])
+cbasemodelentity:SetModel(model)
 ```
 ## SetSolidType
 ```lua
 @returns void
-cbasemodelentity:SetSolidType(solidType --[[ number ]])
+cbasemodelentity:SetSolidType(solidType)
 ```
 ## ToPtr
 ```lua

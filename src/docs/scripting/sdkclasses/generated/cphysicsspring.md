@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsSpring(ptr --[[ string ]])
+CPhysicsSpring(ptr)
 ```
 # Properties
 ## Frequency 
 ```lua
-@type number
+--- @type number
 Read: cphysicsspring.Frequency
 Write: cphysicsspring.Frequency = value
 ```
 ## DampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cphysicsspring.DampingRatio
 Write: cphysicsspring.DampingRatio = value
 ```
 ## RestLength 
 ```lua
-@type number
+--- @type number
 Read: cphysicsspring.RestLength
 Write: cphysicsspring.RestLength = value
 ```
 ## NameAttachStart 
 ```lua
-@type string
+--- @type string
 Read: cphysicsspring.NameAttachStart
 Write: cphysicsspring.NameAttachStart = value
 ```
 ## NameAttachEnd 
 ```lua
-@type string
+--- @type string
 Read: cphysicsspring.NameAttachEnd
 Write: cphysicsspring.NameAttachEnd = value
 ```
 ## Start 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsspring.Start
 Write: cphysicsspring.Start = value
 ```
 ## End 
 ```lua
-@type Vector
+--- @type Vector
 Read: cphysicsspring.End
 Write: cphysicsspring.End = value
 ```
 ## TeleportTick 
 ```lua
-@type number
+--- @type number
 Read: cphysicsspring.TeleportTick
 Write: cphysicsspring.TeleportTick = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysicsspring.Parent
 ```
 # Functions

@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientOutput_t(ptr --[[ string ]])
+EventClientOutput_t(ptr)
 ```
 # Properties
 ## LoopState (Read-Only)
 ```lua
-@type EngineLoopState_t
+--- @type EngineLoopState_t
 Read: eventclientoutput_t.LoopState
 ```
 ## RenderTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientoutput_t.RenderTime
 Write: eventclientoutput_t.RenderTime = value
 ```
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientoutput_t.RealTime
 Write: eventclientoutput_t.RealTime = value
 ```
 ## RenderFrameTimeUnbounded 
 ```lua
-@type number
+--- @type number
 Read: eventclientoutput_t.RenderFrameTimeUnbounded
 Write: eventclientoutput_t.RenderFrameTimeUnbounded = value
 ```
 ## RenderOnly 
 ```lua
-@type boolean
+--- @type boolean
 Read: eventclientoutput_t.RenderOnly
 Write: eventclientoutput_t.RenderOnly = value
 ```

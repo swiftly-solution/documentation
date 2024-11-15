@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRenderMesh(ptr --[[ string ]])
+CRenderMesh(ptr)
 ```
 # Properties
 ## Skeleton (Read-Only)
 ```lua
-@type CRenderSkeleton
+--- @type CRenderSkeleton
 Read: crendermesh.Skeleton
 ```
 ## MeshDeformParams (Read-Only)
 ```lua
-@type DynamicMeshDeformParams_t
+--- @type DynamicMeshDeformParams_t
 Read: crendermesh.MeshDeformParams
 ```
 ## GroomData (Read-Only)
 ```lua
-@type CRenderGroom
+--- @type CRenderGroom
 Read: crendermesh.GroomData
 ```
 # Functions

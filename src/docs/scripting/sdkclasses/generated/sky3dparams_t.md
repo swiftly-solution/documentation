@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-sky3dparams_t(ptr --[[ string ]])
+sky3dparams_t(ptr)
 ```
 # Properties
 ## Scale 
 ```lua
-@type number
+--- @type number
 Read: sky3dparams_t.Scale
 Write: sky3dparams_t.Scale = value
 ```
 ## Origin 
 ```lua
-@type Vector
+--- @type Vector
 Read: sky3dparams_t.Origin
 Write: sky3dparams_t.Origin = value
 ```
 ## Clip3DSkyBoxNearToWorldFar 
 ```lua
-@type boolean
+--- @type boolean
 Read: sky3dparams_t.Clip3DSkyBoxNearToWorldFar
 Write: sky3dparams_t.Clip3DSkyBoxNearToWorldFar = value
 ```
 ## Clip3DSkyBoxNearToWorldFarOffset 
 ```lua
-@type number
+--- @type number
 Read: sky3dparams_t.Clip3DSkyBoxNearToWorldFarOffset
 Write: sky3dparams_t.Clip3DSkyBoxNearToWorldFarOffset = value
 ```
 ## Fog (Read-Only)
 ```lua
-@type fogparams_t
+--- @type fogparams_t
 Read: sky3dparams_t.Fog
 ```
 ## WorldGroupID 
 ```lua
-@type number
+--- @type number
 Read: sky3dparams_t.WorldGroupID
 Write: sky3dparams_t.WorldGroupID = value
 ```

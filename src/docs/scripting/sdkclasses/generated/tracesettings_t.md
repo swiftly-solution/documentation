@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-TraceSettings_t(ptr --[[ string ]])
+TraceSettings_t(ptr)
 ```
 # Properties
 ## TraceHeight 
 ```lua
-@type number
+--- @type number
 Read: tracesettings_t.TraceHeight
 Write: tracesettings_t.TraceHeight = value
 ```
 ## TraceRadius 
 ```lua
-@type number
+--- @type number
 Read: tracesettings_t.TraceRadius
 Write: tracesettings_t.TraceRadius = value
 ```

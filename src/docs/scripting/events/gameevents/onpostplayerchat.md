@@ -11,8 +11,9 @@ This event is triggered after player_chat is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerChat", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerChat", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

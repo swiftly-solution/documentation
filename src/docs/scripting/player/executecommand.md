@@ -11,8 +11,9 @@ Executes a command on behalf of a player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:ExecuteCommand(command --[[ string ]])
+--- @param command string
+--- @return nil
+player:ExecuteCommand(command)
 ```
 
 :::

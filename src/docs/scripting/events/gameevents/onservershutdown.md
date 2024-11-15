@@ -11,8 +11,9 @@ This event is triggered when server_shutdown is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnServerShutdown", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnServerShutdown", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

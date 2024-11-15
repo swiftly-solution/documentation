@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleCollectionFloatInput(ptr --[[ string ]])
+CParticleCollectionFloatInput(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CParticleFloatInput
+--- @type CParticleFloatInput
 Read: cparticlecollectionfloatinput.Parent
 ```
 # Functions

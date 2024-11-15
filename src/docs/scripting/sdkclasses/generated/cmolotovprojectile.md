@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMolotovProjectile(ptr --[[ string ]])
+CMolotovProjectile(ptr)
 ```
 # Properties
 ## IsIncGrenade 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmolotovprojectile.IsIncGrenade
 Write: cmolotovprojectile.IsIncGrenade = value
 ```
 ## Detonated 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmolotovprojectile.Detonated
 Write: cmolotovprojectile.Detonated = value
 ```
 ## StillTimer (Read-Only)
 ```lua
-@type IntervalTimer
+--- @type IntervalTimer
 Read: cmolotovprojectile.StillTimer
 ```
 ## HasBouncedOffPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmolotovprojectile.HasBouncedOffPlayer
 Write: cmolotovprojectile.HasBouncedOffPlayer = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenadeProjectile
+--- @type CBaseCSGrenadeProjectile
 Read: cmolotovprojectile.Parent
 ```
 # Functions

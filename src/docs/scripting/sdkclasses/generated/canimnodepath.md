@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimNodePath(ptr --[[ string ]])
+CAnimNodePath(ptr)
 ```
 # Properties
 ## Path (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimnodepath.Path
 ```
 ## Count 
 ```lua
-@type number
+--- @type number
 Read: canimnodepath.Count
 Write: canimnodepath.Count = value
 ```

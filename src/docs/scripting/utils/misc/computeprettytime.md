@@ -11,8 +11,9 @@ Transforms seconds into a pretty string format.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ComputePrettyTime(seconds --[[ number ]])
+--- @param seconds number
+--- @return string
+ComputePrettyTime(seconds)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after show_survival_respawn_status is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostShowSurvivalRespawnStatus", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostShowSurvivalRespawnStatus", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

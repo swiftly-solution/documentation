@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MotionDBIndex(ptr --[[ string ]])
+MotionDBIndex(ptr)
 ```
 # Properties
 ## Index 
 ```lua
-@type number
+--- @type number
 Read: motiondbindex.Index
 Write: motiondbindex.Index = value
 ```

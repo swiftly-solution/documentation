@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmIKRig(ptr --[[ string ]])
+CNmIKRig(ptr)
 ```
 # Properties
 There are no properties available for this class.

@@ -11,8 +11,9 @@ Returns the state of a plugin.
 ::: tabs
 @tab Lua
 ```lua
-@returns PluginState_t
-GetPluginState(plugin_name --[[ string ]])
+--- @param plugin_name string
+--- @return number PluginState_t
+GetPluginState(plugin_name)
 ```
 
 :::

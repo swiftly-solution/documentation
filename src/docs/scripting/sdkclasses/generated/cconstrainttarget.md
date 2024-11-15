@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CConstraintTarget(ptr --[[ string ]])
+CConstraintTarget(ptr)
 ```
 # Properties
 ## Offset 
 ```lua
-@type Vector
+--- @type Vector
 Read: cconstrainttarget.Offset
 Write: cconstrainttarget.Offset = value
 ```
 ## BoneHash 
 ```lua
-@type number
+--- @type number
 Read: cconstrainttarget.BoneHash
 Write: cconstrainttarget.BoneHash = value
 ```
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cconstrainttarget.Name
 Write: cconstrainttarget.Name = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: cconstrainttarget.Weight
 Write: cconstrainttarget.Weight = value
 ```
 ## IsAttachment 
 ```lua
-@type boolean
+--- @type boolean
 Read: cconstrainttarget.IsAttachment
 Write: cconstrainttarget.IsAttachment = value
 ```

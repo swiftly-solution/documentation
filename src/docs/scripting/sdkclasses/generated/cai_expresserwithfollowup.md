@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAI_ExpresserWithFollowup(ptr --[[ string ]])
+CAI_ExpresserWithFollowup(ptr)
 ```
 # Properties
 ## PostponedFollowup (Read-Only)
 ```lua
-@type ResponseFollowup
+--- @type ResponseFollowup
 Read: cai_expresserwithfollowup.PostponedFollowup
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAI_Expresser
+--- @type CAI_Expresser
 Read: cai_expresserwithfollowup.Parent
 ```
 # Functions

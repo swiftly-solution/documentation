@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointChildModifier(ptr --[[ string ]])
+CPointChildModifier(ptr)
 ```
 # Properties
 ## OrphanInsteadOfDeletingChildrenOnRemove 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointchildmodifier.OrphanInsteadOfDeletingChildrenOnRemove
 Write: cpointchildmodifier.OrphanInsteadOfDeletingChildrenOnRemove = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointchildmodifier.Parent
 ```
 # Functions

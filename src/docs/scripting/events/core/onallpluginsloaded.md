@@ -11,8 +11,10 @@ This game event is triggered when all the plugins are loaded.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAllPluginsLoaded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnAllPluginsLoaded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

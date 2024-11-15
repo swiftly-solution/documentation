@@ -11,8 +11,9 @@ Set the number unsigned value to the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:SetUInt(value --[[ number ]])
+--- @param value number
+--- @return nil
+memory:SetUInt(value)
 ```
 
 :::

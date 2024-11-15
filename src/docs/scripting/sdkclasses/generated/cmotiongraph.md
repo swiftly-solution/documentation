@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionGraph(ptr --[[ string ]])
+CMotionGraph(ptr)
 ```
 # Properties
 ## ParamSpans (Read-Only)
 ```lua
-@type CParamSpanUpdater
+--- @type CParamSpanUpdater
 Read: cmotiongraph.ParamSpans
 ```
 ## Tags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotiongraph.Tags
 ```
 ## ParameterCount 
 ```lua
-@type number
+--- @type number
 Read: cmotiongraph.ParameterCount
 Write: cmotiongraph.ParameterCount = value
 ```
 ## ConfigStartIndex 
 ```lua
-@type number
+--- @type number
 Read: cmotiongraph.ConfigStartIndex
 Write: cmotiongraph.ConfigStartIndex = value
 ```
 ## ConfigCount 
 ```lua
-@type number
+--- @type number
 Read: cmotiongraph.ConfigCount
 Write: cmotiongraph.ConfigCount = value
 ```
 ## Loop 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmotiongraph.Loop
 Write: cmotiongraph.Loop = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncWall(ptr --[[ string ]])
+CFuncWall(ptr)
 ```
 # Properties
 ## State 
 ```lua
-@type number
+--- @type number
 Read: cfuncwall.State
 Write: cfuncwall.State = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfuncwall.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ Set the double value to the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:SetDouble(value --[[ number ]])
+--- @param value number
+--- @return nil
+memory:SetDouble(value)
 ```
 
 :::

@@ -11,8 +11,9 @@ This event is triggered after flare_ignite_npc is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostFlareIgniteNpc", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostFlareIgniteNpc", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

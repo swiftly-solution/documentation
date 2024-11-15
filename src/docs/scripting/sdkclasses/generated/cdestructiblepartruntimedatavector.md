@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDestructiblePartRuntimeDataVector(ptr --[[ string ]])
+CDestructiblePartRuntimeDataVector(ptr)
 ```
 # Properties
 ## DestructiblePartsRuntimeData (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdestructiblepartruntimedatavector.DestructiblePartsRuntimeData
 ```
 # Functions

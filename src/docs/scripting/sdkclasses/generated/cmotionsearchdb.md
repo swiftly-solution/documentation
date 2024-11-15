@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionSearchDB(ptr --[[ string ]])
+CMotionSearchDB(ptr)
 ```
 # Properties
 ## RootNode (Read-Only)
 ```lua
-@type CMotionSearchNode
+--- @type CMotionSearchNode
 Read: cmotionsearchdb.RootNode
 ```
 ## ResidualQuantizer (Read-Only)
 ```lua
-@type CProductQuantizer
+--- @type CProductQuantizer
 Read: cmotionsearchdb.ResidualQuantizer
 ```
 ## CodeIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionsearchdb.CodeIndices
 ```
 # Functions

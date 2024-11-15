@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStanceScaleUpdateNode(ptr --[[ string ]])
+CStanceScaleUpdateNode(ptr)
 ```
 # Properties
 ## Param (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cstancescaleupdatenode.Param
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cstancescaleupdatenode.Parent
 ```
 # Functions

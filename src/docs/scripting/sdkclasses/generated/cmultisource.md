@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMultiSource(ptr --[[ string ]])
+CMultiSource(ptr)
 ```
 # Properties
 ## RgEntities (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmultisource.RgEntities
 ```
 ## RgTriggered 
 ```lua
-@type table
+--- @type table
 Read: cmultisource.RgTriggered
 Write: cmultisource.RgTriggered = value
 ```
 ## OnTrigger (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmultisource.OnTrigger
 ```
 ## Total 
 ```lua
-@type number
+--- @type number
 Read: cmultisource.Total
 Write: cmultisource.Total = value
 ```
 ## Globalstate 
 ```lua
-@type string
+--- @type string
 Read: cmultisource.Globalstate
 Write: cmultisource.Globalstate = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cmultisource.Parent
 ```
 # Functions

@@ -12,39 +12,39 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateMachineUpdateNode(ptr --[[ string ]])
+CStateMachineUpdateNode(ptr)
 ```
 # Properties
 ## StateMachine (Read-Only)
 ```lua
-@type CAnimStateMachineUpdater
+--- @type CAnimStateMachineUpdater
 Read: cstatemachineupdatenode.StateMachine
 ```
 ## StateData (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstatemachineupdatenode.StateData
 ```
 ## TransitionData (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstatemachineupdatenode.TransitionData
 ```
 ## BlockWaningTags 
 ```lua
-@type boolean
+--- @type boolean
 Read: cstatemachineupdatenode.BlockWaningTags
 Write: cstatemachineupdatenode.BlockWaningTags = value
 ```
 ## LockStateWhenWaning 
 ```lua
-@type boolean
+--- @type boolean
 Read: cstatemachineupdatenode.LockStateWhenWaning
 Write: cstatemachineupdatenode.LockStateWhenWaning = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: cstatemachineupdatenode.Parent
 ```
 # Functions

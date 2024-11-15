@@ -11,8 +11,9 @@ This event is triggered when server_message is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnServerMessage", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnServerMessage", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

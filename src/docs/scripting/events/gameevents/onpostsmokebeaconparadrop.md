@@ -11,8 +11,9 @@ This event is triggered after smoke_beacon_paradrop is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSmokeBeaconParadrop", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSmokeBeaconParadrop", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

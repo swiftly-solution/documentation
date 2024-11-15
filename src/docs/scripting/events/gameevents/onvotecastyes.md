@@ -11,8 +11,9 @@ This event is triggered when vote_cast_yes is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnVoteCastYes", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnVoteCastYes", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

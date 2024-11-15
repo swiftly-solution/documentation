@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBonePositionMetricEvaluator(ptr --[[ string ]])
+CBonePositionMetricEvaluator(ptr)
 ```
 # Properties
 ## BoneIndex 
 ```lua
-@type number
+--- @type number
 Read: cbonepositionmetricevaluator.BoneIndex
 Write: cbonepositionmetricevaluator.BoneIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cbonepositionmetricevaluator.Parent
 ```
 # Functions

@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysBallSocket(ptr --[[ string ]])
+CPhysBallSocket(ptr)
 ```
 # Properties
 ## JointFriction 
 ```lua
-@type number
+--- @type number
 Read: cphysballsocket.JointFriction
 Write: cphysballsocket.JointFriction = value
 ```
 ## EnableSwingLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysballsocket.EnableSwingLimit
 Write: cphysballsocket.EnableSwingLimit = value
 ```
 ## SwingLimit 
 ```lua
-@type number
+--- @type number
 Read: cphysballsocket.SwingLimit
 Write: cphysballsocket.SwingLimit = value
 ```
 ## EnableTwistLimit 
 ```lua
-@type boolean
+--- @type boolean
 Read: cphysballsocket.EnableTwistLimit
 Write: cphysballsocket.EnableTwistLimit = value
 ```
 ## MinTwistAngle 
 ```lua
-@type number
+--- @type number
 Read: cphysballsocket.MinTwistAngle
 Write: cphysballsocket.MinTwistAngle = value
 ```
 ## MaxTwistAngle 
 ```lua
-@type number
+--- @type number
 Read: cphysballsocket.MaxTwistAngle
 Write: cphysballsocket.MaxTwistAngle = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPhysConstraint
+--- @type CPhysConstraint
 Read: cphysballsocket.Parent
 ```
 # Functions

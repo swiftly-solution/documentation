@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncPropRespawnZone(ptr --[[ string ]])
+CFuncPropRespawnZone(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfuncproprespawnzone.Parent
 ```
 # Functions

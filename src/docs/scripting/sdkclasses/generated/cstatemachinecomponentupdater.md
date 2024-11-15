@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateMachineComponentUpdater(ptr --[[ string ]])
+CStateMachineComponentUpdater(ptr)
 ```
 # Properties
 ## StateMachine (Read-Only)
 ```lua
-@type CAnimStateMachineUpdater
+--- @type CAnimStateMachineUpdater
 Read: cstatemachinecomponentupdater.StateMachine
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimComponentUpdater
+--- @type CAnimComponentUpdater
 Read: cstatemachinecomponentupdater.Parent
 ```
 # Functions

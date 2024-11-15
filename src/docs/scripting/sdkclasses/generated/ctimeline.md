@@ -12,54 +12,54 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTimeline(ptr --[[ string ]])
+CTimeline(ptr)
 ```
 # Properties
 ## Values 
 ```lua
-@type table
+--- @type table
 Read: ctimeline.Values
 Write: ctimeline.Values = value
 ```
 ## ValueCounts 
 ```lua
-@type table
+--- @type table
 Read: ctimeline.ValueCounts
 Write: ctimeline.ValueCounts = value
 ```
 ## BucketCount 
 ```lua
-@type number
+--- @type number
 Read: ctimeline.BucketCount
 Write: ctimeline.BucketCount = value
 ```
 ## Interval 
 ```lua
-@type number
+--- @type number
 Read: ctimeline.Interval
 Write: ctimeline.Interval = value
 ```
 ## FinalValue 
 ```lua
-@type number
+--- @type number
 Read: ctimeline.FinalValue
 Write: ctimeline.FinalValue = value
 ```
 ## CompressionType 
 ```lua
-@type number
+--- @type number
 Read: ctimeline.CompressionType
 Write: ctimeline.CompressionType = value
 ```
 ## Stopped 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctimeline.Stopped
 Write: ctimeline.Stopped = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type IntervalTimer
+--- @type IntervalTimer
 Read: ctimeline.Parent
 ```
 # Functions

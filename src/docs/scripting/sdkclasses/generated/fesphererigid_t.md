@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeSphereRigid_t(ptr --[[ string ]])
+FeSphereRigid_t(ptr)
 ```
 # Properties
 ## Sphere 
 ```lua
-@type number
+--- @type number
 Read: fesphererigid_t.Sphere
 Write: fesphererigid_t.Sphere = value
 ```
 ## Node 
 ```lua
-@type number
+--- @type number
 Read: fesphererigid_t.Node
 Write: fesphererigid_t.Node = value
 ```
 ## CollisionMask 
 ```lua
-@type number
+--- @type number
 Read: fesphererigid_t.CollisionMask
 Write: fesphererigid_t.CollisionMask = value
 ```
 ## VertexMapIndex 
 ```lua
-@type number
+--- @type number
 Read: fesphererigid_t.VertexMapIndex
 Write: fesphererigid_t.VertexMapIndex = value
 ```
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: fesphererigid_t.Flags
 Write: fesphererigid_t.Flags = value
 ```

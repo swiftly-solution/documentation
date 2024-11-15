@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAttributeContainer(ptr --[[ string ]])
+CAttributeContainer(ptr)
 ```
 # Properties
 ## Item (Read-Only)
 ```lua
-@type CEconItemView
+--- @type CEconItemView
 Read: cattributecontainer.Item
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAttributeManager
+--- @type CAttributeManager
 Read: cattributecontainer.Parent
 ```
 # Functions

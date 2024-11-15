@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDampedValueUpdateItem(ptr --[[ string ]])
+CDampedValueUpdateItem(ptr)
 ```
 # Properties
 ## Damping (Read-Only)
 ```lua
-@type CAnimInputDamping
+--- @type CAnimInputDamping
 Read: cdampedvalueupdateitem.Damping
 ```
 ## ParamIn (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cdampedvalueupdateitem.ParamIn
 ```
 ## ParamOut (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cdampedvalueupdateitem.ParamOut
 ```
 # Functions

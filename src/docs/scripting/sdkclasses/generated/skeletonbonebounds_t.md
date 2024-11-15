@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SkeletonBoneBounds_t(ptr --[[ string ]])
+SkeletonBoneBounds_t(ptr)
 ```
 # Properties
 ## Center 
 ```lua
-@type Vector
+--- @type Vector
 Read: skeletonbonebounds_t.Center
 Write: skeletonbonebounds_t.Center = value
 ```
 ## Size 
 ```lua
-@type Vector
+--- @type Vector
 Read: skeletonbonebounds_t.Size
 Write: skeletonbonebounds_t.Size = value
 ```

@@ -11,8 +11,9 @@ This event is triggered when hostage_follows is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHostageFollows", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHostageFollows", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

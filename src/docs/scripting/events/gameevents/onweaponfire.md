@@ -11,8 +11,9 @@ This event is triggered when weapon_fire is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnWeaponFire", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnWeaponFire", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

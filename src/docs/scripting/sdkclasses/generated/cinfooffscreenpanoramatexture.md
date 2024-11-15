@@ -12,59 +12,59 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoOffscreenPanoramaTexture(ptr --[[ string ]])
+CInfoOffscreenPanoramaTexture(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinfooffscreenpanoramatexture.Disabled
 Write: cinfooffscreenpanoramatexture.Disabled = value
 ```
 ## ResolutionX 
 ```lua
-@type number
+--- @type number
 Read: cinfooffscreenpanoramatexture.ResolutionX
 Write: cinfooffscreenpanoramatexture.ResolutionX = value
 ```
 ## ResolutionY 
 ```lua
-@type number
+--- @type number
 Read: cinfooffscreenpanoramatexture.ResolutionY
 Write: cinfooffscreenpanoramatexture.ResolutionY = value
 ```
 ## LayoutFileName 
 ```lua
-@type string
+--- @type string
 Read: cinfooffscreenpanoramatexture.LayoutFileName
 Write: cinfooffscreenpanoramatexture.LayoutFileName = value
 ```
 ## RenderAttrName 
 ```lua
-@type string
+--- @type string
 Read: cinfooffscreenpanoramatexture.RenderAttrName
 Write: cinfooffscreenpanoramatexture.RenderAttrName = value
 ```
 ## TargetChangeCount 
 ```lua
-@type number
+--- @type number
 Read: cinfooffscreenpanoramatexture.TargetChangeCount
 Write: cinfooffscreenpanoramatexture.TargetChangeCount = value
 ```
 ## CSSClasses (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cinfooffscreenpanoramatexture.CSSClasses
 ```
 ## TargetsName 
 ```lua
-@type string
+--- @type string
 Read: cinfooffscreenpanoramatexture.TargetsName
 Write: cinfooffscreenpanoramatexture.TargetsName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfooffscreenpanoramatexture.Parent
 ```
 # Functions

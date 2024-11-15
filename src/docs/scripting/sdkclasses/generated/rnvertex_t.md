@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnVertex_t(ptr --[[ string ]])
+RnVertex_t(ptr)
 ```
 # Properties
 ## Edge 
 ```lua
-@type number
+--- @type number
 Read: rnvertex_t.Edge
 Write: rnvertex_t.Edge = value
 ```

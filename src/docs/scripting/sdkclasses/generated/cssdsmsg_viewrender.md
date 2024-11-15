@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_ViewRender(ptr --[[ string ]])
+CSSDSMsg_ViewRender(ptr)
 ```
 # Properties
 ## ViewId (Read-Only)
 ```lua
-@type SceneViewId_t
+--- @type SceneViewId_t
 Read: cssdsmsg_viewrender.ViewId
 ```
 ## ViewName 
 ```lua
-@type string
+--- @type string
 Read: cssdsmsg_viewrender.ViewName
 Write: cssdsmsg_viewrender.ViewName = value
 ```

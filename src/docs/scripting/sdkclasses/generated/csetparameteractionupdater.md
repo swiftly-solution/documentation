@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSetParameterActionUpdater(ptr --[[ string ]])
+CSetParameterActionUpdater(ptr)
 ```
 # Properties
 ## Param (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: csetparameteractionupdater.Param
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimActionUpdater
+--- @type CAnimActionUpdater
 Read: csetparameteractionupdater.Parent
 ```
 # Functions

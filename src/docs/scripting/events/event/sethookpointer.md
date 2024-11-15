@@ -11,8 +11,10 @@ Set the memory value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookPointer(index --[[ number ]], value --[[ Memory ]])
+--- @param index number
+--- @param value Memory
+--- @return nil
+event:SetHookPointer(index, value)
 ```
 
 :::

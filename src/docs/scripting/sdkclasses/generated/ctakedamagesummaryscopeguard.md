@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTakeDamageSummaryScopeGuard(ptr --[[ string ]])
+CTakeDamageSummaryScopeGuard(ptr)
 ```
 # Properties
 ## Summaries (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ctakedamagesummaryscopeguard.Summaries
 ```
 # Functions

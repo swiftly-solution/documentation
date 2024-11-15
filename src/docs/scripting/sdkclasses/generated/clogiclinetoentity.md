@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicLineToEntity(ptr --[[ string ]])
+CLogicLineToEntity(ptr)
 ```
 # Properties
 ## SourceName 
 ```lua
-@type string
+--- @type string
 Read: clogiclinetoentity.SourceName
 Write: clogiclinetoentity.SourceName = value
 ```
 ## StartEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: clogiclinetoentity.StartEntity
 ```
 ## EndEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: clogiclinetoentity.EndEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogiclinetoentity.Parent
 ```
 # Functions

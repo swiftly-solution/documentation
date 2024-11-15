@@ -11,8 +11,11 @@ Returns a Database Query Result inside the callback which can be used to iterate
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-db:QueryParams(query --[[ string ]], params --[[ table ]], callback --[[ function ]])
+--- @param query string
+--- @param params table
+--- @param callback function
+--- @return nil
+db:QueryParams(query, params, callback)
 ```
 > [!info]
 > If database is not connected it will never execute.

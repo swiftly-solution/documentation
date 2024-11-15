@@ -11,8 +11,10 @@ Sets a convar value.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-convar:Set(name --[[ string ]], value --[[ string ]])
+--- @param name string
+--- @param value string
+--- @return nil
+convar:Set(name, value)
 ```
 
 :::

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTwistConstraint(ptr --[[ string ]])
+CTwistConstraint(ptr)
 ```
 # Properties
 ## Inverse 
 ```lua
-@type boolean
+--- @type boolean
 Read: ctwistconstraint.Inverse
 Write: ctwistconstraint.Inverse = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: ctwistconstraint.Parent
 ```
 # Functions

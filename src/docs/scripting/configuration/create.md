@@ -11,8 +11,10 @@ Creates the plugin configuration file.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-config:Create(config_key --[[ string ]], value --[[ table ]])
+--- @param config_key string
+--- @param value table
+--- @return nil
+config:Create(config_key, value)
 ```
 > [!info]
 > The config_key field supports nested configuration. Example: `folder1/folder2/config_key`, resulting in fetching to `folder1.folder2.config_key`.

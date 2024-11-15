@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysMotor(ptr --[[ string ]])
+CPhysMotor(ptr)
 ```
 # Properties
 ## NameAttach 
 ```lua
-@type string
+--- @type string
 Read: cphysmotor.NameAttach
 Write: cphysmotor.NameAttach = value
 ```
 ## AttachedObject (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysmotor.AttachedObject
 ```
 ## SpinUp 
 ```lua
-@type number
+--- @type number
 Read: cphysmotor.SpinUp
 Write: cphysmotor.SpinUp = value
 ```
 ## AdditionalAcceleration 
 ```lua
-@type number
+--- @type number
 Read: cphysmotor.AdditionalAcceleration
 Write: cphysmotor.AdditionalAcceleration = value
 ```
 ## AngularAcceleration 
 ```lua
-@type number
+--- @type number
 Read: cphysmotor.AngularAcceleration
 Write: cphysmotor.AngularAcceleration = value
 ```
 ## LastTime 
 ```lua
-@type number
+--- @type number
 Read: cphysmotor.LastTime
 Write: cphysmotor.LastTime = value
 ```
 ## Motor (Read-Only)
 ```lua
-@type CMotorController
+--- @type CMotorController
 Read: cphysmotor.Motor
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cphysmotor.Parent
 ```
 # Functions

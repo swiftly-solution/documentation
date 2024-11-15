@@ -11,8 +11,9 @@ This event is triggered when survival_no_respawns_final is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSurvivalNoRespawnsFinal", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSurvivalNoRespawnsFinal", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

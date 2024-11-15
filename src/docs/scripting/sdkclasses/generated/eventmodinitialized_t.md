@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventModInitialized_t(ptr --[[ string ]])
+EventModInitialized_t(ptr)
 ```
 # Properties
 There are no properties available for this class.

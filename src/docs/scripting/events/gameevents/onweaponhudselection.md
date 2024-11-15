@@ -11,8 +11,9 @@ This event is triggered when weaponhud_selection is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnWeaponhudSelection", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnWeaponhudSelection", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

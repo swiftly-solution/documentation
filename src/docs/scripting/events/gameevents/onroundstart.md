@@ -11,8 +11,9 @@ This event is triggered when round_start is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundStart", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundStart", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

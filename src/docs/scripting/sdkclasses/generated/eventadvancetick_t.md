@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventAdvanceTick_t(ptr --[[ string ]])
+EventAdvanceTick_t(ptr)
 ```
 # Properties
 ## CurrentTick 
 ```lua
-@type number
+--- @type number
 Read: eventadvancetick_t.CurrentTick
 Write: eventadvancetick_t.CurrentTick = value
 ```
 ## CurrentTickThisFrame 
 ```lua
-@type number
+--- @type number
 Read: eventadvancetick_t.CurrentTickThisFrame
 Write: eventadvancetick_t.CurrentTickThisFrame = value
 ```
 ## TotalTicksThisFrame 
 ```lua
-@type number
+--- @type number
 Read: eventadvancetick_t.TotalTicksThisFrame
 Write: eventadvancetick_t.TotalTicksThisFrame = value
 ```
 ## TotalTicks 
 ```lua
-@type number
+--- @type number
 Read: eventadvancetick_t.TotalTicks
 Write: eventadvancetick_t.TotalTicks = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type EventSimulate_t
+--- @type EventSimulate_t
 Read: eventadvancetick_t.Parent
 ```
 # Functions

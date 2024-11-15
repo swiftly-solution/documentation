@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimReplayFrame(ptr --[[ string ]])
+CAnimReplayFrame(ptr)
 ```
 # Properties
 ## TimeStamp 
 ```lua
-@type number
+--- @type number
 Read: canimreplayframe.TimeStamp
 Write: canimreplayframe.TimeStamp = value
 ```

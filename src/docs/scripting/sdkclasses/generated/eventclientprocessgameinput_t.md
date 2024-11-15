@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientProcessGameInput_t(ptr --[[ string ]])
+EventClientProcessGameInput_t(ptr)
 ```
 # Properties
 ## LoopState (Read-Only)
 ```lua
-@type EngineLoopState_t
+--- @type EngineLoopState_t
 Read: eventclientprocessgameinput_t.LoopState
 ```
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientprocessgameinput_t.RealTime
 Write: eventclientprocessgameinput_t.RealTime = value
 ```
 ## FrameTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientprocessgameinput_t.FrameTime
 Write: eventclientprocessgameinput_t.FrameTime = value
 ```

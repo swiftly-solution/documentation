@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSceneListManager(ptr --[[ string ]])
+CSceneListManager(ptr)
 ```
 # Properties
 ## Scenes 
 ```lua
-@type table
+--- @type table
 Read: cscenelistmanager.Scenes
 Write: cscenelistmanager.Scenes = value
 ```
 ## Scenes1 (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cscenelistmanager.Scenes1
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cscenelistmanager.Parent
 ```
 # Functions

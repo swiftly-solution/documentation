@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerAmpedDecayingSineWave(ptr --[[ string ]])
+CVoiceContainerAmpedDecayingSineWave(ptr)
 ```
 # Properties
 ## GainAmount 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerampeddecayingsinewave.GainAmount
 Write: cvoicecontainerampeddecayingsinewave.GainAmount = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerDecayingSineWave
+--- @type CVoiceContainerDecayingSineWave
 Read: cvoicecontainerampeddecayingsinewave.Parent
 ```
 # Functions

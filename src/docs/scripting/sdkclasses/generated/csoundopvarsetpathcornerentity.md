@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetPathCornerEntity(ptr --[[ string ]])
+CSoundOpvarSetPathCornerEntity(ptr)
 ```
 # Properties
 ## DistMinSqr 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetpathcornerentity.DistMinSqr
 Write: csoundopvarsetpathcornerentity.DistMinSqr = value
 ```
 ## DistMaxSqr 
 ```lua
-@type number
+--- @type number
 Read: csoundopvarsetpathcornerentity.DistMaxSqr
 Write: csoundopvarsetpathcornerentity.DistMaxSqr = value
 ```
 ## PathCornerEntityName 
 ```lua
-@type string
+--- @type string
 Read: csoundopvarsetpathcornerentity.PathCornerEntityName
 Write: csoundopvarsetpathcornerentity.PathCornerEntityName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSoundOpvarSetPointEntity
+--- @type CSoundOpvarSetPointEntity
 Read: csoundopvarsetpathcornerentity.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered after client_loadout_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostClientLoadoutChanged", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostClientLoadoutChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered when bullet_flight_resolution is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBulletFlightResolution", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBulletFlightResolution", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

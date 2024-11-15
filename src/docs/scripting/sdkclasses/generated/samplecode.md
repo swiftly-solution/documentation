@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SampleCode(ptr --[[ string ]])
+SampleCode(ptr)
 ```
 # Properties
 ## SubCode 
 ```lua
-@type table
+--- @type table
 Read: samplecode.SubCode
 Write: samplecode.SubCode = value
 ```

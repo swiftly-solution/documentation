@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventSimpleLoopFrameUpdate_t(ptr --[[ string ]])
+EventSimpleLoopFrameUpdate_t(ptr)
 ```
 # Properties
 ## LoopState (Read-Only)
 ```lua
-@type EngineLoopState_t
+--- @type EngineLoopState_t
 Read: eventsimpleloopframeupdate_t.LoopState
 ```
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: eventsimpleloopframeupdate_t.RealTime
 Write: eventsimpleloopframeupdate_t.RealTime = value
 ```
 ## FrameTime 
 ```lua
-@type number
+--- @type number
 Read: eventsimpleloopframeupdate_t.FrameTime
 Write: eventsimpleloopframeupdate_t.FrameTime = value
 ```

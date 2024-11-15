@@ -11,8 +11,12 @@ This game event is triggered when a player checks for transmitting entities.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerCheckTransmit", function(event --[[ Event ]], playerid --[[ number ]], transmitinfoptr --[[ string ]])
+--- @param event Event
+--- @param playerid number
+--- @param transmitinfoptr string
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnPlayerCheckTransmit", function(event, playerid, transmitinfoptr)
     --[[ ... ]]
     return EventResult.Continue
 end)

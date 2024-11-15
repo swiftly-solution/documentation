@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicNPCCounterAABB(ptr --[[ string ]])
+CLogicNPCCounterAABB(ptr)
 ```
 # Properties
 ## DistanceOuterMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: clogicnpccounteraabb.DistanceOuterMins
 Write: clogicnpccounteraabb.DistanceOuterMins = value
 ```
 ## DistanceOuterMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: clogicnpccounteraabb.DistanceOuterMaxs
 Write: clogicnpccounteraabb.DistanceOuterMaxs = value
 ```
 ## OuterMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: clogicnpccounteraabb.OuterMins
 Write: clogicnpccounteraabb.OuterMins = value
 ```
 ## OuterMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: clogicnpccounteraabb.OuterMaxs
 Write: clogicnpccounteraabb.OuterMaxs = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicNPCCounter
+--- @type CLogicNPCCounter
 Read: clogicnpccounteraabb.Parent
 ```
 # Functions

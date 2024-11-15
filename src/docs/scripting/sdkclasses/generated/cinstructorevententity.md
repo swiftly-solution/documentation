@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInstructorEventEntity(ptr --[[ string ]])
+CInstructorEventEntity(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cinstructorevententity.Name
 Write: cinstructorevententity.Name = value
 ```
 ## HintTargetEntity 
 ```lua
-@type string
+--- @type string
 Read: cinstructorevententity.HintTargetEntity
 Write: cinstructorevententity.HintTargetEntity = value
 ```
 ## TargetPlayer (Read-Only)
 ```lua
-@type CBasePlayerPawn
+--- @type CBasePlayerPawn
 Read: cinstructorevententity.TargetPlayer
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinstructorevententity.Parent
 ```
 # Functions

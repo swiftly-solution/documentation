@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWeaponUSPSilencer(ptr --[[ string ]])
+CWeaponUSPSilencer(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBaseGun
+--- @type CCSWeaponBaseGun
 Read: cweaponuspsilencer.Parent
 ```
 # Functions

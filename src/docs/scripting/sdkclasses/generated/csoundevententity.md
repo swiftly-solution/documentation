@@ -12,88 +12,88 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventEntity(ptr --[[ string ]])
+CSoundEventEntity(ptr)
 ```
 # Properties
 ## StartOnSpawn 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundevententity.StartOnSpawn
 Write: csoundevententity.StartOnSpawn = value
 ```
 ## ToLocalPlayer 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundevententity.ToLocalPlayer
 Write: csoundevententity.ToLocalPlayer = value
 ```
 ## StopOnNew 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundevententity.StopOnNew
 Write: csoundevententity.StopOnNew = value
 ```
 ## SaveRestore 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundevententity.SaveRestore
 Write: csoundevententity.SaveRestore = value
 ```
 ## SavedIsPlaying 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundevententity.SavedIsPlaying
 Write: csoundevententity.SavedIsPlaying = value
 ```
 ## SavedElapsedTime 
 ```lua
-@type number
+--- @type number
 Read: csoundevententity.SavedElapsedTime
 Write: csoundevententity.SavedElapsedTime = value
 ```
 ## SourceEntityName 
 ```lua
-@type string
+--- @type string
 Read: csoundevententity.SourceEntityName
 Write: csoundevententity.SourceEntityName = value
 ```
 ## AttachmentName 
 ```lua
-@type string
+--- @type string
 Read: csoundevententity.AttachmentName
 Write: csoundevententity.AttachmentName = value
 ```
 ## OnSoundFinished (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: csoundevententity.OnSoundFinished
 ```
 ## ClientCullRadius 
 ```lua
-@type number
+--- @type number
 Read: csoundevententity.ClientCullRadius
 Write: csoundevententity.ClientCullRadius = value
 ```
 ## SoundName 
 ```lua
-@type string
+--- @type string
 Read: csoundevententity.SoundName
 Write: csoundevententity.SoundName = value
 ```
 ## Source (Read-Only)
 ```lua
-@type CEntityInstance
+--- @type CEntityInstance
 Read: csoundevententity.Source
 ```
 ## EntityIndexSelection 
 ```lua
-@type number
+--- @type number
 Read: csoundevententity.EntityIndexSelection
 Write: csoundevententity.EntityIndexSelection = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: csoundevententity.Parent
 ```
 # Functions

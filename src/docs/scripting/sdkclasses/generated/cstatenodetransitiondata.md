@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStateNodeTransitionData(ptr --[[ string ]])
+CStateNodeTransitionData(ptr)
 ```
 # Properties
 ## Curve (Read-Only)
 ```lua
-@type CBlendCurve
+--- @type CBlendCurve
 Read: cstatenodetransitiondata.Curve
 ```
 ## Reset 
 ```lua
-@type bitfield:1
+--- @type bitfield:1
 Read: cstatenodetransitiondata.Reset
 Write: cstatenodetransitiondata.Reset = value
 ```
 ## ResetCycleOption 
 ```lua
-@type bitfield:3
+--- @type bitfield:3
 Read: cstatenodetransitiondata.ResetCycleOption
 Write: cstatenodetransitiondata.ResetCycleOption = value
 ```

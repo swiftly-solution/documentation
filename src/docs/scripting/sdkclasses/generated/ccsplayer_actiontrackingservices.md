@@ -12,33 +12,33 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_ActionTrackingServices(ptr --[[ string ]])
+CCSPlayer_ActionTrackingServices(ptr)
 ```
 # Properties
 ## LastWeaponBeforeC4AutoSwitch (Read-Only)
 ```lua
-@type CBasePlayerWeapon
+--- @type CBasePlayerWeapon
 Read: ccsplayer_actiontrackingservices.LastWeaponBeforeC4AutoSwitch
 ```
 ## IsRescuing 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayer_actiontrackingservices.IsRescuing
 Write: ccsplayer_actiontrackingservices.IsRescuing = value
 ```
 ## WeaponPurchasesThisMatch (Read-Only)
 ```lua
-@type WeaponPurchaseTracker_t
+--- @type WeaponPurchaseTracker_t
 Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisMatch
 ```
 ## WeaponPurchasesThisRound (Read-Only)
 ```lua
-@type WeaponPurchaseTracker_t
+--- @type WeaponPurchaseTracker_t
 Read: ccsplayer_actiontrackingservices.WeaponPurchasesThisRound
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: ccsplayer_actiontrackingservices.Parent
 ```
 # Functions

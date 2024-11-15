@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_RandomPick(ptr --[[ string ]])
+CModelConfigElement_RandomPick(ptr)
 ```
 # Properties
 ## Choices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfigelement_randompick.Choices
 ```
 ## ChoiceWeights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfigelement_randompick.ChoiceWeights
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_randompick.Parent
 ```
 # Functions

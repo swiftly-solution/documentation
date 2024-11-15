@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimMorphDifference(ptr --[[ string ]])
+CAnimMorphDifference(ptr)
 ```
 # Properties
 There are no properties available for this class.

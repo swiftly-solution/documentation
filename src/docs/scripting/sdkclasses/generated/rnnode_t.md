@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnNode_t(ptr --[[ string ]])
+RnNode_t(ptr)
 ```
 # Properties
 ## Min 
 ```lua
-@type Vector
+--- @type Vector
 Read: rnnode_t.Min
 Write: rnnode_t.Min = value
 ```
 ## Children 
 ```lua
-@type number
+--- @type number
 Read: rnnode_t.Children
 Write: rnnode_t.Children = value
 ```
 ## Max 
 ```lua
-@type Vector
+--- @type Vector
 Read: rnnode_t.Max
 Write: rnnode_t.Max = value
 ```
 ## TriangleOffset 
 ```lua
-@type number
+--- @type number
 Read: rnnode_t.TriangleOffset
 Write: rnnode_t.TriangleOffset = value
 ```

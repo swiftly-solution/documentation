@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmGraphVariation(ptr --[[ string ]])
+CNmGraphVariation(ptr)
 ```
 # Properties
 There are no properties available for this class.

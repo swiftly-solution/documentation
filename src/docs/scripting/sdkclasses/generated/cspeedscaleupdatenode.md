@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSpeedScaleUpdateNode(ptr --[[ string ]])
+CSpeedScaleUpdateNode(ptr)
 ```
 # Properties
 ## ParamIndex (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cspeedscaleupdatenode.ParamIndex
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cspeedscaleupdatenode.Parent
 ```
 # Functions

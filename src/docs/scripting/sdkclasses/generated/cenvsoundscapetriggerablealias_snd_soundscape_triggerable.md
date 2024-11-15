@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable(ptr --[[ string ]])
+CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CEnvSoundscapeTriggerable
+--- @type CEnvSoundscapeTriggerable
 Read: cenvsoundscapetriggerablealias_snd_soundscape_triggerable.Parent
 ```
 # Functions

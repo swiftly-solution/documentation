@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStopwatchBase(ptr --[[ string ]])
+CStopwatchBase(ptr)
 ```
 # Properties
 ## IsRunning 
 ```lua
-@type boolean
+--- @type boolean
 Read: cstopwatchbase.IsRunning
 Write: cstopwatchbase.IsRunning = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSimpleSimTimer
+--- @type CSimpleSimTimer
 Read: cstopwatchbase.Parent
 ```
 # Functions

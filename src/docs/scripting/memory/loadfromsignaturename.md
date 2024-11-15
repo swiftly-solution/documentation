@@ -11,8 +11,9 @@ Loads the memory from the provided signature from `signatures.json`.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:LoadFromSignatureName(signature --[[ string ]])
+--- @param signature string
+--- @return nil
+memory:LoadFromSignatureName(signature)
 ```
 
 :::

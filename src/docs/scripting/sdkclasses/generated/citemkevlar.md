@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemKevlar(ptr --[[ string ]])
+CItemKevlar(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CItem
+--- @type CItem
 Read: citemkevlar.Parent
 ```
 # Functions

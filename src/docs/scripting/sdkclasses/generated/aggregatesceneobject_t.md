@@ -12,40 +12,40 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AggregateSceneObject_t(ptr --[[ string ]])
+AggregateSceneObject_t(ptr)
 ```
 # Properties
 ## AllFlags 
 ```lua
-@type number
+--- @type number
 Read: aggregatesceneobject_t.AllFlags
 Write: aggregatesceneobject_t.AllFlags = value
 ```
 ## AnyFlags 
 ```lua
-@type number
+--- @type number
 Read: aggregatesceneobject_t.AnyFlags
 Write: aggregatesceneobject_t.AnyFlags = value
 ```
 ## Layer 
 ```lua
-@type number
+--- @type number
 Read: aggregatesceneobject_t.Layer
 Write: aggregatesceneobject_t.Layer = value
 ```
 ## AggregateMeshes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: aggregatesceneobject_t.AggregateMeshes
 ```
 ## LodSetups (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: aggregatesceneobject_t.LodSetups
 ```
 ## VisClusterMembership (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: aggregatesceneobject_t.VisClusterMembership
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when cs_win_panel_match is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnCsWinPanelMatch", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnCsWinPanelMatch", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

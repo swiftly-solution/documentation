@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ParticleControlPointConfiguration_t(ptr --[[ string ]])
+ParticleControlPointConfiguration_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: particlecontrolpointconfiguration_t.Name
 Write: particlecontrolpointconfiguration_t.Name = value
 ```
 ## Drivers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: particlecontrolpointconfiguration_t.Drivers
 ```
 ## PreviewState (Read-Only)
 ```lua
-@type ParticlePreviewState_t
+--- @type ParticlePreviewState_t
 Read: particlecontrolpointconfiguration_t.PreviewState
 ```
 # Functions

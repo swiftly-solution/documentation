@@ -11,8 +11,9 @@ Returns the user message from uuid.
 ::: tabs
 @tab Lua
 ```lua
-@returns UserMessage
-GetUserMessage(uuid --[[ string ]])
+--- @param uuid string
+--- @return UserMessage
+GetUserMessage(uuid)
 ```
 
 :::

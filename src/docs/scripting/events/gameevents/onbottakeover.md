@@ -11,8 +11,9 @@ This event is triggered when bot_takeover is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBotTakeover", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBotTakeover", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,67 +12,67 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayer_CameraServices(ptr --[[ string ]])
+CPlayer_CameraServices(ptr)
 ```
 # Properties
 ## CsViewPunchAngle 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cplayer_cameraservices.CsViewPunchAngle
 Write: cplayer_cameraservices.CsViewPunchAngle = value
 ```
 ## CsViewPunchAngleTick 
 ```lua
-@type number
+--- @type number
 Read: cplayer_cameraservices.CsViewPunchAngleTick
 Write: cplayer_cameraservices.CsViewPunchAngleTick = value
 ```
 ## CsViewPunchAngleTickRatio 
 ```lua
-@type number
+--- @type number
 Read: cplayer_cameraservices.CsViewPunchAngleTickRatio
 Write: cplayer_cameraservices.CsViewPunchAngleTickRatio = value
 ```
 ## PlayerFog (Read-Only)
 ```lua
-@type fogplayerparams_t
+--- @type fogplayerparams_t
 Read: cplayer_cameraservices.PlayerFog
 ```
 ## ColorCorrectionCtrl (Read-Only)
 ```lua
-@type CColorCorrection
+--- @type CColorCorrection
 Read: cplayer_cameraservices.ColorCorrectionCtrl
 ```
 ## ViewEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cplayer_cameraservices.ViewEntity
 ```
 ## TonemapController (Read-Only)
 ```lua
-@type CTonemapController2
+--- @type CTonemapController2
 Read: cplayer_cameraservices.TonemapController
 ```
 ## Audio (Read-Only)
 ```lua
-@type audioparams_t
+--- @type audioparams_t
 Read: cplayer_cameraservices.Audio
 ```
 ## OldPlayerZ 
 ```lua
-@type number
+--- @type number
 Read: cplayer_cameraservices.OldPlayerZ
 Write: cplayer_cameraservices.OldPlayerZ = value
 ```
 ## OldPlayerViewOffsetZ 
 ```lua
-@type number
+--- @type number
 Read: cplayer_cameraservices.OldPlayerViewOffsetZ
 Write: cplayer_cameraservices.OldPlayerViewOffsetZ = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayerPawnComponent
+--- @type CPlayerPawnComponent
 Read: cplayer_cameraservices.Parent
 ```
 # Functions

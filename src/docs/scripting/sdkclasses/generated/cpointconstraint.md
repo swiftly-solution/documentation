@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointConstraint(ptr --[[ string ]])
+CPointConstraint(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: cpointconstraint.Parent
 ```
 # Functions

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-QuestProgress(ptr --[[ string ]])
+QuestProgress(ptr)
 ```
 # Properties
 There are no properties available for this class.

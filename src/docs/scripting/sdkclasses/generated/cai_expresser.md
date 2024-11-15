@@ -12,66 +12,66 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAI_Expresser(ptr --[[ string ]])
+CAI_Expresser(ptr)
 ```
 # Properties
 ## StopTalkTime 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.StopTalkTime
 Write: cai_expresser.StopTalkTime = value
 ```
 ## StopTalkTimeWithoutDelay 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.StopTalkTimeWithoutDelay
 Write: cai_expresser.StopTalkTimeWithoutDelay = value
 ```
 ## BlockedTalkTime 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.BlockedTalkTime
 Write: cai_expresser.BlockedTalkTime = value
 ```
 ## VoicePitch 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.VoicePitch
 Write: cai_expresser.VoicePitch = value
 ```
 ## LastTimeAcceptedSpeak 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.LastTimeAcceptedSpeak
 Write: cai_expresser.LastTimeAcceptedSpeak = value
 ```
 ## AllowSpeakingInterrupts 
 ```lua
-@type boolean
+--- @type boolean
 Read: cai_expresser.AllowSpeakingInterrupts
 Write: cai_expresser.AllowSpeakingInterrupts = value
 ```
 ## ConsiderSceneInvolvementAsSpeech 
 ```lua
-@type boolean
+--- @type boolean
 Read: cai_expresser.ConsiderSceneInvolvementAsSpeech
 Write: cai_expresser.ConsiderSceneInvolvementAsSpeech = value
 ```
 ## SceneEntityDisabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cai_expresser.SceneEntityDisabled
 Write: cai_expresser.SceneEntityDisabled = value
 ```
 ## LastSpokenPriority 
 ```lua
-@type number
+--- @type number
 Read: cai_expresser.LastSpokenPriority
 Write: cai_expresser.LastSpokenPriority = value
 ```
 ## Outer (Read-Only)
 ```lua
-@type CBaseFlex
+--- @type CBaseFlex
 Read: cai_expresser.Outer
 ```
 # Functions

@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CGunTarget(ptr --[[ string ]])
+CGunTarget(ptr)
 ```
 # Properties
 ## On 
 ```lua
-@type boolean
+--- @type boolean
 Read: cguntarget.On
 Write: cguntarget.On = value
 ```
 ## TargetEnt (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cguntarget.TargetEnt
 ```
 ## OnDeath (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cguntarget.OnDeath
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseToggle
+--- @type CBaseToggle
 Read: cguntarget.Parent
 ```
 # Functions

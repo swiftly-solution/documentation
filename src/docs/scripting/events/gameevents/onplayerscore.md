@@ -11,8 +11,9 @@ This event is triggered when player_score is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerScore", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerScore", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,33 +12,33 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStanceOverrideUpdateNode(ptr --[[ string ]])
+CStanceOverrideUpdateNode(ptr)
 ```
 # Properties
 ## FootStanceInfo (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstanceoverrideupdatenode.FootStanceInfo
 ```
 ## StanceSourceNode (Read-Only)
 ```lua
-@type CAnimUpdateNodeRef
+--- @type CAnimUpdateNodeRef
 Read: cstanceoverrideupdatenode.StanceSourceNode
 ```
 ## Parameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cstanceoverrideupdatenode.Parameter
 ```
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: cstanceoverrideupdatenode.Mode
 Write: cstanceoverrideupdatenode.Mode = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cstanceoverrideupdatenode.Parent
 ```
 # Functions

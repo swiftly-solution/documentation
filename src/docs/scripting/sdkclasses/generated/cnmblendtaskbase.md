@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmBlendTaskBase(ptr --[[ string ]])
+CNmBlendTaskBase(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmTask
+--- @type CNmTask
 Read: cnmblendtaskbase.Parent
 ```
 # Functions

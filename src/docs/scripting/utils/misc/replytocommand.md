@@ -11,8 +11,11 @@ Replies to a command via console if playerid is -1 or chat.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-ReplyToCommand(playerid --[[ number ]], prefix --[[ string ]], text --[[ string ]])
+--- @param playerid number
+--- @param prefix string
+--- @param text string
+--- @return nil
+ReplyToCommand(playerid, prefix, text)
 ```
 
 :::

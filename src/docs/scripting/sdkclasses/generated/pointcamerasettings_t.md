@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PointCameraSettings_t(ptr --[[ string ]])
+PointCameraSettings_t(ptr)
 ```
 # Properties
 ## NearBlurryDistance 
 ```lua
-@type number
+--- @type number
 Read: pointcamerasettings_t.NearBlurryDistance
 Write: pointcamerasettings_t.NearBlurryDistance = value
 ```
 ## NearCrispDistance 
 ```lua
-@type number
+--- @type number
 Read: pointcamerasettings_t.NearCrispDistance
 Write: pointcamerasettings_t.NearCrispDistance = value
 ```
 ## FarCrispDistance 
 ```lua
-@type number
+--- @type number
 Read: pointcamerasettings_t.FarCrispDistance
 Write: pointcamerasettings_t.FarCrispDistance = value
 ```
 ## FarBlurryDistance 
 ```lua
-@type number
+--- @type number
 Read: pointcamerasettings_t.FarBlurryDistance
 Write: pointcamerasettings_t.FarBlurryDistance = value
 ```

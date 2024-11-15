@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFireCrackerBlast(ptr --[[ string ]])
+CFireCrackerBlast(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CInferno
+--- @type CInferno
 Read: cfirecrackerblast.Parent
 ```
 # Functions

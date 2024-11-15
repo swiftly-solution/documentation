@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PermModelDataAnimatedMaterialAttribute_t(ptr --[[ string ]])
+PermModelDataAnimatedMaterialAttribute_t(ptr)
 ```
 # Properties
 ## AttributeName 
 ```lua
-@type string
+--- @type string
 Read: permmodeldataanimatedmaterialattribute_t.AttributeName
 Write: permmodeldataanimatedmaterialattribute_t.AttributeName = value
 ```
 ## NumChannels 
 ```lua
-@type number
+--- @type number
 Read: permmodeldataanimatedmaterialattribute_t.NumChannels
 Write: permmodeldataanimatedmaterialattribute_t.NumChannels = value
 ```

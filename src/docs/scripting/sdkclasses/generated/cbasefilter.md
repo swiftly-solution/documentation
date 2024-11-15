@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseFilter(ptr --[[ string ]])
+CBaseFilter(ptr)
 ```
 # Properties
 ## Negated 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbasefilter.Negated
 Write: cbasefilter.Negated = value
 ```
 ## OnPass (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbasefilter.OnPass
 ```
 ## OnFail (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cbasefilter.OnFail
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: cbasefilter.Parent
 ```
 # Functions

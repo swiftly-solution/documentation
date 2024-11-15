@@ -11,8 +11,10 @@ Triggers an event and returns the event result and the event data.
 ::: tabs
 @tab Lua
 ```lua
-@returns EventResult, Event
-TriggerEvent(eventName --[[ string ]], ... --[[ Any* any ]])
+--- @param eventName string
+--- @param ... any
+--- @return EventResult, Event
+TriggerEvent(eventName, ...)
 ```
 
 :::

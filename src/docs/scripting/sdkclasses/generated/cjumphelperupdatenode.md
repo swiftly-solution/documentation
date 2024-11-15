@@ -12,59 +12,59 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CJumpHelperUpdateNode(ptr --[[ string ]])
+CJumpHelperUpdateNode(ptr)
 ```
 # Properties
 ## TargetParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: cjumphelperupdatenode.TargetParam
 ```
 ## OriginalJumpMovement 
 ```lua
-@type Vector
+--- @type Vector
 Read: cjumphelperupdatenode.OriginalJumpMovement
 Write: cjumphelperupdatenode.OriginalJumpMovement = value
 ```
 ## OriginalJumpDuration 
 ```lua
-@type number
+--- @type number
 Read: cjumphelperupdatenode.OriginalJumpDuration
 Write: cjumphelperupdatenode.OriginalJumpDuration = value
 ```
 ## JumpStartCycle 
 ```lua
-@type number
+--- @type number
 Read: cjumphelperupdatenode.JumpStartCycle
 Write: cjumphelperupdatenode.JumpStartCycle = value
 ```
 ## JumpEndCycle 
 ```lua
-@type number
+--- @type number
 Read: cjumphelperupdatenode.JumpEndCycle
 Write: cjumphelperupdatenode.JumpEndCycle = value
 ```
 ## CorrectionMethod 
 ```lua
-@type number
+--- @type number
 Read: cjumphelperupdatenode.CorrectionMethod
 Write: cjumphelperupdatenode.CorrectionMethod = value
 ```
 ## TranslationAxis 
 ```lua
-@type table
+--- @type table
 Read: cjumphelperupdatenode.TranslationAxis
 Write: cjumphelperupdatenode.TranslationAxis = value
 ```
 ## ScaleSpeed 
 ```lua
-@type boolean
+--- @type boolean
 Read: cjumphelperupdatenode.ScaleSpeed
 Write: cjumphelperupdatenode.ScaleSpeed = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSequenceUpdateNode
+--- @type CSequenceUpdateNode
 Read: cjumphelperupdatenode.Parent
 ```
 # Functions

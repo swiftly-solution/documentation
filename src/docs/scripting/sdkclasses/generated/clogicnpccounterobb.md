@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicNPCCounterOBB(ptr --[[ string ]])
+CLogicNPCCounterOBB(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CLogicNPCCounterAABB
+--- @type CLogicNPCCounterAABB
 Read: clogicnpccounterobb.Parent
 ```
 # Functions

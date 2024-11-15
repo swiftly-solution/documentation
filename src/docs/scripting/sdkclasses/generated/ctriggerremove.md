@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerRemove(ptr --[[ string ]])
+CTriggerRemove(ptr)
 ```
 # Properties
 ## OnRemove (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerremove.OnRemove
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerremove.Parent
 ```
 # Functions

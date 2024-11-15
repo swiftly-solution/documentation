@@ -12,47 +12,47 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FootPinningPoseOpFixedData_t(ptr --[[ string ]])
+FootPinningPoseOpFixedData_t(ptr)
 ```
 # Properties
 ## FootInfo (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: footpinningposeopfixeddata_t.FootInfo
 ```
 ## BlendTime 
 ```lua
-@type number
+--- @type number
 Read: footpinningposeopfixeddata_t.BlendTime
 Write: footpinningposeopfixeddata_t.BlendTime = value
 ```
 ## LockBreakDistance 
 ```lua
-@type number
+--- @type number
 Read: footpinningposeopfixeddata_t.LockBreakDistance
 Write: footpinningposeopfixeddata_t.LockBreakDistance = value
 ```
 ## MaxLegTwist 
 ```lua
-@type number
+--- @type number
 Read: footpinningposeopfixeddata_t.MaxLegTwist
 Write: footpinningposeopfixeddata_t.MaxLegTwist = value
 ```
 ## HipBoneIndex 
 ```lua
-@type number
+--- @type number
 Read: footpinningposeopfixeddata_t.HipBoneIndex
 Write: footpinningposeopfixeddata_t.HipBoneIndex = value
 ```
 ## ApplyLegTwistLimits 
 ```lua
-@type boolean
+--- @type boolean
 Read: footpinningposeopfixeddata_t.ApplyLegTwistLimits
 Write: footpinningposeopfixeddata_t.ApplyLegTwistLimits = value
 ```
 ## ApplyFootRotationLimits 
 ```lua
-@type boolean
+--- @type boolean
 Read: footpinningposeopfixeddata_t.ApplyFootRotationLimits
 Write: footpinningposeopfixeddata_t.ApplyFootRotationLimits = value
 ```

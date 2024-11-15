@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuseSymbolTable(ptr --[[ string ]])
+CFuseSymbolTable(ptr)
 ```
 # Properties
 ## Constants (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfusesymboltable.Constants
 ```
 ## Variables (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfusesymboltable.Variables
 ```
 ## Functions (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfusesymboltable.Functions
 ```
 # Functions

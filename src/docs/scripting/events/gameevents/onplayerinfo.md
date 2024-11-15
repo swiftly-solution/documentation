@@ -11,8 +11,9 @@ This event is triggered when player_info is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerInfo", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerInfo", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,9 @@ This event is triggered after hltv_fixed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostHltvFixed", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostHltvFixed", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicScript(ptr --[[ string ]])
+CLogicScript(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: clogicscript.Parent
 ```
 # Functions

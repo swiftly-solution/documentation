@@ -12,86 +12,86 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMomentaryRotButton(ptr --[[ string ]])
+CMomentaryRotButton(ptr)
 ```
 # Properties
 ## OnUnpressed (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnUnpressed
 ```
 ## OnFullyOpen (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnFullyOpen
 ```
 ## OnFullyClosed (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnFullyClosed
 ```
 ## OnReachedPosition (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cmomentaryrotbutton.OnReachedPosition
 ```
 ## LastUsed 
 ```lua
-@type number
+--- @type number
 Read: cmomentaryrotbutton.LastUsed
 Write: cmomentaryrotbutton.LastUsed = value
 ```
 ## Start 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cmomentaryrotbutton.Start
 Write: cmomentaryrotbutton.Start = value
 ```
 ## End 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cmomentaryrotbutton.End
 Write: cmomentaryrotbutton.End = value
 ```
 ## IdealYaw 
 ```lua
-@type number
+--- @type number
 Read: cmomentaryrotbutton.IdealYaw
 Write: cmomentaryrotbutton.IdealYaw = value
 ```
 ## Noise 
 ```lua
-@type string
+--- @type string
 Read: cmomentaryrotbutton.Noise
 Write: cmomentaryrotbutton.Noise = value
 ```
 ## UpdateTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmomentaryrotbutton.UpdateTarget
 Write: cmomentaryrotbutton.UpdateTarget = value
 ```
 ## Direction 
 ```lua
-@type number
+--- @type number
 Read: cmomentaryrotbutton.Direction
 Write: cmomentaryrotbutton.Direction = value
 ```
 ## ReturnSpeed 
 ```lua
-@type number
+--- @type number
 Read: cmomentaryrotbutton.ReturnSpeed
 Write: cmomentaryrotbutton.ReturnSpeed = value
 ```
 ## StartPosition 
 ```lua
-@type number
+--- @type number
 Read: cmomentaryrotbutton.StartPosition
 Write: cmomentaryrotbutton.StartPosition = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CRotButton
+--- @type CRotButton
 Read: cmomentaryrotbutton.Parent
 ```
 # Functions

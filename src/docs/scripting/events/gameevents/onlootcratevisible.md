@@ -11,8 +11,9 @@ This event is triggered when loot_crate_visible is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnLootCrateVisible", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnLootCrateVisible", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

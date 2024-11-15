@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEmitTagActionUpdater(ptr --[[ string ]])
+CEmitTagActionUpdater(ptr)
 ```
 # Properties
 ## TagIndex 
 ```lua
-@type number
+--- @type number
 Read: cemittagactionupdater.TagIndex
 Write: cemittagactionupdater.TagIndex = value
 ```
 ## IsZeroDuration 
 ```lua
-@type boolean
+--- @type boolean
 Read: cemittagactionupdater.IsZeroDuration
 Write: cemittagactionupdater.IsZeroDuration = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimActionUpdater
+--- @type CAnimActionUpdater
 Read: cemittagactionupdater.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ Returns the boolean value of a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-event:SetHookBoolean(index --[[ number ]])
+--- @param index number
+--- @return boolean
+event:SetHookBoolean(index)
 ```
 
 :::

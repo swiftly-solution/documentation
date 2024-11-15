@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventEntityAlias_snd_event_point(ptr --[[ string ]])
+CSoundEventEntityAlias_snd_event_point(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSoundEventEntity
+--- @type CSoundEventEntity
 Read: csoundevententityalias_snd_event_point.Parent
 ```
 # Functions

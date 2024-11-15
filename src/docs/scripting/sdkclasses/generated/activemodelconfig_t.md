@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ActiveModelConfig_t(ptr --[[ string ]])
+ActiveModelConfig_t(ptr)
 ```
 # Properties
 ## Handle (Read-Only)
 ```lua
-@type ModelConfigHandle_t
+--- @type ModelConfigHandle_t
 Read: activemodelconfig_t.Handle
 ```
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: activemodelconfig_t.Name
 Write: activemodelconfig_t.Name = value
 ```
 ## AssociatedEntityNames (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: activemodelconfig_t.AssociatedEntityNames
 ```
 # Functions

@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FilterHealth(ptr --[[ string ]])
+FilterHealth(ptr)
 ```
 # Properties
 ## AdrenalineActive 
 ```lua
-@type boolean
+--- @type boolean
 Read: filterhealth.AdrenalineActive
 Write: filterhealth.AdrenalineActive = value
 ```
 ## HealthMin 
 ```lua
-@type number
+--- @type number
 Read: filterhealth.HealthMin
 Write: filterhealth.HealthMin = value
 ```
 ## HealthMax 
 ```lua
-@type number
+--- @type number
 Read: filterhealth.HealthMax
 Write: filterhealth.HealthMax = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: filterhealth.Parent
 ```
 # Functions

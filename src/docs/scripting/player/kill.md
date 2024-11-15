@@ -11,7 +11,7 @@ Kills the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
+--- @return nil
 player:Kill()
 ```
 

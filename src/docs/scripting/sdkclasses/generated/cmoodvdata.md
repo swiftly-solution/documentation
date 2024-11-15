@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMoodVData(ptr --[[ string ]])
+CMoodVData(ptr)
 ```
 # Properties
 ## MoodType 
 ```lua
-@type number
+--- @type number
 Read: cmoodvdata.MoodType
 Write: cmoodvdata.MoodType = value
 ```

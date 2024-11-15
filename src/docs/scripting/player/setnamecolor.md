@@ -11,8 +11,9 @@ Sets the name color of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetNameColor(color --[[ string ]])
+--- @param color string
+--- @return nil
+player:SetNameColor(color)
 ```
 
 :::

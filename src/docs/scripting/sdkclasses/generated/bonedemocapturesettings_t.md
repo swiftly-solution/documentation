@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-BoneDemoCaptureSettings_t(ptr --[[ string ]])
+BoneDemoCaptureSettings_t(ptr)
 ```
 # Properties
 ## BoneName 
 ```lua
-@type string
+--- @type string
 Read: bonedemocapturesettings_t.BoneName
 Write: bonedemocapturesettings_t.BoneName = value
 ```
 ## ErrorSplineRotationMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorSplineRotationMax
 Write: bonedemocapturesettings_t.ErrorSplineRotationMax = value
 ```
 ## ErrorSplineTranslationMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorSplineTranslationMax
 Write: bonedemocapturesettings_t.ErrorSplineTranslationMax = value
 ```
 ## ErrorSplineScaleMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorSplineScaleMax
 Write: bonedemocapturesettings_t.ErrorSplineScaleMax = value
 ```
 ## ErrorQuantizationRotationMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorQuantizationRotationMax
 Write: bonedemocapturesettings_t.ErrorQuantizationRotationMax = value
 ```
 ## ErrorQuantizationTranslationMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorQuantizationTranslationMax
 Write: bonedemocapturesettings_t.ErrorQuantizationTranslationMax = value
 ```
 ## ErrorQuantizationScaleMax 
 ```lua
-@type number
+--- @type number
 Read: bonedemocapturesettings_t.ErrorQuantizationScaleMax
 Write: bonedemocapturesettings_t.ErrorQuantizationScaleMax = value
 ```

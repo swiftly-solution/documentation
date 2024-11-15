@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSmokeGrenade(ptr --[[ string ]])
+CSmokeGrenade(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseCSGrenade
+--- @type CBaseCSGrenade
 Read: csmokegrenade.Parent
 ```
 # Functions

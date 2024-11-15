@@ -12,41 +12,41 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VariableInfo_t(ptr --[[ string ]])
+VariableInfo_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: variableinfo_t.Name
 Write: variableinfo_t.Name = value
 ```
 ## NameToken 
 ```lua
-@type number
+--- @type number
 Read: variableinfo_t.NameToken
 Write: variableinfo_t.NameToken = value
 ```
 ## Index (Read-Only)
 ```lua
-@type FuseVariableIndex_t
+--- @type FuseVariableIndex_t
 Read: variableinfo_t.Index
 ```
 ## NumComponents 
 ```lua
-@type number
+--- @type number
 Read: variableinfo_t.NumComponents
 Write: variableinfo_t.NumComponents = value
 ```
 ## VarType 
 ```lua
-@type number
+--- @type number
 Read: variableinfo_t.VarType
 Write: variableinfo_t.VarType = value
 ```
 ## Access 
 ```lua
-@type number
+--- @type number
 Read: variableinfo_t.Access
 Write: variableinfo_t.Access = value
 ```

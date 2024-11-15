@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSosSoundEventGroupListSchema(ptr --[[ string ]])
+CSosSoundEventGroupListSchema(ptr)
 ```
 # Properties
 ## GroupList (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: csossoundeventgrouplistschema.GroupList
 ```
 # Functions

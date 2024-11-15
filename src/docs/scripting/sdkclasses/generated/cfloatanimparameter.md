@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFloatAnimParameter(ptr --[[ string ]])
+CFloatAnimParameter(ptr)
 ```
 # Properties
 ## DefaultValue 
 ```lua
-@type number
+--- @type number
 Read: cfloatanimparameter.DefaultValue
 Write: cfloatanimparameter.DefaultValue = value
 ```
 ## MinValue 
 ```lua
-@type number
+--- @type number
 Read: cfloatanimparameter.MinValue
 Write: cfloatanimparameter.MinValue = value
 ```
 ## MaxValue 
 ```lua
-@type number
+--- @type number
 Read: cfloatanimparameter.MaxValue
 Write: cfloatanimparameter.MaxValue = value
 ```
 ## Interpolate 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfloatanimparameter.Interpolate
 Write: cfloatanimparameter.Interpolate = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CConcreteAnimParameter
+--- @type CConcreteAnimParameter
 Read: cfloatanimparameter.Parent
 ```
 # Functions

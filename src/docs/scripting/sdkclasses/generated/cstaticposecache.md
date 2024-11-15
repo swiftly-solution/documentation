@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStaticPoseCache(ptr --[[ string ]])
+CStaticPoseCache(ptr)
 ```
 # Properties
 ## Poses (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cstaticposecache.Poses
 ```
 ## BoneCount 
 ```lua
-@type number
+--- @type number
 Read: cstaticposecache.BoneCount
 Write: cstaticposecache.BoneCount = value
 ```
 ## MorphCount 
 ```lua
-@type number
+--- @type number
 Read: cstaticposecache.MorphCount
 Write: cstaticposecache.MorphCount = value
 ```

@@ -11,8 +11,9 @@ This event is triggered after user_data_downloaded is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostUserDataDownloaded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostUserDataDownloaded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

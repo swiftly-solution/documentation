@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysHingeAlias_phys_hinge_local(ptr --[[ string ]])
+CPhysHingeAlias_phys_hinge_local(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPhysHinge
+--- @type CPhysHinge
 Read: cphyshingealias_phys_hinge_local.Parent
 ```
 # Functions

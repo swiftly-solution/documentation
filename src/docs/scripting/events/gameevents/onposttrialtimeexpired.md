@@ -11,8 +11,9 @@ This event is triggered after trial_time_expired is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostTrialTimeExpired", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostTrialTimeExpired", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

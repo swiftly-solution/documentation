@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixOscDesc_t(ptr --[[ string ]])
+VMixOscDesc_t(ptr)
 ```
 # Properties
 ## OscType 
 ```lua
-@type number
+--- @type number
 Read: vmixoscdesc_t.OscType
 Write: vmixoscdesc_t.OscType = value
 ```
 ## Freq 
 ```lua
-@type number
+--- @type number
 Read: vmixoscdesc_t.Freq
 Write: vmixoscdesc_t.Freq = value
 ```
 ## Phase 
 ```lua
-@type number
+--- @type number
 Read: vmixoscdesc_t.Phase
 Write: vmixoscdesc_t.Phase = value
 ```

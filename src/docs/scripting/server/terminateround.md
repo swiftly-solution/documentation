@@ -11,8 +11,10 @@ Ends a round with a delay and with a reason.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-server:TerminateRound(delay --[[ number ]], reason --[[ RoundEndReason_t ]])
+--- @param delay number
+--- @param reason number RoundEndReason_t
+--- @return nil
+server:TerminateRound(delay, reason)
 ```
 
 :::

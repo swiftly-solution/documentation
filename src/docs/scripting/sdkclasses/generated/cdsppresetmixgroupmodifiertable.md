@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDSPPresetMixgroupModifierTable(ptr --[[ string ]])
+CDSPPresetMixgroupModifierTable(ptr)
 ```
 # Properties
 ## Table (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdsppresetmixgroupmodifiertable.Table
 ```
 # Functions

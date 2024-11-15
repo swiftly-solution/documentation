@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMarkupVolume(ptr --[[ string ]])
+CMarkupVolume(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmarkupvolume.Disabled
 Write: cmarkupvolume.Disabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cmarkupvolume.Parent
 ```
 # Functions

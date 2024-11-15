@@ -11,8 +11,9 @@ This event is triggered after vote_cast_no is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostVoteCastNo", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostVoteCastNo", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

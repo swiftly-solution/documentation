@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-BaseSceneObjectOverride_t(ptr --[[ string ]])
+BaseSceneObjectOverride_t(ptr)
 ```
 # Properties
 ## SceneObjectIndex 
 ```lua
-@type number
+--- @type number
 Read: basesceneobjectoverride_t.SceneObjectIndex
 Write: basesceneobjectoverride_t.SceneObjectIndex = value
 ```

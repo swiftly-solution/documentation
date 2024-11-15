@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CConcreteAnimParameter(ptr --[[ string ]])
+CConcreteAnimParameter(ptr)
 ```
 # Properties
 ## PreviewButton 
 ```lua
-@type number
+--- @type number
 Read: cconcreteanimparameter.PreviewButton
 Write: cconcreteanimparameter.PreviewButton = value
 ```
 ## NetworkSetting 
 ```lua
-@type number
+--- @type number
 Read: cconcreteanimparameter.NetworkSetting
 Write: cconcreteanimparameter.NetworkSetting = value
 ```
 ## UseMostRecentValue 
 ```lua
-@type boolean
+--- @type boolean
 Read: cconcreteanimparameter.UseMostRecentValue
 Write: cconcreteanimparameter.UseMostRecentValue = value
 ```
 ## AutoReset 
 ```lua
-@type boolean
+--- @type boolean
 Read: cconcreteanimparameter.AutoReset
 Write: cconcreteanimparameter.AutoReset = value
 ```
 ## GameWritable 
 ```lua
-@type boolean
+--- @type boolean
 Read: cconcreteanimparameter.GameWritable
 Write: cconcreteanimparameter.GameWritable = value
 ```
 ## GraphWritable 
 ```lua
-@type boolean
+--- @type boolean
 Read: cconcreteanimparameter.GraphWritable
 Write: cconcreteanimparameter.GraphWritable = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimParameterBase
+--- @type CAnimParameterBase
 Read: cconcreteanimparameter.Parent
 ```
 # Functions

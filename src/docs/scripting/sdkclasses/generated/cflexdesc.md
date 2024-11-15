@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFlexDesc(ptr --[[ string ]])
+CFlexDesc(ptr)
 ```
 # Properties
 ## Facs 
 ```lua
-@type string
+--- @type string
 Read: cflexdesc.Facs
 Write: cflexdesc.Facs = value
 ```

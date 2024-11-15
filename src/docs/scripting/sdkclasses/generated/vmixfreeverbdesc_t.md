@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixFreeverbDesc_t(ptr --[[ string ]])
+VMixFreeverbDesc_t(ptr)
 ```
 # Properties
 ## RoomSize 
 ```lua
-@type number
+--- @type number
 Read: vmixfreeverbdesc_t.RoomSize
 Write: vmixfreeverbdesc_t.RoomSize = value
 ```
 ## Damp 
 ```lua
-@type number
+--- @type number
 Read: vmixfreeverbdesc_t.Damp
 Write: vmixfreeverbdesc_t.Damp = value
 ```
 ## Width 
 ```lua
-@type number
+--- @type number
 Read: vmixfreeverbdesc_t.Width
 Write: vmixfreeverbdesc_t.Width = value
 ```
 ## LateReflections 
 ```lua
-@type number
+--- @type number
 Read: vmixfreeverbdesc_t.LateReflections
 Write: vmixfreeverbdesc_t.LateReflections = value
 ```

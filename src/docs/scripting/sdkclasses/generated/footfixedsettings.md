@@ -12,65 +12,65 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FootFixedSettings(ptr --[[ string ]])
+FootFixedSettings(ptr)
 ```
 # Properties
 ## TraceSettings (Read-Only)
 ```lua
-@type TraceSettings_t
+--- @type TraceSettings_t
 Read: footfixedsettings.TraceSettings
 ```
 ## FootBaseBindPosePositionMS 
 ```lua
-@type Vector
+--- @type Vector
 Read: footfixedsettings.FootBaseBindPosePositionMS
 Write: footfixedsettings.FootBaseBindPosePositionMS = value
 ```
 ## FootBaseLength 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.FootBaseLength
 Write: footfixedsettings.FootBaseLength = value
 ```
 ## MaxRotationLeft 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.MaxRotationLeft
 Write: footfixedsettings.MaxRotationLeft = value
 ```
 ## MaxRotationRight 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.MaxRotationRight
 Write: footfixedsettings.MaxRotationRight = value
 ```
 ## FootstepLandedTagIndex 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.FootstepLandedTagIndex
 Write: footfixedsettings.FootstepLandedTagIndex = value
 ```
 ## EnableTracing 
 ```lua
-@type boolean
+--- @type boolean
 Read: footfixedsettings.EnableTracing
 Write: footfixedsettings.EnableTracing = value
 ```
 ## TraceAngleBlend 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.TraceAngleBlend
 Write: footfixedsettings.TraceAngleBlend = value
 ```
 ## DisableTagIndex 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.DisableTagIndex
 Write: footfixedsettings.DisableTagIndex = value
 ```
 ## FootIndex 
 ```lua
-@type number
+--- @type number
 Read: footfixedsettings.FootIndex
 Write: footfixedsettings.FootIndex = value
 ```

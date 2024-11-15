@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VoxelVisBlockOffset_t(ptr --[[ string ]])
+VoxelVisBlockOffset_t(ptr)
 ```
 # Properties
 ## Offset 
 ```lua
-@type number
+--- @type number
 Read: voxelvisblockoffset_t.Offset
 Write: voxelvisblockoffset_t.Offset = value
 ```
 ## ElementCount 
 ```lua
-@type number
+--- @type number
 Read: voxelvisblockoffset_t.ElementCount
 Write: voxelvisblockoffset_t.ElementCount = value
 ```

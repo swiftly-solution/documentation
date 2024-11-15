@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EngineLoopState_t(ptr --[[ string ]])
+EngineLoopState_t(ptr)
 ```
 # Properties
 ## PlatWindowWidth 
 ```lua
-@type number
+--- @type number
 Read: engineloopstate_t.PlatWindowWidth
 Write: engineloopstate_t.PlatWindowWidth = value
 ```
 ## PlatWindowHeight 
 ```lua
-@type number
+--- @type number
 Read: engineloopstate_t.PlatWindowHeight
 Write: engineloopstate_t.PlatWindowHeight = value
 ```
 ## RenderWidth 
 ```lua
-@type number
+--- @type number
 Read: engineloopstate_t.RenderWidth
 Write: engineloopstate_t.RenderWidth = value
 ```
 ## RenderHeight 
 ```lua
-@type number
+--- @type number
 Read: engineloopstate_t.RenderHeight
 Write: engineloopstate_t.RenderHeight = value
 ```

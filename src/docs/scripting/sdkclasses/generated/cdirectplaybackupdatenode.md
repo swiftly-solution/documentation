@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDirectPlaybackUpdateNode(ptr --[[ string ]])
+CDirectPlaybackUpdateNode(ptr)
 ```
 # Properties
 ## FinishEarly 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdirectplaybackupdatenode.FinishEarly
 Write: cdirectplaybackupdatenode.FinishEarly = value
 ```
 ## ResetOnFinish 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdirectplaybackupdatenode.ResetOnFinish
 Write: cdirectplaybackupdatenode.ResetOnFinish = value
 ```
 ## AllTags (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdirectplaybackupdatenode.AllTags
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cdirectplaybackupdatenode.Parent
 ```
 # Functions

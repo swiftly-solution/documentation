@@ -11,8 +11,9 @@ Returns the country from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ip:GetCountry(ip --[[ string ]])
+--- @param ip string
+--- @return string
+ip:GetCountry(ip)
 ```
 
 :::

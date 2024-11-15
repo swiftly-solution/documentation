@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AnimationSnapshot_t(ptr --[[ string ]])
+AnimationSnapshot_t(ptr)
 ```
 # Properties
 ## EntIndex 
 ```lua
-@type number
+--- @type number
 Read: animationsnapshot_t.EntIndex
 Write: animationsnapshot_t.EntIndex = value
 ```
 ## ModelName 
 ```lua
-@type string
+--- @type string
 Read: animationsnapshot_t.ModelName
 Write: animationsnapshot_t.ModelName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type AnimationSnapshotBase_t
+--- @type AnimationSnapshotBase_t
 Read: animationsnapshot_t.Parent
 ```
 # Functions

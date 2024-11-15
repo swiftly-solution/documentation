@@ -12,46 +12,46 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTrain(ptr --[[ string ]])
+CFuncTrain(ptr)
 ```
 # Properties
 ## CurrentTarget (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfunctrain.CurrentTarget
 ```
 ## Activated 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfunctrain.Activated
 Write: cfunctrain.Activated = value
 ```
 ## Enemy (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfunctrain.Enemy
 ```
 ## BlockDamage 
 ```lua
-@type number
+--- @type number
 Read: cfunctrain.BlockDamage
 Write: cfunctrain.BlockDamage = value
 ```
 ## NextBlockTime 
 ```lua
-@type number
+--- @type number
 Read: cfunctrain.NextBlockTime
 Write: cfunctrain.NextBlockTime = value
 ```
 ## LastTarget 
 ```lua
-@type string
+--- @type string
 Read: cfunctrain.LastTarget
 Write: cfunctrain.LastTarget = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBasePlatTrain
+--- @type CBasePlatTrain
 Read: cfunctrain.Parent
 ```
 # Functions

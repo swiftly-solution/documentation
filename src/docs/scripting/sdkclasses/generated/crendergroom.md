@@ -12,64 +12,64 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRenderGroom(ptr --[[ string ]])
+CRenderGroom(ptr)
 ```
 # Properties
 ## Hairs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: crendergroom.Hairs
 ```
 ## HairPositionOffsets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: crendergroom.HairPositionOffsets
 ```
 ## SegmentsPerHairStrand 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.SegmentsPerHairStrand
 Write: crendergroom.SegmentsPerHairStrand = value
 ```
 ## GuideHairCount 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.GuideHairCount
 Write: crendergroom.GuideHairCount = value
 ```
 ## HairCount 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.HairCount
 Write: crendergroom.HairCount = value
 ```
 ## GroomGroupID 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.GroomGroupID
 Write: crendergroom.GroomGroupID = value
 ```
 ## AttachBoneIdx 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.AttachBoneIdx
 Write: crendergroom.AttachBoneIdx = value
 ```
 ## AttachMeshIdx 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.AttachMeshIdx
 Write: crendergroom.AttachMeshIdx = value
 ```
 ## AttachMeshDrawCallIdx 
 ```lua
-@type number
+--- @type number
 Read: crendergroom.AttachMeshDrawCallIdx
 Write: crendergroom.AttachMeshDrawCallIdx = value
 ```
 ## EnableSimulation 
 ```lua
-@type boolean
+--- @type boolean
 Read: crendergroom.EnableSimulation
 Write: crendergroom.EnableSimulation = value
 ```

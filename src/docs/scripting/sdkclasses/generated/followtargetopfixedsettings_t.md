@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FollowTargetOpFixedSettings_t(ptr --[[ string ]])
+FollowTargetOpFixedSettings_t(ptr)
 ```
 # Properties
 ## BoneIndex 
 ```lua
-@type number
+--- @type number
 Read: followtargetopfixedsettings_t.BoneIndex
 Write: followtargetopfixedsettings_t.BoneIndex = value
 ```
 ## BoneTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: followtargetopfixedsettings_t.BoneTarget
 Write: followtargetopfixedsettings_t.BoneTarget = value
 ```
 ## BoneTargetIndex 
 ```lua
-@type number
+--- @type number
 Read: followtargetopfixedsettings_t.BoneTargetIndex
 Write: followtargetopfixedsettings_t.BoneTargetIndex = value
 ```
 ## WorldCoodinateTarget 
 ```lua
-@type boolean
+--- @type boolean
 Read: followtargetopfixedsettings_t.WorldCoodinateTarget
 Write: followtargetopfixedsettings_t.WorldCoodinateTarget = value
 ```
 ## MatchTargetOrientation 
 ```lua
-@type boolean
+--- @type boolean
 Read: followtargetopfixedsettings_t.MatchTargetOrientation
 Write: followtargetopfixedsettings_t.MatchTargetOrientation = value
 ```

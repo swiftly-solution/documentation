@@ -11,8 +11,9 @@ This event is triggered after firstbombs_incoming_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostFirstbombsIncomingWarning", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostFirstbombsIncomingWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFilterLOS(ptr --[[ string ]])
+CFilterLOS(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: cfilterlos.Parent
 ```
 # Functions

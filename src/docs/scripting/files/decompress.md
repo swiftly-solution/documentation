@@ -11,8 +11,10 @@ Decompresses a file.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
-files:Decompress(path --[[ string ]], output --[[ string ]])
+--- @param path string
+--- @param output string
+--- @return boolean
+files:Decompress(path, output)
 ```
 > [!info]
 > The root of the Files API is located in `game/csgo`.

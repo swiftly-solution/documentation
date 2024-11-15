@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MotionBlendItem(ptr --[[ string ]])
+MotionBlendItem(ptr)
 ```
 # Properties
 ## KeyValue 
 ```lua
-@type number
+--- @type number
 Read: motionblenditem.KeyValue
 Write: motionblenditem.KeyValue = value
 ```

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AutoRoomDoorwayPairs_t(ptr --[[ string ]])
+AutoRoomDoorwayPairs_t(ptr)
 ```
 # Properties
 ## P1 
 ```lua
-@type Vector
+--- @type Vector
 Read: autoroomdoorwaypairs_t.P1
 Write: autoroomdoorwaypairs_t.P1 = value
 ```
 ## P2 
 ```lua
-@type Vector
+--- @type Vector
 Read: autoroomdoorwaypairs_t.P2
 Write: autoroomdoorwaypairs_t.P2 = value
 ```

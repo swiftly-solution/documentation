@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRuleEntity(ptr --[[ string ]])
+CRuleEntity(ptr)
 ```
 # Properties
 ## Master 
 ```lua
-@type string
+--- @type string
 Read: cruleentity.Master
 Write: cruleentity.Master = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cruleentity.Parent
 ```
 # Functions

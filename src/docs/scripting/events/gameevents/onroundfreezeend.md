@@ -11,8 +11,9 @@ This event is triggered when round_freeze_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnRoundFreezeEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnRoundFreezeEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

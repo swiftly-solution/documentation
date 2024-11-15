@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGameModeRules_ArmsRace(ptr --[[ string ]])
+CCSGameModeRules_ArmsRace(ptr)
 ```
 # Properties
 ## WeaponSequence (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccsgamemoderules_armsrace.WeaponSequence
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSGameModeRules
+--- @type CCSGameModeRules
 Read: ccsgamemoderules_armsrace.Parent
 ```
 # Functions

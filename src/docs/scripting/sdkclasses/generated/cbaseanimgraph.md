@@ -12,76 +12,76 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseAnimGraph(ptr --[[ string ]])
+CBaseAnimGraph(ptr)
 ```
 # Properties
 ## InitiallyPopulateInterpHistory 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseanimgraph.InitiallyPopulateInterpHistory
 Write: cbaseanimgraph.InitiallyPopulateInterpHistory = value
 ```
 ## ChoreoServices (Read-Only)
 ```lua
-@type IChoreoServices
+--- @type IChoreoServices
 Read: cbaseanimgraph.ChoreoServices
 ```
 ## AnimGraphUpdateEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseanimgraph.AnimGraphUpdateEnabled
 Write: cbaseanimgraph.AnimGraphUpdateEnabled = value
 ```
 ## MaxSlopeDistance 
 ```lua
-@type number
+--- @type number
 Read: cbaseanimgraph.MaxSlopeDistance
 Write: cbaseanimgraph.MaxSlopeDistance = value
 ```
 ## LastSlopeCheckPos 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbaseanimgraph.LastSlopeCheckPos
 Write: cbaseanimgraph.LastSlopeCheckPos = value
 ```
 ## AnimationUpdateScheduled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseanimgraph.AnimationUpdateScheduled
 Write: cbaseanimgraph.AnimationUpdateScheduled = value
 ```
 ## Force 
 ```lua
-@type Vector
+--- @type Vector
 Read: cbaseanimgraph.Force
 Write: cbaseanimgraph.Force = value
 ```
 ## ForceBone 
 ```lua
-@type number
+--- @type number
 Read: cbaseanimgraph.ForceBone
 Write: cbaseanimgraph.ForceBone = value
 ```
 ## RagdollPose (Read-Only)
 ```lua
-@type PhysicsRagdollPose_t
+--- @type PhysicsRagdollPose_t
 Read: cbaseanimgraph.RagdollPose
 ```
 ## RagdollClientSide 
 ```lua
-@type boolean
+--- @type boolean
 Read: cbaseanimgraph.RagdollClientSide
 Write: cbaseanimgraph.RagdollClientSide = value
 ```
 ## LastDestructiblePartDestroyedAnimgraphSetTick 
 ```lua
-@type number
+--- @type number
 Read: cbaseanimgraph.LastDestructiblePartDestroyedAnimgraphSetTick
 Write: cbaseanimgraph.LastDestructiblePartDestroyedAnimgraphSetTick = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cbaseanimgraph.Parent
 ```
 # Functions

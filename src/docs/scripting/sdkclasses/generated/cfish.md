@@ -12,148 +12,148 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFish(ptr --[[ string ]])
+CFish(ptr)
 ```
 # Properties
 ## Pool (Read-Only)
 ```lua
-@type CFishPool
+--- @type CFishPool
 Read: cfish.Pool
 ```
 ## Id 
 ```lua
-@type number
+--- @type number
 Read: cfish.Id
 Write: cfish.Id = value
 ```
 ## X 
 ```lua
-@type number
+--- @type number
 Read: cfish.X
 Write: cfish.X = value
 ```
 ## Y 
 ```lua
-@type number
+--- @type number
 Read: cfish.Y
 Write: cfish.Y = value
 ```
 ## Z 
 ```lua
-@type number
+--- @type number
 Read: cfish.Z
 Write: cfish.Z = value
 ```
 ## Angle 
 ```lua
-@type number
+--- @type number
 Read: cfish.Angle
 Write: cfish.Angle = value
 ```
 ## AngleChange 
 ```lua
-@type number
+--- @type number
 Read: cfish.AngleChange
 Write: cfish.AngleChange = value
 ```
 ## Forward 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfish.Forward
 Write: cfish.Forward = value
 ```
 ## Perp 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfish.Perp
 Write: cfish.Perp = value
 ```
 ## PoolOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfish.PoolOrigin
 Write: cfish.PoolOrigin = value
 ```
 ## WaterLevel 
 ```lua
-@type number
+--- @type number
 Read: cfish.WaterLevel
 Write: cfish.WaterLevel = value
 ```
 ## Speed 
 ```lua
-@type number
+--- @type number
 Read: cfish.Speed
 Write: cfish.Speed = value
 ```
 ## DesiredSpeed 
 ```lua
-@type number
+--- @type number
 Read: cfish.DesiredSpeed
 Write: cfish.DesiredSpeed = value
 ```
 ## CalmSpeed 
 ```lua
-@type number
+--- @type number
 Read: cfish.CalmSpeed
 Write: cfish.CalmSpeed = value
 ```
 ## PanicSpeed 
 ```lua
-@type number
+--- @type number
 Read: cfish.PanicSpeed
 Write: cfish.PanicSpeed = value
 ```
 ## AvoidRange 
 ```lua
-@type number
+--- @type number
 Read: cfish.AvoidRange
 Write: cfish.AvoidRange = value
 ```
 ## TurnTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.TurnTimer
 ```
 ## TurnClockwise 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfish.TurnClockwise
 Write: cfish.TurnClockwise = value
 ```
 ## GoTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.GoTimer
 ```
 ## MoveTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.MoveTimer
 ```
 ## PanicTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.PanicTimer
 ```
 ## DisperseTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.DisperseTimer
 ```
 ## ProximityTimer (Read-Only)
 ```lua
-@type CountdownTimer
+--- @type CountdownTimer
 Read: cfish.ProximityTimer
 ```
 ## Visible (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfish.Visible
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: cfish.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered after round_mvp is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundMvp", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundMvp", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

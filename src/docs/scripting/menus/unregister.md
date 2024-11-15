@@ -14,8 +14,9 @@ Unregistered a menu by the specified id.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-menus:Unregister(id --[[ string ]])
+--- @param id string
+--- @return nil
+menus:Unregister(id)
 ```
 
 :::

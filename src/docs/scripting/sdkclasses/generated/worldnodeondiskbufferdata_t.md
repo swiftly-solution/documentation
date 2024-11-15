@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WorldNodeOnDiskBufferData_t(ptr --[[ string ]])
+WorldNodeOnDiskBufferData_t(ptr)
 ```
 # Properties
 ## ElementCount 
 ```lua
-@type number
+--- @type number
 Read: worldnodeondiskbufferdata_t.ElementCount
 Write: worldnodeondiskbufferdata_t.ElementCount = value
 ```
 ## ElementSizeInBytes 
 ```lua
-@type number
+--- @type number
 Read: worldnodeondiskbufferdata_t.ElementSizeInBytes
 Write: worldnodeondiskbufferdata_t.ElementSizeInBytes = value
 ```
 ## InputLayoutFields (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: worldnodeondiskbufferdata_t.InputLayoutFields
 ```
 ## Data (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: worldnodeondiskbufferdata_t.Data
 ```
 # Functions

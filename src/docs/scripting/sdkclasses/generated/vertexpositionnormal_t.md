@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VertexPositionNormal_t(ptr --[[ string ]])
+VertexPositionNormal_t(ptr)
 ```
 # Properties
 ## Position 
 ```lua
-@type Vector
+--- @type Vector
 Read: vertexpositionnormal_t.Position
 Write: vertexpositionnormal_t.Position = value
 ```
 ## Normal 
 ```lua
-@type Vector
+--- @type Vector
 Read: vertexpositionnormal_t.Normal
 Write: vertexpositionnormal_t.Normal = value
 ```

@@ -11,8 +11,10 @@ Sets the variable value of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SetVar(key --[[ string ]], value --[[ Any* any ]])
+--- @param key string
+--- @param value any
+--- @return nil
+player:SetVar(key, value)
 ```
 
 :::

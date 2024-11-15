@@ -11,7 +11,7 @@ Checks if it's a valid player.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 player:IsValid()
 ```
 

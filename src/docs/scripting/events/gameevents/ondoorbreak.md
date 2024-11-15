@@ -11,8 +11,9 @@ This event is triggered when door_break is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDoorBreak", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDoorBreak", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

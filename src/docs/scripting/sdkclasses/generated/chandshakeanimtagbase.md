@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHandshakeAnimTagBase(ptr --[[ string ]])
+CHandshakeAnimTagBase(ptr)
 ```
 # Properties
 ## IsDisableTag 
 ```lua
-@type boolean
+--- @type boolean
 Read: chandshakeanimtagbase.IsDisableTag
 Write: chandshakeanimtagbase.IsDisableTag = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: chandshakeanimtagbase.Parent
 ```
 # Functions

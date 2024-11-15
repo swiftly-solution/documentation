@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerGameEvent(ptr --[[ string ]])
+CTriggerGameEvent(ptr)
 ```
 # Properties
 ## StrStartTouchEventName 
 ```lua
-@type string
+--- @type string
 Read: ctriggergameevent.StrStartTouchEventName
 Write: ctriggergameevent.StrStartTouchEventName = value
 ```
 ## StrEndTouchEventName 
 ```lua
-@type string
+--- @type string
 Read: ctriggergameevent.StrEndTouchEventName
 Write: ctriggergameevent.StrEndTouchEventName = value
 ```
 ## StrTriggerID 
 ```lua
-@type string
+--- @type string
 Read: ctriggergameevent.StrTriggerID
 Write: ctriggergameevent.StrTriggerID = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggergameevent.Parent
 ```
 # Functions

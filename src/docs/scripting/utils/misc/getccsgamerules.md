@@ -11,7 +11,7 @@ Returns the CCSGameRules of the server.
 ::: tabs
 @tab Lua
 ```lua
-@returns CCSGameRules
+--- @return CCSGameRules
 GetCCSGameRules()
 ```
 

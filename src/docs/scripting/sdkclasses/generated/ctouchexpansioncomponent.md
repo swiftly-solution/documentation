@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTouchExpansionComponent(ptr --[[ string ]])
+CTouchExpansionComponent(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CEntityComponent
+--- @type CEntityComponent
 Read: ctouchexpansioncomponent.Parent
 ```
 # Functions

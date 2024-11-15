@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHostageAlias_info_hostage_spawn(ptr --[[ string ]])
+CHostageAlias_info_hostage_spawn(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CHostage
+--- @type CHostage
 Read: chostagealias_info_hostage_spawn.Parent
 ```
 # Functions

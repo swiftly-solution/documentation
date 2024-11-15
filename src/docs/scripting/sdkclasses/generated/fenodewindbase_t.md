@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeNodeWindBase_t(ptr --[[ string ]])
+FeNodeWindBase_t(ptr)
 ```
 # Properties
 ## NodeX0 
 ```lua
-@type number
+--- @type number
 Read: fenodewindbase_t.NodeX0
 Write: fenodewindbase_t.NodeX0 = value
 ```
 ## NodeX1 
 ```lua
-@type number
+--- @type number
 Read: fenodewindbase_t.NodeX1
 Write: fenodewindbase_t.NodeX1 = value
 ```
 ## NodeY0 
 ```lua
-@type number
+--- @type number
 Read: fenodewindbase_t.NodeY0
 Write: fenodewindbase_t.NodeY0 = value
 ```
 ## NodeY1 
 ```lua
-@type number
+--- @type number
 Read: fenodewindbase_t.NodeY1
 Write: fenodewindbase_t.NodeY1 = value
 ```

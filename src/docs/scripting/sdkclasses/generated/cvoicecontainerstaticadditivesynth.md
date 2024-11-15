@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerStaticAdditiveSynth(ptr --[[ string ]])
+CVoiceContainerStaticAdditiveSynth(ptr)
 ```
 # Properties
 ## Tones (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cvoicecontainerstaticadditivesynth.Tones
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerstaticadditivesynth.Parent
 ```
 # Functions

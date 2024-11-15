@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientPollInput_t(ptr --[[ string ]])
+EventClientPollInput_t(ptr)
 ```
 # Properties
 ## LoopState (Read-Only)
 ```lua
-@type EngineLoopState_t
+--- @type EngineLoopState_t
 Read: eventclientpollinput_t.LoopState
 ```
 ## RealTime 
 ```lua
-@type number
+--- @type number
 Read: eventclientpollinput_t.RealTime
 Write: eventclientpollinput_t.RealTime = value
 ```

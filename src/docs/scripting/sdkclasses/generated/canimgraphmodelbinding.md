@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimGraphModelBinding(ptr --[[ string ]])
+CAnimGraphModelBinding(ptr)
 ```
 # Properties
 ## ModelName 
 ```lua
-@type string
+--- @type string
 Read: canimgraphmodelbinding.ModelName
 Write: canimgraphmodelbinding.ModelName = value
 ```

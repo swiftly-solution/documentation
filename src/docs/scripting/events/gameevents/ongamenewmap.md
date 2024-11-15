@@ -11,8 +11,9 @@ This event is triggered when game_newmap is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGameNewmap", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGameNewmap", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

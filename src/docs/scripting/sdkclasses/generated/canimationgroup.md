@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimationGroup(ptr --[[ string ]])
+CAnimationGroup(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: canimationgroup.Flags
 Write: canimationgroup.Flags = value
 ```
 ## DecodeKey (Read-Only)
 ```lua
-@type CAnimKeyData
+--- @type CAnimKeyData
 Read: canimationgroup.DecodeKey
 ```
 # Functions

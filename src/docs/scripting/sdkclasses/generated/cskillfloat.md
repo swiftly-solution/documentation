@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSkillFloat(ptr --[[ string ]])
+CSkillFloat(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type table
+--- @type table
 Read: cskillfloat.Value
 Write: cskillfloat.Value = value
 ```

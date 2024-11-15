@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VsInputSignature_t(ptr --[[ string ]])
+VsInputSignature_t(ptr)
 ```
 # Properties
 ## Elems (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vsinputsignature_t.Elems
 ```
 # Functions

@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VMixShaperDesc_t(ptr --[[ string ]])
+VMixShaperDesc_t(ptr)
 ```
 # Properties
 ## Shape 
 ```lua
-@type number
+--- @type number
 Read: vmixshaperdesc_t.Shape
 Write: vmixshaperdesc_t.Shape = value
 ```
 ## FldbDrive 
 ```lua
-@type number
+--- @type number
 Read: vmixshaperdesc_t.FldbDrive
 Write: vmixshaperdesc_t.FldbDrive = value
 ```
 ## FldbOutputGain 
 ```lua
-@type number
+--- @type number
 Read: vmixshaperdesc_t.FldbOutputGain
 Write: vmixshaperdesc_t.FldbOutputGain = value
 ```
 ## WetMix 
 ```lua
-@type number
+--- @type number
 Read: vmixshaperdesc_t.WetMix
 Write: vmixshaperdesc_t.WetMix = value
 ```
 ## OversampleFactor 
 ```lua
-@type number
+--- @type number
 Read: vmixshaperdesc_t.OversampleFactor
 Write: vmixshaperdesc_t.OversampleFactor = value
 ```

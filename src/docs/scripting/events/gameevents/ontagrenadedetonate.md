@@ -11,8 +11,9 @@ This event is triggered when tagrenade_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnTagrenadeDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnTagrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

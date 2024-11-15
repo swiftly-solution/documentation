@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-WeaponPurchaseTracker_t(ptr --[[ string ]])
+WeaponPurchaseTracker_t(ptr)
 ```
 # Properties
 ## WeaponPurchases (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: weaponpurchasetracker_t.WeaponPurchases
 ```
 # Functions

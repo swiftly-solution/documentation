@@ -11,8 +11,9 @@ This event is triggered when flashbang_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnFlashbangDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnFlashbangDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimActionUpdater(ptr --[[ string ]])
+CAnimActionUpdater(ptr)
 ```
 # Properties
 There are no properties available for this class.

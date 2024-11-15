@@ -11,8 +11,9 @@ This event is triggered when bonus_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBonusUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBonusUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

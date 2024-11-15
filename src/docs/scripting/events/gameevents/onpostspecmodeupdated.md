@@ -11,8 +11,9 @@ This event is triggered after spec_mode_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSpecModeUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSpecModeUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

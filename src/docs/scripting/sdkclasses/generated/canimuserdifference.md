@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimUserDifference(ptr --[[ string ]])
+CAnimUserDifference(ptr)
 ```
 # Properties
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: canimuserdifference.Type
 Write: canimuserdifference.Type = value
 ```

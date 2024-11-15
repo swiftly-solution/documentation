@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVectorQuantizer(ptr --[[ string ]])
+CVectorQuantizer(ptr)
 ```
 # Properties
 ## CentroidVectors (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cvectorquantizer.CentroidVectors
 ```
 ## Centroids 
 ```lua
-@type number
+--- @type number
 Read: cvectorquantizer.Centroids
 Write: cvectorquantizer.Centroids = value
 ```
 ## Dimensions 
 ```lua
-@type number
+--- @type number
 Read: cvectorquantizer.Dimensions
 Write: cvectorquantizer.Dimensions = value
 ```

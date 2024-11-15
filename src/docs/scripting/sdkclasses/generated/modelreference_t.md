@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ModelReference_t(ptr --[[ string ]])
+ModelReference_t(ptr)
 ```
 # Properties
 ## RelativeProbabilityOfSpawn 
 ```lua
-@type number
+--- @type number
 Read: modelreference_t.RelativeProbabilityOfSpawn
 Write: modelreference_t.RelativeProbabilityOfSpawn = value
 ```

@@ -11,8 +11,9 @@ This event is triggered when gg_killed_enemy is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGgKilledEnemy", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnGgKilledEnemy", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

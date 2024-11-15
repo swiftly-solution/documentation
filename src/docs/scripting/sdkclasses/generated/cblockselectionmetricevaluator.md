@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBlockSelectionMetricEvaluator(ptr --[[ string ]])
+CBlockSelectionMetricEvaluator(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cblockselectionmetricevaluator.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when bomb_exploded is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBombExploded", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBombExploded", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

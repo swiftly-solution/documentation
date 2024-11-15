@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SpawnPoint(ptr --[[ string ]])
+SpawnPoint(ptr)
 ```
 # Properties
 ## Priority 
 ```lua
-@type number
+--- @type number
 Read: spawnpoint.Priority
 Write: spawnpoint.Priority = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: spawnpoint.Enabled
 Write: spawnpoint.Enabled = value
 ```
 ## Type 
 ```lua
-@type number
+--- @type number
 Read: spawnpoint.Type
 Write: spawnpoint.Type = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CServerOnlyPointEntity
+--- @type CServerOnlyPointEntity
 Read: spawnpoint.Parent
 ```
 # Functions

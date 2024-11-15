@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientPauseSimulate_t(ptr --[[ string ]])
+EventClientPauseSimulate_t(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type EventSimulate_t
+--- @type EventSimulate_t
 Read: eventclientpausesimulate_t.Parent
 ```
 # Functions

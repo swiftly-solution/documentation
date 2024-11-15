@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VertexPositionColor_t(ptr --[[ string ]])
+VertexPositionColor_t(ptr)
 ```
 # Properties
 ## Position 
 ```lua
-@type Vector
+--- @type Vector
 Read: vertexpositioncolor_t.Position
 Write: vertexpositioncolor_t.Position = value
 ```

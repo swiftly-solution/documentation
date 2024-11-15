@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTankTrain(ptr --[[ string ]])
+CFuncTankTrain(ptr)
 ```
 # Properties
 ## OnDeath (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cfunctanktrain.OnDeath
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncTrackTrain
+--- @type CFuncTrackTrain
 Read: cfunctanktrain.Parent
 ```
 # Functions

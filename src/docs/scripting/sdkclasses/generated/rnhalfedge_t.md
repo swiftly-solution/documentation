@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnHalfEdge_t(ptr --[[ string ]])
+RnHalfEdge_t(ptr)
 ```
 # Properties
 ## Next 
 ```lua
-@type number
+--- @type number
 Read: rnhalfedge_t.Next
 Write: rnhalfedge_t.Next = value
 ```
 ## Twin 
 ```lua
-@type number
+--- @type number
 Read: rnhalfedge_t.Twin
 Write: rnhalfedge_t.Twin = value
 ```
 ## Origin 
 ```lua
-@type number
+--- @type number
 Read: rnhalfedge_t.Origin
 Write: rnhalfedge_t.Origin = value
 ```
 ## Face 
 ```lua
-@type number
+--- @type number
 Read: rnhalfedge_t.Face
 Write: rnhalfedge_t.Face = value
 ```

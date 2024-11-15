@@ -11,8 +11,9 @@ This event is triggered when break_breakable is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBreakBreakable", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBreakBreakable", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

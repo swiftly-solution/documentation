@@ -11,8 +11,10 @@ Registers an alias for a command registered through Swiftly Commands.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-commands:RegisterAlias(commandName --[[ string ]], alias --[[ string ]])
+--- @param commandName string
+--- @param alias string
+--- @return nil
+commands:RegisterAlias(commandName, alias)
 ```
 
 :::

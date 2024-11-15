@@ -11,8 +11,9 @@ This event is triggered after parachute_deploy is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostParachuteDeploy", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostParachuteDeploy", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

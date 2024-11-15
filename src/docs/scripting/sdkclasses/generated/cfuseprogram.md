@@ -12,27 +12,27 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuseProgram(ptr --[[ string ]])
+CFuseProgram(ptr)
 ```
 # Properties
 ## ProgramBuffer (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfuseprogram.ProgramBuffer
 ```
 ## VariablesRead (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfuseprogram.VariablesRead
 ```
 ## VariablesWritten (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfuseprogram.VariablesWritten
 ```
 ## MaxTempVarsUsed 
 ```lua
-@type number
+--- @type number
 Read: cfuseprogram.MaxTempVarsUsed
 Write: cfuseprogram.MaxTempVarsUsed = value
 ```

@@ -11,8 +11,9 @@ This event is triggered after survival_announce_phase is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostSurvivalAnnouncePhase", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostSurvivalAnnouncePhase", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

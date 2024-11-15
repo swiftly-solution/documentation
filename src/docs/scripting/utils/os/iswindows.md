@@ -11,7 +11,7 @@ Checks if the current OS is Windows.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 IsWindows()
 ```
 

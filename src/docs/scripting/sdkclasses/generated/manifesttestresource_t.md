@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-ManifestTestResource_t(ptr --[[ string ]])
+ManifestTestResource_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: manifesttestresource_t.Name
 Write: manifesttestresource_t.Name = value
 ```

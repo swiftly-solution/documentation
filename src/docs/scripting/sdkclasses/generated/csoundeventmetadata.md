@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEventMetaData(ptr --[[ string ]])
+CSoundEventMetaData(ptr)
 ```
 # Properties
 There are no properties available for this class.

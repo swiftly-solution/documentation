@@ -11,8 +11,9 @@ This event is triggered when server_cvar is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnServerCvar", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnServerCvar", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

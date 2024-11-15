@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysImpact(ptr --[[ string ]])
+CPhysImpact(ptr)
 ```
 # Properties
 ## Damage 
 ```lua
-@type number
+--- @type number
 Read: cphysimpact.Damage
 Write: cphysimpact.Damage = value
 ```
 ## Distance 
 ```lua
-@type number
+--- @type number
 Read: cphysimpact.Distance
 Write: cphysimpact.Distance = value
 ```
 ## DirectionEntityName 
 ```lua
-@type string
+--- @type string
 Read: cphysimpact.DirectionEntityName
 Write: cphysimpact.DirectionEntityName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cphysimpact.Parent
 ```
 # Functions

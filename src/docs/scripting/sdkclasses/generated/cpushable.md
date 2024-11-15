@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPushable(ptr --[[ string ]])
+CPushable(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBreakable
+--- @type CBreakable
 Read: cpushable.Parent
 ```
 # Functions

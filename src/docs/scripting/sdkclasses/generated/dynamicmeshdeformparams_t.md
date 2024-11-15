@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-DynamicMeshDeformParams_t(ptr --[[ string ]])
+DynamicMeshDeformParams_t(ptr)
 ```
 # Properties
 ## TensionCompressScale 
 ```lua
-@type number
+--- @type number
 Read: dynamicmeshdeformparams_t.TensionCompressScale
 Write: dynamicmeshdeformparams_t.TensionCompressScale = value
 ```
 ## TensionStretchScale 
 ```lua
-@type number
+--- @type number
 Read: dynamicmeshdeformparams_t.TensionStretchScale
 Write: dynamicmeshdeformparams_t.TensionStretchScale = value
 ```
 ## RecomputeSmoothNormalsAfterAnimation 
 ```lua
-@type boolean
+--- @type boolean
 Read: dynamicmeshdeformparams_t.RecomputeSmoothNormalsAfterAnimation
 Write: dynamicmeshdeformparams_t.RecomputeSmoothNormalsAfterAnimation = value
 ```
 ## ComputeDynamicMeshTensionAfterAnimation 
 ```lua
-@type boolean
+--- @type boolean
 Read: dynamicmeshdeformparams_t.ComputeDynamicMeshTensionAfterAnimation
 Write: dynamicmeshdeformparams_t.ComputeDynamicMeshTensionAfterAnimation = value
 ```
 ## SmoothNormalsAcrossUvSeams 
 ```lua
-@type boolean
+--- @type boolean
 Read: dynamicmeshdeformparams_t.SmoothNormalsAcrossUvSeams
 Write: dynamicmeshdeformparams_t.SmoothNormalsAcrossUvSeams = value
 ```

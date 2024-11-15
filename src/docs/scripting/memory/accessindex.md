@@ -11,8 +11,9 @@ Accesses the specified index.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-memory:AccessIndex(index --[[ number ]])
+--- @param index number
+--- @return nil
+memory:AccessIndex(index)
 ```
 
 :::

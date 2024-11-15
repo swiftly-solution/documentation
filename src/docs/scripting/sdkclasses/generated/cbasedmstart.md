@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBaseDMStart(ptr --[[ string ]])
+CBaseDMStart(ptr)
 ```
 # Properties
 ## Master 
 ```lua
-@type string
+--- @type string
 Read: cbasedmstart.Master
 Write: cbasedmstart.Master = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cbasedmstart.Parent
 ```
 # Functions

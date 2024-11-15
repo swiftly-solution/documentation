@@ -11,8 +11,9 @@ Checks if a convar exists.
 ::: tabs
 @tab Lua
 ```lua
-@returns bool
-convar:Exists(name --[[ string ]])
+--- @param name string
+--- @return bool
+convar:Exists(name)
 ```
 
 :::

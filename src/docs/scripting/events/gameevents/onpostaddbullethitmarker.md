@@ -11,8 +11,9 @@ This event is triggered after add_bullet_hit_marker is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostAddBulletHitMarker", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostAddBulletHitMarker", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathCorner(ptr --[[ string ]])
+CPathCorner(ptr)
 ```
 # Properties
 ## Wait 
 ```lua
-@type number
+--- @type number
 Read: cpathcorner.Wait
 Write: cpathcorner.Wait = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cpathcorner.Radius
 Write: cpathcorner.Radius = value
 ```
 ## OnPass (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: cpathcorner.OnPass
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpathcorner.Parent
 ```
 # Functions

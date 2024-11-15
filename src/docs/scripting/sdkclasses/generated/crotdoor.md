@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRotDoor(ptr --[[ string ]])
+CRotDoor(ptr)
 ```
 # Properties
 ## SolidBsp 
 ```lua
-@type boolean
+--- @type boolean
 Read: crotdoor.SolidBsp
 Write: crotdoor.SolidBsp = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseDoor
+--- @type CBaseDoor
 Read: crotdoor.Parent
 ```
 # Functions

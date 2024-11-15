@@ -11,8 +11,9 @@ This event is triggered when door_close is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDoorClose", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDoorClose", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

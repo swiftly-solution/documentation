@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAISound(ptr --[[ string ]])
+CAISound(ptr)
 ```
 # Properties
 ## SoundType 
 ```lua
-@type number
+--- @type number
 Read: caisound.SoundType
 Write: caisound.SoundType = value
 ```
 ## SoundFlags 
 ```lua
-@type number
+--- @type number
 Read: caisound.SoundFlags
 Write: caisound.SoundFlags = value
 ```
 ## Volume 
 ```lua
-@type number
+--- @type number
 Read: caisound.Volume
 Write: caisound.Volume = value
 ```
 ## SoundIndex 
 ```lua
-@type number
+--- @type number
 Read: caisound.SoundIndex
 Write: caisound.SoundIndex = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: caisound.Duration
 Write: caisound.Duration = value
 ```
 ## ProxyEntityName 
 ```lua
-@type string
+--- @type string
 Read: caisound.ProxyEntityName
 Write: caisound.ProxyEntityName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: caisound.Parent
 ```
 # Functions

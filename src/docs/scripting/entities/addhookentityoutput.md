@@ -11,8 +11,10 @@ Adds a hook output for an entity.
 ::: tabs
 @tab Lua
 ```lua
-@returns HookHandle
-AddHookEntityOutput(className --[[ string ]], output --[[ string ]])
+--- @param className string
+--- @param output string
+--- @return number HookHandle
+AddHookEntityOutput(className, output)
 ```
 #### Example
 To hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](https://swiftlycs2.net/docs/scripting/hooks/addprehooklistener.html) or an [AddPostHookListener](https://swiftlycs2.net/docs/scripting/hooks/addposthooklistener.html) using the following event callback

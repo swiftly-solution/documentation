@@ -12,114 +12,114 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CColorCorrection(ptr --[[ string ]])
+CColorCorrection(ptr)
 ```
 # Properties
 ## FadeInDuration 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.FadeInDuration
 Write: ccolorcorrection.FadeInDuration = value
 ```
 ## FadeOutDuration 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.FadeOutDuration
 Write: ccolorcorrection.FadeOutDuration = value
 ```
 ## StartFadeInWeight 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.StartFadeInWeight
 Write: ccolorcorrection.StartFadeInWeight = value
 ```
 ## StartFadeOutWeight 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.StartFadeOutWeight
 Write: ccolorcorrection.StartFadeOutWeight = value
 ```
 ## TimeStartFadeIn 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.TimeStartFadeIn
 Write: ccolorcorrection.TimeStartFadeIn = value
 ```
 ## TimeStartFadeOut 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.TimeStartFadeOut
 Write: ccolorcorrection.TimeStartFadeOut = value
 ```
 ## MaxWeight 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.MaxWeight
 Write: ccolorcorrection.MaxWeight = value
 ```
 ## StartDisabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccolorcorrection.StartDisabled
 Write: ccolorcorrection.StartDisabled = value
 ```
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccolorcorrection.Enabled
 Write: ccolorcorrection.Enabled = value
 ```
 ## Master 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccolorcorrection.Master
 Write: ccolorcorrection.Master = value
 ```
 ## ClientSide 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccolorcorrection.ClientSide
 Write: ccolorcorrection.ClientSide = value
 ```
 ## Exclusive 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccolorcorrection.Exclusive
 Write: ccolorcorrection.Exclusive = value
 ```
 ## MinFalloff 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.MinFalloff
 Write: ccolorcorrection.MinFalloff = value
 ```
 ## MaxFalloff 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.MaxFalloff
 Write: ccolorcorrection.MaxFalloff = value
 ```
 ## CurWeight 
 ```lua
-@type number
+--- @type number
 Read: ccolorcorrection.CurWeight
 Write: ccolorcorrection.CurWeight = value
 ```
 ## NetlookupFilename 
 ```lua
-@type string
+--- @type string
 Read: ccolorcorrection.NetlookupFilename
 Write: ccolorcorrection.NetlookupFilename = value
 ```
 ## LookupFilename 
 ```lua
-@type string
+--- @type string
 Read: ccolorcorrection.LookupFilename
 Write: ccolorcorrection.LookupFilename = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccolorcorrection.Parent
 ```
 # Functions

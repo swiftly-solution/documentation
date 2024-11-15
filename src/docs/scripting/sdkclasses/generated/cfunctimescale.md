@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTimescale(ptr --[[ string ]])
+CFuncTimescale(ptr)
 ```
 # Properties
 ## DesiredTimescale 
 ```lua
-@type number
+--- @type number
 Read: cfunctimescale.DesiredTimescale
 Write: cfunctimescale.DesiredTimescale = value
 ```
 ## Acceleration 
 ```lua
-@type number
+--- @type number
 Read: cfunctimescale.Acceleration
 Write: cfunctimescale.Acceleration = value
 ```
 ## MinBlendRate 
 ```lua
-@type number
+--- @type number
 Read: cfunctimescale.MinBlendRate
 Write: cfunctimescale.MinBlendRate = value
 ```
 ## BlendDeltaMultiplier 
 ```lua
-@type number
+--- @type number
 Read: cfunctimescale.BlendDeltaMultiplier
 Write: cfunctimescale.BlendDeltaMultiplier = value
 ```
 ## IsStarted 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfunctimescale.IsStarted
 Write: cfunctimescale.IsStarted = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cfunctimescale.Parent
 ```
 # Functions

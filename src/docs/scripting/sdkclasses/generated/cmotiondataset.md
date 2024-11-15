@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionDataSet(ptr --[[ string ]])
+CMotionDataSet(ptr)
 ```
 # Properties
 ## Groups (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotiondataset.Groups
 ```
 ## DimensionCount 
 ```lua
-@type number
+--- @type number
 Read: cmotiondataset.DimensionCount
 Write: cmotiondataset.DimensionCount = value
 ```

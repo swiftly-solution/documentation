@@ -11,8 +11,9 @@ This event is triggered after cs_round_start_beep is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostCsRoundStartBeep", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostCsRoundStartBeep", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

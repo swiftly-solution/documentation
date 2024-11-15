@@ -12,35 +12,35 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPropDoorRotatingBreakable(ptr --[[ string ]])
+CPropDoorRotatingBreakable(ptr)
 ```
 # Properties
 ## Breakable 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpropdoorrotatingbreakable.Breakable
 Write: cpropdoorrotatingbreakable.Breakable = value
 ```
 ## IsAbleToCloseAreaPortals 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpropdoorrotatingbreakable.IsAbleToCloseAreaPortals
 Write: cpropdoorrotatingbreakable.IsAbleToCloseAreaPortals = value
 ```
 ## CurrentDamageState 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotatingbreakable.CurrentDamageState
 Write: cpropdoorrotatingbreakable.CurrentDamageState = value
 ```
 ## DamageStates (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cpropdoorrotatingbreakable.DamageStates
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPropDoorRotating
+--- @type CPropDoorRotating
 Read: cpropdoorrotatingbreakable.Parent
 ```
 # Functions

@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDSPMixgroupModifier(ptr --[[ string ]])
+CDSPMixgroupModifier(ptr)
 ```
 # Properties
 ## Mixgroup 
 ```lua
-@type string
+--- @type string
 Read: cdspmixgroupmodifier.Mixgroup
 Write: cdspmixgroupmodifier.Mixgroup = value
 ```
 ## Modifier 
 ```lua
-@type number
+--- @type number
 Read: cdspmixgroupmodifier.Modifier
 Write: cdspmixgroupmodifier.Modifier = value
 ```
 ## ModifierMin 
 ```lua
-@type number
+--- @type number
 Read: cdspmixgroupmodifier.ModifierMin
 Write: cdspmixgroupmodifier.ModifierMin = value
 ```
 ## SourceModifier 
 ```lua
-@type number
+--- @type number
 Read: cdspmixgroupmodifier.SourceModifier
 Write: cdspmixgroupmodifier.SourceModifier = value
 ```
 ## SourceModifierMin 
 ```lua
-@type number
+--- @type number
 Read: cdspmixgroupmodifier.SourceModifierMin
 Write: cdspmixgroupmodifier.SourceModifierMin = value
 ```
 ## ListenerReverbModifierWhenSourceReverbIsActive 
 ```lua
-@type number
+--- @type number
 Read: cdspmixgroupmodifier.ListenerReverbModifierWhenSourceReverbIsActive
 Write: cdspmixgroupmodifier.ListenerReverbModifierWhenSourceReverbIsActive = value
 ```

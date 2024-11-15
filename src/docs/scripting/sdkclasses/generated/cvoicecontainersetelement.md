@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerSetElement(ptr --[[ string ]])
+CVoiceContainerSetElement(ptr)
 ```
 # Properties
 ## Sound (Read-Only)
 ```lua
-@type CSoundContainerReference
+--- @type CSoundContainerReference
 Read: cvoicecontainersetelement.Sound
 ```
 ## VolumeDB 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainersetelement.VolumeDB
 Write: cvoicecontainersetelement.VolumeDB = value
 ```

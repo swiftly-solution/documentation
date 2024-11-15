@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFutureVelocityMetricEvaluator(ptr --[[ string ]])
+CFutureVelocityMetricEvaluator(ptr)
 ```
 # Properties
 ## Distance 
 ```lua
-@type number
+--- @type number
 Read: cfuturevelocitymetricevaluator.Distance
 Write: cfuturevelocitymetricevaluator.Distance = value
 ```
 ## StoppingDistance 
 ```lua
-@type number
+--- @type number
 Read: cfuturevelocitymetricevaluator.StoppingDistance
 Write: cfuturevelocitymetricevaluator.StoppingDistance = value
 ```
 ## TargetSpeed 
 ```lua
-@type number
+--- @type number
 Read: cfuturevelocitymetricevaluator.TargetSpeed
 Write: cfuturevelocitymetricevaluator.TargetSpeed = value
 ```
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: cfuturevelocitymetricevaluator.Mode
 Write: cfuturevelocitymetricevaluator.Mode = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cfuturevelocitymetricevaluator.Parent
 ```
 # Functions

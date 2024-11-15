@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleFunctionConstraint(ptr --[[ string ]])
+CParticleFunctionConstraint(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CParticleFunction
+--- @type CParticleFunction
 Read: cparticlefunctionconstraint.Parent
 ```
 # Functions

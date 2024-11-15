@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmBoneMask(ptr --[[ string ]])
+CNmBoneMask(ptr)
 ```
 # Properties
 ## WeightInfo (Read-Only)
 ```lua
-@type uint8_t
+--- @type uint8_t
 Read: cnmbonemask.WeightInfo
 ```
 ## Weights (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmbonemask.Weights
 ```
 # Functions

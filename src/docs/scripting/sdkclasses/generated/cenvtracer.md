@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvTracer(ptr --[[ string ]])
+CEnvTracer(ptr)
 ```
 # Properties
 ## End 
 ```lua
-@type Vector
+--- @type Vector
 Read: cenvtracer.End
 Write: cenvtracer.End = value
 ```
 ## Delay 
 ```lua
-@type number
+--- @type number
 Read: cenvtracer.Delay
 Write: cenvtracer.Delay = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvtracer.Parent
 ```
 # Functions

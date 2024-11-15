@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigElement_UserPick(ptr --[[ string ]])
+CModelConfigElement_UserPick(ptr)
 ```
 # Properties
 ## Choices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfigelement_userpick.Choices
 ```
 ## Parent (Read-Only)
 ```lua
-@type CModelConfigElement
+--- @type CModelConfigElement
 Read: cmodelconfigelement_userpick.Parent
 ```
 # Functions

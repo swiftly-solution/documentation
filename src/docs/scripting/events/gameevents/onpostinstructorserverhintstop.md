@@ -11,8 +11,9 @@ This event is triggered after instructor_server_hint_stop is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostInstructorServerHintStop", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostInstructorServerHintStop", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

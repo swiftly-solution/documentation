@@ -11,8 +11,9 @@ This event is triggered when server_spawn is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnServerSpawn", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnServerSpawn", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTriggerDetectExplosion(ptr --[[ string ]])
+CTriggerDetectExplosion(ptr)
 ```
 # Properties
 ## OnDetectedExplosion (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ctriggerdetectexplosion.OnDetectedExplosion
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: ctriggerdetectexplosion.Parent
 ```
 # Functions

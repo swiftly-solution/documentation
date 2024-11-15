@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFutureFacingMetricEvaluator(ptr --[[ string ]])
+CFutureFacingMetricEvaluator(ptr)
 ```
 # Properties
 ## Distance 
 ```lua
-@type number
+--- @type number
 Read: cfuturefacingmetricevaluator.Distance
 Write: cfuturefacingmetricevaluator.Distance = value
 ```
 ## Time 
 ```lua
-@type number
+--- @type number
 Read: cfuturefacingmetricevaluator.Time
 Write: cfuturefacingmetricevaluator.Time = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionMetricEvaluator
+--- @type CMotionMetricEvaluator
 Read: cfuturefacingmetricevaluator.Parent
 ```
 # Functions

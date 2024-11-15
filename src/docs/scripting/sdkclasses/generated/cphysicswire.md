@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPhysicsWire(ptr --[[ string ]])
+CPhysicsWire(ptr)
 ```
 # Properties
 ## Density 
 ```lua
-@type number
+--- @type number
 Read: cphysicswire.Density
 Write: cphysicswire.Density = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cphysicswire.Parent
 ```
 # Functions

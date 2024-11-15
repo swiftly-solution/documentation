@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSEndFrameViewInfo(ptr --[[ string ]])
+CSSDSEndFrameViewInfo(ptr)
 ```
 # Properties
 ## ViewId 
 ```lua
-@type number
+--- @type number
 Read: cssdsendframeviewinfo.ViewId
 Write: cssdsendframeviewinfo.ViewId = value
 ```
 ## ViewName 
 ```lua
-@type string
+--- @type string
 Read: cssdsendframeviewinfo.ViewName
 Write: cssdsendframeviewinfo.ViewName = value
 ```

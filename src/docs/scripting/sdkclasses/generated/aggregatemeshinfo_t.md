@@ -12,60 +12,60 @@ category:
 @tab Lua
 # Constructor
 ```lua
-AggregateMeshInfo_t(ptr --[[ string ]])
+AggregateMeshInfo_t(ptr)
 ```
 # Properties
 ## VisClusterMemberOffset 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.VisClusterMemberOffset
 Write: aggregatemeshinfo_t.VisClusterMemberOffset = value
 ```
 ## VisClusterMemberCount 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.VisClusterMemberCount
 Write: aggregatemeshinfo_t.VisClusterMemberCount = value
 ```
 ## HasTransform 
 ```lua
-@type boolean
+--- @type boolean
 Read: aggregatemeshinfo_t.HasTransform
 Write: aggregatemeshinfo_t.HasTransform = value
 ```
 ## DrawCallIndex 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.DrawCallIndex
 Write: aggregatemeshinfo_t.DrawCallIndex = value
 ```
 ## LODSetupIndex 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.LODSetupIndex
 Write: aggregatemeshinfo_t.LODSetupIndex = value
 ```
 ## LODGroupMask 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.LODGroupMask
 Write: aggregatemeshinfo_t.LODGroupMask = value
 ```
 ## TintColor 
 ```lua
-@type Color
+--- @type Color
 Read: aggregatemeshinfo_t.TintColor
 Write: aggregatemeshinfo_t.TintColor = value
 ```
 ## ObjectFlags 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.ObjectFlags
 Write: aggregatemeshinfo_t.ObjectFlags = value
 ```
 ## LightProbeVolumePrecomputedHandshake 
 ```lua
-@type number
+--- @type number
 Read: aggregatemeshinfo_t.LightProbeVolumePrecomputedHandshake
 Write: aggregatemeshinfo_t.LightProbeVolumePrecomputedHandshake = value
 ```

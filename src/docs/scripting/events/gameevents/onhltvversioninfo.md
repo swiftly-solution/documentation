@@ -11,8 +11,9 @@ This event is triggered when hltv_versioninfo is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHltvVersioninfo", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHltvVersioninfo", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

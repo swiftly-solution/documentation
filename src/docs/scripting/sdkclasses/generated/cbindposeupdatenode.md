@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBindPoseUpdateNode(ptr --[[ string ]])
+CBindPoseUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CLeafUpdateNode
+--- @type CLeafUpdateNode
 Read: cbindposeupdatenode.Parent
 ```
 # Functions

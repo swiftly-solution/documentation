@@ -11,7 +11,7 @@ Returns the IP address of the player.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 player:GetIPAddress()
 ```
 

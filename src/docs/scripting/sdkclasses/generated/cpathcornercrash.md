@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathCornerCrash(ptr --[[ string ]])
+CPathCornerCrash(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CPathCorner
+--- @type CPathCorner
 Read: cpathcornercrash.Parent
 ```
 # Functions

@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RelationshipOverride_t(ptr --[[ string ]])
+RelationshipOverride_t(ptr)
 ```
 # Properties
 ## Entity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: relationshipoverride_t.Entity
 ```
 ## ClassType 
 ```lua
-@type number
+--- @type number
 Read: relationshipoverride_t.ClassType
 Write: relationshipoverride_t.ClassType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type Relationship_t
+--- @type Relationship_t
 Read: relationshipoverride_t.Parent
 ```
 # Functions

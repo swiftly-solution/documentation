@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_ItemServices(ptr --[[ string ]])
+CCSPlayer_ItemServices(ptr)
 ```
 # Properties
 ## HasDefuser 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayer_itemservices.HasDefuser
 Write: ccsplayer_itemservices.HasDefuser = value
 ```
 ## HasHelmet 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayer_itemservices.HasHelmet
 Write: ccsplayer_itemservices.HasHelmet = value
 ```
 ## HasHeavyArmor 
 ```lua
-@type boolean
+--- @type boolean
 Read: ccsplayer_itemservices.HasHeavyArmor
 Write: ccsplayer_itemservices.HasHeavyArmor = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_ItemServices
+--- @type CPlayer_ItemServices
 Read: ccsplayer_itemservices.Parent
 ```
 # Functions

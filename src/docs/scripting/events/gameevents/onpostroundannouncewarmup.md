@@ -11,8 +11,9 @@ This event is triggered after round_announce_warmup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRoundAnnounceWarmup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRoundAnnounceWarmup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

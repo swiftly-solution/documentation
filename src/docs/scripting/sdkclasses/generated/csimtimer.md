@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSimTimer(ptr --[[ string ]])
+CSimTimer(ptr)
 ```
 # Properties
 ## Interval 
 ```lua
-@type number
+--- @type number
 Read: csimtimer.Interval
 Write: csimtimer.Interval = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CSimpleSimTimer
+--- @type CSimpleSimTimer
 Read: csimtimer.Parent
 ```
 # Functions

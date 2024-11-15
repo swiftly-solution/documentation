@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVoiceContainerRealtimeFMSineWave(ptr --[[ string ]])
+CVoiceContainerRealtimeFMSineWave(ptr)
 ```
 # Properties
 ## CarrierFrequency 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrealtimefmsinewave.CarrierFrequency
 Write: cvoicecontainerrealtimefmsinewave.CarrierFrequency = value
 ```
 ## ModulatorFrequency 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrealtimefmsinewave.ModulatorFrequency
 Write: cvoicecontainerrealtimefmsinewave.ModulatorFrequency = value
 ```
 ## ModulatorAmount 
 ```lua
-@type number
+--- @type number
 Read: cvoicecontainerrealtimefmsinewave.ModulatorAmount
 Write: cvoicecontainerrealtimefmsinewave.ModulatorAmount = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CVoiceContainerBase
+--- @type CVoiceContainerBase
 Read: cvoicecontainerrealtimefmsinewave.Parent
 ```
 # Functions

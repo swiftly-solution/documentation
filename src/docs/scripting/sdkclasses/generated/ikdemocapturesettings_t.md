@@ -12,36 +12,36 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IKDemoCaptureSettings_t(ptr --[[ string ]])
+IKDemoCaptureSettings_t(ptr)
 ```
 # Properties
 ## ParentBoneName 
 ```lua
-@type string
+--- @type string
 Read: ikdemocapturesettings_t.ParentBoneName
 Write: ikdemocapturesettings_t.ParentBoneName = value
 ```
 ## Mode 
 ```lua
-@type number
+--- @type number
 Read: ikdemocapturesettings_t.Mode
 Write: ikdemocapturesettings_t.Mode = value
 ```
 ## IkChainName 
 ```lua
-@type string
+--- @type string
 Read: ikdemocapturesettings_t.IkChainName
 Write: ikdemocapturesettings_t.IkChainName = value
 ```
 ## OneBoneStart 
 ```lua
-@type string
+--- @type string
 Read: ikdemocapturesettings_t.OneBoneStart
 Write: ikdemocapturesettings_t.OneBoneStart = value
 ```
 ## OneBoneEnd 
 ```lua
-@type string
+--- @type string
 Read: ikdemocapturesettings_t.OneBoneEnd
 Write: ikdemocapturesettings_t.OneBoneEnd = value
 ```

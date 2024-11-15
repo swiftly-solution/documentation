@@ -11,7 +11,7 @@ Returns a table of all the player weapons.
 ::: tabs
 @tab Lua
 ```lua
-@returns table of Weapon
+--- @return table of Weapon
 weaponmanager:GetWeapons()
 ```
 

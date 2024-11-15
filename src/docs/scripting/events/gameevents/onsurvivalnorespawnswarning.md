@@ -11,8 +11,9 @@ This event is triggered when survival_no_respawns_warning is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnSurvivalNoRespawnsWarning", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnSurvivalNoRespawnsWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

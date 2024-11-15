@@ -12,54 +12,54 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHitReactUpdateNode(ptr --[[ string ]])
+CHitReactUpdateNode(ptr)
 ```
 # Properties
 ## OpFixedSettings (Read-Only)
 ```lua
-@type HitReactFixedSettings_t
+--- @type HitReactFixedSettings_t
 Read: chitreactupdatenode.OpFixedSettings
 ```
 ## TriggerParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: chitreactupdatenode.TriggerParam
 ```
 ## HitBoneParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: chitreactupdatenode.HitBoneParam
 ```
 ## HitOffsetParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: chitreactupdatenode.HitOffsetParam
 ```
 ## HitDirectionParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: chitreactupdatenode.HitDirectionParam
 ```
 ## HitStrengthParam (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: chitreactupdatenode.HitStrengthParam
 ```
 ## MinDelayBetweenHits 
 ```lua
-@type number
+--- @type number
 Read: chitreactupdatenode.MinDelayBetweenHits
 Write: chitreactupdatenode.MinDelayBetweenHits = value
 ```
 ## ResetChild 
 ```lua
-@type boolean
+--- @type boolean
 Read: chitreactupdatenode.ResetChild
 Write: chitreactupdatenode.ResetChild = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: chitreactupdatenode.Parent
 ```
 # Functions

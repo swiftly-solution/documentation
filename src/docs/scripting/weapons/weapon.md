@@ -12,7 +12,7 @@ A weapon is an object which stores informations about a player's weapon.
 @tab Lua
 # Constructor
 ```lua
-Weapon(playerid --[[ number ]], ptr --[[ string ]])
+Weapon(playerid, ptr)
 ```
 # Properties
 There are no properties available for this class.

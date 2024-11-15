@@ -11,8 +11,9 @@ This event is triggered when bomb_beep is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnBombBeep", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnBombBeep", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

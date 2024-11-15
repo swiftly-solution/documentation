@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SequenceWeightedList_t(ptr --[[ string ]])
+SequenceWeightedList_t(ptr)
 ```
 # Properties
 ## Sequence 
 ```lua
-@type number
+--- @type number
 Read: sequenceweightedlist_t.Sequence
 Write: sequenceweightedlist_t.Sequence = value
 ```
 ## RelativeWeight 
 ```lua
-@type number
+--- @type number
 Read: sequenceweightedlist_t.RelativeWeight
 Write: sequenceweightedlist_t.RelativeWeight = value
 ```

@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvScreenOverlay(ptr --[[ string ]])
+CEnvScreenOverlay(ptr)
 ```
 # Properties
 ## OverlayNames 
 ```lua
-@type table
+--- @type table
 Read: cenvscreenoverlay.OverlayNames
 Write: cenvscreenoverlay.OverlayNames = value
 ```
 ## OverlayTimes 
 ```lua
-@type table
+--- @type table
 Read: cenvscreenoverlay.OverlayTimes
 Write: cenvscreenoverlay.OverlayTimes = value
 ```
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: cenvscreenoverlay.StartTime
 Write: cenvscreenoverlay.StartTime = value
 ```
 ## DesiredOverlay 
 ```lua
-@type number
+--- @type number
 Read: cenvscreenoverlay.DesiredOverlay
 Write: cenvscreenoverlay.DesiredOverlay = value
 ```
 ## IsActive 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvscreenoverlay.IsActive
 Write: cenvscreenoverlay.IsActive = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cenvscreenoverlay.Parent
 ```
 # Functions

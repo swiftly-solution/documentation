@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRopeKeyframeAlias_move_rope(ptr --[[ string ]])
+CRopeKeyframeAlias_move_rope(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CRopeKeyframe
+--- @type CRopeKeyframe
 Read: cropekeyframealias_move_rope.Parent
 ```
 # Functions

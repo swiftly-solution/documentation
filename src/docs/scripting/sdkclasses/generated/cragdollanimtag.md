@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRagdollAnimTag(ptr --[[ string ]])
+CRagdollAnimTag(ptr)
 ```
 # Properties
 ## PoseControl 
 ```lua
-@type number
+--- @type number
 Read: cragdollanimtag.PoseControl
 Write: cragdollanimtag.PoseControl = value
 ```
 ## Frequency 
 ```lua
-@type number
+--- @type number
 Read: cragdollanimtag.Frequency
 Write: cragdollanimtag.Frequency = value
 ```
 ## DampingRatio 
 ```lua
-@type number
+--- @type number
 Read: cragdollanimtag.DampingRatio
 Write: cragdollanimtag.DampingRatio = value
 ```
 ## DecayDuration 
 ```lua
-@type number
+--- @type number
 Read: cragdollanimtag.DecayDuration
 Write: cragdollanimtag.DecayDuration = value
 ```
 ## DecayBias 
 ```lua
-@type number
+--- @type number
 Read: cragdollanimtag.DecayBias
 Write: cragdollanimtag.DecayBias = value
 ```
 ## Destroy 
 ```lua
-@type boolean
+--- @type boolean
 Read: cragdollanimtag.Destroy
 Write: cragdollanimtag.Destroy = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cragdollanimtag.Parent
 ```
 # Functions

@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSSDSMsg_PostLayer(ptr --[[ string ]])
+CSSDSMsg_PostLayer(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSSDSMsg_LayerBase
+--- @type CSSDSMsg_LayerBase
 Read: cssdsmsg_postlayer.Parent
 ```
 # Functions

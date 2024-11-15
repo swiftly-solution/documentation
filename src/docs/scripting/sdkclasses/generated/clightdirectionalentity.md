@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLightDirectionalEntity(ptr --[[ string ]])
+CLightDirectionalEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CLightEntity
+--- @type CLightEntity
 Read: clightdirectionalentity.Parent
 ```
 # Functions

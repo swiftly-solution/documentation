@@ -11,8 +11,9 @@ This event is triggered when ammo_pickup is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAmmoPickup", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAmmoPickup", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

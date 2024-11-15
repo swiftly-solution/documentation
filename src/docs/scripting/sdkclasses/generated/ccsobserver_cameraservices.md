@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSObserver_CameraServices(ptr --[[ string ]])
+CCSObserver_CameraServices(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSPlayerBase_CameraServices
+--- @type CCSPlayerBase_CameraServices
 Read: ccsobserver_cameraservices.Parent
 ```
 # Functions

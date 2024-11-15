@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCommentaryViewPosition(ptr --[[ string ]])
+CCommentaryViewPosition(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSprite
+--- @type CSprite
 Read: ccommentaryviewposition.Parent
 ```
 # Functions

@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CompositeMaterialAssemblyProcedure_t(ptr --[[ string ]])
+CompositeMaterialAssemblyProcedure_t(ptr)
 ```
 # Properties
 ## MatchFilters (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialassemblyprocedure_t.MatchFilters
 ```
 ## CompositeInputContainers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialassemblyprocedure_t.CompositeInputContainers
 ```
 ## PropertyMutators (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: compositematerialassemblyprocedure_t.PropertyMutators
 ```
 # Functions

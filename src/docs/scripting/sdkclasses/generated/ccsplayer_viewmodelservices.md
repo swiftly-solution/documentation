@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSPlayer_ViewModelServices(ptr --[[ string ]])
+CCSPlayer_ViewModelServices(ptr)
 ```
 # Properties
 ## ViewModel (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ccsplayer_viewmodelservices.ViewModel
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPlayer_ViewModelServices
+--- @type CPlayer_ViewModelServices
 Read: ccsplayer_viewmodelservices.Parent
 ```
 # Functions

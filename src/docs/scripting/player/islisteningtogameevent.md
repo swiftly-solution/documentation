@@ -11,8 +11,9 @@ Checks if a player is listening to a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:IsListeningToGameEvent(game_event --[[ string ]])
+--- @param game_event string
+--- @return nil
+player:IsListeningToGameEvent(game_event)
 ```
 
 :::

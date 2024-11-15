@@ -11,8 +11,11 @@ Creates a HTTP Server.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-http:Listen(ip_addr --[[ string ]], port --[[ number ]], callback --[[ function ]])
+--- @param ip_addr string
+--- @param port number
+--- @param callback function
+--- @return nil
+http:Listen(ip_addr, port, callback)
 ```
 The callback has the following arguments:
 ```lua

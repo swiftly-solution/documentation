@@ -12,32 +12,32 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VPhysics2ShapeDef_t(ptr --[[ string ]])
+VPhysics2ShapeDef_t(ptr)
 ```
 # Properties
 ## Spheres (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysics2shapedef_t.Spheres
 ```
 ## Capsules (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysics2shapedef_t.Capsules
 ```
 ## Hulls (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysics2shapedef_t.Hulls
 ```
 ## Meshes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysics2shapedef_t.Meshes
 ```
 ## CollisionAttributeIndices (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: vphysics2shapedef_t.CollisionAttributeIndices
 ```
 # Functions

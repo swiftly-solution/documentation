@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CConstraintAnchor(ptr --[[ string ]])
+CConstraintAnchor(ptr)
 ```
 # Properties
 ## MassScale 
 ```lua
-@type number
+--- @type number
 Read: cconstraintanchor.MassScale
 Write: cconstraintanchor.MassScale = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseAnimGraph
+--- @type CBaseAnimGraph
 Read: cconstraintanchor.Parent
 ```
 # Functions

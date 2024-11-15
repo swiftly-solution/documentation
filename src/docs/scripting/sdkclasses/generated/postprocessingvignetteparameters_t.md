@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PostProcessingVignetteParameters_t(ptr --[[ string ]])
+PostProcessingVignetteParameters_t(ptr)
 ```
 # Properties
 ## VignetteStrength 
 ```lua
-@type number
+--- @type number
 Read: postprocessingvignetteparameters_t.VignetteStrength
 Write: postprocessingvignetteparameters_t.VignetteStrength = value
 ```
 ## Center 
 ```lua
-@type Vector2D
+--- @type Vector2D
 Read: postprocessingvignetteparameters_t.Center
 Write: postprocessingvignetteparameters_t.Center = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: postprocessingvignetteparameters_t.Radius
 Write: postprocessingvignetteparameters_t.Radius = value
 ```
 ## Roundness 
 ```lua
-@type number
+--- @type number
 Read: postprocessingvignetteparameters_t.Roundness
 Write: postprocessingvignetteparameters_t.Roundness = value
 ```
 ## Feather 
 ```lua
-@type number
+--- @type number
 Read: postprocessingvignetteparameters_t.Feather
 Write: postprocessingvignetteparameters_t.Feather = value
 ```
 ## ColorTint 
 ```lua
-@type Vector
+--- @type Vector
 Read: postprocessingvignetteparameters_t.ColorTint
 Write: postprocessingvignetteparameters_t.ColorTint = value
 ```

@@ -11,8 +11,9 @@ This event is triggered after ugc_file_download_finished is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostUgcFileDownloadFinished", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostUgcFileDownloadFinished", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

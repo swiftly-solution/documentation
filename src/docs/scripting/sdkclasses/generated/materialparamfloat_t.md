@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-MaterialParamFloat_t(ptr --[[ string ]])
+MaterialParamFloat_t(ptr)
 ```
 # Properties
 ## Value 
 ```lua
-@type number
+--- @type number
 Read: materialparamfloat_t.Value
 Write: materialparamfloat_t.Value = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type MaterialParam_t
+--- @type MaterialParam_t
 Read: materialparamfloat_t.Parent
 ```
 # Functions

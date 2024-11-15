@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHandleTest(ptr --[[ string ]])
+CHandleTest(ptr)
 ```
 # Properties
 ## Handle (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: chandletest.Handle
 ```
 ## SendHandle 
 ```lua
-@type boolean
+--- @type boolean
 Read: chandletest.SendHandle
 Write: chandletest.SendHandle = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: chandletest.Parent
 ```
 # Functions

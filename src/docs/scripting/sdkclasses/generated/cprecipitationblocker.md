@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPrecipitationBlocker(ptr --[[ string ]])
+CPrecipitationBlocker(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cprecipitationblocker.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when demo_stop is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnDemoStop", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnDemoStop", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

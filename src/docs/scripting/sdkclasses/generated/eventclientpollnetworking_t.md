@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-EventClientPollNetworking_t(ptr --[[ string ]])
+EventClientPollNetworking_t(ptr)
 ```
 # Properties
 ## TickCount 
 ```lua
-@type number
+--- @type number
 Read: eventclientpollnetworking_t.TickCount
 Write: eventclientpollnetworking_t.TickCount = value
 ```

@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionNodeBlend1D(ptr --[[ string ]])
+CMotionNodeBlend1D(ptr)
 ```
 # Properties
 ## BlendItems (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionnodeblend1d.BlendItems
 ```
 ## ParamIndex 
 ```lua
-@type number
+--- @type number
 Read: cmotionnodeblend1d.ParamIndex
 Write: cmotionnodeblend1d.ParamIndex = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CMotionNode
+--- @type CMotionNode
 Read: cmotionnodeblend1d.Parent
 ```
 # Functions

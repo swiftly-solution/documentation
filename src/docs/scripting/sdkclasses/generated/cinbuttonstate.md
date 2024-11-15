@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInButtonState(ptr --[[ string ]])
+CInButtonState(ptr)
 ```
 # Properties
 ## ButtonStates 
 ```lua
-@type table
+--- @type table
 Read: cinbuttonstate.ButtonStates
 Write: cinbuttonstate.ButtonStates = value
 ```

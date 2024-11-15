@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionSearchNode(ptr --[[ string ]])
+CMotionSearchNode(ptr)
 ```
 # Properties
 ## Children (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionsearchnode.Children
 ```
 ## Quantizer (Read-Only)
 ```lua
-@type CVectorQuantizer
+--- @type CVectorQuantizer
 Read: cmotionsearchnode.Quantizer
 ```
 ## SelectableSamples (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionsearchnode.SelectableSamples
 ```
 # Functions

@@ -12,137 +12,137 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleSystem(ptr --[[ string ]])
+CParticleSystem(ptr)
 ```
 # Properties
 ## SnapshotFileName 
 ```lua
-@type string
+--- @type string
 Read: cparticlesystem.SnapshotFileName
 Write: cparticlesystem.SnapshotFileName = value
 ```
 ## Active 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.Active
 Write: cparticlesystem.Active = value
 ```
 ## Frozen 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.Frozen
 Write: cparticlesystem.Frozen = value
 ```
 ## FreezeTransitionDuration 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.FreezeTransitionDuration
 Write: cparticlesystem.FreezeTransitionDuration = value
 ```
 ## StopType 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.StopType
 Write: cparticlesystem.StopType = value
 ```
 ## AnimateDuringGameplayPause 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.AnimateDuringGameplayPause
 Write: cparticlesystem.AnimateDuringGameplayPause = value
 ```
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.StartTime
 Write: cparticlesystem.StartTime = value
 ```
 ## PreSimTime 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.PreSimTime
 Write: cparticlesystem.PreSimTime = value
 ```
 ## ServerControlPoints 
 ```lua
-@type table
+--- @type table
 Read: cparticlesystem.ServerControlPoints
 Write: cparticlesystem.ServerControlPoints = value
 ```
 ## ServerControlPointAssignments 
 ```lua
-@type table
+--- @type table
 Read: cparticlesystem.ServerControlPointAssignments
 Write: cparticlesystem.ServerControlPointAssignments = value
 ```
 ## ControlPointEnts (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cparticlesystem.ControlPointEnts
 ```
 ## NoSave 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.NoSave
 Write: cparticlesystem.NoSave = value
 ```
 ## NoFreeze 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.NoFreeze
 Write: cparticlesystem.NoFreeze = value
 ```
 ## NoRamp 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.NoRamp
 Write: cparticlesystem.NoRamp = value
 ```
 ## StartActive 
 ```lua
-@type boolean
+--- @type boolean
 Read: cparticlesystem.StartActive
 Write: cparticlesystem.StartActive = value
 ```
 ## EffectName 
 ```lua
-@type string
+--- @type string
 Read: cparticlesystem.EffectName
 Write: cparticlesystem.EffectName = value
 ```
 ## ControlPointNames 
 ```lua
-@type table
+--- @type table
 Read: cparticlesystem.ControlPointNames
 Write: cparticlesystem.ControlPointNames = value
 ```
 ## DataCP 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.DataCP
 Write: cparticlesystem.DataCP = value
 ```
 ## DataCPValue 
 ```lua
-@type Vector
+--- @type Vector
 Read: cparticlesystem.DataCPValue
 Write: cparticlesystem.DataCPValue = value
 ```
 ## TintCP 
 ```lua
-@type number
+--- @type number
 Read: cparticlesystem.TintCP
 Write: cparticlesystem.TintCP = value
 ```
 ## Tint 
 ```lua
-@type Color
+--- @type Color
 Read: cparticlesystem.Tint
 Write: cparticlesystem.Tint = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cparticlesystem.Parent
 ```
 # Functions

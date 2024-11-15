@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CWorld(ptr --[[ string ]])
+CWorld(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cworld.Parent
 ```
 # Functions

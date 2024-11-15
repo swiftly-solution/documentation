@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CHitBoxSetList(ptr --[[ string ]])
+CHitBoxSetList(ptr)
 ```
 # Properties
 ## HitBoxSets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: chitboxsetlist.HitBoxSets
 ```
 # Functions

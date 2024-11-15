@@ -11,8 +11,9 @@ This event is triggered after player_footstep is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerFootstep", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerFootstep", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

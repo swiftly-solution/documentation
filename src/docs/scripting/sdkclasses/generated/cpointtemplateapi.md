@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointTemplateAPI(ptr --[[ string ]])
+CPointTemplateAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

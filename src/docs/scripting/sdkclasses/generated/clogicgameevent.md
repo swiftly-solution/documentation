@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicGameEvent(ptr --[[ string ]])
+CLogicGameEvent(ptr)
 ```
 # Properties
 ## EventName 
 ```lua
-@type string
+--- @type string
 Read: clogicgameevent.EventName
 Write: clogicgameevent.EventName = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicgameevent.Parent
 ```
 # Functions

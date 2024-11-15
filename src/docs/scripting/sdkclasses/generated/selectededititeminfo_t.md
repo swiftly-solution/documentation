@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-SelectedEditItemInfo_t(ptr --[[ string ]])
+SelectedEditItemInfo_t(ptr)
 ```
 # Properties
 ## EditItems (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: selectededititeminfo_t.EditItems
 ```
 # Functions

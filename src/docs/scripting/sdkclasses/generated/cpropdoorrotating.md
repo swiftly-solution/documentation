@@ -12,113 +12,113 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPropDoorRotating(ptr --[[ string ]])
+CPropDoorRotating(ptr)
 ```
 # Properties
 ## Axis 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpropdoorrotating.Axis
 Write: cpropdoorrotating.Axis = value
 ```
 ## Distance 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotating.Distance
 Write: cpropdoorrotating.Distance = value
 ```
 ## SpawnPosition 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotating.SpawnPosition
 Write: cpropdoorrotating.SpawnPosition = value
 ```
 ## OpenDirection 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotating.OpenDirection
 Write: cpropdoorrotating.OpenDirection = value
 ```
 ## CurrentOpenDirection 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotating.CurrentOpenDirection
 Write: cpropdoorrotating.CurrentOpenDirection = value
 ```
 ## AjarAngle 
 ```lua
-@type number
+--- @type number
 Read: cpropdoorrotating.AjarAngle
 Write: cpropdoorrotating.AjarAngle = value
 ```
 ## RotationAjarDeprecated 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpropdoorrotating.RotationAjarDeprecated
 Write: cpropdoorrotating.RotationAjarDeprecated = value
 ```
 ## RotationClosed 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpropdoorrotating.RotationClosed
 Write: cpropdoorrotating.RotationClosed = value
 ```
 ## RotationOpenForward 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpropdoorrotating.RotationOpenForward
 Write: cpropdoorrotating.RotationOpenForward = value
 ```
 ## RotationOpenBack 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpropdoorrotating.RotationOpenBack
 Write: cpropdoorrotating.RotationOpenBack = value
 ```
 ## Goal 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cpropdoorrotating.Goal
 Write: cpropdoorrotating.Goal = value
 ```
 ## ForwardBoundsMin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpropdoorrotating.ForwardBoundsMin
 Write: cpropdoorrotating.ForwardBoundsMin = value
 ```
 ## ForwardBoundsMax 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpropdoorrotating.ForwardBoundsMax
 Write: cpropdoorrotating.ForwardBoundsMax = value
 ```
 ## BackBoundsMin 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpropdoorrotating.BackBoundsMin
 Write: cpropdoorrotating.BackBoundsMin = value
 ```
 ## BackBoundsMax 
 ```lua
-@type Vector
+--- @type Vector
 Read: cpropdoorrotating.BackBoundsMax
 Write: cpropdoorrotating.BackBoundsMax = value
 ```
 ## AjarDoorShouldntAlwaysOpen 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpropdoorrotating.AjarDoorShouldntAlwaysOpen
 Write: cpropdoorrotating.AjarDoorShouldntAlwaysOpen = value
 ```
 ## EntityBlocker (Read-Only)
 ```lua
-@type CEntityBlocker
+--- @type CEntityBlocker
 Read: cpropdoorrotating.EntityBlocker
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBasePropDoor
+--- @type CBasePropDoor
 Read: cpropdoorrotating.Parent
 ```
 # Functions

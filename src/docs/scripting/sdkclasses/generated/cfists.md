@@ -12,52 +12,52 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFists(ptr --[[ string ]])
+CFists(ptr)
 ```
 # Properties
 ## PlayingUninterruptableAct 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfists.PlayingUninterruptableAct
 Write: cfists.PlayingUninterruptableAct = value
 ```
 ## UninterruptableActivity 
 ```lua
-@type number
+--- @type number
 Read: cfists.UninterruptableActivity
 Write: cfists.UninterruptableActivity = value
 ```
 ## RestorePrevWep 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfists.RestorePrevWep
 Write: cfists.RestorePrevWep = value
 ```
 ## WeaponBeforePrevious (Read-Only)
 ```lua
-@type CBasePlayerWeapon
+--- @type CBasePlayerWeapon
 Read: cfists.WeaponBeforePrevious
 ```
 ## WeaponPrevious (Read-Only)
 ```lua
-@type CBasePlayerWeapon
+--- @type CBasePlayerWeapon
 Read: cfists.WeaponPrevious
 ```
 ## DelayedHardPunchIncoming 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfists.DelayedHardPunchIncoming
 Write: cfists.DelayedHardPunchIncoming = value
 ```
 ## DestroyAfterTaunt 
 ```lua
-@type boolean
+--- @type boolean
 Read: cfists.DestroyAfterTaunt
 Write: cfists.DestroyAfterTaunt = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CCSWeaponBase
+--- @type CCSWeaponBase
 Read: cfists.Parent
 ```
 # Functions

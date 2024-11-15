@@ -11,7 +11,7 @@ Clears the pointer which is being hold by the class.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
+--- @return nil
 memory:Clear()
 ```
 

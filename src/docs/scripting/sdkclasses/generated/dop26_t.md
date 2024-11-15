@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-Dop26_t(ptr --[[ string ]])
+Dop26_t(ptr)
 ```
 # Properties
 ## Support 
 ```lua
-@type table
+--- @type table
 Read: dop26_t.Support
 Write: dop26_t.Support = value
 ```

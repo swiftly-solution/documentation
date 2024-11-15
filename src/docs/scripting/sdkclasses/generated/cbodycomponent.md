@@ -12,22 +12,22 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyComponent(ptr --[[ string ]])
+CBodyComponent(ptr)
 ```
 # Properties
 ## SceneNode (Read-Only)
 ```lua
-@type CGameSceneNode
+--- @type CGameSceneNode
 Read: cbodycomponent.SceneNode
 ```
 ## __pChainEntity (Read-Only)
 ```lua
-@type CNetworkVarChainer
+--- @type CNetworkVarChainer
 Read: cbodycomponent.__pChainEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CEntityComponent
+--- @type CEntityComponent
 Read: cbodycomponent.Parent
 ```
 # Functions

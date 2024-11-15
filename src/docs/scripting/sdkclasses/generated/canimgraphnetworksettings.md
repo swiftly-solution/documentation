@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimGraphNetworkSettings(ptr --[[ string ]])
+CAnimGraphNetworkSettings(ptr)
 ```
 # Properties
 ## NetworkingEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: canimgraphnetworksettings.NetworkingEnabled
 Write: canimgraphnetworksettings.NetworkingEnabled = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimGraphSettingsGroup
+--- @type CAnimGraphSettingsGroup
 Read: canimgraphnetworksettings.Parent
 ```
 # Functions

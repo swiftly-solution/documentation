@@ -11,8 +11,10 @@ Registers an export for this plugin.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-export(exportName --[[ string ]], callback --[[ function ]])
+--- @param exportName string
+--- @param callback function
+--- @return nil
+export(exportName, callback)
 ```
 
 :::

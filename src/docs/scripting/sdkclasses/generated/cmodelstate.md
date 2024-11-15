@@ -12,42 +12,42 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelState(ptr --[[ string ]])
+CModelState(ptr)
 ```
 # Properties
 ## ModelName 
 ```lua
-@type string
+--- @type string
 Read: cmodelstate.ModelName
 Write: cmodelstate.ModelName = value
 ```
 ## ClientClothCreationSuppressed 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmodelstate.ClientClothCreationSuppressed
 Write: cmodelstate.ClientClothCreationSuppressed = value
 ```
 ## MeshGroupMask 
 ```lua
-@type number
+--- @type number
 Read: cmodelstate.MeshGroupMask
 Write: cmodelstate.MeshGroupMask = value
 ```
 ## IdealMotionType 
 ```lua
-@type number
+--- @type number
 Read: cmodelstate.IdealMotionType
 Write: cmodelstate.IdealMotionType = value
 ```
 ## ForceLOD 
 ```lua
-@type number
+--- @type number
 Read: cmodelstate.ForceLOD
 Write: cmodelstate.ForceLOD = value
 ```
 ## ClothUpdateFlags 
 ```lua
-@type number
+--- @type number
 Read: cmodelstate.ClothUpdateFlags
 Write: cmodelstate.ClothUpdateFlags = value
 ```

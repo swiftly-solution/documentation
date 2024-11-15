@@ -11,8 +11,9 @@ Adds a sound to precache.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-precacher:PrecacheSound(path --[[ string ]])
+--- @param path string
+--- @return nil
+precacher:PrecacheSound(path)
 ```
 
 :::

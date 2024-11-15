@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMorphBundleData(ptr --[[ string ]])
+CMorphBundleData(ptr)
 ```
 # Properties
 ## ULeftSrc 
 ```lua
-@type number
+--- @type number
 Read: cmorphbundledata.ULeftSrc
 Write: cmorphbundledata.ULeftSrc = value
 ```
 ## VTopSrc 
 ```lua
-@type number
+--- @type number
 Read: cmorphbundledata.VTopSrc
 Write: cmorphbundledata.VTopSrc = value
 ```
 ## Offsets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphbundledata.Offsets
 ```
 ## Ranges (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmorphbundledata.Ranges
 ```
 # Functions

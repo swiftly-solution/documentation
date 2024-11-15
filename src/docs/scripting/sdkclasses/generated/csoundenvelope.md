@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundEnvelope(ptr --[[ string ]])
+CSoundEnvelope(ptr)
 ```
 # Properties
 ## Current 
 ```lua
-@type number
+--- @type number
 Read: csoundenvelope.Current
 Write: csoundenvelope.Current = value
 ```
 ## Target 
 ```lua
-@type number
+--- @type number
 Read: csoundenvelope.Target
 Write: csoundenvelope.Target = value
 ```
 ## Rate 
 ```lua
-@type number
+--- @type number
 Read: csoundenvelope.Rate
 Write: csoundenvelope.Rate = value
 ```
 ## Forceupdate 
 ```lua
-@type boolean
+--- @type boolean
 Read: csoundenvelope.Forceupdate
 Write: csoundenvelope.Forceupdate = value
 ```

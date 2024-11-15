@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBodyComponentBaseModelEntity(ptr --[[ string ]])
+CBodyComponentBaseModelEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBodyComponentSkeletonInstance
+--- @type CBodyComponentSkeletonInstance
 Read: cbodycomponentbasemodelentity.Parent
 ```
 # Functions

@@ -12,29 +12,29 @@ category:
 @tab Lua
 # Constructor
 ```lua
-constraint_hingeparams_t(ptr --[[ string ]])
+constraint_hingeparams_t(ptr)
 ```
 # Properties
 ## WorldPosition 
 ```lua
-@type Vector
+--- @type Vector
 Read: constraint_hingeparams_t.WorldPosition
 Write: constraint_hingeparams_t.WorldPosition = value
 ```
 ## WorldAxisDirection 
 ```lua
-@type Vector
+--- @type Vector
 Read: constraint_hingeparams_t.WorldAxisDirection
 Write: constraint_hingeparams_t.WorldAxisDirection = value
 ```
 ## HingeAxis (Read-Only)
 ```lua
-@type constraint_axislimit_t
+--- @type constraint_axislimit_t
 Read: constraint_hingeparams_t.HingeAxis
 ```
 ## Constraint (Read-Only)
 ```lua
-@type constraint_breakableparams_t
+--- @type constraint_breakableparams_t
 Read: constraint_hingeparams_t.Constraint
 ```
 # Functions

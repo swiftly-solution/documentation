@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IRagdoll(ptr --[[ string ]])
+IRagdoll(ptr)
 ```
 # Properties
 There are no properties available for this class.

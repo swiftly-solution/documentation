@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParamSpanUpdater(ptr --[[ string ]])
+CParamSpanUpdater(ptr)
 ```
 # Properties
 ## Spans (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cparamspanupdater.Spans
 ```
 # Functions

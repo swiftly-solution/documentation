@@ -12,27 +12,27 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCommentaryAuto(ptr --[[ string ]])
+CCommentaryAuto(ptr)
 ```
 # Properties
 ## OnCommentaryNewGame (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryNewGame
 ```
 ## OnCommentaryMidGame (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryMidGame
 ```
 ## OnCommentaryMultiplayerSpawn (Read-Only)
 ```lua
-@type CEntityIOOutput
+--- @type CEntityIOOutput
 Read: ccommentaryauto.OnCommentaryMultiplayerSpawn
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: ccommentaryauto.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered after ragdoll_dissolved is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostRagdollDissolved", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostRagdollDissolved", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

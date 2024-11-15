@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-VelocitySampler(ptr --[[ string ]])
+VelocitySampler(ptr)
 ```
 # Properties
 ## PrevSample 
 ```lua
-@type Vector
+--- @type Vector
 Read: velocitysampler.PrevSample
 Write: velocitysampler.PrevSample = value
 ```
 ## PrevSampleTime 
 ```lua
-@type number
+--- @type number
 Read: velocitysampler.PrevSampleTime
 Write: velocitysampler.PrevSampleTime = value
 ```
 ## IdealSampleRate 
 ```lua
-@type number
+--- @type number
 Read: velocitysampler.IdealSampleRate
 Write: velocitysampler.IdealSampleRate = value
 ```

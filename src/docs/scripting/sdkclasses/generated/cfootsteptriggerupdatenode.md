@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootStepTriggerUpdateNode(ptr --[[ string ]])
+CFootStepTriggerUpdateNode(ptr)
 ```
 # Properties
 ## Triggers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cfootsteptriggerupdatenode.Triggers
 ```
 ## Tolerance 
 ```lua
-@type number
+--- @type number
 Read: cfootsteptriggerupdatenode.Tolerance
 Write: cfootsteptriggerupdatenode.Tolerance = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cfootsteptriggerupdatenode.Parent
 ```
 # Functions

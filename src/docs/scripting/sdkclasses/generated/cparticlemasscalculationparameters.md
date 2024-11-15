@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CParticleMassCalculationParameters(ptr --[[ string ]])
+CParticleMassCalculationParameters(ptr)
 ```
 # Properties
 ## MassMode 
 ```lua
-@type number
+--- @type number
 Read: cparticlemasscalculationparameters.MassMode
 Write: cparticlemasscalculationparameters.MassMode = value
 ```
 ## Radius (Read-Only)
 ```lua
-@type CPerParticleFloatInput
+--- @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.Radius
 ```
 ## NominalRadius (Read-Only)
 ```lua
-@type CPerParticleFloatInput
+--- @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.NominalRadius
 ```
 ## Scale (Read-Only)
 ```lua
-@type CPerParticleFloatInput
+--- @type CPerParticleFloatInput
 Read: cparticlemasscalculationparameters.Scale
 ```
 # Functions

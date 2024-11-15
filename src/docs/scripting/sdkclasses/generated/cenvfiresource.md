@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvFireSource(ptr --[[ string ]])
+CEnvFireSource(ptr)
 ```
 # Properties
 ## Enabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cenvfiresource.Enabled
 Write: cenvfiresource.Enabled = value
 ```
 ## Radius 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresource.Radius
 Write: cenvfiresource.Radius = value
 ```
 ## Damage 
 ```lua
-@type number
+--- @type number
 Read: cenvfiresource.Damage
 Write: cenvfiresource.Damage = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvfiresource.Parent
 ```
 # Functions

@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEnvWind(ptr --[[ string ]])
+CEnvWind(ptr)
 ```
 # Properties
 ## EnvWindShared (Read-Only)
 ```lua
-@type CEnvWindShared
+--- @type CEnvWindShared
 Read: cenvwind.EnvWindShared
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cenvwind.Parent
 ```
 # Functions

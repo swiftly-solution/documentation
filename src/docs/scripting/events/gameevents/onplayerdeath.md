@@ -11,8 +11,9 @@ This event is triggered when player_death is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerDeath", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerDeath", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -11,8 +11,10 @@ Sends a message to the players.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-player:SendMsg(msgType --[[ MessageType ]], text --[[ string ]])
+--- @param msgType number MessageType
+--- @param text string
+--- @return nil
+player:SendMsg(msgType, text)
 ```
 
 

@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IChoreoServices(ptr --[[ string ]])
+IChoreoServices(ptr)
 ```
 # Properties
 There are no properties available for this class.

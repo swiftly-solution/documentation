@@ -11,7 +11,7 @@ Returns the invoking plugin of the event.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
+--- @return string
 event:GetInvokingPlugin()
 ```
 

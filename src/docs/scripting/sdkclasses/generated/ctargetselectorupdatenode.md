@@ -12,27 +12,27 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTargetSelectorUpdateNode(ptr --[[ string ]])
+CTargetSelectorUpdateNode(ptr)
 ```
 # Properties
 ## Children (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: ctargetselectorupdatenode.Children
 ```
 ## PositionParameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ctargetselectorupdatenode.PositionParameter
 ```
 ## FacePositionParameter (Read-Only)
 ```lua
-@type CAnimParamHandle
+--- @type CAnimParamHandle
 Read: ctargetselectorupdatenode.FacePositionParameter
 ```
 ## Parent (Read-Only)
 ```lua
-@type CAnimUpdateNodeBase
+--- @type CAnimUpdateNodeBase
 Read: ctargetselectorupdatenode.Parent
 ```
 # Functions

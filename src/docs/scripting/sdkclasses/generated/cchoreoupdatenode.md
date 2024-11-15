@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CChoreoUpdateNode(ptr --[[ string ]])
+CChoreoUpdateNode(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cchoreoupdatenode.Parent
 ```
 # Functions

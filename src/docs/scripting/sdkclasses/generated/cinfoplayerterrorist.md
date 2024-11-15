@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoPlayerTerrorist(ptr --[[ string ]])
+CInfoPlayerTerrorist(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type SpawnPoint
+--- @type SpawnPoint
 Read: cinfoplayerterrorist.Parent
 ```
 # Functions

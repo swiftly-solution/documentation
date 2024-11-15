@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBasePlayerControllerAPI(ptr --[[ string ]])
+CBasePlayerControllerAPI(ptr)
 ```
 # Properties
 There are no properties available for this class.

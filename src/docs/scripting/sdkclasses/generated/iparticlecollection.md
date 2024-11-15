@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-IParticleCollection(ptr --[[ string ]])
+IParticleCollection(ptr)
 ```
 # Properties
 There are no properties available for this class.

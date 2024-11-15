@@ -11,7 +11,7 @@ Returns if the memory is in the VTable.
 ::: tabs
 @tab Lua
 ```lua
-@returns boolean
+--- @return boolean
 memory:AccessedVTable()
 ```
 

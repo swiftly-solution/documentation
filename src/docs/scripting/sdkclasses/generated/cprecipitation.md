@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPrecipitation(ptr --[[ string ]])
+CPrecipitation(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseTrigger
+--- @type CBaseTrigger
 Read: cprecipitation.Parent
 ```
 # Functions

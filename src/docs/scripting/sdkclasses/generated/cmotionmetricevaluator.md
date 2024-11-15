@@ -12,28 +12,28 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CMotionMetricEvaluator(ptr --[[ string ]])
+CMotionMetricEvaluator(ptr)
 ```
 # Properties
 ## Means (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionmetricevaluator.Means
 ```
 ## StandardDeviations (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmotionmetricevaluator.StandardDeviations
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: cmotionmetricevaluator.Weight
 Write: cmotionmetricevaluator.Weight = value
 ```
 ## DimensionStartIndex 
 ```lua
-@type number
+--- @type number
 Read: cmotionmetricevaluator.DimensionStartIndex
 Write: cmotionmetricevaluator.DimensionStartIndex = value
 ```

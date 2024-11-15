@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CModelConfigList(ptr --[[ string ]])
+CModelConfigList(ptr)
 ```
 # Properties
 ## HideMaterialGroupInTools 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmodelconfiglist.HideMaterialGroupInTools
 Write: cmodelconfiglist.HideMaterialGroupInTools = value
 ```
 ## HideRenderColorInTools 
 ```lua
-@type boolean
+--- @type boolean
 Read: cmodelconfiglist.HideRenderColorInTools
 Write: cmodelconfiglist.HideRenderColorInTools = value
 ```
 ## Configs (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cmodelconfiglist.Configs
 ```
 # Functions

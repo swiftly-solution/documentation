@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CVariantDefaultAllocator(ptr --[[ string ]])
+CVariantDefaultAllocator(ptr)
 ```
 # Properties
 There are no properties available for this class.

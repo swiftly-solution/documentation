@@ -11,8 +11,10 @@ Set the number 64-bit value to a hook at a specific argument.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetHookInt64(index --[[ number ]], value --[[ number ]])
+--- @param index number
+--- @param value number
+--- @return nil
+event:SetHookInt64(index, value)
 ```
 
 :::

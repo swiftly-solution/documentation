@@ -11,8 +11,10 @@ Set the number value in 64-bit to a key for a game event.
 ::: tabs
 @tab Lua
 ```lua
-@returns void
-event:SetUint64(key --[[ string ]], value --[[ number ]])
+--- @param key string
+--- @param value number
+--- @return nil
+event:SetUint64(key, value)
 ```
 
 :::

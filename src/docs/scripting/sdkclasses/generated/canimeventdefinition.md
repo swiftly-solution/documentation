@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimEventDefinition(ptr --[[ string ]])
+CAnimEventDefinition(ptr)
 ```
 # Properties
 ## Frame 
 ```lua
-@type number
+--- @type number
 Read: canimeventdefinition.Frame
 Write: canimeventdefinition.Frame = value
 ```
 ## EndFrame 
 ```lua
-@type number
+--- @type number
 Read: canimeventdefinition.EndFrame
 Write: canimeventdefinition.EndFrame = value
 ```
 ## Cycle 
 ```lua
-@type number
+--- @type number
 Read: canimeventdefinition.Cycle
 Write: canimeventdefinition.Cycle = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: canimeventdefinition.Duration
 Write: canimeventdefinition.Duration = value
 ```

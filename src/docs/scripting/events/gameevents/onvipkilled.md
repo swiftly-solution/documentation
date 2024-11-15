@@ -11,8 +11,9 @@ This event is triggered when vip_killed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnVipKilled", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnVipKilled", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

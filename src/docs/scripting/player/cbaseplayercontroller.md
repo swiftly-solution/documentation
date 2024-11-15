@@ -11,7 +11,7 @@ Returns the player's CBasePlayerController.
 ::: tabs
 @tab Lua
 ```lua
-@returns CBasePlayerController
+--- @return CBasePlayerController
 player:CBasePlayerController()
 ```
 

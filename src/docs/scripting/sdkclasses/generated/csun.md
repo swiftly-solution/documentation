@@ -12,96 +12,96 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSun(ptr --[[ string ]])
+CSun(ptr)
 ```
 # Properties
 ## Direction 
 ```lua
-@type Vector
+--- @type Vector
 Read: csun.Direction
 Write: csun.Direction = value
 ```
 ## Overlay 
 ```lua
-@type Color
+--- @type Color
 Read: csun.Overlay
 Write: csun.Overlay = value
 ```
 ## EffectName 
 ```lua
-@type string
+--- @type string
 Read: csun.EffectName
 Write: csun.EffectName = value
 ```
 ## SSEffectName 
 ```lua
-@type string
+--- @type string
 Read: csun.SSEffectName
 Write: csun.SSEffectName = value
 ```
 ## On 
 ```lua
-@type boolean
+--- @type boolean
 Read: csun.On
 Write: csun.On = value
 ```
 ## BmaxColor 
 ```lua
-@type boolean
+--- @type boolean
 Read: csun.BmaxColor
 Write: csun.BmaxColor = value
 ```
 ## Size 
 ```lua
-@type number
+--- @type number
 Read: csun.Size
 Write: csun.Size = value
 ```
 ## Rotation 
 ```lua
-@type number
+--- @type number
 Read: csun.Rotation
 Write: csun.Rotation = value
 ```
 ## HazeScale 
 ```lua
-@type number
+--- @type number
 Read: csun.HazeScale
 Write: csun.HazeScale = value
 ```
 ## AlphaHaze 
 ```lua
-@type number
+--- @type number
 Read: csun.AlphaHaze
 Write: csun.AlphaHaze = value
 ```
 ## AlphaHdr 
 ```lua
-@type number
+--- @type number
 Read: csun.AlphaHdr
 Write: csun.AlphaHdr = value
 ```
 ## AlphaScale 
 ```lua
-@type number
+--- @type number
 Read: csun.AlphaScale
 Write: csun.AlphaScale = value
 ```
 ## HDRColorScale 
 ```lua
-@type number
+--- @type number
 Read: csun.HDRColorScale
 Write: csun.HDRColorScale = value
 ```
 ## FarZScale 
 ```lua
-@type number
+--- @type number
 Read: csun.FarZScale
 Write: csun.FarZScale = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: csun.Parent
 ```
 # Functions

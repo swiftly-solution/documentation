@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoPlayerStart(ptr --[[ string ]])
+CInfoPlayerStart(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinfoplayerstart.Disabled
 Write: cinfoplayerstart.Disabled = value
 ```
 ## IsMaster 
 ```lua
-@type boolean
+--- @type boolean
 Read: cinfoplayerstart.IsMaster
 Write: cinfoplayerstart.IsMaster = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cinfoplayerstart.Parent
 ```
 # Functions

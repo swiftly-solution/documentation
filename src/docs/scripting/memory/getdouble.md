@@ -11,7 +11,7 @@ Returns the double value at the memory address.
 ::: tabs
 @tab Lua
 ```lua
-@returns number
+--- @return number
 memory:GetDouble()
 ```
 

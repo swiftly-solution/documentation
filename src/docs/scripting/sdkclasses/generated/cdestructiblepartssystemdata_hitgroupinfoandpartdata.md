@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CDestructiblePartsSystemData_HitGroupInfoAndPartData(ptr --[[ string ]])
+CDestructiblePartsSystemData_HitGroupInfoAndPartData(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: cdestructiblepartssystemdata_hitgroupinfoandpartdata.Name
 Write: cdestructiblepartssystemdata_hitgroupinfoandpartdata.Name = value
 ```
 ## DestructiblePartsData (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cdestructiblepartssystemdata_hitgroupinfoandpartdata.DestructiblePartsData
 ```
 ## DisableHitGroupWhenDestroyed 
 ```lua
-@type boolean
+--- @type boolean
 Read: cdestructiblepartssystemdata_hitgroupinfoandpartdata.DisableHitGroupWhenDestroyed
 Write: cdestructiblepartssystemdata_hitgroupinfoandpartdata.DisableHitGroupWhenDestroyed = value
 ```

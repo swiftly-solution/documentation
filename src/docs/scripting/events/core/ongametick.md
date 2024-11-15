@@ -11,8 +11,13 @@ This game event is called at every server tick.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnGameTick", function(event --[[ Event ]], simulating --[[ boolean ]], bFirstTick --[[ boolean ]], bLastTick --[[ boolean ]])
+--- @param event Event
+--- @param simulating boolean
+--- @param bFirstTick boolean
+--- @param bLastTick boolean
+--- @return number EventResult
+--- @event returns nil Via event:SetReturn
+AddEventHandler("OnGameTick", function(event, simulating, bFirstTick, bLastTick)
     --[[ ... ]]
     return EventResult.Continue
 end)

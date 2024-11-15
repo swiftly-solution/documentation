@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-NmSyncTrackTime_t(ptr --[[ string ]])
+NmSyncTrackTime_t(ptr)
 ```
 # Properties
 ## EventIdx 
 ```lua
-@type number
+--- @type number
 Read: nmsynctracktime_t.EventIdx
 Write: nmsynctracktime_t.EventIdx = value
 ```
 ## PercentageThrough (Read-Only)
 ```lua
-@type NmPercent_t
+--- @type NmPercent_t
 Read: nmsynctracktime_t.PercentageThrough
 ```
 # Functions

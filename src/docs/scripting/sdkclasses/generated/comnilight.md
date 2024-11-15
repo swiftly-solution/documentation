@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-COmniLight(ptr --[[ string ]])
+COmniLight(ptr)
 ```
 # Properties
 ## InnerAngle 
 ```lua
-@type number
+--- @type number
 Read: comnilight.InnerAngle
 Write: comnilight.InnerAngle = value
 ```
 ## OuterAngle 
 ```lua
-@type number
+--- @type number
 Read: comnilight.OuterAngle
 Write: comnilight.OuterAngle = value
 ```
 ## ShowLight 
 ```lua
-@type boolean
+--- @type boolean
 Read: comnilight.ShowLight
 Write: comnilight.ShowLight = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBarnLight
+--- @type CBarnLight
 Read: comnilight.Parent
 ```
 # Functions

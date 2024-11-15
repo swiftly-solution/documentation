@@ -11,8 +11,15 @@ This game event is triggered when a player receives damage.
 ::: tabs
 @tab Lua
 ```lua
-@event returns boolean
-AddEventHandler("OnPlayerDamage", function(event --[[ Event ]], playerid --[[ number ]], attackerid --[[ number ]], damageinfo_ptr --[[ string ]], inflictor_ptr --[[ string ]], ability_ptr --[[ string ]])
+--- @param event Event
+--- @param playerid number
+--- @param attackerid number
+--- @param damageinfo_ptr string
+--- @param inflictor_ptr string
+--- @param ability_ptr string
+--- @return number EventResult
+--- @event returns boolean Via event:SetReturn
+AddEventHandler("OnPlayerDamage", function(event, playerid, attackerid, damageinfo_ptr, inflictor_ptr, ability_ptr)
     --[[ ... ]]
     return EventResult.Continue
 end)

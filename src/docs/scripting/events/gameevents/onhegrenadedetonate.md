@@ -11,8 +11,9 @@ This event is triggered when hegrenade_detonate is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnHegrenadeDetonate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnHegrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

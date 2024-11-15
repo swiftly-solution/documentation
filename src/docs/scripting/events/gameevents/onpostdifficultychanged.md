@@ -11,8 +11,9 @@ This event is triggered after difficulty_changed is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostDifficultyChanged", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostDifficultyChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-RnPlane_t(ptr --[[ string ]])
+RnPlane_t(ptr)
 ```
 # Properties
 ## Normal 
 ```lua
-@type Vector
+--- @type Vector
 Read: rnplane_t.Normal
 Write: rnplane_t.Normal = value
 ```
 ## Offset 
 ```lua
-@type number
+--- @type number
 Read: rnplane_t.Offset
 Write: rnplane_t.Offset = value
 ```

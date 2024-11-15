@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicCompare(ptr --[[ string ]])
+CLogicCompare(ptr)
 ```
 # Properties
 ## InValue 
 ```lua
-@type number
+--- @type number
 Read: clogiccompare.InValue
 Write: clogiccompare.InValue = value
 ```
 ## CompareValue 
 ```lua
-@type number
+--- @type number
 Read: clogiccompare.CompareValue
 Write: clogiccompare.CompareValue = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogiccompare.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when announce_phase_end is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnAnnouncePhaseEnd", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnAnnouncePhaseEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

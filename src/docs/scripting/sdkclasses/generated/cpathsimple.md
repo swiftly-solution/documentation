@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPathSimple(ptr --[[ string ]])
+CPathSimple(ptr)
 ```
 # Properties
 ## PathString 
 ```lua
-@type string
+--- @type string
 Read: cpathsimple.PathString
 Write: cpathsimple.PathString = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpathsimple.Parent
 ```
 # Functions

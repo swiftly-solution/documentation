@@ -12,72 +12,72 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CEntityDissolve(ptr --[[ string ]])
+CEntityDissolve(ptr)
 ```
 # Properties
 ## FadeInStart 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeInStart
 Write: centitydissolve.FadeInStart = value
 ```
 ## FadeInLength 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeInLength
 Write: centitydissolve.FadeInLength = value
 ```
 ## FadeOutModelStart 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeOutModelStart
 Write: centitydissolve.FadeOutModelStart = value
 ```
 ## FadeOutModelLength 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeOutModelLength
 Write: centitydissolve.FadeOutModelLength = value
 ```
 ## FadeOutStart 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeOutStart
 Write: centitydissolve.FadeOutStart = value
 ```
 ## FadeOutLength 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.FadeOutLength
 Write: centitydissolve.FadeOutLength = value
 ```
 ## StartTime 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.StartTime
 Write: centitydissolve.StartTime = value
 ```
 ## DissolveType 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.DissolveType
 Write: centitydissolve.DissolveType = value
 ```
 ## DissolverOrigin 
 ```lua
-@type Vector
+--- @type Vector
 Read: centitydissolve.DissolverOrigin
 Write: centitydissolve.DissolverOrigin = value
 ```
 ## Magnitude 
 ```lua
-@type number
+--- @type number
 Read: centitydissolve.Magnitude
 Write: centitydissolve.Magnitude = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: centitydissolve.Parent
 ```
 # Functions

@@ -11,8 +11,9 @@ This event is triggered when player_full_update is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPlayerFullUpdate", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPlayerFullUpdate", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

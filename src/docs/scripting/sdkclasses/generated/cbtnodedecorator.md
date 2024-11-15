@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CBtNodeDecorator(ptr --[[ string ]])
+CBtNodeDecorator(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBtNode
+--- @type CBtNode
 Read: cbtnodedecorator.Parent
 ```
 # Functions

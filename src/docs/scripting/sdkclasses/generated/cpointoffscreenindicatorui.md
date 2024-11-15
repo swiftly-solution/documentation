@@ -12,30 +12,30 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointOffScreenIndicatorUi(ptr --[[ string ]])
+CPointOffScreenIndicatorUi(ptr)
 ```
 # Properties
 ## BeenEnabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointoffscreenindicatorui.BeenEnabled
 Write: cpointoffscreenindicatorui.BeenEnabled = value
 ```
 ## Hide 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointoffscreenindicatorui.Hide
 Write: cpointoffscreenindicatorui.Hide = value
 ```
 ## SeenTargetTime 
 ```lua
-@type number
+--- @type number
 Read: cpointoffscreenindicatorui.SeenTargetTime
 Write: cpointoffscreenindicatorui.SeenTargetTime = value
 ```
 ## TargetPanel (Read-Only)
 ```lua
-@type C_PointClientUIWorldPanel
+--- @type C_PointClientUIWorldPanel
 Read: cpointoffscreenindicatorui.TargetPanel
 ```
 # Functions

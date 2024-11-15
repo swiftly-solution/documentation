@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CSoundOpvarSetOBBEntity(ptr --[[ string ]])
+CSoundOpvarSetOBBEntity(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CSoundOpvarSetAABBEntity
+--- @type CSoundOpvarSetAABBEntity
 Read: csoundopvarsetobbentity.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimFrameSegment(ptr --[[ string ]])
+CAnimFrameSegment(ptr)
 ```
 # Properties
 ## UniqueFrameIndex 
 ```lua
-@type number
+--- @type number
 Read: canimframesegment.UniqueFrameIndex
 Write: canimframesegment.UniqueFrameIndex = value
 ```
 ## LocalElementMasks 
 ```lua
-@type number
+--- @type number
 Read: canimframesegment.LocalElementMasks
 Write: canimframesegment.LocalElementMasks = value
 ```
 ## LocalChannel 
 ```lua
-@type number
+--- @type number
 Read: canimframesegment.LocalChannel
 Write: canimframesegment.LocalChannel = value
 ```

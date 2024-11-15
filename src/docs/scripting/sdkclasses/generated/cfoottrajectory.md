@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFootTrajectory(ptr --[[ string ]])
+CFootTrajectory(ptr)
 ```
 # Properties
 ## Offset 
 ```lua
-@type Vector
+--- @type Vector
 Read: cfoottrajectory.Offset
 Write: cfoottrajectory.Offset = value
 ```
 ## RotationOffset 
 ```lua
-@type number
+--- @type number
 Read: cfoottrajectory.RotationOffset
 Write: cfoottrajectory.RotationOffset = value
 ```
 ## Progression 
 ```lua
-@type number
+--- @type number
 Read: cfoottrajectory.Progression
 Write: cfoottrajectory.Progression = value
 ```

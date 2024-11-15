@@ -11,8 +11,9 @@ This event is triggered after player_sound is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostPlayerSound", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostPlayerSound", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

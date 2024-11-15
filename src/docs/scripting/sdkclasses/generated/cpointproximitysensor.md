@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointProximitySensor(ptr --[[ string ]])
+CPointProximitySensor(ptr)
 ```
 # Properties
 ## Disabled 
 ```lua
-@type boolean
+--- @type boolean
 Read: cpointproximitysensor.Disabled
 Write: cpointproximitysensor.Disabled = value
 ```
 ## TargetEntity (Read-Only)
 ```lua
-@type CBaseEntity
+--- @type CBaseEntity
 Read: cpointproximitysensor.TargetEntity
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointEntity
+--- @type CPointEntity
 Read: cpointproximitysensor.Parent
 ```
 # Functions

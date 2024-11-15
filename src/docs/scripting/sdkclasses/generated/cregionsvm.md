@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRegionSVM(ptr --[[ string ]])
+CRegionSVM(ptr)
 ```
 # Properties
 ## Planes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cregionsvm.Planes
 ```
 ## Nodes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cregionsvm.Nodes
 ```
 # Functions

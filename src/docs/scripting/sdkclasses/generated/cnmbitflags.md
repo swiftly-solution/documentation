@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmBitFlags(ptr --[[ string ]])
+CNmBitFlags(ptr)
 ```
 # Properties
 ## Flags 
 ```lua
-@type number
+--- @type number
 Read: cnmbitflags.Flags
 Write: cnmbitflags.Flags = value
 ```

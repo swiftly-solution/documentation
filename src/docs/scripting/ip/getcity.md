@@ -11,8 +11,9 @@ Returns the city from which this ip originates.
 ::: tabs
 @tab Lua
 ```lua
-@returns string
-ip:GetCity(ip --[[ string ]])
+--- @param ip string
+--- @return string
+ip:GetCity(ip)
 ```
 
 :::

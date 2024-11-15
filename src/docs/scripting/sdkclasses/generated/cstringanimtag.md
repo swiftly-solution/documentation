@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CStringAnimTag(ptr --[[ string ]])
+CStringAnimTag(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CAnimTagBase
+--- @type CAnimTagBase
 Read: cstringanimtag.Parent
 ```
 # Functions

@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FeFitInfluence_t(ptr --[[ string ]])
+FeFitInfluence_t(ptr)
 ```
 # Properties
 ## VertexNode 
 ```lua
-@type number
+--- @type number
 Read: fefitinfluence_t.VertexNode
 Write: fefitinfluence_t.VertexNode = value
 ```
 ## Weight 
 ```lua
-@type number
+--- @type number
 Read: fefitinfluence_t.Weight
 Write: fefitinfluence_t.Weight = value
 ```
 ## MatrixNode 
 ```lua
-@type number
+--- @type number
 Read: fefitinfluence_t.MatrixNode
 Write: fefitinfluence_t.MatrixNode = value
 ```

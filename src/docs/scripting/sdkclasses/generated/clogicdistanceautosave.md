@@ -12,48 +12,48 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CLogicDistanceAutosave(ptr --[[ string ]])
+CLogicDistanceAutosave(ptr)
 ```
 # Properties
 ## TargetEntity 
 ```lua
-@type string
+--- @type string
 Read: clogicdistanceautosave.TargetEntity
 Write: clogicdistanceautosave.TargetEntity = value
 ```
 ## DistanceToPlayer 
 ```lua
-@type number
+--- @type number
 Read: clogicdistanceautosave.DistanceToPlayer
 Write: clogicdistanceautosave.DistanceToPlayer = value
 ```
 ## ForceNewLevelUnit 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicdistanceautosave.ForceNewLevelUnit
 Write: clogicdistanceautosave.ForceNewLevelUnit = value
 ```
 ## CheckCough 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicdistanceautosave.CheckCough
 Write: clogicdistanceautosave.CheckCough = value
 ```
 ## ThinkDangerous 
 ```lua
-@type boolean
+--- @type boolean
 Read: clogicdistanceautosave.ThinkDangerous
 Write: clogicdistanceautosave.ThinkDangerous = value
 ```
 ## DangerousTime 
 ```lua
-@type number
+--- @type number
 Read: clogicdistanceautosave.DangerousTime
 Write: clogicdistanceautosave.DangerousTime = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CLogicalEntity
+--- @type CLogicalEntity
 Read: clogicdistanceautosave.Parent
 ```
 # Functions

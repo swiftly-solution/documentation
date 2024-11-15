@@ -12,23 +12,23 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CItemDefuser(ptr --[[ string ]])
+CItemDefuser(ptr)
 ```
 # Properties
 ## EntitySpottedState (Read-Only)
 ```lua
-@type EntitySpottedState_t
+--- @type EntitySpottedState_t
 Read: citemdefuser.EntitySpottedState
 ```
 ## SpotRules 
 ```lua
-@type number
+--- @type number
 Read: citemdefuser.SpotRules
 Write: citemdefuser.SpotRules = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CItem
+--- @type CItem
 Read: citemdefuser.Parent
 ```
 # Functions

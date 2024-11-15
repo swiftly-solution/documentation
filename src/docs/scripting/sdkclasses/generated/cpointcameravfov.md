@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPointCameraVFOV(ptr --[[ string ]])
+CPointCameraVFOV(ptr)
 ```
 # Properties
 ## VerticalFOV 
 ```lua
-@type number
+--- @type number
 Read: cpointcameravfov.VerticalFOV
 Write: cpointcameravfov.VerticalFOV = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CPointCamera
+--- @type CPointCamera
 Read: cpointcameravfov.Parent
 ```
 # Functions

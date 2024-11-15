@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CCSGameModeRules_Noop(ptr --[[ string ]])
+CCSGameModeRules_Noop(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CCSGameModeRules
+--- @type CCSGameModeRules
 Read: ccsgamemoderules_noop.Parent
 ```
 # Functions

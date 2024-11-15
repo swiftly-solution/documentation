@@ -11,8 +11,9 @@ This event is triggered when item_schema_initialized is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnItemSchemaInitialized", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnItemSchemaInitialized", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

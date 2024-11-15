@@ -12,18 +12,18 @@ category:
 @tab Lua
 # Constructor
 ```lua
-FilterDamageType(ptr --[[ string ]])
+FilterDamageType(ptr)
 ```
 # Properties
 ## DamageType 
 ```lua
-@type number
+--- @type number
 Read: filterdamagetype.DamageType
 Write: filterdamagetype.DamageType = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CBaseFilter
+--- @type CBaseFilter
 Read: filterdamagetype.Parent
 ```
 # Functions

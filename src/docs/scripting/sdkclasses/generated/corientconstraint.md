@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-COrientConstraint(ptr --[[ string ]])
+COrientConstraint(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseConstraint
+--- @type CBaseConstraint
 Read: corientconstraint.Parent
 ```
 # Functions

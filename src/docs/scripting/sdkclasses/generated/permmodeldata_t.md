@@ -12,94 +12,94 @@ category:
 @tab Lua
 # Constructor
 ```lua
-PermModelData_t(ptr --[[ string ]])
+PermModelData_t(ptr)
 ```
 # Properties
 ## Name 
 ```lua
-@type string
+--- @type string
 Read: permmodeldata_t.Name
 Write: permmodeldata_t.Name = value
 ```
 ## ModelInfo (Read-Only)
 ```lua
-@type PermModelInfo_t
+--- @type PermModelInfo_t
 Read: permmodeldata_t.ModelInfo
 ```
 ## ExtParts (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.ExtParts
 ```
 ## RefMeshGroupMasks (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.RefMeshGroupMasks
 ```
 ## RefPhysGroupMasks (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.RefPhysGroupMasks
 ```
 ## RefLODGroupMasks (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.RefLODGroupMasks
 ```
 ## LodGroupSwitchDistances (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.LodGroupSwitchDistances
 ```
 ## MeshGroups (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.MeshGroups
 ```
 ## MaterialGroups (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.MaterialGroups
 ```
 ## DefaultMeshGroupMask 
 ```lua
-@type number
+--- @type number
 Read: permmodeldata_t.DefaultMeshGroupMask
 Write: permmodeldata_t.DefaultMeshGroupMask = value
 ```
 ## ModelSkeleton (Read-Only)
 ```lua
-@type ModelSkeletonData_t
+--- @type ModelSkeletonData_t
 Read: permmodeldata_t.ModelSkeleton
 ```
 ## RemappingTable (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.RemappingTable
 ```
 ## RemappingTableStarts (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.RemappingTableStarts
 ```
 ## BoneFlexDrivers (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.BoneFlexDrivers
 ```
 ## ModelConfigList (Read-Only)
 ```lua
-@type CModelConfigList
+--- @type CModelConfigList
 Read: permmodeldata_t.ModelConfigList
 ```
 ## BodyGroupsHiddenInTools (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.BodyGroupsHiddenInTools
 ```
 ## AnimatedMaterialAttributes (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: permmodeldata_t.AnimatedMaterialAttributes
 ```
 # Functions

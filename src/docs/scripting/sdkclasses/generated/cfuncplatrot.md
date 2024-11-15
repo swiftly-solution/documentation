@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncPlatRot(ptr --[[ string ]])
+CFuncPlatRot(ptr)
 ```
 # Properties
 ## End 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cfuncplatrot.End
 Write: cfuncplatrot.End = value
 ```
 ## Start 
 ```lua
-@type QAngle
+--- @type QAngle
 Read: cfuncplatrot.Start
 Write: cfuncplatrot.Start = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CFuncPlat
+--- @type CFuncPlat
 Read: cfuncplatrot.Parent
 ```
 # Functions

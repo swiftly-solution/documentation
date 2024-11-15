@@ -11,8 +11,9 @@ This event is triggered when store_pricesheet_updated is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnStorePricesheetUpdated", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnStorePricesheetUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

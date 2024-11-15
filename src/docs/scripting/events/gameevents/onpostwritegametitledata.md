@@ -11,8 +11,9 @@ This event is triggered after write_game_titledata is triggered.
 ::: tabs
 @tab Lua
 ```lua
-@event returns void
-AddEventHandler("OnPostWriteGameTitledata", function(event --[[ Event ]])
+--- @param event Event
+--- @return number EventResult
+AddEventHandler("OnPostWriteGameTitledata", function(event)
     --[[ ... ]]
     return EventResult.Continue
 end)

@@ -12,44 +12,44 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmClip(ptr --[[ string ]])
+CNmClip(ptr)
 ```
 # Properties
 ## NumFrames 
 ```lua
-@type number
+--- @type number
 Read: cnmclip.NumFrames
 Write: cnmclip.NumFrames = value
 ```
 ## Duration 
 ```lua
-@type number
+--- @type number
 Read: cnmclip.Duration
 Write: cnmclip.Duration = value
 ```
 ## TrackCompressionSettings (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmclip.TrackCompressionSettings
 ```
 ## CompressedPoseOffsets (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: cnmclip.CompressedPoseOffsets
 ```
 ## SyncTrack (Read-Only)
 ```lua
-@type CNmSyncTrack
+--- @type CNmSyncTrack
 Read: cnmclip.SyncTrack
 ```
 ## RootMotion (Read-Only)
 ```lua
-@type CNmRootMotionData
+--- @type CNmRootMotionData
 Read: cnmclip.RootMotion
 ```
 ## IsAdditive 
 ```lua
-@type boolean
+--- @type boolean
 Read: cnmclip.IsAdditive
 Write: cnmclip.IsAdditive = value
 ```

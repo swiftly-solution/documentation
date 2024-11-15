@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CAnimParameterManagerUpdater(ptr --[[ string ]])
+CAnimParameterManagerUpdater(ptr)
 ```
 # Properties
 ## IndexToHandle (Read-Only)
 ```lua
-@type table
+--- @type table
 Read: canimparametermanagerupdater.IndexToHandle
 ```
 # Functions

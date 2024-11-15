@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CNmOrientationWarpEvent(ptr --[[ string ]])
+CNmOrientationWarpEvent(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CNmEvent
+--- @type CNmEvent
 Read: cnmorientationwarpevent.Parent
 ```
 # Functions

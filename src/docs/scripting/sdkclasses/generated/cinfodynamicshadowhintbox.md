@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CInfoDynamicShadowHintBox(ptr --[[ string ]])
+CInfoDynamicShadowHintBox(ptr)
 ```
 # Properties
 ## BoxMins 
 ```lua
-@type Vector
+--- @type Vector
 Read: cinfodynamicshadowhintbox.BoxMins
 Write: cinfodynamicshadowhintbox.BoxMins = value
 ```
 ## BoxMaxs 
 ```lua
-@type Vector
+--- @type Vector
 Read: cinfodynamicshadowhintbox.BoxMaxs
 Write: cinfodynamicshadowhintbox.BoxMaxs = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CInfoDynamicShadowHint
+--- @type CInfoDynamicShadowHint
 Read: cinfodynamicshadowhintbox.Parent
 ```
 # Functions

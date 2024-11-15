@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CTeamplayRules(ptr --[[ string ]])
+CTeamplayRules(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CMultiplayRules
+--- @type CMultiplayRules
 Read: cteamplayrules.Parent
 ```
 # Functions

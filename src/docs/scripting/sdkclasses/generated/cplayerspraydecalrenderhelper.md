@@ -12,7 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CPlayerSprayDecalRenderHelper(ptr --[[ string ]])
+CPlayerSprayDecalRenderHelper(ptr)
 ```
 # Properties
 There are no properties available for this class.

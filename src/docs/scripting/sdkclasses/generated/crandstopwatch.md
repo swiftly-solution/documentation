@@ -12,24 +12,24 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CRandStopwatch(ptr --[[ string ]])
+CRandStopwatch(ptr)
 ```
 # Properties
 ## MinInterval 
 ```lua
-@type number
+--- @type number
 Read: crandstopwatch.MinInterval
 Write: crandstopwatch.MinInterval = value
 ```
 ## MaxInterval 
 ```lua
-@type number
+--- @type number
 Read: crandstopwatch.MaxInterval
 Write: crandstopwatch.MaxInterval = value
 ```
 ## Parent (Read-Only)
 ```lua
-@type CStopwatchBase
+--- @type CStopwatchBase
 Read: crandstopwatch.Parent
 ```
 # Functions

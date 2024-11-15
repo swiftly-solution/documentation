@@ -12,17 +12,17 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CJiggleBoneUpdateNode(ptr --[[ string ]])
+CJiggleBoneUpdateNode(ptr)
 ```
 # Properties
 ## OpFixedData (Read-Only)
 ```lua
-@type JiggleBoneSettingsList_t
+--- @type JiggleBoneSettingsList_t
 Read: cjiggleboneupdatenode.OpFixedData
 ```
 ## Parent (Read-Only)
 ```lua
-@type CUnaryUpdateNode
+--- @type CUnaryUpdateNode
 Read: cjiggleboneupdatenode.Parent
 ```
 # Functions

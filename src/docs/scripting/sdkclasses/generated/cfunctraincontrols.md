@@ -12,12 +12,12 @@ category:
 @tab Lua
 # Constructor
 ```lua
-CFuncTrainControls(ptr --[[ string ]])
+CFuncTrainControls(ptr)
 ```
 # Properties
 ## Parent (Read-Only)
 ```lua
-@type CBaseModelEntity
+--- @type CBaseModelEntity
 Read: cfunctraincontrols.Parent
 ```
 # Functions
