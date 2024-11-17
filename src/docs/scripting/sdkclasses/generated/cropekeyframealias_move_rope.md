@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRopeKeyframeAlias_move_rope(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cropekeyframealias_move_rope.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cropekeyframealias_move_rope:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cropekeyframealias_move_rope:IsValid()
 ```
 

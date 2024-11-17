@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticlePreviewState_t(ptr)
 ```
 # Properties
@@ -113,12 +114,12 @@ Write: particlepreviewstate_t.PreviewGravity = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlepreviewstate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlepreviewstate_t:IsValid()
 ```
 

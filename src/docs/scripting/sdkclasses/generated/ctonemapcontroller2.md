@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTonemapController2(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: ctonemapcontroller2.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctonemapcontroller2:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctonemapcontroller2:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeFollowNode_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fefollownode_t.Weight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fefollownode_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fefollownode_t:IsValid()
 ```
 

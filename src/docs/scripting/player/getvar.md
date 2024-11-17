@@ -12,7 +12,7 @@ Returns the variable value of the player.
 @tab Lua
 ```lua
 --- @param key string
---- @return Any* any
+--- @return any
 player:GetVar(key)
 ```
 

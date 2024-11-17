@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavHullVData(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Write: cnavhullvdata.FlowMapNodeMaxRadius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavhullvdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavhullvdata:IsValid()
 ```
 

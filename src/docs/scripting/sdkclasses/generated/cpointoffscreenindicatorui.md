@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointOffScreenIndicatorUi(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cpointoffscreenindicatorui.TargetPanel
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointoffscreenindicatorui:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointoffscreenindicatorui:IsValid()
 ```
 

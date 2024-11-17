@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponG3SG1(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweapong3sg1.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweapong3sg1:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweapong3sg1:IsValid()
 ```
 

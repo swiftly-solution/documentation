@@ -18,7 +18,8 @@ table.map(tbl, callback)
 ```
 The callback has the following arguments:
 ```lua
+--- @param element any
 --- @return boolean
-cb(element --[[ any ]])
+cb(element)
 ```
 :::

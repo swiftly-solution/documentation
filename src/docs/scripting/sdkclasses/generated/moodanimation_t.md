@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MoodAnimation_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: moodanimation_t.Weight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 moodanimation_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 moodanimation_t:IsValid()
 ```
 

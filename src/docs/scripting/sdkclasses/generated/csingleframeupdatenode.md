@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSingleFrameUpdateNode(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: csingleframeupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csingleframeupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csingleframeupdatenode:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicLineToEntity(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: clogiclinetoentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogiclinetoentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogiclinetoentity:IsValid()
 ```
 

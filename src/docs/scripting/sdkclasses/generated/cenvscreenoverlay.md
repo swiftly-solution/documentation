@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvScreenOverlay(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cenvscreenoverlay.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvscreenoverlay:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvscreenoverlay:IsValid()
 ```
 

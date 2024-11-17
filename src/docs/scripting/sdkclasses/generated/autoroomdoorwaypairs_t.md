@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AutoRoomDoorwayPairs_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: autoroomdoorwaypairs_t.P2 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 autoroomdoorwaypairs_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 autoroomdoorwaypairs_t:IsValid()
 ```
 

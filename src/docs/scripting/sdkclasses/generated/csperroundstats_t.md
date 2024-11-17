@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSPerRoundStats_t(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Write: csperroundstats_t.EnemiesFlashed = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csperroundstats_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csperroundstats_t:IsValid()
 ```
 

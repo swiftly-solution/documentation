@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSpinUpdateBase(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cspinupdatebase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cspinupdatebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cspinupdatebase:IsValid()
 ```
 

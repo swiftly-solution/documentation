@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSceneObjectData(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: csceneobjectdata.TintColor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csceneobjectdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csceneobjectdata:IsValid()
 ```
 

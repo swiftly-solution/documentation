@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 audioparams_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: audioparams_t.SoundEventHash = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 audioparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 audioparams_t:IsValid()
 ```
 

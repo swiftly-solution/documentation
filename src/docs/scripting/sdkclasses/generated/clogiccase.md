@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicCase(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: clogiccase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogiccase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogiccase:IsValid()
 ```
 

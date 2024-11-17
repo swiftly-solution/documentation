@@ -12,7 +12,7 @@ This event is triggered when add_player_sonar_icon is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnAddPlayerSonarIcon", function(event)
     --[[ ... ]]
     return EventResult.Continue

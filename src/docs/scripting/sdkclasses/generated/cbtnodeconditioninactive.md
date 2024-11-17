@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBtNodeConditionInactive(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cbtnodeconditioninactive.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbtnodeconditioninactive:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbtnodeconditioninactive:IsValid()
 ```
 

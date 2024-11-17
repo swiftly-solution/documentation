@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayerInputAnimMotorUpdater(ptr)
 ```
 # Properties
@@ -56,12 +57,12 @@ Read: cplayerinputanimmotorupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayerinputanimmotorupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayerinputanimmotorupdater:IsValid()
 ```
 

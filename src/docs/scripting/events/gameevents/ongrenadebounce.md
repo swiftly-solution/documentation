@@ -12,7 +12,7 @@ This event is triggered when grenade_bounce is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnGrenadeBounce", function(event)
     --[[ ... ]]
     return EventResult.Continue

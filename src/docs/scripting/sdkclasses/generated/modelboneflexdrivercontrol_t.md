@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ModelBoneFlexDriverControl_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: modelboneflexdrivercontrol_t.Max = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 modelboneflexdrivercontrol_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 modelboneflexdrivercontrol_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSourceEdge_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: fesourceedge_t.Node = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesourceedge_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesourceedge_t:IsValid()
 ```
 

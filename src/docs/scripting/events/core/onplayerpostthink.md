@@ -13,7 +13,7 @@ This game event is triggered when the hook CCSPlayerPawnBase_PostThink is being 
 ```lua
 --- @param event Event
 --- @param playerid number
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnPlayerPostThink", function(event, playerid)
     --[[ ... ]]

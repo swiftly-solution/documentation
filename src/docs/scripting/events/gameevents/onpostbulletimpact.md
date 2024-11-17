@@ -12,7 +12,7 @@ This event is triggered after bullet_impact is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBulletImpact", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXConstraint2_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: vphysxconstraint2_t.Params
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxconstraint2_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxconstraint2_t:IsValid()
 ```
 

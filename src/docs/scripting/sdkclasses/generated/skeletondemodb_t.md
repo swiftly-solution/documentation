@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SkeletonDemoDb_t(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Write: skeletondemodb_t.RecordingTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 skeletondemodb_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 skeletondemodb_t:IsValid()
 ```
 

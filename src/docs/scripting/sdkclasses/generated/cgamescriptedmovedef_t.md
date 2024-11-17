@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameScriptedMoveDef_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: cgamescriptedmovedef_t.AngRate = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamescriptedmovedef_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamescriptedmovedef_t:IsValid()
 ```
 

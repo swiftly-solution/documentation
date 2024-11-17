@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FootLockPoseOpFixedSettings(ptr)
 ```
 # Properties
@@ -124,12 +125,12 @@ Write: footlockposeopfixedsettings.StretchExtensionScale = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 footlockposeopfixedsettings:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 footlockposeopfixedsettings:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NmPercent_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: nmpercent_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 nmpercent_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 nmpercent_t:IsValid()
 ```
 

@@ -128,7 +128,7 @@ const GenerateCoreEventSyntax = (data) => {
 
     const tabs = []
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event${GenerateEventParamTypes(data.params, lang)}\n--- @return number EventResult\n--- @event returns ${GenerateType(data.return[lang], lang)} Via event:SetReturn\nAddEventHandler("${data.title}", function(event${GenerateEventParameters(data.params, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event${GenerateEventParamTypes(data.params, lang)}\n--- @return number|nil EventResult\n--- @event returns ${GenerateType(data.return[lang], lang)} Via event:SetReturn\nAddEventHandler("${data.title}", function(event${GenerateEventParameters(data.params, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`
@@ -140,7 +140,7 @@ const GenerateGameEventSyntax = (data) => {
 
     const tabs = []
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event\n--- @return number EventResult\nAddEventHandler("${data.title}", function(event)\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n\`\`\`${lang}\n--- @param event Event\n--- @return number|nil EventResult\nAddEventHandler("${data.title}", function(event)\n    --[[ ... ]]\n    return EventResult.Continue\nend)\n\`\`\`\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`
@@ -182,7 +182,7 @@ const GenerateClassFunctions = (classname, data, lang) => {
     const functions = []
 
     for (const key of Object.keys(data)) {
-        functions.push(`## ${key}\n\`\`\`${lang}\n@returns ${data[key].return[lang]}\n${classname}:${key}(${ProcessParameters(data[key].params, lang)})\n\`\`\``)
+        functions.push(`## ${key}\n\`\`\`${lang}${GenerateFunctionParameters(data[key].params, lang)}\n--- @return ${data[key].return[lang]}\n${classname}:${key}(${ProcessParameters(data[key].params, lang)})\n\`\`\``)
     }
 
     return functions.join("\n")
@@ -193,7 +193,7 @@ const GenerateClassSyntax = (data) => {
 
     const tabs = []
     for (const lang of langs) {
-        tabs.push(`@tab ${languagePrettyNames[lang]}\n# Constructor\n\`\`\`${lang}\n${data.title}(${ProcessParameters(data["constructor"], lang)})\n\`\`\`\n# Properties\n${GenerateClassProperties(data.title.toLowerCase(), data.properties, lang)}\n# Functions\n${GenerateClassFunctions(data.title.toLowerCase(), data.functions, lang)}\n${data.additional[lang] || ""}`)
+        tabs.push(`@tab ${languagePrettyNames[lang]}\n# Constructor\n\`\`\`${lang}${GenerateFunctionParameters(data["constructor"], lang)}\n${data.title}(${ProcessParameters(data["constructor"], lang)})\n\`\`\`\n# Properties\n${GenerateClassProperties(data.title.toLowerCase(), data.properties, lang)}\n# Functions\n${GenerateClassFunctions(data.title.toLowerCase(), data.functions, lang)}\n${data.additional[lang] || ""}`)
     }
 
     return `::: tabs\n${tabs.join("\n")}\n:::`

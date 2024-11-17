@@ -12,7 +12,7 @@ This event is triggered when helicopter_grenade_punt_miss is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHelicopterGrenadePuntMiss", function(event)
     --[[ ... ]]
     return EventResult.Continue

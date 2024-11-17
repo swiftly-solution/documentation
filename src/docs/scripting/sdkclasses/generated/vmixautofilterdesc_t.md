@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixAutoFilterDesc_t(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Write: vmixautofilterdesc_t.LFOShape = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixautofilterdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixautofilterdesc_t:IsValid()
 ```
 

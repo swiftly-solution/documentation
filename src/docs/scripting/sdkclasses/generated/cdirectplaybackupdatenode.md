@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDirectPlaybackUpdateNode(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cdirectplaybackupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdirectplaybackupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdirectplaybackupdatenode:IsValid()
 ```
 

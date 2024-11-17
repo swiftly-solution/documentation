@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootAdjustmentUpdateNode(ptr)
 ```
 # Properties
@@ -74,12 +75,12 @@ Read: cfootadjustmentupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootadjustmentupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootadjustmentupdatenode:IsValid()
 ```
 

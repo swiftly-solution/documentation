@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXAggregateData_t(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Write: vphysxaggregatedata_t.EmbeddedKeyvalues = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxaggregatedata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxaggregatedata_t:IsValid()
 ```
 

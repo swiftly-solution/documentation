@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CConcreteAnimParameter(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cconcreteanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cconcreteanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cconcreteanimparameter:IsValid()
 ```
 

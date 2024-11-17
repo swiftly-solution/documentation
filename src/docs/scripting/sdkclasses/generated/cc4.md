@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CC4(ptr)
 ```
 # Properties
@@ -88,12 +89,12 @@ Read: cc4.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cc4:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cc4:IsValid()
 ```
 

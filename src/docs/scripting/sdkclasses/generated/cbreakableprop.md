@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBreakableProp(ptr)
 ```
 # Properties
@@ -208,12 +209,12 @@ Read: cbreakableprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbreakableprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbreakableprop:IsValid()
 ```
 

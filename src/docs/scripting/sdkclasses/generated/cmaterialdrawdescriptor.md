@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMaterialDrawDescriptor(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: cmaterialdrawdescriptor.IndexBuffer
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmaterialdrawdescriptor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmaterialdrawdescriptor:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 dynpitchvol_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: dynpitchvol_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 dynpitchvol_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 dynpitchvol_t:IsValid()
 ```
 

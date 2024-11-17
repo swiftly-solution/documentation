@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FuseFunctionIndex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: fusefunctionindex_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fusefunctionindex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fusefunctionindex_t:IsValid()
 ```
 

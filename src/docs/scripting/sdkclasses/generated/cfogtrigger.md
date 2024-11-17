@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFogTrigger(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cfogtrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfogtrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfogtrigger:IsValid()
 ```
 

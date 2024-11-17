@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayerController_ActionTrackingServices(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: ccsplayercontroller_actiontrackingservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayercontroller_actiontrackingservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayercontroller_actiontrackingservices:IsValid()
 ```
 

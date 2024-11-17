@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqTransition(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cseqtransition.FadeOutTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqtransition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqtransition:IsValid()
 ```
 

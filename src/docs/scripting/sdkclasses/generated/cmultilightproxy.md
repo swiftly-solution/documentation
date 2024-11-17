@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMultiLightProxy(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: cmultilightproxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmultilightproxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmultilightproxy:IsValid()
 ```
 

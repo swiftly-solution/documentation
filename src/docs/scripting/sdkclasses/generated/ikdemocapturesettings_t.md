@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IKDemoCaptureSettings_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: ikdemocapturesettings_t.OneBoneEnd = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ikdemocapturesettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ikdemocapturesettings_t:IsValid()
 ```
 

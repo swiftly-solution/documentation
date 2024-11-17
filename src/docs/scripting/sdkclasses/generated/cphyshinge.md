@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysHinge(ptr)
 ```
 # Properties
@@ -125,12 +126,12 @@ Read: cphyshinge.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyshinge:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyshinge:IsValid()
 ```
 

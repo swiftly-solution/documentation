@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVectorQuantizer(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cvectorquantizer.Dimensions = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvectorquantizer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvectorquantizer:IsValid()
 ```
 

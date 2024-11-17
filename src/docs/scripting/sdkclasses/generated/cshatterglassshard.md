@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CShatterGlassShard(ptr)
 ```
 # Properties
@@ -175,12 +176,12 @@ Read: cshatterglassshard.Neighbors
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cshatterglassshard:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cshatterglassshard:IsValid()
 ```
 

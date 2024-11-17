@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeVertexMapDesc_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Write: fevertexmapdesc_t.NodeListCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fevertexmapdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fevertexmapdesc_t:IsValid()
 ```
 

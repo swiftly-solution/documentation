@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameModeRules_Noop(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsgamemoderules_noop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamemoderules_noop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamemoderules_noop:IsValid()
 ```
 

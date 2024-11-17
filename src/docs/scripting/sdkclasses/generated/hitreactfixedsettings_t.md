@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 HitReactFixedSettings_t(ptr)
 ```
 # Properties
@@ -120,12 +121,12 @@ Write: hitreactfixedsettings_t.HipDipDelay = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 hitreactfixedsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 hitreactfixedsettings_t:IsValid()
 ```
 

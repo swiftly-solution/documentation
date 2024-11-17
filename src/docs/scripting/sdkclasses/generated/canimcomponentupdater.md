@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimComponentUpdater(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: canimcomponentupdater.StartEnabled = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimcomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimcomponentupdater:IsValid()
 ```
 

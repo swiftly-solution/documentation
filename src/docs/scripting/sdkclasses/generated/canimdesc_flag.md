@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimDesc_Flag(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: canimdesc_flag.AnimGraphAdditive = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdesc_flag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdesc_flag:IsValid()
 ```
 

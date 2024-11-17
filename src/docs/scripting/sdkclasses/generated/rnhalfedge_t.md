@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnHalfEdge_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: rnhalfedge_t.Face = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnhalfedge_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnhalfedge_t:IsValid()
 ```
 

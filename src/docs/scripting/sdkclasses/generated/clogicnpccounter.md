@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicNPCCounter(ptr)
 ```
 # Properties
@@ -254,12 +255,12 @@ Read: clogicnpccounter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicnpccounter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicnpccounter:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerCallback(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctriggercallback.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggercallback:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggercallback:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundStackSave(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csoundstacksave.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundstacksave:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundstacksave:IsValid()
 ```
 

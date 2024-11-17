@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointConstraint(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpointconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointconstraint:IsValid()
 ```
 

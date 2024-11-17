@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CShatterGlassShardPhysics(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cshatterglassshardphysics.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cshatterglassshardphysics:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cshatterglassshardphysics:IsValid()
 ```
 

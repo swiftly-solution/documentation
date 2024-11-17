@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimScriptBase(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimscriptbase.IsValid = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimscriptbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimscriptbase:IsValid()
 ```
 

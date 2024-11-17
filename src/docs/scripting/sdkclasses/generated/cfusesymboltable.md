@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuseSymbolTable(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cfusesymboltable.Functions
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfusesymboltable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfusesymboltable:IsValid()
 ```
 

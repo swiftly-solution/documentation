@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupActionSoundeventPrioritySchema(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: csosgroupactionsoundeventpriorityschema.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupactionsoundeventpriorityschema:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupactionsoundeventpriorityschema:IsValid()
 ```
 

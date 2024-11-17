@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBlood(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cblood.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cblood:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cblood:IsValid()
 ```
 

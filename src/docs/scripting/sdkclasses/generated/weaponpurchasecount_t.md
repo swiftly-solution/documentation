@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WeaponPurchaseCount_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: weaponpurchasecount_t.Count = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 weaponpurchasecount_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 weaponpurchasecount_t:IsValid()
 ```
 

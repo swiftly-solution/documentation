@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSTeam(ptr)
 ```
 # Properties
@@ -107,12 +108,12 @@ Read: ccsteam.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsteam:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsteam:IsValid()
 ```
 

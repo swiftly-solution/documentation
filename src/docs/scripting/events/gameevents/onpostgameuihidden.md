@@ -12,7 +12,7 @@ This event is triggered after gameui_hidden is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostGameuiHidden", function(event)
     --[[ ... ]]
     return EventResult.Continue

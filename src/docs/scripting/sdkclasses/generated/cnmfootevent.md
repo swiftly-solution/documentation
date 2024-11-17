@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmFootEvent(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnmfootevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmfootevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmfootevent:IsValid()
 ```
 

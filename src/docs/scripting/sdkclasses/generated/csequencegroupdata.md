@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSequenceGroupData(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Read: csequencegroupdata.LocalIKAutoplayLockArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csequencegroupdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csequencegroupdata:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NmSyncTrackTimeRange_t(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: nmsynctracktimerange_t.EndTime
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 nmsynctracktimerange_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 nmsynctracktimerange_t:IsValid()
 ```
 

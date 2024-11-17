@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 COrientationWarpUpdateNode(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: corientationwarpupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 corientationwarpupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 corientationwarpupdatenode:IsValid()
 ```
 

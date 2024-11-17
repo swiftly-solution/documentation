@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CKnife(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cknife.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cknife:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cknife:IsValid()
 ```
 

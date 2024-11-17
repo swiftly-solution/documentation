@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBlendCurve(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cblendcurve.ControlPoint2 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cblendcurve:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cblendcurve:IsValid()
 ```
 

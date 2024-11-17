@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMathColorBlend(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cmathcolorblend.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmathcolorblend:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmathcolorblend:IsValid()
 ```
 

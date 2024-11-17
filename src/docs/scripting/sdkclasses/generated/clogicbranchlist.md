@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicBranchList(ptr)
 ```
 # Properties
@@ -44,12 +45,12 @@ Read: clogicbranchlist.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicbranchlist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicbranchlist:IsValid()
 ```
 

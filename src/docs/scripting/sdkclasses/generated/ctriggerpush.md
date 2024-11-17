@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerPush(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Read: ctriggerpush.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerpush:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerpush:IsValid()
 ```
 

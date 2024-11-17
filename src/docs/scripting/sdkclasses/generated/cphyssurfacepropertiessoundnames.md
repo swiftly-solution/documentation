@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysSurfacePropertiesSoundNames(ptr)
 ```
 # Properties
@@ -84,12 +85,12 @@ Write: cphyssurfacepropertiessoundnames.SkidStop = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyssurfacepropertiessoundnames:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyssurfacepropertiessoundnames:IsValid()
 ```
 

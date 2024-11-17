@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimInputDamping(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: caniminputdamping.SpeedScale = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caniminputdamping:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caniminputdamping:IsValid()
 ```
 

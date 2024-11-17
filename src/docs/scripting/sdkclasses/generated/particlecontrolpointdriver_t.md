@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleControlPointDriver_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: particlecontrolpointdriver_t.EntityName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlecontrolpointdriver_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlecontrolpointdriver_t:IsValid()
 ```
 

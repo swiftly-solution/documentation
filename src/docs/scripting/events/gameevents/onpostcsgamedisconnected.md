@@ -12,7 +12,7 @@ This event is triggered after cs_game_disconnected is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsGameDisconnected", function(event)
     --[[ ... ]]
     return EventResult.Continue

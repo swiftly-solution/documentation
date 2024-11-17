@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvFireSource(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cenvfiresource.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvfiresource:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvfiresource:IsValid()
 ```
 

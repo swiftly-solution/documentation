@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSWeaponBaseVData(ptr)
 ```
 # Properties
@@ -482,12 +483,12 @@ Read: ccsweaponbasevdata.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsweaponbasevdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsweaponbasevdata:IsValid()
 ```
 

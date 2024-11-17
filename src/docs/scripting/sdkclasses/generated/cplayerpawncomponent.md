@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayerPawnComponent(ptr)
 ```
 # Properties
@@ -23,17 +24,17 @@ Read: cplayerpawncomponent.__pChainEntity
 # Functions
 ## GetPawn
 ```lua
-@returns CBasePlayerPawn
+--- @return CBasePlayerPawn
 cplayerpawncomponent:GetPawn()
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayerpawncomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayerpawncomponent:IsValid()
 ```
 

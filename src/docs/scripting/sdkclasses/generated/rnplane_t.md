@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnPlane_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: rnplane_t.Offset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnplane_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnplane_t:IsValid()
 ```
 

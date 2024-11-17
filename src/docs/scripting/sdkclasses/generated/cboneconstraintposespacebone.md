@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBoneConstraintPoseSpaceBone(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cboneconstraintposespacebone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cboneconstraintposespacebone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cboneconstraintposespacebone:IsValid()
 ```
 

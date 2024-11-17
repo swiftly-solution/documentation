@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncTrackAuto(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfunctrackauto.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfunctrackauto:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfunctrackauto:IsValid()
 ```
 

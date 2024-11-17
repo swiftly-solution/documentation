@@ -12,7 +12,7 @@ This event is triggered after vip_killed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostVipKilled", function(event)
     --[[ ... ]]
     return EventResult.Continue

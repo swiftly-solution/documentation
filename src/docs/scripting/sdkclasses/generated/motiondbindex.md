@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MotionDBIndex(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: motiondbindex.Index = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 motiondbindex:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 motiondbindex:IsValid()
 ```
 

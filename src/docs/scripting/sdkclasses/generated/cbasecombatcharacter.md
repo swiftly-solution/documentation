@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseCombatCharacter(ptr)
 ```
 # Properties
@@ -70,12 +71,12 @@ Read: cbasecombatcharacter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasecombatcharacter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasecombatcharacter:IsValid()
 ```
 

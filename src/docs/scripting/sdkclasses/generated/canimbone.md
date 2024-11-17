@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimBone(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: canimbone.Flags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimbone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimbone:IsValid()
 ```
 

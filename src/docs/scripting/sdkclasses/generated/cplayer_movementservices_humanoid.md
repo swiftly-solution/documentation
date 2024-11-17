@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_MovementServices_Humanoid(ptr)
 ```
 # Properties
@@ -107,12 +108,12 @@ Read: cplayer_movementservices_humanoid.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_movementservices_humanoid:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_movementservices_humanoid:IsValid()
 ```
 

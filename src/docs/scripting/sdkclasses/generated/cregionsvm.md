@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRegionSVM(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cregionsvm.Nodes
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cregionsvm:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cregionsvm:IsValid()
 ```
 

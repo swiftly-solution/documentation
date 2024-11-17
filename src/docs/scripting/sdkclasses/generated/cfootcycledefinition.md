@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootCycleDefinition(ptr)
 ```
 # Properties
@@ -67,12 +68,12 @@ Read: cfootcycledefinition.FootLandCycle
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootcycledefinition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootcycledefinition:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after round_announce_final is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRoundAnnounceFinal", function(event)
     --[[ ... ]]
     return EventResult.Continue

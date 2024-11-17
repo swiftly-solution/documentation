@@ -12,7 +12,7 @@ This event is triggered when item_pickup_slerp is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnItemPickupSlerp", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameSceneNode(ptr)
 ```
 # Properties
@@ -199,17 +200,17 @@ Write: cgamescenenode.RenderOrigin = value
 # Functions
 ## GetSkeletonInstance
 ```lua
-@returns CSkeletonInstance
+--- @return CSkeletonInstance
 cgamescenenode:GetSkeletonInstance()
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamescenenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamescenenode:IsValid()
 ```
 

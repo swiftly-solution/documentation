@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSequenceTagSpans(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csequencetagspans.Tags
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csequencetagspans:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csequencetagspans:IsValid()
 ```
 

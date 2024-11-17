@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientPollInput_t(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: eventclientpollinput_t.RealTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientpollinput_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientpollinput_t:IsValid()
 ```
 

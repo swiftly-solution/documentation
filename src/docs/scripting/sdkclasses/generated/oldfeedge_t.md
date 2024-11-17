@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 OldFeEdge_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Write: oldfeedge_t.Node = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 oldfeedge_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 oldfeedge_t:IsValid()
 ```
 

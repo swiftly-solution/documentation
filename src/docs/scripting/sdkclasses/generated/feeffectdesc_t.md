@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeEffectDesc_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: feeffectdesc_t.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feeffectdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feeffectdesc_t:IsValid()
 ```
 

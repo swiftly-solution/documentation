@@ -12,7 +12,7 @@ This event is triggered after read_game_titledata is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostReadGameTitledata", function(event)
     --[[ ... ]]
     return EventResult.Continue

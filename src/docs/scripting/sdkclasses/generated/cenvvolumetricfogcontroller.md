@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvVolumetricFogController(ptr)
 ```
 # Properties
@@ -221,12 +222,12 @@ Read: cenvvolumetricfogcontroller.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvvolumetricfogcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvvolumetricfogcontroller:IsValid()
 ```
 

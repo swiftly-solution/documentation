@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsSpring(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: cphysicsspring.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicsspring:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicsspring:IsValid()
 ```
 

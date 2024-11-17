@@ -12,7 +12,7 @@ This event is triggered when inferno_extinguish is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnInfernoExtinguish", function(event)
     --[[ ... ]]
     return EventResult.Continue

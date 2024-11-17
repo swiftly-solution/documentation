@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompositeMaterialMatchFilter_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: compositematerialmatchfilter_t.PassWhenTrue = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compositematerialmatchfilter_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compositematerialmatchfilter_t:IsValid()
 ```
 

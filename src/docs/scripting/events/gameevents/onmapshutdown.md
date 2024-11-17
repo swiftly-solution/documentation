@@ -12,7 +12,7 @@ This event is triggered when map_shutdown is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnMapShutdown", function(event)
     --[[ ... ]]
     return EventResult.Continue

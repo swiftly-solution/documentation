@@ -12,7 +12,7 @@ This event is triggered when firstbombs_incoming_warning is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnFirstbombsIncomingWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue

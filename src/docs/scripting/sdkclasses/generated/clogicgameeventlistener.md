@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicGameEventListener(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: clogicgameeventlistener.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicgameeventlistener:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicgameeventlistener:IsValid()
 ```
 

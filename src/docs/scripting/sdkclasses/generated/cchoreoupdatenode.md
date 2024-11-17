@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CChoreoUpdateNode(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cchoreoupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cchoreoupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cchoreoupdatenode:IsValid()
 ```
 

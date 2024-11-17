@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointClientCommand(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpointclientcommand.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointclientcommand:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointclientcommand:IsValid()
 ```
 

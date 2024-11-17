@@ -12,7 +12,7 @@ This event is triggered after round_announce_warmup is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRoundAnnounceWarmup", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventPreDataUpdate_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventpredataupdate_t.Count = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventpredataupdate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventpredataupdate_t:IsValid()
 ```
 

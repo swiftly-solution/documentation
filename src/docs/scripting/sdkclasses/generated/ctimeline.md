@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTimeline(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: ctimeline.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctimeline:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctimeline:IsValid()
 ```
 

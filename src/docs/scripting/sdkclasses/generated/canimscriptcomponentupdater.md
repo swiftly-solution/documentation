@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimScriptComponentUpdater(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: canimscriptcomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimscriptcomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimscriptcomponentupdater:IsValid()
 ```
 

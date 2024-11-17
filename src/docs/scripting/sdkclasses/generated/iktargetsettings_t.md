@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IKTargetSettings_t(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Write: iktargetsettings_t.TargetCoordSystem = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 iktargetsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 iktargetsettings_t:IsValid()
 ```
 

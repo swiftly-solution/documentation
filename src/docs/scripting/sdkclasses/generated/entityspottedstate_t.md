@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EntitySpottedState_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: entityspottedstate_t.SpottedByMask = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 entityspottedstate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 entityspottedstate_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PermModelInfo_t(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: permmodelinfo_t.KeyValueText = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 permmodelinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 permmodelinfo_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimParameterManagerUpdater(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: canimparametermanagerupdater.IndexToHandle
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimparametermanagerupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimparametermanagerupdater:IsValid()
 ```
 

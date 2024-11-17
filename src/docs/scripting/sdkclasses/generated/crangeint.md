@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRangeInt(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: crangeint.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crangeint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crangeint:IsValid()
 ```
 

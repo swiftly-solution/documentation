@@ -14,7 +14,7 @@ This game event is triggered when CGameRules->TerminateRound is being called.
 --- @param event Event
 --- @param delay number
 --- @param reason number
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns boolean Via event:SetReturn
 AddEventHandler("OnTerminateRound", function(event, delay, reason)
     --[[ ... ]]

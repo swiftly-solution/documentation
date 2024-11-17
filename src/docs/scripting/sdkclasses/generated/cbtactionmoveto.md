@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBtActionMoveTo(ptr)
 ```
 # Properties
@@ -104,12 +105,12 @@ Read: cbtactionmoveto.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbtactionmoveto:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbtactionmoveto:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseTrigger(ptr)
 ```
 # Properties
@@ -81,12 +82,12 @@ Read: cbasetrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasetrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasetrigger:IsValid()
 ```
 

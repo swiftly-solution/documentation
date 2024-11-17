@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseViewModel(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: cbaseviewmodel.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseviewmodel:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseviewmodel:IsValid()
 ```
 

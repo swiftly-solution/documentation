@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkillInt(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cskillint.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskillint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskillint:IsValid()
 ```
 

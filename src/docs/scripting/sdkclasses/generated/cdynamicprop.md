@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDynamicProp(ptr)
 ```
 # Properties
@@ -150,12 +151,12 @@ Read: cdynamicprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdynamicprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdynamicprop:IsValid()
 ```
 

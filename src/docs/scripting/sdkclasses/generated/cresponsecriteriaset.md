@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CResponseCriteriaSet(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cresponsecriteriaset.OverrideOnAppend = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cresponsecriteriaset:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cresponsecriteriaset:IsValid()
 ```
 

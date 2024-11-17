@@ -12,7 +12,7 @@ This event is triggered when smokegrenade_expired is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSmokegrenadeExpired", function(event)
     --[[ ... ]]
     return EventResult.Continue

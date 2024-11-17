@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeVertexMapBuild_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: fevertexmapbuild_t.Weights
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fevertexmapbuild_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fevertexmapbuild_t:IsValid()
 ```
 

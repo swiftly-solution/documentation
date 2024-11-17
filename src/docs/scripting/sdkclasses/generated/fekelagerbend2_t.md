@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeKelagerBend2_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fekelagerbend2_t.Reserved = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fekelagerbend2_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fekelagerbend2_t:IsValid()
 ```
 

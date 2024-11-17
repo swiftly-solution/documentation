@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CovMatrix3(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: covmatrix3.YZ = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 covmatrix3:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 covmatrix3:IsValid()
 ```
 

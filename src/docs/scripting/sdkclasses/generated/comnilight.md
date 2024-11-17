@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 COmniLight(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: comnilight.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 comnilight:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 comnilight:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkOriginQuantizedVector(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cnetworkoriginquantizedvector.Z = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworkoriginquantizedvector:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworkoriginquantizedvector:IsValid()
 ```
 

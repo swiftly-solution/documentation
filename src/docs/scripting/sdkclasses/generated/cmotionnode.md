@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionNode(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmotionnode.Id
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionnode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionnode:IsValid()
 ```
 

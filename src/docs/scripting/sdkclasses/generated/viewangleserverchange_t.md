@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ViewAngleServerChange_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: viewangleserverchange_t.Index = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 viewangleserverchange_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 viewangleserverchange_t:IsValid()
 ```
 

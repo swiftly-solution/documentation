@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PostProcessingVignetteParameters_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: postprocessingvignetteparameters_t.ColorTint = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 postprocessingvignetteparameters_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 postprocessingvignetteparameters_t:IsValid()
 ```
 

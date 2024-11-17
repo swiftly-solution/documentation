@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_RandomColor(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmodelconfigelement_randomcolor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_randomcolor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_randomcolor:IsValid()
 ```
 

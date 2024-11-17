@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelState(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: cmodelstate.ClothUpdateFlags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelstate:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelstate:IsValid()
 ```
 

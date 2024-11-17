@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyComponentBaseAnimGraph(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cbodycomponentbaseanimgraph.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodycomponentbaseanimgraph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodycomponentbaseanimgraph:IsValid()
 ```
 

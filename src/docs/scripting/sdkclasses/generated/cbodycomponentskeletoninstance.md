@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyComponentSkeletonInstance(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cbodycomponentskeletoninstance.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodycomponentskeletoninstance:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodycomponentskeletoninstance:IsValid()
 ```
 

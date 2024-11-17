@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTwistConstraint(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ctwistconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctwistconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctwistconstraint:IsValid()
 ```
 

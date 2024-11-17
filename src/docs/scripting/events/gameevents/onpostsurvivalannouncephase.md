@@ -12,7 +12,7 @@ This event is triggered after survival_announce_phase is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSurvivalAnnouncePhase", function(event)
     --[[ ... ]]
     return EventResult.Continue

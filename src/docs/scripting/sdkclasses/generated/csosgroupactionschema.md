@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupActionSchema(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: csosgroupactionschema.ActionInstanceType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupactionschema:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupactionschema:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsProp(ptr)
 ```
 # Properties
@@ -237,12 +238,12 @@ Read: cphysicsprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicsprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicsprop:IsValid()
 ```
 

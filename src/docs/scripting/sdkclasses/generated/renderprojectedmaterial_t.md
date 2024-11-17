@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RenderProjectedMaterial_t(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 renderprojectedmaterial_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 renderprojectedmaterial_t:IsValid()
 ```
 

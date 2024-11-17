@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerHurt(ptr)
 ```
 # Properties
@@ -99,12 +100,12 @@ Read: ctriggerhurt.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerhurt:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerhurt:IsValid()
 ```
 

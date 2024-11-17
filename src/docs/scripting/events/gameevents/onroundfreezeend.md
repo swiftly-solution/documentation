@@ -12,7 +12,7 @@ This event is triggered when round_freeze_end is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundFreezeEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue

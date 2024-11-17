@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerSwitch(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cvoicecontainerswitch.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerswitch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerswitch:IsValid()
 ```
 

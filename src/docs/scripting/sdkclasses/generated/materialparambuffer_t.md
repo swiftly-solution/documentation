@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialParamBuffer_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: materialparambuffer_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialparambuffer_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialparambuffer_t:IsValid()
 ```
 

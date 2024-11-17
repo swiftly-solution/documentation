@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTankTargetChange(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ctanktargetchange.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctanktargetchange:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctanktargetchange:IsValid()
 ```
 

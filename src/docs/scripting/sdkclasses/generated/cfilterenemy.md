@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFilterEnemy(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cfilterenemy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfilterenemy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfilterenemy:IsValid()
 ```
 

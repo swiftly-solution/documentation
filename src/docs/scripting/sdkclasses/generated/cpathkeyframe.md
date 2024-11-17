@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathKeyFrame(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cpathkeyframe.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathkeyframe:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathkeyframe:IsValid()
 ```
 

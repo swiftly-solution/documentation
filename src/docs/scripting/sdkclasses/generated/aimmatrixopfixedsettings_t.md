@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AimMatrixOpFixedSettings_t(ptr)
 ```
 # Properties
@@ -92,12 +93,12 @@ Read: aimmatrixopfixedsettings_t.BiasAndClampBlendCurve
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aimmatrixopfixedsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aimmatrixopfixedsettings_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 thinkfunc_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: thinkfunc_t.LastThinkTick = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 thinkfunc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 thinkfunc_t:IsValid()
 ```
 

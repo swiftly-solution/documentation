@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SampleCode(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: samplecode.SubCode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 samplecode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 samplecode:IsValid()
 ```
 

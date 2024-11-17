@@ -12,7 +12,7 @@ This event is triggered after hostage_rescued_all is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostHostageRescuedAll", function(event)
     --[[ ... ]]
     return EventResult.Continue

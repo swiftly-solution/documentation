@@ -12,7 +12,7 @@ This event is triggered after door_break is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDoorBreak", function(event)
     --[[ ... ]]
     return EventResult.Continue

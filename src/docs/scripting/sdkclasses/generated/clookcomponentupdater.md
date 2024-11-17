@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLookComponentUpdater(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Read: clookcomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clookcomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clookcomponentupdater:IsValid()
 ```
 

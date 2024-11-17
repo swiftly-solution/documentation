@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCommentaryViewPosition(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccommentaryviewposition.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccommentaryviewposition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccommentaryviewposition:IsValid()
 ```
 

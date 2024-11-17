@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FilterDamageType(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: filterdamagetype.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 filterdamagetype:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 filterdamagetype:IsValid()
 ```
 

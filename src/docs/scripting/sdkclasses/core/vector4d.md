@@ -12,6 +12,10 @@ A vector is an object which stores coordinates.
 @tab Lua
 # Constructor
 ```lua
+--- @param x number
+--- @param y number
+--- @param z number
+--- @param w number
 Vector4D(x, y, z, w)
 ```
 # Properties
@@ -42,7 +46,7 @@ Write: vector4d.w = value
 # Functions
 ## GetPtr
 ```lua
-@returns string
+--- @return string
 vector4d:GetPtr()
 ```
 This class supports doing operations on them: addition, division, multiplication, substraction.

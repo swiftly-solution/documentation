@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCopyRecipientFilter(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ccopyrecipientfilter.Recipients
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccopyrecipientfilter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccopyrecipientfilter:IsValid()
 ```
 

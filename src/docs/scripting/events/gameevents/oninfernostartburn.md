@@ -12,7 +12,7 @@ This event is triggered when inferno_startburn is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnInfernoStartburn", function(event)
     --[[ ... ]]
     return EventResult.Continue

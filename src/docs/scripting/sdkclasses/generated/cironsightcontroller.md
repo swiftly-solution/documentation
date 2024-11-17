@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CIronSightController(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cironsightcontroller.IronSightAmountBiased = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cironsightcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cironsightcontroller:IsValid()
 ```
 

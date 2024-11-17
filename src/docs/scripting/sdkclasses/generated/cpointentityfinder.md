@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointEntityFinder(ptr)
 ```
 # Properties
@@ -61,12 +62,12 @@ Read: cpointentityfinder.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointentityfinder:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointentityfinder:IsValid()
 ```
 

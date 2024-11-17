@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnMeshDesc_t(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: rnmeshdesc_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnmeshdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnmeshdesc_t:IsValid()
 ```
 

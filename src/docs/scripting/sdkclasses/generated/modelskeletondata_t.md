@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ModelSkeletonData_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Read: modelskeletondata_t.BoneScaleParent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 modelskeletondata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 modelskeletondata_t:IsValid()
 ```
 

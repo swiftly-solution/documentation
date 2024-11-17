@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PostProcessingLocalContrastParameters_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: postprocessinglocalcontrastparameters_t.LocalContrastVignetteBlur = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 postprocessinglocalcontrastparameters_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 postprocessinglocalcontrastparameters_t:IsValid()
 ```
 

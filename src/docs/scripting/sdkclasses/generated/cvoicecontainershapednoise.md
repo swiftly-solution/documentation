@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerShapedNoise(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cvoicecontainershapednoise.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainershapednoise:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainershapednoise:IsValid()
 ```
 

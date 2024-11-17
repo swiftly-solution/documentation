@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompositeMaterialAssemblyProcedure_t(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: compositematerialassemblyprocedure_t.PropertyMutators
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compositematerialassemblyprocedure_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compositematerialassemblyprocedure_t:IsValid()
 ```
 

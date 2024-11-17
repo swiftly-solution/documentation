@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointGiveAmmo(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cpointgiveammo.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointgiveammo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointgiveammo:IsValid()
 ```
 

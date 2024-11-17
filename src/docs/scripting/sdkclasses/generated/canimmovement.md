@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimMovement(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: canimmovement.Position = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimmovement:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimmovement:IsValid()
 ```
 

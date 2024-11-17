@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnableMotionFixup(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cenablemotionfixup.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenablemotionfixup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenablemotionfixup:IsValid()
 ```
 

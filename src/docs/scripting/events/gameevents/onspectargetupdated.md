@@ -12,7 +12,7 @@ This event is triggered when spec_target_updated is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSpecTargetUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue

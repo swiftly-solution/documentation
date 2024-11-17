@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityIOOutput(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centityiooutput:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centityiooutput:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBonePositionMetricEvaluator(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cbonepositionmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbonepositionmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbonepositionmetricevaluator:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SequenceHistory_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: sequencehistory_t.CyclesPerSecond = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sequencehistory_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sequencehistory_t:IsValid()
 ```
 

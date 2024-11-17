@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicScript(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: clogicscript.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicscript:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicscript:IsValid()
 ```
 

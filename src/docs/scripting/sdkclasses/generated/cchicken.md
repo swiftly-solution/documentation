@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CChicken(ptr)
 ```
 # Properties
@@ -176,12 +177,12 @@ Read: cchicken.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cchicken:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cchicken:IsValid()
 ```
 

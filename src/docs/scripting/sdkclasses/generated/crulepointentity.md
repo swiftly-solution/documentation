@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRulePointEntity(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: crulepointentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crulepointentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crulepointentity:IsValid()
 ```
 

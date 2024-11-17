@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTakeDamageResult(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: ctakedamageresult.TotalledDamageAbsorbed = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctakedamageresult:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctakedamageresult:IsValid()
 ```
 

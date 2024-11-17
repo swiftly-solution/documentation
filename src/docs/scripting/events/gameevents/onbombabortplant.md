@@ -12,7 +12,7 @@ This event is triggered when bomb_abortplant is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnBombAbortplant", function(event)
     --[[ ... ]]
     return EventResult.Continue

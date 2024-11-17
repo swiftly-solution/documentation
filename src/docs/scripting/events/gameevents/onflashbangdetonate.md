@@ -12,7 +12,7 @@ This event is triggered when flashbang_detonate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnFlashbangDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue

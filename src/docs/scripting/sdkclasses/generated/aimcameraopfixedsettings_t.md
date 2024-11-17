@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AimCameraOpFixedSettings_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: aimcameraopfixedsettings_t.PropJoints
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aimcameraopfixedsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aimcameraopfixedsettings_t:IsValid()
 ```
 

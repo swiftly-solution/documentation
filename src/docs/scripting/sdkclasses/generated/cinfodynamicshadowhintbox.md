@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoDynamicShadowHintBox(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cinfodynamicshadowhintbox.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfodynamicshadowhintbox:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfodynamicshadowhintbox:IsValid()
 ```
 

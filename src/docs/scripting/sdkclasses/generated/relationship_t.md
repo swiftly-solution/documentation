@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 Relationship_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: relationship_t.Priority = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 relationship_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 relationship_t:IsValid()
 ```
 

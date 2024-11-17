@@ -12,7 +12,7 @@ This event is triggered when user_data_downloaded is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnUserDataDownloaded", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMovementComponentUpdater(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cmovementcomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmovementcomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmovementcomponentupdater:IsValid()
 ```
 

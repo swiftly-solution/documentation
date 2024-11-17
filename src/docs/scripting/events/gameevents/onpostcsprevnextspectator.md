@@ -12,7 +12,7 @@ This event is triggered after cs_prev_next_spectator is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsPrevNextSpectator", function(event)
     --[[ ... ]]
     return EventResult.Continue

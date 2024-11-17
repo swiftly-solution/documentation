@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventAppShutdown_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventappshutdown_t.Dummy0 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventappshutdown_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventappshutdown_t:IsValid()
 ```
 

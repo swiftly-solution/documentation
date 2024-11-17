@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixShaperDesc_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: vmixshaperdesc_t.OversampleFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixshaperdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixshaperdesc_t:IsValid()
 ```
 

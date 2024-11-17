@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VertexPositionNormal_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: vertexpositionnormal_t.Normal = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vertexpositionnormal_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vertexpositionnormal_t:IsValid()
 ```
 

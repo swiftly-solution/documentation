@@ -12,7 +12,7 @@ This event is triggered after show_deathpanel is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostShowDeathpanel", function(event)
     --[[ ... ]]
     return EventResult.Continue

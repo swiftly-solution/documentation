@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTextureBasedAnimatable(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: ctexturebasedanimatable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctexturebasedanimatable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctexturebasedanimatable:IsValid()
 ```
 

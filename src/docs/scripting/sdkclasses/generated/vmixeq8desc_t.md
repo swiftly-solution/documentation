@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixEQ8Desc_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: vmixeq8desc_t.Stages
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixeq8desc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixeq8desc_t:IsValid()
 ```
 

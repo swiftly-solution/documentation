@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EntityIOConnectionData_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: entityioconnectiondata_t.TimesToFire = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 entityioconnectiondata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 entityioconnectiondata_t:IsValid()
 ```
 

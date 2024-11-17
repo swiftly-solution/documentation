@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoInstructorHintBombTargetB(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfoinstructorhintbombtargetb.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoinstructorhintbombtargetb:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoinstructorhintbombtargetb:IsValid()
 ```
 

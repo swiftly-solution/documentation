@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundOpvarSetAABBEntity(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Read: csoundopvarsetaabbentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundopvarsetaabbentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundopvarsetaabbentity:IsValid()
 ```
 

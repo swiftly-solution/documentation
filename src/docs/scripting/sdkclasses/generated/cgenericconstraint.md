@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGenericConstraint(ptr)
 ```
 # Properties
@@ -308,12 +309,12 @@ Read: cgenericconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgenericconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgenericconstraint:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_WaterServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cplayer_waterservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_waterservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_waterservices:IsValid()
 ```
 

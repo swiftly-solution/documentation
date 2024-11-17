@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAudioSentence(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: caudiosentence.MorphData
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caudiosentence:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caudiosentence:IsValid()
 ```
 

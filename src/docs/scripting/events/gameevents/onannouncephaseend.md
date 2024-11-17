@@ -12,7 +12,7 @@ This event is triggered when announce_phase_end is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnAnnouncePhaseEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue

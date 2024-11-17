@@ -12,7 +12,7 @@ This event is triggered after broken_breakable is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBrokenBreakable", function(event)
     --[[ ... ]]
     return EventResult.Continue

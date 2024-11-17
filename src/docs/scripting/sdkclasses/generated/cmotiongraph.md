@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionGraph(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Write: cmotiongraph.Loop = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotiongraph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotiongraph:IsValid()
 ```
 

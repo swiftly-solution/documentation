@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerRemove(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ctriggerremove.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerremove:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerremove:IsValid()
 ```
 

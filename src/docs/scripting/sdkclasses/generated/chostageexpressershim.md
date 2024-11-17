@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHostageExpresserShim(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: chostageexpressershim.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chostageexpressershim:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chostageexpressershim:IsValid()
 ```
 

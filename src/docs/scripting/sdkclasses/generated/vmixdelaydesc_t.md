@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDelayDesc_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Write: vmixdelaydesc_t.Width = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdelaydesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdelaydesc_t:IsValid()
 ```
 

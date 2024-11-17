@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRagdollManager(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cragdollmanager.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cragdollmanager:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cragdollmanager:IsValid()
 ```
 

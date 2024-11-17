@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 GameAmmoTypeInfo_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: gameammotypeinfo_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 gameammotypeinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 gameammotypeinfo_t:IsValid()
 ```
 

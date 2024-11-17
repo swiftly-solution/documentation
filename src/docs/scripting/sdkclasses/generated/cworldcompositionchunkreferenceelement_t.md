@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWorldCompositionChunkReferenceElement_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cworldcompositionchunkreferenceelement_t.StrLandmarkName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cworldcompositionchunkreferenceelement_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cworldcompositionchunkreferenceelement_t:IsValid()
 ```
 

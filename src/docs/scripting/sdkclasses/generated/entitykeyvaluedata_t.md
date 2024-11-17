@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EntityKeyValueData_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: entitykeyvaluedata_t.Connections
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 entitykeyvaluedata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 entitykeyvaluedata_t:IsValid()
 ```
 

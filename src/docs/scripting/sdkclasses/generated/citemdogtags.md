@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItemDogtags(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: citemdogtags.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citemdogtags:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citemdogtags:IsValid()
 ```
 

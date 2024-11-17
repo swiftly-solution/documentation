@@ -12,7 +12,7 @@ This event is triggered when switch_team is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSwitchTeam", function(event)
     --[[ ... ]]
     return EventResult.Continue

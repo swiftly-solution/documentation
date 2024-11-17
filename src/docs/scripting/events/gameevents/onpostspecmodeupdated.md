@@ -12,7 +12,7 @@ This event is triggered after spec_mode_updated is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSpecModeUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncRotating(ptr)
 ```
 # Properties
@@ -128,12 +129,12 @@ Read: cfuncrotating.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncrotating:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncrotating:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerFan(ptr)
 ```
 # Properties
@@ -94,12 +95,12 @@ Read: ctriggerfan.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerfan:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerfan:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseClientUIEntity(ptr)
 ```
 # Properties
@@ -97,12 +98,12 @@ Read: cbaseclientuientity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseclientuientity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseclientuientity:IsValid()
 ```
 

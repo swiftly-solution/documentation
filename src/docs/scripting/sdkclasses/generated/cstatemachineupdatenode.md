@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStateMachineUpdateNode(ptr)
 ```
 # Properties
@@ -50,12 +51,12 @@ Read: cstatemachineupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstatemachineupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstatemachineupdatenode:IsValid()
 ```
 

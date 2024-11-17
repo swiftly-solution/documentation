@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigList(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cmodelconfiglist.Configs
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfiglist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfiglist:IsValid()
 ```
 

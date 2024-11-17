@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFilterContext(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfiltercontext.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfiltercontext:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfiltercontext:IsValid()
 ```
 

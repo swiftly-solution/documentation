@@ -13,7 +13,7 @@ Calls a specific hook.
 ```lua
 --- @param hookHandle number HookHandle
 --- @param ... any
---- @return Any* any
+--- @return any
 CallHook(hookHandle, ...)
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDestructiblePartsSystemData(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdestructiblepartssystemdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdestructiblepartssystemdata:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CConstraintTarget(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: cconstrainttarget.IsAttachment = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cconstrainttarget:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cconstrainttarget:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlashbang(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cflashbang.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflashbang:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflashbang:IsValid()
 ```
 

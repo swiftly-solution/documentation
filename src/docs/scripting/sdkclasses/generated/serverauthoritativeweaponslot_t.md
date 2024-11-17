@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ServerAuthoritativeWeaponSlot_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: serverauthoritativeweaponslot_t.ItemDefIdx = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 serverauthoritativeweaponslot_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 serverauthoritativeweaponslot_t:IsValid()
 ```
 

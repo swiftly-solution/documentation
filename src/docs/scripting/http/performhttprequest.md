@@ -22,6 +22,11 @@ PerformHTTPRequest(url, callback, method, data, headers, files)
 ```
 The callback has the following arguments:
 ```lua
-cb(status --[[ number ]], body --[[ string ]], headers --[[ table ]], err --[[ string ]])
+--- @param status number
+--- @param body string
+--- @param headers table
+--- @param err string
+--- @return nil
+cb(status, body, headers, err)
 ```
 :::

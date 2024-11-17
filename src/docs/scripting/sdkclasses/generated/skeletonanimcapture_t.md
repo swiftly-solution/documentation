@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SkeletonAnimCapture_t(ptr)
 ```
 # Properties
@@ -74,12 +75,12 @@ Read: skeletonanimcapture_t.Frames
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 skeletonanimcapture_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 skeletonanimcapture_t:IsValid()
 ```
 

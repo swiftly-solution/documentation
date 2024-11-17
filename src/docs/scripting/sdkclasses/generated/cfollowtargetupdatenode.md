@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFollowTargetUpdateNode(ptr)
 ```
 # Properties
@@ -38,12 +39,12 @@ Read: cfollowtargetupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfollowtargetupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfollowtargetupdatenode:IsValid()
 ```
 

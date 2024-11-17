@@ -12,7 +12,7 @@ This event is triggered after local_player_pawn_changed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostLocalPlayerPawnChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue

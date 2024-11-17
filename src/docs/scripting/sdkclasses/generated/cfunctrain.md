@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncTrain(ptr)
 ```
 # Properties
@@ -57,12 +58,12 @@ Read: cfunctrain.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfunctrain:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfunctrain:IsValid()
 ```
 

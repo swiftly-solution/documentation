@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootDefinition(ptr)
 ```
 # Properties
@@ -72,12 +73,12 @@ Write: cfootdefinition.TraceRadius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootdefinition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootdefinition:IsValid()
 ```
 

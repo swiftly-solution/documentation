@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSceneEntityAlias_logic_choreographed_scene(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csceneentityalias_logic_choreographed_scene.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csceneentityalias_logic_choreographed_scene:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csceneentityalias_logic_choreographed_scene:IsValid()
 ```
 

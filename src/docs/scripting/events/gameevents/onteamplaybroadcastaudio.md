@@ -12,7 +12,7 @@ This event is triggered when teamplay_broadcast_audio is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTeamplayBroadcastAudio", function(event)
     --[[ ... ]]
     return EventResult.Continue

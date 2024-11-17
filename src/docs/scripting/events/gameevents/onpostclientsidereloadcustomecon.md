@@ -12,7 +12,7 @@ This event is triggered after clientside_reload_custom_econ is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostClientsideReloadCustomEcon", function(event)
     --[[ ... ]]
     return EventResult.Continue

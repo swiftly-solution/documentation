@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 BlendItem_t(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Write: blenditem_t.UseCustomDuration = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 blenditem_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 blenditem_t:IsValid()
 ```
 

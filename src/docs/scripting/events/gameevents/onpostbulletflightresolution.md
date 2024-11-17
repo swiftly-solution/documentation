@@ -12,7 +12,7 @@ This event is triggered after bullet_flight_resolution is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBulletFlightResolution", function(event)
     --[[ ... ]]
     return EventResult.Continue

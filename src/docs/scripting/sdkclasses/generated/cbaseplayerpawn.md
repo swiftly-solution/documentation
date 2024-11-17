@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBasePlayerPawn(ptr)
 ```
 # Properties
@@ -159,12 +160,12 @@ Read: cbaseplayerpawn.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseplayerpawn:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseplayerpawn:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmIDEvent(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnmidevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmidevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmidevent:IsValid()
 ```
 

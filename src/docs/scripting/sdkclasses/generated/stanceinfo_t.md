@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 StanceInfo_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: stanceinfo_t.Direction = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 stanceinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 stanceinfo_t:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after bomb_beep is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBombBeep", function(event)
     --[[ ... ]]
     return EventResult.Continue

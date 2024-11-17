@@ -12,7 +12,7 @@ This event is triggered when hltv_versioninfo is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHltvVersioninfo", function(event)
     --[[ ... ]]
     return EventResult.Continue

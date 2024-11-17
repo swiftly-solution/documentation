@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMomentaryRotButton(ptr)
 ```
 # Properties
@@ -97,12 +98,12 @@ Read: cmomentaryrotbutton.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmomentaryrotbutton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmomentaryrotbutton:IsValid()
 ```
 

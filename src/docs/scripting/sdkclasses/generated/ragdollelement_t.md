@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ragdollelement_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: ragdollelement_t.Radius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ragdollelement_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ragdollelement_t:IsValid()
 ```
 

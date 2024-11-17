@@ -12,7 +12,7 @@ This event is triggered when instructor_close_lesson is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnInstructorCloseLesson", function(event)
     --[[ ... ]]
     return EventResult.Continue

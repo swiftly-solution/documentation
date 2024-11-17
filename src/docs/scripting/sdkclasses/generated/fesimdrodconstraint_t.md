@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSimdRodConstraint_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fesimdrodconstraint_t.4RelaxationFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesimdrodconstraint_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesimdrodconstraint_t:IsValid()
 ```
 

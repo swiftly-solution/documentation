@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncWallToggle(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncwalltoggle.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncwalltoggle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncwalltoggle:IsValid()
 ```
 

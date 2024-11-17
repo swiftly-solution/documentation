@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnVertex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: rnvertex_t.Edge = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnvertex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnvertex_t:IsValid()
 ```
 

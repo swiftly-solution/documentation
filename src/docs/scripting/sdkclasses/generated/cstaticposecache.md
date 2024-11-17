@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStaticPoseCache(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cstaticposecache.MorphCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstaticposecache:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstaticposecache:IsValid()
 ```
 

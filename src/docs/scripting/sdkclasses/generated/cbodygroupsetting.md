@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyGroupSetting(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cbodygroupsetting.BodyGroupOption = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodygroupsetting:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodygroupsetting:IsValid()
 ```
 

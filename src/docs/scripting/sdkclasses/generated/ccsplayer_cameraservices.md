@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayer_CameraServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsplayer_cameraservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayer_cameraservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayer_cameraservices:IsValid()
 ```
 

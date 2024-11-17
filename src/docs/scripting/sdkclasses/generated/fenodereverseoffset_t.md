@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeNodeReverseOffset_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fenodereverseoffset_t.TargetNode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fenodereverseoffset_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fenodereverseoffset_t:IsValid()
 ```
 

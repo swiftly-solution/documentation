@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SkeletonBoneBounds_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: skeletonbonebounds_t.Size = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 skeletonbonebounds_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 skeletonbonebounds_t:IsValid()
 ```
 

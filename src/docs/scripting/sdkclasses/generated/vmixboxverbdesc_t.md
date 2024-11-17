@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixBoxverbDesc_t(ptr)
 ```
 # Properties
@@ -119,12 +120,12 @@ Write: vmixboxverbdesc_t.Taps = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixboxverbdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixboxverbdesc_t:IsValid()
 ```
 

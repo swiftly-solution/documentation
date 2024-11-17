@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysicsCollisionAttribute_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: vphysicscollisionattribute_t.CollisionFunctionMask = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysicscollisionattribute_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysicscollisionattribute_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPoseHandle(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cposehandle.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cposehandle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cposehandle:IsValid()
 ```
 

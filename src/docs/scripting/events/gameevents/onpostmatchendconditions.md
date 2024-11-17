@@ -12,7 +12,7 @@ This event is triggered after match_end_conditions is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostMatchEndConditions", function(event)
     --[[ ... ]]
     return EventResult.Continue

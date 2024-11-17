@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathMetricEvaluator(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: cpathmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathmetricevaluator:IsValid()
 ```
 

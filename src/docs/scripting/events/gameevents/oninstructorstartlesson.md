@@ -12,7 +12,7 @@ This event is triggered when instructor_start_lesson is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnInstructorStartLesson", function(event)
     --[[ ... ]]
     return EventResult.Continue

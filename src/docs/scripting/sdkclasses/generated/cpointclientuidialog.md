@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointClientUIDialog(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cpointclientuidialog.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointclientuidialog:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointclientuidialog:IsValid()
 ```
 

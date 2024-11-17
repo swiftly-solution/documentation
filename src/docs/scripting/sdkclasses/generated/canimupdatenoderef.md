@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimUpdateNodeRef(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimupdatenoderef.NodeIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimupdatenoderef:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimupdatenoderef:IsValid()
 ```
 

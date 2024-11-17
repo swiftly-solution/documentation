@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkillDamage(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cskilldamage.PhysicsForceDamage = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskilldamage:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskilldamage:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGlowOverlay(ptr)
 ```
 # Properties
@@ -107,12 +108,12 @@ Write: cglowoverlay.QueryHandle = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cglowoverlay:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cglowoverlay:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeWorldCollisionParams_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: feworldcollisionparams_t.ListEnd = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feworldcollisionparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feworldcollisionparams_t:IsValid()
 ```
 

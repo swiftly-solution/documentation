@@ -12,7 +12,7 @@ This event is triggered after hltv_cameraman is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostHltvCameraman", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventSimpleLoopFrameUpdate_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: eventsimpleloopframeupdate_t.FrameTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventsimpleloopframeupdate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventsimpleloopframeupdate_t:IsValid()
 ```
 

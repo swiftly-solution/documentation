@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmBitFlags(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cnmbitflags.Flags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmbitflags:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmbitflags:IsValid()
 ```
 

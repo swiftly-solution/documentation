@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerMultiple(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ctriggermultiple.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggermultiple:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggermultiple:IsValid()
 ```
 

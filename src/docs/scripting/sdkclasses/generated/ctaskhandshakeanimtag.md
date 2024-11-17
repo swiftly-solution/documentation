@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTaskHandshakeAnimTag(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctaskhandshakeanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctaskhandshakeanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctaskhandshakeanimtag:IsValid()
 ```
 

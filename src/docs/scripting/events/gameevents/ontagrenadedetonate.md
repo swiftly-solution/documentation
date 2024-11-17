@@ -12,7 +12,7 @@ This event is triggered when tagrenade_detonate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTagrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue

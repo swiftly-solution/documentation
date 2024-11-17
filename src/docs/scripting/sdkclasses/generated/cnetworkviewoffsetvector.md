@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkViewOffsetVector(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cnetworkviewoffsetvector.Z = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworkviewoffsetvector:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworkviewoffsetvector:IsValid()
 ```
 

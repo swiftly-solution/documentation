@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDynamics3BandDesc_t(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Read: vmixdynamics3banddesc_t.BandDesc
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdynamics3banddesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdynamics3banddesc_t:IsValid()
 ```
 

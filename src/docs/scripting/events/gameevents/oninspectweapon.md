@@ -12,7 +12,7 @@ This event is triggered when inspect_weapon is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnInspectWeapon", function(event)
     --[[ ... ]]
     return EventResult.Continue

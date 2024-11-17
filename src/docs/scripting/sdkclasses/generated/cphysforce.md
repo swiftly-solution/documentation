@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysForce(ptr)
 ```
 # Properties
@@ -57,12 +58,12 @@ Read: cphysforce.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysforce:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysforce:IsValid()
 ```
 

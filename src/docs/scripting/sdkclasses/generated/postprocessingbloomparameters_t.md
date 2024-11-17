@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PostProcessingBloomParameters_t(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: postprocessingbloomparameters_t.BlurTint = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 postprocessingbloomparameters_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 postprocessingbloomparameters_t:IsValid()
 ```
 

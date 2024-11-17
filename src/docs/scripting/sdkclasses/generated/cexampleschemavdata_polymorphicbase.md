@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CExampleSchemaVData_PolymorphicBase(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cexampleschemavdata_polymorphicbase.Base = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cexampleschemavdata_polymorphicbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cexampleschemavdata_polymorphicbase:IsValid()
 ```
 

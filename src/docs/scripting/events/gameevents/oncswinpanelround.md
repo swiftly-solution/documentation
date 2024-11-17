@@ -12,7 +12,7 @@ This event is triggered when cs_win_panel_round is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnCsWinPanelRound", function(event)
     --[[ ... ]]
     return EventResult.Continue

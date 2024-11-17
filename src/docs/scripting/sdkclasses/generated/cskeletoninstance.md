@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkeletonInstance(ptr)
 ```
 # Properties
@@ -70,12 +71,12 @@ Read: cskeletoninstance.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskeletoninstance:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskeletoninstance:IsValid()
 ```
 

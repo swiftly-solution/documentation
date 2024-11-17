@@ -12,7 +12,7 @@ This event is triggered after cs_intermission is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsIntermission", function(event)
     --[[ ... ]]
     return EventResult.Continue

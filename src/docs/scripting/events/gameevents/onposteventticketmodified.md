@@ -12,7 +12,7 @@ This event is triggered after event_ticket_modified is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostEventTicketModified", function(event)
     --[[ ... ]]
     return EventResult.Continue

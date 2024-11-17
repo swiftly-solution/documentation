@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDEagle(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdeagle.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdeagle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdeagle:IsValid()
 ```
 

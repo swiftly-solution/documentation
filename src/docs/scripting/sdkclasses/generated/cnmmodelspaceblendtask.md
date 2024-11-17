@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmModelSpaceBlendTask(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnmmodelspaceblendtask.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmmodelspaceblendtask:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmmodelspaceblendtask:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkillFloat(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cskillfloat.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskillfloat:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskillfloat:IsValid()
 ```
 

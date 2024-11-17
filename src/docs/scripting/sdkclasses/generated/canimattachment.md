@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimAttachment(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: canimattachment.NumInfluences = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimattachment:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimattachment:IsValid()
 ```
 

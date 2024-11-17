@@ -12,7 +12,7 @@ This event is triggered when endmatch_cmm_start_reveal_items is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnEndmatchCmmStartRevealItems", function(event)
     --[[ ... ]]
     return EventResult.Continue

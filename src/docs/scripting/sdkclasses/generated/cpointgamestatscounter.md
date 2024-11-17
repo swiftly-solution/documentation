@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointGamestatsCounter(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cpointgamestatscounter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointgamestatscounter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointgamestatscounter:IsValid()
 ```
 

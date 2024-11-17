@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoOffscreenPanoramaTexture(ptr)
 ```
 # Properties
@@ -70,12 +71,12 @@ Read: cinfooffscreenpanoramatexture.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfooffscreenpanoramatexture:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfooffscreenpanoramatexture:IsValid()
 ```
 

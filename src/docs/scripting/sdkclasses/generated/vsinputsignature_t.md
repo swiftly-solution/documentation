@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VsInputSignature_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: vsinputsignature_t.Elems
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vsinputsignature_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vsinputsignature_t:IsValid()
 ```
 

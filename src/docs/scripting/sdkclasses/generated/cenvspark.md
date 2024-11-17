@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSpark(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: cenvspark.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvspark:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvspark:IsValid()
 ```
 

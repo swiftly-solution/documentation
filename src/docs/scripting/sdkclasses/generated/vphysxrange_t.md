@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXRange_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: vphysxrange_t.Max = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxrange_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxrange_t:IsValid()
 ```
 

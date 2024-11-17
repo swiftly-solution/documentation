@@ -12,7 +12,7 @@ This event is triggered after hide_deathpanel is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostHideDeathpanel", function(event)
     --[[ ... ]]
     return EventResult.Continue

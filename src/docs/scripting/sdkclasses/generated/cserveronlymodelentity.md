@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CServerOnlyModelEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cserveronlymodelentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cserveronlymodelentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cserveronlymodelentity:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after gameinstructor_draw is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostGameinstructorDraw", function(event)
     --[[ ... ]]
     return EventResult.Continue

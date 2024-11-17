@@ -18,7 +18,7 @@ This game event is triggered when an entity receives an input.
 --- @param callerptr string
 --- @param value string
 --- @param outputID number
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns boolean Via event:SetReturn
 AddEventHandler("OnEntityAcceptInput", function(event, entityptr, inputname, activatorptr, callerptr, value, outputID)
     --[[ ... ]]

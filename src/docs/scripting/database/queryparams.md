@@ -42,6 +42,9 @@ The values can be a string, a number or a boolean. It will automatically convert
 ### Callback
 The callback has the following arguments:
 ```lua
-cb(err --[[ string ]], result --[[ table ]])
+--- @param err string
+--- @param result table
+--- @return nil
+cb(err, result)
 ```
 :::

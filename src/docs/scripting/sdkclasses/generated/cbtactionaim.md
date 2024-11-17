@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBtActionAim(ptr)
 ```
 # Properties
@@ -92,12 +93,12 @@ Read: cbtactionaim.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbtactionaim:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbtactionaim:IsValid()
 ```
 

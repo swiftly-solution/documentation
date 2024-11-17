@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMultiplayRules(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmultiplayrules.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmultiplayrules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmultiplayrules:IsValid()
 ```
 

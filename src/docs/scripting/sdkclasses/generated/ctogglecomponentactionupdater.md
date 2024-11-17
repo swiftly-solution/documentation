@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CToggleComponentActionUpdater(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctogglecomponentactionupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctogglecomponentactionupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctogglecomponentactionupdater:IsValid()
 ```
 

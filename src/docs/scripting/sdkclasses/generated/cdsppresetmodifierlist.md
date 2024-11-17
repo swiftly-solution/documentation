@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDspPresetModifierList(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cdsppresetmodifierlist.Modifiers
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdsppresetmodifierlist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdsppresetmodifierlist:IsValid()
 ```
 

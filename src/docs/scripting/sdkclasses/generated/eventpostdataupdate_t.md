@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventPostDataUpdate_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventpostdataupdate_t.Count = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventpostdataupdate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventpostdataupdate_t:IsValid()
 ```
 

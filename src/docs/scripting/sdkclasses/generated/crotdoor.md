@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRotDoor(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: crotdoor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crotdoor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crotdoor:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SceneObject_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Write: sceneobject_t.LightProbeVolumePrecomputedHandshake = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sceneobject_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sceneobject_t:IsValid()
 ```
 

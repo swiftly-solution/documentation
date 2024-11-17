@@ -12,7 +12,7 @@ This event is triggered when round_end_upload_stats is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundEndUploadStats", function(event)
     --[[ ... ]]
     return EventResult.Continue

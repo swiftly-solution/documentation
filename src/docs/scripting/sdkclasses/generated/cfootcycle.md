@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootCycle(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfootcycle.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootcycle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootcycle:IsValid()
 ```
 

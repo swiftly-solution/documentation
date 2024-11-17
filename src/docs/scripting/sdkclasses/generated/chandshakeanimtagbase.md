@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHandshakeAnimTagBase(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: chandshakeanimtagbase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chandshakeanimtagbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chandshakeanimtagbase:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when player_disconnect is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerDisconnect", function(event)
     --[[ ... ]]
     return EventResult.Continue

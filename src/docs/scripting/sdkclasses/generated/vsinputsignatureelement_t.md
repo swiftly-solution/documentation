@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VsInputSignatureElement_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: vsinputsignatureelement_t.D3DSemanticIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vsinputsignatureelement_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vsinputsignatureelement_t:IsValid()
 ```
 

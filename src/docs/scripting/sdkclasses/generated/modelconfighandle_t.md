@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ModelConfigHandle_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: modelconfighandle_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 modelconfighandle_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 modelconfighandle_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionSearchDB(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cmotionsearchdb.CodeIndices
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionsearchdb:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionsearchdb:IsValid()
 ```
 

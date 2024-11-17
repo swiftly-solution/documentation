@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerTeleport(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: ctriggerteleport.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerteleport:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerteleport:IsValid()
 ```
 

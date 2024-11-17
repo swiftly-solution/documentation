@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeBuildSphereRigid_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: febuildsphererigid_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 febuildsphererigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 febuildsphererigid_t:IsValid()
 ```
 

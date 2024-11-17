@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ragdoll_t(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Write: ragdoll_t.Unused = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ragdoll_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ragdoll_t:IsValid()
 ```
 

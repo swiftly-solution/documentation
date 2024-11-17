@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeTwistConstraint_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fetwistconstraint_t.SwingRelax = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fetwistconstraint_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fetwistconstraint_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 TextureControls_t(ptr)
 ```
 # Properties
@@ -107,12 +108,12 @@ Write: texturecontrols_t.PerParticleDistortion = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 texturecontrols_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 texturecontrols_t:IsValid()
 ```
 

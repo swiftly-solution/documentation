@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGeneralRandomRotation(ptr)
 ```
 # Properties
@@ -58,12 +59,12 @@ Read: cgeneralrandomrotation.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgeneralrandomrotation:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgeneralrandomrotation:IsValid()
 ```
 

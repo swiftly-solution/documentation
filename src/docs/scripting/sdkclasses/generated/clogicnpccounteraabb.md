@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicNPCCounterAABB(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: clogicnpccounteraabb.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicnpccounteraabb:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicnpccounteraabb:IsValid()
 ```
 

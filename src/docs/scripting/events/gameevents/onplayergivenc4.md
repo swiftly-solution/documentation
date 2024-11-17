@@ -12,7 +12,7 @@ This event is triggered when player_given_c4 is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerGivenC4", function(event)
     --[[ ... ]]
     return EventResult.Continue

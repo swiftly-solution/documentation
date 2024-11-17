@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFeMorphLayer(ptr)
 ```
 # Properties
@@ -55,12 +56,12 @@ Read: cfemorphlayer.GoalDamping
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfemorphlayer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfemorphlayer:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeCollisionPlane_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: fecollisionplane_t.Strength = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fecollisionplane_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fecollisionplane_t:IsValid()
 ```
 

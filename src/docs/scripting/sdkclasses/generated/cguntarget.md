@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGunTarget(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cguntarget.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cguntarget:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cguntarget:IsValid()
 ```
 

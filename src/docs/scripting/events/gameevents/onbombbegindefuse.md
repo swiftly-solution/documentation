@@ -12,7 +12,7 @@ This event is triggered when bomb_begindefuse is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnBombBegindefuse", function(event)
     --[[ ... ]]
     return EventResult.Continue

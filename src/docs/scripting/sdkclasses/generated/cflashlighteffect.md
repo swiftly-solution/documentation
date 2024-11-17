@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlashlightEffect(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: cflashlighteffect.TextureName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflashlighteffect:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflashlighteffect:IsValid()
 ```
 

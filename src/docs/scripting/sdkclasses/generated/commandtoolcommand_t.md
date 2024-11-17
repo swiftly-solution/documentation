@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CommandToolCommand_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Write: commandtoolcommand_t.ClearDebugBits = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 commandtoolcommand_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 commandtoolcommand_t:IsValid()
 ```
 

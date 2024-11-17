@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAudioEmphasisSample(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: caudioemphasissample.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caudioemphasissample:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caudioemphasissample:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after dz_item_interaction is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDzItemInteraction", function(event)
     --[[ ... ]]
     return EventResult.Continue

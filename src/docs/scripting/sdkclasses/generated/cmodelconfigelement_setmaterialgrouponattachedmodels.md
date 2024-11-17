@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_SetMaterialGroupOnAttachedModels(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmodelconfigelement_setmaterialgrouponattachedmodels.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_setmaterialgrouponattachedmodels:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_setmaterialgrouponattachedmodels:IsValid()
 ```
 

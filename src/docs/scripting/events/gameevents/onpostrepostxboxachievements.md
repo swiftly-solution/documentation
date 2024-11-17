@@ -12,7 +12,7 @@ This event is triggered after repost_xbox_achievements is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRepostXboxAchievements", function(event)
     --[[ ... ]]
     return EventResult.Continue

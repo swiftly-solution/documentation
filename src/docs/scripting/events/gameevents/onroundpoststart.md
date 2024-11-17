@@ -12,7 +12,7 @@ This event is triggered when round_poststart is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundPoststart", function(event)
     --[[ ... ]]
     return EventResult.Continue

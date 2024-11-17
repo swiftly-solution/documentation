@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavWalkable(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnavwalkable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavwalkable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavwalkable:IsValid()
 ```
 

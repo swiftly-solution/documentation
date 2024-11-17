@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseAnimGraph(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: cbaseanimgraph.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseanimgraph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseanimgraph:IsValid()
 ```
 

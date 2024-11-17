@@ -12,7 +12,7 @@ This event is triggered after player_footstep is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostPlayerFootstep", function(event)
     --[[ ... ]]
     return EventResult.Continue

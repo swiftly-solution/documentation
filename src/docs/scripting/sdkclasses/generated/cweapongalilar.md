@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponGalilAR(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweapongalilar.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweapongalilar:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweapongalilar:IsValid()
 ```
 

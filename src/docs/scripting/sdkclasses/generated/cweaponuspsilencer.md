@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponUSPSilencer(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponuspsilencer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponuspsilencer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponuspsilencer:IsValid()
 ```
 

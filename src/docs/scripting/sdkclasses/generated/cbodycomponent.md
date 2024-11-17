@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyComponent(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cbodycomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodycomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodycomponent:IsValid()
 ```
 

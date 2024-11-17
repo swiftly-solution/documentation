@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSolveIKTargetHandle_t(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: csolveiktargethandle_t.OrientationHandle
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csolveiktargethandle_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csolveiktargethandle_t:IsValid()
 ```
 

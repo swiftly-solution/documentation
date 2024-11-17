@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathMover(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cpathmover.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathmover:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathmover:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuseProgram(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Write: cfuseprogram.MaxTempVarsUsed = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuseprogram:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuseprogram:IsValid()
 ```
 

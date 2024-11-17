@@ -12,7 +12,7 @@ This event is triggered when vote_ended is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnVoteEnded", function(event)
     --[[ ... ]]
     return EventResult.Continue

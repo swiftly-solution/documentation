@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimData(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: canimdata.SegmentArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdata:IsValid()
 ```
 

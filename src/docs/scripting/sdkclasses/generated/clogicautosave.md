@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicAutosave(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: clogicautosave.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicautosave:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicautosave:IsValid()
 ```
 

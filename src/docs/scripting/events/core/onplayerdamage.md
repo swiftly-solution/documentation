@@ -17,7 +17,7 @@ This game event is triggered when a player receives damage.
 --- @param damageinfo_ptr string
 --- @param inflictor_ptr string
 --- @param ability_ptr string
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns boolean Via event:SetReturn
 AddEventHandler("OnPlayerDamage", function(event, playerid, attackerid, damageinfo_ptr, inflictor_ptr, ability_ptr)
     --[[ ... ]]

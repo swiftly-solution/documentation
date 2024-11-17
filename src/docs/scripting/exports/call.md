@@ -12,7 +12,7 @@ Calls the specified export.
 @tab Lua
 ```lua
 --- @param ... any
---- @return Any* any
+--- @return any
 exports["PLUGIN_NAME"]:EXPORT_NAME(...)
 ```
 > [!warning]

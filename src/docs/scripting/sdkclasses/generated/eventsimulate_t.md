@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventSimulate_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: eventsimulate_t.LastTick = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventsimulate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventsimulate_t:IsValid()
 ```
 

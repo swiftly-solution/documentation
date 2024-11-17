@@ -12,7 +12,7 @@ This event is triggered when reset_game_titledata is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnResetGameTitledata", function(event)
     --[[ ... ]]
     return EventResult.Continue

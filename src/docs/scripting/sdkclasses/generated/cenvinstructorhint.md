@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvInstructorHint(ptr)
 ```
 # Properties
@@ -167,12 +168,12 @@ Read: cenvinstructorhint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvinstructorhint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvinstructorhint:IsValid()
 ```
 

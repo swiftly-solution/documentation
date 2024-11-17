@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NmCompressionSettings_t(ptr)
 ```
 # Properties
@@ -56,12 +57,12 @@ Write: nmcompressionsettings_t.IsScaleStatic = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 nmcompressionsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 nmcompressionsettings_t:IsValid()
 ```
 

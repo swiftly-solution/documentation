@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixFilterDesc_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: vmixfilterdesc_t.Q = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixfilterdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixfilterdesc_t:IsValid()
 ```
 

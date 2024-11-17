@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundEventPathCornerEntity(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: csoundeventpathcornerentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundeventpathcornerentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundeventpathcornerentity:IsValid()
 ```
 

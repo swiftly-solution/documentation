@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLeanMatrixUpdateNode(ptr)
 ```
 # Properties
@@ -74,12 +75,12 @@ Read: cleanmatrixupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cleanmatrixupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cleanmatrixupdatenode:IsValid()
 ```
 

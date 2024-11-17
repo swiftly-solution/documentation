@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CConstraintSlave(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cconstraintslave.Name = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cconstraintslave:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cconstraintslave:IsValid()
 ```
 

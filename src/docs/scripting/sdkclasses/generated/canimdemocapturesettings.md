@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimDemoCaptureSettings(ptr)
 ```
 # Properties
@@ -106,12 +107,12 @@ Read: canimdemocapturesettings.IkChains
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdemocapturesettings:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdemocapturesettings:IsValid()
 ```
 

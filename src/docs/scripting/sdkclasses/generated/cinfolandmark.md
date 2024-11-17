@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoLandmark(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfolandmark.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfolandmark:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfolandmark:IsValid()
 ```
 

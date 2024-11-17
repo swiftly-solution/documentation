@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleVisibilityInputs(ptr)
 ```
 # Properties
@@ -132,12 +133,12 @@ Write: cparticlevisibilityinputs.RightEye = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlevisibilityinputs:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlevisibilityinputs:IsValid()
 ```
 

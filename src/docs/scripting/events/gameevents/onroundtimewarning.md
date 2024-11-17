@@ -12,7 +12,7 @@ This event is triggered when round_time_warning is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundTimeWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue

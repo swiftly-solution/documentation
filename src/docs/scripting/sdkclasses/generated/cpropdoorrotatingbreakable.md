@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPropDoorRotatingBreakable(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: cpropdoorrotatingbreakable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpropdoorrotatingbreakable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpropdoorrotatingbreakable:IsValid()
 ```
 

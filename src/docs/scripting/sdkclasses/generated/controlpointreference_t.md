@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ControlPointReference_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: controlpointreference_t.OffsetInLocalSpace = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 controlpointreference_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 controlpointreference_t:IsValid()
 ```
 

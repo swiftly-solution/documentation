@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponAug(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponaug.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponaug:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponaug:IsValid()
 ```
 

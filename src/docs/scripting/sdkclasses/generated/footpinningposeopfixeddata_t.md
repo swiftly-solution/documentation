@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FootPinningPoseOpFixedData_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Write: footpinningposeopfixeddata_t.ApplyFootRotationLimits = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 footpinningposeopfixeddata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 footpinningposeopfixeddata_t:IsValid()
 ```
 

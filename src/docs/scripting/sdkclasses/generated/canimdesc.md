@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimDesc(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: canimdesc.SequenceParams
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdesc:IsValid()
 ```
 

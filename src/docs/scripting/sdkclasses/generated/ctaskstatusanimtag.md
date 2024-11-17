@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTaskStatusAnimTag(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctaskstatusanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctaskstatusanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctaskstatusanimtag:IsValid()
 ```
 

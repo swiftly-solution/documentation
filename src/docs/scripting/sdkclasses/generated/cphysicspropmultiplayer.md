@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsPropMultiplayer(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cphysicspropmultiplayer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicspropmultiplayer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicspropmultiplayer:IsValid()
 ```
 

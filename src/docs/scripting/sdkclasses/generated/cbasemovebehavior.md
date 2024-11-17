@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseMoveBehavior(ptr)
 ```
 # Properties
@@ -85,12 +86,12 @@ Read: cbasemovebehavior.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasemovebehavior:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasemovebehavior:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncMonitor(ptr)
 ```
 # Properties
@@ -76,12 +77,12 @@ Read: cfuncmonitor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncmonitor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncmonitor:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootstepControl(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cfootstepcontrol.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootstepcontrol:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootstepcontrol:IsValid()
 ```
 

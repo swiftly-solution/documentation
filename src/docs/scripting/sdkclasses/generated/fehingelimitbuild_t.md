@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeHingeLimitBuild_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fehingelimitbuild_t.LimitCCW = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fehingelimitbuild_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fehingelimitbuild_t:IsValid()
 ```
 

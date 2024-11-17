@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSmoothFunc(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: csmoothfunc.SmoothDir = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csmoothfunc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csmoothfunc:IsValid()
 ```
 

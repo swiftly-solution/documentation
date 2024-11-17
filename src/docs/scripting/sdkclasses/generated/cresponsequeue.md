@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CResponseQueue(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cresponsequeue.ExpresserTargets
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cresponsequeue:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cresponsequeue:IsValid()
 ```
 

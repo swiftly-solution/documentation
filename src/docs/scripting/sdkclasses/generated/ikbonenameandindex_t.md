@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IKBoneNameAndIndex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: ikbonenameandindex_t.Name = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ikbonenameandindex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ikbonenameandindex_t:IsValid()
 ```
 

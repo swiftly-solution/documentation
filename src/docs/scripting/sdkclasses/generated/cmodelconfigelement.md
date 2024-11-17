@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmodelconfigelement.NestedElements
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement:IsValid()
 ```
 

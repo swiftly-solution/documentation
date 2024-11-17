@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientProcessNetworking_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventclientprocessnetworking_t.TickCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientprocessnetworking_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientprocessnetworking_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ManifestTestResource_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: manifesttestresource_t.Name = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 manifesttestresource_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 manifesttestresource_t:IsValid()
 ```
 

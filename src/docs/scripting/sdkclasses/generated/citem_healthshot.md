@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItem_Healthshot(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: citem_healthshot.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citem_healthshot:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citem_healthshot:IsValid()
 ```
 

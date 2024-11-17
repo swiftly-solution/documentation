@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleSystem(ptr)
 ```
 # Properties
@@ -148,12 +149,12 @@ Read: cparticlesystem.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlesystem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlesystem:IsValid()
 ```
 

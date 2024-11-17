@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBubbling(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cbubbling.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbubbling:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbubbling:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootMotion(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cfootmotion.Additive = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootmotion:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootmotion:IsValid()
 ```
 

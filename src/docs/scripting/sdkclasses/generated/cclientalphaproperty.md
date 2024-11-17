@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CClientAlphaProperty(ptr)
 ```
 # Properties
@@ -101,12 +102,12 @@ Read: cclientalphaproperty.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cclientalphaproperty:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cclientalphaproperty:IsValid()
 ```
 

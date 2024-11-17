@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameScriptedMoveData(ptr)
 ```
 # Properties
@@ -125,12 +126,12 @@ Write: cgamescriptedmovedata.IgnoreCollisions = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamescriptedmovedata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamescriptedmovedata:IsValid()
 ```
 

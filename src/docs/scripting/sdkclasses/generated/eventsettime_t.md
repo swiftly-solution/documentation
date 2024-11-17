@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventSetTime_t(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Write: eventsettime_t.TickRemainder = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventsettime_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventsettime_t:IsValid()
 ```
 

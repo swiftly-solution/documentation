@@ -12,6 +12,8 @@ A weapon is an object which stores informations about a player's weapon.
 @tab Lua
 # Constructor
 ```lua
+--- @param playerid number
+--- @param ptr string
 Weapon(playerid, ptr)
 ```
 # Properties
@@ -19,32 +21,32 @@ There are no properties available for this class.
 # Functions
 ## CBasePlayerWeapon
 ```lua
-@returns CBasePlayerWeapon
+--- @return CBasePlayerWeapon
 weapon:CBasePlayerWeapon()
 ```
 ## CCSWeaponBase
 ```lua
-@returns CCSWeaponBase
+--- @return CCSWeaponBase
 weapon:CCSWeaponBase()
 ```
 ## CBasePlayerWeaponVData
 ```lua
-@returns CBasePlayerWeaponVData
+--- @return CBasePlayerWeaponVData
 weapon:CBasePlayerWeaponVData()
 ```
 ## SetDefaultAttributes
 ```lua
-@returns void
+--- @return void
 weapon:SetDefaultAttributes()
 ```
 ## Remove
 ```lua
-@returns void
+--- @return void
 weapon:Remove()
 ```
 ## Drop
 ```lua
-@returns void
+--- @return void
 weapon:Drop()
 ```
 

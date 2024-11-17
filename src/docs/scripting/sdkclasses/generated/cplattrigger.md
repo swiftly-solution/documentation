@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlatTrigger(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cplattrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplattrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplattrigger:IsValid()
 ```
 

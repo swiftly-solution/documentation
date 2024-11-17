@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundPatch(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Write: csoundpatch.ClassName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundpatch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundpatch:IsValid()
 ```
 

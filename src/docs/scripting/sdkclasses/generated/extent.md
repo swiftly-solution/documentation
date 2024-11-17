@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 Extent(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: extent.Hi = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 extent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 extent:IsValid()
 ```
 

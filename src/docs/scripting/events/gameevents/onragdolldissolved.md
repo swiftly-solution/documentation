@@ -12,7 +12,7 @@ This event is triggered when ragdoll_dissolved is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRagdollDissolved", function(event)
     --[[ ... ]]
     return EventResult.Continue

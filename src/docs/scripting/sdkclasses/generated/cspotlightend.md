@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSpotlightEnd(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cspotlightend.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cspotlightend:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cspotlightend:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleVecInput(ptr)
 ```
 # Properties
@@ -144,12 +145,12 @@ Read: cparticlevecinput.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlevecinput:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlevecinput:IsValid()
 ```
 

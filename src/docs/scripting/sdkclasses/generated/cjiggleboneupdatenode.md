@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CJiggleBoneUpdateNode(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cjiggleboneupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cjiggleboneupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cjiggleboneupdatenode:IsValid()
 ```
 

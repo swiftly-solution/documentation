@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WorldNodeOnDiskBufferData_t(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: worldnodeondiskbufferdata_t.Data
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 worldnodeondiskbufferdata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 worldnodeondiskbufferdata_t:IsValid()
 ```
 

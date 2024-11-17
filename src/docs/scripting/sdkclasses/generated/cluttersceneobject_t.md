@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ClutterSceneObject_t(ptr)
 ```
 # Properties
@@ -55,12 +56,12 @@ Read: cluttersceneobject_t.Tiles
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cluttersceneobject_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cluttersceneobject_t:IsValid()
 ```
 

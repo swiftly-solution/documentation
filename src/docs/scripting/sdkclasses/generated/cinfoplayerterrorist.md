@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoPlayerTerrorist(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfoplayerterrorist.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoplayerterrorist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoplayerterrorist:IsValid()
 ```
 

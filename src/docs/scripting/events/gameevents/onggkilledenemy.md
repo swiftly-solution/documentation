@@ -12,7 +12,7 @@ This event is triggered when gg_killed_enemy is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnGgKilledEnemy", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicalEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: clogicalentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicalentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicalentity:IsValid()
 ```
 

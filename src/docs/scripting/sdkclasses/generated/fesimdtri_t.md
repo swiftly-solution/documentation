@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSimdTri_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fesimdtri_t.1x = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesimdtri_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesimdtri_t:IsValid()
 ```
 

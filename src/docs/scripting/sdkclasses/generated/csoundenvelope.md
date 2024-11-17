@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundEnvelope(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: csoundenvelope.Forceupdate = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundenvelope:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundenvelope:IsValid()
 ```
 

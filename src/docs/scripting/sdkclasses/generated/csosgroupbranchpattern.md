@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupBranchPattern(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: csosgroupbranchpattern.MatchString = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupbranchpattern:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupbranchpattern:IsValid()
 ```
 

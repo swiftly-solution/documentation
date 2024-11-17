@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_SetRenderColor(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmodelconfigelement_setrendercolor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_setrendercolor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_setrendercolor:IsValid()
 ```
 

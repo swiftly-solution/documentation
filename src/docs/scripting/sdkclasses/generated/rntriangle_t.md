@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnTriangle_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: rntriangle_t.Index = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rntriangle_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rntriangle_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleNamedValueConfiguration_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: particlenamedvalueconfiguration_t.StrAttachmentName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlenamedvalueconfiguration_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlenamedvalueconfiguration_t:IsValid()
 ```
 

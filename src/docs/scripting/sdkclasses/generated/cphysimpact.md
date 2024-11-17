@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysImpact(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cphysimpact.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysimpact:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysimpact:IsValid()
 ```
 

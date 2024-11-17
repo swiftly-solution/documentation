@@ -12,7 +12,7 @@ This event is triggered when player_connect_full is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerConnectFull", function(event)
     --[[ ... ]]
     return EventResult.Continue

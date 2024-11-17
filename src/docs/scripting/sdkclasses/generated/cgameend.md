@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameEnd(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cgameend.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgameend:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgameend:IsValid()
 ```
 

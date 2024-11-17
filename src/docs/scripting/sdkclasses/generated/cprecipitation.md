@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPrecipitation(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cprecipitation.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cprecipitation:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cprecipitation:IsValid()
 ```
 

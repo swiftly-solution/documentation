@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAISound(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: caisound.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caisound:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caisound:IsValid()
 ```
 

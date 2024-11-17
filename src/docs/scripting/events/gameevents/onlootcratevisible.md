@@ -12,7 +12,7 @@ This event is triggered when loot_crate_visible is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnLootCrateVisible", function(event)
     --[[ ... ]]
     return EventResult.Continue

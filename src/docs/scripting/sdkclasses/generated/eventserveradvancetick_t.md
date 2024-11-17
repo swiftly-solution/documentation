@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventServerAdvanceTick_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: eventserveradvancetick_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventserveradvancetick_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventserveradvancetick_t:IsValid()
 ```
 

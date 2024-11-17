@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRandStopwatch(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: crandstopwatch.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crandstopwatch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crandstopwatch:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerGameEvent(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: ctriggergameevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggergameevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggergameevent:IsValid()
 ```
 

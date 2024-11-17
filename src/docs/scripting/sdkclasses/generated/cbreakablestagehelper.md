@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBreakableStageHelper(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cbreakablestagehelper.StageCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbreakablestagehelper:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbreakablestagehelper:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VelocitySampler(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: velocitysampler.IdealSampleRate = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 velocitysampler:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 velocitysampler:IsValid()
 ```
 

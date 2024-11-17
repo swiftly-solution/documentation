@@ -12,7 +12,7 @@ This event is triggered when enter_bombzone is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnEnterBombzone", function(event)
     --[[ ... ]]
     return EventResult.Continue

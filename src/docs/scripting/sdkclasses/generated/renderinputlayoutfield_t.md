@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RenderInputLayoutField_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: renderinputlayoutfield_t.InstanceStepRate = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 renderinputlayoutfield_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 renderinputlayoutfield_t:IsValid()
 ```
 

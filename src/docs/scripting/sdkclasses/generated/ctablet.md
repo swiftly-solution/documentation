@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTablet(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctablet.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctablet:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctablet:IsValid()
 ```
 

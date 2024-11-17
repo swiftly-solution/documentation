@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysBallSocket(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cphysballsocket.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysballsocket:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysballsocket:IsValid()
 ```
 

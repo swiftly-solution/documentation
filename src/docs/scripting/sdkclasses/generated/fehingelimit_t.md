@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeHingeLimit_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: fehingelimit_t.AngleExtents = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fehingelimit_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fehingelimit_t:IsValid()
 ```
 

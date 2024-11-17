@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncMoveLinearAlias_momentary_door(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncmovelinearalias_momentary_door.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncmovelinearalias_momentary_door:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncmovelinearalias_momentary_door:IsValid()
 ```
 

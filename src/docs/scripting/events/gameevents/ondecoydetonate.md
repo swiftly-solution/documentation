@@ -12,7 +12,7 @@ This event is triggered when decoy_detonate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnDecoyDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayerController_DamageServices(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ccsplayercontroller_damageservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayercontroller_damageservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayercontroller_damageservices:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFilterMassGreater(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfiltermassgreater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfiltermassgreater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfiltermassgreater:IsValid()
 ```
 

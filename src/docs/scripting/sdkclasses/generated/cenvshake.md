@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvShake(ptr)
 ```
 # Properties
@@ -82,12 +83,12 @@ Read: cenvshake.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvshake:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvshake:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRevertSaved(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: crevertsaved.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crevertsaved:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crevertsaved:IsValid()
 ```
 

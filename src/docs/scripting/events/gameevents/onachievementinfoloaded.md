@@ -12,7 +12,7 @@ This event is triggered when achievement_info_loaded is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnAchievementInfoLoaded", function(event)
     --[[ ... ]]
     return EventResult.Continue

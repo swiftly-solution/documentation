@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRuleEntity(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cruleentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cruleentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cruleentity:IsValid()
 ```
 

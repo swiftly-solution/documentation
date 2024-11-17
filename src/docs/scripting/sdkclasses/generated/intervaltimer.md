@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IntervalTimer(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: intervaltimer.WorldGroupId = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 intervaltimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 intervaltimer:IsValid()
 ```
 

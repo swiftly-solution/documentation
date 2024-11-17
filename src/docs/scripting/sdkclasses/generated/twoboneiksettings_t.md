@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 TwoBoneIKSettings_t(ptr)
 ```
 # Properties
@@ -104,12 +105,12 @@ Write: twoboneiksettings_t.MaxTwist = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 twoboneiksettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 twoboneiksettings_t:IsValid()
 ```
 

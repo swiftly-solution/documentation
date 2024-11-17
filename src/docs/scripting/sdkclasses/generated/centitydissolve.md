@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityDissolve(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: centitydissolve.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centitydissolve:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centitydissolve:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPushable(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpushable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpushable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpushable:IsValid()
 ```
 

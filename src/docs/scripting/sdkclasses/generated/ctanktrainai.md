@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTankTrainAI(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: ctanktrainai.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctanktrainai:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctanktrainai:IsValid()
 ```
 

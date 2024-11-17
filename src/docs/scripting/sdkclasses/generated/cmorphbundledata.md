@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMorphBundleData(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cmorphbundledata.Ranges
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmorphbundledata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmorphbundledata:IsValid()
 ```
 

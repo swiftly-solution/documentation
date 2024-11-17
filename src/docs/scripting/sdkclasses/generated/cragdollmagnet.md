@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRagdollMagnet(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cragdollmagnet.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cragdollmagnet:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cragdollmagnet:IsValid()
 ```
 

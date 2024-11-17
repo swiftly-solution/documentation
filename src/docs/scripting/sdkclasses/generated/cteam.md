@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTeam(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cteam.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cteam:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cteam:IsValid()
 ```
 

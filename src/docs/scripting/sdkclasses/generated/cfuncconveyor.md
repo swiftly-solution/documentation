@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncConveyor(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: cfuncconveyor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncconveyor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncconveyor:IsValid()
 ```
 

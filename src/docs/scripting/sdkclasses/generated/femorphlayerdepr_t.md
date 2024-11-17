@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeMorphLayerDepr_t(ptr)
 ```
 # Properties
@@ -61,12 +62,12 @@ Write: femorphlayerdepr_t.Flags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 femorphlayerdepr_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 femorphlayerdepr_t:IsValid()
 ```
 

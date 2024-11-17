@@ -12,7 +12,7 @@ This event is triggered when ammo_refill is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnAmmoRefill", function(event)
     --[[ ... ]]
     return EventResult.Continue

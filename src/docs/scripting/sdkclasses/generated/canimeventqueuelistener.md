@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimEventQueueListener(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: canimeventqueuelistener.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimeventqueuelistener:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimeventqueuelistener:IsValid()
 ```
 

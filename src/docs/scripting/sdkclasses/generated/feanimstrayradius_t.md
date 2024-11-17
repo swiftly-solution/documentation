@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeAnimStrayRadius_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: feanimstrayradius_t.RelaxationFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feanimstrayradius_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feanimstrayradius_t:IsValid()
 ```
 

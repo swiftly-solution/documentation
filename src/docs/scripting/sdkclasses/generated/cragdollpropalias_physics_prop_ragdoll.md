@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRagdollPropAlias_physics_prop_ragdoll(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cragdollpropalias_physics_prop_ragdoll.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cragdollpropalias_physics_prop_ragdoll:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cragdollpropalias_physics_prop_ragdoll:IsValid()
 ```
 

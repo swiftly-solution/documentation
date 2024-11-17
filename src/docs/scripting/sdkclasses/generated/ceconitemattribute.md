@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEconItemAttribute(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: ceconitemattribute.SetBonus = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ceconitemattribute:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ceconitemattribute:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeFitWeight_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fefitweight_t.Dummy = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fefitweight_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fefitweight_t:IsValid()
 ```
 

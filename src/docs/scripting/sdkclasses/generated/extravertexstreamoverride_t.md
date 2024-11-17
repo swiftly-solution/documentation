@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ExtraVertexStreamOverride_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: extravertexstreamoverride_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 extravertexstreamoverride_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 extravertexstreamoverride_t:IsValid()
 ```
 

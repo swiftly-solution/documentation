@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDynamicsBand_t(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: vmixdynamicsband_t.Solo = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdynamicsband_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdynamicsband_t:IsValid()
 ```
 

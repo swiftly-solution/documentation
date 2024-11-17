@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CConstraintAnchor(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cconstraintanchor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cconstraintanchor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cconstraintanchor:IsValid()
 ```
 

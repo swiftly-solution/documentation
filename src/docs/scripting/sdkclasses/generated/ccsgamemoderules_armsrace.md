@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameModeRules_ArmsRace(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ccsgamemoderules_armsrace.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamemoderules_armsrace:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamemoderules_armsrace:IsValid()
 ```
 

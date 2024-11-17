@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicMeasureMovement(ptr)
 ```
 # Properties
@@ -73,12 +74,12 @@ Read: clogicmeasuremovement.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicmeasuremovement:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicmeasuremovement:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ChainToSolveData_t(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Write: chaintosolvedata_t.DebugOffset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chaintosolvedata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chaintosolvedata_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqScaleSet(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cseqscaleset.BoneScaleArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqscaleset:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqscaleset:IsValid()
 ```
 

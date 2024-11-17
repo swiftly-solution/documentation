@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMarkupVolume(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmarkupvolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmarkupvolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmarkupvolume:IsValid()
 ```
 

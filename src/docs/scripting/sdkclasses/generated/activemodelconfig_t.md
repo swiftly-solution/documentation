@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ActiveModelConfig_t(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: activemodelconfig_t.AssociatedEntityNames
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 activemodelconfig_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 activemodelconfig_t:IsValid()
 ```
 

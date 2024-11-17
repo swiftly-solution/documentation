@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqSeqDescFlag(ptr)
 ```
 # Properties
@@ -84,12 +85,12 @@ Write: cseqseqdescflag.ModelDoc = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqseqdescflag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqseqdescflag:IsValid()
 ```
 

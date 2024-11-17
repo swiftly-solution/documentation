@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CActionComponentUpdater(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cactioncomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cactioncomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cactioncomponentupdater:IsValid()
 ```
 

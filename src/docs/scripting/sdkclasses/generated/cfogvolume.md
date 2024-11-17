@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFogVolume(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cfogvolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfogvolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfogvolume:IsValid()
 ```
 

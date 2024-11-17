@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 BakedLightingInfo_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: bakedlightinginfo_t.VradQuality = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 bakedlightinginfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 bakedlightinginfo_t:IsValid()
 ```
 

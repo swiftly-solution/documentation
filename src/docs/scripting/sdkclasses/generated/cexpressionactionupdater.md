@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CExpressionActionUpdater(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cexpressionactionupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cexpressionactionupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cexpressionactionupdater:IsValid()
 ```
 

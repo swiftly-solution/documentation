@@ -12,7 +12,7 @@ This event is triggered when jointeam_failed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnJointeamFailed", function(event)
     --[[ ... ]]
     return EventResult.Continue

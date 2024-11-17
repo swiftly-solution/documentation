@@ -12,7 +12,7 @@ This event is triggered when round_prestart is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundPrestart", function(event)
     --[[ ... ]]
     return EventResult.Continue

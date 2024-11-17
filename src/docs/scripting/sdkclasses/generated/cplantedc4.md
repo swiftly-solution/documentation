@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlantedC4(ptr)
 ```
 # Properties
@@ -178,12 +179,12 @@ Read: cplantedc4.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplantedc4:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplantedc4:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundOpvarSetAutoRoomEntity(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: csoundopvarsetautoroomentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundopvarsetautoroomentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundopvarsetautoroomentity:IsValid()
 ```
 

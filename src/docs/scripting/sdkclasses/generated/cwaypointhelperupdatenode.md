@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWayPointHelperUpdateNode(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cwaypointhelperupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cwaypointhelperupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cwaypointhelperupdatenode:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when begin_new_match is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnBeginNewMatch", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysPulley(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cphyspulley.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyspulley:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyspulley:IsValid()
 ```
 

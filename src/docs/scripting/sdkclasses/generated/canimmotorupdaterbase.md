@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimMotorUpdaterBase(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: canimmotorupdaterbase.Default = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimmotorupdaterbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimmotorupdaterbase:IsValid()
 ```
 

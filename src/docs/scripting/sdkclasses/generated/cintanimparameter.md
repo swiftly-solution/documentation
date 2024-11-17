@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CIntAnimParameter(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cintanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cintanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cintanimparameter:IsValid()
 ```
 

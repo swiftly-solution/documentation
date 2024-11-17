@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameRules(ptr)
 ```
 # Properties
@@ -1136,12 +1137,12 @@ Read: ccsgamerules.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamerules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamerules:IsValid()
 ```
 

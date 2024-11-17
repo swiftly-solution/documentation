@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMathRemap(ptr)
 ```
 # Properties
@@ -79,12 +80,12 @@ Read: cmathremap.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmathremap:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmathremap:IsValid()
 ```
 

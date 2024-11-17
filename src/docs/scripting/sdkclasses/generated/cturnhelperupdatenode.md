@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTurnHelperUpdateNode(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cturnhelperupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cturnhelperupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cturnhelperupdatenode:IsValid()
 ```
 

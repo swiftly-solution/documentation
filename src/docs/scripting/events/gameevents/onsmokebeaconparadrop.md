@@ -12,7 +12,7 @@ This event is triggered when smoke_beacon_paradrop is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSmokeBeaconParadrop", function(event)
     --[[ ... ]]
     return EventResult.Continue

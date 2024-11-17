@@ -12,7 +12,7 @@ This event is triggered when weaponhud_selection is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnWeaponhudSelection", function(event)
     --[[ ... ]]
     return EventResult.Continue

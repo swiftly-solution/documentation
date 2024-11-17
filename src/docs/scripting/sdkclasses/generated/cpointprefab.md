@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointPrefab(ptr)
 ```
 # Properties
@@ -58,12 +59,12 @@ Read: cpointprefab.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointprefab:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointprefab:IsValid()
 ```
 

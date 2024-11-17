@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelPointEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmodelpointentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelpointentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelpointentity:IsValid()
 ```
 

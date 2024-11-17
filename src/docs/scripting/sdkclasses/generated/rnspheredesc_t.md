@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnSphereDesc_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: rnspheredesc_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnspheredesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnspheredesc_t:IsValid()
 ```
 

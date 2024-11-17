@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmRootMotionEvent(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnmrootmotionevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmrootmotionevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmrootmotionevent:IsValid()
 ```
 

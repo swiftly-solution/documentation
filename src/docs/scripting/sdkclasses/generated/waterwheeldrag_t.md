@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WaterWheelDrag_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: waterwheeldrag_t.WheelDrag = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 waterwheeldrag_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 waterwheeldrag_t:IsValid()
 ```
 

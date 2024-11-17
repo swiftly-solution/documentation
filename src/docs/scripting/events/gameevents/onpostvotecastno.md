@@ -12,7 +12,7 @@ This event is triggered after vote_cast_no is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostVoteCastNo", function(event)
     --[[ ... ]]
     return EventResult.Continue

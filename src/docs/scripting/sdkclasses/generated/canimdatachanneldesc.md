@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimDataChannelDesc(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: canimdatachanneldesc.ElementMaskArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdatachanneldesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdatachanneldesc:IsValid()
 ```
 

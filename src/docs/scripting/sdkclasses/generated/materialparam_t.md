@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialParam_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: materialparam_t.Name = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialparam_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialparam_t:IsValid()
 ```
 

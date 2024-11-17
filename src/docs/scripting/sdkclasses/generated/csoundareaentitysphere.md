@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundAreaEntitySphere(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csoundareaentitysphere.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundareaentitysphere:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundareaentitysphere:IsValid()
 ```
 

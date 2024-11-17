@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnumAnimParameter(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cenumanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenumanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenumanimparameter:IsValid()
 ```
 

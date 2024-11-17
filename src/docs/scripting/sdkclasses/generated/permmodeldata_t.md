@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PermModelData_t(ptr)
 ```
 # Properties
@@ -105,12 +106,12 @@ Read: permmodeldata_t.AnimatedMaterialAttributes
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 permmodeldata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 permmodeldata_t:IsValid()
 ```
 

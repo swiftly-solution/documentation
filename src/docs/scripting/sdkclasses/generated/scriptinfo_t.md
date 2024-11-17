@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ScriptInfo_t(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Write: scriptinfo_t.ScriptType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 scriptinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 scriptinfo_t:IsValid()
 ```
 

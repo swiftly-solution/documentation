@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseEntity(ptr)
 ```
 # Properties
@@ -469,57 +470,68 @@ Read: cbaseentity.Parent
 # Functions
 ## EmitSound
 ```lua
-@returns void
+--- @param sound_name string
+--- @param pitch number
+--- @param volume number
+--- @return void
 cbaseentity:EmitSound(sound_name, pitch, volume)
 ```
 ## CollisionRulesChanged
 ```lua
-@returns void
+--- @return void
 cbaseentity:CollisionRulesChanged()
 ```
 ## EHandle
 ```lua
-@returns CBaseEntity
+--- @return CBaseEntity
 cbaseentity:EHandle()
 ```
 ## Spawn
 ```lua
-@returns void
+--- @param keyvals CEntityKeyValues|nil
+--- @return void
 cbaseentity:Spawn(keyvals)
 ```
 ## Despawn
 ```lua
-@returns void
+--- @return void
 cbaseentity:Despawn()
 ```
 ## AcceptInput
 ```lua
-@returns void
+--- @param input string
+--- @param activator CEntityInstance
+--- @param caller CEntityInstance
+--- @param value string
+--- @param outputID number
+--- @return void
 cbaseentity:AcceptInput(input, activator, caller, value, outputID)
 ```
 ## GetClassname
 ```lua
-@returns string
+--- @return string
 cbaseentity:GetClassname()
 ```
 ## GetVData
 ```lua
-@returns CEntitySubclassVDataBase
+--- @return CEntitySubclassVDataBase
 cbaseentity:GetVData()
 ```
 ## Teleport
 ```lua
-@returns void
+--- @param value Vector
+--- @param angle QAngle
+--- @return void
 cbaseentity:Teleport(value, angle)
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseentity:IsValid()
 ```
 

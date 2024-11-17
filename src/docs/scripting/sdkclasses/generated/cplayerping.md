@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayerPing(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: cplayerping.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayerping:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayerping:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayer_HostageServices(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: ccsplayer_hostageservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayer_hostageservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayer_hostageservices:IsValid()
 ```
 

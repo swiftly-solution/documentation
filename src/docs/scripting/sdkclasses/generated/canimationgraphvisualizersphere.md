@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimationGraphVisualizerSphere(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: canimationgraphvisualizersphere.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimationgraphvisualizersphere:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimationgraphvisualizersphere:IsValid()
 ```
 

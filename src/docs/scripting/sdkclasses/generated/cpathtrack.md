@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathTrack(ptr)
 ```
 # Properties
@@ -73,12 +74,12 @@ Read: cpathtrack.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathtrack:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathtrack:IsValid()
 ```
 

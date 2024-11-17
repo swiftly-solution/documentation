@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncPropRespawnZone(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncproprespawnzone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncproprespawnzone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncproprespawnzone:IsValid()
 ```
 

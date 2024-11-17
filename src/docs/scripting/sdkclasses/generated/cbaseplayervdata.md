@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBasePlayerVData(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Read: cbaseplayervdata.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseplayervdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseplayervdata:IsValid()
 ```
 

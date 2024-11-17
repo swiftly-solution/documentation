@@ -12,7 +12,7 @@ This event is triggered after survival_paradrop_break is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSurvivalParadropBreak", function(event)
     --[[ ... ]]
     return EventResult.Continue

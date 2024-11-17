@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleFunction(ptr)
 ```
 # Properties
@@ -113,12 +114,12 @@ Write: cparticlefunction.Notes = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlefunction:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlefunction:IsValid()
 ```
 

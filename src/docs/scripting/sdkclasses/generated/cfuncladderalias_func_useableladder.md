@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncLadderAlias_func_useableladder(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncladderalias_func_useableladder.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncladderalias_func_useableladder:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncladderalias_func_useableladder:IsValid()
 ```
 

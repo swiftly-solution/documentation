@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompMatPropertyMutator_t(ptr)
 ```
 # Properties
@@ -181,12 +182,12 @@ Read: compmatpropertymutator_t.Conditions
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compmatpropertymutator_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compmatpropertymutator_t:IsValid()
 ```
 

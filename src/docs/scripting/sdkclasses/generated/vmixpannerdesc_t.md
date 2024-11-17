@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixPannerDesc_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: vmixpannerdesc_t.Strength = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixpannerdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixpannerdesc_t:IsValid()
 ```
 

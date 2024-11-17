@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupActionSoundeventMinMaxValuesSchema(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: csosgroupactionsoundeventminmaxvaluesschema.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupactionsoundeventminmaxvaluesschema:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupactionsoundeventminmaxvaluesschema:IsValid()
 ```
 

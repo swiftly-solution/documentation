@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysLength(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cphyslength.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyslength:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyslength:IsValid()
 ```
 

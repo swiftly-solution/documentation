@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkedSequenceOperation(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: cnetworkedsequenceoperation.PrevCycleForAnimEventDetection = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworkedsequenceoperation:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworkedsequenceoperation:IsValid()
 ```
 

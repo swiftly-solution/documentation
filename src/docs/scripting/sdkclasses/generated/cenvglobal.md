@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvGlobal(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cenvglobal.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvglobal:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvglobal:IsValid()
 ```
 

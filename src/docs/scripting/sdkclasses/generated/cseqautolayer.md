@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqAutoLayer(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Write: cseqautolayer.End = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqautolayer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqautolayer:IsValid()
 ```
 

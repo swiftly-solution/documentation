@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSlopeComponentUpdater(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cslopecomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cslopecomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cslopecomponentupdater:IsValid()
 ```
 

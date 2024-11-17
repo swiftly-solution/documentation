@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnBlendVertex_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: rnblendvertex_t.TargetIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnblendvertex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnblendvertex_t:IsValid()
 ```
 

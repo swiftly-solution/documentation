@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicDistanceAutosave(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: clogicdistanceautosave.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicdistanceautosave:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicdistanceautosave:IsValid()
 ```
 

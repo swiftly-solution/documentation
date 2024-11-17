@@ -14,7 +14,7 @@ This game event is triggered when a user message is being sent to a player.
 --- @param event Event
 --- @param usermessage_uuid string
 --- @param isreliable boolean
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnUserMessageSend", function(event, usermessage_uuid, isreliable)
     --[[ ... ]]

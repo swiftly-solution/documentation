@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PermModelDataAnimatedMaterialAttribute_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: permmodeldataanimatedmaterialattribute_t.NumChannels = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 permmodeldataanimatedmaterialattribute_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 permmodeldataanimatedmaterialattribute_t:IsValid()
 ```
 

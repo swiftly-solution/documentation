@@ -12,7 +12,7 @@ This event is triggered after open_crate_instr is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostOpenCrateInstr", function(event)
     --[[ ... ]]
     return EventResult.Continue

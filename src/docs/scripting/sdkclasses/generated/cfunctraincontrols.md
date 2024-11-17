@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncTrainControls(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfunctraincontrols.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfunctraincontrols:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfunctraincontrols:IsValid()
 ```
 

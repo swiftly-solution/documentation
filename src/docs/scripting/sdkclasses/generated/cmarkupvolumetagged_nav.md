@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMarkupVolumeTagged_Nav(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmarkupvolumetagged_nav.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmarkupvolumetagged_nav:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmarkupvolumetagged_nav:IsValid()
 ```
 

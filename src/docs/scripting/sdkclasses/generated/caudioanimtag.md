@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAudioAnimTag(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: caudioanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caudioanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caudioanimtag:IsValid()
 ```
 

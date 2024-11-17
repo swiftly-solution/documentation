@@ -12,7 +12,7 @@ This event is triggered when door_moving is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnDoorMoving", function(event)
     --[[ ... ]]
     return EventResult.Continue

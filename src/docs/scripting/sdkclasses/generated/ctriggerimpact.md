@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerImpact(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: ctriggerimpact.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerimpact:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerimpact:IsValid()
 ```
 

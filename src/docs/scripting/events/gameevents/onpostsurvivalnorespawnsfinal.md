@@ -12,7 +12,7 @@ This event is triggered after survival_no_respawns_final is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSurvivalNoRespawnsFinal", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ConfigIndex(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: configindex.Config = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 configindex:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 configindex:IsValid()
 ```
 

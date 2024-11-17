@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AggregateLODSetup_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: aggregatelodsetup_t.SwitchDistances
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aggregatelodsetup_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aggregatelodsetup_t:IsValid()
 ```
 

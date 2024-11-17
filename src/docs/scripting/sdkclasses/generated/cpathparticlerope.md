@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathParticleRope(ptr)
 ```
 # Properties
@@ -106,12 +107,12 @@ Read: cpathparticlerope.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathparticlerope:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathparticlerope:IsValid()
 ```
 

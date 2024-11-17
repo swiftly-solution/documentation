@@ -15,7 +15,7 @@ This game event is triggered when a player sends a text message.
 --- @param playerid number
 --- @param text string
 --- @param teamonly boolean
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns boolean Via event:SetReturn
 AddEventHandler("OnClientChat", function(event, playerid, text, teamonly)
     --[[ ... ]]

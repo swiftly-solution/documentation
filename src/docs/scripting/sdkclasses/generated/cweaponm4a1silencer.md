@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponM4A1Silencer(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponm4a1silencer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponm4a1silencer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponm4a1silencer:IsValid()
 ```
 

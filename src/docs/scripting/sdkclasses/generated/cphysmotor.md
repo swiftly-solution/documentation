@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysMotor(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cphysmotor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysmotor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysmotor:IsValid()
 ```
 

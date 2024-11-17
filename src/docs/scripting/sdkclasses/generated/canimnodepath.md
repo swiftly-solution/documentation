@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimNodePath(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: canimnodepath.Count = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimnodepath:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimnodepath:IsValid()
 ```
 

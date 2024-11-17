@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicalButton(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cphysicalbutton.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicalbutton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicalbutton:IsValid()
 ```
 

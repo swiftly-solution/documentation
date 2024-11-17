@@ -12,7 +12,7 @@ This event is triggered after add_bullet_hit_marker is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostAddBulletHitMarker", function(event)
     --[[ ... ]]
     return EventResult.Continue

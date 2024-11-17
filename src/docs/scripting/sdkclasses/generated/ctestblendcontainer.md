@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTestBlendContainer(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctestblendcontainer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctestblendcontainer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctestblendcontainer:IsValid()
 ```
 

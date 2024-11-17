@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeBuildTaperedCapsuleRigid_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: febuildtaperedcapsulerigid_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 febuildtaperedcapsulerigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 febuildtaperedcapsulerigid_t:IsValid()
 ```
 

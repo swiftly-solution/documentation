@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnHull_t(ptr)
 ```
 # Properties
@@ -89,12 +90,12 @@ Read: rnhull_t.RegionSVM
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnhull_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnhull_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncBrush(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cfuncbrush.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncbrush:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncbrush:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStateActionUpdater(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cstateactionupdater.Behavior = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstateactionupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstateactionupdater:IsValid()
 ```
 

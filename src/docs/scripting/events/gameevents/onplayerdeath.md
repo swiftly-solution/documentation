@@ -12,7 +12,7 @@ This event is triggered when player_death is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerDeath", function(event)
     --[[ ... ]]
     return EventResult.Continue

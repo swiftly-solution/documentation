@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncPlat(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfuncplat.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncplat:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncplat:IsValid()
 ```
 

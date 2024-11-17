@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlexRule(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cflexrule.FlexOps
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflexrule:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflexrule:IsValid()
 ```
 

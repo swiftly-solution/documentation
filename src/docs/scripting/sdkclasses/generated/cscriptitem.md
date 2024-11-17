@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CScriptItem(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cscriptitem.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscriptitem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscriptitem:IsValid()
 ```
 

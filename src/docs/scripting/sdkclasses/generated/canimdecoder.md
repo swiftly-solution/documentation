@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimDecoder(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: canimdecoder.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimdecoder:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimdecoder:IsValid()
 ```
 

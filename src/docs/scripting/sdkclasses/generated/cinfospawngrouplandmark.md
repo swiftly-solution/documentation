@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoSpawnGroupLandmark(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfospawngrouplandmark.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfospawngrouplandmark:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfospawngrouplandmark:IsValid()
 ```
 

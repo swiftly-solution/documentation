@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VecInputMaterialVariable_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: vecinputmaterialvariable_t.StrVariable = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vecinputmaterialvariable_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vecinputmaterialvariable_t:IsValid()
 ```
 

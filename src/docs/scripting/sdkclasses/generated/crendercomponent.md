@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRenderComponent(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: crendercomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crendercomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crendercomponent:IsValid()
 ```
 

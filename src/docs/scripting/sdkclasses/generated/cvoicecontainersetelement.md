@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerSetElement(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: cvoicecontainersetelement.VolumeDB = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainersetelement:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainersetelement:IsValid()
 ```
 

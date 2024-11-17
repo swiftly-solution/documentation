@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundOpvarSetPointBase(ptr)
 ```
 # Properties
@@ -76,12 +77,12 @@ Read: csoundopvarsetpointbase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundopvarsetpointbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundopvarsetpointbase:IsValid()
 ```
 

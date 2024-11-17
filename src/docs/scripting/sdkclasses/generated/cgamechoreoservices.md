@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameChoreoServices(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cgamechoreoservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamechoreoservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamechoreoservices:IsValid()
 ```
 

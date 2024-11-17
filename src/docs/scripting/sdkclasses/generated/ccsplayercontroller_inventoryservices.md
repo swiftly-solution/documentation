@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayerController_InventoryServices(ptr)
 ```
 # Properties
@@ -76,12 +77,12 @@ Read: ccsplayercontroller_inventoryservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayercontroller_inventoryservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayercontroller_inventoryservices:IsValid()
 ```
 

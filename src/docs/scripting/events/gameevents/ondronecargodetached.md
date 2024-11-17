@@ -12,7 +12,7 @@ This event is triggered when drone_cargo_detached is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnDroneCargoDetached", function(event)
     --[[ ... ]]
     return EventResult.Continue

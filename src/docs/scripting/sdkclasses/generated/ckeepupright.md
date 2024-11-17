@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CKeepUpright(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Read: ckeepupright.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ckeepupright:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ckeepupright:IsValid()
 ```
 

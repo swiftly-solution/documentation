@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointVelocitySensor(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: cpointvelocitysensor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointvelocitysensor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointvelocitysensor:IsValid()
 ```
 

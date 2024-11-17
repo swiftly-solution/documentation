@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompMatMutatorCondition_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: compmatmutatorcondition_t.PassWhenTrue = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compmatmutatorcondition_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compmatmutatorcondition_t:IsValid()
 ```
 

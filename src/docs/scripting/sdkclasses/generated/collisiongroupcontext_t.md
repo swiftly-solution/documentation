@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CollisionGroupContext_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: collisiongroupcontext_t.CollisionGroupNumber = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 collisiongroupcontext_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 collisiongroupcontext_t:IsValid()
 ```
 

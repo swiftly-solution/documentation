@@ -12,7 +12,7 @@ This event is triggered after guardian_wave_restart is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostGuardianWaveRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue

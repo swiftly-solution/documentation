@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeCtrlOsOffset_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: fectrlosoffset_t.CtrlChild = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fectrlosoffset_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fectrlosoffset_t:IsValid()
 ```
 

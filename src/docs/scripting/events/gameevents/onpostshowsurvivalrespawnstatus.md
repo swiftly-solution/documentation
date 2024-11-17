@@ -12,7 +12,7 @@ This event is triggered after show_survival_respawn_status is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostShowSurvivalRespawnStatus", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered after team_intro_start is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostTeamIntroStart", function(event)
     --[[ ... ]]
     return EventResult.Continue

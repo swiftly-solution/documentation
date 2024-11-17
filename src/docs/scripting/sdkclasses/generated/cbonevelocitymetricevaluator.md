@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBoneVelocityMetricEvaluator(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cbonevelocitymetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbonevelocitymetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbonevelocitymetricevaluator:IsValid()
 ```
 

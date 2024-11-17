@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVPhysXSurfacePropertiesList(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cvphysxsurfacepropertieslist.SurfacePropertiesList
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvphysxsurfacepropertieslist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvphysxsurfacepropertieslist:IsValid()
 ```
 

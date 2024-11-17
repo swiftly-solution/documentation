@@ -12,7 +12,7 @@ This event is triggered when weapon_fire_on_empty is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnWeaponFireOnEmpty", function(event)
     --[[ ... ]]
     return EventResult.Continue

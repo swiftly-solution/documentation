@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimReplayFrame(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimreplayframe.TimeStamp = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimreplayframe:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimreplayframe:IsValid()
 ```
 

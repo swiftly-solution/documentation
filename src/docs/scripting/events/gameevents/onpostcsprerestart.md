@@ -12,7 +12,7 @@ This event is triggered after cs_pre_restart is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsPreRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue

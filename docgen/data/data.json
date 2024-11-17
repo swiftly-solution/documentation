@@ -131,7 +131,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "The callback has the following arguments:\n```lua\ncb(playerid --[[ number ]], args --[[ table ]], argsCount --[[ number ]], silent --[[ boolean ]], prefix --[[ string ]])\n```"
+                    "lua": "The callback has the following arguments:\n```lua\n--- @param playerid number\n--- @param args table\n--- @param argsCount number\n--- @param silent boolean\n--- @param prefix string\n--- @return void\ncb(playerid, args, argsCount, silent, prefix)\n```"
                 }
             },
             "unregister": {
@@ -487,6 +487,141 @@
                     "lua": "```lua\nevents:on(\"OnPluginStart\", function()\n    db = Database(\"CONNECTION_NAME\")\nend)\n```"
                 }
             },
+            "querybuilderfunc": {
+                "title": "Query Builder Function",
+                "template": "function-syntax",
+                "description": "Returns a QueryBuilder object.",
+                "variable": {
+                    "lua": "db:QueryBuilder"
+                },
+                "return": {
+                    "lua": "QueryBuilder"
+                },
+                "params": {},
+                "additional": {}
+            },
+            "querybuilder": {
+                "title": "QueryBuilder",
+                "description": "This is a class to build an SQL query.",
+                "template": "class-syntax",
+                "languages": [
+                    "lua"
+                ],
+                "constructor": {},
+                "properties": {},
+                "functions": {
+                    "Table": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "table_name": "string"
+                        }
+                    },
+                    "Select": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "columns": "table"
+                        }
+                    },
+                    "Insert": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "insert_values": "table"
+                        }
+                    },
+                    "Update": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "update_values": "table"
+                        }
+                    },
+                    "Delete": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {}
+                    },
+                    "Where": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "column": "string",
+                            "operator": "string",
+                            "value": "string/number/boolean"
+                        }
+                    },
+                    "OrWhere": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "column": "string",
+                            "operator": "string",
+                            "value": "string/number/boolean"
+                        }
+                    },
+                    "Join": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "table_name": "string",
+                            "condition": "string",
+                            "join_type": "string"
+                        }
+                    },
+                    "OrderBy": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "column": "string",
+                            "direction": "string"
+                        }
+                    },
+                    "Limit": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "count": "number"
+                        }
+                    },
+                    "GroupBy": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "columns": "table"
+                        }
+                    },
+                    "ToString": {
+                        "return": {
+                            "lua": "string"
+                        },
+                        "params": {}
+                    },
+                    "Execute": {
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "callback": "function"
+                        }
+                    }
+                },
+                "additional": {
+                    "lua": "### Callback\nThe callback has the following arguments:\n```lua\n--- @param err string\n--- @param result table\n--- @return nil\ncb(err, result)\n```"
+                }
+            },
             "escapestring": {
                 "title": "Escape String",
                 "template": "function-syntax",
@@ -532,7 +667,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Callback\nThe callback has the following arguments:\n```lua\ncb(err --[[ string ]], result --[[ table ]])\n```"
+                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Callback\nThe callback has the following arguments:\n```lua\n--- @param err string\n--- @param result table\n--- @return nil\ncb(err, result)\n```"
                 }
             },
             "queryparams": {
@@ -551,7 +686,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Params\nThe parameters can be used by the following format inside the query string:\n```\n@key\n[key]\n{key}\n```\n\nInside the parameters value it needs to be the following format\n```lua\n{\n    [\"key\"] = value,\n    [\"key2\"] = value,\n    -- ...\n}\n```\n\nThe values can be a string, a number or a boolean. It will automatically convert to string form and perform EscapeString to it so that there would be no chance for SQL Injection.\n\n### Callback\nThe callback has the following arguments:\n```lua\ncb(err --[[ string ]], result --[[ table ]])\n```"
+                    "lua": "> [!info]\n> If database is not connected it will never execute.\n\n### Params\nThe parameters can be used by the following format inside the query string:\n```\n@key\n[key]\n{key}\n```\n\nInside the parameters value it needs to be the following format\n```lua\n{\n    [\"key\"] = value,\n    [\"key2\"] = value,\n    -- ...\n}\n```\n\nThe values can be a string, a number or a boolean. It will automatically convert to string form and perform EscapeString to it so that there would be no chance for SQL Injection.\n\n### Callback\nThe callback has the following arguments:\n```lua\n--- @param err string\n--- @param result table\n--- @return nil\ncb(err, result)\n```"
                 }
             }
         }
@@ -8563,7 +8698,7 @@
                             "callback": "function"
                         },
                         "additional": {
-                            "lua": "The callback has the following arguments:\n```lua\ncb(event --[[ Event ]], ... --[[ Any* any ]])\n```\nThe callback may return a value of EventResult."
+                            "lua": "The callback has the following arguments:\n```lua\n-- @param event Event\n--- @return number|nil EventResult\ncb(event, ...)\n```\nThe callback may return a value of EventResult."
                         }
                     },
                     "removeeventhandler": {
@@ -8623,7 +8758,7 @@
                     "output": "string"
                 },
                 "additional": {
-                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](https://swiftlycs2.net/docs/scripting/hooks/addprehooklistener.html) or an [AddPostHookListener](https://swiftlycs2.net/docs/scripting/hooks/addposthooklistener.html) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\nAddPreHookListener(hookoutput, function(event --[[ Event ]], iooutput_ptr --[[ string ]], event_output --[[ string ]], activator_ptr --[[ string ]], caller_ptr --[[ string ]], delay --[[ number ]])\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
+                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](https://swiftlycs2.net/docs/scripting/hooks/addprehooklistener.html) or an [AddPostHookListener](https://swiftlycs2.net/docs/scripting/hooks/addposthooklistener.html) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\n--- @param event Event\n--- @param iooutput_ptr string\n--- @param event_output string\n--- @param activator_ptr string\n--- @param caller_ptr string\n--- @param delay number\n--- @return number|nil EventResult\nAddPreHookListener(hookoutput, function(event, iooutput_ptr, event_output, activator_ptr, caller_ptr, delay)\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
                 }
             },
             "findentitiesbyclassname": {
@@ -8943,7 +9078,7 @@
                     "lua": "exports[\"PLUGIN_NAME\"]:EXPORT_NAME"
                 },
                 "return": {
-                    "lua": "Any* any"
+                    "lua": "any"
                 },
                 "params": {
                     "...": "any"
@@ -9214,7 +9349,7 @@
                     "files": "table"
                 },
                 "additional": {
-                    "lua": "The callback has the following arguments:\n```lua\ncb(status --[[ number ]], body --[[ string ]], headers --[[ table ]], err --[[ string ]])\n```"
+                    "lua": "The callback has the following arguments:\n```lua\n--- @param status number\n--- @param body string\n--- @param headers table\n--- @param err string\n--- @return nil\ncb(status, body, headers, err)\n```"
                 }
             },
             "listen": {
@@ -9233,7 +9368,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "The callback has the following arguments:\n```lua\ncb(req --[[ HTTPRequest ]], res --[[ HTTPResponse ]])\n```"
+                    "lua": "The callback has the following arguments:\n```lua\n--- @param req HTTPRequest\n--- @param res HTTPResponse\n--- @return nil\ncb(req, res)\n```"
                 }
             },
             "request": {
@@ -9374,7 +9509,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "The callback has the following arguments:\n```lua\ncb(event --[[ Event ]])\n```\nThe callback may return a value of EventResult."
+                    "lua": "The callback has the following arguments:\n```lua\n-- @param event Event\n--- @return number|nil EventResult\ncb(event)\n```\nThe callback may return a value of EventResult."
                 }
             },
             "addposthooklistener": {
@@ -9392,7 +9527,7 @@
                     "callback": "function"
                 },
                 "additional": {
-                    "lua": "The callback has the following arguments:\n```lua\ncb(event --[[ Event ]])\n```\nThe callback may return a value of EventResult."
+                    "lua": "The callback has the following arguments:\n```lua\n-- @param event Event\n--- @return number|nil EventResult\ncb(event)\n```\nThe callback may return a value of EventResult."
                 }
             },
             "removehooklistener": {
@@ -9418,7 +9553,7 @@
                     "lua": "CallHook"
                 },
                 "return": {
-                    "lua": "Any* any"
+                    "lua": "any"
                 },
                 "params": {
                     "hookHandle": "HookHandle",
@@ -10469,7 +10604,7 @@
                     "lua": "player:GetVar"
                 },
                 "return": {
-                    "lua": "Any* any"
+                    "lua": "any"
                 },
                 "params": {
                     "key": "string"
@@ -94216,7 +94351,7 @@
                             "callback": "function"
                         },
                         "additional": {
-                            "lua": "The callback has the following arguments:\n```lua\n--- @return boolean\ncb(element --[[ any ]])\n```"
+                            "lua": "The callback has the following arguments:\n```lua\n--- @param element any\n--- @return boolean\ncb(element)\n```"
                         }
                     },
                     "tablefilter": {
@@ -94234,7 +94369,7 @@
                             "callback": "function"
                         },
                         "additional": {
-                            "lua": "The callback has the following arguments:\n```lua\n--- @return boolean\ncb(element --[[ any ]])\n```"
+                            "lua": "The callback has the following arguments:\n```lua\n--- @param element any\n--- @return boolean\ncb(element)\n```"
                         }
                     },
                     "tablecontains": {
@@ -94250,6 +94385,36 @@
                         "params": {
                             "tbl": "table",
                             "element": "any"
+                        },
+                        "additional": {}
+                    },
+                    "isvaliditem": {
+                        "title": "IsValidItem",
+                        "template": "function-syntax",
+                        "description": "Checks if the provided item name is valid.",
+                        "variable": {
+                            "lua": "IsValidItem"
+                        },
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "name": "string"
+                        },
+                        "additional": {}
+                    },
+                    "isvalidweapon": {
+                        "title": "IsValidWeapon",
+                        "template": "function-syntax",
+                        "description": "Checks if the provided weapon name is valid.",
+                        "variable": {
+                            "lua": "IsValidWeapon"
+                        },
+                        "return": {
+                            "lua": "boolean"
+                        },
+                        "params": {
+                            "name": "string"
                         },
                         "additional": {}
                     }
@@ -95061,6 +95226,81 @@
                         },
                         "additional": {}
                     },
+                    "removebyclassname": {
+                        "title": "RemoveByClassname",
+                        "template": "function-syntax",
+                        "description": "Removes the weapons with the specified classname.",
+                        "variable": {
+                            "lua": "weaponmanager:RemoveByClassname"
+                        },
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "classname": "string"
+                        },
+                        "additional": {}
+                    },
+                    "removebyslot": {
+                        "title": "RemoveBySlot",
+                        "template": "function-syntax",
+                        "description": "Removes the weapons with the specified slot.",
+                        "variable": {
+                            "lua": "weaponmanager:RemoveBySlot"
+                        },
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "slot": "gear_slot_t"
+                        },
+                        "additional": {}
+                    },
+                    "removebyitemdefinition": {
+                        "title": "RemoveByItemDefinition",
+                        "template": "function-syntax",
+                        "description": "Removes the weapons with the specified item definition index.",
+                        "variable": {
+                            "lua": "weaponmanager:RemoveByItemDefinition"
+                        },
+                        "return": {
+                            "lua": "void"
+                        },
+                        "params": {
+                            "idx": "number"
+                        },
+                        "additional": {}
+                    },
+                    "getfirstinslot": {
+                        "title": "GetFIrstInSlot",
+                        "template": "function-syntax",
+                        "description": "Returns the first weapon in the specified slot.",
+                        "variable": {
+                            "lua": "weaponmanager:GetFIrstInSlot"
+                        },
+                        "return": {
+                            "lua": "Weapon"
+                        },
+                        "params": {
+                            "slot": "gear_slot_t"
+                        },
+                        "additional": {}
+                    },
+                    "getinslot": {
+                        "title": "GetInSlot",
+                        "template": "function-syntax",
+                        "description": "Returns the weapons in the specified slot.",
+                        "variable": {
+                            "lua": "weaponmanager:GetInSlot"
+                        },
+                        "return": {
+                            "lua": "table Weapon"
+                        },
+                        "params": {
+                            "slot": "gear_slot_t"
+                        },
+                        "additional": {}
+                    },
                     "removeweapons": {
                         "title": "RemoveWeapons",
                         "template": "function-syntax",
@@ -95095,7 +95335,7 @@
                             "lua": "weaponmanager:GetWeapons"
                         },
                         "return": {
-                            "lua": "table of Weapon"
+                            "lua": "table Weapon"
                         },
                         "params": {},
                         "additional": {}

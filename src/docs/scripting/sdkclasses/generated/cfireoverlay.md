@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFireOverlay(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cfireoverlay.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfireoverlay:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfireoverlay:IsValid()
 ```
 

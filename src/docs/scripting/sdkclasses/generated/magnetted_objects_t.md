@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 magnetted_objects_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: magnetted_objects_t.Entity
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 magnetted_objects_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 magnetted_objects_t:IsValid()
 ```
 

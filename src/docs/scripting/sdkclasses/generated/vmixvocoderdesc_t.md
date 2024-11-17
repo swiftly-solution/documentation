@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixVocoderDesc_t(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: vmixvocoderdesc_t.PeakMode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixvocoderdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixvocoderdesc_t:IsValid()
 ```
 

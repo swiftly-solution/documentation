@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmGraphDefinition(ptr)
 ```
 # Properties
@@ -55,12 +56,12 @@ Write: cnmgraphdefinition.RuntimeVersionID = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmgraphdefinition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmgraphdefinition:IsValid()
 ```
 

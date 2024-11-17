@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FilterTeam(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: filterteam.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 filterteam:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 filterteam:IsValid()
 ```
 

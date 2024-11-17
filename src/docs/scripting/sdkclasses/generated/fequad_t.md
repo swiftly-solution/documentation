@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeQuad_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fequad_t.Shape = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fequad_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fequad_t:IsValid()
 ```
 

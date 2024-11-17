@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 GeneratedTextureHandle_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: generatedtexturehandle_t.StrBitmapName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 generatedtexturehandle_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 generatedtexturehandle_t:IsValid()
 ```
 

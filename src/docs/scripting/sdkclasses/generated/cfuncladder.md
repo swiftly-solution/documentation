@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncLadder(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: cfuncladder.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncladder:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncladder:IsValid()
 ```
 

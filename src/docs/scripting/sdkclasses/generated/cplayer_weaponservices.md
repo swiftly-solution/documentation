@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_WeaponServices(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: cplayer_weaponservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_weaponservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_weaponservices:IsValid()
 ```
 

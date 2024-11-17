@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTestEffect(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: ctesteffect.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctesteffect:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctesteffect:IsValid()
 ```
 

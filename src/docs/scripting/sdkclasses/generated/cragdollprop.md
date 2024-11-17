@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRagdollProp(ptr)
 ```
 # Properties
@@ -176,12 +177,12 @@ Read: cragdollprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cragdollprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cragdollprop:IsValid()
 ```
 

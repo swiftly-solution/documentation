@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 constraint_hingeparams_t(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: constraint_hingeparams_t.Constraint
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 constraint_hingeparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 constraint_hingeparams_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLightEntity(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: clightentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clightentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clightentity:IsValid()
 ```
 

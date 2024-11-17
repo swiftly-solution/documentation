@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 sndopvarlatchdata_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: sndopvarlatchdata_t.Pos = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sndopvarlatchdata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sndopvarlatchdata_t:IsValid()
 ```
 

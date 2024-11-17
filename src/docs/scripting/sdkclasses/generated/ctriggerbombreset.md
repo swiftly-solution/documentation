@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerBombReset(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctriggerbombreset.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerbombreset:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerbombreset:IsValid()
 ```
 

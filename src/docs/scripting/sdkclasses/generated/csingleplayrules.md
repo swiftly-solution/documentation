@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSingleplayRules(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csingleplayrules.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csingleplayrules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csingleplayrules:IsValid()
 ```
 

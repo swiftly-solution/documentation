@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoxelVisibility(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Read: cvoxelvisibility.VisBlocks
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoxelvisibility:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoxelvisibility:IsValid()
 ```
 

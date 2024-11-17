@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 BaseSceneObjectOverride_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: basesceneobjectoverride_t.SceneObjectIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 basesceneobjectoverride_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 basesceneobjectoverride_t:IsValid()
 ```
 

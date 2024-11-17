@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqS1SeqDesc(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cseqs1seqdesc.FootMotion
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqs1seqdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqs1seqdesc:IsValid()
 ```
 

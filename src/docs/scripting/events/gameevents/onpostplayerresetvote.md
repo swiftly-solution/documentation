@@ -12,7 +12,7 @@ This event is triggered after player_reset_vote is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostPlayerResetVote", function(event)
     --[[ ... ]]
     return EventResult.Continue

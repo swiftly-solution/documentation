@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBindPoseUpdateNode(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbindposeupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbindposeupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbindposeupdatenode:IsValid()
 ```
 

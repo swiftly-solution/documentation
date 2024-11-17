@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseIssue(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: cbaseissue.NumPotentialVotes = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseissue:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseissue:IsValid()
 ```
 

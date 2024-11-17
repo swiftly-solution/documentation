@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRagdollAnimTag(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cragdollanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cragdollanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cragdollanimtag:IsValid()
 ```
 

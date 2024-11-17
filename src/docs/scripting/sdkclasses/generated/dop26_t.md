@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 Dop26_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: dop26_t.Support = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 dop26_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 dop26_t:IsValid()
 ```
 

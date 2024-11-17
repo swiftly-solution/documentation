@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_AttachedModel(ptr)
 ```
 # Properties
@@ -101,12 +102,12 @@ Read: cmodelconfigelement_attachedmodel.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_attachedmodel:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_attachedmodel:IsValid()
 ```
 

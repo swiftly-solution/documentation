@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParamSpanSample_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: paramspansample_t.Cycle = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 paramspansample_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 paramspansample_t:IsValid()
 ```
 

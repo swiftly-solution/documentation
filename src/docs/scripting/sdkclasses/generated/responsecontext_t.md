@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ResponseContext_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: responsecontext_t.ExpirationTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 responsecontext_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 responsecontext_t:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when seasoncoin_levelup is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSeasoncoinLevelup", function(event)
     --[[ ... ]]
     return EventResult.Continue

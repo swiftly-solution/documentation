@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleNamedValueSource_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: particlenamedvaluesource_t.NamedConfigs
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlenamedvaluesource_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlenamedvaluesource_t:IsValid()
 ```
 

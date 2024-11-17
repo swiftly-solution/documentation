@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmSyncTrack(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cnmsynctrack.StartEventOffset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmsynctrack:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmsynctrack:IsValid()
 ```
 

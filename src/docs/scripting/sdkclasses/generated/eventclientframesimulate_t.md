@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientFrameSimulate_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: eventclientframesimulate_t.ScheduleSendTickPacket = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientframesimulate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientframesimulate_t:IsValid()
 ```
 

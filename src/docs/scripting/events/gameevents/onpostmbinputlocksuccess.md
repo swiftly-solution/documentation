@@ -12,7 +12,7 @@ This event is triggered after mb_input_lock_success is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostMbInputLockSuccess", function(event)
     --[[ ... ]]
     return EventResult.Continue

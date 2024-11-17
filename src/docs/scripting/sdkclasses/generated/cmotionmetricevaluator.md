@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionMetricEvaluator(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Write: cmotionmetricevaluator.DimensionStartIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionmetricevaluator:IsValid()
 ```
 

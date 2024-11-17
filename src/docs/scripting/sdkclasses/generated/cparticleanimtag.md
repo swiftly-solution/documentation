@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleAnimTag(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Read: cparticleanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticleanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticleanimtag:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBlendUpdateNode(ptr)
 ```
 # Properties
@@ -84,12 +85,12 @@ Read: cblendupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cblendupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cblendupdatenode:IsValid()
 ```
 

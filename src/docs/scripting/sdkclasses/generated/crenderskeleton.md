@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRenderSkeleton(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Write: crenderskeleton.BoneWeightCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crenderskeleton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crenderskeleton:IsValid()
 ```
 

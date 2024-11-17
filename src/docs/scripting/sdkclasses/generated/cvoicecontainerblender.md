@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerBlender(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cvoicecontainerblender.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerblender:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerblender:IsValid()
 ```
 

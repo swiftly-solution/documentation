@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimGraphNetworkSettings(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: canimgraphnetworksettings.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimgraphnetworksettings:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimgraphnetworksettings:IsValid()
 ```
 

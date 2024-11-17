@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLeafUpdateNode(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cleafupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cleafupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cleafupdatenode:IsValid()
 ```
 

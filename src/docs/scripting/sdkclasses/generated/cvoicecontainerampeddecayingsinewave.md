@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerAmpedDecayingSineWave(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cvoicecontainerampeddecayingsinewave.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerampeddecayingsinewave:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerampeddecayingsinewave:IsValid()
 ```
 

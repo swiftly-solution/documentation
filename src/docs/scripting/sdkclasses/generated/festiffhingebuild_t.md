@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeStiffHingeBuild_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: festiffhingebuild_t.Node = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 festiffhingebuild_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 festiffhingebuild_t:IsValid()
 ```
 

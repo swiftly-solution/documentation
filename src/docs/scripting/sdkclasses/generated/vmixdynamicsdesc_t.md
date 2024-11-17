@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDynamicsDesc_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Write: vmixdynamicsdesc_t.PeakMode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdynamicsdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdynamicsdesc_t:IsValid()
 ```
 

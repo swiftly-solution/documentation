@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SoundOpvarTraceResult_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: soundopvartraceresult_t.DistSqrToCenter = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 soundopvartraceresult_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 soundopvartraceresult_t:IsValid()
 ```
 

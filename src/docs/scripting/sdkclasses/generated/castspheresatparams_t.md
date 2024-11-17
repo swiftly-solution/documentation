@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CastSphereSATParams_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: castspheresatparams_t.Hull
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 castspheresatparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 castspheresatparams_t:IsValid()
 ```
 

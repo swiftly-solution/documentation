@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleSystemDefinition(ptr)
 ```
 # Properties
@@ -368,12 +369,12 @@ Read: cparticlesystemdefinition.ControlPointConfigurations
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlesystemdefinition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlesystemdefinition:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBinaryUpdateNode(ptr)
 ```
 # Properties
@@ -57,12 +58,12 @@ Read: cbinaryupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbinaryupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbinaryupdatenode:IsValid()
 ```
 

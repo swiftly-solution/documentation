@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTimerEntity(ptr)
 ```
 # Properties
@@ -98,12 +99,12 @@ Read: ctimerentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctimerentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctimerentity:IsValid()
 ```
 

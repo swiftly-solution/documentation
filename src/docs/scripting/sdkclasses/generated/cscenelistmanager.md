@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSceneListManager(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cscenelistmanager.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscenelistmanager:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscenelistmanager:IsValid()
 ```
 

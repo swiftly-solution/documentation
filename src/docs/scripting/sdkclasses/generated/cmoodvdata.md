@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMoodVData(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cmoodvdata.MoodType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmoodvdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmoodvdata:IsValid()
 ```
 

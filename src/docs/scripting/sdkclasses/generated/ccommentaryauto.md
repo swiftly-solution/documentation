@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCommentaryAuto(ptr)
 ```
 # Properties
@@ -38,12 +39,12 @@ Read: ccommentaryauto.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccommentaryauto:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccommentaryauto:IsValid()
 ```
 

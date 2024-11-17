@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDynamicPropAlias_dynamic_prop(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdynamicpropalias_dynamic_prop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdynamicpropalias_dynamic_prop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdynamicpropalias_dynamic_prop:IsValid()
 ```
 

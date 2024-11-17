@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathParameters(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: cpathparameters.EndOffset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathparameters:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathparameters:IsValid()
 ```
 

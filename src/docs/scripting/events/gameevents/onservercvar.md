@@ -12,7 +12,7 @@ This event is triggered when server_cvar is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnServerCvar", function(event)
     --[[ ... ]]
     return EventResult.Continue

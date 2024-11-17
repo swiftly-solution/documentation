@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSound(ptr)
 ```
 # Properties
@@ -82,12 +83,12 @@ Write: csound.HasOwner = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csound:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csound:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimationGroup(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: canimationgroup.DecodeKey
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimationgroup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimationgroup:IsValid()
 ```
 

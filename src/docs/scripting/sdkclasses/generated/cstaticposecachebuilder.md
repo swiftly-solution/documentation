@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStaticPoseCacheBuilder(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cstaticposecachebuilder.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstaticposecachebuilder:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstaticposecachebuilder:IsValid()
 ```
 

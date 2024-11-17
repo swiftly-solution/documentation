@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsEntitySolver(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: cphysicsentitysolver.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicsentitysolver:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicsentitysolver:IsValid()
 ```
 

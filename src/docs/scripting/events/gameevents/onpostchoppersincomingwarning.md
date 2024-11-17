@@ -12,7 +12,7 @@ This event is triggered after choppers_incoming_warning is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostChoppersIncomingWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue

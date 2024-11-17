@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointClientUIWorldPanel(ptr)
 ```
 # Properties
@@ -160,12 +161,12 @@ Read: cpointclientuiworldpanel.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointclientuiworldpanel:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointclientuiworldpanel:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootPinningUpdateNode(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: cfootpinningupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootpinningupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootpinningupdatenode:IsValid()
 ```
 

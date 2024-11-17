@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGO_WingmanIntroCharacterPosition(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsgo_wingmanintrocharacterposition.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgo_wingmanintrocharacterposition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgo_wingmanintrocharacterposition:IsValid()
 ```
 

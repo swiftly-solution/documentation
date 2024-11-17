@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientProcessInput_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: eventclientprocessinput_t.TickStartTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientprocessinput_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientprocessinput_t:IsValid()
 ```
 

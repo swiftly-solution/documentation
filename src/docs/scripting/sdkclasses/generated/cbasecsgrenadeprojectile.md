@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseCSGrenadeProjectile(ptr)
 ```
 # Properties
@@ -119,12 +120,12 @@ Read: cbasecsgrenadeprojectile.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasecsgrenadeprojectile:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasecsgrenadeprojectile:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after material_default_complete is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostMaterialDefaultComplete", function(event)
     --[[ ... ]]
     return EventResult.Continue

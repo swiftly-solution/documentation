@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFireCrackerBlast(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfirecrackerblast.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfirecrackerblast:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfirecrackerblast:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSplineConstraint(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csplineconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csplineconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csplineconstraint:IsValid()
 ```
 

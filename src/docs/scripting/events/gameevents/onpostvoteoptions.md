@@ -12,7 +12,7 @@ This event is triggered after vote_options is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostVoteOptions", function(event)
     --[[ ... ]]
     return EventResult.Continue

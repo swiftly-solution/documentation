@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootStride(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cfootstride.Trajectories
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootstride:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootstride:IsValid()
 ```
 

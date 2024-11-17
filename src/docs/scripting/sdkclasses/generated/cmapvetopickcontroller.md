@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMapVetoPickController(ptr)
 ```
 # Properties
@@ -137,12 +138,12 @@ Read: cmapvetopickcontroller.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmapvetopickcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmapvetopickcontroller:IsValid()
 ```
 

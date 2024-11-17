@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CServerOnlyPointEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cserveronlypointentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cserveronlypointentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cserveronlypointentity:IsValid()
 ```
 

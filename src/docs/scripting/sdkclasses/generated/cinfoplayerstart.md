@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoPlayerStart(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cinfoplayerstart.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoplayerstart:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoplayerstart:IsValid()
 ```
 

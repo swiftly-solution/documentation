@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqBoneMaskList(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Write: cseqbonemasklist.DefaultMorphCtrlWeight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqbonemasklist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqbonemasklist:IsValid()
 ```
 

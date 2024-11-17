@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundEventEntity(ptr)
 ```
 # Properties
@@ -99,12 +100,12 @@ Read: csoundevententity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundevententity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundevententity:IsValid()
 ```
 

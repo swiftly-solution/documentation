@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialVariable_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: materialvariable_t.Scale = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialvariable_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialvariable_t:IsValid()
 ```
 

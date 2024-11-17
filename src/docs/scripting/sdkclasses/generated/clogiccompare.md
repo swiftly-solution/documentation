@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicCompare(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: clogiccompare.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogiccompare:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogiccompare:IsValid()
 ```
 

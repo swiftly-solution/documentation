@@ -12,7 +12,7 @@ This event is triggered when teamchange_pending is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTeamchangePending", function(event)
     --[[ ... ]]
     return EventResult.Continue

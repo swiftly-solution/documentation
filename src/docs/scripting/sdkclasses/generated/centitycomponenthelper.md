@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityComponentHelper(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: centitycomponenthelper.Next
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centitycomponenthelper:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centitycomponenthelper:IsValid()
 ```
 

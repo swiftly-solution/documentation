@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGrenadeTracer(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cgrenadetracer.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgrenadetracer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgrenadetracer:IsValid()
 ```
 

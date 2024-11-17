@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNullEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnullentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnullentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnullentity:IsValid()
 ```
 

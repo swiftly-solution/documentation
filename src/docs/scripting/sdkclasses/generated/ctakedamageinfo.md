@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTakeDamageInfo(ptr)
 ```
 # Properties
@@ -126,12 +127,12 @@ Write: ctakedamageinfo.InTakeDamageFlow = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctakedamageinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctakedamageinfo:IsValid()
 ```
 

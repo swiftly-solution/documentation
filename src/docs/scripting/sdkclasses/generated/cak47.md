@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAK47(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cak47.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cak47:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cak47:IsValid()
 ```
 

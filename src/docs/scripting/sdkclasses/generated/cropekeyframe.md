@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRopeKeyframe(ptr)
 ```
 # Properties
@@ -129,12 +130,12 @@ Read: cropekeyframe.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cropekeyframe:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cropekeyframe:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMaterialAttributeAnimTag(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cmaterialattributeanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmaterialattributeanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmaterialattributeanimtag:IsValid()
 ```
 

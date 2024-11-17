@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoParticleTarget(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfoparticletarget.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoparticletarget:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoparticletarget:IsValid()
 ```
 

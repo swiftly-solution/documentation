@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EntComponentInfo_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: entcomponentinfo_t.BaseClassComponentHelper
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 entcomponentinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 entcomponentinfo_t:IsValid()
 ```
 

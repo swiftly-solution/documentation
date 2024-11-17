@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvMuzzleFlash(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cenvmuzzleflash.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvmuzzleflash:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvmuzzleflash:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDecoyGrenade(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdecoygrenade.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdecoygrenade:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdecoygrenade:IsValid()
 ```
 

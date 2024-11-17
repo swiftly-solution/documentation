@@ -12,7 +12,7 @@ This event is triggered after nextlevel_changed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostNextlevelChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue

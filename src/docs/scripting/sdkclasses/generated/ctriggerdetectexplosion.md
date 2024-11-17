@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerDetectExplosion(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ctriggerdetectexplosion.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerdetectexplosion:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerdetectexplosion:IsValid()
 ```
 

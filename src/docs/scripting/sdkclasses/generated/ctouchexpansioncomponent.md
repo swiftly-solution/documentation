@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTouchExpansionComponent(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctouchexpansioncomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctouchexpansioncomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctouchexpansioncomponent:IsValid()
 ```
 

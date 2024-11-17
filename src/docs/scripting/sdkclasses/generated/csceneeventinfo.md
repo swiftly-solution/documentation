@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSceneEventInfo(ptr)
 ```
 # Properties
@@ -89,12 +90,12 @@ Write: csceneeventinfo.Started = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csceneeventinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csceneeventinfo:IsValid()
 ```
 

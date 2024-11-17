@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDSPPresetMixgroupModifierTable(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdsppresetmixgroupmodifiertable.Table
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdsppresetmixgroupmodifiertable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdsppresetmixgroupmodifiertable:IsValid()
 ```
 

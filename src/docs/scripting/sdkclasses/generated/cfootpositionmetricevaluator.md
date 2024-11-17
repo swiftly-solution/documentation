@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootPositionMetricEvaluator(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cfootpositionmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootpositionmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootpositionmetricevaluator:IsValid()
 ```
 

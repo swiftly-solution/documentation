@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMelee(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmelee.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmelee:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmelee:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when hostage_call_for_help is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHostageCallForHelp", function(event)
     --[[ ... ]]
     return EventResult.Continue

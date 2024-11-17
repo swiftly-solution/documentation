@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvFireSensor(ptr)
 ```
 # Properties
@@ -69,12 +70,12 @@ Read: cenvfiresensor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvfiresensor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvfiresensor:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseButton(ptr)
 ```
 # Properties
@@ -164,12 +165,12 @@ Read: cbasebutton.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasebutton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasebutton:IsValid()
 ```
 

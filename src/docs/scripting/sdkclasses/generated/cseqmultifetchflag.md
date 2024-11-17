@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqMultiFetchFlag(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: cseqmultifetchflag.2D_TRI = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqmultifetchflag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqmultifetchflag:IsValid()
 ```
 

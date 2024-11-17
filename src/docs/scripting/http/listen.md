@@ -19,6 +19,9 @@ http:Listen(ip_addr, port, callback)
 ```
 The callback has the following arguments:
 ```lua
-cb(req --[[ HTTPRequest ]], res --[[ HTTPResponse ]])
+--- @param req HTTPRequest
+--- @param res HTTPResponse
+--- @return nil
+cb(req, res)
 ```
 :::

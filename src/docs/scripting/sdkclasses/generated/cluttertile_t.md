@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ClutterTile_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cluttertile_t.BoundsWs
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cluttertile_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cluttertile_t:IsValid()
 ```
 

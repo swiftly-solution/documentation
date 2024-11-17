@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStopAtGoalUpdateNode(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: cstopatgoalupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstopatgoalupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstopatgoalupdatenode:IsValid()
 ```
 

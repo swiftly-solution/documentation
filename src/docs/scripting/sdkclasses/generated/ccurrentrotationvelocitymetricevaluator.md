@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCurrentRotationVelocityMetricEvaluator(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccurrentrotationvelocitymetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccurrentrotationvelocitymetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccurrentrotationvelocitymetricevaluator:IsValid()
 ```
 

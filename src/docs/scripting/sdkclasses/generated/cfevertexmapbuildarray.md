@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFeVertexMapBuildArray(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfevertexmapbuildarray.Array
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfevertexmapbuildarray:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfevertexmapbuildarray:IsValid()
 ```
 

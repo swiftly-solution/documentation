@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PhysFeModelDesc_t(ptr)
 ```
 # Properties
@@ -585,12 +586,12 @@ Write: physfemodeldesc_t.QuadVelocitySmoothIterations = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 physfemodeldesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 physfemodeldesc_t:IsValid()
 ```
 

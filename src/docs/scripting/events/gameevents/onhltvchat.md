@@ -12,7 +12,7 @@ This event is triggered when hltv_chat is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHltvChat", function(event)
     --[[ ... ]]
     return EventResult.Continue

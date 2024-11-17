@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerEnvelope(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cvoicecontainerenvelope.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerenvelope:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerenvelope:IsValid()
 ```
 

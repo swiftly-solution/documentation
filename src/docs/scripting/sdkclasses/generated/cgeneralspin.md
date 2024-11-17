@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGeneralSpin(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cgeneralspin.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgeneralspin:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgeneralspin:IsValid()
 ```
 

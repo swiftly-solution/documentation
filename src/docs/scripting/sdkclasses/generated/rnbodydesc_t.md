@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnBodyDesc_t(ptr)
 ```
 # Properties
@@ -222,12 +223,12 @@ Write: rnbodydesc_t.HasShadowController = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnbodydesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnbodydesc_t:IsValid()
 ```
 

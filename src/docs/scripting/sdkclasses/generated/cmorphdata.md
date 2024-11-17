@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMorphData(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmorphdata.MorphRectDatas
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmorphdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmorphdata:IsValid()
 ```
 

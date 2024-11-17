@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ResourceId_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: resourceid_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 resourceid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 resourceid_t:IsValid()
 ```
 

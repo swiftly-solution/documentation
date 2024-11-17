@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FunctionInfo_t(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Write: functioninfo_t.IsPure = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 functioninfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 functioninfo_t:IsValid()
 ```
 

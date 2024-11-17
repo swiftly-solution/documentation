@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerStaticAdditiveSynth(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cvoicecontainerstaticadditivesynth.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerstaticadditivesynth:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerstaticadditivesynth:IsValid()
 ```
 

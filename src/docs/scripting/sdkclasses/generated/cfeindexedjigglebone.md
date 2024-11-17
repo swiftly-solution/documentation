@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFeIndexedJiggleBone(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cfeindexedjigglebone.JiggleBone
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfeindexedjigglebone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfeindexedjigglebone:IsValid()
 ```
 

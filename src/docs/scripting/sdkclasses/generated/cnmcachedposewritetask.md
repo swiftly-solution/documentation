@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmCachedPoseWriteTask(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnmcachedposewritetask.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmcachedposewritetask:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmcachedposewritetask:IsValid()
 ```
 

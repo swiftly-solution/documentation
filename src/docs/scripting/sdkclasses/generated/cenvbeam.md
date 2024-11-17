@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvBeam(ptr)
 ```
 # Properties
@@ -129,12 +130,12 @@ Read: cenvbeam.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvbeam:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvbeam:IsValid()
 ```
 

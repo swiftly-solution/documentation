@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CExampleSchemaVData_PolymorphicDerivedA(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cexampleschemavdata_polymorphicderiveda.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cexampleschemavdata_polymorphicderiveda:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cexampleschemavdata_polymorphicderiveda:IsValid()
 ```
 

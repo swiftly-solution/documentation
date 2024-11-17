@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AABB_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: aabb_t.MaxBounds = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aabb_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aabb_t:IsValid()
 ```
 

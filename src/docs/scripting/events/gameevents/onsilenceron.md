@@ -12,7 +12,7 @@ This event is triggered when silencer_on is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSilencerOn", function(event)
     --[[ ... ]]
     return EventResult.Continue

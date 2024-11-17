@@ -12,7 +12,7 @@ This event is triggered when nav_generate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnNavGenerate", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvViewPunch(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cenvviewpunch.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvviewpunch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvviewpunch:IsValid()
 ```
 

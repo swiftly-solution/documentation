@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsPropRespawnable(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cphysicsproprespawnable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicsproprespawnable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicsproprespawnable:IsValid()
 ```
 

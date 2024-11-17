@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SceneEventId_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: sceneeventid_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sceneeventid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sceneeventid_t:IsValid()
 ```
 

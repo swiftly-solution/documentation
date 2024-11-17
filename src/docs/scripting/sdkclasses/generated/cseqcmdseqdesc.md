@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqCmdSeqDesc(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Read: cseqcmdseqdesc.PoseSettingArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqcmdseqdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqcmdseqdesc:IsValid()
 ```
 

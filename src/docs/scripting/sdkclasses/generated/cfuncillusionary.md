@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncIllusionary(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncillusionary.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncillusionary:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncillusionary:IsValid()
 ```
 

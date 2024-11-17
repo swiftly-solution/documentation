@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParamSpan_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Write: paramspan_t.EndCycle = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 paramspan_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 paramspan_t:IsValid()
 ```
 

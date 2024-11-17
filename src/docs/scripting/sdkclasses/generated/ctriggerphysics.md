@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerPhysics(ptr)
 ```
 # Properties
@@ -101,12 +102,12 @@ Read: ctriggerphysics.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerphysics:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerphysics:IsValid()
 ```
 

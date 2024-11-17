@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootStepTriggerUpdateNode(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cfootsteptriggerupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootsteptriggerupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootsteptriggerupdatenode:IsValid()
 ```
 

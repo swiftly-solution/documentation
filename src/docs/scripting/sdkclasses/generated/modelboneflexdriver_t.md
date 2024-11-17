@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ModelBoneFlexDriver_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: modelboneflexdriver_t.Controls
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 modelboneflexdriver_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 modelboneflexdriver_t:IsValid()
 ```
 

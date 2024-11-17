@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponZoneRepulsor(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponzonerepulsor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponzonerepulsor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponzonerepulsor:IsValid()
 ```
 

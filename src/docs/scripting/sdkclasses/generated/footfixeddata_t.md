@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FootFixedData_t(ptr)
 ```
 # Properties
@@ -84,12 +85,12 @@ Write: footfixeddata_t.MaxRotationRight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 footfixeddata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 footfixeddata_t:IsValid()
 ```
 

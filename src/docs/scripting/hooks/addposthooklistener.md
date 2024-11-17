@@ -18,7 +18,9 @@ AddPostHookListener(hookHandle, callback)
 ```
 The callback has the following arguments:
 ```lua
-cb(event --[[ Event ]])
+-- @param event Event
+--- @return number|nil EventResult
+cb(event)
 ```
 The callback may return a value of EventResult.
 :::

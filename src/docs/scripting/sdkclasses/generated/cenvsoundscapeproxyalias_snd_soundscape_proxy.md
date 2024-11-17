@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSoundscapeProxyAlias_snd_soundscape_proxy(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cenvsoundscapeproxyalias_snd_soundscape_proxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsoundscapeproxyalias_snd_soundscape_proxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsoundscapeproxyalias_snd_soundscape_proxy:IsValid()
 ```
 

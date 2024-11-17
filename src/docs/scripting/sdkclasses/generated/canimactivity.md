@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimActivity(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: canimactivity.Weight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimactivity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimactivity:IsValid()
 ```
 

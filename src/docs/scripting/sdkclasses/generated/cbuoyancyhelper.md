@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBuoyancyHelper(ptr)
 ```
 # Properties
@@ -50,12 +51,12 @@ Read: cbuoyancyhelper.WheelDrag
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbuoyancyhelper:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbuoyancyhelper:IsValid()
 ```
 

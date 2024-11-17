@@ -12,7 +12,7 @@ This event is triggered after warmup_end is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostWarmupEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue

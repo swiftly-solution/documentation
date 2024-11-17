@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysics2ShapeDef_t(ptr)
 ```
 # Properties
@@ -43,12 +44,12 @@ Read: vphysics2shapedef_t.CollisionAttributeIndices
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysics2shapedef_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysics2shapedef_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGlobalLightBase(ptr)
 ```
 # Properties
@@ -264,12 +265,12 @@ Write: cgloballightbase.FogOffsetLayer1 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgloballightbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgloballightbase:IsValid()
 ```
 

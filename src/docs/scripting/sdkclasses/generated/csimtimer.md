@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSimTimer(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csimtimer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csimtimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csimtimer:IsValid()
 ```
 

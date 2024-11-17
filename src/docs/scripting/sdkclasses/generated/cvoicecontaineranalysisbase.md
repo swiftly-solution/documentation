@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerAnalysisBase(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cvoicecontaineranalysisbase.RegenerateCurveOnCompile = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontaineranalysisbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontaineranalysisbase:IsValid()
 ```
 

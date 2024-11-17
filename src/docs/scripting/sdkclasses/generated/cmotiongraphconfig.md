@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionGraphConfig(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Write: cmotiongraphconfig.SampleCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotiongraphconfig:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotiongraphconfig:IsValid()
 ```
 

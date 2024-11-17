@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeNodeWindBase_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fenodewindbase_t.NodeY1 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fenodewindbase_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fenodewindbase_t:IsValid()
 ```
 

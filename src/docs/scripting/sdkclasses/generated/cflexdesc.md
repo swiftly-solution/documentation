@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlexDesc(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cflexdesc.Facs = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflexdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflexdesc:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 LookAtOpFixedSettings_t(ptr)
 ```
 # Properties
@@ -81,12 +82,12 @@ Write: lookatopfixedsettings_t.UseHysteresis = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 lookatopfixedsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 lookatopfixedsettings_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBot(ptr)
 ```
 # Properties
@@ -94,12 +95,12 @@ Write: cbot.PostureStackIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbot:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbot:IsValid()
 ```
 

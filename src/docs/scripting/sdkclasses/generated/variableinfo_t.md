@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VariableInfo_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: variableinfo_t.Access = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 variableinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 variableinfo_t:IsValid()
 ```
 

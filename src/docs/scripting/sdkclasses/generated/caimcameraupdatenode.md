@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAimCameraUpdateNode(ptr)
 ```
 # Properties
@@ -73,12 +74,12 @@ Read: caimcameraupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caimcameraupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caimcameraupdatenode:IsValid()
 ```
 

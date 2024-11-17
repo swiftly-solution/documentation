@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 InfoOverlayData_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: infooverlaydata_t.SequenceOverride = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 infooverlaydata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 infooverlaydata_t:IsValid()
 ```
 

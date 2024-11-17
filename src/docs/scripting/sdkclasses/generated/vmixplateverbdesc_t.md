@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixPlateverbDesc_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: vmixplateverbdesc_t.FeedbackDiffusion2 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixplateverbdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixplateverbdesc_t:IsValid()
 ```
 

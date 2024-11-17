@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmTransitionEvent(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnmtransitionevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmtransitionevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmtransitionevent:IsValid()
 ```
 

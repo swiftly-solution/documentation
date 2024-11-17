@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSSDSMsg_ViewTargetList(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cssdsmsg_viewtargetlist.Targets
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cssdsmsg_viewtargetlist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cssdsmsg_viewtargetlist:IsValid()
 ```
 

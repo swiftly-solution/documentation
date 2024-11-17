@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParentConstraint(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cparentconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparentconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparentconstraint:IsValid()
 ```
 

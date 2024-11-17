@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicAchievement(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: clogicachievement.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicachievement:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicachievement:IsValid()
 ```
 

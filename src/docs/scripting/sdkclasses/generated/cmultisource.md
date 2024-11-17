@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMultiSource(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: cmultisource.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmultisource:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmultisource:IsValid()
 ```
 

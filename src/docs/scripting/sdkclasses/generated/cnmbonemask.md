@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmBoneMask(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cnmbonemask.Weights
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmbonemask:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmbonemask:IsValid()
 ```
 

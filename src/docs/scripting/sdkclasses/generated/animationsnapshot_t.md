@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AnimationSnapshot_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: animationsnapshot_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 animationsnapshot_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 animationsnapshot_t:IsValid()
 ```
 

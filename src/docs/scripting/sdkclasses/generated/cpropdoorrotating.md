@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPropDoorRotating(ptr)
 ```
 # Properties
@@ -124,12 +125,12 @@ Read: cpropdoorrotating.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpropdoorrotating:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpropdoorrotating:IsValid()
 ```
 

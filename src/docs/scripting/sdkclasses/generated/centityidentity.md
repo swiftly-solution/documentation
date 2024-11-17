@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityIdentity(ptr)
 ```
 # Properties
@@ -79,12 +80,12 @@ Read: centityidentity.NextByClass
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centityidentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centityidentity:IsValid()
 ```
 

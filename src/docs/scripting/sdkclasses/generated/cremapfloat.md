@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRemapFloat(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cremapfloat.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cremapfloat:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cremapfloat:IsValid()
 ```
 

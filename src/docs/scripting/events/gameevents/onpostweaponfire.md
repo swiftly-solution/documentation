@@ -12,7 +12,7 @@ This event is triggered after weapon_fire is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostWeaponFire", function(event)
     --[[ ... ]]
     return EventResult.Continue

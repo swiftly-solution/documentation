@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimKeyData(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: canimkeydata.DataChannelArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimkeydata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimkeydata:IsValid()
 ```
 

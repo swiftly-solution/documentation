@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSun(ptr)
 ```
 # Properties
@@ -107,12 +108,12 @@ Read: csun.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csun:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csun:IsValid()
 ```
 

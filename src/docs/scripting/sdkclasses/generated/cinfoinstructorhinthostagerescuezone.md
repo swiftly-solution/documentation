@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoInstructorHintHostageRescueZone(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfoinstructorhinthostagerescuezone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoinstructorhinthostagerescuezone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoinstructorhinthostagerescuezone:IsValid()
 ```
 

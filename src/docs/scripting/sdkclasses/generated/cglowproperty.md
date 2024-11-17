@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGlowProperty(ptr)
 ```
 # Properties
@@ -84,12 +85,12 @@ Write: cglowproperty.Glowing = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cglowproperty:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cglowproperty:IsValid()
 ```
 

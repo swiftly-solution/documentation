@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoSpawnGroupLoadUnload(ptr)
 ```
 # Properties
@@ -85,12 +86,12 @@ Read: cinfospawngrouploadunload.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfospawngrouploadunload:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfospawngrouploadunload:IsValid()
 ```
 

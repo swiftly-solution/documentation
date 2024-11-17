@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAttributeContainer(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cattributecontainer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cattributecontainer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cattributecontainer:IsValid()
 ```
 

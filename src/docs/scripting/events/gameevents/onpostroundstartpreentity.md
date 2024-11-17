@@ -12,7 +12,7 @@ This event is triggered after round_start_pre_entity is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRoundStartPreEntity", function(event)
     --[[ ... ]]
     return EventResult.Continue

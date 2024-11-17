@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleChildrenInfo_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: particlechildreninfo_t.DetailLevel = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlechildreninfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlechildreninfo_t:IsValid()
 ```
 

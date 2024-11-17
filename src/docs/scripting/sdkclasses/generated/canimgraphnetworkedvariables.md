@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimGraphNetworkedVariables(ptr)
 ```
 # Properties
@@ -122,12 +123,12 @@ Write: canimgraphnetworkedvariables.LastTeleportTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimgraphnetworkedvariables:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimgraphnetworkedvariables:IsValid()
 ```
 

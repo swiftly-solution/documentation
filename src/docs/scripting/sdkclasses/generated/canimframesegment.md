@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimFrameSegment(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: canimframesegment.LocalChannel = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimframesegment:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimframesegment:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseFlexAlias_funCBaseFlex(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbaseflexalias_funcbaseflex.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseflexalias_funcbaseflex:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseflexalias_funcbaseflex:IsValid()
 ```
 

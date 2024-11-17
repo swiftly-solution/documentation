@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FootFixedSettings(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Write: footfixedsettings.FootIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 footfixedsettings:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 footfixedsettings:IsValid()
 ```
 

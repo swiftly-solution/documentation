@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientSimulate_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: eventclientsimulate_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientsimulate_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientsimulate_t:IsValid()
 ```
 

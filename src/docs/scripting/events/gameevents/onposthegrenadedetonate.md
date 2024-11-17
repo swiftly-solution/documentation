@@ -12,7 +12,7 @@ This event is triggered after hegrenade_detonate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostHegrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue

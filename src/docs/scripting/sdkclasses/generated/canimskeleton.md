@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimSkeleton(ptr)
 ```
 # Properties
@@ -43,12 +44,12 @@ Read: canimskeleton.LodBoneCounts
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimskeleton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimskeleton:IsValid()
 ```
 

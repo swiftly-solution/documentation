@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDestructiblePartRuntimeData(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cdestructiblepartruntimedata.HealthRemaining = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdestructiblepartruntimedata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdestructiblepartruntimedata:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRetakeGameRules(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: cretakegamerules.BombSite = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cretakegamerules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cretakegamerules:IsValid()
 ```
 

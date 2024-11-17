@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CProjectedDecal(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cprojecteddecal.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cprojecteddecal:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cprojecteddecal:IsValid()
 ```
 

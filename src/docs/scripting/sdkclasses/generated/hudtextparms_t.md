@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 hudtextparms_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: hudtextparms_t.Y = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 hudtextparms_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 hudtextparms_t:IsValid()
 ```
 

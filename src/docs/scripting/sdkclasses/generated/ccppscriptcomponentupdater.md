@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCPPScriptComponentUpdater(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccppscriptcomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccppscriptcomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccppscriptcomponentupdater:IsValid()
 ```
 

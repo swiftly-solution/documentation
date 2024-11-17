@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 JiggleBoneSettings_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: jigglebonesettings_t.SimSpace = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 jigglebonesettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 jigglebonesettings_t:IsValid()
 ```
 

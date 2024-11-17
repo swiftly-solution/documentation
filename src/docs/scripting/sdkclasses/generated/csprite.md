@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSprite(ptr)
 ```
 # Properties
@@ -148,12 +149,12 @@ Read: csprite.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csprite:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csprite:IsValid()
 ```
 

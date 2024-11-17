@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimScriptManager(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: canimscriptmanager.ScriptInfo
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimscriptmanager:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimscriptmanager:IsValid()
 ```
 

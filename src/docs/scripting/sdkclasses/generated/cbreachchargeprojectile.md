@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBreachChargeProjectile(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbreachchargeprojectile.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbreachchargeprojectile:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbreachchargeprojectile:IsValid()
 ```
 

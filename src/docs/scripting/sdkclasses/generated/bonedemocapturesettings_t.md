@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 BoneDemoCaptureSettings_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: bonedemocapturesettings_t.ErrorQuantizationScaleMax = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 bonedemocapturesettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 bonedemocapturesettings_t:IsValid()
 ```
 

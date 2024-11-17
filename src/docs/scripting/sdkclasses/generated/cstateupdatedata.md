@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStateUpdateData(ptr)
 ```
 # Properties
@@ -62,12 +63,12 @@ Write: cstateupdatedata.IsPassthrough = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstateupdatedata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstateupdatedata:IsValid()
 ```
 

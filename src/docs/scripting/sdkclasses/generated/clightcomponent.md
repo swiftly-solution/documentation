@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLightComponent(ptr)
 ```
 # Properties
@@ -418,12 +419,12 @@ Read: clightcomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clightcomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clightcomponent:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDrawCullingData(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cdrawcullingdata.ConeCutoff = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdrawcullingdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdrawcullingdata:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvExplosion(ptr)
 ```
 # Properties
@@ -117,12 +118,12 @@ Read: cenvexplosion.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvexplosion:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvexplosion:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityInstance(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Write: centityinstance.VisibleinPVS = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centityinstance:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centityinstance:IsValid()
 ```
 

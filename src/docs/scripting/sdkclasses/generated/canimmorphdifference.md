@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimMorphDifference(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimmorphdifference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimmorphdifference:IsValid()
 ```
 

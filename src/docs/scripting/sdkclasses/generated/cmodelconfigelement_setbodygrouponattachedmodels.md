@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_SetBodygroupOnAttachedModels(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cmodelconfigelement_setbodygrouponattachedmodels.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_setbodygrouponattachedmodels:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_setbodygrouponattachedmodels:IsValid()
 ```
 

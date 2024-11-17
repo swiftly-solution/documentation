@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CChangeLevel(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Read: cchangelevel.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cchangelevel:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cchangelevel:IsValid()
 ```
 

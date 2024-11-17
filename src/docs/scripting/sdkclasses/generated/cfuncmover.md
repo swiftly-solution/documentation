@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncMover(ptr)
 ```
 # Properties
@@ -240,12 +241,12 @@ Read: cfuncmover.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncmover:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncmover:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after buymenu_open is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBuymenuOpen", function(event)
     --[[ ... ]]
     return EventResult.Continue

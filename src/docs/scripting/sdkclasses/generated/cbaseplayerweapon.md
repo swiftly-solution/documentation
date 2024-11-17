@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBasePlayerWeapon(ptr)
 ```
 # Properties
@@ -70,12 +71,12 @@ Read: cbaseplayerweapon.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseplayerweapon:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseplayerweapon:IsValid()
 ```
 

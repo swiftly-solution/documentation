@@ -12,7 +12,7 @@ This event is triggered when break_prop is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnBreakProp", function(event)
     --[[ ... ]]
     return EventResult.Continue

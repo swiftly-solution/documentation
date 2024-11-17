@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CScriptNavBlocker(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cscriptnavblocker.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscriptnavblocker:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscriptnavblocker:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysSurfacePropertiesPhysics(ptr)
 ```
 # Properties
@@ -72,12 +73,12 @@ Write: cphyssurfacepropertiesphysics.Flashpoint = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyssurfacepropertiesphysics:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyssurfacepropertiesphysics:IsValid()
 ```
 

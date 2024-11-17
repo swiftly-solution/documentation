@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLookAtUpdateNode(ptr)
 ```
 # Properties
@@ -56,12 +57,12 @@ Read: clookatupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clookatupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clookatupdatenode:IsValid()
 ```
 

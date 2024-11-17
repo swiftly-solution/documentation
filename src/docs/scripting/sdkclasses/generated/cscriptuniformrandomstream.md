@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CScriptUniformRandomStream(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cscriptuniformrandomstream.InitialSeed = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscriptuniformrandomstream:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscriptuniformrandomstream:IsValid()
 ```
 

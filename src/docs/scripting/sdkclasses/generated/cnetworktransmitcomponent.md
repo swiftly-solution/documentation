@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkTransmitComponent(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cnetworktransmitcomponent.TransmitStateOwnedCounter = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworktransmitcomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworktransmitcomponent:IsValid()
 ```
 

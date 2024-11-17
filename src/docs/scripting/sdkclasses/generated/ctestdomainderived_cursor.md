@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTestDomainDerived_Cursor(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: ctestdomainderived_cursor.CursorValueB = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctestdomainderived_cursor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctestdomainderived_cursor:IsValid()
 ```
 

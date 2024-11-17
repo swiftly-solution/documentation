@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeRigidColliderIndices_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: ferigidcolliderindices_t.CollisionPlaneIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ferigidcolliderindices_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ferigidcolliderindices_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NavGravity_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: navgravity_t.Default = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 navgravity_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 navgravity_t:IsValid()
 ```
 

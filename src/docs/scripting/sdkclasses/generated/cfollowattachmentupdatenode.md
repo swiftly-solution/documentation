@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFollowAttachmentUpdateNode(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cfollowattachmentupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfollowattachmentupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfollowattachmentupdatenode:IsValid()
 ```
 

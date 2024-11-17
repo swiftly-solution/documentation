@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmRootMotionData(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cnmrootmotiondata.AverageAngularVelocityRadians = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmrootmotiondata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmrootmotiondata:IsValid()
 ```
 

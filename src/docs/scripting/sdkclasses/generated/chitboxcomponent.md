@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHitboxComponent(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: chitboxcomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chitboxcomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chitboxcomponent:IsValid()
 ```
 

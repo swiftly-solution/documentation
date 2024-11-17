@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MotionBlendItem(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: motionblenditem.KeyValue = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 motionblenditem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 motionblenditem:IsValid()
 ```
 

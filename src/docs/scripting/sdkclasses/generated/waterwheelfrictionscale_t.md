@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WaterWheelFrictionScale_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: waterwheelfrictionscale_t.FrictionScale = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 waterwheelfrictionscale_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 waterwheelfrictionscale_t:IsValid()
 ```
 

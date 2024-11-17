@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEditableMotionGraph(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ceditablemotiongraph.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ceditablemotiongraph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ceditablemotiongraph:IsValid()
 ```
 

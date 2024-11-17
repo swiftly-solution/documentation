@@ -12,7 +12,7 @@ This event is triggered after round_end is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRoundEnd", function(event)
     --[[ ... ]]
     return EventResult.Continue

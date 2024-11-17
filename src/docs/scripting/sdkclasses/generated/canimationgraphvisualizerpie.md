@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimationGraphVisualizerPie(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: canimationgraphvisualizerpie.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimationgraphvisualizerpie:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimationgraphvisualizerpie:IsValid()
 ```
 

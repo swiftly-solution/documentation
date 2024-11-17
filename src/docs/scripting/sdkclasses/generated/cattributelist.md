@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAttributeList(ptr)
 ```
 # Properties
@@ -28,17 +29,19 @@ Read: cattributelist.Manager
 # Functions
 ## SetOrAddAttributeValueByName
 ```lua
-@returns void
+--- @param str string
+--- @param value number
+--- @return void
 cattributelist:SetOrAddAttributeValueByName(str, value)
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cattributelist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cattributelist:IsValid()
 ```
 

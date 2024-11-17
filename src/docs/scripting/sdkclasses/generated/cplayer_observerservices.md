@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_ObserverServices(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: cplayer_observerservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_observerservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_observerservices:IsValid()
 ```
 

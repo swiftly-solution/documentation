@@ -12,7 +12,7 @@ This event is triggered when hostage_hurt is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHostageHurt", function(event)
     --[[ ... ]]
     return EventResult.Continue

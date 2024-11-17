@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSoundscapeProxy(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cenvsoundscapeproxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsoundscapeproxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsoundscapeproxy:IsValid()
 ```
 

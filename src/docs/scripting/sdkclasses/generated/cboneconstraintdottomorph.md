@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBoneConstraintDotToMorph(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cboneconstraintdottomorph.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cboneconstraintdottomorph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cboneconstraintdottomorph:IsValid()
 ```
 

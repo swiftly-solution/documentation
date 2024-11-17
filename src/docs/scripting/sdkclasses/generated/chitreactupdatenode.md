@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHitReactUpdateNode(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: chitreactupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chitreactupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chitreactupdatenode:IsValid()
 ```
 

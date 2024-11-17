@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDecoyProjectile(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cdecoyprojectile.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdecoyprojectile:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdecoyprojectile:IsValid()
 ```
 

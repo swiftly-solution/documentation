@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavVolumeSphericalShell(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnavvolumesphericalshell.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavvolumesphericalshell:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavvolumesphericalshell:IsValid()
 ```
 

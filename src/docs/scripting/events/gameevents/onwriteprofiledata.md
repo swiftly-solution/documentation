@@ -12,7 +12,7 @@ This event is triggered when write_profile_data is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnWriteProfileData", function(event)
     --[[ ... ]]
     return EventResult.Continue

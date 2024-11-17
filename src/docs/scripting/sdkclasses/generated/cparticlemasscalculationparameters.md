@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleMassCalculationParameters(ptr)
 ```
 # Properties
@@ -39,12 +40,12 @@ Read: cparticlemasscalculationparameters.Scale
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlemasscalculationparameters:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlemasscalculationparameters:IsValid()
 ```
 

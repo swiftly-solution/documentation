@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SummaryTakeDamageInfo_t(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: summarytakedamageinfo_t.Result
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 summarytakedamageinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 summarytakedamageinfo_t:IsValid()
 ```
 

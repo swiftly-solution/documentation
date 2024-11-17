@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHostageRescueZoneShim(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: chostagerescuezoneshim.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chostagerescuezoneshim:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chostagerescuezoneshim:IsValid()
 ```
 

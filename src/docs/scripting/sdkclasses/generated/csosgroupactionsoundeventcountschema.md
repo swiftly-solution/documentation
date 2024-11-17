@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupActionSoundeventCountSchema(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: csosgroupactionsoundeventcountschema.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupactionsoundeventcountschema:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupactionsoundeventcountschema:IsValid()
 ```
 

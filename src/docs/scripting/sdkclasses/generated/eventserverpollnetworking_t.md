@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventServerPollNetworking_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: eventserverpollnetworking_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventserverpollnetworking_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventserverpollnetworking_t:IsValid()
 ```
 

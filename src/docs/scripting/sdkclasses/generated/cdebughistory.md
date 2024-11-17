@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDebugHistory(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cdebughistory.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdebughistory:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdebughistory:IsValid()
 ```
 

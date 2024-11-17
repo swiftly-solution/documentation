@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvParticleGlow(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cenvparticleglow.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvparticleglow:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvparticleglow:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 constraint_axislimit_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: constraint_axislimit_t.MotorMaxTorque = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 constraint_axislimit_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 constraint_axislimit_t:IsValid()
 ```
 

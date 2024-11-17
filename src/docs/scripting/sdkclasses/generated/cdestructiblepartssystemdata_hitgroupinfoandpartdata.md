@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDestructiblePartsSystemData_HitGroupInfoAndPartData(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cdestructiblepartssystemdata_hitgroupinfoandpartdata.DisableHitGroupWhenD
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdestructiblepartssystemdata_hitgroupinfoandpartdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdestructiblepartssystemdata_hitgroupinfoandpartdata:IsValid()
 ```
 

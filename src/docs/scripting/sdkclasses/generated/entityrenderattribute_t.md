@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EntityRenderAttribute_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: entityrenderattribute_t.Values = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 entityrenderattribute_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 entityrenderattribute_t:IsValid()
 ```
 

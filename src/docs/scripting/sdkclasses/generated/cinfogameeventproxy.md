@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoGameEventProxy(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cinfogameeventproxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfogameeventproxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfogameeventproxy:IsValid()
 ```
 

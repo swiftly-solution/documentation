@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSolveIKChainUpdateNode(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: csolveikchainupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csolveikchainupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csolveikchainupdatenode:IsValid()
 ```
 

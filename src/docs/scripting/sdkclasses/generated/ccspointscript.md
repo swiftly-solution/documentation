@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPointScript(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccspointscript.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccspointscript:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccspointscript:IsValid()
 ```
 

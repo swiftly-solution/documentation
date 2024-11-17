@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundContainerReference(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csoundcontainerreference.Sound
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundcontainerreference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundcontainerreference:IsValid()
 ```
 

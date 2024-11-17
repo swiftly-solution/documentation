@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItemSoda(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: citemsoda.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citemsoda:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citemsoda:IsValid()
 ```
 

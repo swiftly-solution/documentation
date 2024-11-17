@@ -12,7 +12,7 @@ This event is triggered after weapon_zoom is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostWeaponZoom", function(event)
     --[[ ... ]]
     return EventResult.Continue

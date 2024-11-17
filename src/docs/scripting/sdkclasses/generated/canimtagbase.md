@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimTagBase(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: canimtagbase.IsReferenced = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimtagbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimtagbase:IsValid()
 ```
 

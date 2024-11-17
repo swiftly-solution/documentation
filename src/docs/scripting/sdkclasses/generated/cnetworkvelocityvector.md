@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkVelocityVector(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cnetworkvelocityvector.Z = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworkvelocityvector:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworkvelocityvector:IsValid()
 ```
 

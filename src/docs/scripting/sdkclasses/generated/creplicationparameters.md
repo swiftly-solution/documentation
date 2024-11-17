@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CReplicationParameters(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: creplicationparameters.ModellingScale
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 creplicationparameters:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 creplicationparameters:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRopeOverlapHit(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cropeoverlaphit.OverlappingLinks
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cropeoverlaphit:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cropeoverlaphit:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SellbackPurchaseEntry_t(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: sellbackpurchaseentry_t.Item
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sellbackpurchaseentry_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sellbackpurchaseentry_t:IsValid()
 ```
 

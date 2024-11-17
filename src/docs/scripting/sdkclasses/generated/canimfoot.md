@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimFoot(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: canimfoot.ToeBoneIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimfoot:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimfoot:IsValid()
 ```
 

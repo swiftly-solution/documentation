@@ -12,7 +12,7 @@ This event is triggered when tournament_reward is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTournamentReward", function(event)
     --[[ ... ]]
     return EventResult.Continue

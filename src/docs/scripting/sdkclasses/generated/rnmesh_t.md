@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnMesh_t(ptr)
 ```
 # Properties
@@ -68,12 +69,12 @@ Write: rnmesh_t.DebugFlags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnmesh_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnmesh_t:IsValid()
 ```
 

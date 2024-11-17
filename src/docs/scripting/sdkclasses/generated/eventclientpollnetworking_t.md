@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientPollNetworking_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventclientpollnetworking_t.TickCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientpollnetworking_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientpollnetworking_t:IsValid()
 ```
 

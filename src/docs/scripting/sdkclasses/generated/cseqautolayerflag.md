@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqAutoLayerFlag(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: cseqautolayerflag.Subtract = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqautolayerflag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqautolayerflag:IsValid()
 ```
 

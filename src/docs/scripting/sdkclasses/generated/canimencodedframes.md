@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimEncodedFrames(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: canimencodedframes.UsageDifferences
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimencodedframes:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimencodedframes:IsValid()
 ```
 

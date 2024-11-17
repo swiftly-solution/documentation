@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleFunctionRenderer(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cparticlefunctionrenderer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlefunctionrenderer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlefunctionrenderer:IsValid()
 ```
 

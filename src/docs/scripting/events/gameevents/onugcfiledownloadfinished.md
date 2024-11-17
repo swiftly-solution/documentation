@@ -12,7 +12,7 @@ This event is triggered when ugc_file_download_finished is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnUgcFileDownloadFinished", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHitBox(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Write: chitbox.HitBoxIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chitbox:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chitbox:IsValid()
 ```
 

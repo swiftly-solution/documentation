@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimUpdateNodeBase(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: canimupdatenodebase.Name = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimupdatenodebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimupdatenodebase:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDestructiblePartsSystemData_PartData(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Write: cdestructiblepartssystemdata_partdata.KillNPCOnDestruction = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdestructiblepartssystemdata_partdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdestructiblepartssystemdata_partdata:IsValid()
 ```
 

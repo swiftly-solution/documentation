@@ -12,7 +12,7 @@ This event is triggered when survival_paradrop_spawn is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSurvivalParadropSpawn", function(event)
     --[[ ... ]]
     return EventResult.Continue

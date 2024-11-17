@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 locksound_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: locksound_t.FlwaitSound = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 locksound_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 locksound_t:IsValid()
 ```
 

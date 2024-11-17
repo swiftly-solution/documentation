@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSoftParent_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: fesoftparent_t.Alpha = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesoftparent_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesoftparent_t:IsValid()
 ```
 

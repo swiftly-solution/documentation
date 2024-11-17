@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBumpMineProjectile(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbumpmineprojectile.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbumpmineprojectile:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbumpmineprojectile:IsValid()
 ```
 

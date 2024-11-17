@@ -12,7 +12,7 @@ This event is triggered after achievement_earned is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostAchievementEarned", function(event)
     --[[ ... ]]
     return EventResult.Continue

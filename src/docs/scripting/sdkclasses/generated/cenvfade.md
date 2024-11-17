@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvFade(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: cenvfade.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvfade:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvfade:IsValid()
 ```
 

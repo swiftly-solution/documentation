@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRenderMesh(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: crendermesh.GroomData
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crendermesh:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crendermesh:IsValid()
 ```
 

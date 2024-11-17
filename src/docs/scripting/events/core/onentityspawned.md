@@ -13,7 +13,7 @@ This game event is triggered when an entity is spawned on the server.
 ```lua
 --- @param event Event
 --- @param entityptr string
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnEntitySpawned", function(event, entityptr)
     --[[ ... ]]

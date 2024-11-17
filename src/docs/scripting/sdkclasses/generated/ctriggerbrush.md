@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerBrush(ptr)
 ```
 # Properties
@@ -50,12 +51,12 @@ Read: ctriggerbrush.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerbrush:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerbrush:IsValid()
 ```
 

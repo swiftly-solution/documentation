@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseDoor(ptr)
 ```
 # Properties
@@ -175,12 +176,12 @@ Read: cbasedoor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasedoor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasedoor:IsValid()
 ```
 

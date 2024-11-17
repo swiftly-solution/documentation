@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotorController(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cmotorcontroller.InertiaFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotorcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotorcontroller:IsValid()
 ```
 

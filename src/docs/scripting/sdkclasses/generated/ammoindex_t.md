@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AmmoIndex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: ammoindex_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ammoindex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ammoindex_t:IsValid()
 ```
 

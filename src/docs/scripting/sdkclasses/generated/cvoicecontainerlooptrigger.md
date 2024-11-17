@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerLoopTrigger(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: cvoicecontainerlooptrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerlooptrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerlooptrigger:IsValid()
 ```
 

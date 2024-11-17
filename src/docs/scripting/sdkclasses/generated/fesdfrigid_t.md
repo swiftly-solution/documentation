@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSDFRigid_t(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Write: fesdfrigid_t.Depth = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesdfrigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesdfrigid_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPredictedViewModel(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpredictedviewmodel.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpredictedviewmodel:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpredictedviewmodel:IsValid()
 ```
 

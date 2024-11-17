@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixEnvelopeDesc_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: vmixenvelopedesc_t.ReleaseTimeMS = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixenvelopedesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixenvelopedesc_t:IsValid()
 ```
 

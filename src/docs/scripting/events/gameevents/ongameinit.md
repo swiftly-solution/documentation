@@ -12,7 +12,7 @@ This event is triggered when game_init is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnGameInit", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCompositeMaterialEditorDoc(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ccompositematerialeditordoc.Points
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccompositematerialeditordoc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccompositematerialeditordoc:IsValid()
 ```
 

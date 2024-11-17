@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFilterProximity(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfilterproximity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfilterproximity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfilterproximity:IsValid()
 ```
 

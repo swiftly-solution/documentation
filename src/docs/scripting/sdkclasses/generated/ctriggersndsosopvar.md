@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerSndSosOpvar(ptr)
 ```
 # Properties
@@ -101,12 +102,12 @@ Read: ctriggersndsosopvar.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggersndsosopvar:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggersndsosopvar:IsValid()
 ```
 

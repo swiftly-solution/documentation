@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleAttributeIndex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: particleattributeindex_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particleattributeindex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particleattributeindex_t:IsValid()
 ```
 

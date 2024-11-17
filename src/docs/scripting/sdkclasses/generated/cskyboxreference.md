@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkyboxReference(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cskyboxreference.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskyboxreference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskyboxreference:IsValid()
 ```
 

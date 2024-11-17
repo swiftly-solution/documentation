@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlexOp(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cflexop.Data = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflexop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflexop:IsValid()
 ```
 

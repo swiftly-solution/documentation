@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnWing_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: rnwing_t.Index = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnwing_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnwing_t:IsValid()
 ```
 

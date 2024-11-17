@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CColorCorrection(ptr)
 ```
 # Properties
@@ -125,12 +126,12 @@ Read: ccolorcorrection.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccolorcorrection:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccolorcorrection:IsValid()
 ```
 

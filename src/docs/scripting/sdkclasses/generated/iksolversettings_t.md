@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IKSolverSettings_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: iksolversettings_t.EndEffectorRotationFixUpMode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 iksolversettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 iksolversettings_t:IsValid()
 ```
 

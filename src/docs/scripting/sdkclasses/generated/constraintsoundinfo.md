@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ConstraintSoundInfo(ptr)
 ```
 # Properties
@@ -64,12 +65,12 @@ Write: constraintsoundinfo.PlayReversalSound = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 constraintsoundinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 constraintsoundinfo:IsValid()
 ```
 

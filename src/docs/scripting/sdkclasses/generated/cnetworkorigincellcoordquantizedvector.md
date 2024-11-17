@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNetworkOriginCellCoordQuantizedVector(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: cnetworkorigincellcoordquantizedvector.Z = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnetworkorigincellcoordquantizedvector:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnetworkorigincellcoordquantizedvector:IsValid()
 ```
 

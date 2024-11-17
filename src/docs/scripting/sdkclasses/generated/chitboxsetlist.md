@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHitBoxSetList(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: chitboxsetlist.HitBoxSets
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chitboxsetlist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chitboxsetlist:IsValid()
 ```
 

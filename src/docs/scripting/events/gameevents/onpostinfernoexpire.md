@@ -12,7 +12,7 @@ This event is triggered after inferno_expire is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostInfernoExpire", function(event)
     --[[ ... ]]
     return EventResult.Continue

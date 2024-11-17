@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 fogplayerparams_t(ptr)
 ```
 # Properties
@@ -101,12 +102,12 @@ Write: fogplayerparams_t.NewFarZ = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fogplayerparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fogplayerparams_t:IsValid()
 ```
 

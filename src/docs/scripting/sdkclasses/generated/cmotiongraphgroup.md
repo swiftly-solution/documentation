@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionGraphGroup(ptr)
 ```
 # Properties
@@ -38,12 +39,12 @@ Read: cmotiongraphgroup.IsActiveScript
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotiongraphgroup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotiongraphgroup:IsValid()
 ```
 

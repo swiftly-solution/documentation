@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseDMStart(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cbasedmstart.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasedmstart:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasedmstart:IsValid()
 ```
 

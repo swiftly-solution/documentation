@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootTrajectory(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cfoottrajectory.Progression = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfoottrajectory:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfoottrajectory:IsValid()
 ```
 

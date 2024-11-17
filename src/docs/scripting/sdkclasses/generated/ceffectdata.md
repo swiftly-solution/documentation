@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEffectData(ptr)
 ```
 # Properties
@@ -130,12 +131,12 @@ Write: ceffectdata.ExplosionType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ceffectdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ceffectdata:IsValid()
 ```
 

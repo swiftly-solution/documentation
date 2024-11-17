@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_ViewModelServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cplayer_viewmodelservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_viewmodelservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_viewmodelservices:IsValid()
 ```
 

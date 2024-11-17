@@ -13,7 +13,7 @@ This game event is triggered when a client connects.
 ```lua
 --- @param event Event
 --- @param playerid number
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns boolean Via event:SetReturn
 AddEventHandler("OnClientConnect", function(event, playerid)
     --[[ ... ]]

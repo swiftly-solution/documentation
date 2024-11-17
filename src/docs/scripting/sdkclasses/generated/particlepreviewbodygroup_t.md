@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticlePreviewBodyGroup_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: particlepreviewbodygroup_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlepreviewbodygroup_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlepreviewbodygroup_t:IsValid()
 ```
 

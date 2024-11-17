@@ -19,152 +19,197 @@ There are no properties available for this class.
 # Functions
 ## GetBool
 ```lua
-@returns bool
+--- @param key string
+--- @return bool
 centitykeyvalues:GetBool(key)
 ```
 ## GetInt
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetInt(key)
 ```
 ## GetUint
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetUint(key)
 ```
 ## GetInt64
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetInt64(key)
 ```
 ## GetUint64
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetUint64(key)
 ```
 ## GetFloat
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetFloat(key)
 ```
 ## GetDouble
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetDouble(key)
 ```
 ## GetString
 ```lua
-@returns string
+--- @param key string
+--- @return string
 centitykeyvalues:GetString(key)
 ```
 ## GetPtr
 ```lua
-@returns string
+--- @param key string
+--- @return string
 centitykeyvalues:GetPtr(key)
 ```
 ## GetStringToken
 ```lua
-@returns number
+--- @param key string
+--- @return number
 centitykeyvalues:GetStringToken(key)
 ```
 ## GetColor
 ```lua
-@returns Color
+--- @param key string
+--- @return Color
 centitykeyvalues:GetColor(key)
 ```
 ## GetVector
 ```lua
-@returns Vector
+--- @param key string
+--- @return Vector
 centitykeyvalues:GetVector(key)
 ```
 ## GetVector2D
 ```lua
-@returns Vector2D
+--- @param key string
+--- @return Vector2D
 centitykeyvalues:GetVector2D(key)
 ```
 ## GetVector4D
 ```lua
-@returns Vector4D
+--- @param key string
+--- @return Vector4D
 centitykeyvalues:GetVector4D(key)
 ```
 ## GetQAngle
 ```lua
-@returns QAngle
+--- @param key string
+--- @return QAngle
 centitykeyvalues:GetQAngle(key)
 ```
 ## SetBool
 ```lua
-@returns void
+--- @param key string
+--- @param value bool
+--- @return void
 centitykeyvalues:SetBool(key, value)
 ```
 ## SetInt
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetInt(key, value)
 ```
 ## SetUint
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetUint(key, value)
 ```
 ## SetInt64
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetInt64(key, value)
 ```
 ## SetUint64
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetUint64(key, value)
 ```
 ## SetFloat
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetFloat(key, value)
 ```
 ## SetDouble
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetDouble(key, value)
 ```
 ## SetString
 ```lua
-@returns void
+--- @param key string
+--- @param value string
+--- @return void
 centitykeyvalues:SetString(key, value)
 ```
 ## SetPtr
 ```lua
-@returns void
+--- @param key string
+--- @param value string
+--- @return void
 centitykeyvalues:SetPtr(key, value)
 ```
 ## SetStringToken
 ```lua
-@returns void
+--- @param key string
+--- @param value number
+--- @return void
 centitykeyvalues:SetStringToken(key, value)
 ```
 ## SetColor
 ```lua
-@returns void
+--- @param key string
+--- @param value Color
+--- @return void
 centitykeyvalues:SetColor(key, value)
 ```
 ## SetVector
 ```lua
-@returns void
+--- @param key string
+--- @param value Vector
+--- @return void
 centitykeyvalues:SetVector(key, value)
 ```
 ## SetVector2D
 ```lua
-@returns void
+--- @param key string
+--- @param value Vector2D
+--- @return void
 centitykeyvalues:SetVector2D(key, value)
 ```
 ## SetVector4D
 ```lua
-@returns void
+--- @param key string
+--- @param value Vector4D
+--- @return void
 centitykeyvalues:SetVector4D(key, value)
 ```
 ## SetQAngle
 ```lua
-@returns void
+--- @param key string
+--- @param value QAngle
+--- @return void
 centitykeyvalues:SetQAngle(key, value)
 ```
 

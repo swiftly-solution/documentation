@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvMicrophone(ptr)
 ```
 # Properties
@@ -120,12 +121,12 @@ Read: cenvmicrophone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvmicrophone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvmicrophone:IsValid()
 ```
 

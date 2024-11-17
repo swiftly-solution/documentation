@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimGraphModelBinding(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimgraphmodelbinding.ModelName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimgraphmodelbinding:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimgraphmodelbinding:IsValid()
 ```
 

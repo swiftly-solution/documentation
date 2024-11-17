@@ -12,7 +12,7 @@ This event is triggered when hostname_changed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHostnameChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue

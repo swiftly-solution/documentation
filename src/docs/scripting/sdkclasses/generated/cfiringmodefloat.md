@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFiringModeFloat(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cfiringmodefloat.Values = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfiringmodefloat:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfiringmodefloat:IsValid()
 ```
 

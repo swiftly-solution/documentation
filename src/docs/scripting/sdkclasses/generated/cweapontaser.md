@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponTaser(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cweapontaser.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweapontaser:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweapontaser:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavLinkAnimgraphVar(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cnavlinkanimgraphvar.AlignmentDegrees = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavlinkanimgraphvar:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavlinkanimgraphvar:IsValid()
 ```
 

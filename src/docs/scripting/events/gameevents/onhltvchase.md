@@ -12,7 +12,7 @@ This event is triggered when hltv_chase is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHltvChase", function(event)
     --[[ ... ]]
     return EventResult.Continue

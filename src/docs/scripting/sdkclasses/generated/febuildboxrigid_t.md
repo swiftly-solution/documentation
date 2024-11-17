@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeBuildBoxRigid_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: febuildboxrigid_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 febuildboxrigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 febuildboxrigid_t:IsValid()
 ```
 

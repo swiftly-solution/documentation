@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointTeleport(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cpointteleport.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointteleport:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointteleport:IsValid()
 ```
 

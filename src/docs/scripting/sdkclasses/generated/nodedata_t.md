@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NodeData_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Write: nodedata_t.WorldNodePrefix = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 nodedata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 nodedata_t:IsValid()
 ```
 

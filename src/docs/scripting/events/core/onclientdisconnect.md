@@ -13,7 +13,7 @@ This game event is triggered when a client disconnects.
 ```lua
 --- @param event Event
 --- @param playerid number
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnClientDisconnect", function(event, playerid)
     --[[ ... ]]

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerVolume(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctriggervolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggervolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggervolume:IsValid()
 ```
 

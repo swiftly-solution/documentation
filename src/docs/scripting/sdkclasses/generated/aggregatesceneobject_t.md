@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AggregateSceneObject_t(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: aggregatesceneobject_t.VisClusterMembership
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aggregatesceneobject_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aggregatesceneobject_t:IsValid()
 ```
 

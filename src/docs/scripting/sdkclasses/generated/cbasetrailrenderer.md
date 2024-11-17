@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseTrailRenderer(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cbasetrailrenderer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasetrailrenderer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasetrailrenderer:IsValid()
 ```
 

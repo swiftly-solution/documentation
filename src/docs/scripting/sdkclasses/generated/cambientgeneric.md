@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAmbientGeneric(ptr)
 ```
 # Properties
@@ -81,12 +82,12 @@ Read: cambientgeneric.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cambientgeneric:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cambientgeneric:IsValid()
 ```
 

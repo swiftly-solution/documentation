@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CountdownTimer(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: countdowntimer.WorldGroupId = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 countdowntimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 countdowntimer:IsValid()
 ```
 

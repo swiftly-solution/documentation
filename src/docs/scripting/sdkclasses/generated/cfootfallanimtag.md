@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootFallAnimTag(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfootfallanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootfallanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootfallanimtag:IsValid()
 ```
 

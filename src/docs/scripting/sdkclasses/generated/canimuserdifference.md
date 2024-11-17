@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimUserDifference(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimuserdifference.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimuserdifference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimuserdifference:IsValid()
 ```
 

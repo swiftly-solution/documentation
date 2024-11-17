@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnSoftbodySpring_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: rnsoftbodyspring_t.Length = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnsoftbodyspring_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnsoftbodyspring_t:IsValid()
 ```
 

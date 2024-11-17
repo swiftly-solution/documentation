@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PointDefinition_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: pointdefinition_t.Offset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 pointdefinition_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 pointdefinition_t:IsValid()
 ```
 

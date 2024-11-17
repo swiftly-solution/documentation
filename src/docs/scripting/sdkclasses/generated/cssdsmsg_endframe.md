@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSSDSMsg_EndFrame(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cssdsmsg_endframe.Views
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cssdsmsg_endframe:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cssdsmsg_endframe:IsValid()
 ```
 

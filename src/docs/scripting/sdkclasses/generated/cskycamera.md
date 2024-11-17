@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkyCamera(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: cskycamera.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskycamera:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskycamera:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ModelReference_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: modelreference_t.RelativeProbabilityOfSpawn = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 modelreference_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 modelreference_t:IsValid()
 ```
 

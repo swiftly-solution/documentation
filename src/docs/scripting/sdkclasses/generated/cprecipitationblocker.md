@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPrecipitationBlocker(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cprecipitationblocker.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cprecipitationblocker:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cprecipitationblocker:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AggregateMeshInfo_t(ptr)
 ```
 # Properties
@@ -72,12 +73,12 @@ Write: aggregatemeshinfo_t.LightProbeVolumePrecomputedHandshake = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 aggregatemeshinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 aggregatemeshinfo_t:IsValid()
 ```
 

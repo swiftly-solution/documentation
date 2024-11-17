@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathCorner(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cpathcorner.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathcorner:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathcorner:IsValid()
 ```
 

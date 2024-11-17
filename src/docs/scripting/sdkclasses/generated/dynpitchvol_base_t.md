@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 dynpitchvol_base_t(ptr)
 ```
 # Properties
@@ -168,12 +169,12 @@ Write: dynpitchvol_base_t.Lfomult = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 dynpitchvol_base_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 dynpitchvol_base_t:IsValid()
 ```
 

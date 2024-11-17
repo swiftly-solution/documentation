@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventServerBeginAsyncPostTickWork_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: eventserverbeginasyncposttickwork_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventserverbeginasyncposttickwork_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventserverbeginasyncposttickwork_t:IsValid()
 ```
 

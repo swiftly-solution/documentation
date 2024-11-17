@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeFitInfluence_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: fefitinfluence_t.MatrixNode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fefitinfluence_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fefitinfluence_t:IsValid()
 ```
 

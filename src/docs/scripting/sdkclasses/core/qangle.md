@@ -12,6 +12,9 @@ A QAngle is an object which stores coordinates regarding the angle.
 @tab Lua
 # Constructor
 ```lua
+--- @param x number
+--- @param y number
+--- @param z number
 QAngle(x, y, z)
 ```
 # Properties
@@ -36,7 +39,7 @@ Write: qangle.z = value
 # Functions
 ## GetPtr
 ```lua
-@returns string
+--- @return string
 qangle:GetPtr()
 ```
 This class supports doing operations on them: addition, division, multiplication, substraction.

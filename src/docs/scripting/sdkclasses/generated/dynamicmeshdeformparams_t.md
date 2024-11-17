@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 DynamicMeshDeformParams_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: dynamicmeshdeformparams_t.SmoothNormalsAcrossUvSeams = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 dynamicmeshdeformparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 dynamicmeshdeformparams_t:IsValid()
 ```
 

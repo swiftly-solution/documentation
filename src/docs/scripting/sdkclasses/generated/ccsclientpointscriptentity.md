@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSClientPointScriptEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsclientpointscriptentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsclientpointscriptentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsclientpointscriptentity:IsValid()
 ```
 

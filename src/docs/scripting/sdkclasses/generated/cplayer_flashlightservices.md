@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayer_FlashlightServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cplayer_flashlightservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayer_flashlightservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayer_flashlightservices:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CJumpHelperUpdateNode(ptr)
 ```
 # Properties
@@ -70,12 +71,12 @@ Read: cjumphelperupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cjumphelperupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cjumphelperupdatenode:IsValid()
 ```
 

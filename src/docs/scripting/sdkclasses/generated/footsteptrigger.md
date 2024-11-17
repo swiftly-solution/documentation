@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FootStepTrigger(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: footsteptrigger.TriggerPhase = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 footsteptrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 footsteptrigger:IsValid()
 ```
 

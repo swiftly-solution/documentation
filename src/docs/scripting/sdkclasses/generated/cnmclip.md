@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmClip(ptr)
 ```
 # Properties
@@ -56,12 +57,12 @@ Write: cnmclip.IsAdditive = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmclip:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmclip:IsValid()
 ```
 

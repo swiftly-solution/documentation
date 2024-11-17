@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerSoundscape(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctriggersoundscape.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggersoundscape:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggersoundscape:IsValid()
 ```
 

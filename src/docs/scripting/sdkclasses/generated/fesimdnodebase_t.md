@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSimdNodeBase_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: fesimdnodebase_t.Dummy = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesimdnodebase_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesimdnodebase_t:IsValid()
 ```
 

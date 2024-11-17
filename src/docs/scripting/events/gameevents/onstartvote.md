@@ -12,7 +12,7 @@ This event is triggered when start_vote is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnStartVote", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponGlock(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponglock.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponglock:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponglock:IsValid()
 ```
 

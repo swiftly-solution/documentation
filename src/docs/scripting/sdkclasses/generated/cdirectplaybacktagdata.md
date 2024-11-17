@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDirectPlaybackTagData(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cdirectplaybacktagdata.Tags
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdirectplaybacktagdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdirectplaybacktagdata:IsValid()
 ```
 

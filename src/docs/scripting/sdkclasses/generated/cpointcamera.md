@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointCamera(ptr)
 ```
 # Properties
@@ -178,12 +179,12 @@ Read: cpointcamera.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointcamera:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointcamera:IsValid()
 ```
 

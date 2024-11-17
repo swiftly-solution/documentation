@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ResponseFollowup(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: responsefollowup.Fired = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 responsefollowup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 responsefollowup:IsValid()
 ```
 

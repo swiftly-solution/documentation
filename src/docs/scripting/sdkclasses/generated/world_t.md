@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 World_t(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: world_t.WorldLightingInfo
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 world_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 world_t:IsValid()
 ```
 

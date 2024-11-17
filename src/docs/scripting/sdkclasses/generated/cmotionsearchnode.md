@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionSearchNode(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cmotionsearchnode.SelectableSamples
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionsearchnode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionsearchnode:IsValid()
 ```
 

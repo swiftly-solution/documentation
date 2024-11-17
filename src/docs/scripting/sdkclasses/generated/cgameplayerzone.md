@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGamePlayerZone(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cgameplayerzone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgameplayerzone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgameplayerzone:IsValid()
 ```
 

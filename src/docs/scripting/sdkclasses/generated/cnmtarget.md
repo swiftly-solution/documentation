@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmTarget(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cnmtarget.IsSet = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmtarget:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmtarget:IsValid()
 ```
 

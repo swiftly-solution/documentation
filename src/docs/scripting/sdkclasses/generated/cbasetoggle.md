@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseToggle(ptr)
 ```
 # Properties
@@ -118,12 +119,12 @@ Read: cbasetoggle.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasetoggle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasetoggle:IsValid()
 ```
 

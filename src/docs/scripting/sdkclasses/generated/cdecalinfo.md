@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDecalInfo(ptr)
 ```
 # Properties
@@ -88,12 +89,12 @@ Write: cdecalinfo.DecalMaterialIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdecalinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdecalinfo:IsValid()
 ```
 

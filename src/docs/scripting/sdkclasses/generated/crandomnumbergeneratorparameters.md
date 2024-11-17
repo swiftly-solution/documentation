@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRandomNumberGeneratorParameters(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: crandomnumbergeneratorparameters.Seed = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crandomnumbergeneratorparameters:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crandomnumbergeneratorparameters:IsValid()
 ```
 

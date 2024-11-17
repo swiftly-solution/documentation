@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCachedPose(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: ccachedpose.Cycle = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccachedpose:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccachedpose:IsValid()
 ```
 

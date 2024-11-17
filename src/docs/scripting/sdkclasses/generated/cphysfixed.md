@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysFixed(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cphysfixed.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysfixed:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysfixed:IsValid()
 ```
 

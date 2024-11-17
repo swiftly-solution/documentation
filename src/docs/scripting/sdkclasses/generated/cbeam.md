@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBeam(ptr)
 ```
 # Properties
@@ -147,12 +148,12 @@ Read: cbeam.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbeam:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbeam:IsValid()
 ```
 

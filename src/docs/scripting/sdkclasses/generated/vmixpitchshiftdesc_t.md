@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixPitchShiftDesc_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: vmixpitchshiftdesc_t.ProcType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixpitchshiftdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixpitchshiftdesc_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvBeverage(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cenvbeverage.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvbeverage:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvbeverage:IsValid()
 ```
 

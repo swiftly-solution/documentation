@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSMatchStats_t(ptr)
 ```
 # Properties
@@ -149,12 +150,12 @@ Read: csmatchstats_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csmatchstats_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csmatchstats_t:IsValid()
 ```
 

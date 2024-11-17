@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGO_TeamPreviewCharacterPosition(ptr)
 ```
 # Properties
@@ -68,12 +69,12 @@ Read: ccsgo_teampreviewcharacterposition.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgo_teampreviewcharacterposition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgo_teampreviewcharacterposition:IsValid()
 ```
 

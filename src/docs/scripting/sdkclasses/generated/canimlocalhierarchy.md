@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimLocalHierarchy(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: canimlocalhierarchy.EndFrame = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimlocalhierarchy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimlocalhierarchy:IsValid()
 ```
 

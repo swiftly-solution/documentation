@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvHudHint(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cenvhudhint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvhudhint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvhudhint:IsValid()
 ```
 

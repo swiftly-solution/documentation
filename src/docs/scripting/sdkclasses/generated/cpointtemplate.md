@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointTemplate(ptr)
 ```
 # Properties
@@ -75,12 +76,12 @@ Read: cpointtemplate.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointtemplate:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointtemplate:IsValid()
 ```
 

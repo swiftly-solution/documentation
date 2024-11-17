@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponMP5SD(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponmp5sd.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponmp5sd:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponmp5sd:IsValid()
 ```
 

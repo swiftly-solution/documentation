@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeTaperedCapsuleStretch_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fetaperedcapsulestretch_t.Radius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fetaperedcapsulestretch_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fetaperedcapsulestretch_t:IsValid()
 ```
 

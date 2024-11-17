@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSky(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: cenvsky.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsky:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsky:IsValid()
 ```
 

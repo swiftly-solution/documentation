@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseModelEntity(ptr)
 ```
 # Properties
@@ -208,27 +209,31 @@ Read: cbasemodelentity.Parent
 # Functions
 ## SetBodygroup
 ```lua
-@returns void
+--- @param str string
+--- @param val value
+--- @return void
 cbasemodelentity:SetBodygroup(str, val)
 ```
 ## SetModel
 ```lua
-@returns void
+--- @param model string
+--- @return void
 cbasemodelentity:SetModel(model)
 ```
 ## SetSolidType
 ```lua
-@returns void
+--- @param solidType number
+--- @return void
 cbasemodelentity:SetSolidType(solidType)
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasemodelentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasemodelentity:IsValid()
 ```
 

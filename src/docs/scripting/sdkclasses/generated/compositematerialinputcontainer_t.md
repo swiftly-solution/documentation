@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompositeMaterialInputContainer_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Write: compositematerialinputcontainer_t.ExposeExternally = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compositematerialinputcontainer_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compositematerialinputcontainer_t:IsValid()
 ```
 

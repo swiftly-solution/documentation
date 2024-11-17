@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysSurfacePropertiesAudio(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: cphyssurfacepropertiesaudio.OcclusionFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyssurfacepropertiesaudio:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyssurfacepropertiesaudio:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBasePlayerController(ptr)
 ```
 # Properties
@@ -159,17 +160,17 @@ Read: cbaseplayercontroller.Parent
 # Functions
 ## EntityIndex
 ```lua
-@returns number
+--- @return number
 cbaseplayercontroller:EntityIndex()
 ```
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseplayercontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseplayercontroller:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompositeMaterialEditorPoint_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: compositematerialeditorpoint_t.CompositeMaterials
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compositematerialeditorpoint_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compositematerialeditorpoint_t:IsValid()
 ```
 

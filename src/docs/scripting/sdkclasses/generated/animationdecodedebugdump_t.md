@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AnimationDecodeDebugDump_t(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: animationdecodedebugdump_t.Elems
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 animationdecodedebugdump_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 animationdecodedebugdump_t:IsValid()
 ```
 

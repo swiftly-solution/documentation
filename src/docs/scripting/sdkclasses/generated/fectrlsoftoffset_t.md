@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeCtrlSoftOffset_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fectrlsoftoffset_t.Alpha = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fectrlsoftoffset_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fectrlsoftoffset_t:IsValid()
 ```
 

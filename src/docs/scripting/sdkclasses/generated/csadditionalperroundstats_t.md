@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSAdditionalPerRoundStats_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: csadditionalperroundstats_t.Dinks = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csadditionalperroundstats_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csadditionalperroundstats_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvProjectedTexture(ptr)
 ```
 # Properties
@@ -202,12 +203,12 @@ Read: cenvprojectedtexture.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvprojectedtexture:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvprojectedtexture:IsValid()
 ```
 

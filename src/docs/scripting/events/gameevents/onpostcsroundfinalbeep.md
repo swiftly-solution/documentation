@@ -12,7 +12,7 @@ This event is triggered after cs_round_final_beep is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsRoundFinalBeep", function(event)
     --[[ ... ]]
     return EventResult.Continue

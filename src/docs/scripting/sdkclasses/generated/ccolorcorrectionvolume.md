@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CColorCorrectionVolume(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: ccolorcorrectionvolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccolorcorrectionvolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccolorcorrectionvolume:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseFire(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cbasefire.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbasefire:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbasefire:IsValid()
 ```
 

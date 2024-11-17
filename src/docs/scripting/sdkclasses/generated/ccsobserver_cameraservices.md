@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSObserver_CameraServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsobserver_cameraservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsobserver_cameraservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsobserver_cameraservices:IsValid()
 ```
 

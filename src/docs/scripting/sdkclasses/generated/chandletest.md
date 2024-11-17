@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHandleTest(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: chandletest.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chandletest:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chandletest:IsValid()
 ```
 

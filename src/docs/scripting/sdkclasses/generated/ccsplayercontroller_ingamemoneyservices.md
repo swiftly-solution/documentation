@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayerController_InGameMoneyServices(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: ccsplayercontroller_ingamemoneyservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayercontroller_ingamemoneyservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayercontroller_ingamemoneyservices:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInButtonState(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cinbuttonstate.ButtonStates = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinbuttonstate:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinbuttonstate:IsValid()
 ```
 

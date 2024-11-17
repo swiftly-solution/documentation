@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientSceneSystemThreadStateChange_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventclientscenesystemthreadstatechange_t.ThreadsActive = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientscenesystemthreadstatechange_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientscenesystemthreadstatechange_t:IsValid()
 ```
 

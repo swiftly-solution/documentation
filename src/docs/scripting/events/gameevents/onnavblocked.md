@@ -12,7 +12,7 @@ This event is triggered when nav_blocked is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnNavBlocked", function(event)
     --[[ ... ]]
     return EventResult.Continue

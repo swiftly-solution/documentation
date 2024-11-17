@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeBandBendLimit_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: febandbendlimit_t.Node = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 febandbendlimit_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 febandbendlimit_t:IsValid()
 ```
 

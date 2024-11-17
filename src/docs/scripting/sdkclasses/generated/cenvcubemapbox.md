@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvCubemapBox(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cenvcubemapbox.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvcubemapbox:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvcubemapbox:IsValid()
 ```
 

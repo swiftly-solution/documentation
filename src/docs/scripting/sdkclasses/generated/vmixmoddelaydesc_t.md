@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixModDelayDesc_t(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Write: vmixmoddelaydesc_t.ApplyAntialiasing = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixmoddelaydesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixmoddelaydesc_t:IsValid()
 ```
 

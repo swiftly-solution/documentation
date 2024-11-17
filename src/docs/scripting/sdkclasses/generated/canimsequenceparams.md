@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimSequenceParams(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: canimsequenceparams.FadeOutTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimsequenceparams:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimsequenceparams:IsValid()
 ```
 

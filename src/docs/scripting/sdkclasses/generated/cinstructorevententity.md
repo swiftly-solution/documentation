@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInstructorEventEntity(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cinstructorevententity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinstructorevententity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinstructorevententity:IsValid()
 ```
 

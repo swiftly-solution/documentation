@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicRelay(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: clogicrelay.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicrelay:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicrelay:IsValid()
 ```
 

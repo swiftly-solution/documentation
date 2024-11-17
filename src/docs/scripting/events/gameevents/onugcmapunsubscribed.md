@@ -12,7 +12,7 @@ This event is triggered when ugc_map_unsubscribed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnUgcMapUnsubscribed", function(event)
     --[[ ... ]]
     return EventResult.Continue

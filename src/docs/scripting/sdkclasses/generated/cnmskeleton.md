@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmSkeleton(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: cnmskeleton.NumBonesToSampleAtLowLOD = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmskeleton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmskeleton:IsValid()
 ```
 

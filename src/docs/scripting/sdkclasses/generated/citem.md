@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItem(ptr)
 ```
 # Properties
@@ -67,12 +68,12 @@ Read: citem.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citem:IsValid()
 ```
 

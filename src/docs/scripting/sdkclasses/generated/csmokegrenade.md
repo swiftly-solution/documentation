@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSmokeGrenade(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csmokegrenade.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csmokegrenade:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csmokegrenade:IsValid()
 ```
 

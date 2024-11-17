@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmEvent(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cnmevent.DurationSeconds = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmevent:IsValid()
 ```
 

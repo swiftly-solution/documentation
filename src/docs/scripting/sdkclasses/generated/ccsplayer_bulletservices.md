@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlayer_BulletServices(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ccsplayer_bulletservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplayer_bulletservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplayer_bulletservices:IsValid()
 ```
 

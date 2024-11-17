@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyGroupAnimTag(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cbodygroupanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodygroupanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodygroupanimtag:IsValid()
 ```
 

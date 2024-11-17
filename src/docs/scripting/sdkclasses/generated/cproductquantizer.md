@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CProductQuantizer(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: cproductquantizer.Dimensions = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cproductquantizer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cproductquantizer:IsValid()
 ```
 

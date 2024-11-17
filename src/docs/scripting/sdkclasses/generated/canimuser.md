@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimUser(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimuser.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimuser:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimuser:IsValid()
 ```
 

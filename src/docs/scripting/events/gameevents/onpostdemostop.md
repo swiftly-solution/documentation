@@ -12,7 +12,7 @@ This event is triggered after demo_stop is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDemoStop", function(event)
     --[[ ... ]]
     return EventResult.Continue

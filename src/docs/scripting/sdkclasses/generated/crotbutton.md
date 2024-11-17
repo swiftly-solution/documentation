@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRotButton(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: crotbutton.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crotbutton:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crotbutton:IsValid()
 ```
 

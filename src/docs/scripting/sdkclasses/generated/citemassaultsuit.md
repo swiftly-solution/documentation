@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItemAssaultSuit(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: citemassaultsuit.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citemassaultsuit:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citemassaultsuit:IsValid()
 ```
 

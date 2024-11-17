@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFlexController(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cflexcontroller.Max = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cflexcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cflexcontroller:IsValid()
 ```
 

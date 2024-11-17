@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEmitTagActionUpdater(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cemittagactionupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cemittagactionupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cemittagactionupdater:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStateNodeStateData(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cstatenodestatedata.ExclusiveRootMotionFirstFrame = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstatenodestatedata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstatenodestatedata:IsValid()
 ```
 

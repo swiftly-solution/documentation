@@ -12,7 +12,7 @@ This event is triggered when flare_ignite_npc is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnFlareIgniteNpc", function(event)
     --[[ ... ]]
     return EventResult.Continue

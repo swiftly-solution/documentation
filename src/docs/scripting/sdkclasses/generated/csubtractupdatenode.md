@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSubtractUpdateNode(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: csubtractupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csubtractupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csubtractupdatenode:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTargetWarpUpdateNode(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: ctargetwarpupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctargetwarpupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctargetwarpupdatenode:IsValid()
 ```
 

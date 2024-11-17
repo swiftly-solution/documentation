@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PhysSoftbodyDesc_t(ptr)
 ```
 # Properties
@@ -43,12 +44,12 @@ Read: physsoftbodydesc_t.ParticleBoneName
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 physsoftbodydesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 physsoftbodydesc_t:IsValid()
 ```
 

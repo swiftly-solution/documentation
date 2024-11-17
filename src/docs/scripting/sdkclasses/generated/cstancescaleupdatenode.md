@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStanceScaleUpdateNode(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cstancescaleupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstancescaleupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstancescaleupdatenode:IsValid()
 ```
 

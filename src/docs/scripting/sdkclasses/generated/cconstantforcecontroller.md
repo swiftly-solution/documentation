@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CConstantForceController(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cconstantforcecontroller.AngularSave = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cconstantforcecontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cconstantforcecontroller:IsValid()
 ```
 

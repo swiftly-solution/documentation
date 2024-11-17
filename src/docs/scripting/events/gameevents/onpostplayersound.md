@@ -12,7 +12,7 @@ This event is triggered after player_sound is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostPlayerSound", function(event)
     --[[ ... ]]
     return EventResult.Continue

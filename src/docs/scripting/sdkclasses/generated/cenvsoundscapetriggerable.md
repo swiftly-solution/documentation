@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSoundscapeTriggerable(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cenvsoundscapetriggerable.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsoundscapetriggerable:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsoundscapetriggerable:IsValid()
 ```
 

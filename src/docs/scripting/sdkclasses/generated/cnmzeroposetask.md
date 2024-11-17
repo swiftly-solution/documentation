@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmZeroPoseTask(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnmzeroposetask.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmzeroposetask:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmzeroposetask:IsValid()
 ```
 

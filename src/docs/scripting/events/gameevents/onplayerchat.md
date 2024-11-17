@@ -12,7 +12,7 @@ This event is triggered when player_chat is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerChat", function(event)
     --[[ ... ]]
     return EventResult.Continue

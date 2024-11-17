@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqSynthAnimDesc(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Read: cseqsynthanimdesc.ActivityArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqsynthanimdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqsynthanimdesc:IsValid()
 ```
 

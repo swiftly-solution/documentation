@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialParamVector_t(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: materialparamvector_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialparamvector_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialparamvector_t:IsValid()
 ```
 

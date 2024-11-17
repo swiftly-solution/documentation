@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EngineCountdownTimer(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: enginecountdowntimer.Timescale = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 enginecountdowntimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 enginecountdowntimer:IsValid()
 ```
 

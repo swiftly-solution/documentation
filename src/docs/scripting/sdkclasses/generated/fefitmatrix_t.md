@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeFitMatrix_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fefitmatrix_t.BeginDynamic = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fefitmatrix_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fefitmatrix_t:IsValid()
 ```
 

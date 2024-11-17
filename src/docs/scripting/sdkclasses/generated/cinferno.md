@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInferno(ptr)
 ```
 # Properties
@@ -167,12 +168,12 @@ Read: cinferno.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinferno:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinferno:IsValid()
 ```
 

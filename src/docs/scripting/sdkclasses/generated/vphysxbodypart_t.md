@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXBodyPart_t(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Write: vphysxbodypart_t.MassCenterOverride = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxbodypart_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxbodypart_t:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when local_player_team is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnLocalPlayerTeam", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerLerpObject(ptr)
 ```
 # Properties
@@ -96,12 +97,12 @@ Read: ctriggerlerpobject.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerlerpobject:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerlerpobject:IsValid()
 ```
 

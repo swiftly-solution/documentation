@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VertexPositionColor_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: vertexpositioncolor_t.Position = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vertexpositioncolor_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vertexpositioncolor_t:IsValid()
 ```
 

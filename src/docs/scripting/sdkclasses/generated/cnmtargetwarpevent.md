@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmTargetWarpEvent(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cnmtargetwarpevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmtargetwarpevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmtargetwarpevent:IsValid()
 ```
 

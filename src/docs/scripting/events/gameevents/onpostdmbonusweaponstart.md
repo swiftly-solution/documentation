@@ -12,7 +12,7 @@ This event is triggered after dm_bonus_weapon_start is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDmBonusWeaponStart", function(event)
     --[[ ... ]]
     return EventResult.Continue

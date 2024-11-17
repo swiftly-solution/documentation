@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerDefault(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cvoicecontainerdefault.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainerdefault:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainerdefault:IsValid()
 ```
 

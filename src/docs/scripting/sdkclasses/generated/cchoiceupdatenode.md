@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CChoiceUpdateNode(ptr)
 ```
 # Properties
@@ -80,12 +81,12 @@ Read: cchoiceupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cchoiceupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cchoiceupdatenode:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDamageRecord(ptr)
 ```
 # Properties
@@ -104,12 +105,12 @@ Write: cdamagerecord.KillType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdamagerecord:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdamagerecord:IsValid()
 ```
 

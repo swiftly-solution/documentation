@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameGibManager(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cgamegibmanager.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamegibmanager:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamegibmanager:IsValid()
 ```
 

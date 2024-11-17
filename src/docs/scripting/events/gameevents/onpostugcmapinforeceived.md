@@ -12,7 +12,7 @@ This event is triggered after ugc_map_info_received is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostUgcMapInfoReceived", function(event)
     --[[ ... ]]
     return EventResult.Continue

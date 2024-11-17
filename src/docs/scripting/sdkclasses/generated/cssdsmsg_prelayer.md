@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSSDSMsg_PreLayer(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cssdsmsg_prelayer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cssdsmsg_prelayer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cssdsmsg_prelayer:IsValid()
 ```
 

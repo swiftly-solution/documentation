@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTonemapController2Alias_env_tonemap_controller2(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctonemapcontroller2alias_env_tonemap_controller2.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctonemapcontroller2alias_env_tonemap_controller2:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctonemapcontroller2alias_env_tonemap_controller2:IsValid()
 ```
 

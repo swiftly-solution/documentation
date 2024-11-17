@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayerControllerComponent(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cplayercontrollercomponent.__pChainEntity
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayercontrollercomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayercontrollercomponent:IsValid()
 ```
 

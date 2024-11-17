@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSequenceFinishedAnimTag(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: csequencefinishedanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csequencefinishedanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csequencefinishedanimtag:IsValid()
 ```
 

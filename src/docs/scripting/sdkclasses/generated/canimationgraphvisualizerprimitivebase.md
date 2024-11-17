@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimationGraphVisualizerPrimitiveBase(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: canimationgraphvisualizerprimitivebase.OwningAnimNodePathCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimationgraphvisualizerprimitivebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimationgraphvisualizerprimitivebase:IsValid()
 ```
 

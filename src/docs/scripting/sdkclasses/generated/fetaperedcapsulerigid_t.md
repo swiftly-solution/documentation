@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeTaperedCapsuleRigid_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: fetaperedcapsulerigid_t.Flags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fetaperedcapsulerigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fetaperedcapsulerigid_t:IsValid()
 ```
 

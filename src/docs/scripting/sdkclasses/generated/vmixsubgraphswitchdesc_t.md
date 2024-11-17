@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixSubgraphSwitchDesc_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: vmixsubgraphswitchdesc_t.InterpolationTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixsubgraphswitchdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixsubgraphswitchdesc_t:IsValid()
 ```
 

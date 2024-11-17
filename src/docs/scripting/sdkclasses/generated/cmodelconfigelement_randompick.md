@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CModelConfigElement_RandomPick(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cmodelconfigelement_randompick.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmodelconfigelement_randompick:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmodelconfigelement_randompick:IsValid()
 ```
 

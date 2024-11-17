@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventProfileStorageAvailable_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventprofilestorageavailable_t.SplitScreenSlot = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventprofilestorageavailable_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventprofilestorageavailable_t:IsValid()
 ```
 

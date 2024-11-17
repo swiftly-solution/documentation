@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMultiplayer_Expresser(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmultiplayer_expresser.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmultiplayer_expresser:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmultiplayer_expresser:IsValid()
 ```
 

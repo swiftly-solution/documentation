@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSimdQuad_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: fesimdquad_t.4Weights = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesimdquad_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesimdquad_t:IsValid()
 ```
 

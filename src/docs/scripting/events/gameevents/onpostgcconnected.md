@@ -12,7 +12,7 @@ This event is triggered after gc_connected is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostGcConnected", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered after smokegrenade_detonate is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSmokegrenadeDetonate", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WeightList(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: weightlist.Weights
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 weightlist:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 weightlist:IsValid()
 ```
 

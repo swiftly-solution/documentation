@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPostProcessingVolume(ptr)
 ```
 # Properties
@@ -113,12 +114,12 @@ Read: cpostprocessingvolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpostprocessingvolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpostprocessingvolume:IsValid()
 ```
 

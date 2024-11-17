@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeAntiTunnelProbeBuild_t(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: feantitunnelprobebuild_t.TargetNodes
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feantitunnelprobebuild_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feantitunnelprobebuild_t:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when team_score is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTeamScore", function(event)
     --[[ ... ]]
     return EventResult.Continue

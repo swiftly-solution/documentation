@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WorldBuilderParams_t(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Write: worldbuilderparams_t.CompileFingerprint = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 worldbuilderparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 worldbuilderparams_t:IsValid()
 ```
 

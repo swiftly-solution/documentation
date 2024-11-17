@@ -12,7 +12,7 @@ This event is triggered when cs_match_end_restart is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnCsMatchEndRestart", function(event)
     --[[ ... ]]
     return EventResult.Continue

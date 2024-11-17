@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCycleBase(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: ccyclebase.Cycle = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccyclebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccyclebase:IsValid()
 ```
 

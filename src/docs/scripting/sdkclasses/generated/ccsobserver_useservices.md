@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSObserver_UseServices(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsobserver_useservices.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsobserver_useservices:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsobserver_useservices:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXJoint_t(ptr)
 ```
 # Properties
@@ -165,12 +166,12 @@ Write: vphysxjoint_t.Plasticity = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxjoint_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxjoint_t:IsValid()
 ```
 

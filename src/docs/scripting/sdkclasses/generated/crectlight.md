@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRectLight(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: crectlight.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crectlight:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crectlight:IsValid()
 ```
 

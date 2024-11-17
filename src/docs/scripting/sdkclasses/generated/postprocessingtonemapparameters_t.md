@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PostProcessingTonemapParameters_t(ptr)
 ```
 # Properties
@@ -108,12 +109,12 @@ Write: postprocessingtonemapparameters_t.MaxHighlightLum = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 postprocessingtonemapparameters_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 postprocessingtonemapparameters_t:IsValid()
 ```
 

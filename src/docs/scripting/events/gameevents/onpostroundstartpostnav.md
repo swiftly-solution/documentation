@@ -12,7 +12,7 @@ This event is triggered after round_start_post_nav is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostRoundStartPostNav", function(event)
     --[[ ... ]]
     return EventResult.Continue

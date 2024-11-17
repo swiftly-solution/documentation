@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 constraint_breakableparams_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: constraint_breakableparams_t.IsActive = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 constraint_breakableparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 constraint_breakableparams_t:IsValid()
 ```
 

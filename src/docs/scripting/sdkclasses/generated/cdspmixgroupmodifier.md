@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDSPMixgroupModifier(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: cdspmixgroupmodifier.ListenerReverbModifierWhenSourceReverbIsActive = val
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdspmixgroupmodifier:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdspmixgroupmodifier:IsValid()
 ```
 

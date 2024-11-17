@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 lerpdata_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: lerpdata_t.FXIndex
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 lerpdata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 lerpdata_t:IsValid()
 ```
 

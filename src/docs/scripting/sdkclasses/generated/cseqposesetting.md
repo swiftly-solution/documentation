@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqPoseSetting(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: cseqposesetting.Type = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqposesetting:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqposesetting:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SimpleConstraintSoundProfile(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: simpleconstraintsoundprofile.ReversalSoundThresholds = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 simpleconstraintsoundprofile:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 simpleconstraintsoundprofile:IsValid()
 ```
 

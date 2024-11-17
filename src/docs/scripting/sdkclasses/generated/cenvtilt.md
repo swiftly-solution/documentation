@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvTilt(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cenvtilt.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvtilt:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvtilt:IsValid()
 ```
 

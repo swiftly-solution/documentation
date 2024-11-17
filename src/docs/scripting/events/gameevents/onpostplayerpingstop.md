@@ -12,7 +12,7 @@ This event is triggered after player_ping_stop is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostPlayerPingStop", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered after cs_win_panel_match is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostCsWinPanelMatch", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupActionTimeBlockLimitSchema(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: csosgroupactiontimeblocklimitschema.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupactiontimeblocklimitschema:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupactiontimeblocklimitschema:IsValid()
 ```
 

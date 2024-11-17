@@ -12,7 +12,7 @@ This event is triggered after parachute_pickup is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostParachutePickup", function(event)
     --[[ ... ]]
     return EventResult.Continue

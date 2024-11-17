@@ -18,6 +18,12 @@ commands:Register(commandName, callback)
 ```
 The callback has the following arguments:
 ```lua
-cb(playerid --[[ number ]], args --[[ table ]], argsCount --[[ number ]], silent --[[ boolean ]], prefix --[[ string ]])
+--- @param playerid number
+--- @param args table
+--- @param argsCount number
+--- @param silent boolean
+--- @param prefix string
+--- @return void
+cb(playerid, args, argsCount, silent, prefix)
 ```
 :::

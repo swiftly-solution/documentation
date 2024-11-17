@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CScriptTriggerOnce(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cscripttriggeronce.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscripttriggeronce:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscripttriggeronce:IsValid()
 ```
 

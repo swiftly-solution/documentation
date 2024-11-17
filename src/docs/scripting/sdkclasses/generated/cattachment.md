@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAttachment(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Write: cattachment.IgnoreRotation = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cattachment:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cattachment:IsValid()
 ```
 

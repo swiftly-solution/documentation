@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSensorGrenade(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csensorgrenade.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csensorgrenade:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csensorgrenade:IsValid()
 ```
 

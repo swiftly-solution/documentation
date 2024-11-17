@@ -12,7 +12,7 @@ This event is triggered after entity_visible is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostEntityVisible", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGlowSprite(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: cglowsprite.VertSize = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cglowsprite:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cglowsprite:IsValid()
 ```
 

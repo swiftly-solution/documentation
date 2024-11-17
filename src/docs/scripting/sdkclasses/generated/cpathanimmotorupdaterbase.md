@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathAnimMotorUpdaterBase(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cpathanimmotorupdaterbase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathanimmotorupdaterbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathanimmotorupdaterbase:IsValid()
 ```
 

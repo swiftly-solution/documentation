@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBuyZone(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cbuyzone.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbuyzone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbuyzone:IsValid()
 ```
 

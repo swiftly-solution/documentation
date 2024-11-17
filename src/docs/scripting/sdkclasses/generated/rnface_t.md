@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnFace_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: rnface_t.Edge = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnface_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnface_t:IsValid()
 ```
 

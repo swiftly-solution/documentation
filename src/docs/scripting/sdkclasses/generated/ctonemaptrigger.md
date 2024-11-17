@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTonemapTrigger(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctonemaptrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctonemaptrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctonemaptrigger:IsValid()
 ```
 

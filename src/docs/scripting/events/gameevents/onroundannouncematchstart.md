@@ -12,7 +12,7 @@ This event is triggered when round_announce_match_start is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnRoundAnnounceMatchStart", function(event)
     --[[ ... ]]
     return EventResult.Continue

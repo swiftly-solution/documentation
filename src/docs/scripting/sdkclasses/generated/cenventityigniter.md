@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvEntityIgniter(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cenventityigniter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenventityigniter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenventityigniter:IsValid()
 ```
 

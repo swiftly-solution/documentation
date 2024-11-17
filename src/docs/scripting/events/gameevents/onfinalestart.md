@@ -12,7 +12,7 @@ This event is triggered when finale_start is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnFinaleStart", function(event)
     --[[ ... ]]
     return EventResult.Continue

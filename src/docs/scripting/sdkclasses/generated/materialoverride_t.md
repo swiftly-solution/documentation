@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialOverride_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: materialoverride_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialoverride_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialoverride_t:IsValid()
 ```
 

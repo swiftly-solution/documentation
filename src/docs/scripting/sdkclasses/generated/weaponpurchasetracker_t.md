@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 WeaponPurchaseTracker_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: weaponpurchasetracker_t.WeaponPurchases
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 weaponpurchasetracker_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 weaponpurchasetracker_t:IsValid()
 ```
 

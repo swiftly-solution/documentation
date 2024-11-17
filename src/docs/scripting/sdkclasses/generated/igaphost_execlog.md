@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IGapHost_ExecLog(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 igaphost_execlog:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 igaphost_execlog:IsValid()
 ```
 

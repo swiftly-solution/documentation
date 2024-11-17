@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAI_ExpresserWithFollowup(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cai_expresserwithfollowup.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cai_expresserwithfollowup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cai_expresserwithfollowup:IsValid()
 ```
 

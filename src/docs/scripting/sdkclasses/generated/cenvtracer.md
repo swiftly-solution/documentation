@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvTracer(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cenvtracer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvtracer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvtracer:IsValid()
 ```
 

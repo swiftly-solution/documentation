@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventFrameBoundary_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: eventframeboundary_t.FrameTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventframeboundary_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventframeboundary_t:IsValid()
 ```
 

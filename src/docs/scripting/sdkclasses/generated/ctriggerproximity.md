@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerProximity(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: ctriggerproximity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerproximity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerproximity:IsValid()
 ```
 

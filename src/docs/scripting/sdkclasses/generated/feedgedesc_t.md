@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeEdgeDesc_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: feedgedesc_t.VirtElem = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feedgedesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feedgedesc_t:IsValid()
 ```
 

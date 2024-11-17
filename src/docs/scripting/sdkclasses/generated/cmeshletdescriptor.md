@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMeshletDescriptor(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmeshletdescriptor.CullingData
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmeshletdescriptor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmeshletdescriptor:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSphereRigid_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: fesphererigid_t.Flags = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesphererigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesphererigid_t:IsValid()
 ```
 

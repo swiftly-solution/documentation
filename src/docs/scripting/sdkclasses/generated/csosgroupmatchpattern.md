@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSosGroupMatchPattern(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: csosgroupmatchpattern.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csosgroupmatchpattern:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csosgroupmatchpattern:IsValid()
 ```
 

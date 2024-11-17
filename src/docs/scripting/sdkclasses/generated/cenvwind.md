@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvWind(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cenvwind.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvwind:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvwind:IsValid()
 ```
 

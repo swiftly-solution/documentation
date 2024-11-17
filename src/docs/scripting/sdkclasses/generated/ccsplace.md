@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSPlace(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ccsplace.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsplace:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsplace:IsValid()
 ```
 

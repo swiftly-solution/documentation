@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFists(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cfists.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfists:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfists:IsValid()
 ```
 

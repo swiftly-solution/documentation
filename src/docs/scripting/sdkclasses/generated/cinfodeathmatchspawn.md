@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoDeathmatchSpawn(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfodeathmatchspawn.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfodeathmatchspawn:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfodeathmatchspawn:IsValid()
 ```
 

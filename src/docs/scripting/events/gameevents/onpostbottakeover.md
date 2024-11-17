@@ -12,7 +12,7 @@ This event is triggered after bot_takeover is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBotTakeover", function(event)
     --[[ ... ]]
     return EventResult.Continue

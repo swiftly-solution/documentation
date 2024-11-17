@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDynamicLight(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Read: cdynamiclight.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdynamiclight:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdynamiclight:IsValid()
 ```
 

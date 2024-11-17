@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavVolumeBreadthFirstSearch(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cnavvolumebreadthfirstsearch.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavvolumebreadthfirstsearch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavvolumebreadthfirstsearch:IsValid()
 ```
 

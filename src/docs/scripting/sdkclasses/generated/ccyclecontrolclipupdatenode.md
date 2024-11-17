@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCycleControlClipUpdateNode(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: ccyclecontrolclipupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccyclecontrolclipupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccyclecontrolclipupdatenode:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnCapsule_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: rncapsule_t.Radius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rncapsule_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rncapsule_t:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after set_instructor_group_enabled is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSetInstructorGroupEnabled", function(event)
     --[[ ... ]]
     return EventResult.Continue

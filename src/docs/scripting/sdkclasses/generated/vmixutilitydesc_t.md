@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixUtilityDesc_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: vmixutilitydesc_t.BassFreq = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixutilitydesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixutilitydesc_t:IsValid()
 ```
 

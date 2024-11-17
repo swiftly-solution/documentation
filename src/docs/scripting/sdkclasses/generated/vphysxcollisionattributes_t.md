@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXCollisionAttributes_t(ptr)
 ```
 # Properties
@@ -60,12 +61,12 @@ Read: vphysxcollisionattributes_t.InteractExcludeStrings
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxcollisionattributes_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxcollisionattributes_t:IsValid()
 ```
 

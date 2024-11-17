@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerActiveWeaponDetect(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctriggeractiveweapondetect.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggeractiveweapondetect:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggeractiveweapondetect:IsValid()
 ```
 

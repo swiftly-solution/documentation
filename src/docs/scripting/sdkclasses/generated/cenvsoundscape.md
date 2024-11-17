@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSoundscape(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: cenvsoundscape.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsoundscape:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsoundscape:IsValid()
 ```
 

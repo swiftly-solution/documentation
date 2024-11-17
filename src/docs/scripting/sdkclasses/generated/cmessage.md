@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMessage(ptr)
 ```
 # Properties
@@ -58,12 +59,12 @@ Read: cmessage.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmessage:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmessage:IsValid()
 ```
 

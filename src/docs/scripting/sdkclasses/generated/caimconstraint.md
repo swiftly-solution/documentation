@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAimConstraint(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: caimconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caimconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caimconstraint:IsValid()
 ```
 

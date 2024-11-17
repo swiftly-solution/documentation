@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmBlendTaskBase(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnmblendtaskbase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmblendtaskbase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmblendtaskbase:IsValid()
 ```
 

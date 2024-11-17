@@ -12,7 +12,7 @@ This event is triggered when survival_no_respawns_warning is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnSurvivalNoRespawnsWarning", function(event)
     --[[ ... ]]
     return EventResult.Continue

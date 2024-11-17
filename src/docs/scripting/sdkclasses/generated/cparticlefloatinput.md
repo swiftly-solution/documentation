@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleFloatInput(ptr)
 ```
 # Properties
@@ -290,12 +291,12 @@ Read: cparticlefloatinput.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlefloatinput:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlefloatinput:IsValid()
 ```
 

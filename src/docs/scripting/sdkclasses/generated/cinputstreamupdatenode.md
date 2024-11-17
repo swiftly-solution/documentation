@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInputStreamUpdateNode(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinputstreamupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinputstreamupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinputstreamupdatenode:IsValid()
 ```
 

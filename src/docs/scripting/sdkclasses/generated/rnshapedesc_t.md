@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnShapeDesc_t(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: rnshapedesc_t.ToolMaterialHash = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnshapedesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnshapedesc_t:IsValid()
 ```
 

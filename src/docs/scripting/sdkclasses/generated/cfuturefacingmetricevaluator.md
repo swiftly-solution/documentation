@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFutureFacingMetricEvaluator(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cfuturefacingmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuturefacingmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuturefacingmetricevaluator:IsValid()
 ```
 

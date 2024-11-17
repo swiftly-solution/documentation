@@ -12,7 +12,7 @@ This event is triggered when buymenu_close is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnBuymenuClose", function(event)
     --[[ ... ]]
     return EventResult.Continue

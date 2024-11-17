@@ -12,7 +12,7 @@ This event is triggered when item_remove is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnItemRemove", function(event)
     --[[ ... ]]
     return EventResult.Continue

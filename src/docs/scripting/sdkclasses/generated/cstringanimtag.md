@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStringAnimTag(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cstringanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstringanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstringanimtag:IsValid()
 ```
 

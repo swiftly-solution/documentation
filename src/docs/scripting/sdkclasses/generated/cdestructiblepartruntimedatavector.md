@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDestructiblePartRuntimeDataVector(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdestructiblepartruntimedatavector.DestructiblePartsRuntimeData
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdestructiblepartruntimedatavector:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdestructiblepartruntimedatavector:IsValid()
 ```
 

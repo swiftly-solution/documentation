@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 TraceSettings_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: tracesettings_t.TraceRadius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 tracesettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 tracesettings_t:IsValid()
 ```
 

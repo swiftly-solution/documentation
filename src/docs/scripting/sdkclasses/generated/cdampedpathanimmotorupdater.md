@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDampedPathAnimMotorUpdater(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cdampedpathanimmotorupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdampedpathanimmotorupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdampedpathanimmotorupdater:IsValid()
 ```
 

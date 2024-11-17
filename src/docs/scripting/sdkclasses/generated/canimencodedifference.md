@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimEncodeDifference(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: canimencodedifference.HasUserBitArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimencodedifference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimencodedifference:IsValid()
 ```
 

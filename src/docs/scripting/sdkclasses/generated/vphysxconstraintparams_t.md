@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VPhysXConstraintParams_t(ptr)
 ```
 # Properties
@@ -282,12 +283,12 @@ Write: vphysxconstraintparams_t.ProjectionAngularTolerance = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysxconstraintparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysxconstraintparams_t:IsValid()
 ```
 

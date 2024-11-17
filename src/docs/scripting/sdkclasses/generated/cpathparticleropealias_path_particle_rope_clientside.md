@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathParticleRopeAlias_path_particle_rope_clientside(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpathparticleropealias_path_particle_rope_clientside.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathparticleropealias_path_particle_rope_clientside:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathparticleropealias_path_particle_rope_clientside:IsValid()
 ```
 

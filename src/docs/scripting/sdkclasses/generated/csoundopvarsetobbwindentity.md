@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundOpvarSetOBBWindEntity(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: csoundopvarsetobbwindentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundopvarsetobbwindentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundopvarsetobbwindentity:IsValid()
 ```
 

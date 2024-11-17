@@ -12,7 +12,7 @@ This event is triggered after survival_teammate_respawn is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostSurvivalTeammateRespawn", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered when physgun_pickup is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPhysgunPickup", function(event)
     --[[ ... ]]
     return EventResult.Continue

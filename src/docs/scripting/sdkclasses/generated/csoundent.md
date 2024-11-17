@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundEnt(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: csoundent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundent:IsValid()
 ```
 

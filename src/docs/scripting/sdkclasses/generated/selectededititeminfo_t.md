@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SelectedEditItemInfo_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: selectededititeminfo_t.EditItems
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 selectededititeminfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 selectededititeminfo_t:IsValid()
 ```
 

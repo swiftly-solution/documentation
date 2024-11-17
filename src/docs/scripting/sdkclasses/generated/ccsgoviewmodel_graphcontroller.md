@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGOViewModel_GraphController(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: ccsgoviewmodel_graphcontroller.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgoviewmodel_graphcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgoviewmodel_graphcontroller:IsValid()
 ```
 

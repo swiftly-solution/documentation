@@ -12,7 +12,7 @@ This event is triggered when player_shoot is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerShoot", function(event)
     --[[ ... ]]
     return EventResult.Continue

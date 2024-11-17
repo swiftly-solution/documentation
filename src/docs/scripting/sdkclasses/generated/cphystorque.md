@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysTorque(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cphystorque.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphystorque:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphystorque:IsValid()
 ```
 

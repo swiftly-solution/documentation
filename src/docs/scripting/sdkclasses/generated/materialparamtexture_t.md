@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialParamTexture_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: materialparamtexture_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialparamtexture_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialparamtexture_t:IsValid()
 ```
 

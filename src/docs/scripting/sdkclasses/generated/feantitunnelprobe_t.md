@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeAntiTunnelProbe_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: feantitunnelprobe_t.Bias = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feantitunnelprobe_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feantitunnelprobe_t:IsValid()
 ```
 

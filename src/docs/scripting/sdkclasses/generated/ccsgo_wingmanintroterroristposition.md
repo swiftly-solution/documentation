@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGO_WingmanIntroTerroristPosition(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsgo_wingmanintroterroristposition.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgo_wingmanintroterroristposition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgo_wingmanintroterroristposition:IsValid()
 ```
 

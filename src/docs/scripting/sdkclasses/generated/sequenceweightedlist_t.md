@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SequenceWeightedList_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: sequenceweightedlist_t.RelativeWeight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sequenceweightedlist_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sequenceweightedlist_t:IsValid()
 ```
 

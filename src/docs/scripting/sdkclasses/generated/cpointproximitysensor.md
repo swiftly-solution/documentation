@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointProximitySensor(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cpointproximitysensor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointproximitysensor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointproximitysensor:IsValid()
 ```
 

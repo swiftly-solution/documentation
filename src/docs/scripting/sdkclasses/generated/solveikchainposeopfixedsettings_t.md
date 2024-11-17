@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SolveIKChainPoseOpFixedSettings_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: solveikchainposeopfixedsettings_t.ChainsToSolveData
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 solveikchainposeopfixedsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 solveikchainposeopfixedsettings_t:IsValid()
 ```
 

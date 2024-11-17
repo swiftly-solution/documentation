@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsWire(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cphysicswire.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicswire:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicswire:IsValid()
 ```
 

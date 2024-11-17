@@ -22,6 +22,9 @@ db:Query(query, callback)
 ### Callback
 The callback has the following arguments:
 ```lua
-cb(err --[[ string ]], result --[[ table ]])
+--- @param err string
+--- @param result table
+--- @return nil
+cb(err, result)
 ```
 :::

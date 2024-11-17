@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CParticleFunctionPreEmission(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cparticlefunctionpreemission.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cparticlefunctionpreemission:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cparticlefunctionpreemission:IsValid()
 ```
 

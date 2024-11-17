@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoLadderDismount(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfoladderdismount.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfoladderdismount:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfoladderdismount:IsValid()
 ```
 

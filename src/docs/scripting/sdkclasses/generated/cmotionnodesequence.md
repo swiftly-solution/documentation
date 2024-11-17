@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionNodeSequence(ptr)
 ```
 # Properties
@@ -40,12 +41,12 @@ Read: cmotionnodesequence.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionnodesequence:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionnodesequence:IsValid()
 ```
 

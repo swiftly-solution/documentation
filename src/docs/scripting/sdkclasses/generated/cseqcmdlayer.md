@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqCmdLayer(ptr)
 ```
 # Properties
@@ -72,12 +73,12 @@ Write: cseqcmdlayer.LineNumber = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqcmdlayer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqcmdlayer:IsValid()
 ```
 

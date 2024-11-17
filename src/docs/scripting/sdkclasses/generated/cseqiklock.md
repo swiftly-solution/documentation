@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqIKLock(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cseqiklock.BonesOrientedAlongPositiveX = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqiklock:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqiklock:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeAxialEdgeBend_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: feaxialedgebend_t.Node = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feaxialedgebend_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feaxialedgebend_t:IsValid()
 ```
 

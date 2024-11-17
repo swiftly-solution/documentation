@@ -12,7 +12,7 @@ This event is triggered after bomb_defused is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBombDefused", function(event)
     --[[ ... ]]
     return EventResult.Continue

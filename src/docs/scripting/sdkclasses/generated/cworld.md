@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWorld(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cworld.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cworld:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cworld:IsValid()
 ```
 

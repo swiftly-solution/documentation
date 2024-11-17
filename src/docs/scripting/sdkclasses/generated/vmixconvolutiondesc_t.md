@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixConvolutionDesc_t(ptr)
 ```
 # Properties
@@ -66,12 +67,12 @@ Write: vmixconvolutiondesc_t.HighCutoffFreq = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixconvolutiondesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixconvolutiondesc_t:IsValid()
 ```
 

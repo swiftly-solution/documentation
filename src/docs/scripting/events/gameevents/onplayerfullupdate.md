@@ -12,7 +12,7 @@ This event is triggered when player_full_update is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerFullUpdate", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered when hostage_stops_following is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnHostageStopsFollowing", function(event)
     --[[ ... ]]
     return EventResult.Continue

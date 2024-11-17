@@ -12,7 +12,7 @@ This event is triggered after door_close is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDoorClose", function(event)
     --[[ ... ]]
     return EventResult.Continue

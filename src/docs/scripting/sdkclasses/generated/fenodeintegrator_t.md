@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeNodeIntegrator_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fenodeintegrator_t.Gravity = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fenodeintegrator_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fenodeintegrator_t:IsValid()
 ```
 

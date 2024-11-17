@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMessageEntity(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cmessageentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmessageentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmessageentity:IsValid()
 ```
 

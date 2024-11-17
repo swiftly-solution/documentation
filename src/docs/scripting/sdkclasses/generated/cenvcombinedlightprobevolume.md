@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvCombinedLightProbeVolume(ptr)
 ```
 # Properties
@@ -137,12 +138,12 @@ Read: cenvcombinedlightprobevolume.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvcombinedlightprobevolume:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvcombinedlightprobevolume:IsValid()
 ```
 

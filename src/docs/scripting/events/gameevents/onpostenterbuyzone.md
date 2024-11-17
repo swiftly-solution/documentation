@@ -12,7 +12,7 @@ This event is triggered after enter_buyzone is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostEnterBuyzone", function(event)
     --[[ ... ]]
     return EventResult.Continue

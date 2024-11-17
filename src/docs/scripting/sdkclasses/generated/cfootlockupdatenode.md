@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFootLockUpdateNode(ptr)
 ```
 # Properties
@@ -139,12 +140,12 @@ Read: cfootlockupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfootlockupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfootlockupdatenode:IsValid()
 ```
 

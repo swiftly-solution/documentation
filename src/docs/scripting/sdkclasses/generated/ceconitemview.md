@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEconItemView(ptr)
 ```
 # Properties
@@ -99,12 +100,12 @@ Read: ceconitemview.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ceconitemview:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ceconitemview:IsValid()
 ```
 

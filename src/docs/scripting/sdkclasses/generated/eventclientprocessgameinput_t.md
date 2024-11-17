@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientProcessGameInput_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: eventclientprocessgameinput_t.FrameTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientprocessgameinput_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientprocessgameinput_t:IsValid()
 ```
 

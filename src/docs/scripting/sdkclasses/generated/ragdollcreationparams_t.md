@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RagdollCreationParams_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: ragdollcreationparams_t.HealthToGrant = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ragdollcreationparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ragdollcreationparams_t:IsValid()
 ```
 

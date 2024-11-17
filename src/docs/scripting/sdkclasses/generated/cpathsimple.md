@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathSimple(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cpathsimple.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathsimple:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathsimple:IsValid()
 ```
 

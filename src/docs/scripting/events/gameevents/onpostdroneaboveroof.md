@@ -12,7 +12,7 @@ This event is triggered after drone_above_roof is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDroneAboveRoof", function(event)
     --[[ ... ]]
     return EventResult.Continue

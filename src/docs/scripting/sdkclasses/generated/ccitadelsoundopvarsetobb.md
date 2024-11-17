@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCitadelSoundOpvarSetOBB(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: ccitadelsoundopvarsetobb.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccitadelsoundopvarsetobb:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccitadelsoundopvarsetobb:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixEffectChainDesc_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: vmixeffectchaindesc_t.CrossfadeTime = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixeffectchaindesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixeffectchaindesc_t:IsValid()
 ```
 

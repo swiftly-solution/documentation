@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimationGraphVisualizerAxis(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: canimationgraphvisualizeraxis.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimationgraphvisualizeraxis:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimationgraphvisualizeraxis:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSpeedScaleUpdateNode(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cspeedscaleupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cspeedscaleupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cspeedscaleupdatenode:IsValid()
 ```
 

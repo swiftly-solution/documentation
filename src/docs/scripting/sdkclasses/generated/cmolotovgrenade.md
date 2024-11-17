@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMolotovGrenade(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmolotovgrenade.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmolotovgrenade:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmolotovgrenade:IsValid()
 ```
 

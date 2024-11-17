@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimEnum(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: canimenum.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimenum:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimenum:IsValid()
 ```
 

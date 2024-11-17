@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavLinkAreaEntity(ptr)
 ```
 # Properties
@@ -98,12 +99,12 @@ Read: cnavlinkareaentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavlinkareaentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavlinkareaentity:IsValid()
 ```
 

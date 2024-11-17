@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoTargetServerOnly(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfotargetserveronly.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfotargetserveronly:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfotargetserveronly:IsValid()
 ```
 

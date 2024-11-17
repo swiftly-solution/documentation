@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMapInfo(ptr)
 ```
 # Properties
@@ -77,12 +78,12 @@ Read: cmapinfo.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmapinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmapinfo:IsValid()
 ```
 

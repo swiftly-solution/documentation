@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHostage(ptr)
 ```
 # Properties
@@ -243,12 +244,12 @@ Read: chostage.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chostage:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chostage:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimEventDefinition(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: canimeventdefinition.Duration = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimeventdefinition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimeventdefinition:IsValid()
 ```
 

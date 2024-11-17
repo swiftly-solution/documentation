@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeBuildSDFRigid_t(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: febuildsdfrigid_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 febuildsdfrigid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 febuildsdfrigid_t:IsValid()
 ```
 

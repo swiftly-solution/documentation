@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PhysicsRagdollPose_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: physicsragdollpose_t.Owner
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 physicsragdollpose_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 physicsragdollpose_t:IsValid()
 ```
 

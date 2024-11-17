@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CScriptedSequence(ptr)
 ```
 # Properties
@@ -438,12 +439,12 @@ Read: cscriptedsequence.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cscriptedsequence:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cscriptedsequence:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when item_schema_initialized is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnItemSchemaInitialized", function(event)
     --[[ ... ]]
     return EventResult.Continue

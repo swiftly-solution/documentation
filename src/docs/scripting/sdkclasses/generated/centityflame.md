@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityFlame(ptr)
 ```
 # Properties
@@ -87,12 +88,12 @@ Read: centityflame.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centityflame:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centityflame:IsValid()
 ```
 

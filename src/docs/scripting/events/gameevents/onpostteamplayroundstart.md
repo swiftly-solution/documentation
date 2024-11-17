@@ -12,7 +12,7 @@ This event is triggered after teamplay_round_start is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostTeamplayRoundStart", function(event)
     --[[ ... ]]
     return EventResult.Continue

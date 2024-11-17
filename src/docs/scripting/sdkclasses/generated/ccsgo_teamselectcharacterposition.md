@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGO_TeamSelectCharacterPosition(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsgo_teamselectcharacterposition.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgo_teamselectcharacterposition:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgo_teamselectcharacterposition:IsValid()
 ```
 

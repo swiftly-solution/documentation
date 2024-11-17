@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 NmSyncTrackTime_t(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: nmsynctracktime_t.PercentageThrough
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 nmsynctracktime_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 nmsynctracktime_t:IsValid()
 ```
 

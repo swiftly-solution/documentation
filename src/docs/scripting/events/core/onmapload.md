@@ -13,7 +13,7 @@ This game event is triggered when a map loads.
 ```lua
 --- @param event Event
 --- @param map string
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnMapLoad", function(event, map)
     --[[ ... ]]

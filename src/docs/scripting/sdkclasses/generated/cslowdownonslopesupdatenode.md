@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSlowDownOnSlopesUpdateNode(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cslowdownonslopesupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cslowdownonslopesupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cslowdownonslopesupdatenode:IsValid()
 ```
 

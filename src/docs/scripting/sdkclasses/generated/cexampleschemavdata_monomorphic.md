@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CExampleSchemaVData_Monomorphic(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cexampleschemavdata_monomorphic.Example2 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cexampleschemavdata_monomorphic:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cexampleschemavdata_monomorphic:IsValid()
 ```
 

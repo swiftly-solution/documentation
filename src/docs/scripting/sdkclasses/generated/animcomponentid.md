@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AnimComponentID(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: animcomponentid.Id = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 animcomponentid:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 animcomponentid:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered when enable_restart_voting is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnEnableRestartVoting", function(event)
     --[[ ... ]]
     return EventResult.Continue

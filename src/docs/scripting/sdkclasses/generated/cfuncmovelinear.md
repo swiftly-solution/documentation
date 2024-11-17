@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncMoveLinear(ptr)
 ```
 # Properties
@@ -93,12 +94,12 @@ Read: cfuncmovelinear.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncmovelinear:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncmovelinear:IsValid()
 ```
 

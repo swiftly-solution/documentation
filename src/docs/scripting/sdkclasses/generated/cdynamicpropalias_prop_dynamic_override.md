@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDynamicPropAlias_prop_dynamic_override(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cdynamicpropalias_prop_dynamic_override.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdynamicpropalias_prop_dynamic_override:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdynamicpropalias_prop_dynamic_override:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBoneConstraintPoseSpaceMorph(ptr)
 ```
 # Properties
@@ -51,12 +52,12 @@ Read: cboneconstraintposespacemorph.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cboneconstraintposespacemorph:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cboneconstraintposespacemorph:IsValid()
 ```
 

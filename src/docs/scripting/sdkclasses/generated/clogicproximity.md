@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicProximity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: clogicproximity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicproximity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicproximity:IsValid()
 ```
 

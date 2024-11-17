@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSSprite(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccssprite.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccssprite:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccssprite:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 JiggleBoneSettingsList_t(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: jigglebonesettingslist_t.BoneSettings
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 jigglebonesettingslist_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 jigglebonesettingslist_t:IsValid()
 ```
 

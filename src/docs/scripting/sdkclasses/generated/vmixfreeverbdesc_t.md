@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixFreeverbDesc_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: vmixfreeverbdesc_t.LateReflections = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixfreeverbdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixfreeverbdesc_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncTimescale(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cfunctimescale.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfunctimescale:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfunctimescale:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncVehicleClip(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cfuncvehicleclip.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncvehicleclip:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncvehicleclip:IsValid()
 ```
 

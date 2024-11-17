@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RenderSkeletonBone_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: renderskeletonbone_t.SphereRadius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 renderskeletonbone_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 renderskeletonbone_t:IsValid()
 ```
 

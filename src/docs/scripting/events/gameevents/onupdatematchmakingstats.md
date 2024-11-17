@@ -12,7 +12,7 @@ This event is triggered when update_matchmaking_stats is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnUpdateMatchmakingStats", function(event)
     --[[ ... ]]
     return EventResult.Continue

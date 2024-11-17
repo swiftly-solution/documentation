@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 TextureGroup_t(ptr)
 ```
 # Properties
@@ -58,12 +59,12 @@ Read: texturegroup_t.TextureControls
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 texturegroup_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 texturegroup_t:IsValid()
 ```
 

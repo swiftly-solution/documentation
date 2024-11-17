@@ -12,7 +12,7 @@ This event is triggered when endmatch_mapvote_selecting_map is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnEndmatchMapvoteSelectingMap", function(event)
     --[[ ... ]]
     return EventResult.Continue

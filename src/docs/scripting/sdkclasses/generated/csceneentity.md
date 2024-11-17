@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSceneEntity(ptr)
 ```
 # Properties
@@ -377,12 +378,12 @@ Read: csceneentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csceneentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csceneentity:IsValid()
 ```
 

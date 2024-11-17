@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionMatchingUpdateNode(ptr)
 ```
 # Properties
@@ -151,12 +152,12 @@ Read: cmotionmatchingupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionmatchingupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionmatchingupdatenode:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMarkupVolumeTagged_NavGame(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cmarkupvolumetagged_navgame.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmarkupvolumetagged_navgame:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmarkupvolumetagged_navgame:IsValid()
 ```
 

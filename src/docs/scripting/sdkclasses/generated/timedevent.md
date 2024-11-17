@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 TimedEvent(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: timedevent.NextEvent = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 timedevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 timedevent:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysExplosion(ptr)
 ```
 # Properties
@@ -76,12 +77,12 @@ Read: cphysexplosion.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysexplosion:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysexplosion:IsValid()
 ```
 

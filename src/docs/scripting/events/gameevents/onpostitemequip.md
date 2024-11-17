@@ -12,7 +12,7 @@ This event is triggered after item_equip is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostItemEquip", function(event)
     --[[ ... ]]
     return EventResult.Continue

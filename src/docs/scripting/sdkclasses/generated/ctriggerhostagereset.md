@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerHostageReset(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ctriggerhostagereset.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerhostagereset:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerhostagereset:IsValid()
 ```
 

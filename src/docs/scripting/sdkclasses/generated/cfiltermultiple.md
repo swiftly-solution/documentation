@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFilterMultiple(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: cfiltermultiple.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfiltermultiple:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfiltermultiple:IsValid()
 ```
 

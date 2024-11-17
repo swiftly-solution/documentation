@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEntityBlocker(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: centityblocker.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 centityblocker:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 centityblocker:IsValid()
 ```
 

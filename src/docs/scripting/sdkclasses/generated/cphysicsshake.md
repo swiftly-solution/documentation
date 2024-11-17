@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsShake(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: cphysicsshake.Force = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicsshake:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicsshake:IsValid()
 ```
 

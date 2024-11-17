@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionDataSet(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: cmotiondataset.DimensionCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotiondataset:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotiondataset:IsValid()
 ```
 

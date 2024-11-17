@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTriggerBuoyancy(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: ctriggerbuoyancy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctriggerbuoyancy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctriggerbuoyancy:IsValid()
 ```
 

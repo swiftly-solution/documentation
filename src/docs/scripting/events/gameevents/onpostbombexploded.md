@@ -12,7 +12,7 @@ This event is triggered after bomb_exploded is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostBombExploded", function(event)
     --[[ ... ]]
     return EventResult.Continue

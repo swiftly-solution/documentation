@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysHingeAlias_phys_hinge_local(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cphyshingealias_phys_hinge_local.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyshingealias_phys_hinge_local:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyshingealias_phys_hinge_local:IsValid()
 ```
 

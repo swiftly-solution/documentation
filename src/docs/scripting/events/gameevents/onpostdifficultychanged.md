@@ -12,7 +12,7 @@ This event is triggered after difficulty_changed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDifficultyChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue

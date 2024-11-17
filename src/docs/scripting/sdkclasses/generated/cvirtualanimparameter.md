@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVirtualAnimParameter(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cvirtualanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvirtualanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvirtualanimparameter:IsValid()
 ```
 

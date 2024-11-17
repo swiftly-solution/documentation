@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ChangeAccessorFieldPathIndex_t(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: changeaccessorfieldpathindex_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 changeaccessorfieldpathindex_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 changeaccessorfieldpathindex_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CServerRagdollTrigger(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cserverragdolltrigger.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cserverragdolltrigger:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cserverragdolltrigger:IsValid()
 ```
 

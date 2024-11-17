@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSimpleSimTimer(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: csimplesimtimer.WorldGroupId = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csimplesimtimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csimplesimtimer:IsValid()
 ```
 

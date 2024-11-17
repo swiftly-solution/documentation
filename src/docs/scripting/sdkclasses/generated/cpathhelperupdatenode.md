@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPathHelperUpdateNode(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cpathhelperupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpathhelperupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpathhelperupdatenode:IsValid()
 ```
 

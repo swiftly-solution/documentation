@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CProjectedTextureBase(ptr)
 ```
 # Properties
@@ -192,12 +193,12 @@ Write: cprojectedtexturebase.FlipHorizontal = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cprojectedtexturebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cprojectedtexturebase:IsValid()
 ```
 

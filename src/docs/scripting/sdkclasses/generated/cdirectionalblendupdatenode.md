@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDirectionalBlendUpdateNode(ptr)
 ```
 # Properties
@@ -69,12 +70,12 @@ Read: cdirectionalblendupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdirectionalblendupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdirectionalblendupdatenode:IsValid()
 ```
 

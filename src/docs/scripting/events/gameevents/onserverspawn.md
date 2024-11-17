@@ -12,7 +12,7 @@ This event is triggered when server_spawn is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnServerSpawn", function(event)
     --[[ ... ]]
     return EventResult.Continue

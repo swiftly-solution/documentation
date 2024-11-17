@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysThruster(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cphysthruster.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysthruster:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysthruster:IsValid()
 ```
 

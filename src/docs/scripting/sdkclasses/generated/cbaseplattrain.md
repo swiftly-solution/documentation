@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBasePlatTrain(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: cbaseplattrain.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaseplattrain:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaseplattrain:IsValid()
 ```
 

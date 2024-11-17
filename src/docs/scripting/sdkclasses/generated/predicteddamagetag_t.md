@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PredictedDamageTag_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: predicteddamagetag_t.FriendlyFireDamageReductionRatio = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 predicteddamagetag_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 predicteddamagetag_t:IsValid()
 ```
 

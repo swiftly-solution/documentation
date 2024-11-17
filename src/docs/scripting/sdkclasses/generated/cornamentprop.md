@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 COrnamentProp(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cornamentprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cornamentprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cornamentprop:IsValid()
 ```
 

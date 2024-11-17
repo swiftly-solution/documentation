@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PointCameraSettings_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: pointcamerasettings_t.FarBlurryDistance = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 pointcamerasettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 pointcamerasettings_t:IsValid()
 ```
 

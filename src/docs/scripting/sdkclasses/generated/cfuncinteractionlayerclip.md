@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncInteractionLayerClip(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: cfuncinteractionlayerclip.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncinteractionlayerclip:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncinteractionlayerclip:IsValid()
 ```
 

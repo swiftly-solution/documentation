@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFish(ptr)
 ```
 # Properties
@@ -159,12 +160,12 @@ Read: cfish.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfish:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfish:IsValid()
 ```
 

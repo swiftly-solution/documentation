@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CGameRules(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: cgamerules.GamePaused = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cgamerules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cgamerules:IsValid()
 ```
 

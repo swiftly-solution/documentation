@@ -15,7 +15,7 @@ This game event is triggered when a player's convar is being queried.
 --- @param playerid number
 --- @param convar_name string
 --- @param convar_value string
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnClientConvarQuery", function(event, playerid, convar_name, convar_value)
     --[[ ... ]]

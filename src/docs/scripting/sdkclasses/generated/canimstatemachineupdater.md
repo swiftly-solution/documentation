@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimStateMachineUpdater(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Write: canimstatemachineupdater.StartStateIndex = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimstatemachineupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimstatemachineupdater:IsValid()
 ```
 

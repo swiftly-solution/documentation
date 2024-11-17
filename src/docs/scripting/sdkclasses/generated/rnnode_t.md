@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnNode_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: rnnode_t.TriangleOffset = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnnode_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnnode_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysSlideConstraint(ptr)
 ```
 # Properties
@@ -82,12 +83,12 @@ Read: cphysslideconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysslideconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysslideconstraint:IsValid()
 ```
 

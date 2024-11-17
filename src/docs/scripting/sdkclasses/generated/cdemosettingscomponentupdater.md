@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDemoSettingsComponentUpdater(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cdemosettingscomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdemosettingscomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdemosettingscomponentupdater:IsValid()
 ```
 

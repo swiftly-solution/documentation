@@ -12,7 +12,7 @@ This event is triggered when door_open is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnDoorOpen", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered after player_decal is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostPlayerDecal", function(event)
     --[[ ... ]]
     return EventResult.Continue

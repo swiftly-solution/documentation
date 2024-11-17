@@ -12,7 +12,7 @@ This event is triggered after instructor_server_hint_create is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostInstructorServerHintCreate", function(event)
     --[[ ... ]]
     return EventResult.Continue

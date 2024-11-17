@@ -12,7 +12,7 @@ This event is triggered after dronegun_attack is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDronegunAttack", function(event)
     --[[ ... ]]
     return EventResult.Continue

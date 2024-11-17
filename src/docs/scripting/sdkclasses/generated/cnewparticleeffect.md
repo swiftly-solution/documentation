@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNewParticleEffect(ptr)
 ```
 # Properties
@@ -210,12 +211,12 @@ Read: cnewparticleeffect.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnewparticleeffect:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnewparticleeffect:IsValid()
 ```
 

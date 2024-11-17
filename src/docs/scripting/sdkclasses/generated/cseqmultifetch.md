@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqMultiFetch(ptr)
 ```
 # Properties
@@ -74,12 +75,12 @@ Write: cseqmultifetch.FixedBlendWeightVals = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqmultifetch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqmultifetch:IsValid()
 ```
 

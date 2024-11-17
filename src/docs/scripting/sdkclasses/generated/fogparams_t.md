@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 fogparams_t(ptr)
 ```
 # Properties
@@ -168,12 +169,12 @@ Write: fogparams_t.Padding = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fogparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fogparams_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMorphSetData(ptr)
 ```
 # Properties
@@ -55,12 +56,12 @@ Read: cmorphsetdata.FlexRules
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmorphsetdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmorphsetdata:IsValid()
 ```
 

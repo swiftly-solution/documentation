@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCollisionProperty(ptr)
 ```
 # Properties
@@ -119,12 +120,12 @@ Write: ccollisionproperty.CapsuleRadius = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccollisionproperty:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccollisionproperty:IsValid()
 ```
 

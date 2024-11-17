@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicNavigation(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: clogicnavigation.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicnavigation:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicnavigation:IsValid()
 ```
 

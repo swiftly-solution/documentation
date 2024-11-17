@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavSpaceInfo(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnavspaceinfo.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavspaceinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavspaceinfo:IsValid()
 ```
 

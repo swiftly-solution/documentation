@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSymbolAnimParameter(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csymbolanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csymbolanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csymbolanimparameter:IsValid()
 ```
 

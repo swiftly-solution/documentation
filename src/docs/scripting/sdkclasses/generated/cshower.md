@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CShower(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cshower.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cshower:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cshower:IsValid()
 ```
 

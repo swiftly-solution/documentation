@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRenderGroom(ptr)
 ```
 # Properties
@@ -76,12 +77,12 @@ Write: crendergroom.EnableSimulation = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crendergroom:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crendergroom:IsValid()
 ```
 

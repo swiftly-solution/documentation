@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 MaterialResourceData_t(ptr)
 ```
 # Properties
@@ -90,12 +91,12 @@ Read: materialresourcedata_t.RenderAttributesUsed
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 materialresourcedata_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 materialresourcedata_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItemDefuser(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: citemdefuser.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citemdefuser:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citemdefuser:IsValid()
 ```
 

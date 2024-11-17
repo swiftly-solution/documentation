@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBarnLight(ptr)
 ```
 # Properties
@@ -445,12 +446,12 @@ Read: cbarnlight.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbarnlight:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbarnlight:IsValid()
 ```
 

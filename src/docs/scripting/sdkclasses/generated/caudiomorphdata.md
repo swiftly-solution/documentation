@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAudioMorphData(ptr)
 ```
 # Properties
@@ -45,12 +46,12 @@ Write: caudiomorphdata.EaseOut = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caudiomorphdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caudiomorphdata:IsValid()
 ```
 

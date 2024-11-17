@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBaseRendererSource2(ptr)
 ```
 # Properties
@@ -381,12 +382,12 @@ Read: cbaserenderersource2.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbaserenderersource2:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbaserenderersource2:IsValid()
 ```
 

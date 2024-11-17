@@ -12,7 +12,7 @@ This event is triggered after entity_killed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostEntityKilled", function(event)
     --[[ ... ]]
     return EventResult.Continue

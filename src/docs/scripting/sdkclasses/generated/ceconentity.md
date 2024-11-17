@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEconEntity(ptr)
 ```
 # Properties
@@ -75,12 +76,12 @@ Read: ceconentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ceconentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ceconentity:IsValid()
 ```
 

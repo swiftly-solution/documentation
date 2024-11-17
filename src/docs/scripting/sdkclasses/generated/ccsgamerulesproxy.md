@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameRulesProxy(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ccsgamerulesproxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamerulesproxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamerulesproxy:IsValid()
 ```
 

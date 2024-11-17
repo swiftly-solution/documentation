@@ -12,7 +12,7 @@ This event is triggered when trial_time_expired is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnTrialTimeExpired", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,7 +12,7 @@ This event is triggered when cart_updated is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnCartUpdated", function(event)
     --[[ ... ]]
     return EventResult.Continue

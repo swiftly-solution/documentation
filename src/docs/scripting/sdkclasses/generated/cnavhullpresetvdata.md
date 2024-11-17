@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavHullPresetVData(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cnavhullpresetvdata.NavHulls
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavhullpresetvdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavhullpresetvdata:IsValid()
 ```
 

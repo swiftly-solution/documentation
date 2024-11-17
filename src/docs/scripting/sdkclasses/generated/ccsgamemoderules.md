@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameModeRules(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsgamemoderules.__pChainEntity
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamemoderules:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamemoderules:IsValid()
 ```
 

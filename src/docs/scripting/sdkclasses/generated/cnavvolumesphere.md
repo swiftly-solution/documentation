@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavVolumeSphere(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cnavvolumesphere.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavvolumesphere:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavvolumesphere:IsValid()
 ```
 

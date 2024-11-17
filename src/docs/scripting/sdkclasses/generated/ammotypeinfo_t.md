@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AmmoTypeInfo_t(ptr)
 ```
 # Properties
@@ -46,12 +47,12 @@ Read: ammotypeinfo_t.Speed
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ammotypeinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ammotypeinfo_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDistanceRemainingMetricEvaluator(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: cdistanceremainingmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdistanceremainingmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdistanceremainingmetricevaluator:IsValid()
 ```
 

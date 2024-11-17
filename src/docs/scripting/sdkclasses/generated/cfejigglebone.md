@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFeJiggleBone(ptr)
 ```
 # Properties
@@ -228,12 +229,12 @@ Write: cfejigglebone.CollisionMask = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfejigglebone:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfejigglebone:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SosEditItemInfo_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: sosedititeminfo_t.ItemPos = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sosedititeminfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sosedititeminfo_t:IsValid()
 ```
 

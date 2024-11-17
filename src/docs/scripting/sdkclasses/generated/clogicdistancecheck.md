@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicDistanceCheck(ptr)
 ```
 # Properties
@@ -62,12 +63,12 @@ Read: clogicdistancecheck.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicdistancecheck:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicdistancecheck:IsValid()
 ```
 

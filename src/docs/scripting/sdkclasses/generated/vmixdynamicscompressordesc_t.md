@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDynamicsCompressorDesc_t(ptr)
 ```
 # Properties
@@ -72,12 +73,12 @@ Write: vmixdynamicscompressordesc_t.PeakMode = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdynamicscompressordesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdynamicscompressordesc_t:IsValid()
 ```
 

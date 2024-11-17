@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNavLinkMovementVData(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cnavlinkmovementvdata.AnimgraphVars
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnavlinkmovementvdata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnavlinkmovementvdata:IsValid()
 ```
 

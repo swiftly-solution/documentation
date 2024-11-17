@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicCollisionPair(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: clogiccollisionpair.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogiccollisionpair:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogiccollisionpair:IsValid()
 ```
 

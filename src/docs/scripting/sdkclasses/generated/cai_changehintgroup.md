@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAI_ChangeHintGroup(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cai_changehintgroup.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cai_changehintgroup:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cai_changehintgroup:IsValid()
 ```
 

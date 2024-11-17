@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFireSmoke(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: cfiresmoke.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfiresmoke:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfiresmoke:IsValid()
 ```
 

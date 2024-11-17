@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSGameModeRules_Deathmatch(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: ccsgamemoderules_deathmatch.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsgamemoderules_deathmatch:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsgamemoderules_deathmatch:IsValid()
 ```
 

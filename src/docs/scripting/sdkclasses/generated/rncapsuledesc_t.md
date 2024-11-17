@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnCapsuleDesc_t(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: rncapsuledesc_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rncapsuledesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rncapsuledesc_t:IsValid()
 ```
 

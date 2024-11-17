@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStateNodeTransitionData(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Write: cstatenodetransitiondata.ResetCycleOption = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstatenodetransitiondata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstatenodetransitiondata:IsValid()
 ```
 

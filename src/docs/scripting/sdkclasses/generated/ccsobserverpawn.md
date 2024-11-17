@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSObserverPawn(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: ccsobserverpawn.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsobserverpawn:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsobserverpawn:IsValid()
 ```
 

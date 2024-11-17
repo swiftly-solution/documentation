@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 AnimScriptHandle(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: animscripthandle.Id = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 animscripthandle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 animscripthandle:IsValid()
 ```
 

@@ -12,7 +12,7 @@ This event is triggered after dynamic_shadow_light_changed is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostDynamicShadowLightChanged", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IGapHost_Cursor(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: igaphost_cursor.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 igaphost_cursor:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 igaphost_cursor:IsValid()
 ```
 

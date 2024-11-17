@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CompositeMaterialInputLooseVariable_t(ptr)
 ```
 # Properties
@@ -222,12 +223,12 @@ Write: compositematerialinputloosevariable_t.PanoramaRenderRes = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 compositematerialinputloosevariable_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 compositematerialinputloosevariable_t:IsValid()
 ```
 

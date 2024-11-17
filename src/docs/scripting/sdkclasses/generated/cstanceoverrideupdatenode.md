@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CStanceOverrideUpdateNode(ptr)
 ```
 # Properties
@@ -44,12 +45,12 @@ Read: cstanceoverrideupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cstanceoverrideupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cstanceoverrideupdatenode:IsValid()
 ```
 

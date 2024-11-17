@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRangeFloat(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: crangefloat.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crangefloat:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crangefloat:IsValid()
 ```
 

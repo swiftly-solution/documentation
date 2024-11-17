@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvWindShared(ptr)
 ```
 # Properties
@@ -201,12 +202,12 @@ Read: cenvwindshared.EntOwner
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvwindshared:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvwindshared:IsValid()
 ```
 

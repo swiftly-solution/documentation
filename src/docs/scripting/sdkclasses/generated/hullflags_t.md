@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 HullFlags_t(ptr)
 ```
 # Properties
@@ -78,12 +79,12 @@ Write: hullflags_t.Hull_Small = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 hullflags_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 hullflags_t:IsValid()
 ```
 

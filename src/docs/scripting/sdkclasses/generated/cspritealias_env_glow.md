@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSpriteAlias_env_glow(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cspritealias_env_glow.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cspritealias_env_glow:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cspritealias_env_glow:IsValid()
 ```
 

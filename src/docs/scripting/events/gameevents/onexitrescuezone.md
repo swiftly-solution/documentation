@@ -12,7 +12,7 @@ This event is triggered when exit_rescue_zone is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnExitRescueZone", function(event)
     --[[ ... ]]
     return EventResult.Continue

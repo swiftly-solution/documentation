@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHostageCarriableProp(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: chostagecarriableprop.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 chostagecarriableprop:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 chostagecarriableprop:IsValid()
 ```
 

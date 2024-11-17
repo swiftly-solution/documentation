@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointValueRemapper(ptr)
 ```
 # Properties
@@ -261,12 +262,12 @@ Read: cpointvalueremapper.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointvalueremapper:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointvalueremapper:IsValid()
 ```
 

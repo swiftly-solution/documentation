@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 shard_model_desc_t(ptr)
 ```
 # Properties
@@ -82,12 +83,12 @@ Write: shard_model_desc_t.SurfacePropStringToken = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 shard_model_desc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 shard_model_desc_t:IsValid()
 ```
 

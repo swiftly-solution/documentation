@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvDecal(ptr)
 ```
 # Properties
@@ -71,12 +72,12 @@ Read: cenvdecal.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvdecal:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvdecal:IsValid()
 ```
 

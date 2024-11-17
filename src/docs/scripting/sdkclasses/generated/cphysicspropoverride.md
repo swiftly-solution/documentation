@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysicsPropOverride(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cphysicspropoverride.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysicspropoverride:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysicspropoverride:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSequenceUpdateNodeBase(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: csequenceupdatenodebase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csequenceupdatenodebase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csequenceupdatenodebase:IsValid()
 ```
 

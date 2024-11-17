@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CClothSettingsAnimTag(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cclothsettingsanimtag.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cclothsettingsanimtag:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cclothsettingsanimtag:IsValid()
 ```
 

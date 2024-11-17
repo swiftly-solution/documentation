@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAttributeManager(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: cattributemanager.ProviderType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cattributemanager:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cattributemanager:IsValid()
 ```
 

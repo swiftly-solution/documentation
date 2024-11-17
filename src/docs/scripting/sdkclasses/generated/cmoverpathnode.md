@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMoverPathNode(ptr)
 ```
 # Properties
@@ -61,12 +62,12 @@ Read: cmoverpathnode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmoverpathnode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmoverpathnode:IsValid()
 ```
 

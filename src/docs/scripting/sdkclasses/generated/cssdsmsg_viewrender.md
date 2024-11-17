@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSSDSMsg_ViewRender(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Write: cssdsmsg_viewrender.ViewName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cssdsmsg_viewrender:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cssdsmsg_viewrender:IsValid()
 ```
 

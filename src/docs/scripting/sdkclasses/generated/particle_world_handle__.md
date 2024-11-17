@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PARTICLE_WORLD_HANDLE__(ptr)
 ```
 # Properties
@@ -24,12 +25,12 @@ Write: particle_world_handle__.Unused = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particle_world_handle__:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particle_world_handle__:IsValid()
 ```
 

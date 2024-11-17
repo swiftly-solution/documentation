@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCSBot(ptr)
 ```
 # Properties
@@ -818,12 +819,12 @@ Read: ccsbot.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccsbot:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccsbot:IsValid()
 ```
 

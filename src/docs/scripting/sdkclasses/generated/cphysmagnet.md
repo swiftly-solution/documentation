@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysMagnet(ptr)
 ```
 # Properties
@@ -92,12 +93,12 @@ Read: cphysmagnet.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphysmagnet:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphysmagnet:IsValid()
 ```
 

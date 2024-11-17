@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CVoiceContainerGranulator(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cvoicecontainergranulator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cvoicecontainergranulator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cvoicecontainergranulator:IsValid()
 ```
 

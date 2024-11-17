@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimFrameBlockAnim(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: canimframeblockanim.SegmentIndexArray
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimframeblockanim:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimframeblockanim:IsValid()
 ```
 

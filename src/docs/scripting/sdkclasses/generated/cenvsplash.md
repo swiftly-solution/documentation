@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvSplash(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cenvsplash.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvsplash:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvsplash:IsValid()
 ```
 

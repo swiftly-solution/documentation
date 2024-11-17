@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundEventEntityAlias_snd_event_point(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: csoundevententityalias_snd_event_point.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundevententityalias_snd_event_point:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundevententityalias_snd_event_point:IsValid()
 ```
 

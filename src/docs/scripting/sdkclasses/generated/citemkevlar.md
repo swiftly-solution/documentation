@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CItemKevlar(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: citemkevlar.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 citemkevlar:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 citemkevlar:IsValid()
 ```
 

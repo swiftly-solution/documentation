@@ -15,7 +15,7 @@ This game event is triggered when a key state changes for a client.
 --- @param playerid number
 --- @param key string
 --- @param pressed boolean
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnClientKeyStateChange", function(event, playerid, key, pressed)
     --[[ ... ]]

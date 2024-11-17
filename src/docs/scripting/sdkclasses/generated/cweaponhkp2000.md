@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CWeaponHKP2000(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cweaponhkp2000.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cweaponhkp2000:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cweaponhkp2000:IsValid()
 ```
 

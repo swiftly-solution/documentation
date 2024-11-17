@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncNavObstruction(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfuncnavobstruction.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncnavobstruction:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncnavobstruction:IsValid()
 ```
 

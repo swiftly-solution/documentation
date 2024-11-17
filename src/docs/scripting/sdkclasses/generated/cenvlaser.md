@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CEnvLaser(ptr)
 ```
 # Properties
@@ -52,12 +53,12 @@ Read: cenvlaser.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cenvlaser:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cenvlaser:IsValid()
 ```
 

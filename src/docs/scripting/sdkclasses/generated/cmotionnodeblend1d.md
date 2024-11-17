@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionNodeBlend1D(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: cmotionnodeblend1d.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotionnodeblend1d:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotionnodeblend1d:IsValid()
 ```
 

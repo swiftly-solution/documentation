@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPropDataComponent(ptr)
 ```
 # Properties
@@ -83,12 +84,12 @@ Read: cpropdatacomponent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpropdatacomponent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpropdatacomponent:IsValid()
 ```
 

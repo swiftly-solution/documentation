@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBombTarget(ptr)
 ```
 # Properties
@@ -73,12 +74,12 @@ Read: cbombtarget.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbombtarget:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbombtarget:IsValid()
 ```
 

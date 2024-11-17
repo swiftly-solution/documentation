@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 sky3dparams_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: sky3dparams_t.WorldGroupID = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sky3dparams_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sky3dparams_t:IsValid()
 ```
 

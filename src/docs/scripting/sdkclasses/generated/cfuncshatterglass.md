@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncShatterglass(ptr)
 ```
 # Properties
@@ -156,12 +157,12 @@ Read: cfuncshatterglass.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncshatterglass:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncshatterglass:IsValid()
 ```
 

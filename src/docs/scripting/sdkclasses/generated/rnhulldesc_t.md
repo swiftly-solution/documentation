@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 RnHullDesc_t(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: rnhulldesc_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 rnhulldesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 rnhulldesc_t:IsValid()
 ```
 

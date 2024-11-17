@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSoundAreaEntityBase(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Read: csoundareaentitybase.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csoundareaentitybase:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csoundareaentitybase:IsValid()
 ```
 

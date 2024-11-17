@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CNmFrameSnapEvent(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cnmframesnapevent.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cnmframesnapevent:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cnmframesnapevent:IsValid()
 ```
 

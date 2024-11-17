@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 vphysics_save_cphysicsbody_t(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: vphysics_save_cphysicsbody_t.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vphysics_save_cphysicsbody_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vphysics_save_cphysicsbody_t:IsValid()
 ```
 

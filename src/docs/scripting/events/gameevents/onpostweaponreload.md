@@ -12,7 +12,7 @@ This event is triggered after weapon_reload is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPostWeaponReload", function(event)
     --[[ ... ]]
     return EventResult.Continue

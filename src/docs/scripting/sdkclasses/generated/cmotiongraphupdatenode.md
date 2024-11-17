@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMotionGraphUpdateNode(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cmotiongraphupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmotiongraphupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmotiongraphupdatenode:IsValid()
 ```
 

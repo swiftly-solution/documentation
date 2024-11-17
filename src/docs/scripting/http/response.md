@@ -19,32 +19,37 @@ There are no properties available for this class.
 # Functions
 ## WriteBody
 ```lua
-@returns void
+--- @param content string
+--- @return void
 httpresponse:WriteBody(content)
 ```
 ## GetHeaders
 ```lua
-@returns table
+--- @return table
 httpresponse:GetHeaders()
 ```
 ## GetHeader
 ```lua
-@returns string
+--- @param key string
+--- @return string
 httpresponse:GetHeader(key)
 ```
 ## SetHeader
 ```lua
-@returns void
+--- @param key string
+--- @param params string
+--- @return void
 httpresponse:SetHeader(key, params)
 ```
 ## Send
 ```lua
-@returns void
+--- @param response_code number
+--- @return void
 httpresponse:Send(response_code)
 ```
 ## IsCompleted
 ```lua
-@returns boolean
+--- @return boolean
 httpresponse:IsCompleted()
 ```
 

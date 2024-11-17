@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPairedSequenceComponentUpdater(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cpairedsequencecomponentupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpairedsequencecomponentupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpairedsequencecomponentupdater:IsValid()
 ```
 

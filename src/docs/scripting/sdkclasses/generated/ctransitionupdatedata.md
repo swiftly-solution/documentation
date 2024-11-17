@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTransitionUpdateData(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: ctransitionupdatedata.Disabled = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctransitionupdatedata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctransitionupdatedata:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CDampedValueUpdateItem(ptr)
 ```
 # Properties
@@ -33,12 +34,12 @@ Read: cdampedvalueupdateitem.ParamOut
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cdampedvalueupdateitem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cdampedvalueupdateitem:IsValid()
 ```
 

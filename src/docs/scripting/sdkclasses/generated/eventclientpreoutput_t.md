@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 EventClientPreOutput_t(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Write: eventclientpreoutput_t.RenderOnly = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 eventclientpreoutput_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 eventclientpreoutput_t:IsValid()
 ```
 

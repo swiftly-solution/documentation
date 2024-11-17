@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSSDSEndFrameViewInfo(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: cssdsendframeviewinfo.ViewName = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cssdsendframeviewinfo:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cssdsendframeviewinfo:IsValid()
 ```
 

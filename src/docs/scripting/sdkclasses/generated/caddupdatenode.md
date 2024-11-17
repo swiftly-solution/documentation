@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAddUpdateNode(ptr)
 ```
 # Properties
@@ -53,12 +54,12 @@ Read: caddupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caddupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caddupdatenode:IsValid()
 ```
 

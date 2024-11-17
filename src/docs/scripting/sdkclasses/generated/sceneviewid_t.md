@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 SceneViewId_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: sceneviewid_t.FrameCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 sceneviewid_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 sceneviewid_t:IsValid()
 ```
 

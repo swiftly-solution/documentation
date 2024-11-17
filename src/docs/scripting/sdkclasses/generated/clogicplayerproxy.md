@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLogicPlayerProxy(ptr)
 ```
 # Properties
@@ -43,12 +44,12 @@ Read: clogicplayerproxy.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clogicplayerproxy:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clogicplayerproxy:IsValid()
 ```
 

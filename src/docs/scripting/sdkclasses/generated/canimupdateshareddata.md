@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimUpdateSharedData(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: canimupdateshareddata.RootNodePath
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimupdateshareddata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimupdateshareddata:IsValid()
 ```
 

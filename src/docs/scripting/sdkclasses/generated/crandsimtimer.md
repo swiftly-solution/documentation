@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRandSimTimer(ptr)
 ```
 # Properties
@@ -35,12 +36,12 @@ Read: crandsimtimer.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crandsimtimer:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crandsimtimer:IsValid()
 ```
 

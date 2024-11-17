@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 IParticleCollection(ptr)
 ```
 # Properties
@@ -19,12 +20,12 @@ There are no properties available for this class.
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 iparticlecollection:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 iparticlecollection:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CHandle(ptr)
 ```
 # Properties
@@ -19,17 +20,18 @@ There are no properties available for this class.
 # Functions
 ## GetPtr
 ```lua
-@returns string
+--- @return string
 chandle:GetPtr()
 ```
 ## SetPtr
 ```lua
-@returns void
+--- @param ptr string
+--- @return void
 chandle:SetPtr(ptr)
 ```
 ## GetHandlePtr
 ```lua
-@returns string
+--- @return string
 chandle:GetHandlePtr()
 ```
 

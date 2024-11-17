@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBtActionParachutePositioning(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cbtactionparachutepositioning.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbtactionparachutepositioning:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbtactionparachutepositioning:IsValid()
 ```
 

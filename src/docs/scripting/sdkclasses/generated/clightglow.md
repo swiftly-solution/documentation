@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CLightGlow(ptr)
 ```
 # Properties
@@ -65,12 +66,12 @@ Read: clightglow.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 clightglow:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 clightglow:IsValid()
 ```
 

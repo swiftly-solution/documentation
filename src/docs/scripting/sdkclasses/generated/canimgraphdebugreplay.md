@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimGraphDebugReplay(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: canimgraphdebugreplay.FrameCount = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimgraphdebugreplay:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimgraphdebugreplay:IsValid()
 ```
 

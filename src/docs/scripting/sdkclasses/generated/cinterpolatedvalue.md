@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInterpolatedValue(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: cinterpolatedvalue.InterpType = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinterpolatedvalue:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinterpolatedvalue:IsValid()
 ```
 

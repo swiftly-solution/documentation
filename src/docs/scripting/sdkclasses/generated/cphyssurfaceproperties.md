@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPhysSurfaceProperties(ptr)
 ```
 # Properties
@@ -63,12 +64,12 @@ Read: cphyssurfaceproperties.AudioParams
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cphyssurfaceproperties:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cphyssurfaceproperties:IsValid()
 ```
 

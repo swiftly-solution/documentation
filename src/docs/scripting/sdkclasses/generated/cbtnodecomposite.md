@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBtNodeComposite(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbtnodecomposite.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbtnodecomposite:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbtnodecomposite:IsValid()
 ```
 

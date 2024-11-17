@@ -12,7 +12,7 @@ This event is triggered when player_radio is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerRadio", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSetParameterActionUpdater(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: csetparameteractionupdater.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 csetparameteractionupdater:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 csetparameteractionupdater:IsValid()
 ```
 

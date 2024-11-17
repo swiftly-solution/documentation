@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 LookAtBone_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: lookatbone_t.Weight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 lookatbone_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 lookatbone_t:IsValid()
 ```
 

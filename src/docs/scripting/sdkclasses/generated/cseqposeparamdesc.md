@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSeqPoseParamDesc(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: cseqposeparamdesc.Looping = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cseqposeparamdesc:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cseqposeparamdesc:IsValid()
 ```
 

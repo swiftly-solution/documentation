@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTwoBoneIKUpdateNode(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: ctwoboneikupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctwoboneikupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctwoboneikupdatenode:IsValid()
 ```
 

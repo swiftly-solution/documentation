@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CInfoData(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cinfodata.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cinfodata:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cinfodata:IsValid()
 ```
 

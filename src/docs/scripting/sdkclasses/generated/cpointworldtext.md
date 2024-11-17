@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPointWorldText(ptr)
 ```
 # Properties
@@ -119,12 +120,12 @@ Read: cpointworldtext.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cpointworldtext:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cpointworldtext:IsValid()
 ```
 

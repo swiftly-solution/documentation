@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFloatAnimParameter(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cfloatanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfloatanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfloatanimparameter:IsValid()
 ```
 

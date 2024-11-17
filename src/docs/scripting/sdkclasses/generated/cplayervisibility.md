@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CPlayerVisibility(ptr)
 ```
 # Properties
@@ -59,12 +60,12 @@ Read: cplayervisibility.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cplayervisibility:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cplayervisibility:IsValid()
 ```
 

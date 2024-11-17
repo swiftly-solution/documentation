@@ -12,7 +12,7 @@ This event is triggered when player_ping is triggered.
 @tab Lua
 ```lua
 --- @param event Event
---- @return number EventResult
+--- @return number|nil EventResult
 AddEventHandler("OnPlayerPing", function(event)
     --[[ ... ]]
     return EventResult.Continue

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMorphConstraint(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: cmorphconstraint.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmorphconstraint:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmorphconstraint:IsValid()
 ```
 

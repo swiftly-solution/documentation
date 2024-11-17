@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CMoverUpdateNode(ptr)
 ```
 # Properties
@@ -91,12 +92,12 @@ Read: cmoverupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cmoverupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cmoverupdatenode:IsValid()
 ```
 

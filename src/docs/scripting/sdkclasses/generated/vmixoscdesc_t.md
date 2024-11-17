@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixOscDesc_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: vmixoscdesc_t.Phase = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixoscdesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixoscdesc_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CFuncVPhysicsClip(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cfuncvphysicsclip.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cfuncvphysicsclip:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cfuncvphysicsclip:IsValid()
 ```
 

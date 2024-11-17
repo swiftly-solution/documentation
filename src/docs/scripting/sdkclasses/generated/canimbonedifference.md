@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimBoneDifference(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: canimbonedifference.HasMovement = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimbonedifference:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimbonedifference:IsValid()
 ```
 

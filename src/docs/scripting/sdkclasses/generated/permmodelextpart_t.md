@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PermModelExtPart_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: permmodelextpart_t.Parent = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 permmodelextpart_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 permmodelextpart_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeRodConstraint_t(ptr)
 ```
 # Properties
@@ -48,12 +49,12 @@ Write: ferodconstraint_t.RelaxationFactor = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ferodconstraint_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ferodconstraint_t:IsValid()
 ```
 

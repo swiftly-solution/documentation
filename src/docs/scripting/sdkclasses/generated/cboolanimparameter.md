@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBoolAnimParameter(ptr)
 ```
 # Properties
@@ -29,12 +30,12 @@ Read: cboolanimparameter.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cboolanimparameter:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cboolanimparameter:IsValid()
 ```
 

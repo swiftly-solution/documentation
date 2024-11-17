@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FollowAttachmentSettings_t(ptr)
 ```
 # Properties
@@ -41,12 +42,12 @@ Write: followattachmentsettings_t.MatchRotation = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 followattachmentsettings_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 followattachmentsettings_t:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeSimdSpringIntegrator_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: fesimdspringintegrator_t.NodeWeight0 = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 fesimdspringintegrator_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 fesimdspringintegrator_t:IsValid()
 ```
 

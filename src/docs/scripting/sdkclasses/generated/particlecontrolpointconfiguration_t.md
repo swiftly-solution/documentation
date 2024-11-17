@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ParticleControlPointConfiguration_t(ptr)
 ```
 # Properties
@@ -34,12 +35,12 @@ Read: particlecontrolpointconfiguration_t.PreviewState
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 particlecontrolpointconfiguration_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 particlecontrolpointconfiguration_t:IsValid()
 ```
 

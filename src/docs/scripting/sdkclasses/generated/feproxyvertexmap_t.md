@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 FeProxyVertexMap_t(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: feproxyvertexmap_t.Weight = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 feproxyvertexmap_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 feproxyvertexmap_t:IsValid()
 ```
 

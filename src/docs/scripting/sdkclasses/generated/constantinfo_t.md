@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 ConstantInfo_t(ptr)
 ```
 # Properties
@@ -36,12 +37,12 @@ Write: constantinfo_t.Value = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 constantinfo_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 constantinfo_t:IsValid()
 ```
 

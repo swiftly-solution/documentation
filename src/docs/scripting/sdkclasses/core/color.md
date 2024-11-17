@@ -12,6 +12,10 @@ A color is an object which stores informations such as: red, green, blue and alp
 @tab Lua
 # Constructor
 ```lua
+--- @param r number
+--- @param g number
+--- @param b number
+--- @param a number
 Color(r, g, b, a)
 ```
 # Properties
@@ -42,7 +46,7 @@ Write: color.a = value
 # Functions
 ## GetPtr
 ```lua
-@returns string
+--- @return string
 color:GetPtr()
 ```
 

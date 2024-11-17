@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 VMixDiffusorDesc_t(ptr)
 ```
 # Properties
@@ -42,12 +43,12 @@ Write: vmixdiffusordesc_t.OutputGain = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 vmixdiffusordesc_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 vmixdiffusordesc_t:IsValid()
 ```
 

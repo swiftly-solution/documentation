@@ -15,7 +15,7 @@ This game event is called at every server tick.
 --- @param simulating boolean
 --- @param bFirstTick boolean
 --- @param bLastTick boolean
---- @return number EventResult
+--- @return number|nil EventResult
 --- @event returns nil Via event:SetReturn
 AddEventHandler("OnGameTick", function(event, simulating, bFirstTick, bLastTick)
     --[[ ... ]]

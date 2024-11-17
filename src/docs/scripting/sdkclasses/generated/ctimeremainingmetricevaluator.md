@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CTimeRemainingMetricEvaluator(ptr)
 ```
 # Properties
@@ -47,12 +48,12 @@ Read: ctimeremainingmetricevaluator.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ctimeremainingmetricevaluator:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ctimeremainingmetricevaluator:IsValid()
 ```
 

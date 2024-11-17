@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CSkeletonAnimationController(ptr)
 ```
 # Properties
@@ -28,12 +29,12 @@ Read: cskeletonanimationcontroller.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cskeletonanimationcontroller:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cskeletonanimationcontroller:IsValid()
 ```
 

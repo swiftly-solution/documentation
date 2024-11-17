@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CBodyComponentBaseModelEntity(ptr)
 ```
 # Properties
@@ -23,12 +24,12 @@ Read: cbodycomponentbasemodelentity.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 cbodycomponentbasemodelentity:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 cbodycomponentbasemodelentity:IsValid()
 ```
 

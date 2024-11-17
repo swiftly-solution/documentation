@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CRenderBufferBinding(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: crenderbufferbinding.BindOffsetBytes = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 crenderbufferbinding:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 crenderbufferbinding:IsValid()
 ```
 

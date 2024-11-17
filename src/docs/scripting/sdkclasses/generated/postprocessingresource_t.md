@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 PostProcessingResource_t(ptr)
 ```
 # Properties
@@ -74,12 +75,12 @@ Write: postprocessingresource_t.HasColorCorrection = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 postprocessingresource_t:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 postprocessingresource_t:IsValid()
 ```
 

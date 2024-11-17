@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAnimParamHandle(ptr)
 ```
 # Properties
@@ -30,12 +31,12 @@ Write: canimparamhandle.Index = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 canimparamhandle:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 canimparamhandle:IsValid()
 ```
 

@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CAimMatrixUpdateNode(ptr)
 ```
 # Properties
@@ -57,12 +58,12 @@ Read: caimmatrixupdatenode.Parent
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 caimmatrixupdatenode:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 caimmatrixupdatenode:IsValid()
 ```
 

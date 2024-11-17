@@ -12,6 +12,7 @@ category:
 @tab Lua
 # Constructor
 ```lua
+--- @param ptr string
 CCommentarySystem(ptr)
 ```
 # Properties
@@ -54,12 +55,12 @@ Write: ccommentarysystem.IsFirstSpawnGroupToLoad = value
 # Functions
 ## ToPtr
 ```lua
-@returns string
+--- @return string
 ccommentarysystem:ToPtr()
 ```
 ## IsValid
 ```lua
-@returns bool
+--- @return bool
 ccommentarysystem:IsValid()
 ```
 
