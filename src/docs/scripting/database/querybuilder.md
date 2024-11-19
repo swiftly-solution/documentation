@@ -25,19 +25,19 @@ querybuilder:Table(table_name)
 ```
 ## Select
 ```lua
---- @param columns table
+--- @param columns table|nil
 --- @return QueryBuilder
 querybuilder:Select(columns)
 ```
 ## Insert
 ```lua
---- @param insert_values table
+--- @param insert_values table Key-Value Map (Key: Column, Value: Data)
 --- @return QueryBuilder
 querybuilder:Insert(insert_values)
 ```
 ## Update
 ```lua
---- @param update_values table
+--- @param update_values table Key-Value Map (Key: Column, Value: Data)
 --- @return QueryBuilder
 querybuilder:Update(update_values)
 ```
@@ -72,10 +72,9 @@ querybuilder:Join(table_name, condition, join_type)
 ```
 ## OrderBy
 ```lua
---- @param column string
---- @param direction string
+--- @param columns table Key-Value map (Key: Column, Value: Direction)
 --- @return QueryBuilder
-querybuilder:OrderBy(column, direction)
+querybuilder:OrderBy(columns)
 ```
 ## Limit
 ```lua
@@ -88,6 +87,53 @@ querybuilder:Limit(count)
 --- @param columns table
 --- @return QueryBuilder
 querybuilder:GroupBy(columns)
+```
+## Create
+```lua
+--- @param columns table Key-Value map (Key: Column, Value: Data Type)
+--- @return QueryBuilder
+querybuilder:Create(columns)
+```
+## Alter
+```lua
+--- @param command string
+--- @return QueryBuilder
+querybuilder:Alter(command)
+```
+## Drop
+```lua
+--- @return QueryBuilder
+querybuilder:Drop()
+```
+## OnDuplicate
+```lua
+--- @param update_value table Key-Value map (Key: Column, Value: Data)
+--- @return QueryBuilder
+querybuilder:OnDuplicate(update_value)
+```
+## Having
+```lua
+--- @param condition string
+--- @return QueryBuilder
+querybuilder:Having(condition)
+```
+## Distinct
+```lua
+--- @return QueryBuilder
+querybuilder:Distinct()
+```
+## Offset
+```lua
+--- @param offset number
+--- @return QueryBuilder
+querybuilder:Offset(offset)
+```
+## Union
+```lua
+--- @param query string
+--- @param all boolean
+--- @return QueryBuilder
+querybuilder:Union(query, all)
 ```
 ## ToString
 ```lua

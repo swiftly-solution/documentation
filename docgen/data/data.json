@@ -523,7 +523,7 @@
                             "lua": "QueryBuilder"
                         },
                         "params": {
-                            "columns": "table"
+                            "columns": "table|nil"
                         }
                     },
                     "Insert": {
@@ -531,7 +531,7 @@
                             "lua": "QueryBuilder"
                         },
                         "params": {
-                            "insert_values": "table"
+                            "insert_values": "table Key-Value Map (Key: Column, Value: Data)"
                         }
                     },
                     "Update": {
@@ -539,7 +539,7 @@
                             "lua": "QueryBuilder"
                         },
                         "params": {
-                            "update_values": "table"
+                            "update_values": "table Key-Value Map (Key: Column, Value: Data)"
                         }
                     },
                     "Delete": {
@@ -583,8 +583,7 @@
                             "lua": "QueryBuilder"
                         },
                         "params": {
-                            "column": "string",
-                            "direction": "string"
+                            "columns": "table Key-Value map (Key: Column, Value: Direction)"
                         }
                     },
                     "Limit": {
@@ -601,6 +600,67 @@
                         },
                         "params": {
                             "columns": "table"
+                        }
+                    },
+                    "Create": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "columns": "table Key-Value map (Key: Column, Value: Data Type)"
+                        }
+                    },
+                    "Alter": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "command": "string"
+                        }
+                    },
+                    "Drop": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {}
+                    },
+                    "OnDuplicate": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "update_value": "table Key-Value map (Key: Column, Value: Data)"
+                        }
+                    },
+                    "Having": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "condition": "string"
+                        }
+                    },
+                    "Distinct": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {}
+                    },
+                    "Offset": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "offset": "number"
+                        }
+                    },
+                    "Union": {
+                        "return": {
+                            "lua": "QueryBuilder"
+                        },
+                        "params": {
+                            "query": "string",
+                            "all": "boolean"
                         }
                     },
                     "ToString": {
