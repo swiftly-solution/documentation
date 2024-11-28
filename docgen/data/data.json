@@ -95433,6 +95433,12 @@
                         },
                         "params": {}
                     },
+                    "CCSWeaponBaseVData": {
+                        "return": {
+                            "lua": "CCSWeaponBaseVData"
+                        },
+                        "params": {}
+                    },
                     "SetDefaultAttributes": {
                         "return": {
                             "lua": "void"

@@ -34,6 +34,11 @@ weapon:CCSWeaponBase()
 --- @return CBasePlayerWeaponVData
 weapon:CBasePlayerWeaponVData()
 ```
+## CCSWeaponBaseVData
+```lua
+--- @return CCSWeaponBaseVData
+weapon:CCSWeaponBaseVData()
+```
 ## SetDefaultAttributes
 ```lua
 --- @return void
