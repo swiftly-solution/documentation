@@ -24,7 +24,7 @@ CON_COMMAND(command_name, "command_description")
 const CCommand& args
 ```
 
-- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L328C2-L352C3)
+- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L316-L352)
 
 @tab Shared Commands
 ```cpp
@@ -42,7 +42,7 @@ const CCommand& args
 ```
 
 - [CCommandContext](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L74-L95)
-- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L328C2-L352C3)
+- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L316-L352)
 
 @tab Commands With Flags
 ```cpp
@@ -64,6 +64,6 @@ const CCommand& args
 ```
 
 - [CCommandContext](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L74-L95)
-- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L328C2-L352C3)
+- [CCommand](https://github.com/alliedmodders/hl2sdk/blob/cs2/public/tier1/convar.h#L316-L352)
 
 :::

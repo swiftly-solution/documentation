@@ -25,7 +25,7 @@ querybuilder:Table(table_name)
 ```
 ## Select
 ```lua
---- @param columns table|nil
+--- @param columns table
 --- @return QueryBuilder
 querybuilder:Select(columns)
 ```

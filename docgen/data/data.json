@@ -523,7 +523,7 @@
                             "lua": "QueryBuilder"
                         },
                         "params": {
-                            "columns": "table|nil"
+                            "columns": "table"
                         }
                     },
                     "Insert": {
