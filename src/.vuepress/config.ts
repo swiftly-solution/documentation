@@ -8,5 +8,5 @@ export default defineUserConfig({
   lang: "en-US",
   title: "Swiftly - Counter Strike 2",
 
-  theme
+  theme,
 });

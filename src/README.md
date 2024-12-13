@@ -7,9 +7,13 @@ bgImageStyle:
   background-attachment: fixed
 heroText: Swiftly - Counter Strike 2
 actions:
-  - text: Documentation
+  - text: Plugins
     icon: book
     link: ./docs/
+    type: secondary
+  - text: Extensions
+    icon: cog
+    link: ./docs-exts/
     type: secondary
 
 highlights:
@@ -97,7 +101,11 @@ highlights:
 
       - title: Extended SDK
         icon: code
-        details: Supporting almost all CS2 SDK classes.
+        details: Supporting all CS2 SDK classes.
+
+      - title: Extensions
+        icon: cog
+        details: Access to add stuff in plugins.
 
       - title: License
         icon: file

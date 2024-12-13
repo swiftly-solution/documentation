@@ -1,5 +1,4 @@
-import { hopeTheme } from "vuepress-theme-hope"; import { searchProPlugin } from "vuepress-plugin-search-pro"; import { cut } from "nodejs-jieba";
-
+import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -44,13 +43,13 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    searchPro: {
-      indexContent: true,
-      autoSuggestions: true,
-      queryHistoryCount: 0,
-      resultHistoryCount: 0,
-      searchDelay: 1000
-    },
+    // searchPro: {
+    //   indexContent: true,
+    //   autoSuggestions: true,
+    //   queryHistoryCount: 0,
+    //   resultHistoryCount: 0,
+    //   searchDelay: 1000
+    // },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {

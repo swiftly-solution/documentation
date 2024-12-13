@@ -12,6 +12,11 @@ export default navbar([
     link: "/docs/",
   },
   {
+    text: "Extensions",
+    icon: "cog",
+    link: "/docs-exts/",
+  },
+  {
     text: "Discord",
     icon: "server",
     link: "https://swiftlycs2.net/discord"
