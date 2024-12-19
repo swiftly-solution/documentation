@@ -14568,6 +14568,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "LastJoinTeamTime": {
+                "type": "number",
+                "writable": true
+            },
             "Clan": {
                 "type": "string",
                 "writable": true
@@ -42366,11 +42370,7 @@
                 "type": "number",
                 "writable": true
             },
-            "HasEverHitPlayer": {
-                "type": "boolean",
-                "writable": true
-            },
-            "ClearFromPlayers": {
+            "HasEverHitEnemy": {
                 "type": "boolean",
                 "writable": true
             },
