@@ -1,26 +1,22 @@
 {
-  "name": "swiftly-rewrite-documentation",
-  "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
+  "name": "documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/swiftly-solution/documentation/",
+  "author": "skuzzis <andreieurt@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "esbuild": "^0.24.2",
+    "esbuild-plugin-tsc": "^0.4.0",
+    "eslint": "^9.18.0"
+  },
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-webpack build src",
-    "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
-    "docs:dev": "vuepress-webpack dev src",
-    "docs:update-package": "yarn dlx vp-update"
-  },
-  "devDependencies": {
-    "@vuepress/bundler-webpack": "2.0.0-rc.14",
-    "nodejs-jieba": "^0.1.2",
-    "sass": "^1.77.6",
-    "sass-loader": "^14.2.1",
-    "vue": "^3.4.27",
-    "vuepress": "2.0.0-rc.14",
-    "vuepress-theme-hope": "2.0.0-rc.50"
-  },
-  "dependencies": {
-    "@vuepress/plugin-slimsearch": "next",
-    "vuepress-plugin-md-enhance": "^2.0.0-rc.50"
+    "start": "node src/index.js"
   }
 }

@@ -1,6 +1,4 @@
-.yarn/
-src/.vuepress/.cache
-src/.vuepress/.temp
-src/.vuepress/dist
-node_modules
-docgen/output/
+dist/
+node_modules/
+output/
+.env

@@ -1,9 +1,0 @@
-{
-    "getting-started": "{description}\n{code}",
-    "function-syntax": "{description}\n{code}",
-    "class-syntax": "{description}\n{code}",
-    "description": "{description}",
-    "types-syntax": "{code}",
-    "core-event-syntax": "{description}\n{code}",
-    "game-event-syntax": "{description}\n{code}\n{arguments}"
-}
