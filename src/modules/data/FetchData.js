@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs'
 
-export default () => {
-    return JSON.parse(readFileSync("data/data.json").toString())
+export default (folder) => {
+    return JSON.parse(readFileSync(`data/${folder}/data.json`).toString())
 }

@@ -1,0 +1,267 @@
+{
+    "cchecktransmitinfo": {
+        "title": "CCheckTransmitInfo",
+        "description": "This class contains informations about the entity transmissions.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "ptr_or_cchectransmitinfo": "any"
+        },
+        "properties": {},
+        "functions": {
+            "GetPlayers": {
+                "return": {
+                    "lua": "table"
+                },
+                "params": {}
+            },
+            "GetEntities": {
+                "return": {
+                    "lua": "table"
+                },
+                "params": {}
+            },
+            "SetEntities": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "value": "table"
+                }
+            }
+        },
+        "additional": {}
+    },
+    "chandle": {
+        "title": "CHandle",
+        "description": "This class represents the CHandle object from C++.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "ptr": "string"
+        },
+        "properties": {},
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            },
+            "SetPtr": {
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "ptr": "string"
+                }
+            },
+            "GetHandlePtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {}
+    },
+    "color": {
+        "title": "Color",
+        "description": "This class represents the Color object from C++.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "r": "number",
+            "g": "number",
+            "b": "number",
+            "a": "number"
+        },
+        "properties": {
+            "r": {
+                "type": "number",
+                "writable": true
+            },
+            "g": {
+                "type": "number",
+                "writable": true
+            },
+            "b": {
+                "type": "number",
+                "writable": true
+            },
+            "a": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {
+            "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
+        }
+    },
+    "qangle": {
+        "title": "QAngle",
+        "description": "A QAngle is an object which stores coordinates regarding the angle.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "x": "number",
+            "y": "number",
+            "z": "number"
+        },
+        "properties": {
+            "x": {
+                "type": "number",
+                "writable": true
+            },
+            "y": {
+                "type": "number",
+                "writable": true
+            },
+            "z": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {
+            "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
+        }
+    },
+    "vector": {
+        "title": "Vector",
+        "description": "A vector is an object which stores coordinates.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "x": "number",
+            "y": "number",
+            "z": "number"
+        },
+        "properties": {
+            "x": {
+                "type": "number",
+                "writable": true
+            },
+            "y": {
+                "type": "number",
+                "writable": true
+            },
+            "z": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {
+            "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
+        }
+    },
+    "vector2d": {
+        "title": "Vector2D",
+        "description": "A vector is an object which stores coordinates.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "x": "number",
+            "y": "number"
+        },
+        "properties": {
+            "x": {
+                "type": "number",
+                "writable": true
+            },
+            "y": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {
+            "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
+        }
+    },
+    "vector4d": {
+        "title": "Vector",
+        "description": "A vector is an object which stores coordinates.",
+        "template": "class-syntax",
+        "languages": [
+            "lua"
+        ],
+        "constructor": {
+            "x": "number",
+            "y": "number",
+            "z": "number",
+            "w": "number"
+        },
+        "properties": {
+            "x": {
+                "type": "number",
+                "writable": true
+            },
+            "y": {
+                "type": "number",
+                "writable": true
+            },
+            "z": {
+                "type": "number",
+                "writable": true
+            },
+            "w": {
+                "type": "number",
+                "writable": true
+            }
+        },
+        "functions": {
+            "GetPtr": {
+                "return": {
+                    "lua": "string"
+                },
+                "params": {}
+            }
+        },
+        "additional": {
+            "lua": "This class supports doing operations on them: addition, division, multiplication, substraction."
+        }
+    }
+}
