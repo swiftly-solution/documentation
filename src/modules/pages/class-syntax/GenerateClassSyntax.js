@@ -18,13 +18,14 @@ export default (pageData) => {
 </Tabs>`
 
 	for (const lang of langs) {
+		const props = GenerateClassProperties(pageData, lang)
 		tabtriggers.push(`    <TabsTrigger value="${lang}">${prettyNames[lang]}</TabsTrigger>`)
 		tabcontents.push(`  <TabsContent value="${lang}">
 ${pageData.constructor.hide == true ? "" : `# Constructor
 \`\`\`${lang}${GenerateFunctionParameters(pageData.constructor, lang)}
 ${pageData.title}(${ProcessParameters(pageData.constructor, lang)})
 \`\`\``}
-${GenerateClassProperties(pageData, lang)}${GenerateClassFunctions(pageData, lang)}\n${pageData.additional[lang] || ""}
+${props}${props == "" ? "" : "\n"}${GenerateClassFunctions(pageData, lang)}\n${pageData.additional[lang] || ""}
   </TabsContent>`)
 	}
 
