@@ -1612,7 +1612,7 @@
                         },
                         "params": {
                             "eventName": "string",
-                            "callback": "fun(event:Event,...):EventResult"
+                            "callback": "fun(event:Event,...):number EventResult"
                         },
                         "additional": {}
                     },
@@ -2030,7 +2030,7 @@
                 },
                 "params": {
                     "hookHandle": "HookHandle",
-                    "callback": "fun(event:Event):EventResult"
+                    "callback": "fun(event:Event):number EventResult"
                 },
                 "additional": {}
             },
@@ -2046,7 +2046,7 @@
                 },
                 "params": {
                     "hookHandle": "HookHandle",
-                    "callback": "fun(event:Event):EventResult"
+                    "callback": "fun(event:Event):number EventResult"
                 },
                 "additional": {}
             },
