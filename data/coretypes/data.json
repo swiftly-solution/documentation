@@ -1,0 +1,246 @@
+{
+    "convarflags": {
+        "title": "ConvarFlags",
+        "template": "types-syntax",
+        "values": {
+            "FCVAR_NONE": "0",
+            "FCVAR_LINKED_CONCOMMAND": "1<<0",
+            "FCVAR_DEVELOPMENTONLY": "1<<1",
+            "FCVAR_GAMEDLL": "1<<2",
+            "FCVAR_CLIENTDLL": "1<<3",
+            "FCVAR_HIDDEN": "1<<4",
+            "FCVAR_PROTECTED": "1<<5",
+            "FCVAR_SPONLY": "1<<6",
+            "FCVAR_ARCHIVE": "1<<7",
+            "FCVAR_NOTIFY": "1<<8",
+            "FCVAR_USERINFO": "1<<9",
+            "FCVAR_MISSING0": "1<<10",
+            "FCVAR_UNLOGGED": "1<<11",
+            "FCVAR_MISSING1": "1<<12",
+            "FCVAR_REPLICATED": "1<<13",
+            "FCVAR_CHEAT": "1<<14",
+            "FCVAR_PER_USER": "1<<15",
+            "FCVAR_DEMO": "1<<16",
+            "FCVAR_DONTRECORD": "1<<17",
+            "FCVAR_MISSING2": "1<<18",
+            "FCVAR_RELEASE": "1<<19",
+            "FCVAR_MENUBAR_ITEM": "1<<20",
+            "FCVAR_MISSING3": "1<<21",
+            "FCVAR_NOT_CONNECTED": "1<<22",
+            "FCVAR_VCONSOLE_FUZZY_MATCHING": "1<<23",
+            "FCVAR_SERVER_CAN_EXECUTE": "1<<24",
+            "FCVAR_CLIENT_CAN_EXECUTE": "1<<25",
+            "FCVAR_SERVER_CANNOT_QUERY": "1<<26",
+            "FCVAR_VCONSOLE_SET_FOCUS": "1<<27",
+            "FCVAR_CLIENTCMD_CAN_EXECUTE": "1<<28",
+            "FCVAR_EXECUTE_PER_TICK": "1<<29"
+        }
+    },
+    "roundendreason_t": {
+        "title": "RoundEndReason_t",
+        "template": "types-syntax",
+        "values": {
+            "Unknown": "0",
+            "TargetBombed": "0x1",
+            "TerroristsEscaped": "0x4",
+            "CTsPreventEscape": "0x5",
+            "EscapingTerroristsNeutralized": "0x6",
+            "BombDefused": "0x7",
+            "CTsWin": "0x8",
+            "TerroristsWin": "0x9",
+            "RoundDraw": "0xA",
+            "AllHostageRescued": "0xB",
+            "TargetSaved": "0xC",
+            "HostagesNotRescued": "0xD",
+            "TerroristsNotEscaped": "0xE",
+            "GameCommencing": "0x10",
+            "TerroristsSurrender": "0x11",
+            "CTsSurrender": "0x12",
+            "TerroristsPlanted": "0x13",
+            "CTsReachedHostage": "0x14",
+            "SurvivalWin": "0x15",
+            "SurvivalDraw": "0x16"
+        }
+    },
+    "pluginstate_t": {
+        "title": "PluginState_t",
+        "template": "types-syntax",
+        "values": {
+            "Started": "0",
+            "Stopped": "1"
+        }
+    },
+    "team": {
+        "title": "Team",
+        "template": "types-syntax",
+        "values": {
+            "None": "0",
+            "Spectator": "1",
+            "T": "2",
+            "CT": "3"
+        }
+    },
+    "hookhandle": {
+        "title": "HookHandle",
+        "template": "types-syntax",
+        "values": {}
+    },
+    "timerhandle": {
+        "title": "TimerHandle",
+        "template": "types-syntax",
+        "values": {}
+    },
+    "eventhandler": {
+        "title": "EventHandler",
+        "template": "types-syntax",
+        "values": {}
+    },
+    "eventresult": {
+        "title": "EventResult",
+        "template": "types-syntax",
+        "values": {
+            "Continue": "0",
+            "Stop": "1",
+            "Handled": "2"
+        }
+    },
+    "messagetype": {
+        "title": "MessageType",
+        "template": "types-syntax",
+        "values": {
+            "Notify": "1",
+            "Console": "2",
+            "Chat": "3",
+            "Center": "4"
+        }
+    },
+    "disconnectreason": {
+        "title": "DisconnectReason",
+        "template": "types-syntax",
+        "values": {
+            "Invalid": "0",
+            "Shutdown": "1",
+            "DisconnectByUser": "2",
+            "DisconnectByServer": "3",
+            "Lost": "4",
+            "Overflow": "5",
+            "SteamBanned": "6",
+            "SteamInUse": "7",
+            "SteamTicket": "8",
+            "SteamLogon": "9",
+            "SteamAuthCancelled": "10",
+            "SteamAuthAlreadyUsed": "11",
+            "SteamAuthInvalid": "12",
+            "SteamVacBanned": "13",
+            "SteamLoggedInElsewhere": "14",
+            "SteamVacCheckTimedout": "15",
+            "SteamDropped": "16",
+            "SteamOwnership": "17",
+            "ServerInfoOverflow": "18",
+            "TickMsgOverflow": "19",
+            "StringTableMsgOverflow": "20",
+            "DeltaentMsgOverflow": "21",
+            "TempentMsgOverflow": "22",
+            "SoundsMsgOverflow": "23",
+            "SnapshotOverflow": "24",
+            "SnapshotError": "25",
+            "ReliableOverflow": "26",
+            "BadDeltaTick": "27",
+            "NoMoreSplits": "28",
+            "Timedout": "29",
+            "Disconnected": "30",
+            "LeavingSplit": "31",
+            "DifferentClassTables": "32",
+            "BadRelayPassword": "33",
+            "BadSpectatorPassword": "34",
+            "HLTVRestricted": "35",
+            "NoSpectators": "36",
+            "HLTVUnavailable": "37",
+            "HLTVStop": "38",
+            "Kicked": "39",
+            "BanAdded": "40",
+            "KickBanAdded": "41",
+            "HLTVDirect": "42",
+            "PureServerClientExtra": "43",
+            "PureServerMismatch": "44",
+            "UserCmd": "45",
+            "RejectedByGame": "46",
+            "MessageParseError": "47",
+            "InvalidMessageError": "48",
+            "BadServerPassword": "49",
+            "DirectConnectReservation": "50",
+            "ConnectionFailure": "51",
+            "NoPeerGroupHandlers": "52",
+            "Reconnection": "53",
+            "LoopShutdown": "54",
+            "LoopDeactivate": "55",
+            "HostEndGame": "56",
+            "LoopLevelLoadActivate": "57",
+            "CreateServerFailed": "58",
+            "Exiting": "59",
+            "RequestHostStateIdle": "60",
+            "RequestHostStateHLTVRelay": "61",
+            "ClientConsistencyFail": "62",
+            "UnableToCRCMap": "63",
+            "ClientNoMap": "64",
+            "ClientDifferentMap": "65",
+            "ServerRequiresSteam": "66",
+            "SteamDenyMisc": "67",
+            "SteamDenyBadAnticheat": "68",
+            "ServerShutdown": "69"
+        }
+    },
+    "econvartype": {
+        "title": "EConVarType",
+        "template": "types-syntax",
+        "values": {
+            "EConVarType_Invalid": "-1",
+            "EConVarType_Bool": "0",
+            "EConVarType_Int16": "1",
+            "EConVarType_UInt16": "2",
+            "EConVarType_Int32": "3",
+            "EConVarType_UInt32": "4",
+            "EConVarType_Int64": "5",
+            "EConVarType_UInt64": "6",
+            "EConVarType_Float32": "7",
+            "EConVarType_Float64": "8",
+            "EConVarType_String": "9",
+            "EConVarType_Color": "10",
+            "EConVarType_Vector2": "11",
+            "EConVarType_Vector3": "12",
+            "EConVarType_Vector4": "13",
+            "EConVarType_Qangle": "14"
+        }
+    },
+    "listenoverride": {
+        "title": "ListenOverride",
+        "template": "types-syntax",
+        "values": {
+            "Listen_Default": "0",
+            "Listen_Mute": "1",
+            "Listen_Hear": "2"
+        }
+    },
+    "voiceflagvalue": {
+        "title": "VoiceFlagValue",
+        "template": "types-syntax",
+        "values": {
+            "Speak_Normal": "0",
+            "Speak_Muted": "1",
+            "Speak_All": "2",
+            "Speak_ListenAll": "4",
+            "Speak_Team": "8",
+            "Speak_ListenTeam": "16"
+        }
+    },
+    "logtype_t": {
+        "title": "LogType_t",
+        "template": "types-syntax",
+        "values": {
+            "Debug": "1",
+            "Warning": "2",
+            "Error": "3",
+            "Common": "4"
+        }
+    }
+}

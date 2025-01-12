@@ -6,6 +6,8 @@ import GenerateClassSyntax from './GenerateClassSyntax.js'
 import GenerateCoreEventSyntax from './GenerateCoreEventSyntax.js'
 import GenerateTypeSyntax from './GenerateTypeSyntax.js'
 import GenerateDescription from './GenerateDescription.js'
+import GenerateGameEventSyntax from './GenerateGameEventSyntax.js'
+import GenerateCommandSyntax from "./GenerateCommandSyntax.js"
 import { metadata } from "../../index.js"
 
 export default (pageData, pageKey) => {
@@ -17,6 +19,8 @@ export default (pageData, pageKey) => {
     if (pageData.template == "getting-started") return GenerateGettingStarted(pageData)
     if (pageData.template == "class-syntax") return GenerateClassSyntax(pageData)
     if (pageData.template == "core-event-syntax") return GenerateCoreEventSyntax(pageData)
+    if (pageData.template == "game-event-syntax") return GenerateGameEventSyntax(pageData)
     if (pageData.template == "types-syntax") return GenerateTypeSyntax(pageData)
     if (pageData.template == "description") return GenerateDescription(pageData)
+    if (pageData.template == "command-syntax") return GenerateCommandSyntax(pageData)
 }
