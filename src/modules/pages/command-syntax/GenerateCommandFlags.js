@@ -42,6 +42,7 @@ export default (pageData) => {
     ]
 
     for (const flag of flags) {
+        if (!flagDesc[flag]) continue;
         commandFlags.push([
             `\`${flag}\``,
             `\`${flagDesc[flag]}\``

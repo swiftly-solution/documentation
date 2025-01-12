@@ -3,6 +3,3 @@ node_modules/
 output-*/
 .env
 automation/
-data/gameevents/
-data/sdkclass/
-data/sdktypes/
