@@ -689,7 +689,7 @@
                     "output": "string"
                 },
                 "additional": {
-                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](https://beta.swiftlycs2.net/plugin-docs/scripting/hooks/addprehooklistener) or an [AddPostHookListener](https://beta.swiftlycs2.net/plugin-docs/scripting/hooks/addposthooklistener) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\n--- @param event Event\n--- @param iooutput CEntityIOOutput\n--- @param event_output string\n--- @param activator CEntityInstance\n--- @param caller CEntityInstance\n--- @param delay number\n--- @return number|nil EventResult\nAddPreHookListener(hookoutput, function(event, iooutput, event_output, activator, caller, delay)\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
+                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](/plugin-docs/scripting/hooks/addprehooklistener) or an [AddPostHookListener](/plugin-docs/scripting/hooks/addposthooklistener) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\n--- @param event Event\n--- @param iooutput CEntityIOOutput\n--- @param event_output string\n--- @param activator CEntityInstance\n--- @param caller CEntityInstance\n--- @param delay number\n--- @return number|nil EventResult\nAddPreHookListener(hookoutput, function(event, iooutput, event_output, activator, caller, delay)\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
                 }
             },
             "findentitiesbyclassname": {
@@ -1002,7 +1002,7 @@
         "data": {
             "event": {
                 "title": "Event",
-                "description": "This is the Event class.\nGenerates an event object to trigger a game event from Counter Strike: 2.\nThe event names are being listed inside [Game Events](https://swiftlycs2.net/docs/scripting/events/gameevents/).",
+                "description": "This is the Event class.\nGenerates an event object to trigger a game event from Counter Strike: 2.\nThe event names are being listed inside [Game Events](/sdk/gameevents).",
                 "template": "class-syntax",
                 "languages": [
                     "lua"
@@ -1589,7 +1589,7 @@
                             "isreliable": "boolean"
                         },
                         "additional": {
-                            "lua": "> [!note]\n> The methods to get the clients are preset in [UserMessage](https://beta.swiftlycs2.net/plugin-docs/scripting/usermessages/usermessage) class: AddClient, RemoveClient, ClearClients, AddClients and GetClients.\n\n#### How can I stop the execution of a User Message?\nSimply return `EventResult.Stop` and it will be blocked.\n\n#### How can I get the UserMessage?\nTo get the user message object, you need to use [GetUserMessage](https://beta.swiftlycs2.net/plugin-docs/scripting/utils/misc/getusermessage) along with the `usermessage_uuid` parameter."
+                            "lua": "> [!note]\n> The methods to get the clients are preset in [UserMessage](/plugin-docs/scripting/usermessages/usermessage) class: AddClient, RemoveClient, ClearClients, AddClients and GetClients.\n\n#### How can I stop the execution of a User Message?\nSimply return `EventResult.Stop` and it will be blocked.\n\n#### How can I get the UserMessage?\nTo get the user message object, you need to use [GetUserMessage](/plugin-docs/scripting/utils/misc/getusermessage) along with the `usermessage_uuid` parameter."
                         }
                     }
                 }
