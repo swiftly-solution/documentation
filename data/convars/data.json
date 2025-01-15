@@ -36632,6 +36632,16 @@
             "release"
         ]
     },
+    "sv_recvbuf_messages": {
+        "title": "sv_recvbuf_messages",
+        "description": "Max number of messages that can be queued in a netchan receive buffer for an ordinary connection from a client.",
+        "args": "1024",
+        "template": "command-syntax",
+        "flags": [
+            "developmentonly",
+            "defensive"
+        ]
+    },
     "sv_regeneration_force_on": {
         "title": "sv_regeneration_force_on",
         "description": "Cheat to test regenerative health systems",
@@ -37436,6 +37446,15 @@
         "title": "sv_steamauth_enforce",
         "description": "By default, player must maintain a reliable connection to Steam servers. When player Steam session drops, enforce it: 2 = instantly kick, 1 = kick at next spawn, 0 = do not kick.",
         "args": "2",
+        "template": "command-syntax",
+        "flags": [
+            "release"
+        ]
+    },
+    "sv_steamauth_ignore_localhost": {
+        "title": "sv_steamauth_ignore_localhost",
+        "description": "Ignore VAC and auth errors for client connected via localhost address or in-engine loopback",
+        "args": "true",
         "template": "command-syntax",
         "flags": [
             "release"

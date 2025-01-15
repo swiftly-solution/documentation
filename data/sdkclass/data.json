@@ -12942,10 +12942,6 @@
                 "type": "boolean",
                 "writable": true
             },
-            "AutoKickDisabled": {
-                "type": "boolean",
-                "writable": true
-            },
             "IsLowViolence": {
                 "type": "boolean",
                 "writable": true

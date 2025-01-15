@@ -5019,6 +5019,156 @@
             }
         }
     },
+    "vgui": {
+        "title": "VGUI",
+        "description": "A list of API functions for VGUI.",
+        "template": "category",
+        "icon": "vector-square",
+        "data": {
+            "showtext": {
+                "title": "ShowText",
+                "template": "function-syntax",
+                "description": "Shows a text to a player.",
+                "variable": {
+                    "lua": "vgui:ShowText"
+                },
+                "return": {
+                    "lua": "number"
+                },
+                "params": {
+                    "playerid": "number",
+                    "color": "Color",
+                    "text": "string",
+                    "posX": "number",
+                    "posY": "number"
+                },
+                "additional": {
+                    "lua": "### Positions\nPositions are in between 0.0 and 1.0."
+                }
+            },
+            "removetext": {
+                "title": "RemoveText",
+                "template": "function-syntax",
+                "description": "Removes a text based on it's id.",
+                "variable": {
+                    "lua": "vgui:RemoveText"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "textID": "number"
+                },
+                "additional": {}
+            },
+            "settextmessage": {
+                "title": "SetTextMessage",
+                "template": "function-syntax",
+                "description": "Sets the message of a text.",
+                "variable": {
+                    "lua": "vgui:SetTextMessage"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "textID": "number",
+                    "message": "string"
+                },
+                "additional": {}
+            },
+            "settextposition": {
+                "title": "SetTextPosition",
+                "template": "function-syntax",
+                "description": "Sets the position of a text.",
+                "variable": {
+                    "lua": "vgui:SetTextPosition"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "textID": "number",
+                    "posX": "number",
+                    "posY": "number"
+                },
+                "additional": {
+                    "lua": "### Positions\nPositions are in between 0.0 and 1.0."
+                }
+            },
+            "showpanel": {
+                "title": "ShowPanel",
+                "template": "function-syntax",
+                "description": "Shows a panel to a player.",
+                "variable": {
+                    "lua": "vgui:ShowPanel"
+                },
+                "return": {
+                    "lua": "number"
+                },
+                "params": {
+                    "playerid": "number",
+                    "color": "Color",
+                    "text": "string",
+                    "posX": "number",
+                    "posY": "number"
+                },
+                "additional": {
+                    "lua": "### Positions\nPositions are in between 0.0 and 1.0.\n### Text\nA basic character used for backgrounds is: █"
+                }
+            },
+            "removepanel": {
+                "title": "RemovePanel",
+                "template": "function-syntax",
+                "description": "Removes a panel based on it's id.",
+                "variable": {
+                    "lua": "vgui:RemovePanel"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "panelID": "number"
+                },
+                "additional": {}
+            },
+            "setpanelmessage": {
+                "title": "SetPanelMessage",
+                "template": "function-syntax",
+                "description": "Sets the message of a panel.",
+                "variable": {
+                    "lua": "vgui:SetPanelMessage"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "panelID": "number",
+                    "message": "string"
+                },
+                "additional": {}
+            },
+            "setpanelposition": {
+                "title": "SetPanelPosition",
+                "template": "function-syntax",
+                "description": "Sets the position of a panel.",
+                "variable": {
+                    "lua": "vgui:SetPanelPosition"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "panelID": "number",
+                    "posX": "number",
+                    "posY": "number"
+                },
+                "additional": {
+                    "lua": "### Positions\nPositions are in between 0.0 and 1.0."
+                }
+            }
+        }
+    },
     "weapons": {
         "title": "Weapons",
         "description": "A list of API functions for weapons.",

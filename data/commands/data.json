@@ -2055,6 +2055,16 @@
             "defensive"
         ]
     },
+    "cl_net_printsummary": {
+        "title": "cl_net_printsummary",
+        "description": "Print a summary report of Source2 engine networking statistics.  (Ticks, netchan messages, etc.)",
+        "args": "",
+        "template": "command-syntax",
+        "flags": [
+            "dontrecord",
+            "release"
+        ]
+    },
     "cl_particles_dump_effects": {
         "title": "cl_particles_dump_effects",
         "description": "<no description>",
