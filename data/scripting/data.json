@@ -587,12 +587,6 @@
                             "all": "boolean"
                         }
                     },
-                    "ToString": {
-                        "return": {
-                            "lua": "string"
-                        },
-                        "params": {}
-                    },
                     "Execute": {
                         "return": {
                             "lua": "void"
