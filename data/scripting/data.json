@@ -2905,6 +2905,24 @@
                 "params": {},
                 "additional": {}
             },
+            "performmenuaction": {
+                "title": "IsValid",
+                "template": "function-syntax",
+                "description": "Checks if it's a valid player.",
+                "variable": {
+                    "lua": "player:PerformMenuAction"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "action": "string",
+                    "value": "number"
+                },
+                "additional": {
+                    "lua": "### Actions\nBelow are listed all the menu actions:\n- **useOption** -> Uses the option specified in the value parameter.\n- **scrollToOption** -> Scrolls to the option specified in the value parameter."
+                }
+            },
             "cbaseentity": {
                 "title": "CBaseEntity",
                 "template": "function-syntax",
@@ -3408,49 +3426,6 @@
                 "params": {
                     "id": "number",
                     "override": "ListenOverride"
-                },
-                "additional": {}
-            },
-            "getbunnyhop": {
-                "title": "GetBunnyhop",
-                "template": "function-syntax",
-                "description": "Returns if the player can bunnyhop.",
-                "variable": {
-                    "lua": "player:GetBunnyhop"
-                },
-                "return": {
-                    "lua": "boolean"
-                },
-                "params": {},
-                "additional": {}
-            },
-            "setbunnyhop": {
-                "title": "SetBunnyhop",
-                "template": "function-syntax",
-                "description": "Sets the ability to bunnyhop to the player.",
-                "variable": {
-                    "lua": "player:SetBunnyhop"
-                },
-                "return": {
-                    "lua": "void"
-                },
-                "params": {
-                    "state": "boolean"
-                },
-                "additional": {}
-            },
-            "islisteningtogameevent": {
-                "title": "IsListeningToGameEvent",
-                "template": "function-syntax",
-                "description": "Checks if a player is listening to a game event.",
-                "variable": {
-                    "lua": "player:IsListeningToGameEvent"
-                },
-                "return": {
-                    "lua": "void"
-                },
-                "params": {
-                    "game_event": "string"
                 },
                 "additional": {}
             },
