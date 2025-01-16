@@ -2906,7 +2906,7 @@
                 "additional": {}
             },
             "performmenuaction": {
-                "title": "IsValid",
+                "title": "PerformMenuAction",
                 "template": "function-syntax",
                 "description": "Checks if it's a valid player.",
                 "variable": {
