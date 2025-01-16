@@ -5040,10 +5040,11 @@
                     "color": "Color",
                     "text": "string",
                     "posX": "number",
-                    "posY": "number"
+                    "posY": "number",
+                    "font_name": "string"
                 },
                 "additional": {
-                    "lua": "### Positions\nPositions are in between 0.0 and 1.0."
+                    "lua": "### Positions\nPositions are in between 0.0 and 1.0.\n### Fonts\nA list of fonts can be found on [Microsoft - Windows 10 Font List](https://learn.microsoft.com/en-us/typography/fonts/windows_10_font_list)."
                 }
             },
             "removetext": {
