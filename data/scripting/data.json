@@ -2920,7 +2920,7 @@
                     "value": "number"
                 },
                 "additional": {
-                    "lua": "### Actions\nBelow are listed all the menu actions:\n- **useOption** -> Uses the option specified in the value parameter.\n- **scrollToOption** -> Scrolls to the option specified in the value parameter."
+                    "lua": "### Actions\nBelow are listed all the menu actions:\n- **useOption** -> Uses the option specified in the value parameter.\n- **scrollToOption** -> Scrolls to the option specified in the value parameter.\n\n> [!note]\n> There are a number of maximum 10 items on each page."
                 }
             },
             "cbaseentity": {
