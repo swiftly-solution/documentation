@@ -14,6 +14,10 @@
                 "type": "number",
                 "writable": true
             },
+            "ModelName": {
+                "type": "string",
+                "writable": true
+            },
             "PoseParams": {
                 "type": "table",
                 "writable": false
@@ -152,6 +156,10 @@
         "properties": {
             "EntIndex": {
                 "type": "number",
+                "writable": true
+            },
+            "ModelName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -2041,6 +2049,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Weight": {
                 "type": "number",
                 "writable": true
@@ -2261,6 +2273,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
             "ErrorSplineRotationMax": {
                 "type": "number",
                 "writable": true
@@ -2552,6 +2568,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Id": {
                 "type": "AnimComponentID",
                 "writable": false
@@ -2632,6 +2652,10 @@
                 "type": "number",
                 "writable": true
             },
+            "BaseSequence": {
+                "type": "string",
+                "writable": true
+            },
             "BaseSequenceFrame": {
                 "type": "number",
                 "writable": true
@@ -2676,6 +2700,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "AnimGraphFileName": {
+                "type": "string",
+                "writable": true
+            },
             "StartIndex": {
                 "type": "number",
                 "writable": true
@@ -2715,7 +2743,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "ModelName": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -2869,6 +2902,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Default": {
                 "type": "boolean",
                 "writable": true
@@ -3000,9 +3037,21 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Comment": {
+                "type": "string",
+                "writable": true
+            },
+            "Group": {
+                "type": "string",
+                "writable": true
+            },
             "Id": {
                 "type": "AnimParamID",
                 "writable": false
+            },
+            "ComponentName": {
+                "type": "string",
+                "writable": true
             },
             "NetworkingRequested": {
                 "type": "boolean",
@@ -3212,6 +3261,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Comment": {
+                "type": "string",
+                "writable": true
+            },
             "TagID": {
                 "type": "AnimTagID",
                 "writable": false
@@ -3281,6 +3334,10 @@
             },
             "NetworkMode": {
                 "type": "number",
+                "writable": true
+            },
+            "Name": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -3599,6 +3656,10 @@
                 "type": "Color",
                 "writable": true
             },
+            "Text": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CAnimationGraphVisualizerPrimitiveBase",
                 "writable": false
@@ -3631,6 +3692,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ClipName": {
+                "type": "string",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "Volume": {
                 "type": "number",
                 "writable": true
@@ -4047,6 +4116,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BodyGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "BodyGroupOption": {
                 "type": "number",
                 "writable": true
@@ -4433,6 +4506,10 @@
             },
             "EaseOut": {
                 "type": "number",
+                "writable": true
+            },
+            "VertexSet": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -4851,6 +4928,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SequenceName": {
+                "type": "string",
+                "writable": true
+            },
             "Tags": {
                 "type": "table",
                 "writable": false
@@ -5807,6 +5888,18 @@
                 "type": "number",
                 "writable": true
             },
+            "OverrideSoundName": {
+                "type": "string",
+                "writable": true
+            },
+            "DebugAnimSourceString": {
+                "type": "string",
+                "writable": true
+            },
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CAnimTagBase",
                 "writable": false
@@ -6459,6 +6552,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "AttributeName": {
+                "type": "string",
+                "writable": true
+            },
             "AttributeType": {
                 "type": "number",
                 "writable": true
@@ -6879,6 +6976,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Id": {
                 "type": "AnimNodeID",
                 "writable": false
@@ -7383,6 +7484,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ParticleSystemName": {
+                "type": "string",
+                "writable": true
+            },
+            "ConfigName": {
+                "type": "string",
+                "writable": true
+            },
             "DetachFromOwner": {
                 "type": "boolean",
                 "writable": true
@@ -7395,8 +7504,16 @@
                 "type": "boolean",
                 "writable": true
             },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "AttachmentType": {
                 "type": "number",
+                "writable": true
+            },
+            "AttachmentCP1Name": {
+                "type": "string",
                 "writable": true
             },
             "AttachmentCP1Type": {
@@ -7979,6 +8096,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SequenceName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CAnimTagBase",
                 "writable": false
@@ -8703,6 +8824,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Script": {
                 "type": "AnimScriptHandle",
                 "writable": false
@@ -9523,6 +9648,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ExpressionString": {
+                "type": "string",
+                "writable": true
+            },
             "ParamType": {
                 "type": "number",
                 "writable": true
@@ -10254,7 +10383,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -10282,8 +10416,24 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ParentBoneName": {
+                "type": "string",
+                "writable": true
+            },
             "Mode": {
                 "type": "number",
+                "writable": true
+            },
+            "IkChainName": {
+                "type": "string",
+                "writable": true
+            },
+            "OneBoneStart": {
+                "type": "string",
+                "writable": true
+            },
+            "OneBoneEnd": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -10810,6 +10960,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Code": {
+                "type": "string",
+                "writable": true
+            },
             "ParamsModified": {
                 "type": "table",
                 "writable": false
@@ -11086,6 +11240,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Weights": {
                 "type": "table",
                 "writable": false
@@ -11644,6 +11802,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "AnimEventClassName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CNmEvent",
                 "writable": false
@@ -12307,6 +12469,10 @@
                 "type": "ModelConfigHandle_t",
                 "writable": false
             },
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "AssociatedEntityNames": {
                 "type": "table",
                 "writable": false
@@ -12930,6 +13096,14 @@
                 "type": "number",
                 "writable": true
             },
+            "PlayerName": {
+                "type": "string",
+                "writable": true
+            },
+            "NetworkIDString": {
+                "type": "string",
+                "writable": true
+            },
             "LerpTime": {
                 "type": "number",
                 "writable": true
@@ -13479,6 +13653,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "MountTarget": {
+                "type": "string",
+                "writable": true
+            },
             "InstructorHint": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -14002,6 +14180,10 @@
                 "type": "number",
                 "writable": true
             },
+            "DMBonusWeapon": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CCSGameModeRules",
                 "writable": false
@@ -14306,6 +14488,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "CrosshairCodes": {
+                "type": "string",
+                "writable": true
+            },
             "PendingTeamNum": {
                 "type": "number",
                 "writable": true
@@ -14356,6 +14542,14 @@
             },
             "LastJoinTeamTime": {
                 "type": "number",
+                "writable": true
+            },
+            "Clan": {
+                "type": "string",
+                "writable": true
+            },
+            "ClanName": {
+                "type": "string",
                 "writable": true
             },
             "CoachingTeam": {
@@ -15876,6 +16070,10 @@
                 "type": "number",
                 "writable": true
             },
+            "WrongTeamMsg": {
+                "type": "string",
+                "writable": true
+            },
             "Price": {
                 "type": "number",
                 "writable": true
@@ -15906,6 +16104,10 @@
             },
             "CannotShootUnderwater": {
                 "type": "boolean",
+                "writable": true
+            },
+            "AnimExtension": {
+                "type": "string",
                 "writable": true
             },
             "SilencerType": {
@@ -16034,6 +16236,10 @@
             },
             "BotAudibleRange": {
                 "type": "number",
+                "writable": true
+            },
+            "UseRadioSubtitle": {
+                "type": "string",
                 "writable": true
             },
             "UnzoomsAfterShot": {
@@ -16192,6 +16398,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
+            "OpvarName": {
+                "type": "string",
+                "writable": true
+            },
             "DistanceInnerMins": {
                 "type": "Vector",
                 "writable": true
@@ -16539,6 +16757,14 @@
                 "type": "CCSPlayerController",
                 "writable": false
             },
+            "PlayerDamagerName": {
+                "type": "string",
+                "writable": true
+            },
+            "PlayerRecipientName": {
+                "type": "string",
+                "writable": true
+            },
             "DamagerXuid": {
                 "type": "number",
                 "writable": true
@@ -16770,6 +16996,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "DestructiblePartsData": {
                 "type": "table",
                 "writable": false
@@ -16806,6 +17036,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "BodyGroupValue": {
                 "type": "number",
                 "writable": true
@@ -17037,6 +17271,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SoundEventName": {
+                "type": "string",
+                "writable": true
+            },
             "OverrideWithEvent": {
                 "type": "boolean",
                 "writable": true
@@ -17059,6 +17297,10 @@
             },
             "Disabled": {
                 "type": "boolean",
+                "writable": true
+            },
+            "SoundscapeName": {
+                "type": "string",
                 "writable": true
             },
             "SoundEventHash": {
@@ -17129,6 +17371,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MainSoundscapeName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CEnvSoundscape",
                 "writable": false
@@ -17403,6 +17649,10 @@
             },
             "CurrentPullBackDist": {
                 "type": "number",
+                "writable": true
+            },
+            "TextureName": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -18330,6 +18580,14 @@
                 "type": "number",
                 "writable": true
             },
+            "LayoutFileName": {
+                "type": "string",
+                "writable": true
+            },
+            "RenderAttrName": {
+                "type": "string",
+                "writable": true
+            },
             "TargetChangeCount": {
                 "type": "number",
                 "writable": true
@@ -18337,6 +18595,10 @@
             "CSSClasses": {
                 "type": "table",
                 "writable": false
+            },
+            "TargetsName": {
+                "type": "string",
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -18437,6 +18699,14 @@
             "OutputOnEntitiesSpawned": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "WorldName": {
+                "type": "string",
+                "writable": true
+            },
+            "LayerName": {
+                "type": "string",
+                "writable": true
             },
             "WorldLayerVisible": {
                 "type": "boolean",
@@ -18624,6 +18894,10 @@
             },
             "Style": {
                 "type": "number",
+                "writable": true
+            },
+            "Pattern": {
+                "type": "string",
                 "writable": true
             },
             "CascadeRenderStaticObjects": {
@@ -18986,6 +19260,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ModelName": {
+                "type": "string",
+                "writable": true
+            },
             "ClientClothCreationSuppressed": {
                 "type": "boolean",
                 "writable": true
@@ -19374,6 +19652,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "PathString": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -20154,6 +20436,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "WorldName": {
+                "type": "string",
+                "writable": true
+            },
+            "Source2EntityLumpName": {
+                "type": "string",
+                "writable": true
+            },
+            "EntityFilterName": {
+                "type": "string",
+                "writable": true
+            },
             "TimeoutInterval": {
                 "type": "number",
                 "writable": true
@@ -20255,6 +20549,10 @@
             },
             "RTEnvCPComponent": {
                 "type": "number",
+                "writable": true
+            },
+            "Modifier": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -20377,6 +20675,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SpotlightTextureName": {
+                "type": "string",
+                "writable": true
+            },
             "SpotlightTextureFrame": {
                 "type": "number",
                 "writable": true
@@ -20447,6 +20749,14 @@
             },
             "DmgModFire": {
                 "type": "number",
+                "writable": true
+            },
+            "PhysicsDamageTableName": {
+                "type": "string",
+                "writable": true
+            },
+            "BasePropData": {
+                "type": "string",
                 "writable": true
             },
             "Interactions": {
@@ -21556,6 +21866,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SoundScriptName": {
+                "type": "string",
+                "writable": true
+            },
             "Ent": {
                 "type": "C_BaseEntity",
                 "writable": false
@@ -21582,6 +21896,10 @@
             },
             "UpdatedSoundOrigin": {
                 "type": "boolean",
+                "writable": true
+            },
+            "ClassName": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -22158,7 +22476,16 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "StrMapToLoad": {
+                "type": "string",
+                "writable": true
+            },
+            "StrLandmarkName": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -22304,6 +22631,10 @@
             },
             "LuminaireAnisotropy": {
                 "type": "number",
+                "writable": true
+            },
+            "LightStyleString": {
+                "type": "string",
                 "writable": true
             },
             "LightStyleStartTime": {
@@ -22586,6 +22917,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "DisplayText": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_BaseToggle",
                 "writable": false
@@ -22800,6 +23135,18 @@
         "properties": {
             "Enabled": {
                 "type": "boolean",
+                "writable": true
+            },
+            "DialogXMLName": {
+                "type": "string",
+                "writable": true
+            },
+            "PanelClassName": {
+                "type": "string",
+                "writable": true
+            },
+            "PanelID": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -23234,6 +23581,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "UniqueHammerID": {
+                "type": "string",
+                "writable": true
+            },
             "BloodType": {
                 "type": "number",
                 "writable": true
@@ -23463,6 +23814,14 @@
             },
             "Damage": {
                 "type": "number",
+                "writable": true
+            },
+            "BounceSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionSound": {
+                "type": "string",
                 "writable": true
             },
             "Thrower": {
@@ -24029,6 +24388,14 @@
                 "type": "C_BasePlayerWeapon",
                 "writable": false
             },
+            "VMName": {
+                "type": "string",
+                "writable": true
+            },
+            "AnimationPrefix": {
+                "type": "string",
+                "writable": true
+            },
             "LastCameraAngles": {
                 "type": "QAngle",
                 "writable": true
@@ -24289,6 +24656,14 @@
                 "type": "number",
                 "writable": true
             },
+            "StrBreakableContentsPropGroupOverride": {
+                "type": "string",
+                "writable": true
+            },
+            "StrBreakableContentsParticleOverride": {
+                "type": "string",
+                "writable": true
+            },
             "HasBreakPiecesOrCommands": {
                 "type": "boolean",
                 "writable": true
@@ -24303,6 +24678,22 @@
             },
             "ExplosionDelay": {
                 "type": "number",
+                "writable": true
+            },
+            "ExplosionBuildupSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionCustomEffect": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionCustomSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionModifier": {
+                "type": "string",
                 "writable": true
             },
             "PhysicsAttacker": {
@@ -24413,6 +24804,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ScreenText": {
+                "type": "string",
+                "writable": true
+            },
             "ActiveLightParticleIndex": {
                 "type": "ParticleIndex_t",
                 "writable": false
@@ -24853,6 +25248,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ParentPathUniqueID": {
+                "type": "string",
+                "writable": true
+            },
             "PathIndex": {
                 "type": "number",
                 "writable": true
@@ -24921,12 +25320,24 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Animgraph": {
+                "type": "string",
+                "writable": true
+            },
+            "DefaultAnim": {
+                "type": "string",
+                "writable": true
+            },
             "DefaultAnimLoopMode": {
                 "type": "number",
                 "writable": true
             },
             "InitialModelScale": {
                 "type": "number",
+                "writable": true
+            },
+            "InitialWeaponState": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -25025,6 +25436,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Animgraph": {
+                "type": "string",
+                "writable": true
+            },
             "InitialModelScale": {
                 "type": "number",
                 "writable": true
@@ -25291,6 +25706,10 @@
             },
             "Ordinal": {
                 "type": "number",
+                "writable": true
+            },
+            "WeaponName": {
+                "type": "string",
                 "writable": true
             },
             "Xuid": {
@@ -25717,6 +26136,22 @@
                 "type": "number",
                 "writable": true
             },
+            "TournamentEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "TournamentEventStage": {
+                "type": "string",
+                "writable": true
+            },
+            "MatchStatTxt": {
+                "type": "string",
+                "writable": true
+            },
+            "TournamentPredictionsTxt": {
+                "type": "string",
+                "writable": true
+            },
             "TournamentPredictionsPct": {
                 "type": "number",
                 "writable": true
@@ -25897,6 +26332,10 @@
                 "type": "number",
                 "writable": true
             },
+            "RoundEndFunFactToken": {
+                "type": "string",
+                "writable": true
+            },
             "RoundEndFunFactPlayerSlot": {
                 "type": "number",
                 "writable": true
@@ -25911,6 +26350,10 @@
             },
             "RoundEndFunFactData3": {
                 "type": "number",
+                "writable": true
+            },
+            "RoundEndMessage": {
+                "type": "string",
                 "writable": true
             },
             "RoundEndPlayerCount": {
@@ -26121,6 +26564,10 @@
                 "type": "number",
                 "writable": true
             },
+            "LastPlaceName": {
+                "type": "string",
+                "writable": true
+            },
             "PrevDefuser": {
                 "type": "boolean",
                 "writable": true
@@ -26251,6 +26698,10 @@
             },
             "RagdollDamagePosition": {
                 "type": "Vector",
+                "writable": true
+            },
+            "RagdollDamageWeaponName": {
+                "type": "string",
                 "writable": true
             },
             "RagdollDamageHeadshot": {
@@ -26881,6 +27332,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TeamMatchStat": {
+                "type": "string",
+                "writable": true
+            },
             "NumMapVictories": {
                 "type": "number",
                 "writable": true
@@ -26901,8 +27356,20 @@
                 "type": "number",
                 "writable": true
             },
+            "ClanTeamname": {
+                "type": "string",
+                "writable": true
+            },
             "ClanID": {
                 "type": "number",
+                "writable": true
+            },
+            "TeamFlagImage": {
+                "type": "string",
+                "writable": true
+            },
+            "TeamLogoImage": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -27529,6 +27996,10 @@
                 "type": "number",
                 "writable": true
             },
+            "NetlookupFilename": {
+                "type": "string",
+                "writable": true
+            },
             "Enabled": {
                 "type": "boolean",
                 "writable": true
@@ -27633,6 +28104,10 @@
                 "type": "number",
                 "writable": true
             },
+            "LookupFilename": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_BaseTrigger",
                 "writable": false
@@ -27701,6 +28176,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "CameraName": {
+                "type": "string",
+                "writable": true
+            },
             "CsmFovOverrideValue": {
                 "type": "number",
                 "writable": true
@@ -27932,6 +28411,10 @@
             "OnAnimReachedEnd": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "IdleAnim": {
+                "type": "string",
+                "writable": true
             },
             "IdleAnimLoopMode": {
                 "type": "number",
@@ -28245,6 +28728,10 @@
                 "type": "number",
                 "writable": true
             },
+            "CurrentLoadCachedFileName": {
+                "type": "string",
+                "writable": true
+            },
             "RestoreCustomMaterialAfterPrecache": {
                 "type": "boolean",
                 "writable": true
@@ -28328,6 +28815,14 @@
             "NetworkedDynamicAttributes": {
                 "type": "CAttributeList",
                 "writable": false
+            },
+            "CustomName": {
+                "type": "string",
+                "writable": true
+            },
+            "CustomNameOverride": {
+                "type": "string",
+                "writable": true
             },
             "InitializedTags": {
                 "type": "boolean",
@@ -28823,6 +29318,10 @@
             },
             "CubemapSourceType": {
                 "type": "number",
+                "writable": true
+            },
+            "SkyEntity": {
+                "type": "string",
                 "writable": true
             },
             "HasHeightFogEnd": {
@@ -30209,6 +30708,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Source": {
+                "type": "string",
+                "writable": true
+            },
+            "Destination": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_BaseTrigger",
                 "writable": false
@@ -30341,6 +30848,10 @@
                 "type": "ParticleIndex_t",
                 "writable": false
             },
+            "EffectName": {
+                "type": "string",
+                "writable": true
+            },
             "State": {
                 "type": "boolean",
                 "writable": true
@@ -30441,6 +30952,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TargetCamera": {
+                "type": "string",
+                "writable": true
+            },
             "ResolutionEnum": {
                 "type": "number",
                 "writable": true
@@ -30451,6 +30966,10 @@
             },
             "UseUniqueColorTarget": {
                 "type": "boolean",
+                "writable": true
+            },
+            "BrushModelName": {
+                "type": "string",
                 "writable": true
             },
             "TargetCamera1": {
@@ -31421,6 +31940,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ReticleHintTextName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_EconEntity",
                 "writable": false
@@ -31957,6 +32480,14 @@
                 "type": "number",
                 "writable": true
             },
+            "ImpactEffect": {
+                "type": "string",
+                "writable": true
+            },
+            "ParticleEffect": {
+                "type": "string",
+                "writable": true
+            },
             "ParticleCollision": {
                 "type": "boolean",
                 "writable": true
@@ -32345,6 +32876,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrNametagString": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_CS2WeaponModuleBase",
                 "writable": false
@@ -32453,6 +32988,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SnapshotFileName": {
+                "type": "string",
+                "writable": true
+            },
             "Active": {
                 "type": "boolean",
                 "writable": true
@@ -32507,6 +33046,10 @@
             },
             "StartActive": {
                 "type": "boolean",
+                "writable": true
+            },
+            "EffectName": {
+                "type": "string",
                 "writable": true
             },
             "ControlPointNames": {
@@ -32575,6 +33118,10 @@
             },
             "MaxSimulationTime": {
                 "type": "number",
+                "writable": true
+            },
+            "EffectName": {
+                "type": "string",
                 "writable": true
             },
             "PathNodes_Name": {
@@ -33047,6 +33594,10 @@
             },
             "Urgent": {
                 "type": "boolean",
+                "writable": true
+            },
+            "PlaceName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -33669,6 +34220,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MessageText": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "C_PointClientUIWorldPanel",
                 "writable": false
@@ -33719,6 +34274,18 @@
             },
             "StartTimeInCommentary": {
                 "type": "number",
+                "writable": true
+            },
+            "CommentaryFile": {
+                "type": "string",
+                "writable": true
+            },
+            "Title": {
+                "type": "string",
+                "writable": true
+            },
+            "Speakers": {
+                "type": "string",
                 "writable": true
             },
             "NodeNumber": {
@@ -33941,6 +34508,18 @@
                 "type": "boolean",
                 "writable": true
             },
+            "MessageText": {
+                "type": "string",
+                "writable": true
+            },
+            "FontName": {
+                "type": "string",
+                "writable": true
+            },
+            "BackgroundMaterialName": {
+                "type": "string",
+                "writable": true
+            },
             "Enabled": {
                 "type": "boolean",
                 "writable": true
@@ -34155,6 +34734,10 @@
             },
             "ParticleInnerDist": {
                 "type": "number",
+                "writable": true
+            },
+            "ParticleDef": {
+                "type": "string",
                 "writable": true
             },
             "TParticlePrecipTraceTimer": {
@@ -35061,6 +35644,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "SoundAreaType": {
+                "type": "string",
+                "writable": true
+            },
             "Pos": {
                 "type": "Vector",
                 "writable": true
@@ -35237,12 +35824,24 @@
                 "type": "number",
                 "writable": true
             },
+            "SourceEntityName": {
+                "type": "string",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "OnSoundFinished": {
                 "type": "CEntityIOOutput",
                 "writable": false
             },
             "ClientCullRadius": {
                 "type": "number",
+                "writable": true
+            },
+            "SoundName": {
+                "type": "string",
                 "writable": true
             },
             "Source": {
@@ -35589,6 +36188,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
+            "OpvarName": {
+                "type": "string",
+                "writable": true
+            },
             "OpvarIndex": {
                 "type": "number",
                 "writable": true
@@ -35873,6 +36484,14 @@
                 "type": "Vector",
                 "writable": true
             },
+            "EffectName": {
+                "type": "string",
+                "writable": true
+            },
+            "SSEffectName": {
+                "type": "string",
+                "writable": true
+            },
             "Overlay": {
                 "type": "Color",
                 "writable": true
@@ -35995,6 +36614,10 @@
             },
             "Score": {
                 "type": "number",
+                "writable": true
+            },
+            "Teamname": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -38049,8 +38672,16 @@
                 "type": "number",
                 "writable": true
             },
+            "ShortName": {
+                "type": "string",
+                "writable": true
+            },
             "ExecMode": {
                 "type": "number",
+                "writable": true
+            },
+            "SpawnGroup": {
+                "type": "string",
                 "writable": true
             },
             "PeriodicExecDelay": {
@@ -38059,6 +38690,14 @@
             },
             "SpecType": {
                 "type": "number",
+                "writable": true
+            },
+            "EntitySpec": {
+                "type": "string",
+                "writable": true
+            },
+            "Commands": {
+                "type": "string",
                 "writable": true
             },
             "SetDebugBits": {
@@ -38101,6 +38740,18 @@
                 "type": "number",
                 "writable": true
             },
+            "StrMutatorConditionContainerName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMutatorConditionContainerVarName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMutatorConditionContainerVarValue": {
+                "type": "string",
+                "writable": true
+            },
             "PassWhenTrue": {
                 "type": "boolean",
                 "writable": true
@@ -38141,13 +38792,57 @@
                 "type": "number",
                 "writable": true
             },
+            "StrInitWith_Container": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyProperty_InputContainerSrc": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyProperty_InputContainerProperty": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyProperty_TargetProperty": {
+                "type": "string",
+                "writable": true
+            },
+            "StrRandomRollInputVars_SeedInputVar": {
+                "type": "string",
+                "writable": true
+            },
             "RandomRollInputVars_InputVarsToRoll": {
                 "type": "table",
                 "writable": false
             },
+            "StrCopyMatchingKeys_InputContainerSrc": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyKeysWithSuffix_InputContainerSrc": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyKeysWithSuffix_FindSuffix": {
+                "type": "string",
+                "writable": true
+            },
+            "StrCopyKeysWithSuffix_ReplaceSuffix": {
+                "type": "string",
+                "writable": true
+            },
             "SetValue_Value": {
                 "type": "CompositeMaterialInputLooseVariable_t",
                 "writable": false
+            },
+            "StrGenerateTexture_TargetParam": {
+                "type": "string",
+                "writable": true
+            },
+            "StrGenerateTexture_InitialContainer": {
+                "type": "string",
+                "writable": true
             },
             "Resolution": {
                 "type": "number",
@@ -38173,12 +38868,28 @@
                 "type": "table",
                 "writable": false
             },
+            "StrPopInputQueue_Container": {
+                "type": "string",
+                "writable": true
+            },
+            "StrDrawText_InputContainerSrc": {
+                "type": "string",
+                "writable": true
+            },
+            "StrDrawText_InputContainerProperty": {
+                "type": "string",
+                "writable": true
+            },
             "DrawText_Position": {
                 "type": "Vector2D",
                 "writable": true
             },
             "ColDrawText_Color": {
                 "type": "Color",
+                "writable": true
+            },
+            "StrDrawText_Font": {
+                "type": "string",
                 "writable": true
             },
             "Conditions": {
@@ -38309,9 +39020,21 @@
                 "type": "number",
                 "writable": true
             },
+            "StrAttrName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrAlias": {
+                "type": "string",
+                "writable": true
+            },
             "LooseVariables": {
                 "type": "table",
                 "writable": false
+            },
+            "StrAttrNameForVar": {
+                "type": "string",
+                "writable": true
             },
             "ExposeExternally": {
                 "type": "boolean",
@@ -38345,12 +39068,36 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrName": {
+                "type": "string",
+                "writable": true
+            },
             "ExposeExternally": {
                 "type": "boolean",
                 "writable": true
             },
+            "StrExposedFriendlyName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrExposedFriendlyGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "ExposedVariableIsFixedRange": {
                 "type": "boolean",
+                "writable": true
+            },
+            "StrExposedVisibleWhenTrue": {
+                "type": "string",
+                "writable": true
+            },
+            "StrExposedHiddenWhenTrue": {
+                "type": "string",
+                "writable": true
+            },
+            "StrExposedValueList": {
+                "type": "string",
                 "writable": true
             },
             "VariableType": {
@@ -38437,8 +39184,24 @@
                 "type": "number",
                 "writable": true
             },
+            "StrTextureContentAssetPath": {
+                "type": "string",
+                "writable": true
+            },
+            "StrTextureCompilationVtexTemplate": {
+                "type": "string",
+                "writable": true
+            },
             "TextureType": {
                 "type": "number",
+                "writable": true
+            },
+            "StrString": {
+                "type": "string",
+                "writable": true
+            },
+            "StrPanoramaPanelPath": {
+                "type": "string",
                 "writable": true
             },
             "PanoramaRenderRes": {
@@ -38475,6 +39238,14 @@
         "properties": {
             "CompositeMaterialMatchFilterType": {
                 "type": "number",
+                "writable": true
+            },
+            "StrMatchFilter": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMatchValue": {
+                "type": "string",
                 "writable": true
             },
             "PassWhenTrue": {
@@ -40108,7 +40879,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "StrBitmapName": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -40684,8 +41460,28 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Followup_concept": {
+                "type": "string",
+                "writable": true
+            },
+            "Followup_contexts": {
+                "type": "string",
+                "writable": true
+            },
             "Followup_delay": {
                 "type": "number",
+                "writable": true
+            },
+            "Followup_target": {
+                "type": "string",
+                "writable": true
+            },
+            "Followup_entityiotarget": {
+                "type": "string",
+                "writable": true
+            },
+            "Followup_entityioinput": {
+                "type": "string",
                 "writable": true
             },
             "Followup_entityiodelay": {
@@ -41719,6 +42515,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Stack": {
+                "type": "string",
+                "writable": true
+            },
+            "Operator": {
+                "type": "string",
+                "writable": true
+            },
+            "Opvar": {
+                "type": "string",
+                "writable": true
+            },
             "Val": {
                 "type": "number",
                 "writable": true
@@ -41924,6 +42732,14 @@
                 "type": "number",
                 "writable": true
             },
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "DesignerName": {
+                "type": "string",
+                "writable": true
+            },
             "Flags": {
                 "type": "number",
                 "writable": true
@@ -41984,6 +42800,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "PrivateVScripts": {
+                "type": "string",
+                "writable": true
+            },
             "Entity": {
                 "type": "CEntityIdentity",
                 "writable": false
@@ -42056,6 +42876,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ScriptClassName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CEntityComponent",
                 "writable": false
@@ -42115,6 +42939,22 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "CPPClassname": {
+                "type": "string",
+                "writable": true
+            },
+            "NetworkDataReferencedDescription": {
+                "type": "string",
+                "writable": true
+            },
+            "NetworkDataReferencedPtrPropDescription": {
+                "type": "string",
+                "writable": true
+            },
             "RuntimeIndex": {
                 "type": "number",
                 "writable": true
@@ -42345,6 +43185,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Value": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "MaterialParam_t",
                 "writable": false
@@ -42444,7 +43288,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -42472,6 +43321,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MaterialName": {
+                "type": "string",
+                "writable": true
+            },
+            "ShaderName": {
+                "type": "string",
+                "writable": true
+            },
             "IntParams": {
                 "type": "table",
                 "writable": false
@@ -42992,6 +43849,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameToken": {
                 "type": "number",
                 "writable": true
@@ -43028,6 +43889,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameToken": {
                 "type": "number",
                 "writable": true
@@ -43136,6 +44001,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameToken": {
                 "type": "number",
                 "writable": true
@@ -43520,6 +44389,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "BallOffset": {
                 "type": "Vector",
                 "writable": true
@@ -43612,6 +44485,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "InfluenceNames": {
                 "type": "table",
                 "writable": true
@@ -43664,6 +44541,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "UpVector": {
                 "type": "Vector",
                 "writable": true
@@ -43731,6 +44612,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
+            "TargetBoneName": {
+                "type": "string",
+                "writable": true
+            },
+            "MorphChannelName": {
+                "type": "string",
+                "writable": true
+            },
             "Remap": {
                 "type": "table",
                 "writable": true
@@ -43799,6 +44692,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "OutputMorph": {
                 "type": "table",
                 "writable": false
@@ -43850,6 +44751,10 @@
             "Weight": {
                 "type": "number",
                 "writable": true
+            },
+            "Name": {
+                "type": "string",
+                "writable": true
             }
         },
         "functions": {
@@ -43885,6 +44790,10 @@
             },
             "BoneHash": {
                 "type": "number",
+                "writable": true
+            },
+            "Name": {
+                "type": "string",
                 "writable": true
             },
             "Weight": {
@@ -43995,6 +44904,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "Type": {
+                "type": "string",
+                "writable": true
+            },
             "Min": {
                 "type": "number",
                 "writable": true
@@ -44030,7 +44947,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Facs": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -44226,6 +45148,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "AnkleBoneName": {
+                "type": "string",
+                "writable": true
+            },
+            "ToeBoneName": {
+                "type": "string",
+                "writable": true
+            },
             "BallOffset": {
                 "type": "Vector",
                 "writable": true
@@ -44281,6 +45215,10 @@
             "Strides": {
                 "type": "table",
                 "writable": false
+            },
+            "Name": {
+                "type": "string",
+                "writable": true
             },
             "Additive": {
                 "type": "boolean",
@@ -44422,6 +45360,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "SurfaceProperty": {
+                "type": "string",
+                "writable": true
+            },
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
             "MinBounds": {
                 "type": "Vector",
                 "writable": true
@@ -44490,6 +45440,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -44497,6 +45451,10 @@
             "HitBoxes": {
                 "type": "table",
                 "writable": false
+            },
+            "SourceFilename": {
+                "type": "string",
+                "writable": true
             }
         },
         "functions": {
@@ -44662,6 +45620,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ConfigName": {
+                "type": "string",
+                "writable": true
+            },
             "Elements": {
                 "type": "table",
                 "writable": false
@@ -44698,6 +45660,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ElementName": {
+                "type": "string",
+                "writable": true
+            },
             "NestedElements": {
                 "type": "table",
                 "writable": false
@@ -44730,12 +45696,28 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "InstanceName": {
+                "type": "string",
+                "writable": true
+            },
+            "EntityClass": {
+                "type": "string",
+                "writable": true
+            },
             "Offset": {
                 "type": "Vector",
                 "writable": true
             },
             "AngOffset": {
                 "type": "QAngle",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
+            "LocalAttachmentOffsetName": {
+                "type": "string",
                 "writable": true
             },
             "AttachmentType": {
@@ -44756,6 +45738,14 @@
             },
             "AcceptParentMaterialDrivenDecals": {
                 "type": "boolean",
+                "writable": true
+            },
+            "BodygroupOnOtherModels": {
+                "type": "string",
+                "writable": true
+            },
+            "MaterialGroupOnOtherModels": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -44790,6 +45780,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Command": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CModelConfigElement",
                 "writable": false
@@ -44894,6 +45888,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "GroupName": {
+                "type": "string",
+                "writable": true
+            },
             "Choice": {
                 "type": "number",
                 "writable": true
@@ -44930,6 +45928,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "GroupName": {
+                "type": "string",
+                "writable": true
+            },
             "Choice": {
                 "type": "number",
                 "writable": true
@@ -44966,6 +45968,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MaterialGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CModelConfigElement",
                 "writable": false
@@ -44998,6 +46004,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MaterialGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CModelConfigElement",
                 "writable": false
@@ -45186,6 +46196,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TargetMorph": {
+                "type": "string",
+                "writable": true
+            },
             "SlaveChannel": {
                 "type": "number",
                 "writable": true
@@ -45230,6 +46244,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "MorphRectDatas": {
                 "type": "table",
                 "writable": false
@@ -45430,6 +46448,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -45440,6 +46462,10 @@
             },
             "Hidden": {
                 "type": "boolean",
+                "writable": true
+            },
+            "Description": {
+                "type": "string",
                 "writable": true
             },
             "Physics": {
@@ -45605,7 +46631,52 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "ImpactSoft": {
+                "type": "string",
+                "writable": true
+            },
+            "ImpactHard": {
+                "type": "string",
+                "writable": true
+            },
+            "ScrapeSmooth": {
+                "type": "string",
+                "writable": true
+            },
+            "ScrapeRough": {
+                "type": "string",
+                "writable": true
+            },
+            "BulletImpact": {
+                "type": "string",
+                "writable": true
+            },
+            "Rolling": {
+                "type": "string",
+                "writable": true
+            },
+            "Break": {
+                "type": "string",
+                "writable": true
+            },
+            "Strain": {
+                "type": "string",
+                "writable": true
+            },
+            "MeleeImpact": {
+                "type": "string",
+                "writable": true
+            },
+            "PushOff": {
+                "type": "string",
+                "writable": true
+            },
+            "SkidStop": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -46044,7 +47115,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -46074,6 +47150,10 @@
         "properties": {
             "BoneComponent": {
                 "type": "number",
+                "writable": true
+            },
+            "FlexController": {
+                "type": "string",
                 "writable": true
             },
             "FlexControllerToken": {
@@ -46116,6 +47196,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
             "BoneNameToken": {
                 "type": "number",
                 "writable": true
@@ -46204,6 +47288,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "AttributeName": {
+                "type": "string",
+                "writable": true
+            },
             "NumChannels": {
                 "type": "number",
                 "writable": true
@@ -46236,6 +47324,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "ModelInfo": {
                 "type": "PermModelInfo_t",
                 "writable": false
@@ -46328,6 +47420,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "number",
                 "writable": true
@@ -46390,6 +47486,14 @@
             },
             "MaxEyeDeflection": {
                 "type": "number",
+                "writable": true
+            },
+            "SurfaceProperty": {
+                "type": "string",
+                "writable": true
+            },
+            "KeyValueText": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -46520,6 +47624,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BoneName": {
+                "type": "string",
+                "writable": true
+            },
+            "ParentName": {
+                "type": "string",
+                "writable": true
+            },
             "Bbox": {
                 "type": "SkeletonBoneBounds_t",
                 "writable": false
@@ -46567,6 +47679,14 @@
             "ImportedCollision": {
                 "type": "table",
                 "writable": false
+            },
+            "ModelName": {
+                "type": "string",
+                "writable": true
+            },
+            "CaptureName": {
+                "type": "string",
+                "writable": true
             },
             "FlexControllers": {
                 "type": "number",
@@ -46731,6 +47851,10 @@
             "DebugPartNames": {
                 "type": "table",
                 "writable": false
+            },
+            "EmbeddedKeyvalues": {
+                "type": "string",
+                "writable": true
             }
         },
         "functions": {
@@ -46843,6 +47967,10 @@
             "InteractExclude": {
                 "type": "table",
                 "writable": false
+            },
+            "CollisionGroupString": {
+                "type": "string",
+                "writable": true
             },
             "InteractAsStrings": {
                 "type": "table",
@@ -47759,6 +48887,10 @@
                 "type": "number",
                 "writable": true
             },
+            "StrShaderOverride": {
+                "type": "string",
+                "writable": true
+            },
             "CenterXOffset": {
                 "type": "CParticleCollectionRendererFloatInput",
                 "writable": false
@@ -47923,8 +49055,16 @@
                 "type": "boolean",
                 "writable": true
             },
+            "StencilTestID": {
+                "type": "string",
+                "writable": true
+            },
             "StencilTestExclude": {
                 "type": "boolean",
+                "writable": true
+            },
+            "StencilWriteID": {
+                "type": "string",
                 "writable": true
             },
             "WriteStencilOnDepthPass": {
@@ -48225,6 +49365,10 @@
             },
             "DisableOperator": {
                 "type": "boolean",
+                "writable": true
+            },
+            "Notes": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -48623,6 +49767,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "NamedValueDomain": {
+                "type": "string",
+                "writable": true
+            },
             "NamedValueLocals": {
                 "type": "table",
                 "writable": false
@@ -48761,6 +49909,10 @@
             },
             "ScreenSpaceEffect": {
                 "type": "boolean",
+                "writable": true
+            },
+            "TargetLayerID": {
+                "type": "string",
                 "writable": true
             },
             "SkipRenderControlPoint": {
@@ -49711,6 +50863,10 @@
                 "type": "number",
                 "writable": true
             },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
             "LocalCoords": {
                 "type": "boolean",
                 "writable": true
@@ -49793,6 +50949,10 @@
             },
             "PreferMovingBoxes": {
                 "type": "boolean",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "HitboxVelocityScale": {
@@ -50429,6 +51589,10 @@
             },
             "LOS": {
                 "type": "boolean",
+                "writable": true
+            },
+            "CollisionGroupName": {
+                "type": "string",
                 "writable": true
             },
             "TraceSet": {
@@ -51127,6 +52291,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -51283,6 +52451,10 @@
                 "type": "number",
                 "writable": true
             },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
             "UseBones": {
                 "type": "boolean",
                 "writable": true
@@ -51411,6 +52583,10 @@
                 "type": "number",
                 "writable": true
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -51465,6 +52641,10 @@
             },
             "UseBones": {
                 "type": "boolean",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -51951,6 +53131,10 @@
                 "type": "CPerParticleFloatInput",
                 "writable": false
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -52427,6 +53611,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ActivityName": {
+                "type": "string",
+                "writable": true
+            },
+            "SequenceName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CParticleFunctionInitializer",
                 "writable": false
@@ -53479,6 +54671,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "OutputMinName": {
+                "type": "string",
+                "writable": true
+            },
+            "OutputMaxName": {
+                "type": "string",
+                "writable": true
+            },
             "ModelFromRenderer": {
                 "type": "boolean",
                 "writable": true
@@ -54151,6 +55351,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "RtEnvName": {
+                "type": "string",
+                "writable": true
+            },
             "RTEnvCP": {
                 "type": "number",
                 "writable": true
@@ -54371,6 +55575,10 @@
                 "type": "number",
                 "writable": true
             },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
             "UseBones": {
                 "type": "boolean",
                 "writable": true
@@ -54449,6 +55657,10 @@
             },
             "UseBones": {
                 "type": "boolean",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "ShellSize": {
@@ -55611,6 +56823,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrPhysicsType": {
+                "type": "string",
+                "writable": true
+            },
             "StartAsleep": {
                 "type": "boolean",
                 "writable": true
@@ -57183,6 +58399,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -57257,6 +58477,10 @@
             },
             "LOSScale": {
                 "type": "number",
+                "writable": true
+            },
+            "CollisionGroupName": {
+                "type": "string",
                 "writable": true
             },
             "TraceSet": {
@@ -57447,6 +58671,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -57577,6 +58805,18 @@
             },
             "OutputMax": {
                 "type": "number",
+                "writable": true
+            },
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
+            "FieldName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -59259,6 +60499,10 @@
                 "type": "number",
                 "writable": true
             },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
             "Rigid": {
                 "type": "boolean",
                 "writable": true
@@ -59659,6 +60903,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CParticleFunctionOperator",
                 "writable": false
@@ -59705,6 +60953,10 @@
             },
             "UseBones": {
                 "type": "boolean",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "PosOffset": {
@@ -59765,6 +61017,10 @@
             },
             "PrevPosScale": {
                 "type": "number",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "UseBones": {
@@ -59973,6 +61229,10 @@
             },
             "LerpRate": {
                 "type": "number",
+                "writable": true
+            },
+            "CollisionGroupName": {
+                "type": "string",
                 "writable": true
             },
             "TraceSet": {
@@ -62077,6 +63337,10 @@
             },
             "HeightControlPointNumber": {
                 "type": "number",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -65387,8 +66651,20 @@
                 "type": "ParticleAttributeIndex_t",
                 "writable": false
             },
+            "ActivityName": {
+                "type": "string",
+                "writable": true
+            },
+            "SequenceName": {
+                "type": "string",
+                "writable": true
+            },
             "EnableClothSimulation": {
                 "type": "boolean",
+                "writable": true
+            },
+            "ClothEffectName": {
+                "type": "string",
                 "writable": true
             },
             "OverrideTranslucentMaterials": {
@@ -65413,6 +66689,10 @@
             },
             "LOD": {
                 "type": "number",
+                "writable": true
+            },
+            "EconSlotName": {
+                "type": "string",
                 "writable": true
             },
             "OriginalModel": {
@@ -65449,6 +66729,10 @@
             },
             "AllowApproximateTransforms": {
                 "type": "boolean",
+                "writable": true
+            },
+            "RenderAttribute": {
+                "type": "string",
                 "writable": true
             },
             "RadiusScale": {
@@ -66123,6 +67407,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SoundName": {
+                "type": "string",
+                "writable": true
+            },
             "SuppressStopSoundEvent": {
                 "type": "boolean",
                 "writable": true
@@ -66355,6 +67643,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "LightCookie": {
+                "type": "string",
+                "writable": true
+            },
             "Priority": {
                 "type": "number",
                 "writable": true
@@ -66509,6 +67801,10 @@
         "properties": {
             "OutlineColor": {
                 "type": "Color",
+                "writable": true
+            },
+            "DefaultText": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -67051,6 +68347,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "RtEnvName": {
+                "type": "string",
+                "writable": true
+            },
             "RTEnvCP": {
                 "type": "number",
                 "writable": true
@@ -67441,6 +68741,10 @@
             },
             "TraceOffset": {
                 "type": "number",
+                "writable": true
+            },
+            "CollisionGroupName": {
+                "type": "string",
                 "writable": true
             },
             "TraceSet": {
@@ -67987,6 +69291,10 @@
                 "type": "number",
                 "writable": true
             },
+            "TimeOfDayParameter": {
+                "type": "string",
+                "writable": true
+            },
             "DefaultValue": {
                 "type": "Vector",
                 "writable": true
@@ -68367,6 +69675,10 @@
                 "type": "Vector",
                 "writable": true
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TraceSet": {
                 "type": "number",
                 "writable": true
@@ -68563,6 +69875,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "FirstControlPoint": {
                 "type": "number",
                 "writable": true
@@ -70467,6 +71787,10 @@
                 "type": "number",
                 "writable": true
             },
+            "CollisionGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "WorldOnly": {
                 "type": "boolean",
                 "writable": true
@@ -70682,6 +72006,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrVariable": {
+                "type": "string",
+                "writable": true
+            },
             "VariableField": {
                 "type": "ParticleAttributeIndex_t",
                 "writable": false
@@ -70826,6 +72154,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Drivers": {
                 "type": "table",
                 "writable": false
@@ -70870,12 +72202,20 @@
                 "type": "number",
                 "writable": true
             },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "Offset": {
                 "type": "Vector",
                 "writable": true
             },
             "Offset1": {
                 "type": "QAngle",
+                "writable": true
+            },
+            "EntityName": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -70906,6 +72246,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "BodyGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "Value": {
                 "type": "number",
                 "writable": true
@@ -70938,6 +72282,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "PreviewModel": {
+                "type": "string",
+                "writable": true
+            },
             "ModSpecificData": {
                 "type": "number",
                 "writable": true
@@ -70946,8 +72294,20 @@
                 "type": "number",
                 "writable": true
             },
+            "SequenceName": {
+                "type": "string",
+                "writable": true
+            },
             "FireParticleOnSequenceFrame": {
                 "type": "number",
+                "writable": true
+            },
+            "HitboxSetName": {
+                "type": "string",
+                "writable": true
+            },
+            "MaterialGroupName": {
+                "type": "string",
                 "writable": true
             },
             "BodyGroups": {
@@ -71300,7 +72660,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "StrVariable": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -71339,6 +72704,10 @@
             "Particles": {
                 "type": "IParticleCollection",
                 "writable": false
+            },
+            "DebugName": {
+                "type": "string",
+                "writable": true
             },
             "DontRemove": {
                 "type": "bitfield:1",
@@ -72271,8 +73640,24 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ConfigName": {
+                "type": "string",
+                "writable": true
+            },
             "AttachType": {
                 "type": "number",
+                "writable": true
+            },
+            "BoundEntityPath": {
+                "type": "string",
+                "writable": true
+            },
+            "StrEntityScope": {
+                "type": "string",
+                "writable": true
+            },
+            "StrAttachmentName": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -72303,6 +73688,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "IsPublic": {
                 "type": "boolean",
                 "writable": true
@@ -72555,6 +73944,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -72607,6 +74000,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrParentBone": {
+                "type": "string",
+                "writable": true
+            },
             "JiggleParent": {
                 "type": "number",
                 "writable": true
@@ -73491,6 +74888,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -73831,6 +75232,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -74067,6 +75472,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Weight": {
                 "type": "number",
                 "writable": true
@@ -75019,6 +76428,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "VertexMapName": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -75067,6 +76480,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "NameHash": {
                 "type": "number",
                 "writable": true
@@ -75843,6 +77260,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "DebugName": {
+                "type": "string",
+                "writable": true
+            },
             "Position": {
                 "type": "Vector",
                 "writable": true
@@ -76453,6 +77874,10 @@
             },
             "SurfacePropertyIndex": {
                 "type": "number",
+                "writable": true
+            },
+            "UserFriendlyName": {
+                "type": "string",
                 "writable": true
             },
             "UserFriendlyNameSealed": {
@@ -77117,6 +78542,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "Semantic": {
+                "type": "string",
+                "writable": true
+            },
+            "D3DSemanticName": {
+                "type": "string",
+                "writable": true
+            },
             "D3DSemanticIndex": {
                 "type": "number",
                 "writable": true
@@ -77352,7 +78789,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -77379,7 +78821,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -77409,6 +78856,10 @@
         "properties": {
             "ViewId": {
                 "type": "number",
+                "writable": true
+            },
+            "ViewName": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -77475,12 +78926,24 @@
                 "type": "SceneViewId_t",
                 "writable": false
             },
+            "ViewName": {
+                "type": "string",
+                "writable": true
+            },
             "LayerIndex": {
                 "type": "number",
                 "writable": true
             },
             "LayerId": {
                 "type": "number",
+                "writable": true
+            },
+            "LayerName": {
+                "type": "string",
+                "writable": true
+            },
+            "DisplayText": {
+                "type": "string",
                 "writable": true
             }
         },
@@ -77578,6 +79041,10 @@
             "ViewId": {
                 "type": "SceneViewId_t",
                 "writable": false
+            },
+            "ViewName": {
+                "type": "string",
+                "writable": true
             }
         },
         "functions": {
@@ -77607,6 +79074,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "TextureId": {
                 "type": "number",
                 "writable": true
@@ -77674,6 +79145,10 @@
             "ViewId": {
                 "type": "SceneViewId_t",
                 "writable": false
+            },
+            "ViewName": {
+                "type": "string",
+                "writable": true
             },
             "Targets": {
                 "type": "table",
@@ -77799,6 +79274,10 @@
                 "type": "number",
                 "writable": true
             },
+            "ProxyEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -77833,6 +79312,14 @@
         "properties": {
             "SearchType": {
                 "type": "number",
+                "writable": true
+            },
+            "StrSearchName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrNewHintGroup": {
+                "type": "string",
                 "writable": true
             },
             "Radius": {
@@ -78031,6 +79518,14 @@
                 "type": "boolean",
                 "writable": true
             },
+            "Sound": {
+                "type": "string",
+                "writable": true
+            },
+            "SourceEntName": {
+                "type": "string",
+                "writable": true
+            },
             "SoundSource": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -78149,6 +79644,10 @@
             },
             "LuminaireAnisotropy": {
                 "type": "number",
+                "writable": true
+            },
+            "LightStyleString": {
+                "type": "string",
                 "writable": true
             },
             "LightStyleStartTime": {
@@ -78435,6 +79934,22 @@
                 "type": "locksound_t",
                 "writable": false
             },
+            "UseSound": {
+                "type": "string",
+                "writable": true
+            },
+            "LockedSound": {
+                "type": "string",
+                "writable": true
+            },
+            "UnlockedSound": {
+                "type": "string",
+                "writable": true
+            },
+            "OverrideAnticipationName": {
+                "type": "string",
+                "writable": true
+            },
             "Locked": {
                 "type": "boolean",
                 "writable": true
@@ -78487,12 +80002,20 @@
                 "type": "boolean",
                 "writable": true
             },
+            "GlowEntity": {
+                "type": "string",
+                "writable": true
+            },
             "GlowEntity1": {
                 "type": "CBaseModelEntity",
                 "writable": false
             },
             "Usable": {
                 "type": "boolean",
+                "writable": true
+            },
+            "DisplayText": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -78711,6 +80234,18 @@
                 "type": "boolean",
                 "writable": true
             },
+            "DialogXMLName": {
+                "type": "string",
+                "writable": true
+            },
+            "PanelClassName": {
+                "type": "string",
+                "writable": true
+            },
+            "PanelID": {
+                "type": "string",
+                "writable": true
+            },
             "CustomOutput0": {
                 "type": "CEntityIOOutput",
                 "writable": false
@@ -78803,6 +80338,10 @@
                 "type": "table",
                 "writable": false
             },
+            "StrRelationships": {
+                "type": "string",
+                "writable": true
+            },
             "Hull": {
                 "type": "number",
                 "writable": true
@@ -78843,6 +80382,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Master": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -78909,6 +80452,26 @@
             },
             "BlockDamage": {
                 "type": "number",
+                "writable": true
+            },
+            "NoiseMoving": {
+                "type": "string",
+                "writable": true
+            },
+            "NoiseArrived": {
+                "type": "string",
+                "writable": true
+            },
+            "NoiseMovingClosed": {
+                "type": "string",
+                "writable": true
+            },
+            "NoiseArrivedClosed": {
+                "type": "string",
+                "writable": true
+            },
+            "ChainTarget": {
+                "type": "string",
                 "writable": true
             },
             "OnBlockedClosing": {
@@ -79031,6 +80594,10 @@
                 "type": "table",
                 "writable": false
             },
+            "ResponseContext": {
+                "type": "string",
+                "writable": true
+            },
             "Health": {
                 "type": "number",
                 "writable": true
@@ -79083,9 +80650,17 @@
                 "type": "boolean",
                 "writable": true
             },
+            "Target": {
+                "type": "string",
+                "writable": true
+            },
             "DamageFilter": {
                 "type": "CBaseFilter",
                 "writable": false
+            },
+            "DamageFilterName": {
+                "type": "string",
+                "writable": true
             },
             "MoveDoneTime": {
                 "type": "number",
@@ -79123,12 +80698,20 @@
                 "type": "number",
                 "writable": true
             },
+            "Globalname": {
+                "type": "string",
+                "writable": true
+            },
             "SentToClients": {
                 "type": "number",
                 "writable": true
             },
             "Speed": {
                 "type": "number",
+                "writable": true
+            },
+            "UniqueHammerID": {
+                "type": "string",
                 "writable": true
             },
             "Spawnflags": {
@@ -79631,6 +81214,14 @@
                 "type": "number",
                 "writable": true
             },
+            "BounceSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionSound": {
+                "type": "string",
+                "writable": true
+            },
             "Thrower": {
                 "type": "CCSPlayerPawn",
                 "writable": false
@@ -79675,6 +81266,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TypeString": {
+                "type": "string",
+                "writable": true
+            },
+            "DetailsString": {
+                "type": "string",
+                "writable": true
+            },
             "NumYesVotes": {
                 "type": "number",
                 "writable": true
@@ -79976,6 +81575,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NoiseMoving": {
+                "type": "string",
+                "writable": true
+            },
+            "NoiseArrived": {
+                "type": "string",
+                "writable": true
+            },
             "Volume": {
                 "type": "number",
                 "writable": true
@@ -80268,12 +81875,52 @@
                 "type": "CBaseEntity",
                 "writable": false
             },
+            "SoundMoving": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundOpen": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundClose": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundLock": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundUnlock": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundLatch": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundPound": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundJiggle": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundLockedAnim": {
+                "type": "string",
+                "writable": true
+            },
             "NumCloseAttempts": {
                 "type": "number",
                 "writable": true
             },
             "PhysicsMaterial": {
                 "type": "number",
+                "writable": true
+            },
+            "SlaveName": {
+                "type": "string",
                 "writable": true
             },
             "Master": {
@@ -80412,6 +82059,10 @@
                 "type": "number",
                 "writable": true
             },
+            "Master": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseModelEntity",
                 "writable": false
@@ -80446,6 +82097,10 @@
         "properties": {
             "Disabled": {
                 "type": "boolean",
+                "writable": true
+            },
+            "FilterName": {
+                "type": "string",
                 "writable": true
             },
             "Filter": {
@@ -80535,6 +82190,14 @@
             "Weapon": {
                 "type": "CBasePlayerWeapon",
                 "writable": false
+            },
+            "VMName": {
+                "type": "string",
+                "writable": true
+            },
+            "AnimationPrefix": {
+                "type": "string",
+                "writable": true
             },
             "OldLayerSequence": {
                 "type": "number",
@@ -80844,12 +82507,20 @@
                 "type": "number",
                 "writable": true
             },
+            "SpawnObject": {
+                "type": "string",
+                "writable": true
+            },
             "PressureDelay": {
                 "type": "number",
                 "writable": true
             },
             "MinHealthDmg": {
                 "type": "number",
+                "writable": true
+            },
+            "PropData": {
+                "type": "string",
                 "writable": true
             },
             "ImpactEnergyScale": {
@@ -80960,6 +82631,14 @@
                 "type": "number",
                 "writable": true
             },
+            "StrBreakableContentsPropGroupOverride": {
+                "type": "string",
+                "writable": true
+            },
+            "StrBreakableContentsParticleOverride": {
+                "type": "string",
+                "writable": true
+            },
             "HasBreakPiecesOrCommands": {
                 "type": "boolean",
                 "writable": true
@@ -80974,6 +82653,22 @@
             },
             "ExplosionDelay": {
                 "type": "number",
+                "writable": true
+            },
+            "ExplosionBuildupSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionCustomEffect": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionCustomSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ExplosionModifier": {
+                "type": "string",
                 "writable": true
             },
             "PhysicsAttacker": {
@@ -81002,6 +82697,10 @@
             },
             "UsePuntSound": {
                 "type": "boolean",
+                "writable": true
+            },
+            "PuntSound": {
+                "type": "string",
                 "writable": true
             },
             "NoGhostCollision": {
@@ -81040,6 +82739,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SensorInputKey": {
+                "type": "string",
+                "writable": true
+            },
+            "AimReadyKey": {
+                "type": "string",
+                "writable": true
+            },
             "ZoomCooldownTimestamp": {
                 "type": "number",
                 "writable": true
@@ -81112,6 +82819,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SensorInputKey": {
+                "type": "string",
+                "writable": true
+            },
+            "IsAttackingKey": {
+                "type": "string",
+                "writable": true
+            },
             "ActionTimer": {
                 "type": "CountdownTimer",
                 "writable": false
@@ -81152,6 +82867,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "DestinationInputKey": {
+                "type": "string",
+                "writable": true
+            },
+            "HidingSpotInputKey": {
+                "type": "string",
+                "writable": true
+            },
+            "ThreatInputKey": {
+                "type": "string",
+                "writable": true
+            },
             "Destination": {
                 "type": "Vector",
                 "writable": true
@@ -81595,6 +83322,10 @@
                 "type": "Vector",
                 "writable": true
             },
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "CombatRange": {
                 "type": "number",
                 "writable": true
@@ -81857,6 +83588,10 @@
             },
             "LookAtSpotAttack": {
                 "type": "boolean",
+                "writable": true
+            },
+            "LookAtDesc": {
+                "type": "string",
                 "writable": true
             },
             "PeripheralTimestamp": {
@@ -82315,6 +84050,10 @@
                 "type": "number",
                 "writable": true
             },
+            "WeaponName": {
+                "type": "string",
+                "writable": true
+            },
             "Xuid": {
                 "type": "number",
                 "writable": true
@@ -82611,6 +84350,22 @@
                 "type": "number",
                 "writable": true
             },
+            "TournamentEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "TournamentEventStage": {
+                "type": "string",
+                "writable": true
+            },
+            "MatchStatTxt": {
+                "type": "string",
+                "writable": true
+            },
+            "TournamentPredictionsTxt": {
+                "type": "string",
+                "writable": true
+            },
             "TournamentPredictionsPct": {
                 "type": "number",
                 "writable": true
@@ -82829,6 +84584,10 @@
             },
             "AvgPlayerRank": {
                 "type": "number",
+                "writable": true
+            },
+            "QueuedMatchmakingReservationString": {
+                "type": "string",
                 "writable": true
             },
             "NumTotalTournamentDrops": {
@@ -83135,6 +84894,10 @@
                 "type": "number",
                 "writable": true
             },
+            "RoundEndFunFactToken": {
+                "type": "string",
+                "writable": true
+            },
             "RoundEndFunFactPlayerSlot": {
                 "type": "number",
                 "writable": true
@@ -83149,6 +84912,10 @@
             },
             "RoundEndFunFactData3": {
                 "type": "number",
+                "writable": true
+            },
+            "RoundEndMessage": {
+                "type": "string",
                 "writable": true
             },
             "RoundEndPlayerCount": {
@@ -83311,6 +85078,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CServerOnlyModelEntity",
                 "writable": false
@@ -83373,6 +85144,14 @@
             },
             "HasFemaleVoice": {
                 "type": "boolean",
+                "writable": true
+            },
+            "StrVOPrefix": {
+                "type": "string",
+                "writable": true
+            },
+            "LastPlaceName": {
+                "type": "string",
                 "writable": true
             },
             "InHostageResetZone": {
@@ -83493,6 +85272,10 @@
             },
             "RagdollDamagePosition": {
                 "type": "Vector",
+                "writable": true
+            },
+            "RagdollDamageWeaponName": {
+                "type": "string",
                 "writable": true
             },
             "RagdollDamageHeadshot": {
@@ -84147,6 +85930,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "TeamMatchStat": {
+                "type": "string",
+                "writable": true
+            },
             "NumMapVictories": {
                 "type": "number",
                 "writable": true
@@ -84163,8 +85950,20 @@
                 "type": "number",
                 "writable": true
             },
+            "ClanTeamname": {
+                "type": "string",
+                "writable": true
+            },
             "ClanID": {
                 "type": "number",
+                "writable": true
+            },
+            "TeamFlagImage": {
+                "type": "string",
+                "writable": true
+            },
+            "TeamLogoImage": {
+                "type": "string",
                 "writable": true
             },
             "NextResourceTime": {
@@ -84567,6 +86366,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MapName": {
+                "type": "string",
+                "writable": true
+            },
+            "LandmarkName": {
+                "type": "string",
+                "writable": true
+            },
             "OnChangeLevel": {
                 "type": "CEntityIOOutput",
                 "writable": false
@@ -84823,6 +86630,14 @@
                 "type": "number",
                 "writable": true
             },
+            "NetlookupFilename": {
+                "type": "string",
+                "writable": true
+            },
+            "LookupFilename": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -84873,6 +86688,10 @@
             },
             "Weight": {
                 "type": "number",
+                "writable": true
+            },
+            "LookupFilename": {
+                "type": "string",
                 "writable": true
             },
             "LastEnterWeight": {
@@ -85427,6 +87246,10 @@
                 "type": "CEntityIOOutput",
                 "writable": false
             },
+            "IdleAnim": {
+                "type": "string",
+                "writable": true
+            },
             "IdleAnimLoopMode": {
                 "type": "number",
                 "writable": true
@@ -85714,6 +87537,14 @@
             "NetworkedDynamicAttributes": {
                 "type": "CAttributeList",
                 "writable": false
+            },
+            "CustomName": {
+                "type": "string",
+                "writable": true
+            },
+            "CustomNameOverride": {
+                "type": "string",
+                "writable": true
             },
             "Parent": {
                 "type": "IEconItemInterface",
@@ -86003,6 +87834,14 @@
                 "type": "number",
                 "writable": true
             },
+            "StartEntity": {
+                "type": "string",
+                "writable": true
+            },
+            "EndEntity": {
+                "type": "string",
+                "writable": true
+            },
             "Life": {
                 "type": "number",
                 "writable": true
@@ -86021,6 +87860,10 @@
             },
             "Restrike": {
                 "type": "number",
+                "writable": true
+            },
+            "SpriteName": {
+                "type": "string",
                 "writable": true
             },
             "FrameStart": {
@@ -86043,9 +87886,17 @@
                 "type": "number",
                 "writable": true
             },
+            "FilterName": {
+                "type": "string",
+                "writable": true
+            },
             "Filter": {
                 "type": "CBaseEntity",
                 "writable": false
+            },
+            "Decal": {
+                "type": "string",
+                "writable": true
             },
             "OnTouchedByEntity": {
                 "type": "CEntityIOOutput",
@@ -86415,6 +88266,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SkyEntity": {
+                "type": "string",
+                "writable": true
+            },
             "HasHeightFogEnd": {
                 "type": "boolean",
                 "writable": true
@@ -86631,6 +88486,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "Template": {
+                "type": "string",
+                "writable": true
+            },
             "OutputOnSpawned": {
                 "type": "CEntityIOOutput",
                 "writable": false
@@ -86707,12 +88566,28 @@
                 "type": "boolean",
                 "writable": true
             },
+            "ExplosionType": {
+                "type": "string",
+                "writable": true
+            },
+            "CustomEffectName": {
+                "type": "string",
+                "writable": true
+            },
+            "CustomSoundName": {
+                "type": "string",
+                "writable": true
+            },
             "ClassIgnore": {
                 "type": "number",
                 "writable": true
             },
             "ClassIgnore2": {
                 "type": "number",
+                "writable": true
+            },
+            "EntityIgnoreName": {
+                "type": "string",
                 "writable": true
             },
             "EntityIgnore": {
@@ -86939,6 +88814,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Globalstate": {
+                "type": "string",
+                "writable": true
+            },
             "Triggermode": {
                 "type": "number",
                 "writable": true
@@ -86983,6 +88862,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Message": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -87015,12 +88898,40 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "Replace_Key": {
+                "type": "string",
+                "writable": true
+            },
+            "HintTargetEntity": {
+                "type": "string",
+                "writable": true
+            },
             "Timeout": {
                 "type": "number",
                 "writable": true
             },
             "DisplayLimit": {
                 "type": "number",
+                "writable": true
+            },
+            "Icon_Onscreen": {
+                "type": "string",
+                "writable": true
+            },
+            "Icon_Offscreen": {
+                "type": "string",
+                "writable": true
+            },
+            "Caption": {
+                "type": "string",
+                "writable": true
+            },
+            "ActivatorCaption": {
+                "type": "string",
                 "writable": true
             },
             "Color": {
@@ -87067,6 +88978,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "Binding": {
+                "type": "string",
+                "writable": true
+            },
             "AllowNoDrawTarget": {
                 "type": "boolean",
                 "writable": true
@@ -87111,12 +89026,32 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "HintTargetEntity": {
+                "type": "string",
+                "writable": true
+            },
             "Timeout": {
                 "type": "number",
                 "writable": true
             },
+            "Caption": {
+                "type": "string",
+                "writable": true
+            },
+            "StartSound": {
+                "type": "string",
+                "writable": true
+            },
             "LayoutFileType": {
                 "type": "number",
+                "writable": true
+            },
+            "CustomLayoutFile": {
+                "type": "string",
                 "writable": true
             },
             "AttachType": {
@@ -87159,9 +89094,17 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "LaserTarget": {
+                "type": "string",
+                "writable": true
+            },
             "Sprite": {
                 "type": "CSprite",
                 "writable": false
+            },
+            "SpriteName": {
+                "type": "string",
+                "writable": true
             },
             "FirePosition": {
                 "type": "Vector",
@@ -87315,6 +89258,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SpeakerName": {
+                "type": "string",
+                "writable": true
+            },
             "Speaker": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -87325,6 +89272,10 @@
             },
             "SpeakerDSPPreset": {
                 "type": "number",
+                "writable": true
+            },
+            "ListenFilter": {
+                "type": "string",
                 "writable": true
             },
             "ListenFilter1": {
@@ -87338,6 +89289,10 @@
             "OnHeardSound": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "LastSound": {
+                "type": "string",
+                "writable": true
             },
             "LastRoutedFrame": {
                 "type": "number",
@@ -87377,6 +89332,10 @@
         "properties": {
             "Scale": {
                 "type": "number",
+                "writable": true
+            },
+            "ParentAttachment": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -87547,6 +89506,10 @@
                 "type": "number",
                 "writable": true
             },
+            "SpotlightTextureName": {
+                "type": "string",
+                "writable": true
+            },
             "SpotlightTextureFrame": {
                 "type": "number",
                 "writable": true
@@ -87659,6 +89622,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "LimitToEntity": {
+                "type": "string",
+                "writable": true
+            },
             "Amplitude": {
                 "type": "number",
                 "writable": true
@@ -88499,6 +90466,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FilterClass": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseFilter",
                 "writable": false
@@ -88531,6 +90502,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FilterContext": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseFilter",
                 "writable": false
@@ -88563,6 +90538,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "EnemyName": {
+                "type": "string",
+                "writable": true
+            },
             "Radius": {
                 "type": "number",
                 "writable": true
@@ -88573,6 +90552,10 @@
             },
             "MaxSquadmatesPerEnemy": {
                 "type": "number",
+                "writable": true
+            },
+            "PlayerName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -88675,6 +90658,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FilterModel": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseFilter",
                 "writable": false
@@ -88755,6 +90742,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FilterName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseFilter",
                 "writable": false
@@ -89403,6 +91394,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FogName": {
+                "type": "string",
+                "writable": true
+            },
+            "PostProcessName": {
+                "type": "string",
+                "writable": true
+            },
+            "ColorCorrectionName": {
+                "type": "string",
+                "writable": true
+            },
             "Disabled": {
                 "type": "boolean",
                 "writable": true
@@ -89443,6 +91446,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Source": {
+                "type": "string",
+                "writable": true
+            },
+            "Destination": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseTrigger",
                 "writable": false
@@ -89487,6 +91498,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "ExcludedClass": {
+                "type": "string",
+                "writable": true
+            },
             "InvertExclusion": {
                 "type": "boolean",
                 "writable": true
@@ -89527,6 +91542,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ConveyorModels": {
+                "type": "string",
+                "writable": true
+            },
             "TransitionDurationSeconds": {
                 "type": "number",
                 "writable": true
@@ -89587,6 +91606,22 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "EffectName": {
+                "type": "string",
+                "writable": true
+            },
+            "EffectInterpenetrateName": {
+                "type": "string",
+                "writable": true
+            },
+            "EffectZapName": {
+                "type": "string",
+                "writable": true
+            },
+            "EffectSource": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CFuncBrush",
                 "writable": false
@@ -89655,6 +91690,14 @@
                 "type": "boolean",
                 "writable": true
             },
+            "InteractsAs": {
+                "type": "string",
+                "writable": true
+            },
+            "InteractsWith": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseModelEntity",
                 "writable": false
@@ -89717,6 +91760,10 @@
             },
             "HasSlack": {
                 "type": "boolean",
+                "writable": true
+            },
+            "SurfacePropName": {
+                "type": "string",
                 "writable": true
             },
             "OnPlayerGotOnLadder": {
@@ -89791,6 +91838,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TargetCamera": {
+                "type": "string",
+                "writable": true
+            },
             "ResolutionEnum": {
                 "type": "number",
                 "writable": true
@@ -89801,6 +91852,10 @@
             },
             "UseUniqueColorTarget": {
                 "type": "boolean",
+                "writable": true
+            },
+            "BrushModelName": {
+                "type": "string",
                 "writable": true
             },
             "TargetCamera1": {
@@ -89861,6 +91916,18 @@
             },
             "MoveDirParentSpace": {
                 "type": "Vector",
+                "writable": true
+            },
+            "SoundStart": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundStop": {
+                "type": "string",
+                "writable": true
+            },
+            "CurrentSound": {
+                "type": "string",
                 "writable": true
             },
             "BlockDamage": {
@@ -89955,9 +92022,17 @@
                 "type": "boolean",
                 "writable": true
             },
+            "PathName": {
+                "type": "string",
+                "writable": true
+            },
             "PathMover": {
                 "type": "CPathMover",
                 "writable": false
+            },
+            "PathNodeStart": {
+                "type": "string",
+                "writable": true
             },
             "MoveType": {
                 "type": "uint32_t",
@@ -90037,6 +92112,34 @@
             },
             "PathLocationToBeginStop": {
                 "type": "number",
+                "writable": true
+            },
+            "StartForwardSound": {
+                "type": "string",
+                "writable": true
+            },
+            "LoopForwardSound": {
+                "type": "string",
+                "writable": true
+            },
+            "StopForwardSound": {
+                "type": "string",
+                "writable": true
+            },
+            "StartReverseSound": {
+                "type": "string",
+                "writable": true
+            },
+            "LoopReverseSound": {
+                "type": "string",
+                "writable": true
+            },
+            "StopReverseSound": {
+                "type": "string",
+                "writable": true
+            },
+            "ArriveAtDestinationSound": {
+                "type": "string",
                 "writable": true
             },
             "OnMovementEnd": {
@@ -90198,6 +92301,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Noise": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBasePlatTrain",
                 "writable": false
@@ -90342,6 +92449,10 @@
                 "type": "number",
                 "writable": true
             },
+            "NoiseRunning": {
+                "type": "string",
+                "writable": true
+            },
             "Reversed": {
                 "type": "boolean",
                 "writable": true
@@ -90456,6 +92567,22 @@
             },
             "InitialDamageType": {
                 "type": "number",
+                "writable": true
+            },
+            "DamagePositioningEntityName01": {
+                "type": "string",
+                "writable": true
+            },
+            "DamagePositioningEntityName02": {
+                "type": "string",
+                "writable": true
+            },
+            "DamagePositioningEntityName03": {
+                "type": "string",
+                "writable": true
+            },
+            "DamagePositioningEntityName04": {
+                "type": "string",
                 "writable": true
             },
             "InitialDamagePositions": {
@@ -90642,6 +92769,18 @@
                 "type": "CFuncTrackTrain",
                 "writable": false
             },
+            "TrackTopName": {
+                "type": "string",
+                "writable": true
+            },
+            "TrackBottomName": {
+                "type": "string",
+                "writable": true
+            },
+            "TrainName": {
+                "type": "string",
+                "writable": true
+            },
             "Code": {
                 "type": "number",
                 "writable": true
@@ -90744,6 +92883,26 @@
             },
             "Dir": {
                 "type": "number",
+                "writable": true
+            },
+            "SoundMove": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundMovePing": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundStart": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundStop": {
+                "type": "string",
+                "writable": true
+            },
+            "StrPathTarget": {
+                "type": "string",
                 "writable": true
             },
             "MoveSoundMinDuration": {
@@ -90864,6 +93023,10 @@
             },
             "NextBlockTime": {
                 "type": "number",
+                "writable": true
+            },
+            "LastTarget": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -91202,6 +93365,10 @@
                 "type": "number",
                 "writable": true
             },
+            "StrAwardText": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CRulePointEntity",
                 "writable": false
@@ -91309,6 +93476,10 @@
             "__pChainEntity": {
                 "type": "CNetworkVarChainer",
                 "writable": false
+            },
+            "QuestName": {
+                "type": "string",
+                "writable": true
             },
             "QuestPhase": {
                 "type": "number",
@@ -91538,6 +93709,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Message": {
+                "type": "string",
+                "writable": true
+            },
             "TextParms": {
                 "type": "hudtextparms_t",
                 "writable": false
@@ -92586,6 +94761,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "EventName": {
+                "type": "string",
+                "writable": true
+            },
             "Range": {
                 "type": "number",
                 "writable": true
@@ -92966,6 +95145,22 @@
                 "type": "CEntityIOOutput",
                 "writable": false
             },
+            "SpawnGroupName": {
+                "type": "string",
+                "writable": true
+            },
+            "SpawnGroupFilterName": {
+                "type": "string",
+                "writable": true
+            },
+            "LandmarkName": {
+                "type": "string",
+                "writable": true
+            },
+            "FixedSpawnGroupName": {
+                "type": "string",
+                "writable": true
+            },
             "TimeoutInterval": {
                 "type": "number",
                 "writable": true
@@ -93178,6 +95373,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "HintTargetEntity": {
+                "type": "string",
+                "writable": true
+            },
             "TargetPlayer": {
                 "type": "CBasePlayerPawn",
                 "writable": false
@@ -93602,6 +95805,10 @@
                 "type": "Vector",
                 "writable": true
             },
+            "NameAttach": {
+                "type": "string",
+                "writable": true
+            },
             "AttachedObject": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -93914,6 +96121,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "AchievementEventID": {
+                "type": "string",
+                "writable": true
+            },
             "OnFired": {
                 "type": "CEntityIOOutput",
                 "writable": false
@@ -94037,6 +96248,10 @@
             "OnVRNotEnabled": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "Globalstate": {
+                "type": "string",
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseEntity",
@@ -94258,6 +96473,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NameAttach1": {
+                "type": "string",
+                "writable": true
+            },
+            "NameAttach2": {
+                "type": "string",
+                "writable": true
+            },
             "SupportMultipleEntitiesWithSameName": {
                 "type": "boolean",
                 "writable": true
@@ -94342,6 +96565,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TargetEntity": {
+                "type": "string",
+                "writable": true
+            },
             "DistanceToPlayer": {
                 "type": "number",
                 "writable": true
@@ -94394,6 +96621,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "EntityA": {
+                "type": "string",
+                "writable": true
+            },
+            "EntityB": {
+                "type": "string",
+                "writable": true
+            },
             "Zone1Distance": {
                 "type": "number",
                 "writable": true
@@ -94446,6 +96681,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrEventName": {
+                "type": "string",
+                "writable": true
+            },
             "IsEnabled": {
                 "type": "boolean",
                 "writable": true
@@ -94490,6 +96729,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "EventName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CLogicalEntity",
                 "writable": false
@@ -94525,6 +96768,14 @@
             "OnEventFired": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "GameEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "GameEventItem": {
+                "type": "string",
+                "writable": true
             },
             "Enabled": {
                 "type": "boolean",
@@ -94566,6 +96817,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SourceName": {
+                "type": "string",
+                "writable": true
+            },
             "StartEntity": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -94606,6 +96861,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrMeasureTarget": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMeasureReference": {
+                "type": "string",
+                "writable": true
+            },
+            "StrTargetReference": {
+                "type": "string",
+                "writable": true
+            },
             "MeasureTarget": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -94698,6 +96965,10 @@
                 "type": "CEntityInstance",
                 "writable": false
             },
+            "SourceEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "DistanceMax": {
                 "type": "number",
                 "writable": true
@@ -94720,6 +96991,10 @@
             },
             "MaxFactorAll": {
                 "type": "number",
+                "writable": true
+            },
+            "NPCClassname_1": {
+                "type": "string",
                 "writable": true
             },
             "NPCState_1": {
@@ -94750,6 +97025,10 @@
                 "type": "number",
                 "writable": true
             },
+            "NPCClassname_2": {
+                "type": "string",
+                "writable": true
+            },
             "NPCState_2": {
                 "type": "number",
                 "writable": true
@@ -94776,6 +97055,10 @@
             },
             "DefaultDist_2": {
                 "type": "number",
+                "writable": true
+            },
+            "NPCClassname_3": {
+                "type": "string",
                 "writable": true
             },
             "NPCState_3": {
@@ -95598,6 +97881,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Message": {
+                "type": "string",
+                "writable": true
+            },
             "MessageVolume": {
                 "type": "number",
                 "writable": true
@@ -95608,6 +97895,10 @@
             },
             "Radius": {
                 "type": "number",
+                "writable": true
+            },
+            "Noise": {
+                "type": "string",
                 "writable": true
             },
             "OnShowMessage": {
@@ -95648,6 +97939,10 @@
         "properties": {
             "Radius": {
                 "type": "number",
+                "writable": true
+            },
+            "MessageText": {
+                "type": "string",
                 "writable": true
             },
             "DrawText": {
@@ -95838,6 +98133,10 @@
                 "type": "number",
                 "writable": true
             },
+            "Noise": {
+                "type": "string",
+                "writable": true
+            },
             "UpdateTarget": {
                 "type": "boolean",
                 "writable": true
@@ -95938,6 +98237,10 @@
                 "type": "Vector",
                 "writable": true
             },
+            "ParentPathUniqueID": {
+                "type": "string",
+                "writable": true
+            },
             "OnPassThrough": {
                 "type": "CEntityIOOutput",
                 "writable": false
@@ -95986,6 +98289,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "LightNameFilter": {
+                "type": "string",
+                "writable": true
+            },
+            "LightClassFilter": {
+                "type": "string",
+                "writable": true
+            },
             "LightRadiusFilter": {
                 "type": "number",
                 "writable": true
@@ -96052,6 +98363,10 @@
             },
             "Total": {
                 "type": "number",
+                "writable": true
+            },
+            "Globalstate": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -96166,6 +98481,14 @@
                 "type": "QAngle",
                 "writable": true
             },
+            "StrMovementForward": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMovementReverse": {
+                "type": "string",
+                "writable": true
+            },
             "NavLinkIdForward": {
                 "type": "number",
                 "writable": true
@@ -96176,6 +98499,10 @@
             },
             "Enabled": {
                 "type": "boolean",
+                "writable": true
+            },
+            "StrFilterName": {
+                "type": "string",
                 "writable": true
             },
             "Filter": {
@@ -96474,6 +98801,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "InitialOwner": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CDynamicProp",
                 "writable": false
@@ -96506,6 +98837,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SnapshotFileName": {
+                "type": "string",
+                "writable": true
+            },
             "Active": {
                 "type": "boolean",
                 "writable": true
@@ -96560,6 +98895,10 @@
             },
             "StartActive": {
                 "type": "boolean",
+                "writable": true
+            },
+            "EffectName": {
+                "type": "string",
                 "writable": true
             },
             "ControlPointNames": {
@@ -96698,6 +99037,10 @@
                 "type": "QAngle",
                 "writable": true
             },
+            "NextKey": {
+                "type": "string",
+                "writable": true
+            },
             "NextTime": {
                 "type": "number",
                 "writable": true
@@ -96792,6 +99135,10 @@
             },
             "MaxSimulationTime": {
                 "type": "number",
+                "writable": true
+            },
+            "EffectName": {
+                "type": "string",
                 "writable": true
             },
             "PathNodes_Name": {
@@ -96924,6 +99271,10 @@
             },
             "Length": {
                 "type": "number",
+                "writable": true
+            },
+            "AltName": {
+                "type": "string",
                 "writable": true
             },
             "IterVal": {
@@ -97114,6 +99465,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NameAttach1": {
+                "type": "string",
+                "writable": true
+            },
+            "NameAttach2": {
+                "type": "string",
+                "writable": true
+            },
             "Attach1": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -97121,6 +99480,18 @@
             "Attach2": {
                 "type": "CBaseEntity",
                 "writable": false
+            },
+            "NameAttachment1": {
+                "type": "string",
+                "writable": true
+            },
+            "NameAttachment2": {
+                "type": "string",
+                "writable": true
+            },
+            "BreakSound": {
+                "type": "string",
+                "writable": true
             },
             "ForceLimit": {
                 "type": "number",
@@ -97192,6 +99563,10 @@
             },
             "Radius": {
                 "type": "number",
+                "writable": true
+            },
+            "TargetEntityName": {
+                "type": "string",
                 "writable": true
             },
             "InnerRadius": {
@@ -97298,6 +99673,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NameAttach": {
+                "type": "string",
+                "writable": true
+            },
             "Force": {
                 "type": "number",
                 "writable": true
@@ -97494,6 +99873,10 @@
                 "type": "number",
                 "writable": true
             },
+            "DirectionEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -97662,6 +100045,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NameAttach": {
+                "type": "string",
+                "writable": true
+            },
             "AttachedObject": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -98406,6 +100793,14 @@
                 "type": "number",
                 "writable": true
             },
+            "NameAttachStart": {
+                "type": "string",
+                "writable": true
+            },
+            "NameAttachEnd": {
+                "type": "string",
+                "writable": true
+            },
             "Start": {
                 "type": "Vector",
                 "writable": true
@@ -98678,6 +101073,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "PlaceName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -98860,6 +101259,10 @@
         "properties": {
             "Disabled": {
                 "type": "boolean",
+                "writable": true
+            },
+            "LookAtName": {
+                "type": "string",
                 "writable": true
             },
             "TargetEntity": {
@@ -99418,6 +101821,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MessageText": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointClientUIWorldPanel",
                 "writable": false
@@ -99486,9 +101893,17 @@
                 "type": "CBaseEntity",
                 "writable": false
             },
+            "FilterName": {
+                "type": "string",
+                "writable": true
+            },
             "Filter": {
                 "type": "CBaseFilter",
                 "writable": false
+            },
+            "RefName": {
+                "type": "string",
+                "writable": true
             },
             "Reference": {
                 "type": "CBaseEntity",
@@ -99534,6 +101949,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrStatisticName": {
+                "type": "string",
+                "writable": true
+            },
             "Disabled": {
                 "type": "boolean",
                 "writable": true
@@ -99622,6 +102041,10 @@
                 "type": "number",
                 "writable": true
             },
+            "StrTarget": {
+                "type": "string",
+                "writable": true
+            },
             "Activator": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -99658,6 +102081,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TargetMapName": {
+                "type": "string",
+                "writable": true
+            },
+            "ForceWorldGroupID": {
+                "type": "string",
+                "writable": true
+            },
+            "AssociatedRelayTargetName": {
+                "type": "string",
+                "writable": true
+            },
             "FixupNames": {
                 "type": "boolean",
                 "writable": true
@@ -99760,6 +102195,10 @@
             },
             "ConeOfInfluence": {
                 "type": "number",
+                "writable": true
+            },
+            "FilterName": {
+                "type": "string",
                 "writable": true
             },
             "Filter": {
@@ -99890,6 +102329,14 @@
                 "type": "number",
                 "writable": true
             },
+            "RemapLineStartName": {
+                "type": "string",
+                "writable": true
+            },
+            "RemapLineEndName": {
+                "type": "string",
+                "writable": true
+            },
             "RemapLineStart": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -99916,6 +102363,22 @@
             },
             "OutputType": {
                 "type": "number",
+                "writable": true
+            },
+            "OutputEntityName": {
+                "type": "string",
+                "writable": true
+            },
+            "OutputEntity2Name": {
+                "type": "string",
+                "writable": true
+            },
+            "OutputEntity3Name": {
+                "type": "string",
+                "writable": true
+            },
+            "OutputEntity4Name": {
+                "type": "string",
                 "writable": true
             },
             "HapticsType": {
@@ -99976,6 +102439,26 @@
             },
             "CustomOutputValue": {
                 "type": "number",
+                "writable": true
+            },
+            "SoundEngage": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundDisengage": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundReachedValueZero": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundReachedValueOne": {
+                "type": "string",
+                "writable": true
+            },
+            "SoundMovingLoop": {
+                "type": "string",
                 "writable": true
             },
             "OnReachedValueZero": {
@@ -100082,6 +102565,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MessageText": {
+                "type": "string",
+                "writable": true
+            },
+            "FontName": {
+                "type": "string",
+                "writable": true
+            },
+            "BackgroundMaterialName": {
+                "type": "string",
+                "writable": true
+            },
             "Enabled": {
                 "type": "boolean",
                 "writable": true
@@ -100758,6 +103253,14 @@
                 "type": "number",
                 "writable": true
             },
+            "StrOriginClassName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrSourceClassName": {
+                "type": "string",
+                "writable": true
+            },
             "HasBeenPhysgunned": {
                 "type": "boolean",
                 "writable": true
@@ -101074,6 +103577,10 @@
                 "type": "number",
                 "writable": true
             },
+            "NextLinkName": {
+                "type": "string",
+                "writable": true
+            },
             "Slack": {
                 "type": "number",
                 "writable": true
@@ -101092,6 +103599,10 @@
             },
             "ConstrainBetweenEndpoints": {
                 "type": "boolean",
+                "writable": true
+            },
+            "StrRopeMaterialModel": {
+                "type": "string",
                 "writable": true
             },
             "Subdiv": {
@@ -101298,6 +103809,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Master": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseModelEntity",
                 "writable": false
@@ -101498,6 +104013,46 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "SceneFile": {
+                "type": "string",
+                "writable": true
+            },
+            "ResumeSceneFile": {
+                "type": "string",
+                "writable": true
+            },
+            "Target1": {
+                "type": "string",
+                "writable": true
+            },
+            "Target2": {
+                "type": "string",
+                "writable": true
+            },
+            "Target3": {
+                "type": "string",
+                "writable": true
+            },
+            "Target4": {
+                "type": "string",
+                "writable": true
+            },
+            "Target5": {
+                "type": "string",
+                "writable": true
+            },
+            "Target6": {
+                "type": "string",
+                "writable": true
+            },
+            "Target7": {
+                "type": "string",
+                "writable": true
+            },
+            "Target8": {
+                "type": "string",
+                "writable": true
+            },
             "Target11": {
                 "type": "CBaseEntity",
                 "writable": false
@@ -101529,6 +104084,10 @@
             "Target81": {
                 "type": "CBaseEntity",
                 "writable": false
+            },
+            "TargetAttachment": {
+                "type": "string",
+                "writable": true
             },
             "IsPlayingBack": {
                 "type": "boolean",
@@ -101676,6 +104235,14 @@
             },
             "Restoring": {
                 "type": "boolean",
+                "writable": true
+            },
+            "SoundName": {
+                "type": "string",
+                "writable": true
+            },
+            "SequenceName": {
+                "type": "string",
                 "writable": true
             },
             "Actor": {
@@ -102014,6 +104581,38 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Entry": {
+                "type": "string",
+                "writable": true
+            },
+            "PreIdle": {
+                "type": "string",
+                "writable": true
+            },
+            "Play": {
+                "type": "string",
+                "writable": true
+            },
+            "PostIdle": {
+                "type": "string",
+                "writable": true
+            },
+            "ModifierToAddOnPlay": {
+                "type": "string",
+                "writable": true
+            },
+            "NextScript": {
+                "type": "string",
+                "writable": true
+            },
+            "Entity": {
+                "type": "string",
+                "writable": true
+            },
+            "SyncGroup": {
+                "type": "string",
+                "writable": true
+            },
             "MoveTo": {
                 "type": "number",
                 "writable": true
@@ -103030,6 +105629,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "SoundAreaType": {
+                "type": "string",
+                "writable": true
+            },
             "Pos": {
                 "type": "Vector",
                 "writable": true
@@ -103254,12 +105857,24 @@
                 "type": "number",
                 "writable": true
             },
+            "SourceEntityName": {
+                "type": "string",
+                "writable": true
+            },
+            "AttachmentName": {
+                "type": "string",
+                "writable": true
+            },
             "OnSoundFinished": {
                 "type": "CEntityIOOutput",
                 "writable": false
             },
             "ClientCullRadius": {
                 "type": "number",
+                "writable": true
+            },
+            "SoundName": {
+                "type": "string",
                 "writable": true
             },
             "Source": {
@@ -103374,6 +105989,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "ParamName": {
+                "type": "string",
+                "writable": true
+            },
             "FloatValue": {
                 "type": "number",
                 "writable": true
@@ -103410,6 +106029,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "PathCorner": {
+                "type": "string",
+                "writable": true
+            },
             "CountMax": {
                 "type": "number",
                 "writable": true
@@ -103618,6 +106241,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
+            "OpvarName": {
+                "type": "string",
+                "writable": true
+            },
             "OpvarType": {
                 "type": "number",
                 "writable": true
@@ -103628,6 +106263,10 @@
             },
             "OpvarValue": {
                 "type": "number",
+                "writable": true
+            },
+            "OpvarValueString": {
+                "type": "string",
                 "writable": true
             },
             "SetOnSpawn": {
@@ -103770,6 +106409,10 @@
                 "type": "number",
                 "writable": true
             },
+            "PathCornerEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CSoundOpvarSetPointEntity",
                 "writable": false
@@ -103810,8 +106453,24 @@
                 "type": "CEntityInstance",
                 "writable": false
             },
+            "SourceEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "LastPosition": {
                 "type": "Vector",
+                "writable": true
+            },
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
+            "OpvarName": {
+                "type": "string",
                 "writable": true
             },
             "OpvarIndex": {
@@ -103926,6 +106585,10 @@
                 "type": "CEntityInstance",
                 "writable": false
             },
+            "DynamicEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "PathingDistanceNormFactor": {
                 "type": "number",
                 "writable": true
@@ -103978,6 +106641,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CLogicalEntity",
                 "writable": false
@@ -104250,6 +106917,14 @@
                 "type": "Color",
                 "writable": true
             },
+            "EffectName": {
+                "type": "string",
+                "writable": true
+            },
+            "SSEffectName": {
+                "type": "string",
+                "writable": true
+            },
             "On": {
                 "type": "boolean",
                 "writable": true
@@ -104322,6 +106997,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "NewTargetName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -104366,6 +107045,22 @@
                 "type": "number",
                 "writable": true
             },
+            "StartSoundName": {
+                "type": "string",
+                "writable": true
+            },
+            "EngineSoundName": {
+                "type": "string",
+                "writable": true
+            },
+            "MovementSoundName": {
+                "type": "string",
+                "writable": true
+            },
+            "TargetEntityName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CPointEntity",
                 "writable": false
@@ -104400,6 +107095,10 @@
         "properties": {
             "Score": {
                 "type": "number",
+                "writable": true
+            },
+            "Teamname": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -104754,6 +107453,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "TonemapControllerName": {
+                "type": "string",
+                "writable": true
+            },
             "TonemapController": {
                 "type": "CEntityInstance",
                 "writable": false
@@ -104825,6 +107528,10 @@
             "OnTouchedActiveWeapon": {
                 "type": "CEntityIOOutput",
                 "writable": false
+            },
+            "WeaponClassName": {
+                "type": "string",
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseTrigger",
@@ -105170,6 +107877,18 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrStartTouchEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrEndTouchEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrTriggerID": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseTrigger",
                 "writable": false
@@ -105394,9 +108113,17 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "LerpTarget": {
+                "type": "string",
+                "writable": true
+            },
             "LerpTarget1": {
                 "type": "CBaseEntity",
                 "writable": false
+            },
+            "LerpTargetAttachment": {
+                "type": "string",
+                "writable": true
             },
             "LerpDuration": {
                 "type": "number",
@@ -105413,6 +108140,14 @@
             "LerpingObjects": {
                 "type": "table",
                 "writable": false
+            },
+            "LerpEffect": {
+                "type": "string",
+                "writable": true
+            },
+            "LerpSound": {
+                "type": "string",
+                "writable": true
             },
             "AttachTouchingObject": {
                 "type": "boolean",
@@ -105706,6 +108441,10 @@
                 "type": "CBaseEntity",
                 "writable": false
             },
+            "MeasureTarget1": {
+                "type": "string",
+                "writable": true
+            },
             "Radius": {
                 "type": "number",
                 "writable": true
@@ -105760,6 +108499,10 @@
             },
             "UsePathSimple": {
                 "type": "boolean",
+                "writable": true
+            },
+            "PathSimpleName": {
+                "type": "string",
                 "writable": true
             },
             "PathSimple": {
@@ -105898,8 +108641,32 @@
                 "type": "number",
                 "writable": true
             },
+            "OpvarName": {
+                "type": "string",
+                "writable": true
+            },
+            "StackName": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorName": {
+                "type": "string",
+                "writable": true
+            },
             "VolIs2D": {
                 "type": "boolean",
+                "writable": true
+            },
+            "OpvarNameChar": {
+                "type": "string",
+                "writable": true
+            },
+            "StackNameChar": {
+                "type": "string",
+                "writable": true
+            },
+            "OperatorNameChar": {
+                "type": "string",
                 "writable": true
             },
             "VecNormPos": {
@@ -105946,6 +108713,10 @@
                 "type": "CEnvSoundscapeTriggerable",
                 "writable": false
             },
+            "SoundscapeName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CBaseTrigger",
                 "writable": false
@@ -105978,6 +108749,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Landmark": {
+                "type": "string",
+                "writable": true
+            },
             "UseLandmarkAngles": {
                 "type": "boolean",
                 "writable": true
@@ -106086,6 +108861,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "FilterName": {
+                "type": "string",
+                "writable": true
+            },
             "Filter": {
                 "type": "CBaseFilter",
                 "writable": false
@@ -107346,6 +110125,14 @@
                 "type": "Vector",
                 "writable": true
             },
+            "TravelSoundFwd": {
+                "type": "string",
+                "writable": true
+            },
+            "TravelSoundBack": {
+                "type": "string",
+                "writable": true
+            },
             "ReversalSounds": {
                 "type": "table",
                 "writable": true
@@ -107578,6 +110365,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
+            "Value": {
+                "type": "string",
+                "writable": true
+            },
             "ExpirationTime": {
                 "type": "number",
                 "writable": true
@@ -108062,6 +110857,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "LockedSound": {
+                "type": "string",
+                "writable": true
+            },
+            "UnlockedSound": {
+                "type": "string",
+                "writable": true
+            },
             "FlwaitSound": {
                 "type": "number",
                 "writable": true
@@ -108126,6 +110929,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Mixgroup": {
+                "type": "string",
+                "writable": true
+            },
             "Modifier": {
                 "type": "number",
                 "writable": true
@@ -108206,6 +111013,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "DspName": {
+                "type": "string",
+                "writable": true
+            },
             "Modifiers": {
                 "type": "table",
                 "writable": false
@@ -108306,6 +111117,10 @@
                 "type": "number",
                 "writable": true
             },
+            "ResultVarName": {
+                "type": "string",
+                "writable": true
+            },
             "SaveToGroup": {
                 "type": "boolean",
                 "writable": true
@@ -108342,6 +111157,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "ActionType": {
                 "type": "number",
                 "writable": true
@@ -108390,6 +111209,10 @@
                 "type": "number",
                 "writable": true
             },
+            "OpvarName": {
+                "type": "string",
+                "writable": true
+            },
             "SortType": {
                 "type": "number",
                 "writable": true
@@ -108434,6 +111257,26 @@
                 "type": "number",
                 "writable": true
             },
+            "ShouldPlayOpvar": {
+                "type": "string",
+                "writable": true
+            },
+            "ShouldPlayClusterChild": {
+                "type": "string",
+                "writable": true
+            },
+            "ClusterSizeOpvar": {
+                "type": "string",
+                "writable": true
+            },
+            "GroupBoundingBoxMinsOpvar": {
+                "type": "string",
+                "writable": true
+            },
+            "GroupBoundingBoxMaxsOpvar": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CSosGroupActionSchema",
                 "writable": false
@@ -108470,6 +111313,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "StrCountKeyName": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CSosGroupActionSchema",
                 "writable": false
@@ -108502,6 +111349,14 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "StrQueryPublicFieldName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrDelayPublicFieldName": {
+                "type": "string",
+                "writable": true
+            },
             "ExcludeStoppedSounds": {
                 "type": "boolean",
                 "writable": true
@@ -108524,6 +111379,14 @@
             },
             "ExcludeSoundsMaxThresholdValue": {
                 "type": "number",
+                "writable": true
+            },
+            "StrMinValueName": {
+                "type": "string",
+                "writable": true
+            },
+            "StrMaxValueName": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -108558,6 +111421,22 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "PriorityValue": {
+                "type": "string",
+                "writable": true
+            },
+            "PriorityVolumeScalar": {
+                "type": "string",
+                "writable": true
+            },
+            "PriorityContributeButDontRead": {
+                "type": "string",
+                "writable": true
+            },
+            "PriorityReadButDontContribute": {
+                "type": "string",
+                "writable": true
+            },
             "Parent": {
                 "type": "CSosGroupActionSchema",
                 "writable": false
@@ -108714,12 +111593,24 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "MatchSoundEventName": {
+                "type": "string",
+                "writable": true
+            },
+            "MatchSoundEventSubString": {
+                "type": "string",
+                "writable": true
+            },
             "EntIndex": {
                 "type": "number",
                 "writable": true
             },
             "Opvar": {
                 "type": "number",
+                "writable": true
+            },
+            "OpvarString": {
+                "type": "string",
                 "writable": true
             },
             "Parent": {
@@ -108786,6 +111677,10 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            },
             "Type": {
                 "type": "number",
                 "writable": true
@@ -108939,6 +111834,18 @@
         "properties": {
             "ItemType": {
                 "type": "number",
+                "writable": true
+            },
+            "ItemName": {
+                "type": "string",
+                "writable": true
+            },
+            "ItemTypeName": {
+                "type": "string",
+                "writable": true
+            },
+            "ItemKVString": {
+                "type": "string",
                 "writable": true
             },
             "ItemPos": {
@@ -111931,8 +114838,24 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
+            "OutputName": {
+                "type": "string",
+                "writable": true
+            },
             "TargetType": {
                 "type": "number",
+                "writable": true
+            },
+            "TargetName": {
+                "type": "string",
+                "writable": true
+            },
+            "InputName": {
+                "type": "string",
+                "writable": true
+            },
+            "OverrideParam": {
+                "type": "string",
                 "writable": true
             },
             "Delay": {
@@ -112174,6 +115097,10 @@
             "ChildNodeIndices": {
                 "type": "table",
                 "writable": false
+            },
+            "WorldNodePrefix": {
+                "type": "string",
+                "writable": true
             }
         },
         "functions": {
@@ -112202,7 +115129,12 @@
         "constructor": {
             "ptr_or_class": "string|AnySDKClass"
         },
-        "properties": {},
+        "properties": {
+            "Name": {
+                "type": "string",
+                "writable": true
+            }
+        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -112248,6 +115180,10 @@
             },
             "TintColor": {
                 "type": "Vector4D",
+                "writable": true
+            },
+            "Skin": {
+                "type": "string",
                 "writable": true
             },
             "ObjectTypeFlags": {
@@ -112500,6 +115436,10 @@
             "OverlayLayerIndices": {
                 "type": "table",
                 "writable": false
+            },
+            "GrassFileName": {
+                "type": "string",
+                "writable": true
             },
             "NodeLightingInfo": {
                 "type": "BakedLightingInfo_t",
