@@ -8,12 +8,17 @@ import CommandsGenerator from "./generator/CommandsGenerator.js";
 import ConvarsGenerator from './generator/ConvarsGenerator.js'
 import FetchData from "./modules/data/FetchData.js";
 import { config } from "dotenv";
+import { readFileSync } from "fs";
 
 config();
 
 export var metadata = {};
+export var allTypes = [];
 
 (async () => {
+    allTypes = Object.values(JSON.parse(readFileSync("data/coretypes/data.json").toString())).map((v) => v.title)
+    allTypes.push(...Object.values(JSON.parse(readFileSync("data/sdktypes/data.json").toString())).map((v) => v.title))
+
     await ScriptingGenerator(FetchData("scripting"))
     metadata = {}
     await CoreClassGenerator(FetchData("coreclass"))
