@@ -2843,10 +2843,11 @@
                     "id": "string",
                     "title": "string",
                     "color": "string",
-                    "options": "table"
+                    "options": "table",
+                    "kind": "string|nil"
                 },
                 "additional": {
-                    "lua": "> [!note]\n> The color needs to be a hex string by the model RRGGBB.\n\n> Example: 344CEB \n\n> [!warning]\n> The options needs to be a pair of strings.\n\n```lua\n{\n    { \"option 1\", \"value 1\" },\n    { \"option 2\", \"value 2\" },\n    -- ...\n}\n```\n> [!warning]\n> The value can be replaced with a command from Swiftly and it's arguments, or it can be replaced with a menu id to open another menu.\n> The value can be also a blank string to not execute anything when it's selected. \n"
+                    "lua": "> [!note]\n> The color needs to be a hex string by the model RRGGBB.\n\n> Example: 344CEB \n\n> [!warning]\n> The options needs to be a pair of strings.\n\n```lua\n{\n    { \"option 1\", \"value 1\" },\n    { \"option 2\", \"value 2\" },\n    -- ...\n}\n```\n> [!warning]\n> The value can be replaced with a command from Swiftly and it's arguments, or it can be replaced with a menu id to open another menu.\n> The value can be also a blank string to not execute anything when it's selected. \n\n### Kinds\nAll menu kinds are available [here](/plugin-docs/configuration/menu#kinds)."
                 }
             },
             "registertemporary": {
@@ -2863,10 +2864,11 @@
                     "id": "string",
                     "title": "string",
                     "color": "string",
-                    "options": "table"
+                    "options": "table",
+                    "kind": "string|nil"
                 },
                 "additional": {
-                    "lua": "> [!note]\n> The color needs to be a hex string by the model RRGGBB.\n\n> Example: 344CEB \n\n> [!warning]\n> The options needs to be a pair of strings.\n\n```lua\n{\n    { \"option 1\", \"value 1\" },\n    { \"option 2\", \"value 2\" },\n    -- ...\n}\n```\n> [!warning]\n> The value can be replaced with a command from Swiftly and it's arguments, or it can be replaced with a menu id to open another menu.\n> The value can be also a blank string to not execute anything when it's selected. \n"
+                    "lua": "> [!note]\n> The color needs to be a hex string by the model RRGGBB.\n\n> Example: 344CEB \n\n> [!warning]\n> The options needs to be a pair of strings.\n\n```lua\n{\n    { \"option 1\", \"value 1\" },\n    { \"option 2\", \"value 2\" },\n    -- ...\n}\n```\n> [!warning]\n> The value can be replaced with a command from Swiftly and it's arguments, or it can be replaced with a menu id to open another menu.\n> The value can be also a blank string to not execute anything when it's selected. \n\n### Kinds\nAll menu kinds are available [here](/plugin-docs/configuration/menu#kinds)."
                 }
             },
             "unregister": {
@@ -3808,7 +3810,7 @@
                 },
                 "params": {
                     "key": "string",
-                    "playerid": "number/nil"
+                    "playerid": "number|nil"
                 },
                 "additional": {}
             }
