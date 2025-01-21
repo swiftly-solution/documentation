@@ -402,6 +402,11 @@
                     "lua": "```lua\nAddEventHandler(\"OnPluginStart\", function(event)\n    db = Database(\"CONNECTION_NAME\")\n    return EventResult.Continue\nend)\n```"
                 }
             },
+            "querybuilder-rules": {
+                "title": "Query Builder Rules",
+                "icon": "book",
+                "file": "data/static/query-builder-rules.md"
+            },
             "querybuilder": {
                 "title": "QueryBuilder",
                 "description": "This is a class to build an SQL query.",
@@ -3485,6 +3490,61 @@
                     "lua": "WeaponManager"
                 },
                 "params": {},
+                "additional": {}
+            }
+        }
+    },
+    "putils": {
+        "title": "Player Utils",
+        "description": "A list of API functions for player utils.",
+        "template": "category",
+        "icon": "user-cog",
+        "data": {
+            "setbunnyhop": {
+                "title": "SetBunnyhop",
+                "template": "function-syntax",
+                "description": "Sets the bunnyhop feature to a player.",
+                "variable": {
+                    "lua": "playerutils:SetBunnyhop"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "playerid": "number",
+                    "state": "boolean"
+                },
+                "additional": {}
+            },
+            "getbunnyhop": {
+                "title": "GetBunnyhop",
+                "template": "function-syntax",
+                "description": "Returns the status of the bunnyhop feature for a player.",
+                "variable": {
+                    "lua": "playerutils:GetBunnyhop"
+                },
+                "return": {
+                    "lua": "boolean"
+                },
+                "params": {
+                    "playerid": "number"
+                },
+                "additional": {}
+            },
+            "islisteningtogameevent": {
+                "title": "IsListeningToGameEvent",
+                "template": "function-syntax",
+                "description": "Checks if a client is listening to the specified game event.",
+                "variable": {
+                    "lua": "playerutils:IsListeningToGameEvent"
+                },
+                "return": {
+                    "lua": "boolean"
+                },
+                "params": {
+                    "playerid": "number",
+                    "event_name": "string"
+                },
                 "additional": {}
             }
         }
