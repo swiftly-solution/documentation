@@ -3636,6 +3636,21 @@
                     "path": "string"
                 },
                 "additional": {}
+            },
+            "precacheitem": {
+                "title": "PrecacheItem",
+                "template": "function-syntax",
+                "description": "Adds any kind of item to the precacher (including sound and models).",
+                "variable": {
+                    "lua": "precacher:PrecacheItem"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "path": "string"
+                },
+                "additional": {}
             }
         }
     },
@@ -4051,8 +4066,7 @@
                         "params": {
                             "ptr": "string",
                             "classname": "string",
-                            "field": "string",
-                            "isStruct": "boolean"
+                            "field": "string"
                         },
                         "additional": {}
                     },
@@ -5072,7 +5086,8 @@
                     "text": "string",
                     "posX": "number",
                     "posY": "number",
-                    "font_name": "string"
+                    "font_name": "string",
+                    "background": "boolean"
                 },
                 "additional": {
                     "lua": "### Positions\nPositions are in between 0.0 and 1.0.\n### Fonts\nA list of fonts can be found on [Microsoft - Windows 10 Font List](https://learn.microsoft.com/en-us/typography/fonts/windows_10_font_list)."
@@ -5121,77 +5136,6 @@
                 },
                 "params": {
                     "textID": "number",
-                    "posX": "number",
-                    "posY": "number"
-                },
-                "additional": {
-                    "lua": "### Positions\nPositions are in between 0.0 and 1.0."
-                }
-            },
-            "showpanel": {
-                "title": "ShowPanel",
-                "template": "function-syntax",
-                "description": "Shows a panel to a player.",
-                "variable": {
-                    "lua": "vgui:ShowPanel"
-                },
-                "return": {
-                    "lua": "number"
-                },
-                "params": {
-                    "playerid": "number",
-                    "color": "Color",
-                    "text": "string",
-                    "posX": "number",
-                    "posY": "number"
-                },
-                "additional": {
-                    "lua": "### Positions\nPositions are in between 0.0 and 1.0.\n### Text\nA basic character used for backgrounds is: █"
-                }
-            },
-            "removepanel": {
-                "title": "RemovePanel",
-                "template": "function-syntax",
-                "description": "Removes a panel based on it's id.",
-                "variable": {
-                    "lua": "vgui:RemovePanel"
-                },
-                "return": {
-                    "lua": "void"
-                },
-                "params": {
-                    "panelID": "number"
-                },
-                "additional": {}
-            },
-            "setpanelmessage": {
-                "title": "SetPanelMessage",
-                "template": "function-syntax",
-                "description": "Sets the message of a panel.",
-                "variable": {
-                    "lua": "vgui:SetPanelMessage"
-                },
-                "return": {
-                    "lua": "void"
-                },
-                "params": {
-                    "panelID": "number",
-                    "message": "string"
-                },
-                "additional": {}
-            },
-            "setpanelposition": {
-                "title": "SetPanelPosition",
-                "template": "function-syntax",
-                "description": "Sets the position of a panel.",
-                "variable": {
-                    "lua": "vgui:SetPanelPosition"
-                },
-                "return": {
-                    "lua": "void"
-                },
-                "params": {
-                    "panelID": "number",
                     "posX": "number",
                     "posY": "number"
                 },
