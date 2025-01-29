@@ -23,6 +23,6 @@ export default async (folder) => {
 
     const updateCategory = folder.split("-")[1]
 
-    await axios.post(`https://beta.swiftlycs2.net/api/remote/docs/update`, { pages: formattedData, metadata, startingKey: updateCategory, category: (updateCategory == "scripting" ? "plugin" : "sdk") }, config)
+    // await axios.post(`https://beta.swiftlycs2.net/api/remote/docs/update`, { pages: formattedData, metadata, startingKey: updateCategory, category: (updateCategory == "scripting" ? "plugin" : "sdk") }, config)
     await axios.post(`https://swiftlycs2.net/api/remote/docs/update`, { pages: formattedData, metadata, startingKey: updateCategory, category: (updateCategory == "scripting" ? "plugin" : "sdk") }, config)
 }
