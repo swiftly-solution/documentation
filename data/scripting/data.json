@@ -2443,6 +2443,21 @@
                 },
                 "additional": {}
             },
+            "accessindexfromoffset": {
+                "title": "AccessIndexFromOffset",
+                "template": "function-syntax",
+                "description": "Accesses an index at the specified offset from `offsets.json`.",
+                "variable": {
+                    "lua": "memory:AccessIndexFromOffset"
+                },
+                "return": {
+                    "lua": "void"
+                },
+                "params": {
+                    "offsetName": "string"
+                },
+                "additional": {}
+            },
             "accessedvtable": {
                 "title": "AccessedVTable",
                 "template": "function-syntax",
