@@ -1640,7 +1640,7 @@
                         },
                         "params": {
                             "eventName": "string",
-                            "callback": "fun(event:Event,...):number EventResult"
+                            "callback": "fun(event:Event,...):number|nil EventResult"
                         },
                         "additional": {}
                     },
