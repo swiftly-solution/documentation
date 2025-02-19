@@ -5444,6 +5444,45 @@
             "release"
         ]
     },
+    "cl_ironsight_filter_alpha": {
+        "title": "cl_ironsight_filter_alpha",
+        "description": "Ironsight filter alpha",
+        "args": "1",
+        "template": "command-syntax",
+        "flags": [
+            "min:",
+            "0,",
+            "max:",
+            "1,",
+            "developmentonly",
+            "clientdll"
+        ]
+    },
+    "cl_ironsight_min_channel_color": {
+        "title": "cl_ironsight_min_channel_color",
+        "description": "Ironsight min channel color value",
+        "args": "0.3",
+        "template": "command-syntax",
+        "flags": [
+            "min:",
+            "0,",
+            "max:",
+            "1,",
+            "developmentonly",
+            "clientdll"
+        ]
+    },
+    "cl_ironsight_usecrosshaircolor": {
+        "title": "cl_ironsight_usecrosshaircolor",
+        "description": "Should the scope dot match the user's crosshair color",
+        "args": "false",
+        "template": "command-syntax",
+        "flags": [
+            "clientdll",
+            "archive",
+            "per_user"
+        ]
+    },
     "cl_itemimages_dynamically_generated": {
         "title": "cl_itemimages_dynamically_generated",
         "description": "2: use render-targets, fallback to cache and disk; 1: no render targets, but use cache and fallback to disk; 0: disk assets only",
@@ -6580,6 +6619,17 @@
             "0.25,",
             "max:",
             "1,",
+            "clientdll",
+            "archive",
+            "release"
+        ]
+    },
+    "cl_radar_scale_dynamic": {
+        "title": "cl_radar_scale_dynamic",
+        "description": "Toggles between a radar that scales dynamically to encompass all the detected elements on the map.",
+        "args": "false",
+        "template": "command-syntax",
+        "flags": [
             "clientdll",
             "archive",
             "release"
@@ -35651,7 +35701,7 @@
     "sv_mapvetopickvote_maps": {
         "title": "sv_mapvetopickvote_maps",
         "description": "Which maps are used for map veto pick sequence",
-        "args": "\"de_anubis,de_inferno,de_mirage,de_vertigo,de_dust2,de_nuke,de_ancient\"",
+        "args": "\"de_anubis,de_inferno,de_mirage,de_train,de_dust2,de_nuke,de_ancient\"",
         "template": "command-syntax",
         "flags": [
             "gamedll",

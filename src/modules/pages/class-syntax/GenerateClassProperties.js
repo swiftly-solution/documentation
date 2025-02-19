@@ -1,4 +1,4 @@
-import GenerateType from "../../languages/GenerateType.js"
+import GeneratePropertyType from './GeneratePropertyType.js'
 
 export default (pageData, lang) => {
     const data = pageData.properties
@@ -8,7 +8,7 @@ export default (pageData, lang) => {
     const properties = []
 
     for (const key of Object.keys(data)) {
-        properties.push(`## ${key} ${data[key].writable ? "" : "(Read-Only)"}\n\`\`\`${lang}\n--- @type ${GenerateType(data[key].type, lang)}\n${pageData.title.toLowerCase()}.${key}\n\`\`\``)
+        properties.push(`## ${key} ${data[key].writable ? "" : "(Read-Only)"}\n\`\`\`${lang}\n${GeneratePropertyType(data[key].type, lang)}\n${pageData.title.toLowerCase()}.${key}\n\`\`\``)
     }
 
     return `# Properties\nAll the properties for ${pageData.title} class.\n${properties.join("\n")}`

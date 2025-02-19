@@ -21,7 +21,7 @@ export default (pageData) => {
     tabcontents.push(`  <TabsContent value="${lang}">
 \`\`\`${lang}${GenerateFunctionParameters({ "event": "Event" }, lang)}
 ${GenerateFunctionReturn({ [lang]: "EventResult" }, lang)}
-AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event" }, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)
+AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event" }, lang)})${lang == "lua" ? "" : " {"}\n    ${lang == "lua" ? "--[[ ... ]]" : "// ..."}\n    return EventResult.Continue\n${lang == "lua" ? "end" : "}"})
 \`\`\`
 ${pageData.additional[lang] || ""}
   </TabsContent>`)

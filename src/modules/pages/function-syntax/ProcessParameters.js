@@ -9,7 +9,7 @@ export default (params, language) => {
         }
 
         if (forlang == language) {
-            if (language == "lua") returnParams.push(`${name}`)
+            returnParams.push(`${name}`)
         }
     }
     return returnParams.join(", ");

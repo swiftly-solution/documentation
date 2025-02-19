@@ -17,7 +17,7 @@ export default (pageData) => {
         tabtriggers.push(`    <TabsTrigger value="${lang}">${prettyNames[lang]}</TabsTrigger>`)
         tabcontents.push(`  <TabsContent value="${lang}">
 \`\`\`${lang}
-${pageData.title} = {
+sdk.${pageData.title} = {
 ${Object.keys(pageData.values).map((val) => `    ${lang == "lua" ? `${val} =` : `"${val}":`} ${pageData.values[val]}`).join(",\n")}
 }
 \`\`\`

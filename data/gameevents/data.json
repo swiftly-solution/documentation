@@ -4,7 +4,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when gameui_hidden is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -14,7 +15,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after gameui_hidden is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -24,7 +26,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -42,7 +45,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -60,7 +64,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_chat is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamonly": "boolean",
@@ -75,7 +80,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_chat is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamonly": "boolean",
@@ -90,7 +96,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_score is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -105,7 +112,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_score is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -120,7 +128,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_shoot is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -134,7 +143,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_shoot is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -148,7 +158,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_init is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -158,7 +169,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_init is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -168,7 +180,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_newmap is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "mapname": "string",
@@ -181,7 +194,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_newmap is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "mapname": "string",
@@ -194,7 +208,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "roundslimit": "int",
@@ -209,7 +224,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "roundslimit": "int",
@@ -224,7 +240,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "winner": "int"
@@ -236,7 +253,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "winner": "int"
@@ -248,7 +266,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_announce_match_point is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -258,7 +277,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_announce_match_point is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -268,7 +288,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_announce_final is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -278,7 +299,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_announce_final is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -288,7 +310,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_announce_last_round_half is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -298,7 +321,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_announce_last_round_half is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -308,7 +332,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_announce_match_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -318,7 +343,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_announce_match_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -328,7 +354,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_announce_warmup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -338,7 +365,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_announce_warmup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -348,7 +376,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when warmup_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -358,7 +387,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after warmup_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -368,7 +398,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "winner": "int",
@@ -386,7 +417,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "winner": "int",
@@ -404,7 +436,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_end_upload_stats is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -414,7 +447,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_end_upload_stats is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -424,7 +458,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_officially_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -434,7 +469,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_officially_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -444,7 +480,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_time_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -454,7 +491,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_time_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -464,7 +502,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ugc_map_info_received is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64"
@@ -476,7 +515,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ugc_map_info_received is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64"
@@ -488,7 +528,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ugc_map_unsubscribed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64"
@@ -500,7 +541,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ugc_map_unsubscribed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64"
@@ -512,7 +554,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ugc_map_download_error is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64",
@@ -525,7 +568,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ugc_map_download_error is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "published_file_id": "uint64",
@@ -538,7 +582,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ugc_file_download_finished is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hcontent": "uint64"
@@ -550,7 +595,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ugc_file_download_finished is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hcontent": "uint64"
@@ -562,7 +608,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ugc_file_download_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hcontent": "uint64",
@@ -575,7 +622,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ugc_file_download_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hcontent": "uint64",
@@ -588,7 +636,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when begin_new_match is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -598,7 +647,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after begin_new_match is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -608,7 +658,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when dm_bonus_weapon_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "time": "int",
@@ -621,7 +672,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after dm_bonus_weapon_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "time": "int",
@@ -634,7 +686,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_announce_phase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "phase": "int"
@@ -646,7 +699,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_announce_phase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "phase": "int"
@@ -658,7 +712,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when break_prop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -674,7 +729,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after break_prop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -690,7 +746,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_decal is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -702,7 +759,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_decal is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -714,7 +772,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when entity_visible is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -729,7 +788,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after entity_visible is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -744,7 +804,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when instructor_server_hint_create is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -783,7 +844,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after instructor_server_hint_create is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -822,7 +884,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when instructor_server_hint_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hint_name": "string",
@@ -835,7 +898,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after instructor_server_hint_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hint_name": "string",
@@ -848,7 +912,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when read_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -860,7 +925,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after read_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -872,7 +938,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when write_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -884,7 +951,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after write_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -896,7 +964,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when reset_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -908,7 +977,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after reset_game_titledata is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "controllerId": "int"
@@ -920,7 +990,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weaponhud_selection is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -934,7 +1005,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weaponhud_selection is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -948,7 +1020,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -958,7 +1031,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -968,7 +1042,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_started is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "issue": "string",
@@ -984,7 +1059,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_started is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "issue": "string",
@@ -1000,7 +1076,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "vote_option1": "int",
@@ -1019,7 +1096,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "vote_option1": "int",
@@ -1038,7 +1116,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_cast is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "vote_option": "int",
@@ -1052,7 +1131,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_cast is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "vote_option": "int",
@@ -1066,7 +1146,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_options is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "count": "int",
@@ -1083,7 +1164,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_options is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "count": "int",
@@ -1100,7 +1182,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when endmatch_mapvote_selecting_map is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "count": "int",
@@ -1122,7 +1205,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after endmatch_mapvote_selecting_map is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "count": "int",
@@ -1144,7 +1228,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when endmatch_cmm_start_reveal_items is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1154,7 +1239,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after endmatch_cmm_start_reveal_items is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1164,7 +1250,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when inventory_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "itemdef": "int",
@@ -1177,7 +1264,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after inventory_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "itemdef": "int",
@@ -1190,7 +1278,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when client_loadout_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1200,7 +1289,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after client_loadout_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1210,7 +1300,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when add_player_sonar_icon is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1225,7 +1316,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after add_player_sonar_icon is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1240,7 +1332,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when door_open is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1253,7 +1346,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after door_open is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1266,7 +1360,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when door_closed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1279,7 +1374,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after door_closed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1292,7 +1388,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when door_break is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -1305,7 +1402,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after door_break is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -1318,7 +1416,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when add_bullet_hit_marker is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1341,7 +1440,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after add_bullet_hit_marker is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1364,7 +1464,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_death is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1397,7 +1498,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_death is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1430,7 +1532,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when other_death is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "otherid": "int",
@@ -1453,7 +1556,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after other_death is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "otherid": "int",
@@ -1476,7 +1580,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_hurt is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1495,7 +1600,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_hurt is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1514,7 +1620,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bullet_damage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victim": "int",
@@ -1534,7 +1641,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bullet_damage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victim": "int",
@@ -1554,7 +1662,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_purchase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1569,7 +1678,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_purchase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1584,7 +1694,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_beginplant is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1597,7 +1708,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_beginplant is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1610,7 +1722,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_abortplant is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1623,7 +1736,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_abortplant is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1636,7 +1750,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_planted is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1649,7 +1764,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_planted is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1662,7 +1778,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_defused is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1675,7 +1792,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_defused is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1688,7 +1806,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_exploded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1701,7 +1820,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_exploded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1714,7 +1834,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_dropped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1727,7 +1848,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_dropped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1740,7 +1862,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -1752,7 +1875,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -1764,7 +1888,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when defuser_dropped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -1776,7 +1901,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after defuser_dropped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -1788,7 +1914,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when defuser_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -1801,7 +1928,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after defuser_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -1814,7 +1942,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when announce_phase_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1824,7 +1953,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after announce_phase_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1834,7 +1964,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_intermission is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1844,7 +1975,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_intermission is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -1854,7 +1986,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_begindefuse is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1867,7 +2000,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_begindefuse is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1880,7 +2014,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_abortdefuse is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -1892,7 +2027,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_abortdefuse is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -1904,7 +2040,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_follows is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1917,7 +2054,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_follows is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1930,7 +2068,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_hurt is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1943,7 +2082,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_hurt is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1956,7 +2096,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1969,7 +2110,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1982,7 +2124,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_rescued is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -1996,7 +2139,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_rescued is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2010,7 +2154,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_stops_following is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2023,7 +2168,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_stops_following is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2036,7 +2182,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_rescued_all is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2046,7 +2193,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_rescued_all is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2056,7 +2204,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostage_call_for_help is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostage": "int"
@@ -2068,7 +2217,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostage_call_for_help is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostage": "int"
@@ -2080,7 +2230,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vip_escaped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2092,7 +2243,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vip_escaped is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2104,7 +2256,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vip_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2117,7 +2270,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vip_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2130,7 +2284,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_radio is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2143,7 +2298,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_radio is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2156,7 +2312,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bomb_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -2168,7 +2325,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bomb_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -2180,7 +2338,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weapon_fire is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2194,7 +2353,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weapon_fire is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2208,7 +2368,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weapon_fire_on_empty is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2221,7 +2382,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weapon_fire_on_empty is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2234,7 +2396,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when grenade_thrown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2247,7 +2410,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after grenade_thrown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2260,7 +2424,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weapon_reload is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2272,7 +2437,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weapon_reload is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2284,7 +2450,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weapon_zoom is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2296,7 +2463,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weapon_zoom is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2308,7 +2476,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when silencer_detach is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2320,7 +2489,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after silencer_detach is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2332,7 +2502,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when inspect_weapon is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2344,7 +2515,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after inspect_weapon is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2356,7 +2528,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when weapon_zoom_rifle is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2368,7 +2541,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after weapon_zoom_rifle is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2380,7 +2554,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_spawned is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2393,7 +2568,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_spawned is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2406,7 +2582,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2421,7 +2598,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2436,7 +2614,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_pickup_slerp is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2450,7 +2629,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_pickup_slerp is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2464,7 +2644,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_pickup_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2479,7 +2660,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_pickup_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2494,7 +2676,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_remove is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2508,7 +2691,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_remove is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2522,7 +2706,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ammo_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2536,7 +2721,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ammo_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2550,7 +2736,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_equip is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2570,7 +2757,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_equip is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2590,7 +2778,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when enter_buyzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2603,7 +2792,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after enter_buyzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2616,7 +2806,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when exit_buyzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2629,7 +2820,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after exit_buyzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2642,7 +2834,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when buytime_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2652,7 +2845,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after buytime_ended is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2662,7 +2856,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when enter_bombzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2676,7 +2871,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after enter_bombzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2690,7 +2886,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when exit_bombzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2704,7 +2901,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after exit_bombzone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2718,7 +2916,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when enter_rescue_zone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2730,7 +2929,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after enter_rescue_zone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2742,7 +2942,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when exit_rescue_zone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2754,7 +2955,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after exit_rescue_zone is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2766,7 +2968,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when silencer_off is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2778,7 +2981,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after silencer_off is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2790,7 +2994,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when silencer_on is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2802,7 +3007,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after silencer_on is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2814,7 +3020,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when buymenu_open is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2824,7 +3031,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after buymenu_open is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2834,7 +3042,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when buymenu_close is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2846,7 +3055,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after buymenu_close is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2858,7 +3068,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_prestart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2868,7 +3079,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_prestart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2878,7 +3090,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_poststart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2888,7 +3101,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_poststart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -2898,7 +3112,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when grenade_bounce is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2910,7 +3125,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after grenade_bounce is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -2922,7 +3138,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hegrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2938,7 +3155,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hegrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2954,7 +3172,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when flashbang_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2970,7 +3189,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after flashbang_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -2986,7 +3206,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when smokegrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3002,7 +3223,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after smokegrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3018,7 +3240,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when smokegrenade_expired is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3034,7 +3257,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after smokegrenade_expired is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3050,7 +3274,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when molotov_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3065,7 +3290,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after molotov_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3080,7 +3306,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when decoy_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3096,7 +3323,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after decoy_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3112,7 +3340,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when decoy_started is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3128,7 +3357,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after decoy_started is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3144,7 +3374,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when tagrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3160,7 +3391,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after tagrenade_detonate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3176,7 +3408,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when inferno_startburn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3191,7 +3424,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after inferno_startburn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3206,7 +3440,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when inferno_expire is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3221,7 +3456,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after inferno_expire is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3236,7 +3472,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when inferno_extinguish is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3251,7 +3488,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after inferno_extinguish is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int",
@@ -3266,7 +3504,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when decoy_firing is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3282,7 +3521,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after decoy_firing is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3298,7 +3538,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bullet_impact is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3313,7 +3554,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bullet_impact is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3328,7 +3570,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_footstep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3340,7 +3583,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_footstep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3352,7 +3596,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_jump is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3364,7 +3609,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_jump is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3376,7 +3622,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_blind is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3391,7 +3638,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_blind is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3406,7 +3654,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_falldamage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3419,7 +3668,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_falldamage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3432,7 +3682,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when door_moving is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3445,7 +3696,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after door_moving is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3458,7 +3710,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when mb_input_lock_success is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3468,7 +3721,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after mb_input_lock_success is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3478,7 +3732,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when mb_input_lock_cancel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3488,7 +3743,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after mb_input_lock_cancel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3498,7 +3754,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when nav_blocked is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "area": "int",
@@ -3511,7 +3768,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after nav_blocked is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "area": "int",
@@ -3524,7 +3782,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when nav_generate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3534,7 +3793,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after nav_generate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3544,7 +3804,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when achievement_info_loaded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3554,7 +3815,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after achievement_info_loaded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3564,7 +3826,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when spec_mode_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3576,7 +3839,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after spec_mode_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -3588,7 +3852,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_changed_mode is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "oldmode": "int",
@@ -3602,7 +3867,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_changed_mode is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "oldmode": "int",
@@ -3616,7 +3882,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_game_disconnected is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3626,7 +3893,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_game_disconnected is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3636,7 +3904,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_round_final_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3646,7 +3915,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_round_final_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3656,7 +3926,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_round_start_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3666,7 +3937,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_round_start_beep is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3676,7 +3948,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_win_panel_round is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "show_timer_defend": "boolean",
@@ -3696,7 +3969,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_win_panel_round is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "show_timer_defend": "boolean",
@@ -3716,7 +3990,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_win_panel_match is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3726,7 +4001,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_win_panel_match is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3736,7 +4012,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_match_end_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3746,7 +4023,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_match_end_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3756,7 +4034,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_pre_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3766,7 +4045,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_pre_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3776,7 +4056,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when show_deathpanel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victim": "int",
@@ -3793,7 +4074,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after show_deathpanel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victim": "int",
@@ -3810,7 +4092,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hide_deathpanel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3820,7 +4103,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hide_deathpanel is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -3830,7 +4114,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_avenged_teammate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "avenger_id": "int",
@@ -3843,7 +4128,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_avenged_teammate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "avenger_id": "int",
@@ -3856,7 +4142,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when achievement_earned_local is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "achievement": "int",
@@ -3869,7 +4156,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after achievement_earned_local is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "achievement": "int",
@@ -3882,7 +4170,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when repost_xbox_achievements is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "splitscreenplayer": "int"
@@ -3894,7 +4183,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after repost_xbox_achievements is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "splitscreenplayer": "int"
@@ -3906,7 +4196,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when match_end_conditions is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "frags": "int",
@@ -3921,7 +4212,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after match_end_conditions is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "frags": "int",
@@ -3936,7 +4228,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_mvp is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3953,7 +4246,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_mvp is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -3970,7 +4264,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when show_survival_respawn_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "loc_token": "string",
@@ -3984,7 +4279,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after show_survival_respawn_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "loc_token": "string",
@@ -3998,7 +4294,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when gg_killed_enemy is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victimid": "int",
@@ -4014,7 +4311,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after gg_killed_enemy is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "victimid": "int",
@@ -4030,7 +4328,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when switch_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "numPlayers": "int",
@@ -4046,7 +4345,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after switch_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "numPlayers": "int",
@@ -4062,7 +4362,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when write_profile_data is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4072,7 +4373,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after write_profile_data is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4082,7 +4384,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when trial_time_expired is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4094,7 +4397,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after trial_time_expired is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4106,7 +4410,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when update_matchmaking_stats is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4116,7 +4421,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after update_matchmaking_stats is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4126,7 +4432,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_reset_vote is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4139,7 +4446,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_reset_vote is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4152,7 +4460,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when enable_restart_voting is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "enable": "boolean"
@@ -4164,7 +4473,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after enable_restart_voting is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "enable": "boolean"
@@ -4176,7 +4486,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when sfuievent is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "action": "string",
@@ -4190,7 +4501,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after sfuievent is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "action": "string",
@@ -4204,7 +4516,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when start_vote is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4218,7 +4531,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after start_vote is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4232,7 +4546,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_given_c4 is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4244,7 +4559,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_given_c4 is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4256,7 +4572,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bot_takeover is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4272,7 +4589,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bot_takeover is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4288,7 +4606,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when jointeam_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4301,7 +4620,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after jointeam_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4314,7 +4634,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when teamchange_pending is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4327,7 +4648,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after teamchange_pending is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4340,7 +4662,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when material_default_complete is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4350,7 +4673,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after material_default_complete is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4360,7 +4684,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cs_prev_next_spectator is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "next": "boolean"
@@ -4372,7 +4697,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cs_prev_next_spectator is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "next": "boolean"
@@ -4384,7 +4710,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when nextlevel_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "nextlevel": "string",
@@ -4398,7 +4725,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after nextlevel_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "nextlevel": "string",
@@ -4412,7 +4740,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when seasoncoin_levelup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4426,7 +4755,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after seasoncoin_levelup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4440,7 +4770,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when tournament_reward is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "defindex": "int",
@@ -4454,7 +4785,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after tournament_reward is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "defindex": "int",
@@ -4468,7 +4800,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when start_halftime is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4478,7 +4811,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after start_halftime is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -4488,7 +4822,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ammo_refill is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4501,7 +4836,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ammo_refill is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4514,7 +4850,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when parachute_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4526,7 +4863,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after parachute_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4538,7 +4876,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when parachute_deploy is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4550,7 +4889,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after parachute_deploy is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4562,7 +4902,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when dronegun_attack is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4574,7 +4915,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after dronegun_attack is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4586,7 +4928,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when drone_dispatched is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4600,7 +4943,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after drone_dispatched is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4614,7 +4958,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when loot_crate_visible is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4628,7 +4973,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after loot_crate_visible is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4642,7 +4988,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when loot_crate_opened is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4655,7 +5002,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after loot_crate_opened is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4668,7 +5016,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when open_crate_instr is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4682,7 +5031,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after open_crate_instr is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4696,7 +5046,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when smoke_beacon_paradrop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4709,7 +5060,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after smoke_beacon_paradrop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4722,7 +5074,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_paradrop_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -4734,7 +5087,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_paradrop_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -4746,7 +5100,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_paradrop_break is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -4758,7 +5113,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_paradrop_break is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -4770,7 +5126,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when drone_cargo_detached is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4784,7 +5141,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after drone_cargo_detached is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4798,7 +5156,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when drone_above_roof is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4811,7 +5170,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after drone_above_roof is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4824,7 +5184,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when choppers_incoming_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "global": "boolean"
@@ -4836,7 +5197,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after choppers_incoming_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "global": "boolean"
@@ -4848,7 +5210,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when firstbombs_incoming_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "global": "boolean"
@@ -4860,7 +5223,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after firstbombs_incoming_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "global": "boolean"
@@ -4872,7 +5236,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when dz_item_interaction is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4886,7 +5251,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after dz_item_interaction is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4900,7 +5266,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_teammate_respawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4912,7 +5279,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_teammate_respawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4924,7 +5292,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_no_respawns_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4936,7 +5305,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_no_respawns_warning is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4948,7 +5318,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when survival_no_respawns_final is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4960,7 +5331,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after survival_no_respawns_final is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -4972,7 +5344,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_ping is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -4989,7 +5362,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_ping is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5006,7 +5380,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_ping_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -5018,7 +5393,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_ping_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entityid": "int"
@@ -5030,7 +5406,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_sound is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5045,7 +5422,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_sound is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5060,7 +5438,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when guardian_wave_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5070,7 +5449,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after guardian_wave_restart is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5080,7 +5460,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when team_intro_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5090,7 +5471,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after team_intro_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5100,7 +5482,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when team_intro_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5110,7 +5493,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after team_intro_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5120,7 +5504,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bullet_flight_resolution is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5141,7 +5526,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bullet_flight_resolution is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5162,7 +5548,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_phase_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "new_phase": "int"
@@ -5174,7 +5561,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_phase_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "new_phase": "int"
@@ -5186,7 +5574,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when clientside_reload_custom_econ is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "steamid": "string"
@@ -5198,7 +5587,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after clientside_reload_custom_econ is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "steamid": "string"
@@ -5210,7 +5600,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when server_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostname": "string",
@@ -5231,7 +5622,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after server_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostname": "string",
@@ -5252,7 +5644,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when server_pre_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "string"
@@ -5264,7 +5657,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after server_pre_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "string"
@@ -5276,7 +5670,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when server_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "string"
@@ -5288,7 +5683,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after server_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "string"
@@ -5300,7 +5696,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when server_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -5312,7 +5709,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after server_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -5324,7 +5722,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when server_cvar is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "cvarname": "string",
@@ -5337,7 +5736,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after server_cvar is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "cvarname": "string",
@@ -5350,7 +5750,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_activate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5362,7 +5763,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_activate is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5374,7 +5776,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_connect_full is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5386,7 +5789,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_connect_full is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5398,7 +5802,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_full_update is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5411,7 +5816,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_full_update is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5424,7 +5830,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_connect is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "name": "string",
@@ -5441,7 +5848,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_connect is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "name": "string",
@@ -5458,7 +5866,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_disconnect is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5475,7 +5884,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_disconnect is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5492,7 +5902,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_info is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "name": "string",
@@ -5507,7 +5918,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_info is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "name": "string",
@@ -5522,7 +5934,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5534,7 +5947,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_spawn is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5546,7 +5960,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when local_player_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5556,7 +5971,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after local_player_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5566,7 +5982,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when local_player_controller_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5576,7 +5993,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after local_player_controller_team is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5586,7 +6004,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_changename is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5600,7 +6019,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_changename is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5614,7 +6034,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when local_player_pawn_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5624,7 +6045,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after local_player_pawn_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5634,7 +6056,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when teamplay_broadcast_audio is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -5647,7 +6070,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after teamplay_broadcast_audio is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -5660,7 +6084,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when finale_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "rushes": "int"
@@ -5672,7 +6097,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after finale_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "rushes": "int"
@@ -5684,7 +6110,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_stats_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "forceupload": "boolean"
@@ -5696,7 +6123,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_stats_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "forceupload": "boolean"
@@ -5708,7 +6136,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when user_data_downloaded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5718,7 +6147,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after user_data_downloaded is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -5728,7 +6158,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when ragdoll_dissolved is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -5740,7 +6171,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after ragdoll_dissolved is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -5752,7 +6184,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when team_info is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamid": "int",
@@ -5765,7 +6198,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after team_info is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamid": "int",
@@ -5778,7 +6212,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when team_score is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamid": "int",
@@ -5791,7 +6226,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after team_score is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "teamid": "int",
@@ -5804,7 +6240,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_cameraman is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5816,7 +6253,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_cameraman is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -5828,7 +6266,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_chase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "target1": "int",
@@ -5846,7 +6285,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_chase is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "target1": "int",
@@ -5864,7 +6304,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_rank_camera is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "index": "int",
@@ -5878,7 +6319,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_rank_camera is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "index": "int",
@@ -5892,7 +6334,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_rank_entity is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5906,7 +6349,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_rank_entity is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -5920,7 +6364,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_fixed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "posx": "int",
@@ -5939,7 +6384,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_fixed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "posx": "int",
@@ -5958,7 +6404,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -5970,7 +6417,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -5982,7 +6430,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "clients": "int",
@@ -5997,7 +6446,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "clients": "int",
@@ -6012,7 +6462,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_title is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -6024,7 +6475,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_title is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string"
@@ -6036,7 +6488,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_chat is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string",
@@ -6049,7 +6502,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_chat is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "text": "string",
@@ -6062,7 +6516,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_versioninfo is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "version": "int"
@@ -6074,7 +6529,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_versioninfo is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "version": "int"
@@ -6086,7 +6542,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_replay is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "delay": "int",
@@ -6099,7 +6556,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_replay is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "delay": "int",
@@ -6112,7 +6570,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hltv_replay_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "int"
@@ -6124,7 +6583,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hltv_replay_status is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "reason": "int"
@@ -6136,7 +6596,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when demo_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6146,7 +6607,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after demo_stop is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6156,7 +6618,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when map_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6166,7 +6629,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after map_shutdown is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6176,7 +6640,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when map_transition is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6186,7 +6651,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after map_transition is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6196,7 +6662,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when hostname_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostname": "string"
@@ -6208,7 +6675,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after hostname_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hostname": "string"
@@ -6220,7 +6688,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when difficulty_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "newDifficulty": "int",
@@ -6234,7 +6703,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after difficulty_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "newDifficulty": "int",
@@ -6248,7 +6718,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when game_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "target": "int",
@@ -6261,7 +6732,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after game_message is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "target": "int",
@@ -6274,7 +6746,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "timelimit": "int",
@@ -6288,7 +6761,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "timelimit": "int",
@@ -6302,7 +6776,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_start_pre_entity is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6312,7 +6787,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_start_pre_entity is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6322,7 +6798,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_start_post_nav is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6332,7 +6809,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_start_post_nav is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6342,7 +6820,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when round_freeze_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6352,7 +6831,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after round_freeze_end is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6362,7 +6842,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when teamplay_round_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "full_reset": "boolean"
@@ -6374,7 +6855,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after teamplay_round_start is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "full_reset": "boolean"
@@ -6386,7 +6868,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when player_hintmessage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hintmessage": "string"
@@ -6398,7 +6881,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after player_hintmessage is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "hintmessage": "string"
@@ -6410,7 +6894,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when break_breakable is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -6424,7 +6909,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after break_breakable is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -6438,7 +6924,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when broken_breakable is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -6452,7 +6939,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after broken_breakable is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int",
@@ -6466,7 +6954,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when entity_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex_killed": "int",
@@ -6481,7 +6970,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after entity_killed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex_killed": "int",
@@ -6496,7 +6986,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when door_close is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -6509,7 +7000,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after door_close is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -6522,7 +7014,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int"
@@ -6534,7 +7027,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int"
@@ -6546,7 +7040,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_passed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "details": "string",
@@ -6560,7 +7055,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_passed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "details": "string",
@@ -6574,7 +7070,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_cast_yes is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -6587,7 +7084,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_cast_yes is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -6600,7 +7098,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when vote_cast_no is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -6613,7 +7112,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after vote_cast_no is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "team": "int",
@@ -6626,7 +7126,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when achievement_event is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "achievement_name": "string",
@@ -6640,7 +7141,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after achievement_event is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "achievement_name": "string",
@@ -6654,7 +7156,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when achievement_earned is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "player": "int",
@@ -6667,7 +7170,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after achievement_earned is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "player": "int",
@@ -6680,7 +7184,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when achievement_write_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6690,7 +7195,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after achievement_write_failed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6700,7 +7206,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when bonus_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "numadvanced": "int",
@@ -6715,7 +7222,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after bonus_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "numadvanced": "int",
@@ -6730,7 +7238,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when spec_target_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -6742,7 +7251,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after spec_target_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int"
@@ -6754,7 +7264,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when gameinstructor_draw is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6764,7 +7275,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after gameinstructor_draw is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6774,7 +7286,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when gameinstructor_nodraw is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6784,7 +7297,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after gameinstructor_nodraw is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6794,7 +7308,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when flare_ignite_npc is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -6806,7 +7321,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after flare_ignite_npc is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "entindex": "int"
@@ -6818,7 +7334,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when helicopter_grenade_punt_miss is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6828,7 +7345,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after helicopter_grenade_punt_miss is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6838,7 +7356,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when physgun_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6848,7 +7367,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after physgun_pickup is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6858,7 +7378,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when cart_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6868,7 +7389,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after cart_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6878,7 +7400,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when store_pricesheet_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6888,7 +7411,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after store_pricesheet_updated is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6898,7 +7422,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when item_schema_initialized is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6908,7 +7433,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after item_schema_initialized is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6918,7 +7444,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when drop_rate_modified is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6928,7 +7455,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after drop_rate_modified is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6938,7 +7466,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when event_ticket_modified is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6948,7 +7477,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after event_ticket_modified is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6958,7 +7488,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when gc_connected is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6968,7 +7499,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after gc_connected is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -6978,7 +7510,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when instructor_start_lesson is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -6995,7 +7528,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after instructor_start_lesson is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -7012,7 +7546,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when instructor_close_lesson is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -7025,7 +7560,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after instructor_close_lesson is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "userid": "int",
@@ -7038,7 +7574,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when set_instructor_group_enabled is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "group": "string",
@@ -7051,7 +7588,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after set_instructor_group_enabled is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "group": "string",
@@ -7064,7 +7602,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when clientside_lesson_closed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "lesson_name": "string"
@@ -7076,7 +7615,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after clientside_lesson_closed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {
             "lesson_name": "string"
@@ -7088,7 +7628,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered when dynamic_shadow_light_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}
@@ -7098,7 +7639,8 @@
         "template": "game-event-syntax",
         "description": "This event is triggered after dynamic_shadow_light_changed is triggered.",
         "return": {
-            "lua": "void"
+            "lua": "void",
+            "js": "void"
         },
         "params": {},
         "additional": {}

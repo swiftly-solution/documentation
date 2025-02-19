@@ -11058,7 +11058,7 @@
     },
     "workshop_annotation_submit": {
         "title": "workshop_annotation_submit",
-        "description": "Submit annotation to workshop.",
+        "description": "Submit annotation to workshop. To update an existing submission add its ID number from the workshop URL as a second argument.",
         "args": "",
         "template": "command-syntax",
         "flags": [
