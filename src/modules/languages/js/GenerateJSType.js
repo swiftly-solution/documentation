@@ -15,5 +15,13 @@ export default (type) => {
     else if (type.includes("/")) return `{(${type.split("/").map((p) => p.trim()).join("|")})}`;
     else if (type.includes("|")) return `{(${type})}`;
     else if (allTypes.includes(type)) return `{number} ${type}`;
+    else if(type.includes("fun")) {
+        if(type == "function") return `{() => void}`
+        else if(type == "fun(...)") return `{(...) => *}`
+        else if(type.includes("):")) {
+            const fun = type.split("):")
+            return `{${fun[0].replace("fun", "")}) => ${fun[1].split(" ")[0]}} ${fun[1].split(" ")[1] || ""}`
+        } else return `{${type.replace("fun", "").replace(new RegExp("table", "g"), "Object[]")} => void}`
+    }
     else return `{${type}}`
 }

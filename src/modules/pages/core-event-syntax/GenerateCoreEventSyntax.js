@@ -20,10 +20,9 @@ export default (pageData) => {
     for (const lang of langs) {
         tabtriggers.push(`    <TabsTrigger value="${lang}">${prettyNames[lang]}</TabsTrigger>`)
         tabcontents.push(`  <TabsContent value="${lang}">
-\`\`\`${lang}${GenerateFunctionParameters({ "event": "Event", ...pageData.params }, lang)}
-${GenerateFunctionReturn({ [lang]: "EventResult" }, lang)}
-${lang == "lua" ? `--- @event returns ${GenerateType(pageData.return[lang], lang)} via event:SetReturn` : ""}
-AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event", ...pageData.params }, lang)})\n    --[[ ... ]]\n    return EventResult.Continue\nend)
+\`\`\`${lang}${GenerateFunctionParameters({ "event": "Event", ...pageData.params }, lang)}${lang == "js" ? `\n * @description Event returns ${GenerateType(pageData.return[lang], lang)} via event.SetReturn` : ""}
+${GenerateFunctionReturn({ [lang]: "EventResult" }, lang)}${lang == "lua" ? `\n--- @event returns ${GenerateType(pageData.return[lang], lang)} via event:SetReturn` : ""}
+AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event", ...pageData.params }, lang)})${lang == "lua" ? "" : " {"}\n    ${lang == "lua" ? "--[[ ... ]]" : "// ..."}\n    return EventResult.Continue\n${lang == "lua" ? "end" : "}"})
 \`\`\`
 ${pageData.additional[lang] || ""}
   </TabsContent>`)
