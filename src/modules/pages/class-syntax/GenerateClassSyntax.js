@@ -25,7 +25,7 @@ ${pageData.constructor.hide == true ? "" : `# Constructor
 \`\`\`${lang}${GenerateFunctionParameters(pageData.constructor, lang)}${lang == "js" ? `\n */` : ""}
 ${pageData.constructor.hasOwnProperty("ptr_or_class") ? "sdk." : ""}${pageData.title}(${ProcessParameters(pageData.constructor, lang)})
 \`\`\``}
-${props}${props == "" ? "" : "\n"}${GenerateClassFunctions(pageData, lang)}\n${pageData.additional[lang] || ""}
+${props}${props == "" ? "" : "\n"}${GenerateClassFunctions(pageData, lang)}\n${pageData.additional[lang] ? pageData.additional[lang] + "\n" : ""}
   </TabsContent>`)
 	}
 

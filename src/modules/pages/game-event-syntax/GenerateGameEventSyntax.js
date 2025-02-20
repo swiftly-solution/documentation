@@ -23,7 +23,7 @@ export default (pageData) => {
 ${GenerateFunctionReturn({ [lang]: "EventResult" }, lang)}
 AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event" }, lang)})${lang == "lua" ? "" : " {"}\n    ${lang == "lua" ? "--[[ ... ]]" : "// ..."}\n    return EventResult.Continue\n${lang == "lua" ? "end" : "}"})
 \`\`\`
-${pageData.additional[lang] || ""}
+${pageData.additional[lang] ? pageData.additional[lang] + "\n" : ""}
   </TabsContent>`)
   }
 

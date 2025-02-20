@@ -13,7 +13,7 @@ export default (type) => {
         else return `{${split[0].replace(new RegExp("table", "g"), "Object[]")}} ${split.filter((v, i) => i != 0).join(" ")}`
     }
     else if (type.includes("/")) return `{(${type.split("/").map((p) => p.trim()).join("|")})}`;
-    else if (type.includes("|")) return `{(${type})}`;
+    else if (type.includes("|") && !type.includes("fun")) return `{(${type})}`;
     else if (allTypes.includes(type)) return `{number} ${type}`;
     else if(type.includes("fun")) {
         if(type == "function") return `{() => void}`

@@ -24,7 +24,7 @@ export default (pageData) => {
 ${GenerateFunctionReturn({ [lang]: "EventResult" }, lang)}${lang == "lua" ? `\n--- @event returns ${GenerateType(pageData.return[lang], lang)} via event:SetReturn` : ""}
 AddEventHandler("${pageData.title}", function(${ProcessParameters({ "event": "Event", ...pageData.params }, lang)})${lang == "lua" ? "" : " {"}\n    ${lang == "lua" ? "--[[ ... ]]" : "// ..."}\n    return EventResult.Continue\n${lang == "lua" ? "end" : "}"})
 \`\`\`
-${pageData.additional[lang] || ""}
+${pageData.additional[lang] ? pageData.additional[lang] + "\n" : ""}
   </TabsContent>`)
     }
 

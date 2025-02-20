@@ -23,7 +23,7 @@ export default (pageData) => {
 ${GenerateFunctionReturn(pageData.return, lang)}
 ${pageData.variable[lang]}(${ProcessParameters(pageData.params, lang)})
 \`\`\`
-${pageData.additional[lang] || ""}
+${pageData.additional[lang] ? pageData.additional[lang] + "\n" : ""}
   </TabsContent>`)
 	}
 
