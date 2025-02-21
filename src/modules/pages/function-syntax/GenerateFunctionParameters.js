@@ -11,8 +11,10 @@ export default (params, language) => {
         }
 
         if (forlang == language) {
+            const type = GenerateType(params[paramkey], language);
+
             if (language == "lua") returnParams.push(`--- @param ${name} ${GenerateType(params[paramkey], language)}`)
-            else if(language == "js") returnParams.push(` * @param ${GenerateType(params[paramkey], language)} ${name}`)
+            else if(language == "js") returnParams.push(` * @param ${type.includes("} ") ? (type.split("} ")[0] + "}") : type} ${name}${type.includes("} ") ? ` ${type.split("} ")[1].trim()}` : ""}`)
         }
     }
 
