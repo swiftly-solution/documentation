@@ -2,6 +2,7 @@ const GetType = (type) => {
     if (!type) return "any;"
 
     type = type.replace(new RegExp("nil", "g"), "null")
+    type = type.replace(new RegExp("...\\)", "g"), "...args: any[])")
 
     if (type == "any") return "any;"
     else if (type == "void") return "null|undefined;"
@@ -22,8 +23,9 @@ const GetType = (type) => {
             const fun = type.split(")|")
             return `${fun[1].split(" ")[0]} | (${fun[0].replace("fun", "").replace(new RegExp("table", "g"), "Object[]")}) => void);`
         } else return `${type.replace("fun", "").replace(new RegExp("table", "g"), "Object[]")} => void;`
-    }
-    else return `${type};`
+    } else if(type.includes(",")) {
+        return `[${type}];`
+    } else return `${type};`
 }
 
 export default (type) => {
