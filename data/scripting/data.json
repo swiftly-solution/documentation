@@ -2823,8 +2823,8 @@
                 "template": "function-syntax",
                 "description": "Returns the boolean value at the memory address.",
                 "variable": {
-                    "lua": "memory:SetBool",
-                    "js": "memory.SetBool"
+                    "lua": "memory:GetBool",
+                    "js": "memory.GetBool"
                 },
                 "return": {
                     "lua": "boolean",
