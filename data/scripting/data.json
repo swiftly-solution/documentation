@@ -776,7 +776,7 @@
                     "output": "string"
                 },
                 "additional": {
-                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](/plugin-docs/scripting/hooks/addprehooklistener) or an [AddPostHookListener](/plugin-docs/scripting/hooks/addposthooklistener) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\n--- @param event Event\n--- @param iooutput CEntityIOOutput\n--- @param event_output string\n--- @param activator CEntityInstance\n--- @param caller CEntityInstance\n--- @param delay number\n--- @return number|nil EventResult\nAddPreHookListener(hookoutput, function(event, iooutput, event_output, activator, caller, delay)\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
+                    "lua": "#### Example\nTo hook an entity output, you need to specify the classname and the output you want, add an [AddPreHookListener](/plugin-docs/scripting/hooks/addprehooklistener) or an [AddPostHookListener](/plugin-docs/scripting/hooks/addposthooklistener) using the following event callback\n```lua\nlocal hookoutput = AddHookEntityOutput(\"weapon_knife\", \"*\")\n--- @param event Event\n--- @param iooutput CEntityIOOutput\n--- @param event_output string\n--- @param activator CEntityInstance\n--- @param caller CEntityInstance\n--- @param delay number\n--- @return EventResult|nil\nAddPreHookListener(hookoutput, function(event, iooutput, event_output, activator, caller, delay)\n    -- In this example we're listening to all the outputs of weapon_knife.\n    return EventResult.Continue\nend)\n```"
                 }
             },
             "findentitiesbyclassname": {
@@ -1831,7 +1831,7 @@
                         },
                         "params": {
                             "eventName": "string",
-                            "callback": "fun(event:Event,...):number|nil EventResult"
+                            "callback": "fun(event:Event,...):EventResult|nil"
                         },
                         "additional": {}
                     },
@@ -1906,7 +1906,7 @@
                 "description": "Registers an export for this plugin.",
                 "variable": {
                     "lua": "export",
-                    "js": "export"
+                    "js": "exp"
                 },
                 "return": {
                     "lua": "void",
@@ -2310,7 +2310,7 @@
                 },
                 "params": {
                     "hookHandle": "HookHandle",
-                    "callback": "fun(event:Event):number EventResult"
+                    "callback": "fun(event:Event):EventResult"
                 },
                 "additional": {}
             },
@@ -2328,7 +2328,7 @@
                 },
                 "params": {
                     "hookHandle": "HookHandle",
-                    "callback": "fun(event:Event):number EventResult"
+                    "callback": "fun(event:Event):EventResult"
                 },
                 "additional": {}
             },
@@ -2389,7 +2389,7 @@
                 },
                 "params": {
                     "url": "string",
-                    "callback": "cb(status:number,body:string,headers:table,err:string)",
+                    "callback": "fun(status:number,body:string,headers:table,err:string)",
                     "method": "string",
                     "data": "string",
                     "headers": "table",
@@ -4748,8 +4748,7 @@
                         "template": "function-syntax",
                         "description": "Allows for a switch-like behavior in Lua, matching a value against a set of cases. It supports functions or direct values for each case and includes a default fallback.",
                         "variable": {
-                            "lua": "switch",
-                            "js": "switch"
+                            "lua": "switch"
                         },
                         "return": {
                             "lua": "any",
