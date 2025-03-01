@@ -1951,7 +1951,7 @@
             "createdirectory": {
                 "title": "CreateDirectory",
                 "template": "function-syntax",
-                "description": "Creates a directory",
+                "description": "Creates a directory. It returns true if the directory was created.",
                 "variable": {
                     "lua": "files:CreateDirectory",
                     "js": "files.CreateDirectory"
@@ -2264,7 +2264,10 @@
                 "params": {
                     "data": "table"
                 },
-                "additional": {}
+                "additional": {
+                    "lua": "The data needs to be a table of tables:\n```lua\n{\n    { \"header col 1\", \"header col 2\" },\n    { \"col 1\", \"col 2\" },\n    -- ...\n}\n```",
+                    "js": "The data needs to be a list of list of strings:\n```js\n[\n    [ \"header col 1\", \"header col 2\" ],\n    [ \"col 1\", \"col 2\" ],\n    // ...\n]\n```"
+                }
             }
         }
     },
