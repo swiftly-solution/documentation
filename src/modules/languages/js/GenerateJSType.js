@@ -1,8 +1,23 @@
+const anyTypes = ["CTypedBitVec", "uint32_t", "value", "C_", "CAttachmentNameSymbolWithStorage", "CAnimGraphTagOptionalRef", "uint8_t", "V_uuid_t", "PulseValueType_t"]
+
 const GetType = (type) => {
     if (!type) return "any;"
 
     type = type.replace(new RegExp("nil", "g"), "null")
-    type = type.replace(new RegExp("...\\)", "g"), "...args: any[])")
+    type = type.replace("...)", "...args: any[])")
+    if (type == "bool") type = "boolean"
+    if (type.startsWith("bitfield:")) {
+        return "any;";
+    }
+    for (const t of anyTypes) {
+        if (type.includes(t)) return "any;"
+    }
+
+    if (type == "Player") return "IPlayer;";
+    else if (type == "Memory") return "IMemory;";
+    else if (type == "WeaponManager") return "IWeaponManager;"
+
+    if (type.includes("EventResult|null")) type = type.replace("EventResult|null", "EventResult|void");
 
     if (type == "any") return "any;"
     else if (type == "void") return "null|undefined;"
@@ -15,7 +30,7 @@ const GetType = (type) => {
     else if (type.includes("|") && !type.includes("fun")) return `${type};`;
     else if (type.includes("fun")) {
         if (type == "function") return `() => void;`
-        else if (type == "fun(...)") return `(...args: any[]) => any;`
+        else if (type == "fun(...args: any[])") return `(...args: any[]) => any;`
         else if (type.includes("):")) {
             const fun = type.split("):")
             return `${fun[0].replace("fun", "")}) => ${fun[1]};`
@@ -23,7 +38,7 @@ const GetType = (type) => {
             const fun = type.split(")|")
             return `${fun[1].split(" ")[0]} | (${fun[0].replace("fun", "").replace(new RegExp("table", "g"), "Object[]")}) => void);`
         } else return `${type.replace("fun", "").replace(new RegExp("table", "g"), "Object[]")} => void;`
-    } else if(type.includes(",")) {
+    } else if (type.includes(",")) {
         return `[${type}];`
     } else return `${type};`
 }
