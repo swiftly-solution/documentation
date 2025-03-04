@@ -292,5 +292,50 @@
             "Error": "3",
             "Common": "4"
         }
+    },
+    "raytype_t": {
+        "title": "RayType_t",
+        "template": "types-syntax",
+        "values": {
+            "RAY_TYPE_LINE": "0",
+            "RAY_TYPE_SPHERE": "1",
+            "RAY_TYPE_HULL": "2",
+            "RAY_TYPE_CAPSULE": "3",
+            "RAY_TYPE_MESH": "4"
+        }
+    },
+    "hitboxshapetype_t": {
+        "title": "HitboxShapeType_t",
+        "template": "types-syntax",
+        "values": {
+            "HITBOX_SHAPE_HULL": "0",
+            "HITBOX_SHAPE_SPHERE": "1",
+            "HITBOX_SHAPE_CAPSULE": "2"
+        }
+    },
+    "rnqueryobjectset": {
+        "title": "RnQueryObjectSet",
+        "template": "types-syntax",
+        "values": {
+            "RNQUERY_OBJECTS_STATIC": "(1<<0)",
+            "RNQUERY_OBJECTS_DYNAMIC": "(1<<1)",
+            "RNQUERY_OBJECTS_NON_COLLIDEABLE": "(1<<2)",
+            "RNQUERY_OBJECTS_KEYFRAMED_ONLY": "(1<<3) | (1<<8)",
+            "RNQUERY_OBJECTS_DYNAMIC_ONLY": "(1<<4) | (1<<8)",
+            "RNQUERY_OBJECTS_ALL_GAME_ENTITIES": "RNQUERY_OBJECTS_DYNAMIC | RNQUERY_OBJECTS_NON_COLLIDEABLE",
+            "RNQUERY_OBJECTS_ALL": "RNQUERY_OBJECTS_STATIC | RNQUERY_OBJECTS_ALL_GAME_ENTITIES"
+        }
+    },
+    "collisionfunctionmask_t": {
+        "title": "CollisionFunctionMask_t",
+        "template": "types-syntax",
+        "values": {
+            "FCOLLISION_FUNC_ENABLE_SOLID_CONTACT": "(1<<0)",
+            "FCOLLISION_FUNC_ENABLE_TRACE_QUERY": "(1<<1)",
+            "FCOLLISION_FUNC_ENABLE_TOUCH_EVENT": "(1<<2)",
+            "FCOLLISION_FUNC_ENABLE_SELF_COLLISIONS": "(1<<3)",
+            "FCOLLISION_FUNC_IGNORE_FOR_HITBOX_TEST": "(1<<4)",
+            "FCOLLISION_FUNC_ENABLE_TOUCH_PERSISTS": "(1<<5)"
+        }
     }
 }

@@ -4308,6 +4308,56 @@
             }
         }
     },
+    "raytrace": {
+        "title": "RayTrace",
+        "description": "A list of API functions for RayTrace.",
+        "template": "category",
+        "icon": "vector-square",
+        "data": {
+            "traceshape": {
+                "title": "TraceShape",
+                "template": "function-syntax",
+                "description": "Executes TraceShape on the specified filter and ray.",
+                "variable": {
+                    "lua": "raytrace:TraceShape",
+                    "js": "raytrace.TraceShape"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "start": "Vector",
+                    "end": "Vector",
+                    "ray": "Ray_t",
+                    "filter": "CTraceFilter",
+                    "trace_out": "trace_t"
+                },
+                "additional": {}
+            },
+            "traceplayerbbox": {
+                "title": "TracePlayerBBox",
+                "template": "function-syntax",
+                "description": "Executes TracePlayerBBox on the specified filter and box bounds.",
+                "variable": {
+                    "lua": "raytrace:TracePlayerBBox",
+                    "js": "raytrace.TracePlayerBBox"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "start": "Vector",
+                    "end": "Vector",
+                    "bounds": "BBox",
+                    "filter": "CTraceFilter",
+                    "trace_out": "trace_t"
+                },
+                "additional": {}
+            }
+        }
+    },
     "server": {
         "title": "Server",
         "description": "A list of API functions for server.",
