@@ -1808,6 +1808,148 @@
                             "lua": "#### How can I stop the execution of a User Message?\nSimply return `EventResult.Stop` and it will be blocked.\n\n#### How can I get the UserMessage?\nTo get the user message object, you need to use [GetUserMessage](/plugin-docs/scripting/utils/misc/getusermessage) along with the `usermessage_uuid` parameter.",
                             "js": "#### How can I stop the execution of a User Message?\nSimply return `EventResult.Stop` and it will be blocked.\n\n#### How can I get the UserMessage?\nTo get the user message object, you need to use [GetUserMessage](/plugin-docs/scripting/utils/misc/getusermessage) along with the `usermessage_uuid` parameter."
                         }
+                    },
+                    "onentitystarttouch": {
+                        "title": "OnEntityStartTouch",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity starts to touch another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onpostentitystarttouch": {
+                        "title": "OnPostEntityStartTouch",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered after an entity starts to touch another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onentitytouching": {
+                        "title": "OnEntityTouching",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity is touching another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onpostentitytouching": {
+                        "title": "OnPostEntityTouching",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered after an entity touched another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onentitystoptouch": {
+                        "title": "OnEntityStopTouch",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity stopped touching another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onpostentitystoptouch": {
+                        "title": "OnPostEntityStopTouch",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered after an entity stopped touching another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "otherEntity": "CEntityInstance"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onentityuse": {
+                        "title": "OnEntityUse",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity uses another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "activator": "CEntityInstance",
+                            "caller": "CEntityInstance",
+                            "value": "string",
+                            "outputID": "number"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
+                    },
+                    "onpostentityuse": {
+                        "title": "OnPostEntityUse",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered after an entity stopped touching another entity.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entity": "CEntityInstance",
+                            "activator": "CEntityInstance",
+                            "caller": "CEntityInstance",
+                            "value": "string",
+                            "outputID": "number"
+                        },
+                        "additional": {
+                            "lua": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked.",
+                            "js": "#### How can I stop the execution?\nSimply return `EventResult.Stop` and it will be blocked."
+                        }
                     }
                 }
             },
