@@ -13734,7 +13734,7 @@
             },
             "Outer": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PreventLoopback": {
                 "type": "boolean",
@@ -13955,7 +13955,7 @@
             },
             "Pawn": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "KnownTeamMismatch": {
                 "type": "boolean",
@@ -13967,7 +13967,7 @@
             },
             "SplitOwner": {
                 "type": "CBasePlayerController",
-                "writable": false
+                "writable": true
             },
             "IsHLTV": {
                 "type": "boolean",
@@ -14571,7 +14571,7 @@
             },
             "InstructorHint": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "BombSiteDesignation": {
                 "type": "number",
@@ -15404,11 +15404,11 @@
             },
             "ZoomOwner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LastFogTrigger": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPlayer_CameraServices",
@@ -15643,11 +15643,11 @@
             },
             "PlayerPawn": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "ObserverPawn": {
                 "type": "CCSObserverPawn",
-                "writable": false
+                "writable": true
             },
             "DesiredObserverMode": {
                 "type": "number",
@@ -15655,7 +15655,7 @@
             },
             "DesiredObserverTarget": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "PawnIsAlive": {
                 "type": "boolean",
@@ -15695,7 +15695,7 @@
             },
             "OriginalControllerOfCurrentPawn": {
                 "type": "CCSPlayerController",
-                "writable": false
+                "writable": true
             },
             "Score": {
                 "type": "number",
@@ -16066,7 +16066,7 @@
         "properties": {
             "LastWeaponBeforeC4AutoSwitch": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "IsRescuing": {
                 "type": "boolean",
@@ -16300,11 +16300,11 @@
         "properties": {
             "CarriedHostage": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "CarriedHostageProp": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPlayerPawnComponent",
@@ -16585,7 +16585,7 @@
             },
             "PlayerPing": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPlayerPawnComponent",
@@ -16624,7 +16624,7 @@
         "properties": {
             "LastKnownUseEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LastUseTimeStamp": {
                 "type": "number",
@@ -16671,7 +16671,7 @@
         "properties": {
             "ViewModel": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPlayer_ViewModelServices",
@@ -16781,7 +16781,7 @@
             },
             "SavedWeapon": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "TimeToMelee": {
                 "type": "number",
@@ -17826,19 +17826,19 @@
         "properties": {
             "PlayerDamager": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "PlayerRecipient": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "PlayerControllerDamager": {
                 "type": "CCSPlayerController",
-                "writable": false
+                "writable": true
             },
             "PlayerControllerRecipient": {
                 "type": "CCSPlayerController",
-                "writable": false
+                "writable": true
             },
             "PlayerDamagerName": {
                 "type": "string",
@@ -18257,11 +18257,11 @@
             },
             "Entity": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "OtherEntity": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "Scale": {
                 "type": "number",
@@ -18406,7 +18406,7 @@
             },
             "ProxySoundscape": {
                 "type": "CEnvSoundscape",
-                "writable": false
+                "writable": true
             },
             "Disabled": {
                 "type": "boolean",
@@ -18635,7 +18635,7 @@
         },
         "properties": {
             "Owner": {
-                "type": "C_FireSmoke",
+                "type": "CFireSmoke",
                 "writable": false
             },
             "BaseColors": {
@@ -19222,12 +19222,12 @@
                 "writable": true
             },
             "EnvWind": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "EnvSky": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             }
         },
         "functions": {
@@ -19670,7 +19670,7 @@
             },
             "Light": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -21117,15 +21117,15 @@
             },
             "ColorCorrectionCtrl": {
                 "type": "CColorCorrection",
-                "writable": false
+                "writable": true
             },
             "ViewEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "TonemapController": {
                 "type": "CTonemapController2",
-                "writable": false
+                "writable": true
             },
             "Audio": {
                 "type": "audioparams_t",
@@ -21436,7 +21436,7 @@
             },
             "ObserverTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "ObserverLastMode": {
                 "type": "number",
@@ -21588,11 +21588,11 @@
         "properties": {
             "ActiveWeapon": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "LastWeapon": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "Ammo": {
                 "type": "table",
@@ -21689,7 +21689,7 @@
                 "writable": true
             },
             "TargetPanel": {
-                "type": "C_PointClientUIWorldPanel",
+                "type": "CPointClientUIWorldPanel",
                 "writable": false
             }
         },
@@ -21884,8 +21884,8 @@
         },
         "properties": {
             "TargetEntity": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "State": {
                 "type": "boolean",
@@ -22376,8 +22376,8 @@
         },
         "properties": {
             "Entity": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "OverlappingLinks": {
                 "type": "table",
@@ -22653,8 +22653,8 @@
                 "writable": true
             },
             "Target": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "SceneEventId": {
                 "type": "SceneEventId_t",
@@ -23137,7 +23137,7 @@
             },
             "SkyCamera": {
                 "type": "CSkyCamera",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseEntity",
@@ -23242,8 +23242,8 @@
                 "writable": true
             },
             "Ent": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "SoundEntityIndex": {
                 "type": "number",
@@ -23469,16 +23469,16 @@
                 "writable": true
             },
             "Inflictor": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "Attacker": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "Ability": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             },
             "Damage": {
                 "type": "number",
@@ -26727,7 +26727,7 @@
         "properties": {
             "Owner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             }
         },
         "functions": {
@@ -27090,7 +27090,7 @@
             },
             "Item": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             }
         },
         "functions": {
@@ -27234,8 +27234,8 @@
                 "writable": false
             },
             "Target": {
-                "type": "C_BaseEntity",
-                "writable": false
+                "type": "CBaseEntity",
+                "writable": true
             }
         },
         "functions": {
@@ -44351,7 +44351,7 @@
             },
             "SoundSource": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SoundSourceEntIndex": {
                 "type": "number",
@@ -44824,11 +44824,11 @@
             },
             "Constraint": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "ConstraintParent": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "ForceNpcExclude": {
                 "type": "boolean",
@@ -44840,7 +44840,7 @@
             },
             "GlowEntity1": {
                 "type": "CBaseModelEntity",
-                "writable": false
+                "writable": true
             },
             "Usable": {
                 "type": "boolean",
@@ -44939,7 +44939,7 @@
             },
             "SwitchToWeaponAfterThrow": {
                 "type": "CCSWeaponBase",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CCSWeaponBase",
@@ -45509,7 +45509,7 @@
             },
             "DamageFilter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "DamageFilterName": {
                 "type": "string",
@@ -45609,11 +45609,11 @@
             },
             "EffectEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "OwnerEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Effects": {
                 "type": "number",
@@ -45621,7 +45621,7 @@
             },
             "GroundEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "GroundBodyIndex": {
                 "type": "number",
@@ -45705,7 +45705,7 @@
             },
             "Blocker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LocalTime": {
                 "type": "number",
@@ -46104,7 +46104,7 @@
             },
             "Thrower": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "NextAttack": {
                 "type": "number",
@@ -46112,7 +46112,7 @@
             },
             "OriginalThrower": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseFlex",
@@ -46607,7 +46607,7 @@
             },
             "Controller": {
                 "type": "CBasePlayerController",
-                "writable": false
+                "writable": true
             },
             "HltvReplayDelay": {
                 "type": "number",
@@ -46757,7 +46757,7 @@
             },
             "Blocker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FirstBlocked": {
                 "type": "boolean",
@@ -46777,7 +46777,7 @@
             },
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SoundMoving": {
                 "type": "string",
@@ -46829,7 +46829,7 @@
             },
             "Master": {
                 "type": "CBasePropDoor",
-                "writable": false
+                "writable": true
             },
             "OnBlockedClosing": {
                 "type": "CEntityIOOutput",
@@ -46952,7 +46952,7 @@
             },
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FinalDest": {
                 "type": "Vector",
@@ -47015,7 +47015,7 @@
             },
             "Filter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "OnStartTouch": {
                 "type": "CEntityIOOutput",
@@ -47102,7 +47102,7 @@
             },
             "Weapon": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "VMName": {
                 "type": "string",
@@ -47126,7 +47126,7 @@
             },
             "ControlPanel": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseAnimGraph",
@@ -47193,7 +47193,7 @@
             },
             "AttachEntity": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "Width": {
                 "type": "number",
@@ -47241,7 +47241,7 @@
             },
             "EndEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "DissolveType": {
                 "type": "number",
@@ -47426,7 +47426,7 @@
             },
             "Breaker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Explosion": {
                 "type": "number",
@@ -47466,7 +47466,7 @@
             },
             "PhysicsAttacker": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "LastPhysicsInfluenceTime": {
                 "type": "number",
@@ -47545,7 +47545,7 @@
             },
             "Breaker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PerformanceMode": {
                 "type": "number",
@@ -47601,7 +47601,7 @@
             },
             "PhysicsAttacker": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "LastPhysicsInfluenceTime": {
                 "type": "number",
@@ -47617,11 +47617,11 @@
             },
             "LastAttacker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FlareEnt": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "UsePuntSound": {
                 "type": "boolean",
@@ -48335,7 +48335,7 @@
             },
             "Leader": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "FollowTimestamp": {
                 "type": "number",
@@ -48375,7 +48375,7 @@
             },
             "TaskEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "GoalPosition": {
                 "type": "Vector",
@@ -48383,11 +48383,11 @@
             },
             "GoalEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Avoid": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "AvoidTimestamp": {
                 "type": "number",
@@ -48651,7 +48651,7 @@
             },
             "Enemy": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "IsEnemyVisible": {
                 "type": "boolean",
@@ -48695,7 +48695,7 @@
             },
             "Bomber": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "NearbyFriendCount": {
                 "type": "number",
@@ -48703,11 +48703,11 @@
             },
             "ClosestVisibleFriend": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "ClosestVisibleHumanFriend": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "AttentionInterval": {
                 "type": "IntervalTimer",
@@ -48715,7 +48715,7 @@
             },
             "Attacker": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "AttackedTimestamp": {
                 "type": "number",
@@ -48827,7 +48827,7 @@
             },
             "RadioSubject": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "RadioPosition": {
                 "type": "Vector",
@@ -49838,7 +49838,7 @@
             },
             "PlayerResource": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "RetakeRules": {
                 "type": "CRetakeGameRules",
@@ -50708,7 +50708,7 @@
             },
             "OriginalController": {
                 "type": "CCSPlayerController",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBasePlayerPawn",
@@ -51246,7 +51246,7 @@
             },
             "PrevOwner": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "DropTick": {
                 "type": "number",
@@ -51511,7 +51511,7 @@
             },
             "FleeFrom": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "MoveRateThrottleTimer": {
                 "type": "CountdownTimer",
@@ -51535,7 +51535,7 @@
             },
             "Leader": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "ReuseTimer": {
                 "type": "CountdownTimer",
@@ -52549,7 +52549,7 @@
             },
             "OldProvidee": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "OldOwnerClass": {
                 "type": "number",
@@ -52867,7 +52867,7 @@
         "properties": {
             "EntAttached": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "CheapEffect": {
                 "type": "boolean",
@@ -52895,7 +52895,7 @@
             },
             "Attacker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "DangerSound": {
                 "type": "number",
@@ -53006,7 +53006,7 @@
             },
             "Filter": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Decal": {
                 "type": "string",
@@ -53601,11 +53601,11 @@
             },
             "CurrentInstance": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "CurrentBlocker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "BlockerOrigin": {
                 "type": "Vector",
@@ -53700,7 +53700,7 @@
             },
             "Inflictor": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "CustomDamageType": {
                 "type": "number",
@@ -53736,7 +53736,7 @@
             },
             "EntityIgnore": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CModelPointEntity",
@@ -54413,7 +54413,7 @@
             },
             "MeasureTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SoundType": {
                 "type": "number",
@@ -54441,7 +54441,7 @@
             },
             "Speaker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "AvoidFeedback": {
                 "type": "boolean",
@@ -54457,7 +54457,7 @@
             },
             "ListenFilter1": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "OnRoutedSound": {
                 "type": "CEntityIOOutput",
@@ -54606,7 +54606,7 @@
         "properties": {
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "State": {
                 "type": "boolean",
@@ -55622,7 +55622,7 @@
             },
             "EntOwner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             }
         },
         "functions": {
@@ -55950,7 +55950,7 @@
             },
             "Filter": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "FilterCount": {
                 "type": "number",
@@ -56071,11 +56071,11 @@
         "properties": {
             "Effect": {
                 "type": "CBaseFire",
-                "writable": false
+                "writable": true
             },
             "Owner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FireType": {
                 "type": "number",
@@ -56260,7 +56260,7 @@
         "properties": {
             "Pool": {
                 "type": "CFishPool",
-                "writable": false
+                "writable": true
             },
             "Id": {
                 "type": "number",
@@ -56462,11 +56462,11 @@
             },
             "WeaponBeforePrevious": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "WeaponPrevious": {
                 "type": "CBasePlayerWeapon",
-                "writable": false
+                "writable": true
             },
             "DelayedHardPunchIncoming": {
                 "type": "boolean",
@@ -57172,7 +57172,7 @@
             },
             "TargetCamera1": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Enabled": {
                 "type": "boolean",
@@ -57349,7 +57349,7 @@
             },
             "PathMover": {
                 "type": "CPathMover",
-                "writable": false
+                "writable": true
             },
             "PathNodeStart": {
                 "type": "string",
@@ -57429,7 +57429,7 @@
             },
             "StopAtNode": {
                 "type": "CMoverPathNode",
-                "writable": false
+                "writable": true
             },
             "PathLocationToBeginStop": {
                 "type": "number",
@@ -58187,7 +58187,7 @@
         "properties": {
             "Ppath": {
                 "type": "CPathTrack",
-                "writable": false
+                "writable": true
             },
             "Length": {
                 "type": "number",
@@ -58370,7 +58370,7 @@
         "properties": {
             "CurrentTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Activated": {
                 "type": "boolean",
@@ -58378,7 +58378,7 @@
             },
             "Enemy": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "BlockDamage": {
                 "type": "number",
@@ -58612,11 +58612,11 @@
         "properties": {
             "Owner": {
                 "type": "CBaseAnimGraph",
-                "writable": false
+                "writable": true
             },
             "ScriptedSequence": {
                 "type": "CScriptedSequence",
-                "writable": false
+                "writable": true
             },
             "TimeStartedState": {
                 "type": "number",
@@ -58988,7 +58988,7 @@
             },
             "DestEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LockedSpeed": {
                 "type": "number",
@@ -59075,7 +59075,7 @@
             },
             "DestEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Dest": {
                 "type": "QAngle",
@@ -59491,7 +59491,7 @@
             },
             "TargetEnt": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "OnDeath": {
                 "type": "CEntityIOOutput",
@@ -59639,7 +59639,7 @@
         "properties": {
             "Handle": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SendHandle": {
                 "type": "boolean",
@@ -59734,11 +59734,11 @@
             },
             "Leader": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LastLeader": {
                 "type": "CCSPlayerPawnBase",
-                "writable": false
+                "writable": true
             },
             "ReuseTimer": {
                 "type": "CountdownTimer",
@@ -59794,7 +59794,7 @@
             },
             "HostageGrabber": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "LastGrabTime": {
                 "type": "number",
@@ -60819,7 +60819,7 @@
         "properties": {
             "Owner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "HadOwner": {
                 "type": "boolean",
@@ -60843,7 +60843,7 @@
             },
             "Target": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CSceneEntity",
@@ -60890,7 +60890,7 @@
             },
             "TargetPlayer": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -61156,11 +61156,11 @@
         "properties": {
             "OwningPlayer": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "KillingPlayer": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CItem",
@@ -61351,7 +61351,7 @@
             },
             "AttachedObject": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "AngularLimit": {
                 "type": "number",
@@ -62429,11 +62429,11 @@
             },
             "StartEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "EndEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CLogicalEntity",
@@ -62484,19 +62484,19 @@
             },
             "MeasureTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "MeasureReference": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "TargetReference": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Scale": {
                 "type": "number",
@@ -62575,7 +62575,7 @@
             },
             "Source": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "SourceEntityName": {
                 "type": "string",
@@ -62867,7 +62867,7 @@
         "properties": {
             "Player": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PlayerHasAmmo": {
                 "type": "CEntityIOOutput",
@@ -63939,7 +63939,7 @@
             },
             "Mover": {
                 "type": "CPathMover",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -64041,7 +64041,7 @@
         "properties": {
             "RgEntities": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "RgTriggered": {
                 "type": "table",
@@ -64206,7 +64206,7 @@
             },
             "Filter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "OnNavLinkStart": {
                 "type": "CEntityIOOutput",
@@ -64605,7 +64605,7 @@
             },
             "ControlPointEnts": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "NoSave": {
                 "type": "boolean",
@@ -65184,7 +65184,7 @@
             },
             "CarryingPlayer": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBreakable",
@@ -65231,11 +65231,11 @@
             },
             "Attach1": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Attach2": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "NameAttachment1": {
                 "type": "string",
@@ -65452,7 +65452,7 @@
             },
             "AttachedObject": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "WasRestored": {
                 "type": "boolean",
@@ -65834,7 +65834,7 @@
             },
             "AttachedObject": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SpinUp": {
                 "type": "number",
@@ -66211,11 +66211,11 @@
         "properties": {
             "MovingEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PhysicsBlocker": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SeparationDuration": {
                 "type": "number",
@@ -66787,11 +66787,11 @@
             },
             "BombDefuser": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "ControlPanel": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "ProgressBarTime": {
                 "type": "number",
@@ -66854,7 +66854,7 @@
         "properties": {
             "Platform": {
                 "type": "CFuncPlat",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseModelEntity",
@@ -66893,11 +66893,11 @@
         "properties": {
             "Player": {
                 "type": "CCSPlayerPawn",
-                "writable": false
+                "writable": true
             },
             "PingedEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Type": {
                 "type": "number",
@@ -67110,11 +67110,11 @@
             },
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LookAtEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Duration": {
                 "type": "number",
@@ -67177,7 +67177,7 @@
         "properties": {
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Threshold": {
                 "type": "number",
@@ -67520,7 +67520,7 @@
         "properties": {
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "StartEnabled": {
                 "type": "boolean",
@@ -67764,7 +67764,7 @@
         "properties": {
             "Entity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FilterName": {
                 "type": "string",
@@ -67772,7 +67772,7 @@
             },
             "Filter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "RefName": {
                 "type": "string",
@@ -67780,7 +67780,7 @@
             },
             "Reference": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FindMethod": {
                 "type": "number",
@@ -67870,7 +67870,7 @@
         "properties": {
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -67929,7 +67929,7 @@
             },
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -67988,7 +67988,7 @@
             },
             "AssociatedRelayEntity": {
                 "type": "CPointPrefab",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CServerOnlyPointEntity",
@@ -68031,7 +68031,7 @@
             },
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -68094,7 +68094,7 @@
             },
             "Filter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CPointEntity",
@@ -68239,11 +68239,11 @@
             },
             "RemapLineStart": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "RemapLineEnd": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "MaximumChangePerSecond": {
                 "type": "number",
@@ -68335,7 +68335,7 @@
             },
             "UsingPlayer": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "CustomOutputValue": {
                 "type": "number",
@@ -68418,7 +68418,7 @@
         "properties": {
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Axis": {
                 "type": "Vector",
@@ -68879,7 +68879,7 @@
             },
             "EntityBlocker": {
                 "type": "CEntityBlocker",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBasePropDoor",
@@ -69142,7 +69142,7 @@
             },
             "RagdollSource": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LastUpdateTickCount": {
                 "type": "number",
@@ -69158,15 +69158,15 @@
             },
             "DamageEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Killer": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PhysicsAttacker": {
                 "type": "CBasePlayerPawn",
-                "writable": false
+                "writable": true
             },
             "LastPhysicsInfluenceTime": {
                 "type": "number",
@@ -69599,11 +69599,11 @@
             },
             "StartPoint": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "EndPoint": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseModelEntity",
@@ -70042,35 +70042,35 @@
             },
             "Target11": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target21": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target31": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target41": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target51": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target61": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target71": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target81": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "TargetAttachment": {
                 "type": "string",
@@ -70130,7 +70130,7 @@
             },
             "WaitingForThisResumeScene": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "WaitingForResumeScene": {
                 "type": "boolean",
@@ -70198,7 +70198,7 @@
             },
             "InterruptScene": {
                 "type": "CSceneEntity",
-                "writable": false
+                "writable": true
             },
             "InterruptCount": {
                 "type": "number",
@@ -70234,11 +70234,11 @@
             },
             "Actor": {
                 "type": "CBaseFlex",
-                "writable": false
+                "writable": true
             },
             "Activator": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "BusyActor": {
                 "type": "number",
@@ -70324,7 +70324,7 @@
             },
             "Scenes1": {
                 "type": "table",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CLogicalEntity",
@@ -70793,11 +70793,11 @@
             },
             "TargetEnt": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "NextCine": {
                 "type": "CScriptedSequence",
-                "writable": false
+                "writable": true
             },
             "Thinking": {
                 "type": "boolean",
@@ -70817,7 +70817,7 @@
             },
             "ForcedTarget": {
                 "type": "CBaseAnimGraph",
-                "writable": false
+                "writable": true
             },
             "DontCancelOtherSequences": {
                 "type": "boolean",
@@ -70873,7 +70873,7 @@
             },
             "InteractionMainEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "PlayerDeathBehavior": {
                 "type": "number",
@@ -70959,7 +70959,7 @@
             },
             "DisplayGrenade": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseCSGrenadeProjectile",
@@ -71115,11 +71115,11 @@
             },
             "PhysicsEntity": {
                 "type": "CShatterGlassShardPhysics",
-                "writable": false
+                "writable": true
             },
             "ParentPanel": {
                 "type": "CFuncShatterglass",
-                "writable": false
+                "writable": true
             },
             "ParentShard": {
                 "type": "number",
@@ -71203,7 +71203,7 @@
             },
             "EntityHittingMe": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Neighbors": {
                 "type": "table",
@@ -71614,11 +71614,11 @@
         "properties": {
             "Owner": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Target": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "Volume": {
                 "type": "number",
@@ -71956,7 +71956,7 @@
             },
             "Source": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "EntityIndexSelection": {
                 "type": "number",
@@ -72564,7 +72564,7 @@
             },
             "Source": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "SourceEntityName": {
                 "type": "string",
@@ -72699,7 +72699,7 @@
             },
             "DynamicEntity": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "DynamicEntityName": {
                 "type": "string",
@@ -72891,7 +72891,7 @@
         "properties": {
             "AttachedToEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SpriteFramerate": {
                 "type": "number",
@@ -73175,11 +73175,11 @@
         "properties": {
             "Train": {
                 "type": "CFuncTrackTrain",
-                "writable": false
+                "writable": true
             },
             "TargetEntity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "SoundPlaying": {
                 "type": "number",
@@ -73623,7 +73623,7 @@
             },
             "TonemapController": {
                 "type": "CEntityInstance",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseTrigger",
@@ -74328,7 +74328,7 @@
             },
             "LerpTarget1": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "LerpTargetAttachment": {
                 "type": "string",
@@ -74364,7 +74364,7 @@
             },
             "EntityToWaitForDisconnect": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "OnLerpStarted": {
                 "type": "CEntityIOOutput",
@@ -74411,7 +74411,7 @@
         "properties": {
             "LookTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "FieldOfView": {
                 "type": "number",
@@ -74663,7 +74663,7 @@
         "properties": {
             "MeasureTarget": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "MeasureTarget1": {
                 "type": "string",
@@ -74950,7 +74950,7 @@
         "properties": {
             "Soundscape": {
                 "type": "CEnvSoundscapeTriggerable",
-                "writable": false
+                "writable": true
             },
             "SoundscapeName": {
                 "type": "string",
@@ -75118,7 +75118,7 @@
             },
             "Filter": {
                 "type": "CBaseFilter",
-                "writable": false
+                "writable": true
             },
             "Parent": {
                 "type": "CBaseModelEntity",
@@ -76668,7 +76668,7 @@
         "properties": {
             "Entity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "ClassType": {
                 "type": "number",
@@ -77131,7 +77131,7 @@
         "properties": {
             "Ctrl": {
                 "type": "CFogController",
-                "writable": false
+                "writable": true
             },
             "TransitionTime": {
                 "type": "number",
@@ -77218,7 +77218,7 @@
         "properties": {
             "Ent": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             },
             "MoveType": {
                 "type": "number",
@@ -77312,7 +77312,7 @@
         "properties": {
             "Entity": {
                 "type": "CBaseEntity",
-                "writable": false
+                "writable": true
             }
         },
         "functions": {

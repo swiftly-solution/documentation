@@ -267,15 +267,6 @@
             "release"
         ]
     },
-    "<unknown>": {
-        "title": "<unknown>",
-        "description": "<no description>",
-        "args": "",
-        "template": "command-syntax",
-        "flags": [
-            "hide"
-        ]
-    },
     "createpredictionerror": {
         "title": "CreatePredictionError",
         "description": "Create a prediction error",

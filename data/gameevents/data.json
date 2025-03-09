@@ -5838,7 +5838,6 @@
             "userid": "int",
             "networkid": "string",
             "xuid": "uint64",
-            "address": "string",
             "bot": "boolean"
         },
         "additional": {}
@@ -5856,7 +5855,6 @@
             "userid": "int",
             "networkid": "string",
             "xuid": "uint64",
-            "address": "string",
             "bot": "boolean"
         },
         "additional": {}

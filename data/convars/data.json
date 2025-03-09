@@ -818,7 +818,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ammo_grenade_limit_flashbang": {
@@ -831,7 +831,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ammo_grenade_limit_snowballs": {
@@ -856,7 +856,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ammo_grenade_limit_tripwirefire": {
@@ -893,7 +893,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "anim_damped_move_speed_timewindow": {
@@ -1467,7 +1467,7 @@
         "flags": [
             "clientdll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "async_serialize": {
@@ -1578,7 +1578,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_allow_shotguns": {
@@ -1645,7 +1645,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_autodifficulty_threshold_low": {
@@ -1662,7 +1662,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_chatter": {
@@ -1673,7 +1673,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_chatter_use_rr": {
@@ -1707,7 +1707,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_crouch": {
@@ -1748,7 +1748,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_defer_to_human_items": {
@@ -1759,7 +1759,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_difficulty": {
@@ -1770,7 +1770,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_dont_shoot": {
@@ -1919,7 +1919,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_mimic": {
@@ -1972,7 +1972,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_quota_mode": {
@@ -1983,7 +1983,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "bot_randombuy": {
@@ -2470,7 +2470,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_bomb_planted": {
@@ -2484,7 +2484,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_damage_hostage": {
@@ -2498,7 +2498,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_get_killed": {
@@ -2512,7 +2512,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_interact_with_hostage": {
@@ -2526,7 +2526,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_killed_enemy_default": {
@@ -2540,7 +2540,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_killed_enemy_factor": {
@@ -2554,7 +2554,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_killed_hostage": {
@@ -2568,7 +2568,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_killed_teammate": {
@@ -2582,7 +2582,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_rescued_hostage": {
@@ -2596,7 +2596,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_player_respawn_amount": {
@@ -2610,7 +2610,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_bonus_shorthanded": {
@@ -2624,7 +2624,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_elimination_bomb_map": {
@@ -2638,7 +2638,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_elimination_hostage_map_ct": {
@@ -2652,7 +2652,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_elimination_hostage_map_t": {
@@ -2666,7 +2666,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_hostage_alive": {
@@ -2680,7 +2680,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_hostage_interaction": {
@@ -2694,7 +2694,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_loser_bonus": {
@@ -2708,7 +2708,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_loser_bonus_consecutive_rounds": {
@@ -2722,7 +2722,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_planted_bomb_but_defused": {
@@ -2736,7 +2736,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_rescued_hostage": {
@@ -2750,7 +2750,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_terrorist_win_bomb": {
@@ -2764,7 +2764,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_win_by_defusing_bomb": {
@@ -2778,7 +2778,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_win_by_hostage_rescue": {
@@ -2792,7 +2792,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_win_by_time_running_out_bomb": {
@@ -2806,7 +2806,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_win_by_time_running_out_hostage": {
@@ -2820,7 +2820,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "cash_team_winner_bonus_consecutive_rounds": {
@@ -9180,7 +9180,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_assist_reqs": {
@@ -9191,7 +9191,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_bomb_defuse_major": {
@@ -9202,7 +9202,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_bomb_defuse_minor": {
@@ -9213,7 +9213,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_bomb_exploded": {
@@ -9224,7 +9224,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_bomb_planted": {
@@ -9235,7 +9235,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_cash_bundle": {
@@ -9246,7 +9246,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_crate_break": {
@@ -9257,7 +9257,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_hostage_kill": {
@@ -9268,7 +9268,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_hostage_rescue_major": {
@@ -9279,7 +9279,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_hostage_rescue_minor": {
@@ -9290,7 +9290,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_kill": {
@@ -9301,7 +9301,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_kill_factor": {
@@ -9312,7 +9312,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_kill_reqs": {
@@ -9323,7 +9323,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_objective_kill": {
@@ -9334,7 +9334,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_participation": {
@@ -9345,7 +9345,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_suicide": {
@@ -9356,7 +9356,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "contributionscore_team_kill": {
@@ -9367,7 +9367,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "convars_echo_toggle_changes": {
@@ -11622,7 +11622,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ff_damage_decoy_explosion": {
@@ -11647,7 +11647,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ff_damage_reduction_grenade": {
@@ -11660,7 +11660,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ff_damage_reduction_grenade_self": {
@@ -11673,7 +11673,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "ff_damage_reduction_other": {
@@ -11686,7 +11686,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "filesystem_buffer_size": {
@@ -12857,7 +12857,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "healthshot_health": {
@@ -12870,7 +12870,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "healthshot_healthboost_damage_multiplier": {
@@ -12883,7 +12883,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "healthshot_healthboost_speed_multiplier": {
@@ -12896,7 +12896,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "healthshot_healthboost_time": {
@@ -12909,7 +12909,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "hidehud": {
@@ -16557,7 +16557,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "molotov_usethrow_direction": {
@@ -16611,7 +16611,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_allowspectators": {
@@ -16637,7 +16637,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_autokick": {
@@ -16649,7 +16649,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_autoteambalance": {
@@ -16661,7 +16661,7 @@
             "gamedll",
             "notify",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_backup_restore_load_autopause": {
@@ -16722,7 +16722,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_buy_allow_grenades": {
@@ -16735,7 +16735,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_buy_allow_guns": {
@@ -16752,7 +16752,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_buy_anywhere": {
@@ -16766,7 +16766,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_buy_during_immunity": {
@@ -16780,7 +16780,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_buytime": {
@@ -16795,7 +16795,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_c4_cannot_be_defused": {
@@ -16808,7 +16808,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_c4timer": {
@@ -16824,7 +16824,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_chattime": {
@@ -16880,7 +16880,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_coopmission_bot_difficulty_offset": {
@@ -16892,7 +16892,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_ct_default_grenades": {
@@ -16905,7 +16905,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_ct_default_melee": {
@@ -16918,7 +16918,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_ct_default_primary": {
@@ -16931,7 +16931,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_ct_default_secondary": {
@@ -16944,7 +16944,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_headshot_only": {
@@ -16957,7 +16957,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_scale_ct_body": {
@@ -16970,7 +16970,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_scale_ct_head": {
@@ -16983,7 +16983,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_scale_t_body": {
@@ -16996,7 +16996,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_scale_t_head": {
@@ -17009,7 +17009,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_damage_vampiric_amount": {
@@ -17021,7 +17021,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_death_drop_breachcharge": {
@@ -17046,7 +17046,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_death_drop_defuser": {
@@ -17059,7 +17059,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_death_drop_grenade": {
@@ -17076,7 +17076,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_death_drop_gun": {
@@ -17093,7 +17093,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_death_drop_healthshot": {
@@ -17129,7 +17129,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_default_team_winner_no_objective": {
@@ -17142,7 +17142,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_defuser_allocation": {
@@ -17159,7 +17159,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_disconnect_kills_bots": {
@@ -17192,7 +17192,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_bonus_length_max": {
@@ -17231,7 +17231,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_bonusweapon_dogtags": {
@@ -17244,7 +17244,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_dogtag_score": {
@@ -17259,7 +17259,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_healthshot_killcount": {
@@ -17286,7 +17286,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_teammode": {
@@ -17299,7 +17299,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_teammode_bonus_score": {
@@ -17312,7 +17312,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_teammode_dogtag_score": {
@@ -17325,7 +17325,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_teammode_kill_score": {
@@ -17338,7 +17338,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dm_time_between_bonus_max": {
@@ -17374,7 +17374,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dogtag_despawn_time": {
@@ -17388,7 +17388,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_dogtag_pickup_rule": {
@@ -17400,7 +17400,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_drop_grenade_enable": {
@@ -17413,7 +17413,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_drop_knife_enable": {
@@ -17426,7 +17426,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_economy_reset_rounds": {
@@ -17439,7 +17439,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_endmatch_votenextleveltime": {
@@ -17528,7 +17528,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_fadetoblack": {
@@ -17553,7 +17553,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_flinch_punch_scale": {
@@ -17589,7 +17589,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_forcecamera": {
@@ -17602,7 +17602,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_forcerespawn": {
@@ -17638,7 +17638,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_freezetime": {
@@ -17655,7 +17655,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_friendlyfire": {
@@ -17669,7 +17669,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_give_player_c4": {
@@ -17682,7 +17682,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_global_damage_per_second": {
@@ -17696,7 +17696,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_guardian_bomb_plant_custom_x_mark_location": {
@@ -17719,7 +17719,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_guardian_target_site": {
@@ -17730,7 +17730,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_halftime": {
@@ -17743,7 +17743,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_halftime_duration": {
@@ -17784,7 +17784,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_heavyassaultsuit_aimpunch": {
@@ -17797,7 +17797,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_heavyassaultsuit_cooldown": {
@@ -17810,7 +17810,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_heavyassaultsuit_deploy_timescale": {
@@ -17823,7 +17823,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_heavyassaultsuit_speed": {
@@ -17836,7 +17836,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_heavybot_damage_reduction_scale": {
@@ -17849,7 +17849,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_hostages_max": {
@@ -17861,7 +17861,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_hostages_rescuetime": {
@@ -17923,7 +17923,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_hostages_spawn_force_positions_xyz": {
@@ -17946,7 +17946,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_hostages_takedamage": {
@@ -17993,7 +17993,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_join_grace_time": {
@@ -18026,7 +18026,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_logdetail": {
@@ -18073,7 +18073,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_match_end_changelevel": {
@@ -18086,7 +18086,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_match_end_restart": {
@@ -18127,7 +18127,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_maxmoney": {
@@ -18142,7 +18142,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_maxrounds": {
@@ -18158,7 +18158,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_min_halftime_duration": {
@@ -18187,7 +18187,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_overtime_enable": {
@@ -18260,7 +18260,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_playercashawards": {
@@ -18273,7 +18273,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_playerid": {
@@ -18347,7 +18347,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_randomspawn_dist": {
@@ -18360,7 +18360,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_randomspawn_los": {
@@ -18373,7 +18373,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_require_gun_use_to_acquire": {
@@ -18396,7 +18396,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_respawn_on_death_ct": {
@@ -18409,7 +18409,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_respawn_on_death_t": {
@@ -18422,7 +18422,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_respawnwavetime_ct": {
@@ -18435,7 +18435,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_respawnwavetime_t": {
@@ -18448,7 +18448,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_restartgame": {
@@ -18483,7 +18483,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_bonus_card_availability": {
@@ -18496,7 +18496,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_default_pistol_round": {
@@ -18509,7 +18509,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_enemy_card": {
@@ -18522,7 +18522,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_full_buy_round": {
@@ -18535,7 +18535,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_light_buy_round": {
@@ -18548,7 +18548,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_ct_loadout_upgraded_pistol_round": {
@@ -18561,7 +18561,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_max_consecutive_rounds_same_target_site": {
@@ -18574,7 +18574,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_count": {
@@ -18599,7 +18599,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_bonus_card_availability": {
@@ -18612,7 +18612,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_default_pistol_round": {
@@ -18625,7 +18625,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_enemy_card": {
@@ -18638,7 +18638,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_full_buy_round": {
@@ -18651,7 +18651,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_light_buy_round": {
@@ -18664,7 +18664,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_retake_t_loadout_upgraded_pistol_round": {
@@ -18677,7 +18677,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_round_restart_delay": {
@@ -18692,7 +18692,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_roundtime": {
@@ -18709,7 +18709,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_roundtime_defuse": {
@@ -18726,7 +18726,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_roundtime_hostage": {
@@ -18743,7 +18743,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_shield_speed_deployed": {
@@ -18804,7 +18804,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_spawnprotectiontime": {
@@ -18844,7 +18844,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_startmoney": {
@@ -18859,7 +18859,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_suicide_penalty": {
@@ -18870,7 +18870,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_t_default_grenades": {
@@ -18883,7 +18883,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_t_default_melee": {
@@ -18896,7 +18896,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_t_default_primary": {
@@ -18909,7 +18909,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_t_default_secondary": {
@@ -18922,7 +18922,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_tagging_scale": {
@@ -18935,7 +18935,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_taser_recharge_time": {
@@ -18948,7 +18948,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_td_dmgtokick": {
@@ -18996,7 +18996,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_team_timeout_max": {
@@ -19069,7 +19069,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_teamflag_1": {
@@ -19173,7 +19173,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_teamname_1": {
@@ -19272,7 +19272,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_technical_timeout_per_team": {
@@ -19285,7 +19285,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_timelimit": {
@@ -19299,7 +19299,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_tkpunish": {
@@ -19348,7 +19348,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_verbose_changelevel_spew": {
@@ -19373,7 +19373,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmup_items_nocost": {
@@ -19386,7 +19386,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmup_items_nocount_policy": {
@@ -19399,7 +19399,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmup_jointeam_cooldown": {
@@ -19447,7 +19447,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmuptime": {
@@ -19462,7 +19462,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmuptime_all_players_connected": {
@@ -19475,7 +19475,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_warmuptime_match_cancelled": {
@@ -19488,7 +19488,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapon_next_owner_touch_time": {
@@ -19524,7 +19524,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_heavy": {
@@ -19537,7 +19537,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_heavyassaultsuit": {
@@ -19550,7 +19550,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_map_placed": {
@@ -19563,7 +19563,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_pistols": {
@@ -19576,7 +19576,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_rifles": {
@@ -19589,7 +19589,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_smgs": {
@@ -19602,7 +19602,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_typecount": {
@@ -19615,7 +19615,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_allow_zeus": {
@@ -19628,7 +19628,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weapons_max_gun_purchases_per_weapon_per_match": {
@@ -19645,7 +19645,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_weaponstay": {
@@ -19670,7 +19670,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "mp_winlimit": {
@@ -23524,7 +23524,7 @@
             "archive",
             "dontrecord",
             "server_cannot_query",
-            "missing5"
+            "missing1"
         ]
     },
     "path_simple_closest_point_on_path_debug": {
@@ -26249,7 +26249,7 @@
         "flags": [
             "developmentonly",
             "clientdll",
-            "missing5",
+            "missing1",
             "defensive"
         ]
     },
@@ -26339,7 +26339,7 @@
             "gamedll",
             "clientdll",
             "replicated",
-            "missing3",
+            "commandline_enforced",
             "defensive"
         ]
     },
@@ -27016,7 +27016,7 @@
             "max:",
             "4,",
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "r_fullscreen_quad_single_triangle": {
@@ -27920,7 +27920,7 @@
         "args": "false",
         "template": "command-syntax",
         "flags": [
-            "hide"
+            "reference"
         ]
     },
     "r_show_build_info": {
@@ -28363,7 +28363,7 @@
         "template": "command-syntax",
         "flags": [
             "developmentonly",
-            "missing5",
+            "missing1",
             "defensive"
         ]
     },
@@ -30761,7 +30761,7 @@
         "template": "command-syntax",
         "flags": [
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_boxverb_simd": {
@@ -31090,7 +31090,7 @@
         "template": "command-syntax",
         "flags": [
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_gain_max": {
@@ -31135,7 +31135,7 @@
             "max:",
             "1,",
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_group_cluster_debug": {
@@ -31308,7 +31308,7 @@
         "template": "command-syntax",
         "flags": [
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_mixer_master_dsp": {
@@ -31340,7 +31340,7 @@
             "max:",
             "1,",
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_mute_losefocus": {
@@ -31350,7 +31350,7 @@
         "template": "command-syntax",
         "flags": [
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_mute_mvp_music_live_players": {
@@ -32339,7 +32339,7 @@
             "max:",
             "2,",
             "archive",
-            "missing5"
+            "missing1"
         ]
     },
     "snd_vol_arms_race": {
@@ -32901,7 +32901,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "spec_freeze_time_lock": {
@@ -33052,7 +33052,7 @@
         "flags": [
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "spec_replay_fadein": {
@@ -33524,7 +33524,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_allow_ground_weapon_pickup": {
@@ -33559,7 +33559,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_alltalk": {
@@ -33571,7 +33571,7 @@
             "gamedll",
             "notify",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_auto_adjust_bot_difficulty": {
@@ -33582,7 +33582,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_auto_cstrafe_attempt_window": {
@@ -33701,7 +33701,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_autobunnyhopping": {
@@ -33714,7 +33714,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_autobuyammo": {
@@ -33728,7 +33728,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_autoexec_mapname_cfg": {
@@ -33763,16 +33763,6 @@
             "gamedll",
             "clientdll",
             "replicated"
-        ]
-    },
-    "sv_banid_dev_enabled": {
-        "title": "sv_banid_dev_enabled",
-        "description": "<no description>",
-        "args": "false",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "defensive"
         ]
     },
     "sv_banid_enabled": {
@@ -33820,7 +33810,7 @@
             "100,",
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_bot_buy_hegrenade_weight": {
@@ -33892,7 +33882,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_bounce": {
@@ -33917,7 +33907,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_buymenu_open_prevents_opportunistic_pickup": {
@@ -34307,7 +34297,7 @@
             "notify",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_debug_client_not_in_pvs": {
@@ -34433,7 +34423,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_disable_observer_interpolation": {
@@ -34471,7 +34461,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_disable_reliable_delta_retransmit": {
@@ -34494,7 +34484,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_disconnected_player_data_hold_time": {
@@ -34521,7 +34511,7 @@
             "300,",
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_dz_cash_bundle_size": {
@@ -34575,7 +34565,7 @@
         "args": "0",
         "template": "command-syntax",
         "flags": [
-            "hide"
+            "reference"
         ]
     },
     "sv_dz_squad_wipe_reward": {
@@ -34647,7 +34637,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_endmatch_item_drop_interval": {
@@ -34749,7 +34739,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_extreme_strafe_accuracy_fishtail": {
@@ -34802,7 +34792,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_falldamage_to_below_player_ratio": {
@@ -34815,7 +34805,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_filterban": {
@@ -35016,7 +35006,7 @@
             "replicated",
             "cheat",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_gravity": {
@@ -35042,7 +35032,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_grenade_trajectory_prac_trailtime": {
@@ -35059,7 +35049,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_grenade_trajectory_time_spectator": {
@@ -35076,7 +35066,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_extra_equipment_ct": {
@@ -35087,7 +35077,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_extra_equipment_t": {
@@ -35098,7 +35088,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_health_refresh_per_wave": {
@@ -35109,7 +35099,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_heavy_all": {
@@ -35120,7 +35110,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_heavy_count": {
@@ -35131,7 +35121,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_max_wave_for_heavy": {
@@ -35142,7 +35132,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_min_wave_for_heavy": {
@@ -35153,7 +35143,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_refresh_ammo_for_items_on_waves": {
@@ -35164,7 +35154,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_respawn_health": {
@@ -35177,7 +35167,7 @@
             "1,",
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_spawn_health_ct": {
@@ -35188,7 +35178,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_spawn_health_t": {
@@ -35199,7 +35189,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_guardian_starting_equipment_humans": {
@@ -35210,7 +35200,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_health_approach_enabled": {
@@ -35222,7 +35212,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_health_approach_speed": {
@@ -35234,7 +35224,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_hegrenade_damage_multiplier": {
@@ -35247,7 +35237,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_hegrenade_radius_multiplier": {
@@ -35260,7 +35250,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_hibernate_postgame_delay": {
@@ -35367,7 +35357,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_ignoregrenaderadio": {
@@ -35378,7 +35368,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_infinite_ammo": {
@@ -35392,7 +35382,7 @@
             "replicated",
             "cheat",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_instancebaselines": {
@@ -35779,7 +35769,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_max_distance_transmit_footsteps": {
@@ -36201,7 +36191,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_parallel_checktransmit": {
@@ -37079,7 +37069,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_show_team_equipment_prohibit": {
@@ -37274,7 +37264,7 @@
         "args": "false",
         "template": "command-syntax",
         "flags": [
-            "hide"
+            "reference"
         ]
     },
     "sv_smoke_volume_blind_start": {
@@ -37421,7 +37411,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_staminalandcost": {
@@ -37436,7 +37426,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_staminamax": {
@@ -37681,7 +37671,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_talk_enemy_living": {
@@ -37694,7 +37684,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_teamid_overhead": {
@@ -37733,7 +37723,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_teamid_overhead_maxdist_spec": {
@@ -37746,7 +37736,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_temp_baseline_string_table_buffer_size": {
@@ -37967,7 +37957,7 @@
         "flags": [
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_visiblemaxplayers": {
@@ -38327,7 +38317,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_vote_to_changelevel_rndmin": {
@@ -38339,7 +38329,7 @@
             "gamedll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_walkable_normal": {
@@ -38369,7 +38359,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "sv_watchtransmit": {
@@ -38861,7 +38851,7 @@
             "960,",
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "tv_delay1": {
@@ -38876,7 +38866,7 @@
             "960,",
             "gamedll",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "tv_delaymapchange": {
@@ -41084,7 +41074,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "weapon_accuracy_reset_on_deploy": {
@@ -41124,7 +41114,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "weapon_all_nametag": {
@@ -41230,7 +41220,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "weapon_molotov_maxdetonateslope": {
@@ -41282,7 +41272,7 @@
             "clientdll",
             "replicated",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "weapon_skin_force_legacy": {
@@ -41326,7 +41316,7 @@
             "replicated",
             "cheat",
             "release",
-            "missing3"
+            "commandline_enforced"
         ]
     },
     "webapi_values_init_buffer_size": {
