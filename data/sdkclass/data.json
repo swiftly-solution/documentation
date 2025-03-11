@@ -67,7 +67,7 @@
         },
         "properties": {
             "ProcessingType": {
-                "type": "number",
+                "type": "AnimationProcessingType_t",
                 "writable": true
             },
             "Elems": {
@@ -122,7 +122,7 @@
                 "writable": false
             },
             "SnapshotType": {
-                "type": "number",
+                "type": "AnimationSnapshotType_t",
                 "writable": true
             },
             "HasDecodeDump": {
@@ -1225,7 +1225,7 @@
         },
         "properties": {
             "MoodType": {
-                "type": "number",
+                "type": "MoodType_t",
                 "writable": true
             }
         },
@@ -2290,7 +2290,7 @@
                 "writable": false
             },
             "BlendMode": {
-                "type": "number",
+                "type": "AimMatrixBlendMode",
                 "writable": true
             },
             "MaxYawAngle": {
@@ -2510,7 +2510,7 @@
         },
         "properties": {
             "FootMotionTiming": {
-                "type": "number",
+                "type": "BinaryNodeChildOption",
                 "writable": true
             },
             "ApplyToFootMotion": {
@@ -2644,7 +2644,7 @@
                 "writable": false
             },
             "Target": {
-                "type": "number",
+                "type": "AnimVectorSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -2737,7 +2737,7 @@
                 "writable": false
             },
             "NetworkMode": {
-                "type": "number",
+                "type": "AnimNodeNetworkMode",
                 "writable": true
             },
             "StartEnabled": {
@@ -2824,7 +2824,7 @@
                 "writable": true
             },
             "BoneSelectionMode": {
-                "type": "number",
+                "type": "EDemoBoneSelectionMode",
                 "writable": true
             },
             "Bones": {
@@ -3048,7 +3048,7 @@
         },
         "properties": {
             "SpeedFunction": {
-                "type": "number",
+                "type": "DampingSpeedFunction",
                 "writable": true
             },
             "SpeedScale": {
@@ -3165,7 +3165,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "AnimParamType_t",
                 "writable": true
             },
             "Index": {
@@ -3553,7 +3553,7 @@
                 "writable": false
             },
             "NetworkMode": {
-                "type": "number",
+                "type": "AnimNodeNetworkMode",
                 "writable": true
             },
             "Name": {
@@ -3803,7 +3803,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "CAnimationGraphVisualizerPrimitiveType",
                 "writable": true
             },
             "OwningAnimNodePaths": {
@@ -4011,7 +4011,7 @@
                 "writable": false
             },
             "TimingBehavior": {
-                "type": "number",
+                "type": "BinaryNodeTiming",
                 "writable": true
             },
             "TimingBlend": {
@@ -4117,7 +4117,7 @@
                 "writable": false
             },
             "BlendSourceX": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamX": {
@@ -4125,7 +4125,7 @@
                 "writable": false
             },
             "BlendSourceY": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamY": {
@@ -4133,7 +4133,7 @@
                 "writable": false
             },
             "BlendMode": {
-                "type": "number",
+                "type": "Blend2DMode",
                 "writable": true
             },
             "PlaybackSpeed": {
@@ -4243,7 +4243,7 @@
                 "writable": false
             },
             "BlendValueSource": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -4255,7 +4255,7 @@
                 "writable": false
             },
             "BlendKeyType": {
-                "type": "number",
+                "type": "BlendKeyType",
                 "writable": true
             },
             "LockBlendOnReset": {
@@ -4435,11 +4435,11 @@
                 "writable": true
             },
             "BlendSpace": {
-                "type": "number",
+                "type": "BoneMaskBlendSpace",
                 "writable": true
             },
             "FootMotionTiming": {
-                "type": "number",
+                "type": "BinaryNodeChildOption",
                 "writable": true
             },
             "UseBlendScale": {
@@ -4447,7 +4447,7 @@
                 "writable": true
             },
             "BlendValueSource": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "BlendParameter": {
@@ -4697,15 +4697,15 @@
                 "writable": false
             },
             "ChoiceMethod": {
-                "type": "number",
+                "type": "ChoiceMethod",
                 "writable": true
             },
             "ChoiceChangeMethod": {
-                "type": "number",
+                "type": "ChoiceChangeMethod",
                 "writable": true
             },
             "BlendMethod": {
-                "type": "number",
+                "type": "ChoiceBlendMethod",
                 "writable": true
             },
             "BlendTime": {
@@ -4846,11 +4846,11 @@
         },
         "properties": {
             "PreviewButton": {
-                "type": "number",
+                "type": "AnimParamButton_t",
                 "writable": true
             },
             "NetworkSetting": {
-                "type": "number",
+                "type": "AnimParamNetworkSetting",
                 "writable": true
             },
             "UseMostRecentValue": {
@@ -4987,7 +4987,7 @@
                 "writable": true
             },
             "ValueSource": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -5030,7 +5030,7 @@
         },
         "properties": {
             "ValueSource": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -5351,7 +5351,7 @@
                 "writable": false
             },
             "BlendValueSource": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -5602,7 +5602,7 @@
                 "writable": false
             },
             "ParamType": {
-                "type": "number",
+                "type": "AnimParamType_t",
                 "writable": true
             },
             "Script": {
@@ -5771,7 +5771,7 @@
                 "writable": false
             },
             "FacingTarget": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "Param": {
@@ -5979,7 +5979,7 @@
         },
         "properties": {
             "Foot": {
-                "type": "number",
+                "type": "FootFallTagFoot_t",
                 "writable": true
             },
             "Parent": {
@@ -6137,7 +6137,7 @@
                 "writable": false
             },
             "TimingSource": {
-                "type": "number",
+                "type": "FootPinningTimingSource",
                 "writable": true
             },
             "Params": {
@@ -6270,7 +6270,7 @@
         },
         "properties": {
             "FootstepType": {
-                "type": "number",
+                "type": "FootstepLandedFootSoundType_t",
                 "writable": true
             },
             "OverrideSoundName": {
@@ -6376,7 +6376,7 @@
                 "writable": true
             },
             "Mode": {
-                "type": "number",
+                "type": "VelocityMetricMode",
                 "writable": true
             },
             "Parent": {
@@ -6662,7 +6662,7 @@
                 "writable": true
             },
             "CorrectionMethod": {
-                "type": "number",
+                "type": "JumpCorrectionMethod",
                 "writable": true
             },
             "TranslationAxis": {
@@ -6791,7 +6791,7 @@
                 "writable": false
             },
             "BlendSource": {
-                "type": "number",
+                "type": "AnimVectorSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -6858,7 +6858,7 @@
                 "writable": false
             },
             "Target": {
-                "type": "number",
+                "type": "AnimVectorSource",
                 "writable": true
             },
             "ParamIndex": {
@@ -6984,7 +6984,7 @@
                 "writable": true
             },
             "AttributeType": {
-                "type": "number",
+                "type": "MatterialAttributeTagType_t",
                 "writable": true
             },
             "Value": {
@@ -7745,7 +7745,7 @@
                 "writable": false
             },
             "FacingTarget": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "MoveVecParam": {
@@ -7996,7 +7996,7 @@
                 "writable": true
             },
             "AttachmentType": {
-                "type": "number",
+                "type": "ParticleAttachment_t",
                 "writable": true
             },
             "AttachmentCP1Name": {
@@ -8004,7 +8004,7 @@
                 "writable": true
             },
             "AttachmentCP1Type": {
-                "type": "number",
+                "type": "ParticleAttachment_t",
                 "writable": true
             },
             "Parent": {
@@ -8274,7 +8274,7 @@
                 "writable": true
             },
             "Type": {
-                "type": "number",
+                "type": "PoseType_t",
                 "writable": true
             }
         },
@@ -8348,7 +8348,7 @@
         },
         "properties": {
             "PoseControl": {
-                "type": "number",
+                "type": "AnimPoseControl",
                 "writable": true
             },
             "Frequency": {
@@ -8478,7 +8478,7 @@
                 "writable": true
             },
             "PoseControlMethod": {
-                "type": "number",
+                "type": "RagdollPoseControl",
                 "writable": true
             },
             "Parent": {
@@ -8572,7 +8572,7 @@
                 "writable": true
             },
             "TagBehavior": {
-                "type": "number",
+                "type": "SelectorTagBehavior_t",
                 "writable": true
             },
             "ResetOnChange": {
@@ -9112,7 +9112,7 @@
                 "writable": false
             },
             "Mode": {
-                "type": "number",
+                "type": "StanceOverrideMode",
                 "writable": true
             },
             "Parent": {
@@ -9190,7 +9190,7 @@
         },
         "properties": {
             "Behavior": {
-                "type": "number",
+                "type": "StateActionBehavior",
                 "writable": true
             }
         },
@@ -9679,7 +9679,7 @@
         },
         "properties": {
             "FootMotionTiming": {
-                "type": "number",
+                "type": "BinaryNodeChildOption",
                 "writable": true
             },
             "ApplyToFootMotion": {
@@ -10066,7 +10066,7 @@
         },
         "properties": {
             "FacingTarget": {
-                "type": "number",
+                "type": "AnimValueSource",
                 "writable": true
             },
             "TurnStartTimeOffset": {
@@ -10293,7 +10293,7 @@
                 "writable": true
             },
             "ParamType": {
-                "type": "number",
+                "type": "AnimParamType_t",
                 "writable": true
             },
             "Parent": {
@@ -10434,7 +10434,7 @@
                 "writable": false
             },
             "DebugSetting": {
-                "type": "number",
+                "type": "SolveIKChainAnimNodeDebugSetting",
                 "writable": true
             },
             "DebugNormalizedValue": {
@@ -10772,7 +10772,7 @@
                 "writable": true
             },
             "IkSolverType": {
-                "type": "number",
+                "type": "IKSolverType",
                 "writable": true
             },
             "ApplyTilt": {
@@ -10930,7 +10930,7 @@
                 "writable": true
             },
             "TriggerPhase": {
-                "type": "number",
+                "type": "StepPhase",
                 "writable": true
             }
         },
@@ -11103,7 +11103,7 @@
                 "writable": true
             },
             "Mode": {
-                "type": "number",
+                "type": "IKChannelMode",
                 "writable": true
             },
             "IkChainName": {
@@ -11150,7 +11150,7 @@
         },
         "properties": {
             "SolverType": {
-                "type": "number",
+                "type": "IKSolverType",
                 "writable": true
             },
             "NumIterations": {
@@ -11158,7 +11158,7 @@
                 "writable": true
             },
             "EndEffectorRotationFixUpMode": {
-                "type": "number",
+                "type": "EIKEndEffectorRotationFixUpMode",
                 "writable": true
             }
         },
@@ -11193,7 +11193,7 @@
         },
         "properties": {
             "TargetSource": {
-                "type": "number",
+                "type": "IKTargetSource",
                 "writable": true
             },
             "Bone": {
@@ -11209,7 +11209,7 @@
                 "writable": false
             },
             "TargetCoordSystem": {
-                "type": "number",
+                "type": "IKTargetCoordinateSystem",
                 "writable": true
             }
         },
@@ -11303,7 +11303,7 @@
                 "writable": true
             },
             "SimSpace": {
-                "type": "number",
+                "type": "JiggleBoneSimSpace",
                 "writable": true
             }
         },
@@ -11604,7 +11604,7 @@
                 "writable": false
             },
             "ParamType": {
-                "type": "number",
+                "type": "AnimParamType_t",
                 "writable": true
             },
             "StartCycle": {
@@ -11698,7 +11698,7 @@
                 "writable": false
             },
             "ScriptType": {
-                "type": "number",
+                "type": "AnimScriptType",
                 "writable": true
             }
         },
@@ -11889,7 +11889,7 @@
         },
         "properties": {
             "EndEffectorType": {
-                "type": "number",
+                "type": "IkEndEffectorType",
                 "writable": true
             },
             "EndEffectorAttachment": {
@@ -11897,7 +11897,7 @@
                 "writable": false
             },
             "TargetType": {
-                "type": "number",
+                "type": "IkTargetType",
                 "writable": true
             },
             "TargetAttachment": {
@@ -12158,10 +12158,6 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {
-            "WeightInfo": {
-                "type": "uint8_t",
-                "writable": false
-            },
             "Weights": {
                 "type": "table",
                 "writable": false
@@ -12366,7 +12362,7 @@
         },
         "properties": {
             "Phase": {
-                "type": "number",
+                "type": "NmFootPhase_t",
                 "writable": true
             },
             "Parent": {
@@ -12405,7 +12401,7 @@
         },
         "properties": {
             "FrameSnapMode": {
-                "type": "number",
+                "type": "NmFrameSnapEventMode_t",
                 "writable": true
             },
             "Parent": {
@@ -13007,11 +13003,11 @@
         },
         "properties": {
             "Rule": {
-                "type": "number",
+                "type": "NmTargetWarpRule_t",
                 "writable": true
             },
             "Algorithm": {
-                "type": "number",
+                "type": "NmTargetWarpAlgorithm_t",
                 "writable": true
             },
             "Parent": {
@@ -13080,7 +13076,7 @@
         },
         "properties": {
             "Rule": {
-                "type": "number",
+                "type": "NmTransitionRule_t",
                 "writable": true
             },
             "Parent": {
@@ -13396,7 +13392,7 @@
                 "writable": false
             },
             "Flags": {
-                "type": "number",
+                "type": "AmmoFlags_t",
                 "writable": true
             },
             "Mass": {
@@ -13741,7 +13737,7 @@
                 "writable": true
             },
             "ProviderType": {
-                "type": "number",
+                "type": "attributeprovidertypes_t",
                 "writable": true
             }
         },
@@ -13883,7 +13879,7 @@
                 "writable": true
             },
             "AnimLoopMode": {
-                "type": "number",
+                "type": "AnimLoopMode_t",
                 "writable": true
             },
             "PlaybackRate": {
@@ -13891,7 +13887,7 @@
                 "writable": true
             },
             "NotifyState": {
-                "type": "number",
+                "type": "SequenceFinishNotifyState_t",
                 "writable": true
             },
             "NetworkedAnimationInputsChanged": {
@@ -13974,7 +13970,7 @@
                 "writable": true
             },
             "Connected": {
-                "type": "number",
+                "type": "PlayerConnectedState",
                 "writable": true
             },
             "PlayerName": {
@@ -14006,7 +14002,7 @@
                 "writable": true
             },
             "IgnoreGlobalChat": {
-                "type": "number",
+                "type": "ChatIgnoreType_t",
                 "writable": true
             },
             "LastPlayerTalkTime": {
@@ -14209,7 +14205,7 @@
                 "writable": true
             },
             "Flags": {
-                "type": "number",
+                "type": "ItemFlagTypes_t",
                 "writable": true
             },
             "PrimaryAmmoType": {
@@ -14253,7 +14249,7 @@
                 "writable": true
             },
             "RumbleEffect": {
-                "type": "number",
+                "type": "RumbleEffect_t",
                 "writable": true
             },
             "Slot": {
@@ -17113,15 +17109,15 @@
         },
         "properties": {
             "WeaponType": {
-                "type": "number",
+                "type": "CSWeaponType",
                 "writable": true
             },
             "WeaponCategory": {
-                "type": "number",
+                "type": "CSWeaponCategory",
                 "writable": true
             },
             "GearSlot": {
-                "type": "number",
+                "type": "gear_slot_t",
                 "writable": true
             },
             "GearSlotPosition": {
@@ -17129,7 +17125,7 @@
                 "writable": true
             },
             "DefaultLoadoutSlot": {
-                "type": "number",
+                "type": "loadout_slot_t",
                 "writable": true
             },
             "WrongTeamMsg": {
@@ -17173,7 +17169,7 @@
                 "writable": true
             },
             "SilencerType": {
-                "type": "number",
+                "type": "CSWeaponSilencerType",
                 "writable": true
             },
             "CrosshairMinDistance": {
@@ -17664,7 +17660,7 @@
                 "writable": true
             },
             "SolidType": {
-                "type": "number",
+                "type": "SolidType_t",
                 "writable": true
             },
             "TriggerBloat": {
@@ -17672,7 +17668,7 @@
                 "writable": true
             },
             "SurroundType": {
-                "type": "number",
+                "type": "SurroundingBoundsType_t",
                 "writable": true
             },
             "CollisionGroup": {
@@ -17881,7 +17877,7 @@
                 "writable": true
             },
             "KillType": {
-                "type": "number",
+                "type": "EKillTypes_t",
                 "writable": true
             }
         },
@@ -18150,7 +18146,7 @@
                 "writable": false
             },
             "DamagePassthroughType": {
-                "type": "number",
+                "type": "EDestructiblePartDamagePassThroughType",
                 "writable": true
             },
             "KillNPCOnDestruction": {
@@ -19474,8 +19470,8 @@
                 "writable": true
             },
             "Type": {
-                "type": "number",
-                "writable": true
+                "type": "renadeType_t",
+                "writable": false
             }
         },
         "functions": {
@@ -21439,7 +21435,7 @@
                 "writable": true
             },
             "ObserverLastMode": {
-                "type": "number",
+                "type": "ObserverMode_t",
                 "writable": true
             },
             "ForcedObserverMode": {
@@ -21748,11 +21744,11 @@
                 "writable": false
             },
             "ClientOnlyEntityBehavior": {
-                "type": "number",
+                "type": "PointTemplateClientOnlyEntityBehavior_t",
                 "writable": true
             },
             "OwnerSpawnGroupType": {
-                "type": "number",
+                "type": "PointTemplateOwnerSpawnGroupType_t",
                 "writable": true
             },
             "CreatedSpawnGroupHandles": {
@@ -21829,7 +21825,7 @@
                 "writable": true
             },
             "AttachType": {
-                "type": "number",
+                "type": "ParticleAttachment_t",
                 "writable": true
             },
             "BatchSameVolumeType": {
@@ -23493,7 +23489,7 @@
                 "writable": true
             },
             "BitsDamageType": {
-                "type": "number",
+                "type": "DamageTypes_t",
                 "writable": true
             },
             "DamageCustom": {
@@ -23521,7 +23517,7 @@
                 "writable": true
             },
             "DamageFlags": {
-                "type": "number",
+                "type": "TakeDamageFlags_t",
                 "writable": true
             },
             "NumObjectsPenetrated": {
@@ -23708,7 +23704,7 @@
                 "writable": true
             },
             "CompressionType": {
-                "type": "number",
+                "type": "TimelineCompression_t",
                 "writable": true
             },
             "Stopped": {
@@ -23941,7 +23937,7 @@
                 "writable": true
             },
             "ExecMode": {
-                "type": "number",
+                "type": "CommandExecMode_t",
                 "writable": true
             },
             "SpawnGroup": {
@@ -23953,7 +23949,7 @@
                 "writable": true
             },
             "SpecType": {
-                "type": "number",
+                "type": "CommandEntitySpecType_t",
                 "writable": true
             },
             "EntitySpec": {
@@ -23965,11 +23961,11 @@
                 "writable": true
             },
             "SetDebugBits": {
-                "type": "number",
+                "type": "DebugOverlayBits_t",
                 "writable": true
             },
             "ClearDebugBits": {
-                "type": "number",
+                "type": "DebugOverlayBits_t",
                 "writable": true
             }
         },
@@ -24004,7 +24000,7 @@
         },
         "properties": {
             "MutatorCondition": {
-                "type": "number",
+                "type": "CompMatPropertyMutatorConditionType_t",
                 "writable": true
             },
             "StrMutatorConditionContainerName": {
@@ -24059,7 +24055,7 @@
                 "writable": true
             },
             "MutatorCommandType": {
-                "type": "number",
+                "type": "CompMatPropertyMutatorType_t",
                 "writable": true
             },
             "StrInitWith_Container": {
@@ -24296,7 +24292,7 @@
                 "writable": true
             },
             "CompositeMaterialInputContainerSourceType": {
-                "type": "number",
+                "type": "CompositeMaterialInputContainerSourceType_t",
                 "writable": true
             },
             "StrAttrName": {
@@ -24383,7 +24379,7 @@
                 "writable": true
             },
             "VariableType": {
-                "type": "number",
+                "type": "CompositeMaterialInputLooseVariableType_t",
                 "writable": true
             },
             "ValueBoolean": {
@@ -24463,7 +24459,7 @@
                 "writable": true
             },
             "ValueSystemVar": {
-                "type": "number",
+                "type": "CompositeMaterialVarSystemVar_t",
                 "writable": true
             },
             "StrTextureContentAssetPath": {
@@ -24475,7 +24471,7 @@
                 "writable": true
             },
             "TextureType": {
-                "type": "number",
+                "type": "CompositeMaterialInputTextureType_t",
                 "writable": true
             },
             "StrString": {
@@ -24522,7 +24518,7 @@
         },
         "properties": {
             "CompositeMaterialMatchFilterType": {
-                "type": "number",
+                "type": "CompositeMaterialMatchFilterType_t",
                 "writable": true
             },
             "StrMatchFilter": {
@@ -27136,7 +27132,7 @@
                 "writable": true
             },
             "SeqLoopMode": {
-                "type": "number",
+                "type": "AnimLoopMode_t",
                 "writable": true
             },
             "PlaybackRate": {
@@ -27371,7 +27367,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "FixAngleSet_t",
                 "writable": true
             },
             "Angle": {
@@ -27927,7 +27923,7 @@
                 "writable": true
             },
             "Solid": {
-                "type": "number",
+                "type": "ShardSolid_t",
                 "writable": true
             },
             "PanelSize": {
@@ -29012,7 +29008,7 @@
         },
         "properties": {
             "BlendMode": {
-                "type": "number",
+                "type": "BloomBlendMode_t",
                 "writable": true
             },
             "BloomStrength": {
@@ -29660,11 +29656,11 @@
                 "writable": true
             },
             "VarType": {
-                "type": "number",
+                "type": "FuseVariableType_t",
                 "writable": true
             },
             "Access": {
-                "type": "number",
+                "type": "FuseVariableAccess_t",
                 "writable": true
             }
         },
@@ -30698,7 +30694,7 @@
         },
         "properties": {
             "OpCode": {
-                "type": "number",
+                "type": "FlexOpCode_t",
                 "writable": true
             },
             "Data": {
@@ -31290,7 +31286,7 @@
                 "writable": true
             },
             "PrimitiveType": {
-                "type": "number",
+                "type": "RenderPrimitiveType_t",
                 "writable": true
             },
             "BaseVertex": {
@@ -31486,7 +31482,7 @@
                 "writable": true
             },
             "AttachmentType": {
-                "type": "number",
+                "type": "ModelConfigAttachmentType_t",
                 "writable": true
             },
             "BoneMergeFlex": {
@@ -33013,7 +33009,7 @@
         },
         "properties": {
             "BoneComponent": {
-                "type": "number",
+                "type": "ModelBoneFlexComponent_t",
                 "writable": true
             },
             "FlexController": {
@@ -34837,11 +34833,11 @@
                 "writable": false
             },
             "ColorBlendType": {
-                "type": "number",
+                "type": "ParticleColorBlendType_t",
                 "writable": true
             },
             "ShaderType": {
-                "type": "number",
+                "type": "SpriteCardShaderType_t",
                 "writable": true
             },
             "StrShaderOverride": {
@@ -34861,7 +34857,7 @@
                 "writable": true
             },
             "CropTextureOverride": {
-                "type": "number",
+                "type": "ParticleSequenceCropOverride_t",
                 "writable": true
             },
             "TexturesInput": {
@@ -34873,7 +34869,7 @@
                 "writable": true
             },
             "AnimationType": {
-                "type": "number",
+                "type": "AnimationType_t",
                 "writable": true
             },
             "AnimateInFPS": {
@@ -34909,7 +34905,7 @@
                 "writable": false
             },
             "OutputBlendMode": {
-                "type": "number",
+                "type": "ParticleOutputBlendMode_t",
                 "writable": true
             },
             "GammaCorrectVertexColors": {
@@ -34937,7 +34933,7 @@
                 "writable": true
             },
             "FogType": {
-                "type": "number",
+                "type": "ParticleFogType_t",
                 "writable": true
             },
             "FogAmount": {
@@ -34953,15 +34949,15 @@
                 "writable": true
             },
             "PerParticleAlphaReference": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleAlphaRefWindow": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "AlphaReferenceType": {
-                "type": "number",
+                "type": "ParticleAlphaReferenceType_t",
                 "writable": true
             },
             "AlphaReferenceSoftness": {
@@ -34993,7 +34989,7 @@
                 "writable": true
             },
             "RefractBlurType": {
-                "type": "number",
+                "type": "BlurFilterType_t",
                 "writable": true
             },
             "OnlyRenderInEffectsBloomPass": {
@@ -35041,7 +35037,7 @@
                 "writable": true
             },
             "FeatheringMode": {
-                "type": "number",
+                "type": "ParticleDepthFeatheringMode_t",
                 "writable": true
             },
             "FeatheringMinDist": {
@@ -35061,7 +35057,7 @@
                 "writable": false
             },
             "SortMethod": {
-                "type": "number",
+                "type": "ParticleSortingChoiceList_t",
                 "writable": true
             },
             "BlendFramesSeq0": {
@@ -35108,7 +35104,7 @@
         },
         "properties": {
             "OrientationType": {
-                "type": "number",
+                "type": "ParticleOrientationChoiceList_t",
                 "writable": true
             },
             "OrientationControlPoint": {
@@ -35281,7 +35277,7 @@
                 "writable": false
             },
             "OpEndCapState": {
-                "type": "number",
+                "type": "ParticleEndcapMode_t",
                 "writable": true
             },
             "OpStartFadeInTime": {
@@ -35641,7 +35637,7 @@
         },
         "properties": {
             "MassMode": {
-                "type": "number",
+                "type": "ParticleMassMode_t",
                 "writable": true
             },
             "Radius": {
@@ -35900,7 +35896,7 @@
                 "writable": true
             },
             "ViewModelEffect": {
-                "type": "number",
+                "type": "InheritableBoolType_t",
                 "writable": true
             },
             "ScreenSpaceEffect": {
@@ -36168,7 +36164,7 @@
         },
         "properties": {
             "ReplicationMode": {
-                "type": "number",
+                "type": "ParticleReplicationMode_t",
                 "writable": true
             },
             "ScaleChildParticleRadii": {
@@ -36487,7 +36483,7 @@
                 "writable": true
             },
             "DetailLevel": {
-                "type": "number",
+                "type": "ParticleDetailLevel_t",
                 "writable": true
             }
         },
@@ -36569,7 +36565,7 @@
                 "writable": true
             },
             "AttachType": {
-                "type": "number",
+                "type": "ParticleAttachment_t",
                 "writable": true
             },
             "AttachmentName": {
@@ -36667,7 +36663,7 @@
                 "writable": true
             },
             "GroundType": {
-                "type": "number",
+                "type": "PetGroundType_t",
                 "writable": true
             },
             "SequenceName": {
@@ -36941,31 +36937,31 @@
                 "writable": true
             },
             "PerParticleBlend": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleScale": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleOffsetU": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleOffsetV": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleRotation": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleZoom": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             },
             "PerParticleDistortion": {
-                "type": "number",
+                "type": "SpriteCardPerParticleScale_t",
                 "writable": true
             }
         },
@@ -37008,15 +37004,15 @@
                 "writable": true
             },
             "TextureType": {
-                "type": "number",
+                "type": "SpriteCardTextureType_t",
                 "writable": true
             },
             "TextureChannels": {
-                "type": "number",
+                "type": "SpriteCardTextureChannel_t",
                 "writable": true
             },
             "TextureBlendMode": {
-                "type": "number",
+                "type": "ParticleTextureLayerBlendType_t",
                 "writable": true
             },
             "TextureBlend": {
@@ -37387,11 +37383,11 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "ParticleFloatType_t",
                 "writable": true
             },
             "MapType": {
-                "type": "number",
+                "type": "ParticleFloatMapType_t",
                 "writable": true
             },
             "LiteralValue": {
@@ -37431,7 +37427,7 @@
                 "writable": true
             },
             "RandomMode": {
-                "type": "number",
+                "type": "ParticleFloatRandomMode_t",
                 "writable": true
             },
             "LOD0": {
@@ -37479,15 +37475,15 @@
                 "writable": true
             },
             "NoiseTurbulence": {
-                "type": "number",
+                "type": "PFNoiseTurbulence_t",
                 "writable": true
             },
             "NoiseType": {
-                "type": "number",
+                "type": "PFNoiseType_t",
                 "writable": true
             },
             "NoiseModifier": {
-                "type": "number",
+                "type": "PFNoiseModifier_t",
                 "writable": true
             },
             "NoiseTurbulenceScale": {
@@ -37515,7 +37511,7 @@
                 "writable": true
             },
             "InputMode": {
-                "type": "number",
+                "type": "ParticleFloatInputMode_t",
                 "writable": true
             },
             "MultFactor": {
@@ -37555,11 +37551,11 @@
                 "writable": true
             },
             "RoundType": {
-                "type": "number",
+                "type": "ParticleFloatRoundType_t",
                 "writable": true
             },
             "BiasType": {
-                "type": "number",
+                "type": "ParticleFloatBiasType_t",
                 "writable": true
             },
             "BiasParameter": {
@@ -37632,7 +37628,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "ParticleModelType_t",
                 "writable": true
             },
             "ControlPoint": {
@@ -37740,7 +37736,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "ParticleTransformType_t",
                 "writable": true
             },
             "FollowNamedValue": {
@@ -37803,7 +37799,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "ParticleVecType_t",
                 "writable": true
             },
             "LiteralValue": {
@@ -38096,7 +38092,7 @@
                 "writable": true
             },
             "AttachType": {
-                "type": "number",
+                "type": "ParticleAttachment_t",
                 "writable": true
             },
             "BoundEntityPath": {
@@ -38604,7 +38600,7 @@
                 "writable": true
             },
             "Hull": {
-                "type": "Rnuint32_t",
+                "type": "RnHull_t",
                 "writable": false
             }
         },
@@ -42246,7 +42242,7 @@
         },
         "properties": {
             "Hull": {
-                "type": "Rnuint32_t",
+                "type": "RnHull_t",
                 "writable": false
             },
             "Parent": {
@@ -43255,7 +43251,7 @@
                 "writable": true
             },
             "SlotType": {
-                "type": "number",
+                "type": "RenderSlotType_t",
                 "writable": true
             },
             "InstanceStepRate": {
@@ -44063,11 +44059,11 @@
         },
         "properties": {
             "SoundType": {
-                "type": "number",
+                "type": "SoundTypes_t",
                 "writable": true
             },
             "SoundFlags": {
-                "type": "number",
+                "type": "SoundFlags_t",
                 "writable": true
             },
             "Volume": {
@@ -44326,7 +44322,7 @@
                 "writable": true
             },
             "SoundLevel": {
-                "type": "number",
+                "type": "soundlevel_t",
                 "writable": true
             },
             "Dpv": {
@@ -45187,7 +45183,7 @@
                 "writable": true
             },
             "Hull": {
-                "type": "number",
+                "type": "Hull_t",
                 "writable": true
             },
             "NavHullIdx": {
@@ -45297,7 +45293,7 @@
                 "writable": true
             },
             "SpawnPosition": {
-                "type": "number",
+                "type": "FuncDoorSpawnPos_t",
                 "writable": true
             },
             "BlockDamage": {
@@ -45472,23 +45468,23 @@
                 "writable": true
             },
             "TakeDamageFlags": {
-                "type": "number",
+                "type": "TakeDamageFlags_t",
                 "writable": true
             },
             "PlatformType": {
-                "type": "number",
+                "type": "EntityPlatformTypes_t",
                 "writable": true
             },
             "MoveCollide": {
-                "type": "number",
+                "type": "MoveCollide_t",
                 "writable": true
             },
             "MoveType": {
-                "type": "number",
+                "type": "MoveType_t",
                 "writable": true
             },
             "ActualMoveType": {
-                "type": "number",
+                "type": "MoveType_t",
                 "writable": true
             },
             "WaterTouch": {
@@ -45716,7 +45712,7 @@
                 "writable": true
             },
             "BloodType": {
-                "type": "number",
+                "type": "BloodType",
                 "writable": true
             },
             "Parent": {
@@ -45754,9 +45750,9 @@
                     "js": "void"
                 },
                 "params": {
-                    "attacker": "AnySDKClass",
-                    "inflictor": "AnySDKClass",
-                    "ability": "AnySDKClass",
+                    "attacker": "any",
+                    "inflictor": "any",
+                    "ability": "any",
                     "damageType": "DamageTypes_t",
                     "damage": "number"
                 }
@@ -46234,23 +46230,23 @@
                 "writable": false
             },
             "DestructiblePartInitialStateDestructed0": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "DestructiblePartInitialStateDestructed1": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "DestructiblePartInitialStateDestructed2": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "DestructiblePartInitialStateDestructed3": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "DestructiblePartInitialStateDestructed4": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "LastHitDestructiblePartIndex": {
@@ -46258,7 +46254,7 @@
                 "writable": true
             },
             "LastHitGroup": {
-                "type": "number",
+                "type": "HitGroup_t",
                 "writable": true
             },
             "DissolveStartTime": {
@@ -46270,11 +46266,11 @@
                 "writable": false
             },
             "RenderMode": {
-                "type": "number",
+                "type": "RenderMode_t",
                 "writable": true
             },
             "RenderFX": {
-                "type": "number",
+                "type": "RenderFx_t",
                 "writable": true
             },
             "AllowFadeInView": {
@@ -46765,7 +46761,7 @@
                 "writable": true
             },
             "DoorState": {
-                "type": "number",
+                "type": "DoorState_t",
                 "writable": true
             },
             "Locked": {
@@ -46932,7 +46928,7 @@
         },
         "properties": {
             "Toggle_state": {
-                "type": "number",
+                "type": "TOGGLE_STATE",
                 "writable": true
             },
             "MoveDistance": {
@@ -47209,7 +47205,7 @@
                 "writable": true
             },
             "BeamType": {
-                "type": "number",
+                "type": "BeamType_t",
                 "writable": true
             },
             "BeamFlags": {
@@ -47253,7 +47249,7 @@
                 "writable": true
             },
             "ClipStyle": {
-                "type": "number",
+                "type": "BeamClipStyle_t",
                 "writable": true
             },
             "TurnedOff": {
@@ -47320,7 +47316,7 @@
                 "writable": true
             },
             "Color": {
-                "type": "number",
+                "type": "BloodType",
                 "writable": true
             },
             "Parent": {
@@ -47446,7 +47442,7 @@
                 "writable": false
             },
             "Material": {
-                "type": "number",
+                "type": "Materials",
                 "writable": true
             },
             "Breaker": {
@@ -47454,7 +47450,7 @@
                 "writable": true
             },
             "Explosion": {
-                "type": "number",
+                "type": "Explosions",
                 "writable": true
             },
             "SpawnObject": {
@@ -47478,7 +47474,7 @@
                 "writable": true
             },
             "OverrideBlockLOS": {
-                "type": "number",
+                "type": "EOverrideBlockLOS_t",
                 "writable": true
             },
             "OnBreak": {
@@ -47486,7 +47482,7 @@
                 "writable": false
             },
             "PerformanceMode": {
-                "type": "number",
+                "type": "PerformanceMode_t",
                 "writable": true
             },
             "PhysicsAttacker": {
@@ -47573,7 +47569,7 @@
                 "writable": true
             },
             "PerformanceMode": {
-                "type": "number",
+                "type": "PerformanceMode_t",
                 "writable": true
             },
             "PreventDamageBeforeTime": {
@@ -47581,7 +47577,7 @@
                 "writable": true
             },
             "BreakableContentsType": {
-                "type": "number",
+                "type": "BreakableContentsType_t",
                 "writable": true
             },
             "StrBreakableContentsPropGroupOverride": {
@@ -50233,7 +50229,7 @@
                 "writable": true
             },
             "RetakesMVPBoostExtraUtility": {
-                "type": "number",
+                "type": "loadout_slot_t",
                 "writable": true
             },
             "HealthShotBoostExpirationTime": {
@@ -50421,7 +50417,7 @@
                 "writable": true
             },
             "BlockingUseActionInProgress": {
-                "type": "number",
+                "type": "CSPlayerBlockingUseAction_t",
                 "writable": true
             },
             "EmitSoundTime": {
@@ -50668,7 +50664,7 @@
                 "writable": true
             },
             "PlayerState": {
-                "type": "number",
+                "type": "CSPlayerState",
                 "writable": true
             },
             "Respawning": {
@@ -51078,11 +51074,11 @@
                 "writable": true
             },
             "PlayerFireEvent": {
-                "type": "number",
+                "type": "PlayerAnimEvent_t",
                 "writable": true
             },
             "PlayerFireEventAttackType": {
-                "type": "number",
+                "type": "WeaponAttackType_t",
                 "writable": true
             },
             "SeqIdle": {
@@ -51122,7 +51118,7 @@
                 "writable": true
             },
             "State": {
-                "type": "number",
+                "type": "CSWeaponState_t",
                 "writable": true
             },
             "LastTimeInAir": {
@@ -51158,7 +51154,7 @@
                 "writable": false
             },
             "WeaponMode": {
-                "type": "number",
+                "type": "CSWeaponMode",
                 "writable": true
             },
             "TurningInaccuracyDelta": {
@@ -51519,11 +51515,11 @@
                 "writable": true
             },
             "DesiredActivity": {
-                "type": "number",
+                "type": "ChickenActivity",
                 "writable": true
             },
             "CurrentActivity": {
-                "type": "number",
+                "type": "ChickenActivity",
                 "writable": true
             },
             "ActivityTimer": {
@@ -52357,7 +52353,7 @@
                 "writable": true
             },
             "IdleAnimLoopMode": {
-                "type": "number",
+                "type": "AnimLoopMode_t",
                 "writable": true
             },
             "RandomizeCycle": {
@@ -52844,7 +52840,7 @@
                 "writable": true
             },
             "DissolveType": {
-                "type": "number",
+                "type": "EntityDisolveType_t",
                 "writable": true
             },
             "DissolverOrigin": {
@@ -53022,7 +53018,7 @@
                 "writable": true
             },
             "TouchType": {
-                "type": "number",
+                "type": "Touch_t",
                 "writable": true
             },
             "FilterName": {
@@ -53728,7 +53724,7 @@
                 "writable": true
             },
             "CustomDamageType": {
-                "type": "number",
+                "type": "DamageTypes_t",
                 "writable": true
             },
             "CreateDebris": {
@@ -53748,11 +53744,11 @@
                 "writable": true
             },
             "ClassIgnore": {
-                "type": "number",
+                "type": "Class_T",
                 "writable": true
             },
             "ClassIgnore2": {
-                "type": "number",
+                "type": "Class_T",
                 "writable": true
             },
             "EntityIgnoreName": {
@@ -54441,11 +54437,11 @@
                 "writable": true
             },
             "SoundType": {
-                "type": "number",
+                "type": "SoundTypes_t",
                 "writable": true
             },
             "SoundFlags": {
-                "type": "number",
+                "type": "SoundFlags_t",
                 "writable": true
             },
             "Sensitivity": {
@@ -55966,7 +55962,7 @@
         },
         "properties": {
             "FilterType": {
-                "type": "number",
+                "type": "filter_t",
                 "writable": true
             },
             "FilterName": {
@@ -56478,7 +56474,7 @@
                 "writable": true
             },
             "UninterruptableActivity": {
-                "type": "number",
+                "type": "PlayerAnimEvent_t",
                 "writable": true
             },
             "RestorePrevWep": {
@@ -56803,7 +56799,7 @@
         },
         "properties": {
             "Solidity": {
-                "type": "number",
+                "type": "BrushSolidities_e",
                 "writable": true
             },
             "Disabled": {
@@ -57247,7 +57243,7 @@
         },
         "properties": {
             "AuthoredPosition": {
-                "type": "number",
+                "type": "MoveLinearAuthoredPos_t",
                 "writable": true
             },
             "MoveEntitySpace": {
@@ -57380,10 +57376,6 @@
                 "type": "string",
                 "writable": true
             },
-            "MoveType": {
-                "type": "uint32_t",
-                "writable": false
-            },
             "IsReversing": {
                 "type": "boolean",
                 "writable": true
@@ -57421,7 +57413,7 @@
                 "writable": true
             },
             "SolidType": {
-                "type": "number",
+                "type": "SolidType_t",
                 "writable": true
             },
             "IsMoving": {
@@ -57495,10 +57487,6 @@
             "StartAtEnd": {
                 "type": "boolean",
                 "writable": true
-            },
-            "OrientationUpdate": {
-                "type": "uint32_t",
-                "writable": false
             },
             "TimeStartOrientationChange": {
                 "type": "number",
@@ -58164,7 +58152,7 @@
                 "writable": true
             },
             "Code": {
-                "type": "number",
+                "type": "TRAIN_CODE",
                 "writable": true
             },
             "TargetState": {
@@ -58311,11 +58299,11 @@
                 "writable": true
             },
             "OrientationType": {
-                "type": "number",
+                "type": "TrainOrientationType_t",
                 "writable": true
             },
             "VelocityType": {
-                "type": "number",
+                "type": "TrainVelocityType_t",
                 "writable": true
             },
             "OnStart": {
@@ -59044,7 +59032,7 @@
                 "writable": true
             },
             "Type": {
-                "type": "Scripteduint8_t",
+                "type": "ScriptedMoveType_t",
                 "writable": true
             },
             "Success": {
@@ -59052,7 +59040,7 @@
                 "writable": true
             },
             "ForcedCrouchState": {
-                "type": "number",
+                "type": "ForcedCrouchState_t",
                 "writable": true
             },
             "IgnoreCollisions": {
@@ -59091,7 +59079,7 @@
         },
         "properties": {
             "Type": {
-                "type": "Scripteduint8_t",
+                "type": "ScriptedMoveType_t",
                 "writable": true
             },
             "DestOffset": {
@@ -59189,15 +59177,15 @@
         },
         "properties": {
             "LinearMotionX": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "LinearMotionY": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "LinearMotionZ": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "LinearFrequencyX": {
@@ -59321,15 +59309,15 @@
                 "writable": true
             },
             "AngularMotionX": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "AngularMotionY": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "AngularMotionZ": {
-                "type": "number",
+                "type": "JointMotion_t",
                 "writable": true
             },
             "AngularFrequencyX": {
@@ -62852,7 +62840,7 @@
                 "writable": true
             },
             "NavProperty": {
-                "type": "number",
+                "type": "navproperties_t",
                 "writable": true
             },
             "Parent": {
@@ -65054,7 +65042,7 @@
                 "writable": true
             },
             "OrientationType": {
-                "type": "number",
+                "type": "TrackOrientationType_t",
                 "writable": true
             },
             "OnPass": {
@@ -66412,10 +66400,6 @@
             "EnableUseOutput": {
                 "type": "boolean",
                 "writable": true
-            },
-            "CrateType": {
-                "type": "uint32_t",
-                "writable": false
             },
             "StrItemClass": {
                 "type": "table",
@@ -67808,7 +67792,7 @@
                 "writable": true
             },
             "FindMethod": {
-                "type": "number",
+                "type": "EntFinderMethod_t",
                 "writable": true
             },
             "OnFoundEntity": {
@@ -67937,7 +67921,7 @@
                 "writable": true
             },
             "BitsDamageType": {
-                "type": "number",
+                "type": "DamageTypes_t",
                 "writable": true
             },
             "Radius": {
@@ -68251,7 +68235,7 @@
                 "writable": true
             },
             "InputType": {
-                "type": "number",
+                "type": "ValueRemapperInputType_t",
                 "writable": true
             },
             "RemapLineStartName": {
@@ -68287,7 +68271,7 @@
                 "writable": true
             },
             "OutputType": {
-                "type": "number",
+                "type": "ValueRemapperOutputType_t",
                 "writable": true
             },
             "OutputEntityName": {
@@ -68307,11 +68291,11 @@
                 "writable": true
             },
             "HapticsType": {
-                "type": "number",
+                "type": "ValueRemapperHapticsType_t",
                 "writable": true
             },
             "MomentumType": {
-                "type": "number",
+                "type": "ValueRemapperMomentumType_t",
                 "writable": true
             },
             "MomentumModifier": {
@@ -68327,7 +68311,7 @@
                 "writable": true
             },
             "RatchetType": {
-                "type": "number",
+                "type": "ValueRemapperRatchetType_t",
                 "writable": true
             },
             "RatchetOffset": {
@@ -68549,15 +68533,15 @@
                 "writable": true
             },
             "JustifyHorizontal": {
-                "type": "number",
+                "type": "PointWorldTextJustifyHorizontal_t",
                 "writable": true
             },
             "JustifyVertical": {
-                "type": "number",
+                "type": "PointWorldTextJustifyVertical_t",
                 "writable": true
             },
             "ReorientMode": {
-                "type": "number",
+                "type": "PointWorldTextReorientMode_t",
                 "writable": true
             },
             "Parent": {
@@ -68847,15 +68831,15 @@
                 "writable": true
             },
             "SpawnPosition": {
-                "type": "number",
+                "type": "PropDoorRotatingSpawnPos_t",
                 "writable": true
             },
             "OpenDirection": {
-                "type": "number",
+                "type": "PropDoorRotatingOpenDirection_e",
                 "writable": true
             },
             "CurrentOpenDirection": {
-                "type": "number",
+                "type": "PropDoorRotatingOpenDirection_e",
                 "writable": true
             },
             "AjarAngle": {
@@ -70270,7 +70254,7 @@
                 "writable": true
             },
             "PlayerDeathBehavior": {
-                "type": "number",
+                "type": "SceneOnPlayerDeath_t",
                 "writable": true
             },
             "Parent": {
@@ -70387,7 +70371,7 @@
         },
         "properties": {
             "MoveTypeOverride": {
-                "type": "number",
+                "type": "MoveType_t",
                 "writable": true
             },
             "Parent": {
@@ -70653,15 +70637,15 @@
                 "writable": true
             },
             "MoveTo": {
-                "type": "number",
+                "type": "ScriptedMoveTo_t",
                 "writable": true
             },
             "MoveToGait": {
-                "type": "number",
+                "type": "MovementGait_t",
                 "writable": true
             },
             "HeldWeaponBehavior": {
-                "type": "number",
+                "type": "ScriptedHeldWeaponBehavior_t",
                 "writable": true
             },
             "IsPlayingPreIdle": {
@@ -70861,11 +70845,11 @@
                 "writable": true
             },
             "OnDeathBehavior": {
-                "type": "number",
+                "type": "ScriptedOnDeath_t",
                 "writable": true
             },
             "ConflictResponse": {
-                "type": "number",
+                "type": "ScriptedConflictResponse_t",
                 "writable": true
             },
             "OnBeginSequence": {
@@ -71151,7 +71135,7 @@
                 "writable": true
             },
             "ShatterStressType": {
-                "type": "number",
+                "type": "ShatterGlassStressType",
                 "writable": true
             },
             "StressVelocity": {
@@ -71187,7 +71171,7 @@
                 "writable": true
             },
             "OnFrameEdge": {
-                "type": "number",
+                "type": "OnFrame",
                 "writable": true
             },
             "SubShardGeneration": {
@@ -74234,7 +74218,7 @@
                 "writable": true
             },
             "BitsDamageInflict": {
-                "type": "number",
+                "type": "DamageTypes_t",
                 "writable": true
             },
             "DamageModel": {
@@ -76696,7 +76680,7 @@
                 "writable": true
             },
             "ClassType": {
-                "type": "number",
+                "type": "Class_T",
                 "writable": true
             },
             "Parent": {
@@ -76735,7 +76719,7 @@
         },
         "properties": {
             "Disposition": {
-                "type": "number",
+                "type": "Disposition_t",
                 "writable": true
             },
             "Priority": {
@@ -77246,7 +77230,7 @@
                 "writable": true
             },
             "MoveType": {
-                "type": "number",
+                "type": "MoveType_t",
                 "writable": true
             },
             "StartTime": {
@@ -77504,11 +77488,11 @@
                 "writable": true
             },
             "StopType": {
-                "type": "number",
+                "type": "SosActionStopType_t",
                 "writable": true
             },
             "SortType": {
-                "type": "number",
+                "type": "SosActionSortType_t",
                 "writable": true
             },
             "Parent": {
@@ -77618,11 +77602,11 @@
                 "writable": true
             },
             "ActionType": {
-                "type": "number",
+                "type": "ActionType_t",
                 "writable": true
             },
             "ActionInstanceType": {
-                "type": "number",
+                "type": "ActionType_t",
                 "writable": true
             }
         },
@@ -77673,7 +77657,7 @@
                 "writable": true
             },
             "SortType": {
-                "type": "number",
+                "type": "SosActionSortType_t",
                 "writable": true
             },
             "Parent": {
@@ -78171,7 +78155,7 @@
                 "writable": true
             },
             "Type": {
-                "type": "number",
+                "type": "SosGroupType_t",
                 "writable": true
             },
             "IsBlocking": {
@@ -78334,7 +78318,7 @@
         },
         "properties": {
             "ItemType": {
-                "type": "number",
+                "type": "SosEditItemType_t",
                 "writable": true
             },
             "ItemName": {
@@ -78413,7 +78397,7 @@
                 "writable": true
             },
             "LFOShape": {
-                "type": "number",
+                "type": "VMixLFOShape_t",
                 "writable": true
             }
         },
@@ -79117,11 +79101,11 @@
         },
         "properties": {
             "FilterType": {
-                "type": "number",
+                "type": "VMixFilterType_t",
                 "writable": true
             },
             "FilterSlope": {
-                "type": "number",
+                "type": "VMixFilterSlope_t",
                 "writable": true
             },
             "Enabled": {
@@ -79286,7 +79270,7 @@
         },
         "properties": {
             "OscType": {
-                "type": "number",
+                "type": "VMixLFOShape_t",
                 "writable": true
             },
             "Freq": {
@@ -79329,7 +79313,7 @@
         },
         "properties": {
             "Type": {
-                "type": "number",
+                "type": "VMixPannerType_t",
                 "writable": true
             },
             "Strength": {
@@ -79525,7 +79509,7 @@
         },
         "properties": {
             "InterpolationMode": {
-                "type": "number",
+                "type": "VMixSubgraphSwitchInterpolationType_t",
                 "writable": true
             },
             "OnlyTailsOnFadeOut": {
@@ -79568,7 +79552,7 @@
         },
         "properties": {
             "Op": {
-                "type": "number",
+                "type": "VMixChannelOperation_t",
                 "writable": true
             },
             "InputPan": {
@@ -80255,7 +80239,7 @@
         },
         "properties": {
             "Mode": {
-                "type": "number",
+                "type": "EMode_t",
                 "writable": true
             },
             "Samples": {
@@ -80545,7 +80529,7 @@
         },
         "properties": {
             "Mode": {
-                "type": "number",
+                "type": "PlayBackMode_t",
                 "writable": true
             },
             "SoundsToPlay": {
@@ -81158,7 +81142,7 @@
                 "writable": true
             },
             "ObjectFlags": {
-                "type": "number",
+                "type": "ObjectTypeFlags_t",
                 "writable": true
             },
             "LightProbeVolumePrecomputedHandshake": {
@@ -81197,11 +81181,11 @@
         },
         "properties": {
             "AllFlags": {
-                "type": "number",
+                "type": "ObjectTypeFlags_t",
                 "writable": true
             },
             "AnyFlags": {
-                "type": "number",
+                "type": "ObjectTypeFlags_t",
                 "writable": true
             },
             "Layer": {
@@ -81437,7 +81421,7 @@
                 "writable": false
             },
             "Flags": {
-                "type": "number",
+                "type": "ObjectTypeFlags_t",
                 "writable": true
             },
             "Layer": {
@@ -81637,7 +81621,7 @@
                 "writable": true
             },
             "AdditionalMeshDrawPrimitiveFlags": {
-                "type": "number",
+                "type": "MeshDrawPrimitiveFlags_t",
                 "writable": true
             },
             "ExtraBufferBinding": {
@@ -81904,7 +81888,7 @@
                 "writable": true
             },
             "ObjectTypeFlags": {
-                "type": "number",
+                "type": "ObjectTypeFlags_t",
                 "writable": true
             },
             "LightingOrigin": {
