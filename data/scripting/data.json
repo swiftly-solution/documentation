@@ -1923,7 +1923,6 @@
                             "entity": "CEntityInstance",
                             "activator": "CEntityInstance",
                             "caller": "CEntityInstance",
-                            "value": "string",
                             "outputID": "number"
                         },
                         "additional": {
@@ -1943,7 +1942,6 @@
                             "entity": "CEntityInstance",
                             "activator": "CEntityInstance",
                             "caller": "CEntityInstance",
-                            "value": "string",
                             "outputID": "number"
                         },
                         "additional": {
