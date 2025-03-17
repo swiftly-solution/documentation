@@ -137,6 +137,19 @@
             "MASK_NPCSOLID_BRUSHONLY": "12321"
         }
     },
+    "gamephase": {
+        "title": "GamePhase",
+        "template": "types-syntax",
+        "values": {
+            "GAMEPHASE_WARMUP_ROUND": "0",
+            "GAMEPHASE_PLAYING_STANDARD": "1",    
+            "GAMEPHASE_PLAYING_FIRST_HALF": "2",
+            "GAMEPHASE_PLAYING_SECOND_HALF": "3",
+            "GAMEPHASE_HALFTIME": "4",
+            "GAMEPHASE_MATCH_ENDED": "5",    
+            "GAMEPHASE_MAX": "6"
+        }
+    },
     "roundendreason_t": {
         "title": "RoundEndReason_t",
         "template": "types-syntax",
