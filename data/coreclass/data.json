@@ -34,6 +34,31 @@
                 "params": {
                     "value": "table"
                 }
+            },
+            "AddEntityIndex": {
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "entityIndex": "number"
+                }
+            },
+            "RemoveEntityIndex": {
+                "return": {
+                    "lua": "table",
+                    "js": "table"
+                },
+                "params": {
+                    "entityIndex": "number"
+                }
+            },
+            "Clear": {
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {}
             }
         },
         "additional": {}
@@ -71,6 +96,27 @@
                 "return": {
                     "lua": "string",
                     "js": "string"
+                },
+                "params": {}
+            },
+            "IsValid": {
+                "return": {
+                    "lua": "boolean",
+                    "js": "boolean"
+                },
+                "params": {}
+            },
+            "GetEntryIndex": {
+                "return": {
+                    "lua": "number",
+                    "js": "number"
+                },
+                "params": {}
+            },
+            "GetSerialNumber": {
+                "return": {
+                    "lua": "number",
+                    "js": "number"
                 },
                 "params": {}
             }
@@ -180,8 +226,7 @@
                     "lua": "number",
                     "js": "number"
                 },
-                "params": {
-                }
+                "params": {}
             },
             "js/unm": {
                 "return": {
@@ -282,8 +327,7 @@
                     "lua": "number",
                     "js": "number"
                 },
-                "params": {
-                }
+                "params": {}
             },
             "js/unm": {
                 "return": {
@@ -379,8 +423,7 @@
                     "lua": "number",
                     "js": "number"
                 },
-                "params": {
-                }
+                "params": {}
             },
             "js/unm": {
                 "return": {
@@ -486,8 +529,7 @@
                     "lua": "number",
                     "js": "number"
                 },
-                "params": {
-                }
+                "params": {}
             },
             "js/unm": {
                 "return": {

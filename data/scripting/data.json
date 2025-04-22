@@ -255,7 +255,7 @@
                     "name": "string",
                     "cvartype": "EConVarType",
                     "defaultValue": "any",
-                    "protected": "boolean"
+                    "protected": "boolean|nil"
                 },
                 "additional": {
                     "lua": "If the protected is set to true, no data will be sent by the server to the client about this convar.",
@@ -269,6 +269,46 @@
                 "variable": {
                     "lua": "convar:DeleteFake",
                     "js": "convar.DeleteFake"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "name": "string"
+                },
+                "additional": {}
+            },
+            "create": {
+                "title": "Create",
+                "template": "function-syntax",
+                "description": "Creates a convar.",
+                "variable": {
+                    "lua": "convar:Create",
+                    "js": "convar.Create"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "name": "string",
+                    "description": "string",
+                    "cvartype": "EConVarType",
+                    "flags": "number",
+                    "default_value": "any|nil",
+                    "min_value": "any|nil",
+                    "max_value": "any|nil"
+                },
+                "additional": {}
+            },
+            "delete": {
+                "title": "Delete",
+                "template": "function-syntax",
+                "description": "Deletes a convar created by plugins.",
+                "variable": {
+                    "lua": "convar:Delete",
+                    "js": "convar.Delete"
                 },
                 "return": {
                     "lua": "void",
@@ -1653,7 +1693,20 @@
                             "js": "void"
                         },
                         "params": {
-                            "entityptr": "string"
+                            "entityptr": "CEntityInstance"
+                        },
+                        "additional": {}
+                    },
+                    "onentityparentchanged": {
+                        "title": "OnEntityParentChanged",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when an entity parent has been changed.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "entityptr": "CEntityInstance"
                         },
                         "additional": {}
                     },
@@ -1666,7 +1719,7 @@
                             "js": "void"
                         },
                         "params": {
-                            "entityptr": "string"
+                            "entityptr": "CEntityInstance"
                         },
                         "additional": {}
                     },
@@ -1679,7 +1732,7 @@
                             "js": "void"
                         },
                         "params": {
-                            "entityptr": "string"
+                            "entityptr": "CEntityInstance"
                         },
                         "additional": {}
                     },
@@ -2355,6 +2408,24 @@
                 "params": {},
                 "additional": {}
             },
+            "getgamename": {
+                "title": "GetGameName",
+                "description": "Returns the current game.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "GetGameName",
+                    "js": "GetGameName"
+                },
+                "return": {
+                    "lua": "string",
+                    "js": "string"
+                },
+                "params": {},
+                "additional": {
+                    "lua": "Current games:\n- `cs2`\n- `unknown`",
+                    "js": "Current games:\n- `cs2`\n- `unknown`"
+                }
+            },
             "getpluginpath": {
                 "title": "GetPluginPath",
                 "description": "Returns the path of a plugin.",
@@ -2369,6 +2440,40 @@
                 },
                 "params": {
                     "plugin_name": "string"
+                },
+                "additional": {}
+            },
+            "listenentitytouchuse": {
+                "title": "ListenEntityTouchUse",
+                "description": "Adds the entity touch listeners to class name.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "ListenEntityTouchUse",
+                    "js": "ListenEntityTouchUse"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "class_name": "string"
+                },
+                "additional": {}
+            },
+            "removelistenentitytouchuse": {
+                "title": "RemoveListenEntityTouchUse",
+                "description": "Removes the entity touch listeners to class name.",
+                "template": "function-syntax",
+                "variable": {
+                    "lua": "RemoveListenEntityTouchUse",
+                    "js": "RemoveListenEntityTouchUse"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "class_name": "string"
                 },
                 "additional": {}
             },
@@ -2431,6 +2536,30 @@
                 },
                 "params": {
                     "memory": "Memory",
+                    "args_list": "string",
+                    "return_type": "string"
+                },
+                "additional": {
+                    "lua": "Below will be listed a table for all the data types for args list and return type:\n\n|         Data Types        | Value |\n|:-------------------------:|:-----:|\n|         `Pointer`         |  `p`  |\n|          `Float`          |  `f`  |\n|         `Boolean`         |  `b`  |\n|          `Double`         |  `d`  |\n|         `Integer`         |  `i`  |\n|     `Unsigned Integer`    |  `u`  |\n|       `string`       |  `s`  |\n|      `64-bit Integer`     |  `I`  |\n| `64-bit Unsigned Integer` |  `U`  |\n|           `Void`          |  `v`  |",
+                    "js": "Below will be listed a table for all the data types for args list and return type:\n\n|         Data Types        | Value |\n|:-------------------------:|:-----:|\n|         `Pointer`         |  `p`  |\n|          `Float`          |  `f`  |\n|         `Boolean`         |  `b`  |\n|          `Double`         |  `d`  |\n|         `Integer`         |  `i`  |\n|     `Unsigned Integer`    |  `u`  |\n|       `string`       |  `s`  |\n|      `64-bit Integer`     |  `I`  |\n| `64-bit Unsigned Integer` |  `U`  |\n|           `Void`          |  `v`  |"
+                }
+            },
+            "addvhook": {
+                "title": "AddVHook",
+                "template": "function-syntax",
+                "description": "Creates a virtual function hook.",
+                "variable": {
+                    "lua": "AddVHook",
+                    "js": "AddVHook"
+                },
+                "return": {
+                    "lua": "HookHandle",
+                    "js": "HookHandle"
+                },
+                "params": {
+                    "library": "string",
+                    "vtable_name": "string",
+                    "offset": "string",
                     "args_list": "string",
                     "return_type": "string"
                 },
@@ -2942,6 +3071,21 @@
                 "params": {
                     "offsetName": "string"
                 },
+                "additional": {}
+            },
+            "dereference": {
+                "title": "Dereferance",
+                "template": "function-syntax",
+                "description": "Dereferences the pointer.",
+                "variable": {
+                    "lua": "memory:Dereferance",
+                    "js": "memory.Dereferance"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {},
                 "additional": {}
             },
             "setbool": {
@@ -3585,7 +3729,8 @@
                     "js": "void"
                 },
                 "params": {
-                    "reason": "DisconnectReason"
+                    "reason": "DisconnectReason",
+                    "msg": "string|nil"
                 },
                 "additional": {}
             },
@@ -5991,6 +6136,24 @@
                 "params": {
                     "textID": "number",
                     "message": "string"
+                },
+                "additional": {}
+            },
+            "setcolor": {
+                "title": "SetColor",
+                "template": "function-syntax",
+                "description": "Sets the color of a text.",
+                "variable": {
+                    "lua": "vgui:SetColor",
+                    "js": "vgui.SetColor"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "textID": "number",
+                    "color": "Color"
                 },
                 "additional": {}
             },
