@@ -784,30 +784,6 @@
             "release"
         ]
     },
-    "ammo_grenade_limit_breachcharge": {
-        "title": "ammo_grenade_limit_breachcharge",
-        "description": "<no description>",
-        "args": "3",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "ammo_grenade_limit_bumpmine": {
-        "title": "ammo_grenade_limit_bumpmine",
-        "description": "<no description>",
-        "args": "3",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
     "ammo_grenade_limit_default": {
         "title": "ammo_grenade_limit_default",
         "description": "<no description>",
@@ -834,18 +810,6 @@
             "commandline_enforced"
         ]
     },
-    "ammo_grenade_limit_snowballs": {
-        "title": "ammo_grenade_limit_snowballs",
-        "description": "<no description>",
-        "args": "3",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
     "ammo_grenade_limit_total": {
         "title": "ammo_grenade_limit_total",
         "description": "<no description>",
@@ -857,18 +821,6 @@
             "replicated",
             "release",
             "commandline_enforced"
-        ]
-    },
-    "ammo_grenade_limit_tripwirefire": {
-        "title": "ammo_grenade_limit_tripwirefire",
-        "description": "<no description>",
-        "args": "1",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
         ]
     },
     "ammo_item_limit_adrenaline": {
@@ -9790,16 +9742,6 @@
             "cheat"
         ]
     },
-    "csgo_vanity_defer_teleport": {
-        "title": "csgo_vanity_defer_teleport",
-        "description": "<no description>",
-        "args": "3",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
     "csm_bias_override_0": {
         "title": "csm_bias_override_0",
         "description": "<no description>",
@@ -17024,18 +16966,6 @@
             "commandline_enforced"
         ]
     },
-    "mp_death_drop_breachcharge": {
-        "title": "mp_death_drop_breachcharge",
-        "description": "Drop breachcharge on player death",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
     "mp_death_drop_c4": {
         "title": "mp_death_drop_c4",
         "description": "Whether c4 is droppable",
@@ -17543,17 +17473,6 @@
             "notify",
             "replicated",
             "defensive"
-        ]
-    },
-    "mp_fists_replace_melee": {
-        "title": "mp_fists_replace_melee",
-        "description": "If enabled then when melee weapon is dropped player will have fists, when melee weapon is picked up then fists are unavailable",
-        "args": "false",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "release",
-            "commandline_enforced"
         ]
     },
     "mp_flinch_punch_scale": {
@@ -18744,30 +18663,6 @@
             "replicated",
             "release",
             "commandline_enforced"
-        ]
-    },
-    "mp_shield_speed_deployed": {
-        "title": "mp_shield_speed_deployed",
-        "description": "The max speed of a player when they have a shield deployed",
-        "args": "170",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "mp_shield_speed_holstered": {
-        "title": "mp_shield_speed_holstered",
-        "description": "The max speed of a player when they have a shield holstered",
-        "args": "200",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
         ]
     },
     "mp_shorthanded_cash_bonus_ignore_kicked": {
@@ -22213,235 +22108,14 @@
             "defensive"
         ]
     },
-    "panorama_3dpanel_anim_fadeinout_time_scale": {
-        "title": "panorama_3dpanel_anim_fadeinout_time_scale",
-        "description": "temp scale factor for animation fade in/out time",
-        "args": "2",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_anims_pivotlock": {
-        "title": "panorama_3dpanel_anims_pivotlock",
-        "description": "default true.",
-        "args": "false",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_camera_blend_mode": {
-        "title": "panorama_3dpanel_camera_blend_mode",
-        "description": "<no description>",
-        "args": "0",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_camera_inout_scale": {
-        "title": "panorama_3dpanel_camera_inout_scale",
-        "description": "<no description>",
-        "args": "0.1",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_camera_inout_scale_kb": {
-        "title": "panorama_3dpanel_camera_inout_scale_kb",
-        "description": "<no description>",
-        "args": "1",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_camera_lookat_scale": {
-        "title": "panorama_3dpanel_camera_lookat_scale",
-        "description": "<no description>",
-        "args": "0.1",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_camera_preset_blend_time": {
-        "title": "panorama_3dpanel_camera_preset_blend_time",
-        "description": "time to blend between camera presets",
-        "args": "1",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_camera_rotate_altitude_scale": {
-        "title": "panorama_3dpanel_camera_rotate_altitude_scale",
-        "description": "<no description>",
-        "args": "0.004",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_camera_rotate_azimuth_scale": {
-        "title": "panorama_3dpanel_camera_rotate_azimuth_scale",
-        "description": "<no description>",
-        "args": "0.004",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_anim": {
-        "title": "panorama_3dpanel_debuginfo_anim",
-        "description": "<no description>",
+    "panorama_alignment_fixes": {
+        "title": "panorama_alignment_fixes",
+        "description": "Fix alignment issues",
         "args": "true",
         "template": "command-syntax",
         "flags": [
             "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_cam": {
-        "title": "panorama_3dpanel_debuginfo_cam",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_item": {
-        "title": "panorama_3dpanel_debuginfo_item",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_manifest": {
-        "title": "panorama_3dpanel_debuginfo_manifest",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_paused": {
-        "title": "panorama_3dpanel_debuginfo_paused",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_debuginfo_player": {
-        "title": "panorama_3dpanel_debuginfo_player",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "panorama_3dpanel_light_move_scale": {
-        "title": "panorama_3dpanel_light_move_scale",
-        "description": "<no description>",
-        "args": "0.1",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_light_rotate_altitude_scale": {
-        "title": "panorama_3dpanel_light_rotate_altitude_scale",
-        "description": "<no description>",
-        "args": "0.004",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_light_rotate_azimuth_scale": {
-        "title": "panorama_3dpanel_light_rotate_azimuth_scale",
-        "description": "<no description>",
-        "args": "0.004",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_loadout_rotate_drag": {
-        "title": "panorama_3dpanel_loadout_rotate_drag",
-        "description": "<no description>",
-        "args": "0.19",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_loadout_rotate_frametime_multiplier": {
-        "title": "panorama_3dpanel_loadout_rotate_frametime_multiplier",
-        "description": "<no description>",
-        "args": "4",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_loadout_rotate_grab_scale": {
-        "title": "panorama_3dpanel_loadout_rotate_grab_scale",
-        "description": "<no description>",
-        "args": "0.5",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "defensive"
-        ]
-    },
-    "panorama_3dpanel_loadout_rotate_scale": {
-        "title": "panorama_3dpanel_loadout_rotate_scale",
-        "description": "<no description>",
-        "args": "2",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
+            "hidden",
             "defensive"
         ]
     },
@@ -22621,6 +22295,17 @@
             "clientdll",
             "hidden",
             "archive"
+        ]
+    },
+    "panorama_content_size_fixes": {
+        "title": "panorama_content_size_fixes",
+        "description": "Fix content size issues",
+        "args": "true",
+        "template": "command-syntax",
+        "flags": [
+            "developmentonly",
+            "hidden",
+            "defensive"
         ]
     },
     "panorama_daisy_wheel": {
@@ -23091,17 +22776,6 @@
         "flags": [
             "developmentonly",
             "hidden",
-            "defensive"
-        ]
-    },
-    "panorama_light_inout_scale": {
-        "title": "panorama_light_inout_scale",
-        "description": "<no description>",
-        "args": "0.5",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
             "defensive"
         ]
     },
@@ -24434,20 +24108,20 @@
             "release"
         ]
     },
-    "player_competitive_maplist_2v2_10_0_ccc21262": {
-        "title": "player_competitive_maplist_2v2_10_0_CCC21262",
+    "player_competitive_maplist_2v2_10_0_e7739bae": {
+        "title": "player_competitive_maplist_2v2_10_0_E7739BAE",
         "description": "<no description>",
-        "args": "\"mg_de_inferno,mg_de_nuke,mg_de_vertigo,mg_de_palais,mg_de_whistle,mg_de_overpass\"",
+        "args": "\"mg_de_inferno,mg_de_nuke,mg_de_vertigo,mg_de_brewery,mg_de_dogtown,mg_de_overpass\"",
         "template": "command-syntax",
         "flags": [
             "clientdll",
             "archive"
         ]
     },
-    "player_competitive_maplist_8_10_0_e5cc76a3": {
-        "title": "player_competitive_maplist_8_10_0_E5CC76A3",
+    "player_competitive_maplist_8_10_0_f1716344": {
+        "title": "player_competitive_maplist_8_10_0_F1716344",
         "description": "<no description>",
-        "args": "\"mg_de_dust2,mg_de_train,mg_de_ancient,mg_de_inferno,mg_de_nuke,mg_de_vertigo,mg_de_mirage,mg_cs_office,mg_cs_italy,mg_de_edin,mg_de_anubis,mg_lobby_mapveto,mg_de_basalt,mg_de_overpass\"",
+        "args": "\"mg_de_grail,mg_de_dust2,mg_de_train,mg_de_ancient,mg_de_inferno,mg_de_nuke,mg_de_vertigo,mg_de_mirage,mg_cs_office,mg_cs_italy,mg_de_jura,mg_de_anubis,mg_lobby_mapveto,mg_cs_agency,mg_de_overpass\"",
         "template": "command-syntax",
         "flags": [
             "clientdll",
@@ -25210,6 +24884,16 @@
             "clientdll"
         ]
     },
+    "r_csgo_csm_pushback_distance_preview": {
+        "title": "r_csgo_csm_pushback_distance_preview",
+        "description": "<no description>",
+        "args": "1500",
+        "template": "command-syntax",
+        "flags": [
+            "developmentonly",
+            "clientdll"
+        ]
+    },
     "r_csgo_cubemap_normalization": {
         "title": "r_csgo_cubemap_normalization",
         "description": "<no description>",
@@ -25736,26 +25420,6 @@
             "cheat"
         ]
     },
-    "r_csgo_preview_csm_max_visible_distance": {
-        "title": "r_csgo_preview_csm_max_visible_distance",
-        "description": "<no description>",
-        "args": "2000",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
-    "r_csgo_preview_csm_pushback_distance": {
-        "title": "r_csgo_preview_csm_pushback_distance",
-        "description": "<no description>",
-        "args": "1500",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
-        ]
-    },
     "r_csgo_prewarm_particles": {
         "title": "r_csgo_prewarm_particles",
         "description": "<no description>",
@@ -26229,16 +25893,6 @@
         "template": "command-syntax",
         "flags": [
             "cheat"
-        ]
-    },
-    "r_dac_disable_portrait_world_renderer": {
-        "title": "r_dac_disable_portrait_world_renderer",
-        "description": "<no description>",
-        "args": "false",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll"
         ]
     },
     "r_dashboard_render_quality": {
@@ -27221,17 +26875,6 @@
     "r_icon_player_equip_gloves_from_loadout": {
         "title": "r_icon_player_equip_gloves_from_loadout",
         "description": "equip gloves on player for icon rendering from loadout, or use default gloves",
-        "args": "false",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "clientdll",
-            "cheat"
-        ]
-    },
-    "r_icon_reload_map": {
-        "title": "r_icon_reload_map",
-        "description": "force reload map on new request",
         "args": "false",
         "template": "command-syntax",
         "flags": [
@@ -31266,6 +30909,21 @@
             "defensive"
         ]
     },
+    "snd_menumap_volume": {
+        "title": "snd_menumap_volume",
+        "description": "Volume of background sounds for maps",
+        "args": "1",
+        "template": "command-syntax",
+        "flags": [
+            "min:",
+            "0,",
+            "max:",
+            "1,",
+            "clientdll",
+            "archive",
+            "release"
+        ]
+    },
     "snd_menumusic_volume": {
         "title": "snd_menumusic_volume",
         "description": "Volume of Menu / Non-gameplay music",
@@ -34818,71 +34476,6 @@
             "defensive"
         ]
     },
-    "sv_fistpunch_damage": {
-        "title": "sv_fistpunch_damage",
-        "description": "<no description>",
-        "args": "10",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "defensive"
-        ]
-    },
-    "sv_fistpunch_damage_hard": {
-        "title": "sv_fistpunch_damage_hard",
-        "description": "<no description>",
-        "args": "20",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "defensive"
-        ]
-    },
-    "sv_fistpunch_damage_to_player_multiplier": {
-        "title": "sv_fistpunch_damage_to_player_multiplier",
-        "description": "<no description>",
-        "args": "1.5",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "defensive"
-        ]
-    },
-    "sv_fistpunch_impact_sounds": {
-        "title": "sv_fistpunch_impact_sounds",
-        "description": "<no description>",
-        "args": "true",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "defensive"
-        ]
-    },
-    "sv_fistpunch_viewmove": {
-        "title": "sv_fistpunch_viewmove",
-        "description": "<no description>",
-        "args": "40",
-        "template": "command-syntax",
-        "flags": [
-            "developmentonly",
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "defensive"
-        ]
-    },
     "sv_flashed_amount_for_blind_kill": {
         "title": "sv_flashed_amount_for_blind_kill",
         "description": "Minimum flashed alpha value for a player to be awarded a blind kill on the kill feed.",
@@ -36936,102 +36529,6 @@
             "developmentonly",
             "gamedll",
             "defensive"
-        ]
-    },
-    "sv_shield_bash_damage_to_nonplayer": {
-        "title": "sv_shield_bash_damage_to_nonplayer",
-        "description": "<no description>",
-        "args": "30",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_bash_damage_to_players": {
-        "title": "sv_shield_bash_damage_to_players",
-        "description": "<no description>",
-        "args": "90",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_explosive_damage_cap": {
-        "title": "sv_shield_explosive_damage_cap",
-        "description": "<no description>",
-        "args": "99",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_explosive_damage_crouch_bonus": {
-        "title": "sv_shield_explosive_damage_crouch_bonus",
-        "description": "<no description>",
-        "args": "10",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_explosive_damage_mindist": {
-        "title": "sv_shield_explosive_damage_mindist",
-        "description": "<no description>",
-        "args": "30",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_explosive_damage_mult": {
-        "title": "sv_shield_explosive_damage_mult",
-        "description": "<no description>",
-        "args": "4",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_explosive_damage_scale": {
-        "title": "sv_shield_explosive_damage_scale",
-        "description": "<no description>",
-        "args": "0.5",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
-        ]
-    },
-    "sv_shield_hitpoints": {
-        "title": "sv_shield_hitpoints",
-        "description": "<no description>",
-        "args": "850",
-        "template": "command-syntax",
-        "flags": [
-            "gamedll",
-            "clientdll",
-            "replicated",
-            "release"
         ]
     },
     "sv_show_bot_difficulty_in_name": {
@@ -39846,7 +39343,7 @@
     "ui_playsettings_maps_official_casual": {
         "title": "ui_playsettings_maps_official_casual",
         "description": "<no description>",
-        "args": "\"mg_dust247\"",
+        "args": "\"mg_casualalpha\"",
         "template": "command-syntax",
         "flags": [
             "clientdll",
@@ -39857,7 +39354,7 @@
     "ui_playsettings_maps_official_deathmatch": {
         "title": "ui_playsettings_maps_official_deathmatch",
         "description": "<no description>",
-        "args": "\"mg_dust247\"",
+        "args": "\"mg_casualalpha\"",
         "template": "command-syntax",
         "flags": [
             "clientdll",

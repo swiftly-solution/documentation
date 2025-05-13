@@ -14596,76 +14596,6 @@
         },
         "additional": {}
     },
-    "cbreachcharge": {
-        "title": "CBreachCharge",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CCSWeaponBase",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cbreachchargeprojectile": {
-        "title": "CBreachChargeProjectile",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseGrenade",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
     "cbreakablestagehelper": {
         "title": "CBreakableStageHelper",
         "description": "",
@@ -14685,76 +14615,6 @@
             "StageCount": {
                 "type": "number",
                 "writable": true
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cbumpmine": {
-        "title": "CBumpMine",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CCSWeaponBase",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cbumpmineprojectile": {
-        "title": "CBumpMineProjectile",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseGrenade",
-                "writable": false
             }
         },
         "functions": {
@@ -15465,6 +15325,10 @@
                 "type": "boolean",
                 "writable": true
             },
+            "UiCommunicationMuteFlags": {
+                "type": "number",
+                "writable": true
+            },
             "CrosshairCodes": {
                 "type": "string",
                 "writable": true
@@ -15573,6 +15437,10 @@
                 "type": "number",
                 "writable": true
             },
+            "RtActiveMissionPeriod": {
+                "type": "number",
+                "writable": true
+            },
             "PlayerTvControlFlags": {
                 "type": "number",
                 "writable": true
@@ -15586,6 +15454,10 @@
                 "writable": true
             },
             "UiAbandonRecordedReason": {
+                "type": "number",
+                "writable": true
+            },
+            "NetworkDisconnectionReason": {
                 "type": "number",
                 "writable": true
             },
@@ -17429,6 +17301,36 @@
                 "writable": false
             }
         },
+        "functions": {
+            "ToPtr": {
+                "return": {
+                    "lua": "string",
+                    "js": "string"
+                },
+                "params": {}
+            },
+            "IsValid": {
+                "return": {
+                    "lua": "bool",
+                    "js": "bool"
+                },
+                "params": {}
+            }
+        },
+        "additional": {}
+    },
+    "ccs_portraitworldcallbackhandler": {
+        "title": "CCS_PortraitWorldCallbackHandler",
+        "description": "",
+        "template": "class-syntax",
+        "languages": [
+            "lua",
+            "js"
+        ],
+        "constructor": {
+            "ptr_or_class": "string|AnySDKClass"
+        },
+        "properties": {},
         "functions": {
             "ToPtr": {
                 "return": {
@@ -23401,41 +23303,6 @@
         },
         "additional": {}
     },
-    "ctablet": {
-        "title": "CTablet",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CCSWeaponBase",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
     "ctakedamageinfo": {
         "title": "CTakeDamageInfo",
         "description": "",
@@ -23734,76 +23601,6 @@
         },
         "additional": {}
     },
-    "ctripwirefire": {
-        "title": "CTripWireFire",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseCSGrenade",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "ctripwirefireprojectile": {
-        "title": "CTripWireFireProjectile",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseGrenade",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
     "cwatersplasher": {
         "title": "CWaterSplasher",
         "description": "",
@@ -23816,41 +23613,6 @@
             "ptr_or_class": "string|AnySDKClass"
         },
         "properties": {},
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cweaponzonerepulsor": {
-        "title": "CWeaponZoneRepulsor",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CCSWeaponBaseGun",
-                "writable": false
-            }
-        },
         "functions": {
             "ToPtr": {
                 "return": {
@@ -49465,10 +49227,6 @@
                 "type": "table",
                 "writable": true
             },
-            "ServerQuestID": {
-                "type": "number",
-                "writable": true
-            },
             "MinimapMins": {
                 "type": "Vector",
                 "writable": true
@@ -49483,6 +49241,10 @@
             },
             "SpawnedTerrorHuntHeavy": {
                 "type": "boolean",
+                "writable": true
+            },
+            "UllLocalMatchID": {
+                "type": "number",
                 "writable": true
             },
             "EndMatchMapGroupVoteTypes": {
@@ -51122,10 +50884,6 @@
                 "writable": true
             },
             "LastTimeInAir": {
-                "type": "number",
-                "writable": true
-            },
-            "LastDeployTime": {
                 "type": "number",
                 "writable": true
             },
@@ -56436,69 +56194,6 @@
             },
             "Parent": {
                 "type": "CBaseEntity",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cfists": {
-        "title": "CFists",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "PlayingUninterruptableAct": {
-                "type": "boolean",
-                "writable": true
-            },
-            "UninterruptableActivity": {
-                "type": "PlayerAnimEvent_t",
-                "writable": true
-            },
-            "RestorePrevWep": {
-                "type": "boolean",
-                "writable": true
-            },
-            "WeaponBeforePrevious": {
-                "type": "CBasePlayerWeapon",
-                "writable": true
-            },
-            "WeaponPrevious": {
-                "type": "CBasePlayerWeapon",
-                "writable": true
-            },
-            "DelayedHardPunchIncoming": {
-                "type": "boolean",
-                "writable": true
-            },
-            "DestroyAfterTaunt": {
-                "type": "boolean",
-                "writable": true
-            },
-            "Parent": {
-                "type": "CCSWeaponBase",
                 "writable": false
             }
         },
@@ -63489,41 +63184,6 @@
             },
             "Parent": {
                 "type": "CLogicalEntity",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cmelee": {
-        "title": "CMelee",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CCSWeaponBase",
                 "writable": false
             }
         },
@@ -70911,88 +70571,6 @@
         },
         "additional": {}
     },
-    "csensorgrenade": {
-        "title": "CSensorGrenade",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseCSGrenade",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "csensorgrenadeprojectile": {
-        "title": "CSensorGrenadeProjectile",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "ExpireTime": {
-                "type": "number",
-                "writable": true
-            },
-            "NextDetectPlayerSound": {
-                "type": "number",
-                "writable": true
-            },
-            "DisplayGrenade": {
-                "type": "CBaseEntity",
-                "writable": true
-            },
-            "Parent": {
-                "type": "CBaseCSGrenadeProjectile",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
     "cserveronlyentity": {
         "title": "CServerOnlyEntity",
         "description": "",
@@ -75074,41 +74652,6 @@
         },
         "additional": {}
     },
-    "ctriggertripwire": {
-        "title": "CTriggerTripWire",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "Parent": {
-                "type": "CBaseTrigger",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
     "ctriggervolume": {
         "title": "CTriggerVolume",
         "description": "",
@@ -76189,53 +75732,6 @@
         "properties": {
             "Parent": {
                 "type": "CCSWeaponBase",
-                "writable": false
-            }
-        },
-        "functions": {
-            "ToPtr": {
-                "return": {
-                    "lua": "string",
-                    "js": "string"
-                },
-                "params": {}
-            },
-            "IsValid": {
-                "return": {
-                    "lua": "bool",
-                    "js": "bool"
-                },
-                "params": {}
-            }
-        },
-        "additional": {}
-    },
-    "cweaponshield": {
-        "title": "CWeaponShield",
-        "description": "",
-        "template": "class-syntax",
-        "languages": [
-            "lua",
-            "js"
-        ],
-        "constructor": {
-            "ptr_or_class": "string|AnySDKClass"
-        },
-        "properties": {
-            "BulletDamageAbsorbed": {
-                "type": "number",
-                "writable": true
-            },
-            "LastBulletHitSoundTime": {
-                "type": "number",
-                "writable": true
-            },
-            "DisplayHealth": {
-                "type": "number",
-                "writable": true
-            },
-            "Parent": {
-                "type": "CCSWeaponBaseGun",
                 "writable": false
             }
         },

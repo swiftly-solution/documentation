@@ -4963,6 +4963,21 @@
                         },
                         "additional": {}
                     },
+                    "getpluginslist": {
+                        "title": "GetPluginsList",
+                        "template": "function-syntax",
+                        "description": "Returns all the plugins loaded on the server.",
+                        "variable": {
+                            "lua": "GetPluginsList",
+                            "js": "GetPluginsList"
+                        },
+                        "return": {
+                            "lua": "table",
+                            "js": "table"
+                        },
+                        "params": {},
+                        "additional": {}
+                    },
                     "getusermessage": {
                         "title": "GetUserMessage",
                         "template": "function-syntax",
