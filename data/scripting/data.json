@@ -1639,6 +1639,52 @@
                         },
                         "additional": {}
                     },
+                    "onclientprocessusercmds": {
+                        "title": "OnClientProcessUsercmds",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when the server receives usercmds from the client.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "playerid": "number",
+                            "cmds": "table",
+                            "numcmds": "number",
+                            "paused": "boolean",
+                            "margin": "number"
+                        },
+                        "additional": {
+                            "lua": "### Commands\nThe commands are being of type [CSGOUserCmdPB](https://github.com/swiftly-solution/swiftly/blob/master/protobufs/cs2/cs_usercmd.proto#L32-L42).",
+                            "js": "### Commands\nThe commands are being of type [CSGOUserCmdPB](https://github.com/swiftly-solution/swiftly/blob/master/protobufs/cs2/cs_usercmd.proto#L32-L42)."
+                        }
+                    },
+                    "onclientsteamauthorize": {
+                        "title": "OnClientSteamAuthorize",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a client is authorized by Steam.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "playerid": "number"
+                        },
+                        "additional": {}
+                    },
+                    "onclientsteamauthorizefail": {
+                        "title": "OnClientSteamAuthorizeFail",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a client is not authorized by Steam.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "playerid": "number"
+                        },
+                        "additional": {}
+                    },
                     "onentityacceptinput": {
                         "title": "OnEntityAcceptInput",
                         "template": "core-event-syntax",

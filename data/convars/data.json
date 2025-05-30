@@ -8502,6 +8502,17 @@
             "defensive"
         ]
     },
+    "cl_weapon_selection_rarity_color": {
+        "title": "cl_weapon_selection_rarity_color",
+        "description": "<no description>",
+        "args": "false",
+        "template": "command-syntax",
+        "flags": [
+            "clientdll",
+            "archive",
+            "release"
+        ]
+    },
     "cl_workshop_map_download_timeout": {
         "title": "cl_workshop_map_download_timeout",
         "description": "<no description>",
