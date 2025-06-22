@@ -6520,5 +6520,106 @@
                 "additional": {}
             }
         }
+    },
+    "ws": {
+        "title": "WebSockets",
+        "description": "A list of API functions for WebSockets.",
+        "template": "category",
+        "icon": "brain",
+        "data": {
+            "startserver": {
+                "title": "StartServer",
+                "template": "function-syntax",
+                "description": "Creates a WebSocket Server.",
+                "variable": {
+                    "lua": "ws:StartServer",
+                    "js": "ws.StartServer"
+                },
+                "return": {
+                    "lua": "string",
+                    "js": "string"
+                },
+                "params": {
+                    "port": "number",
+                    "callback": "fun(server_uuid:string,client_id:number,kind:string,message:string)"
+                },
+                "additional": {
+                    "lua": "### Kinds\nThose kinds for messages are available:\n- `open`\n- `ready`\n- `message`\n- `close`",
+                    "js": "### Kinds\nThose kinds for messages are available:\n- `open`\n- `ready`\n- `message`\n- `close`"
+                }
+            },
+            "stopserver": {
+                "title": "StopServer",
+                "template": "function-syntax",
+                "description": "Stops a WebSocket Server.",
+                "variable": {
+                    "lua": "ws:StopServer",
+                    "js": "ws.StopServer"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "server_uuid": "string"
+                },
+                "additional": {}
+            },
+            "sendservermessagetoclient": {
+                "title": "SendServerMessageToClient",
+                "template": "function-syntax",
+                "description": "Sends a message to a client.",
+                "variable": {
+                    "lua": "ws:SendServerMessageToClient",
+                    "js": "ws.SendServerMessageToClient"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "server_uuid": "string",
+                    "client_id": "number",
+                    "message": "any"
+                },
+                "additional": {}
+            },
+            "sendservermessagetoallclients": {
+                "title": "SendServerMessageToAllClients",
+                "template": "function-syntax",
+                "description": "Sends a message to all clients.",
+                "variable": {
+                    "lua": "ws:SendServerMessageToAllClients",
+                    "js": "ws.SendServerMessageToAllClients"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "server_uuid": "string",
+                    "message": "any"
+                },
+                "additional": {}
+            },
+            "terminateclientconnectiononserver": {
+                "title": "TerminateClientConnectionOnServer",
+                "template": "function-syntax",
+                "description": "Terminates a client connection to the websocket server.",
+                "variable": {
+                    "lua": "ws:TerminateClientConnectionOnServer",
+                    "js": "ws.TerminateClientConnectionOnServer"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "server_uuid": "string",
+                    "client_id": "number"
+                },
+                "additional": {}
+            }
+        }
     }
 }
