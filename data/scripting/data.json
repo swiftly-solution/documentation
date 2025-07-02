@@ -6619,6 +6619,62 @@
                     "client_id": "number"
                 },
                 "additional": {}
+            },
+            "connecttoserver": {
+                "title": "ConnectToServer",
+                "template": "function-syntax",
+                "description": "Creates a WebSocket Client connection.",
+                "variable": {
+                    "lua": "ws:ConnectToServer",
+                    "js": "ws.ConnectToServer"
+                },
+                "return": {
+                    "lua": "string",
+                    "js": "string"
+                },
+                "params": {
+                    "port": "number",
+                    "callback": "fun(connection_uuid:string,kind:string,message:string)"
+                },
+                "additional": {
+                    "lua": "### Kinds\nThose kinds for messages are available:\n- `open`\n- `ready`\n- `message`\n- `close`",
+                    "js": "### Kinds\nThose kinds for messages are available:\n- `open`\n- `ready`\n- `message`\n- `close`"
+                }
+            },
+            "stopconnectiontoserver": {
+                "title": "StopConnectionToServer",
+                "template": "function-syntax",
+                "description": "Stops a WebSocket Client connection.",
+                "variable": {
+                    "lua": "ws:StopConnectionToServer",
+                    "js": "ws.StopConnectionToServer"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "connection_uuid": "string"
+                },
+                "additional": {}
+            },
+            "sendmessagetoserver": {
+                "title": "SendMessageToServer",
+                "template": "function-syntax",
+                "description": "Sends a message to the server.",
+                "variable": {
+                    "lua": "ws:SendMessageToServer",
+                    "js": "ws.SendMessageToServer"
+                },
+                "return": {
+                    "lua": "void",
+                    "js": "void"
+                },
+                "params": {
+                    "connection_uuid": "string",
+                    "message": "any"
+                },
+                "additional": {}
             }
         }
     }
