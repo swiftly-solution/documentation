@@ -1625,6 +1625,23 @@
                         },
                         "additional": {}
                     },
+                    "onclientputinserver": {
+                        "title": "OnClientPutInServer",
+                        "template": "core-event-syntax",
+                        "description": "This game event is triggered when a client is being put in server.",
+                        "return": {
+                            "lua": "void",
+                            "js": "void"
+                        },
+                        "params": {
+                            "playerid": "number",
+                            "kind": "number"
+                        },
+                        "additional": {
+                            "lua": "## Available Kinds\n- `0` = `player`\n- `1` = `fake player (bot)`\n- `2` = `unknown`",
+                            "js": "## Available Kinds\n- `0` = `player`\n- `1` = `fake player (bot)`\n- `2` = `unknown`"
+                        }
+                    },
                     "onterminateround": {
                         "title": "OnTerminateRound",
                         "template": "core-event-syntax",
